@@ -40,3 +40,5 @@
 - https://twitter.com/btcdragonlord/status/1325093604398919680?s=20&t=-pgXxJzjZmZ0NbKTMg2P2A
 - https://twitter.com/Coinosphere/status/1326436740169609216?s=20&t=T_aL2mjZxCC0W5oIpus5jg
 - https://twitter.com/yahiheb_/status/1587119284471439362
+- https://twitter.com/yahiheb_/status/1586559494338871296
+- https://www.reddit.com/r/Bitcoin/comments/pz59a0/comment/heyrrw2/
