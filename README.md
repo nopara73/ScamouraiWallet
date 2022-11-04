@@ -42,3 +42,4 @@
 - https://twitter.com/yahiheb_/status/1587119284471439362
 - https://twitter.com/yahiheb_/status/1586559494338871296
 - https://www.reddit.com/r/Bitcoin/comments/pz59a0/comment/heyrrw2/
+- https://twitter.com/yahiheb_/status/1588319800912412673
