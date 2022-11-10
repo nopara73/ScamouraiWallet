@@ -14,7 +14,6 @@
 - https://twitter.com/brian_trollz/status/1337876220172754946?s=20&t=_5uC5e4TGZbuVhU8q9iAsg
 - https://twitter.com/nopara73/status/1083782139278213120?s=20&t=S5KWgHrvER-d57ySdq2YuQ
 - https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b
-- https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/
 - https://twitter.com/wtogami/status/1122161807639007232?s=20&t=ggrt-A_ZQgb4U6fECMO0zA
 - https://www.reddit.com/r/Bitcoin/comments/bjtks8/comment/emb6nr7/
 - https://github.com/jisqyv/Android-Wallet-2-App/blob/dfb781c05536db58eb253ab5c37b82c237213382/src/piuk/blockchain/android/util/RandomOrgGenerator.java
