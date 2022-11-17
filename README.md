@@ -43,3 +43,4 @@
 - https://www.reddit.com/r/Bitcoin/comments/pz59a0/comment/heyrrw2/
 - https://twitter.com/yahiheb_/status/1588319800912412673
 - https://twitter.com/BTCparadigm/status/1587570194058252290
+- https://is.muni.cz/th/kbvx1/Master_Thesis.pdf
