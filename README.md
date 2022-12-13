@@ -44,3 +44,4 @@
 - https://twitter.com/yahiheb_/status/1588319800912412673
 - https://twitter.com/BTCparadigm/status/1587570194058252290
 - https://is.muni.cz/th/kbvx1/Master_Thesis.pdf
+- https://twitter.com/Mandrik/status/1602688050357846021
