@@ -45,3 +45,4 @@
 - https://twitter.com/BTCparadigm/status/1587570194058252290
 - https://is.muni.cz/th/kbvx1/Master_Thesis.pdf
 - https://twitter.com/Mandrik/status/1602688050357846021
+- https://old.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/
