@@ -48,3 +48,4 @@
 - https://old.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/
 - https://www.reddit.com/r/Bitcoin/comments/9r9344/comment/e8fm1v8/
 - https://twitter.com/ersolus/status/1631997876682346497
+- https://iris.to/post/note1lu96d3v008v24jmqqqc8u634tq2djqz3gx53ksdnyzh62hxg7sxs774xsv
