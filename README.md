@@ -52,3 +52,4 @@
 - https://iris.to/note1lysxd42sjg86n3c507xwhf3pe2g3jypvnuamu58433desuvfc7lq3nrkza
 - https://twitter.com/yahiheb_/status/1634815352222744576
 - https://imgur.com/a/XgushDQ
+- https://twitter.com/nopara73/status/1647436989871042560
