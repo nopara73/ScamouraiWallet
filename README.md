@@ -19,6 +19,7 @@
 - https://github.com/jisqyv/Android-Wallet-2-App/blob/dfb781c05536db58eb253ab5c37b82c237213382/src/piuk/blockchain/android/util/RandomOrgGenerator.java
 - https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/
 - https://github.com/Samourai-Wallet/samourai-wallet-android/issues/381
+- https://nopara73.medium.com/samouraileaks-part-3-is-random-org-random-enough-35704796ae93
 - https://twitter.com/TuurDemeester/status/1058485499348815872
 - https://twitter.com/Deafboy_2v1/status/1257260614856118273
 - https://twitter.com/AsILayHodling/status/1267469894217596928
