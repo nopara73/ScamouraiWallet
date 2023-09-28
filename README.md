@@ -56,3 +56,4 @@
 - https://twitter.com/nopara73/status/1647436989871042560
 - https://twitter.com/nopara73/status/1647489516939382784
 - https://twitter.com/EricSirion/status/1494436823036272640
+- https://hackmd.io/@BitcoinDesign/rym2ehCSd
