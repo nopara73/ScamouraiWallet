@@ -3,6 +3,7 @@
 - https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/
 - https://github.com/jisqyv/Android-Wallet-2-App/blob/dfb781c05536db58eb253ab5c37b82c237213382/src/piuk/blockchain/android/util/RandomOrgGenerator.java
 - https://vrls.ws/posts/2021/08/samourai-wallet-bitcoin-pin-authentication-bypass-crypto/
+- https://bitcointalk.org/index.php?topic=5471645.0
 - https://walletscrutiny.com/android/com.samourai.wallet/
 - https://www.youtube.com/watch?v=_Z5SwEnTOsU&t=3470s&ab_channel=BlockDigest
 - https://www.reddit.com/r/Bitcoin/comments/ku97pu/comment/gir5dzm
