@@ -64,3 +64,4 @@
 - https://twitter.com/snaxion/status/1642337824820305922
 - https://twitter.com/LukeDashjr/status/1732597621015949494
 - https://twitter.com/SamouraiWallet/status/1376313082658496516
+- https://x.com/LaurentMT/status/1733111061572735337?s=20
