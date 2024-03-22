@@ -68,3 +68,4 @@
 - https://x.com/LaurentMT/status/1733111061572735337
 - https://twitter.com/oomahq/status/1733496982834991436
 - https://twitter.com/verysmallclaims/status/1734085553329479782
+- https://twitter.com/DouglasTuman/status/1770951163770273920
