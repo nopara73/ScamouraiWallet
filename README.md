@@ -151,4 +151,7 @@
 - **Douglas Tuman on final evaluation (X)**  
   https://twitter.com/DouglasTuman/status/1770951163770273920 — *DouglasTuman on X*  
 - **1440000bytes on RNG retrospective (X)**  
-  https://x.com/1440000bytes/status/1847705683367797204 — *1440000bytes on X*  
+  https://x.com/1440000bytes/status/1847705683367797204 — *1440000bytes on X*
+
+## Legal
+- **2025.0624 Indictment**: (among other things DNM sockpuppets are exposed here) https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf
