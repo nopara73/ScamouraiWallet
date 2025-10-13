@@ -25,6 +25,8 @@
   https://old.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/ — *JoinMarket dev: Wasabi vs Samourai*  
 - **Bitcointalk: New PIN attack on Samourai wallet?**  
   https://bitcointalk.org/index.php?topic=5471645.0 — *“New PIN attack on Samourai wallet?” · Bitcoin Forum*  
+- **Bitcointalk: My unexplained past experience using Samorai**  
+https://bitcointalk.org/index.php?topic=5562148.msg65914017#msg65914017  
 - **Reddit comment (ku97pu → gir5dzm)**  
   https://www.reddit.com/r/Bitcoin/comments/ku97pu/comment/gir5dzm — *Comment on Reddit thread ku97pu*  
 - **Reddit comment (bjtks8 → emb6nr7)**  
@@ -34,7 +36,7 @@
 - **Reddit comment (pz59a0 → heyrrw2)**  
   https://www.reddit.com/r/Bitcoin/comments/pz59a0/comment/heyrrw2/ — *Comment on Reddit thread pz59a0*  
 - **Reddit comment (9r9344 → e8fm1v8)**  
-  https://www.reddit.com/r/Bitcoin/comments/9r9344/comment/e8fm1v8/ — *Comment on Reddit thread 9r9344*  
+  https://www.reddit.com/r/Bitcoin/comments/9r9344/comment/e8fm1v8/ — *Comment on Reddit thread 9r9344*
 
 ## Academic Research
 - **Master’s Thesis: Privacy in Bitcoin Wallets**  
