@@ -9,7 +9,7 @@ This directory preserves the primary material cited by [`POST_MORTEM.md`](../POS
 - `legal/` — court filings and the defense letter concerning the late-disclosed FinCEN communication.
 - `research/` — the complete OXT report and the cited open research papers and thesis.
 - `code/` — exact-commit source snapshots, commit patches, and a complete ZeroLink Git bundle.
-- `screenshots/` — original public screenshots, rendered pages from the court filings, the unsafe-default evidence, and dated captures of public threats.
+- `screenshots/` — 25 illustrated exhibits used in the essay: public screenshots, rendered court and research pages, Git-history captures, unsafe-default evidence, and dated captures of public threats.
 - `social/` — public profile HTML, X oEmbed records, and saved Old Reddit pages.
 - `video/` — YouTube oEmbed metadata identifying each cited recording. The videos themselves are not copied.
 - `web/` — dated HTML or Markdown snapshots of central web sources that could be obtained cleanly.

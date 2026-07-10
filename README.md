@@ -1,6 +1,7 @@
 # Scamourai Wallet
 
 - [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md)
+- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf)
 - [**Preserved source archive**](sources/README.md)
 - [**Complete citation URL inventory**](sources/URLS.md)
 

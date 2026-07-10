@@ -6,6 +6,10 @@ After law enforcement seized Samourai Wallet’s servers, William Hill—TDevD�
 
 An extended public key cannot spend a user’s bitcoin, but it can reveal the addresses derived from a wallet and follow their history. For years, I had argued that Samourai’s default backend created exactly this point of failure. Hill’s message showed that he understood why the seizure of that backend mattered.
 
+![Government sentencing memorandum quoting Hill's concern about the seized wallet backends and xpubs](sources/screenshots/government-sentencing-memo-page-38.png)
+
+*The government’s sentencing memorandum records Hill’s post-seizure message: “Not good,” followed by his concern about “the wallet backends (xpubs).” [Open the archived filing](sources/legal/2025-10-31-government-sentencing-memorandum-ecf-157.pdf).*
+
 The seizure did not create the xpub problem. It exposed the consequences of a design choice that had been there from the start.
 
 This is a post-mortem, not a victory lap. A prison sentence cannot settle a protocol dispute, and an indictment cannot make every allegation true. I will distinguish what the public record establishes, what I infer from it, and what I remember but cannot independently prove.
@@ -17,6 +21,10 @@ To understand what was sitting on that server—and why I had spent years shouti
 I wanted Samourai to succeed in implementing ZeroLink. I wanted more wallets to implement serious Bitcoin privacy, and I wanted ZeroLink to become useful software rather than another specification admired by a small circle and ignored by everyone else.
 
 I created ZeroLink. The [repository](https://github.com/nopara73/ZeroLink/commits/master/) makes the chronology clear. I opened it on July 28, 2017. Before Samourai made a single commit, I had made 19 and written a 184-line, 2,883-word document containing the framework’s core architecture. Samourai’s first commit arrived two days later. Its title was [“Fix typos”](https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e). It did exactly that.
+
+![GitHub record of SamouraiDev's first ZeroLink commit titled Fix typos](sources/screenshots/zerolink-first-samourai-commit-fix-typos.jpg)
+
+*SamouraiDev’s first ZeroLink commit, July 30, 2017: “Fix typos.” [Open the commit](https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e).*
 
 At the August 14 publication snapshot, Git blame attributes 6,126 of the document’s 6,627 words to me and 242 to Bill/TDevD. Their only sizeable technical addition concerned BIP47 and stealth addresses. I did not understand what problem it solved or why it belonged in ZeroLink. Instead of challenging it, I assumed that I was missing something and accepted it out of politeness. Two days later I clarified that BIP47 was not part of the protocol, and I removed the section in 2019. The rest of their work was overwhelmingly light editing. The complete commit and line-churn audit is preserved in the source note.[^zerolink]
 
@@ -40,9 +48,17 @@ Samourai’s default client did the opposite at the point that mattered most: it
 
 Tor support existed, but it was not enabled by default. Samourai’s signed source allowed a user to create a wallet while Tor remained off, treated the Tor preference as `false` unless the user enabled it, and used the ordinary network path for xpub requests when Tor was disabled. A screenshot preserved in an April 2023 issue on Samourai’s own GitLab showed the wallet-creation screen with both Tor off and Dojo unconfigured. The user could continue by pressing “Create a new wallet.” That default exposed the user’s IP address to Samourai’s hosted service while the same service received the wallet’s xpubs.[^tor-default]
 
+![Samourai wallet creation screen showing Tor off and Dojo not configured](sources/screenshots/gitlab-issue-458-default-settings.png)
+
+*The wallet-creation screen attached to Samourai’s own issue tracker: Tor off, Dojo not configured, and “Create a new wallet” still available. [Open the archived issue](https://web.archive.org/web/20230417145554id_/https://code.samourai.io/wallet/samourai-wallet-android/-/issues/458).*
+
 The issue was titled “Important privacy features are disabled by default.” It proposed enabling Tor and Dojo by default or, at minimum, warning users what the off settings exposed. A Samourai project owner replied that the proposal would not be merged, called the report “concern trolling,” issued a “first and final warning,” and immediately closed the issue.[^tor-default] The privacy problem was reported on their own development platform. Their answer was to reject the change and threaten the person who reported it.
 
 Sentinel, Samourai’s watch-only app, made the same architecture even easier to see. A watch-only wallet legitimately needs an xpub, and Sentinel correctly said that it could not spend the user’s coins. But the privacy question was what happened to the xpub after the user imported it. In August 2017, Samourai committed a change titled “move XPUB multiaddr to Samourai API.” From then on, Sentinel sent each tracked xpub to Samourai’s hosted backend. It did so for more than two years before Tor routing was added; when Tor arrived, its preference defaulted to off. The last pre-seizure source still let a user choose Samourai’s server, answer “No” to “Connect through Tor?”, and then posted imported xpubs to that server.[^sentinel] Sentinel did not give Samourai the power to steal the coins. It gave Samourai the power to map them. When used with the hosted server, collecting wallet maps was not incidental telemetry. It was how the product worked.
+
+![GitHub commit moving Sentinel xpub queries from Blockchain.info to the Samourai API](sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg)
+
+*The Sentinel commit that moved `XPUB multiaddr` queries to Samourai’s API. [Open the commit](https://github.com/Samourai-Wallet/sentinel-android/commit/77eca1d5bac90d4aba69067ab7db34127860a025).*
 
 Dojo did not change what the default client disclosed. Most users of a mobile wallet will use the default, and even people who ran Dojo entered Whirlpool rounds alongside default-server users. If the common operator could identify or eliminate the outputs belonging to wallets it already knew, the effective anonymity set shrank for everyone; in some rounds, the remaining participants could be exposed by exclusion.[^1]
 
@@ -56,7 +72,20 @@ That was the first central hypocrisy. Samourai preached resistance to third-part
 
 My first *SamouraiLeaks* investigation began with a suspicion: one of Samourai’s developers appeared to be promoting the project and attacking its critics through an identity presented as independent.
 
-In April 2019, I published [the evidence that “foneBTC” and “fone-btc” were TDevD/William Hill’s sockpuppet accounts](https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b). The investigation is the proof; there is no reason to reproduce it here.
+In April 2019, I published [the evidence that “foneBTC” and “fone-btc” were TDevD/William Hill’s sockpuppet accounts](https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b). The investigation is the proof. Its concluding exhibits are preserved below so the record does not depend on Medium remaining online.
+
+<details>
+<summary><strong>View the sockpuppet investigation’s concluding exhibits</strong></summary>
+
+![The Nail In The Coffin section of the SamouraiLeaks sockpuppet investigation](sources/screenshots/samouraileaks-sockpuppet-nail-in-coffin.jpg)
+
+*The investigation connects `fone-btc`’s earlier Android project to Soft Machines SARL.*
+
+![The SamouraiLeaks conclusion that fone-btc and TDevD were the same person](sources/screenshots/samouraileaks-sockpuppet-conclusion.jpg)
+
+*The conclusion and the final Soft Machines exhibit. [Read the full investigation](https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b).*
+
+</details>
 
 But the moral question does not turn on whether Bitcoin developers use pseudonyms. Pseudonyms are normal here. The problem is hidden affiliation used to manufacture consensus: one participant appearing to be several, promotion made to look organic, and an interested party presenting himself as a neutral observer. In a field where few users can audit every cryptographic claim themselves, reputation becomes part of the security model. Astroturfing corrupts that model.
 
@@ -65,6 +94,17 @@ I did not begin by publishing. I tried private conversation. I sought a mediator
 Other developers then began describing the same experience.
 
 Gregory Maxwell said architectural criticism was answered with harassment and accusations rather than a technical response. Nicolas Dorier reported the same reaction after pointing out that the default backend received users’ extended public keys. Their comments remain in the [original discussion](https://www.reddit.com/r/Bitcoin/comments/bhz37b/comment/elxasw8/), including [Dorier’s account](https://www.reddit.com/r/Bitcoin/comments/bhz37b/comment/elyijld/). Luke Dashjr said that disclosing an RPC-password exposure in a setup guide brought an accusation that he ran a criminal protection racket; his own qualification—that local networking or a VPN could limit the exposure—remains [in the thread](https://www.reddit.com/r/Bitcoin/comments/bjtks8/comment/emb6nr7/). I gathered those and similar accounts in [*SamouraiLeaks Part 2*](https://nopara73.medium.com/samouraileaks-part-2-harassment-of-bitcoin-developers-fae3019abd2f).
+
+<details>
+<summary><strong>View Gregory Maxwell’s contemporaneous account</strong></summary>
+
+![SamouraiLeaks Part 2 showing Gregory Maxwell's warning about Samourai's backend privacy](sources/screenshots/samouraileaks-part-2-greg-maxwell-privacy-warning.jpg)
+
+![Gregory Maxwell describing harassment after criticizing Samourai](sources/screenshots/samouraileaks-part-2-greg-maxwell-harassment-account.jpg)
+
+*Maxwell’s privacy warning and his account of the response, preserved in [SamouraiLeaks Part 2](https://nopara73.medium.com/samouraileaks-part-2-harassment-of-bitcoin-developers-fae3019abd2f).*
+
+</details>
 
 These people were not Wasabi employees forming a defensive wall around me. They disagreed with one another, and some criticized Wasabi too. What connected them was not allegiance to my software. It was the experience of raising a technical objection and watching the discussion pivot toward their motives, status, or character.
 
@@ -84,6 +124,21 @@ The same technique appeared elsewhere. In 2023, Samourai circulated criticism fr
 
 The Tor identity dispute provides another example. In April 2023, a user asked whether Whirlpool changed Tor circuits between input registration and output registration. Keonne Rodriguez answered categorically that it did and dismissed the questioner as a known liar.[^5] In March 2024, the Whirlpool client added an explicit [`changeIdentity()` call before output registration](https://github.com/Archive-Samourai-Wallet/whirlpool-client/commit/fbee9e820f511661c888a53c75a5e5e610b000f5). The code comment explained that the new identity was used to unlink the output from the input.
 
+![Conversation in which Keonne Rodriguez said Whirlpool used new Tor circuits regardless of client settings](sources/screenshots/whirlpool-tor-default-conversation.png)
+
+*April 2023: Rodriguez answered that the coordinator used new Tor circuits regardless of the client’s Tor settings and called the questioner a liar.*
+
+![Whirlpool code adding changeIdentity before output registration](sources/screenshots/whirlpool-change-tor-identity-code.jpg)
+
+*March 2024: the client added `changeIdentity()` immediately before output registration, with the comment “use new identity to unlink from input.” [Open the commit](https://github.com/Archive-Samourai-Wallet/whirlpool-client/commit/fbee9e820f511661c888a53c75a5e5e610b000f5).*
+
+<details>
+<summary><strong>View the commit header</strong></summary>
+
+![GitHub commit titled fix change Tor identity on REGISTER_OUTPUT](sources/screenshots/whirlpool-change-tor-identity-commit.jpg)
+
+</details>
+
 The commit does not prove that every earlier Whirlpool round was deanonymized, and it does not prove exploitation. It does show why categorical denials and personal abuse are poor substitutes for a precise answer. The defensible response in 2023 was to explain what the client did, what had been verified, and what remained uncertain. Instead, the answer was certainty plus an insult, followed later by a code change.
 
 This habit did more than hurt people. It taught users to read every disclosure as an attack by one tribe on another. It taught developers to calculate the social cost of reporting a problem. Eventually even small bugs became hard to discuss, because asking the question meant volunteering to become the story.[^4]
@@ -94,9 +149,30 @@ Samourai did not need to break Wasabi to damage it. It needed accusations that l
 
 In August 2020, the Samourai-affiliated OXT Research announced two supposed Wasabi vulnerabilities, rated them High/Critical, claimed they could cancel the privacy gained from earlier mixes, and gave us forty-eight hours to publish a warning on their terms. The full report contained a fatal premise: the attacker had to know the composition of the target’s wallet at a chosen point in time and know events affecting the wallet’s participation in later rounds. That was not a minor condition. It supplied the wallet membership that the alleged attack was supposed to uncover.[^6]
 
+![OXT report page requiring knowledge of the target wallet's composition and mixing events](sources/screenshots/oxt-report-page-2-assumed-wallet-knowledge.png)
+
+*OXT’s own statement of the premise: the observer already has “knowledge of events related to the mixing process” and “of the composition of the targeted wallet.” [Open the archived report](sources/research/2020-oxt-wasabi-report-full.pdf).*
+
 OXT avoided that problem in its demonstration by controlling both sides. Its target, “Alice,” received one known 0.4 BTC coin. Its observer, “Eve,” already knew which funds belonged to Alice and ran a modified Wasabi client that logged round events. Given the wallet’s exact starting state, the public coin-selection code could sometimes predict which of Alice’s coins the client would offer next. That showed that known software can behave predictably when the observer is handed its private starting state. It did not show how an outside observer could discover an unknown wallet’s contents, identify an unknown mixed output as the target’s, or recover an input-to-output link hidden by the protocol.[^6]
 
 Even in that constructed test, the predictions did not simply work. The report recorded expected coins failing to enter rounds because of confirmation state, failed rounds, and coordinator behavior. OXT called these deviations “exogenous randomness.” Its second “vulnerability” was a proposed use of change-output “beacons and checkpoints” to notice when the first prediction had failed and investigate why. The report’s reduced “adjusted anonsets” were values produced by OXT’s own model. They were not identities uncovered, owners identified, or blinded input-output links recovered.[^6]
+
+<details>
+<summary><strong>View the report’s test design, admitted randomness, and severity claim</strong></summary>
+
+![OXT report page describing exogenous randomness](sources/screenshots/oxt-report-page-3-exogenous-randomness.png)
+
+*The report’s own category of “exogenous randomness,” which could decrease the reliability of its predictions.*
+
+![OXT report page defining Alice and Eve in its controlled test](sources/screenshots/oxt-report-page-5-test-actors.png)
+
+*The controlled test: Alice receives a single known 0.4 BTC input, while Eve tracks Alice’s funds and runs a modified client that logs round details.*
+
+![OXT report page labeling the claims High Critical](sources/screenshots/oxt-report-page-7-severity-claim.png)
+
+*The report nevertheless labels the claims “High/Critical” and says they cancel earlier privacy.*
+
+</details>
 
 OXT’s follow-up did not repair the missing premise. It argued that a powerful adversary might possess exchange data, pooled surveillance information, or coordinator logs. An adversary might know many things. That does not demonstrate that this attack can acquire the wallet state it requires. My contemporaneous line-by-line response made the distinction: the report assumed near-complete knowledge of the target wallet; its conclusion that prior mixes were “cancelled” did not follow from that assumption; and OXT’s own spreadsheet had failed to predict the exact coins selected in its own wallet.[^6]
 
@@ -142,6 +218,10 @@ Responsible disclosure means defining what happened, who was affected, what is i
 
 The official account made the imbalance visible. It responded to technical and community critics with obscenities, slurs, and personal humiliation.[^16] Vlad Costea described losing followers and being called names after objecting to the bullying. A former r/Bitcoin moderator preserved his allegation that Samourai lied about how it received sidebar placement and free advertising.[^17]
 
+![Examples of abusive replies from the official Samourai Wallet account](sources/screenshots/samourai-public-conduct-gallery.png)
+
+*A sample of replies from the official Samourai Wallet account. The language is reproduced because the conduct itself is part of the record.*
+
 Any single quarrel can be rationalized. The repeated pattern is harder to dismiss. Intimidation was not a momentary failure of tone. It became part of the product’s public identity.
 
 ## When you wrestle with a pig, you both get dirty
@@ -164,7 +244,26 @@ My temper did not write the ZeroLink history. A rude reply did not crop the scre
 
 By April 2023, the conflict had passed far beyond professional hostility. I had received multiple death threats from William Hill—not one. Some were private. Some were public. After another dispute about Whirlpool’s Tor behavior, I wrote: [“In case something happens to me... I just received a death threat from William Hill”](https://x.com/nopara73/status/1647489516939382784). I did not publish every message, and what I did publish was only part of what I received.
 
+![nopara73's April 2023 public statement that he had received a death threat from William Hill](sources/screenshots/nopara73-death-threat-statement-2023-04-16.jpg)
+
+*My public statement on April 16, 2023, together with the reference I said I understood as threatening.*
+
 The threats were accompanied by doxxing. Hill posted my parents’ home address more than once. I will not reproduce or link to those posts, because proving that it happened does not require exposing them again. His public `@SamouraiDev` profile still names me, says, “It ain’t over until the fat boy is gutted,” and appends the name of the small town where my parents live.[^threats] There was no technical argument in publishing my family’s location beside violent language. It was intimidation.
+
+![SamouraiDev profile naming nopara73, using violent language, and displaying his parents' small town](sources/screenshots/samouraidev-profile-2026-07-10.jpg)
+
+*The public `@SamouraiDev` profile as preserved on July 10, 2026. I have not reproduced my parents’ street address.*
+
+<details>
+<summary><strong>View the second public threat record</strong></summary>
+
+![Samourai Wallet post stating Snitches get stitches](sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png)
+
+![nopara73 recording the Snitches get stitches post as another threat of violence](sources/screenshots/nopara73-second-public-threat-post-2023-04-18.jpg)
+
+*The official Samourai Wallet account’s “Snitches get stitches” post and my contemporaneous record of it on April 18, 2023.*
+
+</details>
 
 The criminal case later produced records independent of the feud.
 
@@ -176,13 +275,34 @@ But law enforcement also seized Samourai’s servers, and the later filings addr
 
 In an October 2025 sentencing memorandum, the government said its analysis showed that Rodriguez and Hill had retained enough information to trace or “demix” mobile users’ Whirlpool transactions. By cross-referencing stored xpubs with past, present, and future Whirlpool transactions, an analyst could connect the inputs and outputs of many transactions through complex analysis. The filing also stated an important limit: this did not by itself connect those transactions to real-world identities.[^xpub-seizure]
 
+![Government sentencing memorandum explaining that retained xpubs could be used to trace or demix mobile users' Whirlpool transactions](sources/screenshots/government-sentencing-memo-page-37.png)
+
+*The government’s description of the server analysis: retained mobile-user xpubs could be cross-referenced with Whirlpool transactions to connect inputs and outputs, without by itself identifying the real-world user. [Open the archived filing](sources/legal/2025-10-31-government-sentencing-memorandum-ecf-157.pdf).*
+
 The defense did not deny xpub collection. Hill’s sentencing submission tried to recast it as a functional necessity: users without their own nodes needed the backend to calculate their balances, it said, and the design affected “only 20%” of Whirlpool users. That was a consequence of Samourai’s chosen architecture, not a universal requirement of light wallets. Wasabi obtained block filters and checked addresses on the client without giving our server the wallet’s xpub.[^operator] The filing also gave no source, methodology, underlying counts, or independent measurement for its percentage. It may have been nothing more than a figure supplied by Samourai and repeated by its lawyers. The submission gives us no way to know.[^xpub-seizure]
+
+<details>
+<summary><strong>View the defense’s xpub argument and “only 20%” claim</strong></summary>
+
+![Hill sentencing submission beginning its discussion of Samourai Wallet and xpub collection](sources/screenshots/hill-sentencing-submission-page-28.png)
+
+![Hill sentencing submission saying xpub collection affected only 20 percent of Whirlpool users](sources/screenshots/hill-sentencing-submission-page-29.png)
+
+*Hill’s sentencing submission described xpub collection as functionally necessary and said it affected “only 20%” of Whirlpool users. The filing supplies no underlying measurement. [Open the archived filing](sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf).*
+
+</details>
 
 “Only” is doing a great deal of work there. So is the unsourced percentage.
 
 Even if the defense’s estimate is accepted for the sake of argument, one in five Whirlpool users is a significant part of the user base. More importantly, the argument concedes the architecture I had objected to: a class of users provided its wallet graph to Samourai’s infrastructure; Samourai retained that information; and the seizure placed it in government hands. Dojo gave self-hosters a way out. It did nothing for users whose data was already on the default backend.
 
 The June 2025 superseding indictment reproduced private messages and Dread posts in which Hill steered people who openly described criminal proceeds away from a competing mixer and toward Whirlpool. It said Rodriguez knew Hill was conducting substantial promotional work on Dread.[^19]
+
+![Superseding indictment page describing Hill promoting Whirlpool in a Dread thread titled How to clean dirty BTC](sources/screenshots/superseding-indictment-page-10-dread-marketing.png)
+
+![Superseding indictment page describing further Dread promotion and Rodriguez's knowledge of Hill's work there](sources/screenshots/superseding-indictment-page-11-dread-marketing.png)
+
+*Pages 10–11 of the superseding indictment reproduce the Dread context and allege that Hill steered users describing criminal proceeds toward Whirlpool, while Rodriguez knew he was doing promotional work there. An indictment is an allegation, not a verdict; both men later entered guilty pleas to the offense described below. [Open the archived indictment](sources/legal/2025-06-24-superseding-indictment-ecf-109.pdf).*
 
 This mattered because Samourai and OXT had repeatedly turned criminal use of Wasabi into part of the public case against us. Yet the later record showed Samourai pursuing those same users as customers. On Dread, competitor disparagement was not an abstract contribution to privacy research. It was a sales pitch aimed at people asking how to conceal criminal proceeds.
 
