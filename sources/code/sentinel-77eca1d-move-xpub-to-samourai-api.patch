@@ -1,0 +1,110 @@
+From 77eca1d5bac90d4aba69067ab7db34127860a025 Mon Sep 17 00:00:00 2001
+From: Bill <dev@samouraiwallet.com>
+Date: Sat, 12 Aug 2017 16:27:58 +0200
+Subject: [PATCH] APIFactory: move XPUB multiaddr to Samourai API
+
+---
+ .../com/samourai/sentinel/api/APIFactory.java | 41 +++----------------
+ .../java/com/samourai/sentinel/util/Web.java  |  1 +
+ 2 files changed, 6 insertions(+), 36 deletions(-)
+
+diff --git a/app/src/main/java/com/samourai/sentinel/api/APIFactory.java b/app/src/main/java/com/samourai/sentinel/api/APIFactory.java
+index 9476a69a..b5ae98b7 100755
+--- a/app/src/main/java/com/samourai/sentinel/api/APIFactory.java
++++ b/app/src/main/java/com/samourai/sentinel/api/APIFactory.java
+@@ -56,7 +56,7 @@ public JSONObject getXPUB(String[] xpubs) {
+ 
+         for(int i = 0; i < xpubs.length; i++)   {
+             try {
+-                StringBuilder url = new StringBuilder(Web.BLOCKCHAIN_DOMAIN);
++                StringBuilder url = new StringBuilder(Web.SAMOURAI_API2);
+                 url.append("multiaddr?active=");
+                 url.append(xpubs[i]);
+ //            Log.i("APIFactory", "XPUB:" + url.toString());
+@@ -142,9 +142,6 @@ public void parseXPUB(JSONObject jsonObject, boolean complete) throws JSONExcept
+                     String _addr = null;
+                     String input_xpub = null;
+                     String output_xpub = null;
+-                    long move_amount = 0L;
+-                    long input_amount = 0L;
+-                    long output_amount = 0L;
+ 
+                     if(txObj.has("block_height"))  {
+                         height = txObj.getLong("block_height");
+@@ -170,11 +167,9 @@ public void parseXPUB(JSONObject jsonObject, boolean complete) throws JSONExcept
+                             inputObj = (JSONObject)inputArray.get(j);
+                             if(inputObj.has("prev_out"))  {
+                                 JSONObject prevOutObj = (JSONObject)inputObj.get("prev_out");
+-                                input_amount += prevOutObj.getLong("value");
+                                 if(prevOutObj.has("xpub"))  {
+                                     JSONObject xpubObj = (JSONObject)prevOutObj.get("xpub");
+                                     addr = (String)xpubObj.get("m");
+-                                    input_xpub = addr;
+                                 }
+                                 else  {
+                                     if(SamouraiSentinel.getInstance(context).getLegacy().containsKey((String)prevOutObj.get("addr")))    {
+@@ -194,14 +189,9 @@ public void parseXPUB(JSONObject jsonObject, boolean complete) throws JSONExcept
+                         JSONObject outObj = null;
+                         for(int j = 0; j < outArray.length(); j++)  {
+                             outObj = (JSONObject)outArray.get(j);
+-                            output_amount += outObj.getLong("value");
+                             if(outObj.has("xpub"))  {
+                                 JSONObject xpubObj = (JSONObject)outObj.get("xpub");
+                                 addr = (String)xpubObj.get("m");
+-                                if(input_xpub != null && !input_xpub.equals(addr))    {
+-                                    output_xpub = addr;
+-                                    move_amount = outObj.getLong("value");
+-                                }
+                             }
+                             else  {
+                                 if(SamouraiSentinel.getInstance(context).getLegacy().containsKey((String)outObj.get("addr")))    {
+@@ -217,33 +207,12 @@ public void parseXPUB(JSONObject jsonObject, boolean complete) throws JSONExcept
+ 
+                     if(addr != null)  {
+ 
+-                        //
+-                        // test for MOVE from Shuffling -> Samourai account
+-                        //
+-                        if(input_xpub != null && output_xpub != null && !input_xpub.equals(output_xpub))    {
+-
+-                            Tx tx = new Tx(hash, output_xpub, (move_amount + Math.abs(input_amount - output_amount)) * -1.0, ts, (latest_block > 0L && height > 0L) ? (latest_block - height) + 1 : 0);
+-                            if(!xpub_txs.containsKey(input_xpub))  {
+-                                xpub_txs.put(input_xpub, new ArrayList<Tx>());
+-                            }
+-                            xpub_txs.get(input_xpub).add(tx);
+-
+-                            Tx _tx = new Tx(hash, input_xpub, move_amount, ts, (latest_block > 0L && height > 0L) ? (latest_block - height) + 1 : 0);
+-                            if(!xpub_txs.containsKey(output_xpub))  {
+-                                xpub_txs.put(output_xpub, new ArrayList<Tx>());
+-                            }
+-                            xpub_txs.get(output_xpub).add(_tx);
++                        Tx tx = new Tx(hash, _addr, amount, ts, (latest_block > 0L && height > 0L) ? (latest_block - height) + 1 : 0);
+ 
++                        if(!xpub_txs.containsKey(addr))  {
++                            xpub_txs.put(addr, new ArrayList<Tx>());
+                         }
+-                        else    {
+-
+-                            Tx tx = new Tx(hash, _addr, amount, ts, (latest_block > 0L && height > 0L) ? (latest_block - height) + 1 : 0);
+-
+-                            if(!xpub_txs.containsKey(addr))  {
+-                                xpub_txs.put(addr, new ArrayList<Tx>());
+-                            }
+-                            xpub_txs.get(addr).add(tx);
+-                        }
++                        xpub_txs.get(addr).add(tx);
+ 
+                     }
+                 }
+diff --git a/app/src/main/java/com/samourai/sentinel/util/Web.java b/app/src/main/java/com/samourai/sentinel/util/Web.java
+index dab08280..4b41d076 100755
+--- a/app/src/main/java/com/samourai/sentinel/util/Web.java
++++ b/app/src/main/java/com/samourai/sentinel/util/Web.java
+@@ -8,6 +8,7 @@
+ 
+ public class Web	{
+ 
++    public static final String SAMOURAI_API2 = "https://api.samouraiwallet.com/v2/";
+     public static final String BLOCKCHAIN_DOMAIN = "https://blockchain.info/";
+ 	public static final String EXCHANGE_URL = "https://localbitcoins.com/bitcoinaverage/ticker-all-currencies/";
+     public static final String LBC_EXCHANGE_URL = "https://localbitcoins.com/bitcoinaverage/ticker-all-currencies/";

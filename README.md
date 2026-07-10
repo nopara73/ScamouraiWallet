@@ -1,4 +1,12 @@
-# Samourai Ecosystem Links Organized
+# Scamourai Wallet
+
+- [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md)
+- [**Preserved source archive**](sources/README.md)
+- [**Complete citation URL inventory**](sources/URLS.md)
+
+## Historical link collection
+
+The categorized collection below is the repository's original research archive. Its historical labels should not be treated as findings; the post-mortem cites the underlying records directly and the new source archive preserves the materials used in the final text.
 
 ## Articles & Blog Posts
 - **SamouraiLeaks Part 3: Is random.org random enough?**  

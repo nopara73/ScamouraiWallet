@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Bitcoin Optech Newsletter #102 | Bitcoin Optech</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Bitcoin Optech Newsletter #102" />
+<meta name="author" content="Bitcoin Optech" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="This week’s newsletter summarizes the CoinPool payment pool proposal and the WabiSabi coordinated coinjoin protocol. Also included are our regular sections with notable changes to services, client software, and infrastructure software." />
+<meta property="og:description" content="This week’s newsletter summarizes the CoinPool payment pool proposal and the WabiSabi coordinated coinjoin protocol. Also included are our regular sections with notable changes to services, client software, and infrastructure software." />
+<link rel="canonical" href="https://bitcoinops.org/en/newsletters/2020/06/17/" />
+<meta property="og:url" content="https://bitcoinops.org/en/newsletters/2020/06/17/" />
+<meta property="og:site_name" content="Bitcoin Optech" />
+<meta property="og:image" content="https://bitcoinops.org/img/logos/optech-notext.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-17T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://bitcoinops.org/img/logos/optech-notext.png" />
+<meta property="twitter:title" content="Bitcoin Optech Newsletter #102" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Bitcoin Optech"},"dateModified":"2020-06-17T00:00:00+00:00","datePublished":"2020-06-17T00:00:00+00:00","description":"This week’s newsletter summarizes the CoinPool payment pool proposal and the WabiSabi coordinated coinjoin protocol. Also included are our regular sections with notable changes to services, client software, and infrastructure software.","headline":"Bitcoin Optech Newsletter #102","image":"https://bitcoinops.org/img/logos/optech-notext.png","mainEntityOfPage":{"@type":"WebPage","@id":"https://bitcoinops.org/en/newsletters/2020/06/17/"},"url":"https://bitcoinops.org/en/newsletters/2020/06/17/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://bitcoinops.org/feed.xml" title="Bitcoin Optech" /></head>
+
+
+  <body>
+<header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">
+      <img src="/img/logos/optech-horiz.png" alt="OpTech Logo">
+    </a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+            <a class="page-link" href="/en/about/">About</a>
+            <a class="page-link" href="/en/publications/">Publications</a>
+            <a class="page-link" href="/en/topics/">Topics</a>
+            <a class="page-link" href="/en/workshops/">Workshops</a>
+            <a class="page-link" href="/en/matrix/">Matrix</a>
+        </div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<article class="newsletter">
+  <header class="post-header">
+    
+<div class="localization">
+    <a href="/en/newsletters/2020/06/17/">en</a>
+    
+        
+        
+        
+            | <a href="/translations/" title="No Japanese translation currently available" class="no-translation">ja</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No Spanish translation currently available" class="no-translation">es</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No Czech translation currently available" class="no-translation">cs</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No Hindi translation currently available" class="no-translation">hi</a>
+        
+    
+        
+        
+        
+            | <a href="/zh/newsletters/2020/06/17/">zh</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No German translation currently available" class="no-translation">de</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No French translation currently available" class="no-translation">fr</a>
+        
+    
+        
+        
+        
+            | <a href="/translations/" title="No Portuguese translation currently available" class="no-translation">pt</a>
+        
+    
+</div>
+    
+    
+    <p class="center">/ <a href="/">home</a> / <a href="/en/newsletters/">newsletters</a> / </p>
+
+
+    <h1 class="post-title">Bitcoin Optech Newsletter #102</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-06-17T00:00:00+00:00">Jun 17, 2020
+      </time>
+    </p>
+  </header>
+  <div class="post-content">
+    <p>This week’s newsletter summarizes the CoinPool payment pool proposal and
+the WabiSabi coordinated coinjoin protocol.  Also included are our
+regular sections with notable changes to services, client software, and
+infrastructure software.</p>
+
+<h2 id="action-items">Action items</h2>
+
+<p><em>None this week.</em></p>
+
+<h2 id="news">News</h2>
+
+<ul>
+  <li id="coinpool-generalized-privacy-for-identifiable-onchain-protocols" class="anchor-list">
+    <p><a href="#coinpool-generalized-privacy-for-identifiable-onchain-protocols" class="anchor-list-link">●</a> <strong>CoinPool generalized privacy for identifiable onchain protocols:</strong>
+Antoine Riard and Gleb Naumenko <a href="https://gnusha.org/url/https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-June/017964.html">posted</a> to the
+Bitcoin-Dev mailing list about payment pools, a technique for
+improving privacy against third-party block chain surveillance by
+allowing several users to trustlessly share control over a single
+UTXO.  Compared to previous designs for payment pools (such as
+<a href="https://gist.github.com/harding/a30864d0315a0cebd7de3732f5bd88f0">joinpool</a>), the CoinPool design focuses on allowing participants to
+make offchain commitments to transactions between the members of the
+pool.  Using <a href="/en/topics/taproot/">taproot</a>, this allows the cooperating
+participants to operate protocols such as LN or <a href="/en/topics/vaults/">vaults</a>
+using UTXOs that are indistinguishable from single-key UTXOs,
+improving both participant privacy and onchain scalability.  In that
+sense, the protocol acts as a sort of generalized <a href="/en/topics/channel-factories/">channel
+factory</a> that applies not just to LN but to
+many protocols that create onchain transactions with unique
+fingerprints.</p>
+
+    <p>The authors outline how CoinPool could work using existing features
+of Bitcoin plus taproot, <a href="/en/topics/sighash_anyprevout/">SIGHASH_NOINPUT</a>, and the ability to use
+a delete-only accumulator via Bitcoin Script (e.g. a merkle tree;
+perhaps something like the proposed <a href="https://github.com/bitcoin/bips/blob/master/bip-0116.mediawiki">BIP116</a>
+<code class="language-plaintext highlighter-rouge">OP_MERKLEBRANCHVERIFY</code>).  They don’t appear to be advocating a
+specific design but instead want to start a discussion about how
+CoinPool or something like it could provide a generalized mechanism
+that wallets use by default to eliminate the onchain footprint of
+various current and proposed multi-user protocols.</p>
+  </li>
+  <li id="wabisabi-coordinated-coinjoins-with-arbitrary-output-values" class="anchor-list">
+    <p><a href="#wabisabi-coordinated-coinjoins-with-arbitrary-output-values" class="anchor-list-link">●</a> <strong>WabiSabi coordinated coinjoins with arbitrary output values:</strong> in
+the <a href="/en/topics/coinjoin/">coinjoin</a> protocol, a group of users
+collaboratively create a transaction template that spends some of
+their existing UTXOs (inputs) to a new set of UTXOs (outputs).  The
+way this transaction template is created has implications for the
+privacy provided by the coinjoin, and different implementations
+use different methods:</p>
+
+    <p><!-- Taker creates tx template, see discussion between harding and
+waxwing: http://gnusha.org/joinmarket/2020-06-14.log --></p>
+
+    <ul>
+      <li id="joinmarket" class="anchor-list">
+        <p><a href="#joinmarket" class="anchor-list-link">●</a> <a href="https://github.com/JoinMarket-Org/joinmarket-clientserver">Joinmarket</a> has two types of users: those who pay to coinjoin
+(<em>market takers</em>) and those who are paid for allowing their UTXOs to
+be used (<em>market makers</em>).  To create a coinjoin, takers
+contact several makers, collect their input and output
+information, and create the transaction template.  This gives the
+taker knowledge of which inputs fund which outputs for all
+participants in the coinjoin, but it also ensures that each maker
+only has knowledge about which of their own inputs funds which of
+their own outputs.  The taker directly gains the privacy benefits of
+the coinjoin and the makers directly gain income for providing
+liquidity.  If the taker preserves their own individual privacy, the makers
+also indirectly gain increased privacy against third party block
+chain surveillance.  Makers who want guarantees about their privacy
+can always operate as takers for a few rounds of mixing.</p>
+
+        <p><!-- Quotes from joinmarket README.md:
+  - "Ability to spend directly, or with coinjoin"
+  - "Can specify exact amount of coinjoin (figures from 0.01 to 30.0 btc"
+--></p>
+
+        <p>This model gives takers a lot of flexibility with their own
+inputs and outputs to the transaction template.  For example, a
+taker can choose the amounts of the coinjoin they want to create
+or can spend their money to a third party as part of a coinjoin.</p>
+      </li>
+      <li id="wasabi" class="anchor-list">
+        <p><a href="#wasabi" class="anchor-list-link">●</a> <a href="https://wasabiwallet.io/">Wasabi</a> uses a centralized coordinator who organizes every
+coinjoin made using that software.  To prevent that coordinator
+from learning which inputs fund which outputs, users anonymously
+commit to the outputs they want to create, receiving a <a href="https://en.wikipedia.org/wiki/Blind_signature">chaumian
+blinded signature</a> over the commitment.  Later, each user connects
+under another anonymous identity and submits each output along with
+its unblinded signature.  The signature provably came from the coordinator
+but the unblinded signature can’t be connected to the specific
+user who received the blinded signature.  This allows constructing the
+transaction template without the coordinator learning which inputs
+funded which outputs.</p>
+
+        <p>Because the coordinator is unable to view the output at the time
+it creates its blinded signature, it can’t allow a user to
+specify an arbitrary amount or the user could attempt to receive
+more money than they contributed to the coinjoin.  This isn’t a
+security risk—the other participants will refuse to sign any
+malformed transaction—but such a failure requires restarting
+the protocol.  If arbitrary amounts were allowed, the blinding
+would prevent identification of the lying user and make it
+impossible to ban them from future rounds, allowing an unlimited
+DoS of the protocol.  Instead, Wasabi requires that all outputs
+either belong to a small set of allowed sizes (e.g. 0.1 BTC, 0.2
+BTC, 0.4 BTC, etc) or be an unblinded change output.  This
+limits the ability to use Wasabi with user-specified amounts or
+for making payments with arbitrary amounts.</p>
+      </li>
+    </ul>
+
+    <p>This week, several contributors to Wasabi <a href="https://gnusha.org/url/https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-June/017969.html">posted</a>
+to the Bitcoin-Dev mailing list about a new
+protocol they call WabiSabi that conceptually extends their existing protocol
+with a technique adapted from <a href="https://en.bitcoin.it/wiki/Confidential_transactions">confidential transactions</a>.  This allows a
+client to create a commitment to arbitrary output amounts and—without
+revealing the amounts—prove that each amount is individually
+within a specified range (e.g. 0.0001 BTC to 21 million BTC) and
+that they collectively sum to a specified value.  The coordinator
+uses this specified value to verify that the sum of the outputs the
+client wants to create is equal to the sum of the inputs provided by
+the client (minus fees).  The coordinator can then provide an
+anonymous credential for each output that allows the
+client to later anonymously submit the output to the
+coordinator for inclusion in the transaction template.</p>
+
+    <p>Software that implements the protocol will be able to create
+coordinated coinjoins that
+allow the clients to select their output amounts, facilitating
+experiments with non-equal value coinjoins (see <a href="/en/newsletters/2020/01/08/#coinjoins-without-equal-value-inputs-or-outputs">Newsletter
+#79</a>) and payments made within a coinjoin
+(either to third parties not participating in the coinjoin or to
+parties within a coinjoin).</p>
+
+    <p>The proposed protocol contains a significant number of differences
+from Wasabi’s current protocol (such as replacing blind signatures
+with keyed-verification anonymous credentials), so its authors are
+seeking review, criticism, and suggestions about how the protocol
+can be used most effectively.</p>
+  </li>
+</ul>
+
+<h2 id="changes-to-services-and-client-software">Changes to services and client software</h2>
+
+<p><em>In this monthly feature, we highlight interesting updates to Bitcoin
+wallets and services.</em></p>
+
+<ul>
+  <li id="caravan-adds-hd-wallet-support-coin-control-and-hardware-wallet-test-suite" class="anchor-list">
+    <p><a href="#caravan-adds-hd-wallet-support-coin-control-and-hardware-wallet-test-suite" class="anchor-list-link">●</a> <strong>Caravan adds HD wallet support, coin control, and hardware wallet test suite:</strong>
+In addition to single address multisig coordination, Caravan now supports HD
+wallet multisig coordination and coin control features. Unchained Capital, the creators of Caravan,
+also <a href="https://unchained-capital.com/blog/gearing-up-the-caravan/">announced</a> a test suite for testing hardware
+wallet interactions within a web browser and Trezor multisig address confirmation.</p>
+  </li>
+  <li id="bitpay-s-copay-and-bitcore-projects-support-native-segwit" class="anchor-list">
+    <p><a href="#bitpay-s-copay-and-bitcore-projects-support-native-segwit" class="anchor-list-link">●</a> <strong>Bitpay’s Copay and Bitcore projects support native segwit:</strong>
+Bitpay’s <a href="https://github.com/bitpay/copay/pull/10766">Copay wallet</a> and backend <a href="https://github.com/bitpay/bitcore/pull/2418">Bitcore service</a> both now support receiving to, and spending from, native segwit outputs.</p>
+  </li>
+  <li id="desktop-version-of-blockstream-green-wallet" class="anchor-list">
+    <p><a href="#desktop-version-of-blockstream-green-wallet" class="anchor-list-link">●</a> <strong>Desktop version of Blockstream Green wallet:</strong>
+Blockstream has released their <a href="https://blockstream.com/2020/05/21/en-blockstream-green-now-on-desktop/">Green wallet for desktop</a>
+on macOS, Windows, and Linux. The desktop version supports 2-of-3 and 2-of-2
+multisig wallets as well as Tor and testnet.</p>
+  </li>
+  <li id="react-native-library-photon-lib-announced" class="anchor-list">
+    <p><a href="#react-native-library-photon-lib-announced" class="anchor-list-link">●</a> <strong>React native library photon-lib announced:</strong> <a href="https://twitter.com/tankredhase/status/1265640624973246465">Tankred Hase
+shared</a> a new library, <a href="https://github.com/photon-sdk/photon-lib">photon-lib</a> for building Bitcoin
+wallet features using React Native. The library supports HD wallets and light client
+functionality but is still under development and not yet production ready.</p>
+  </li>
+</ul>
+
+<h2 id="notable-code-and-documentation-changes">Notable code and documentation changes</h2>
+
+<p><em>Notable changes this week in <a href="https://github.com/bitcoin/bitcoin">Bitcoin Core</a>,
+<a href="https://github.com/ElementsProject/lightning">C-Lightning</a>, <a href="https://github.com/ACINQ/eclair">Eclair</a>, <a href="https://github.com/lightningnetwork/lnd/">LND</a>,
+<a href="https://github.com/rust-bitcoin/rust-lightning">Rust-Lightning</a>, <a href="https://github.com/bitcoin-core/secp256k1">libsecp256k1</a>,
+<a href="https://github.com/bitcoin/bips/">Bitcoin Improvement Proposals (BIPs)</a>, and <a href="https://github.com/lightning/bolts">Lightning
+BOLTs</a>.</em></p>
+
+<ul>
+  <li id="bips-910" class="anchor-list"><a href="#bips-910" class="anchor-list-link">●</a> <a href="https://github.com/bitcoin/bips/issues/910">BIPs #910</a> Assigns <a href="https://github.com/bitcoin/bips/blob/master/bip-0085.mediawiki">BIP85</a> to Ethan Kosakovsky’s Deterministic Entropy From
+BIP32 Keychains proposal. BIP85 describes a super-keychain whose child keys
+can be used to create traditional HD keychain seeds. See <a href="/en/newsletters/2020/04/15/#proposal-for-using-one-bip32-keychain-to-seed-multiple-child-keychains">Newsletter #93</a>
+for more details on this proposal.</li>
+</ul>
+
+
+  </div>
+
+<!-- Begin MailChimp Signup Form -->
+<link href="/assets/css/mailchimp.css" rel="stylesheet" type="text/css">
+<div id="mc_embed_signup">
+<form action="https://bitcoinops.us18.list-manage.com/subscribe/post?u=70c3f85e5d13ffec674f30af8&amp;id=adc93c9774" method="post" id="main-mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	<label for="mce-EMAIL">Subscribe to our newsletter</label>
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div class="mc-input" aria-hidden="true"><input type="text" name="b_70c3f85e5d13ffec674f30af8_adc93c9774" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Bitcoin Optech</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Bitcoin Optech</li><li><a class="u-email" href="mailto:info@bitcoinops.org">info@bitcoinops.org</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/bitcoinops"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">bitcoinops</span></a></li><li><a href="https://www.twitter.com/bitcoinoptech"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">bitcoinoptech</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Helping Bitcoin-based businesses integrate scaling technology.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

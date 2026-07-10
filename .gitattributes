@@ -1,0 +1,4 @@
+.gitattributes text eol=lf
+README.md text eol=lf
+POST_MORTEM.md text eol=lf
+sources/** -text

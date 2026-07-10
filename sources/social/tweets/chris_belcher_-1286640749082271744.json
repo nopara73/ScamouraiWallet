@@ -1,0 +1,13 @@
+{
+  "url": "https://x.com/chris_belcher_/status/1286640749082271744",
+  "author_name": "belcher",
+  "author_url": "https://x.com/chris_belcher_",
+  "html": "<blockquote class=\"twitter-tweet\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">I&#39;ll explain again: you use dojo and take part in a whirlpool coinjoin along with 5 other people. None of the other 5 use dojo, so they send their xpubs to SamouraiWallet. Then SW can easily unmix the whirlpool because the other 5 addresses are seen by their server but not yours</p>&mdash; belcher (@chris_belcher_) <a href=\"https://x.com/chris_belcher_/status/1286640749082271744?ref_src=twsrc%5Etfw\">July 24, 2020</a></blockquote>\n\n",
+  "width": 550,
+  "height": null,
+  "type": "rich",
+  "cache_age": "3153600000",
+  "provider_name": "X",
+  "provider_url": "https://x.com",
+  "version": "1.0"
+}

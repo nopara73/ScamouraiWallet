@@ -1,0 +1,1847 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-500.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/assets/fonts/Barlow/barlow-v12-latin-italic.woff2" as="font" type="font/woff2" crossorigin />
+<link rel="preload" href="/images/dog-logo.svg" as="image" />
+
+<meta charset="utf-8">
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="WalletScrutiny Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+
+  window.theme = 'light';
+
+  try {
+    if(!localStorage.getItem('colour-scheme')){
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        localStorage.setItem('colour-scheme','dark');
+      }else{
+        localStorage.setItem('colour-scheme','light');
+      }    
+    }
+    window.theme = localStorage.getItem('colour-scheme');
+  } catch (e) {}
+</script>
+
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/site-styles.css">
+
+<meta http-equiv="cleartype" content="on">
+
+    
+    <!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>WalletScrutiny - Samourai Wallet for mobile</title>
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="WalletScrutiny">
+<meta property="og:title" content="Samourai Wallet">
+
+
+  <link rel="canonical" href="https://walletscrutiny.com/mobile/com.samourai.wallet/">
+  <meta property="og:url" content="https://walletscrutiny.com/mobile/com.samourai.wallet/">
+
+
+
+  <meta property="og:description" content="Review of Samourai Wallet (verdict: sourceavailable)">
+
+
+
+  <meta property="og:image" content="https://walletscrutiny.com/images/social/android/com.samourai.wallet.png">
+
+
+<meta name="twitter:site" content="@WalletScrutiny">
+<meta name="twitter:card" content="summary_large_image">
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2024-04-26T00:00:00-07:00">
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "url": "https://walletscrutiny.com",
+      "logo": "https://walletscrutiny.com/images/social/android/com.samourai.wallet.png"
+    }
+  </script>
+
+<!-- end SEO -->
+
+    <!-- start custom head snippets -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.png">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+<meta name="msapplication-config" content="/images/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="vibrant">
+    
+    <div class="masthead" >
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <a class="masthead-logo-link" href="/" alt="WalletScrutiny"><div class="masthead-logo" alt="WalletScrutiny" title="WalletScrutiny" ></div></a>
+      
+      <div class="wallet-search">
+        <input class="searchbar" type="text" placeholder="Search wallet reviews..." />
+        <div class="search-controls">
+          <i class="fas fa-circle-notch"></i>
+          <i class="fas fa-times reset-search"></i>
+        </div>
+        <ul class="search-results results-target exit-search-target"></ul>
+      </div>
+      
+      <nav id="site-nav" class="greedy-nav">
+        <div class="mobile-search-shortcut"><i class="fas fa-search"></i></div>
+        <ul class="visible-links">
+          <!-- <li class="masthead__menu-item masthead__menu-item--lg"></li> -->
+          
+            
+            <li class="masthead__menu-item"><a href="/verifications/"><div>Verifications</div></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/methodology/"><div>Methodology</div></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/about/"><div>About</div></a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="/donate/"><div>Donate</div></a></li>
+          
+          <li><a class="theme-parent no-hover notifications-indicator" style="display: none; color: red;" onclick="showNotifications()" title="Notifications"><i class="fas fa-bell"></i></a></li>
+          <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div> 
+</div>
+
+<div id="loadingSpinner" style="display: none;">
+  <div class="spinner"></div>
+</div>
+
+<div id="notificationsPanel" class="notifications-panel" style="display: none;">
+  <div class="notifications-header">
+    <h3>Notifications</h3>
+    <button class="close-notifications" onclick="hideNotifications()"><i class="fas fa-times"></i></button>
+  </div>
+  <div class="notifications-list"></div>
+</div>
+
+<script>
+  document.body.classList.add(window.theme);
+  function toggleTheme(){
+    if(window.theme !== "dark"){
+      window.theme = "dark";
+      document.body.classList.remove("light");
+      document.body.classList.add("dark");
+    } else {
+      window.theme = "light";
+      document.body.classList.remove("dark");
+      document.body.classList.add("light");
+    }
+    try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
+  }
+
+  function addNotificationToIndicator(title, details, type = 'info'){
+    const notificationsList = document.querySelector('.notifications-list');
+    const notification = document.createElement('div');
+    notification.className = `notification ${type}`;
+    notification.innerHTML = `
+      <div class="notification-content">
+        <div class="title-row">
+          <i class="fas fa-${type === 'info' ? 'info-circle' : type === 'warning' ? 'exclamation-triangle' : 'check-circle'}"></i>
+          <span style="margin-left: 9px;">${title}</span>
+        </div>
+        <div class="details-row">
+          <span>${details}</span>
+        </div>
+      </div>
+    `;
+    notificationsList.appendChild(notification);
+    
+    document.querySelector(".notifications-indicator").style.display = "block";
+  }
+
+  function showNotifications(){
+    const indicator = document.querySelector(".notifications-indicator");
+    const panel = document.getElementById('notificationsPanel');
+    const rect = indicator.getBoundingClientRect();
+
+    // Ensure panel is measurable by making it temporarily visible but off-screen
+    panel.style.visibility = 'hidden';
+    panel.style.display = 'block';
+    const panelWidth = panel.offsetWidth;
+    panel.style.display = 'none'; // Hide it again before final positioning
+    panel.style.visibility = 'visible';
+
+    // Position panel below the indicator
+    panel.style.top = `${rect.bottom + window.scrollY}px`;
+
+    // Align panel's right edge with indicator's left edge
+    panel.style.left = `${rect.left + window.scrollX - panelWidth}px`; 
+
+    // Make the panel visible at the calculated position
+    panel.style.display = 'block';
+  }
+  function hideNotifications(){
+    document.getElementById('notificationsPanel').style.display = "none";
+  }
+
+  // Close notifications panel when clicking outside
+  document.addEventListener('click', (event) => {
+    const notificationsPanel = document.getElementById('notificationsPanel');
+    const notificationsIndicator = document.querySelector(".notifications-indicator");
+    if (!notificationsPanel.contains(event.target) && 
+        !notificationsIndicator.contains(event.target) && 
+        notificationsPanel.style.display === "block") {
+      hideNotifications();
+    }
+  });
+
+  document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
+    const self = document.querySelector(".navicon").parentNode;
+    const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2);
+    document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`;
+  });
+</script>
+
+
+    <script>
+  window.pageAppId = "com.samourai.wallet";
+  
+  window.wsVersionAndroid = "VARY";
+  
+  window.wsVersion = "VARY";
+</script>
+
+<div id="main" class="app-review" role="main">
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Samourai Wallet">
+    
+      <meta itemprop="description" content="Note: This project is now maintained at code.samourai.io/wallet/samourai-wallet-android.">
+    
+    
+      <meta itemprop="datePublished" content="April 26, 2024">
+    
+
+    <div class="page__inner-wrap">
+      <div class="app-summary-grid">
+        
+          <img src="/images/wIcons/android/com.samourai.wallet.png" class="app_logo_big" alt="Wallet Logo">
+        
+        <div class="app-sum-head">
+
+          <h1 class="page__title -va-c" itemprop="headline">
+            
+              Samourai Wallet
+            
+          </h1>
+
+          
+<div class="distribution-store-links">
+  
+    <a title="Google Play" href="https://play.google.com/store/apps/details?id=com.samourai.wallet" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-google-play" aria-hidden="true"></i> Google Play
+    </a>
+    
+  
+  
+  
+<a title="Website" href="https://samouraiwallet.com" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+
+
+</div>
+
+
+          
+            
+            <div class="secondary-text version-number-ws" id="version-number-ws">
+              
+
+
+
+
+  <p style="margin-top: 0;">Latest release found by <b>WalletScrutiny</b>: <b>VARY</b></p>
+
+
+            </div>
+            
+            
+            <div class="secondary-text" id="version-number-android"></div>
+            
+            
+          
+        </div>
+      </div>
+
+      
+
+
+<div class="security-overview">
+  <h2>Our wallet review process</h2>
+  <p>We examine wallets starting at the code level and continue all the way up to the finished app that lives on your device. Provided below is an outline of each of these steps along with security tips for you and general test results.</p>
+  <div class="spacer"></div>
+  
+
+
+
+
+
+
+
+
+
+<div class="steps linked">
+  <div class="step developer">
+  <i class="i-person circle"></i>
+  <div class="title">
+    <h3>Developer</h3>
+    <p class="capitalise">
+    
+    
+    
+    
+      Samourai
+    
+    </p>
+  </div>
+  <div class="data">
+    
+      <a href="https://samouraiwallet.com" title="Website" target="_blank">Website</a>
+    
+    
+    
+
+    <a href="https://x.com/SamouraiWallet" title="X" target="_blank">X</a>
+    
+    
+  </div>
+</div>
+
+  <div class="step privacy">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-clock-rotate-left" style="z-index: 2; font-size: 22px;"></i>
+  </i>
+  <div class="title">
+    <h3>Released</h3>
+    <p>
+    
+      We could not determine when this product was originally released.
+    
+    </p>
+  </div>
+</div>
+
+  
+
+
+
+
+
+<div class="step custody">
+  <i class="i-key circle"></i>
+  <div class="title">
+    <h3>Custody</h3>
+    <p>
+    
+      
+        Self-custodial: The user holds the keys
+        
+      
+    
+    
+      <p class="warn">But
+        <span class="lower">This product was removed from the platform.</span>
+      </p>
+    
+    </p>
+    <div class="textbox">
+      <p>As part of <a href="/methodology/?tests-we-run/android/custodial">our Methodology</a>, we ask: <b>Does the product allow self-custody?</b></p>
+      <p>The answer is "yes". <strong>The user has control of their own keys</strong>.<br><a href="#custodial">Read more</a></p>
+    </div>
+  </div>
+  <div class="data">
+  </div>
+</div>
+
+  <div class="step source-code">
+  
+  
+  
+  <i class="i-code circle"></i>
+  
+  
+  <div class="title">
+    <h3>Source code</h3>
+    <p>
+    
+      Public on 
+      
+      
+      
+      
+      <a href="https://github.com/Samourai-Wallet/samourai-wallet-android" target="_blank" class="capitalise">github</a>
+    
+    </p>
+  </div>
+  <div class="data">
+  </div>
+</div>
+
+  
+
+
+
+<div class="step methodology">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-vial" style="z-index: 2; font-size: 20px;"></i>
+  </i>
+  <div class="title">
+    
+    <h3>Passed all 7 tests</h3>
+    <p class="applied-methodology steps">We answered the following questions in this order:
+      
+      
+        <!-- TEXT FOR DEALING WITH NOT-OK METAS -->
+      
+    </p>
+  </div>
+  <div class="data score-data">
+    <div class="score">
+      <div>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+        <i class="pass"></i>
+      
+      
+      
+      </div>
+    </div>
+  </div>
+  <div class="methodology-tests-list">
+  
+  
+    
+
+      <div id="fake"
+        class="pass fake methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Is this product the original?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>Fake</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>Fake</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>Fake</strong>" and the following would apply:
+</p>
+
+<p>The bigger wallets often get imitated by scammers that abuse the reputation of the product by imitating its name, logo or both.</p>
+<div class="alertBox"> <div> <p>Imitating a competitor is a huge red flag and we urge you to not put any money into this product!</p> </div> </div>
+
+
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="nowallet"
+        class="pass nowallet methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Is it a wallet?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>Not a wallet</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>Not a wallet</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>Not a wallet</strong>" and the following would apply:
+</p>
+
+<p>If it’s called “wallet” but is actually only a portfolio tracker, we don’t look any deeper, assuming it is not meant to control funds. What has no funds, can’t lose your coins. <em>It might still leak your financial history!</em></p>
+
+<p>If you can buy Bitcoins with this app but only into another wallet, it’s not a wallet itself.</p>
+
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="nobtc"
+        class="pass nobtc methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Is it for bitcoins?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>A wallet but not for Bitcoin</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>A wallet but not for Bitcoin</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>A wallet but not for Bitcoin</strong>" and the following would apply:
+</p>
+
+<p>At this point we only look into wallets that at least also support BTC.</p>
+
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="nosendreceive"
+        class="pass nosendreceive methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Can it send and receive bitcoins?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>Can't send or receive bitcoins</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>Can't send or receive bitcoins</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>Can't send or receive bitcoins</strong>" and the following would apply:
+</p>
+
+<p>If it is for holding BTC but you can’t actually send or receive them with this product then it doesn’t function like a wallet for BTC but you might still be using it to hold your bitcoins with the intention to convert back to fiat when you “cash out”.</p>
+
+<p>All products in this category are custodial and thus funds are at the mercy of the provider.</p>
+
+
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="custodial"
+        class="pass custodial methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Does the product allow self-custody?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>Custodial: The provider holds the keys</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>Custodial: The provider holds the keys</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>Custodial: The provider holds the keys</strong>" and the following would apply:
+</p>
+
+<p>A custodial service is a service where the funds are held by a third party like the provider. The custodial service can at any point steal all the funds of all the users at their discretion. Our investigations stop there.</p>
+
+<p>Some services might claim their setup is super secure, that they don’t actually have access to the funds, or that the access is shared between multiple parties. For our evaluation of it being a wallet, these details are irrelevant. They might be a trustworthy Bitcoin bank and they might be a better fit for certain users than being your own bank but our investigation still stops there as we are only interested in wallets.</p>
+
+<p><strong>Products that claim to be non-custodial but feature custodial accounts without very clearly marking those as custodial are also considered “custodial” as a whole to avoid misguiding users that follow our assessment.</strong></p>
+
+<p>We have to acknowledge that a huge majority of Bitcoiners are currently using custodial Bitcoin banks. If you do, please:</p>
+
+<ul>
+  <li>Do your own research if the provider is trust-worthy!</li>
+  <li>Check if you know at least enough about them so you can sue them when you have to!</li>
+  <li>Check if the provider is under a jurisdiction that will allow them to
+release your funds when you need them?</li>
+  <li>Check if the provider is taking security measures proportional to the amount of
+funds secured? If they have a million users and don’t use cold storage,
+that hot wallet is a million times more valuable for hackers to attack.
+A million times more effort will be taken by hackers to infiltrate their
+security systems.</li>
+</ul>
+
+
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="nosource"
+        class="pass nosource methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Is the source code publicly available?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>No source for current release found</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>No source for current release found</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>No source for current release found</strong>" and the following would apply:
+</p>
+
+<p>A wallet that claims to not give the provider the means to steal the users’ funds might actually be lying. In the spirit of <em>“Don’t trust - verify!”</em> you don’t want to take the provider at his word, but trust that people hunting for fame and bug bounties could actually find flaws and back-doors in the wallet so the provider doesn’t dare to put these in.</p>
+
+<p>Back-doors and flaws are frequently found in closed source products but some remain hidden for years. And even in open source security software there might be <a href="https://www.cvedetails.com/vulnerability-list.php?vendor_id=97&amp;product_id=585&amp;version_id=&amp;page=1&amp;hasexp=0&amp;opdos=0&amp;opec=0&amp;opov=0&amp;opcsrf=0&amp;opgpriv=0&amp;opsqli=0&amp;opxss=0&amp;opdirt=0&amp;opmemc=0&amp;ophttprs=0&amp;opbyp=0&amp;opfileinc=0&amp;opginf=0&amp;cvssscoremin=0&amp;cvssscoremax=0&amp;year=0&amp;month=0&amp;cweid=0&amp;order=3&amp;trc=98&amp;sha=cf091948bd7a20cd650cfc7fb718a5f4400a6d71">catastrophic flaws</a> undiscovered for years.</p>
+
+<p>An evil wallet provider would certainly prefer not to publish the code, as hiding it makes audits orders of magnitude harder.</p>
+
+<p>For your security, you thus want the code to be available for review.</p>
+
+<p>If the wallet provider doesn’t share up to date code, our analysis stops there as the wallet could steal your funds at any time, and there is no protection except the provider’s word.</p>
+
+<p><strong>“Up to date” strictly means that any instance of the product being updated without the source code being updated counts as closed source.</strong> This puts the burden on the provider to always first release the source code before releasing the product’s update. This paragraph is a clarification to our rules following <a href="https://twitter.com/WalletScrutiny/status/1408933028227956736">a little poll</a>.</p>
+
+<p>We are not concerned about the license as long as it allows us to perform our analysis. For a security audit, it is not necessary that the provider allows others to use their code for a competing wallet. You should still prefer <a href="https://en.wikipedia.org/wiki/The_Open_Source_Definition">actual open source licenses</a> as a competing wallet won’t use the code without giving it careful scrutiny.</p>
+
+
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+
+
+        </div>
+      </div>
+  
+    
+
+      <div id="obfuscated"
+        class="pass obfuscated methodology-accordion"
+        data-open="false"
+        onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')"
+      >
+        <div class="accordion-head">
+          <span class="badge pass"><i class="fas fa-check-circle"></i></span>
+          <span>Is the decompiled binary legible?</span>
+          <i class="fas fa-caret-right"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="accordion-body textbox" onclick="event.stopPropagation()">
+          <p class="response pass">
+  The answer is "yes".<br>
+  If the answer were "no", we would mark it as "<strong>Obfuscated</strong>" and the following would apply:<br>
+</p>
+<p class="response fail">
+  The answer is "no". We marked it as "<strong>Obfuscated</strong>".
+</p>
+<p class="response untested">
+  We did not ask this question because we failed at a previous question.<br>
+  If the answer were "no", we would mark it as "<strong>Obfuscated</strong>" and the following would apply:
+</p>
+
+<p>When compiling source code to binary, usually a lot of meta information is retained. A variable storing a masterseed would usually still be called <code class="language-plaintext highlighter-rouge">masterseed</code>, so an auditor could inspect what happens to the masterseed. Does it get sent to some server?  But obfuscation would rename it for example to <code class="language-plaintext highlighter-rouge">_t12</code>, making it harder to find what the product is doing with the masterseed.</p>
+
+<p>In benign cases, code symbols are replaced by short strings to make the binary smaller but for the sake of transparency this should not be done for  non-reproducible Bitcoin wallets. (Reproducible wallets could obfuscate the binary for size improvements as the reproducibility would assure the link between code and binary.)</p>
+
+<p>Especially in the public source cases, obfuscation is a red flag. If the code is public, why obfuscate it?</p>
+
+<p>As obfuscation is such a red flag when looking for transparency, we do also sometimes inspect the binaries of closed source apps.</p>
+
+<p>As looking for code obfuscation is a more involved task, we do not inspect many apps but if we see other red flags, we might test this to then put the product into this <strong>red-flag category</strong>.</p>
+
+
+  <strong>The product cannot be independently verified. If the provider puts your funds at
+  risk on purpose or by accident, you will probably not know about the issue
+  before people start losing money. If the provider is more criminally inclined
+  he might have collected all the backups of all the wallets, ready to be
+  emptied at the press of a button. The product might have a formidable track record
+  but out of distress or change in management turns out to be evil from some
+  point on, with nobody outside ever knowing before it is too late.</strong>
+
+
+        </div>
+      </div>
+  
+  </div>
+</div>
+
+  
+    
+
+  <p class="warn platform-meta-warn">
+    <span class="lower">This product was removed from the platform.</span>
+  </p>
+
+
+    
+
+
+
+
+
+
+
+
+
+<div class="step distribution">
+  <i class="circle" style="display: flex; align-items: center; justify-content: center;">
+    <i class="fas fa-download" style="z-index: 2; font-size: 23px;"></i>
+  </i>
+  <div class="title">
+    <h3>Distribution</h3>
+    
+        <div class="distribution-store-links">
+          <a title="Google Play" href="https://play.google.com/store/apps/details?id=com.samourai.wallet" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-google-play" aria-hidden="true"></i> Google Play</a>
+          
+
+
+
+          
+<a title="Website" href="https://samouraiwallet.com" class="link-web subtle distribution-store-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+
+
+        </div>
+      
+  </div>
+</div>
+
+
+    <div class="step application-build">
+    
+    
+    <i class="i-sourceavailable circle"></i>
+    
+    <div class="title">
+        <h3>Application build</h3>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <div id="appsTable-android" style="margin-top: 1em;"></div>
+
+        <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can <span class="bigScreenOnly">drop</span><span class="smallScreenOnly">select</span> the file here to register it so somebody can verify its reproducibility:</p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
+            <!-- Drag-and-Drop-Area Start -->
+<div class="drop-areas">
+    <form class="my-form" id="dropForm-1783598971945249609">
+        <span class="drop-text bigScreenOnly">Drop binary file to verify</span>
+        
+        <input type="file" id="fileElem-1783598971945258460" style="display: none;" class="fileElems" />
+        <div id="select" class="hover-mode">
+            <br />
+            <span class="bigScreenOnly">or</span>
+            <br />
+            <label class="button button-label" for="fileElem-1783598971945258460">Select a file</label>
+            <span style="font-size: 16px;" class="bigScreenOnly"><a href="/verifications/" target="_blank">Learn more</a></span>
+        </div>
+    </form>
+    <div id="file-list">
+        <div id="file-info" class="textbox drop-area-textbox"></div>
+        <div class="textbox blossom-upload-status" style="display: none;"></div>
+    </div>
+</div>
+<!-- Drag-and-Drop-Area End -->
+        </div>
+
+        <p id="verificationMessage-android"></p>
+
+        <div style="margin-top: 4px; display: none;" id="createVerificationButton-android"></div>
+
+        <script>
+          window.addEventListener('verificationsUILoaded', async () => {
+            const pageVerdict = 'sourceavailable';
+            const attestationsInfo = await renderAssetsTable({
+              htmlElementId: 'appsTable-android',
+              appId: 'com.samourai.wallet',
+              appPlatform: 'android',
+              hideConfig: { wallet: true },
+              showOnlyRows: 5,
+              sortByVersion: true,
+              enableDraftsFilter: true,
+              enableAppPageSearch: true,
+              showIssueTracker: true
+            });
+
+            const versionNumberElement = document.getElementById('version-number-android');
+            const skipVersionInfo = false;
+            const versionInfo = getMaxAssetVersion(attestationsInfo.info);
+            const mergeInto = '';
+
+            if (mergeInto && typeof window.updateDualMobileVerification === 'function') {
+              window.updateDualMobileVerification('android', versionInfo);
+            } else if (versionNumberElement && !skipVersionInfo) {
+
+              let versionInfoText = '<p style="margin-top: 0;">';
+
+              const skipWsVersion = true;
+              if (!skipWsVersion) {
+                var wsVer = (typeof wsVersionAndroid !== 'undefined' && 'android' === 'android' && wsVersionAndroid)
+                  ? wsVersionAndroid
+                  : ((typeof wsVersionIphone !== 'undefined' && 'android' === 'iphone' && wsVersionIphone)
+                    ? wsVersionIphone
+                    : (typeof wsVersion !== 'undefined' ? wsVersion : ''));
+                if (wsVer) {
+                  versionInfoText += 'Latest release found by <b>WalletScrutiny</b>: <b>' + wsVer + '</b><br>';
+                }
+              }
+
+              if (versionInfo.lastVersion) {
+                versionInfoText += 'Latest release found in a <b>Verification</b>: <b>' + versionInfo.lastVersion + '</b> <small>(' + versionInfo.lastVersionDate + ')</small><br>';
+              }
+
+              if (versionInfo.lastVerifiedVersion && (versionInfo.lastVerifiedVersion !== versionInfo.lastVersion)) {
+                versionInfoText += 'Last <span style="color: #008000;"><b>Reproducible Verification</b></span>: <b>' + versionInfo.lastVerifiedVersion + '</b> <small>(' + versionInfo.lastVerifiedVersionDate + ')</small>';
+              }
+
+              versionInfoText += '</p>';
+              const hasVerificationInfo = versionInfo.lastVersion
+                || (versionInfo.lastVerifiedVersion && versionInfo.lastVerifiedVersion !== versionInfo.lastVersion);
+              if (!skipWsVersion || hasVerificationInfo) {
+                versionNumberElement.innerHTML = versionInfoText;
+              }
+            }
+
+            if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
+              if (!attestationsInfo.hasAssets) {
+                document.getElementById('appsTable-android').style.display = 'none';
+              }
+
+              const verificationMessageEl = document.getElementById('verificationMessage-android');
+              if (verificationMessageEl) {
+                if (pageVerdict === 'sourceavailable') {
+                  verificationMessageEl.innerHTML = "This application has its source code available. You can register an asset for a newer version so somebody can verify its reproducibility by dropping the binary file there.";
+                } else if (pageVerdict === 'wip') {
+                  verificationMessageEl.innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+                }
+                verificationMessageEl.innerHTML += '<br><a href="/new_verification/?appId=com.samourai.wallet" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
+              }
+            }
+          });
+        </script>
+        
+    </div>
+</div>
+
+    
+
+<div class="step operating-system">
+  
+
+
+
+  <i class="i-android circle"></i>
+  <div class="title">
+    <h3>Platform notes</h3>
+    <div class="textbox">
+      <p>On the Google Play Store, there are many apps that have Bitcoin in their name or description but don’t allow the user to use Bitcoin or they don’t look like Bitcoin wallets but turn out to be. We run our tests and document our findings.</p>
+
+    </div>
+  </div>
+  <div class="data">
+  </div>
+</div>
+  
+
+  
+
+</div>
+
+  
+  <div class="spacer x2"></div>
+</div>
+
+
+      <div class="security-overview">
+        <div class="section page__content" itemprop="text">
+          <p><strong>Note:</strong> This project is now maintained at <a href="https://code.samourai.io/wallet/samourai-wallet-android">code.samourai.io/wallet/samourai-wallet-android</a>.</p>
+
+<p><strong>Update 2024-04-29</strong>: As of this date, Samourai Wallet has been taken down from Google Play Store. The website <a href="http://www.samouraiwallet.com">has been seized by the US government</a>. For more information detailing the founders’ arrest, here is the article from the website of the <a href="https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering">United States Attorney’s Office.</a></p>
+
+<p>Because of Samourai Wallet’s removal, users may find that their funds <em>appear</em> to have gone to zero. This is likely due to the servers going offline. Don’t panic, as your coins are still there. However it is best to restore your backup to another wallet.</p>
+
+<h2 id="if-you-have-been-affected-by-this-here-are-some-resources-and-steps-to-help-recover-your-wallet">If you have been affected by this, here are some resources and steps to help recover your wallet:</h2>
+
+<p><a href="https://walletsrecovery.org/">WalletsRecovery.org</a> is a site that allows you to find a specific wallet’s supported derivation paths, whether it has a BIP39 pass, or supports BIP174 PSBT, as well as keeping track of documentation.</p>
+
+<p>Here’s a <a href="https://twitter.com/_k3tan/status/1783389500485578847">guide</a> detailing on how to import a Samourai Wallet into Sparrow. Make sure to keep track of your passphrase and check the “Use passphrase” box upon using it.</p>
+
+<p>Below are some step-by-step instructions on how to import a Samourai Wallet into Electrum:</p>
+
+<ol>
+  <li><strong>Secure your recovery phrase:</strong> This is the 12-word phrase that should have been generated once you created your wallet. Make sure it is in a safe place where it is easily accessible. <strong>NEVER SHARE THIS WITH ANYONE, NOT EVEN WITH USERS WHO CLAIM TO BE DEVELOPERS OR STAFF.</strong> Note that Samourai wallet comes with a separate passphrase, which is not the same as the 12-word seed phrase. Both of them need to be secured.</li>
+  <li><strong>Find Samourai Wallet’s derivation path:</strong>  You can go to WalletsRecovery.org and find “Samourai Wallet” in the table on its homepage. Take note of the data provided, especially the derivation paths. Samourai offers multiple paths depending on the type of wallet you had. Select the wallet derivation path that applies to your original wallet.</li>
+  <li><strong>Set up the backup:</strong> Select <code class="language-plaintext highlighter-rouge">File &gt; New/Restore</code>, choose <code class="language-plaintext highlighter-rouge">Standard Wallet</code>, select <code class="language-plaintext highlighter-rouge">I already have a seed</code> and enter the passphrase.</li>
+  <li><strong>Enter your Samourai Wallet passphrase:</strong> Make sure to click <strong>Options</strong> and check BIP39. Then, check <code class="language-plaintext highlighter-rouge">Extend this seed with custom words.</code> You will have to enter your passphrase.</li>
+  <li><strong>Set the path:</strong> Set the derivation path to the one you selected in step 2. If that fails, leave the path as <code class="language-plaintext highlighter-rouge">m/84'/0'/0'</code>. Select “native segwit (p2wpkh)”.</li>
+  <li><strong>Set the new password for Electrum.</strong> It is advisable to save and backup this password.</li>
+</ol>
+
+<p><strong>Update 2024-04-05</strong>: The provider did not tag their release but the relevant
+<code class="language-plaintext highlighter-rouge">versionCode</code> was set in
+<a href="https://code.samourai.io/wallet/samourai-wallet-android/-/commit/64d464e7f616999aa6d64a20b9e3874a0f047f32">this commit</a>
+and compiling that gives us this result:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>===== Begin Results =====
+appId:          com.samourai.wallet
+signer:         6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990
+apkVersionName: 0.99.98ii
+apkVersionCode: 201
+verdict:        
+appHash:        c158c4d2a55d6066722fd6fc5b95d9368da4e746ddd806ffd175f6b6a9c9e307
+commit:         64d464e7f616999aa6d64a20b9e3874a0f047f32
+
+Diff:
+Files /tmp/fromPlay_com.samourai.wallet_201/AndroidManifest.xml and /tmp/fromBuild_com.samourai.wallet_201/AndroidManifest.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/assets: common
+Files /tmp/fromPlay_com.samourai.wallet_201/assets/dexopt/baseline.prof and /tmp/fromBuild_com.samourai.wallet_201/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.samourai.wallet_201/assets/dexopt/baseline.profm and /tmp/fromBuild_com.samourai.wallet_201/assets/dexopt/baseline.profm differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/assets: LargeWordsList
+Files /tmp/fromPlay_com.samourai.wallet_201/classes2.dex and /tmp/fromBuild_com.samourai.wallet_201/classes2.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes3.dex and /tmp/fromBuild_com.samourai.wallet_201/classes3.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes4.dex and /tmp/fromBuild_com.samourai.wallet_201/classes4.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes5.dex and /tmp/fromBuild_com.samourai.wallet_201/classes5.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes6.dex and /tmp/fromBuild_com.samourai.wallet_201/classes6.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes7.dex and /tmp/fromBuild_com.samourai.wallet_201/classes7.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/classes.dex and /tmp/fromBuild_com.samourai.wallet_201/classes.dex differ
+Files /tmp/fromPlay_com.samourai.wallet_201/DebugProbesKt.bin and /tmp/fromBuild_com.samourai.wallet_201/DebugProbesKt.bin differ
+Files /tmp/fromPlay_com.samourai.wallet_201/kotlin/annotation/annotation.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_201/kotlin/annotation/annotation.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_201/kotlin/kotlin.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_201/kotlin/kotlin.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_201/kotlin/ranges/ranges.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_201/kotlin/ranges/ranges.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_201/kotlin/reflect/reflect.kotlin_builtins and /tmp/fromBuild_com.samourai.wallet_201/kotlin/reflect/reflect.kotlin_builtins differ
+Files /tmp/fromPlay_com.samourai.wallet_201/kotlin-tooling-metadata.json and /tmp/fromBuild_com.samourai.wallet_201/kotlin-tooling-metadata.json differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/lib/arm64-v8a: libKmpTor.so
+Only in /tmp/fromBuild_com.samourai.wallet_201/lib/armeabi-v7a: libKmpTor.so
+Only in /tmp/fromBuild_com.samourai.wallet_201/lib/x86: libKmpTor.so
+Only in /tmp/fromBuild_com.samourai.wallet_201/lib/x86_64: libKmpTor.so
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.activity_activity-compose.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.activity_activity-compose.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.activity_activity-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.activity_activity-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.activity_activity.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.activity_activity.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.annotation_annotation-experimental.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.annotation_annotation-experimental.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.arch.core_core-runtime.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.arch.core_core-runtime.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.animation_animation-core.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.animation_animation-core.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.animation_animation.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.animation_animation.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.foundation_foundation-layout.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.foundation_foundation-layout.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.foundation_foundation.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.foundation_foundation.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime-livedata.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime-livedata.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime-saveable.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime-saveable.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.runtime_runtime.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-geometry.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-geometry.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-graphics.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-graphics.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-text.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-text.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling-data.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling-data.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling-preview.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling-preview.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-tooling.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-unit.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-unit.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-util.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui-util.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.compose.ui_ui.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.core_core-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.core_core-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.core_core.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.core_core.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.customview_customview-poolingcontainer.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.customview_customview-poolingcontainer.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.databinding_viewbinding.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.databinding_viewbinding.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.emoji2_emoji2.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.emoji2_emoji2.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.emoji2_emoji2-views-helper.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.emoji2_emoji2-views-helper.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-core.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-core.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-livedata.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-process.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-process.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-runtime.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-runtime.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-service.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-service.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-compose.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.lifecycle_lifecycle-viewmodel.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.profileinstaller_profileinstaller.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.profileinstaller_profileinstaller.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.savedstate_savedstate-ktx.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.savedstate_savedstate-ktx.version differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/androidx.savedstate_savedstate.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/androidx.savedstate_savedstate.version differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/META-INF: CERT.RSA
+Only in /tmp/fromPlay_com.samourai.wallet_201/META-INF: CERT.SF
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/com/android/build/gradle/app-metadata.properties and /tmp/fromBuild_com.samourai.wallet_201/META-INF/com/android/build/gradle/app-metadata.properties differ
+Files /tmp/fromPlay_com.samourai.wallet_201/META-INF/kotlinx_coroutines_android.version and /tmp/fromBuild_com.samourai.wallet_201/META-INF/kotlinx_coroutines_android.version differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/META-INF: MANIFEST.MF
+Only in /tmp/fromBuild_com.samourai.wallet_201/META-INF: versions
+Files /tmp/fromPlay_com.samourai.wallet_201/org/apache/commons/codec/language/bm/ash_lang.txt and /tmp/fromBuild_com.samourai.wallet_201/org/apache/commons/codec/language/bm/ash_lang.txt differ
+Files /tmp/fromPlay_com.samourai.wallet_201/org/apache/commons/codec/language/bm/gen_lang.txt and /tmp/fromBuild_com.samourai.wallet_201/org/apache/commons/codec/language/bm/gen_lang.txt differ
+Files /tmp/fromPlay_com.samourai.wallet_201/org/apache/commons/codec/language/bm/lang.txt and /tmp/fromBuild_com.samourai.wallet_201/org/apache/commons/codec/language/bm/lang.txt differ
+Files /tmp/fromPlay_com.samourai.wallet_201/org/apache/commons/codec/language/bm/sep_lang.txt and /tmp/fromBuild_com.samourai.wallet_201/org/apache/commons/codec/language/bm/sep_lang.txt differ
+Files /tmp/fromPlay_com.samourai.wallet_201/org/apache/commons/codec/language/dmrules.txt and /tmp/fromBuild_com.samourai.wallet_201/org/apache/commons/codec/language/dmrules.txt differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0E.xml and /tmp/fromBuild_com.samourai.wallet_201/res/0E.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0K.xml and /tmp/fromBuild_com.samourai.wallet_201/res/0K.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0l.xml and /tmp/fromBuild_com.samourai.wallet_201/res/0l.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0s.png and /tmp/fromBuild_com.samourai.wallet_201/res/0s.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0S.xml and /tmp/fromBuild_com.samourai.wallet_201/res/0S.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/0W.xml and /tmp/fromBuild_com.samourai.wallet_201/res/0W.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 0Y.xml
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 0Z.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/15.png and /tmp/fromBuild_com.samourai.wallet_201/res/15.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1E.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1E.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 1f.xml
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 1g1.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1g.png and /tmp/fromBuild_com.samourai.wallet_201/res/1g.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1g.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1g.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1K1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1K1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1K.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1K.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1S.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1S.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/-1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/1Z.xml and /tmp/fromBuild_com.samourai.wallet_201/res/1Z.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/21.xml and /tmp/fromBuild_com.samourai.wallet_201/res/21.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 25.ttf
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2c.png and /tmp/fromBuild_com.samourai.wallet_201/res/2c.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2c.xml and /tmp/fromBuild_com.samourai.wallet_201/res/2c.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2f.xml and /tmp/fromBuild_com.samourai.wallet_201/res/2f.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2j.xml and /tmp/fromBuild_com.samourai.wallet_201/res/2j.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2n.xml and /tmp/fromBuild_com.samourai.wallet_201/res/2n.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2w.xml and /tmp/fromBuild_com.samourai.wallet_201/res/2w.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: -2.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/2X.png and /tmp/fromBuild_com.samourai.wallet_201/res/2X.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/3A.xml and /tmp/fromBuild_com.samourai.wallet_201/res/3A.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/3L.xml and /tmp/fromBuild_com.samourai.wallet_201/res/3L.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-3.png and /tmp/fromBuild_com.samourai.wallet_201/res/-3.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/3r.xml and /tmp/fromBuild_com.samourai.wallet_201/res/3r.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/3R.xml and /tmp/fromBuild_com.samourai.wallet_201/res/3R.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/44.png and /tmp/fromBuild_com.samourai.wallet_201/res/44.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/45.png and /tmp/fromBuild_com.samourai.wallet_201/res/45.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/46.xml and /tmp/fromBuild_com.samourai.wallet_201/res/46.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/4G.xml and /tmp/fromBuild_com.samourai.wallet_201/res/4G.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/4I.xml and /tmp/fromBuild_com.samourai.wallet_201/res/4I.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/4p.png and /tmp/fromBuild_com.samourai.wallet_201/res/4p.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/4S.png and /tmp/fromBuild_com.samourai.wallet_201/res/4S.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/4x.xml and /tmp/fromBuild_com.samourai.wallet_201/res/4x.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/5B.png and /tmp/fromBuild_com.samourai.wallet_201/res/5B.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/5l.xml and /tmp/fromBuild_com.samourai.wallet_201/res/5l.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/5O.xml and /tmp/fromBuild_com.samourai.wallet_201/res/5O.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 5P.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/5u.png and /tmp/fromBuild_com.samourai.wallet_201/res/5u.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 5v.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/5W.png and /tmp/fromBuild_com.samourai.wallet_201/res/5W.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/61.xml and /tmp/fromBuild_com.samourai.wallet_201/res/61.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/66.xml and /tmp/fromBuild_com.samourai.wallet_201/res/66.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 6A.xml
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 6d.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/6-.png and /tmp/fromBuild_com.samourai.wallet_201/res/6-.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 6P.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/6W.xml and /tmp/fromBuild_com.samourai.wallet_201/res/6W.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/6x.xml and /tmp/fromBuild_com.samourai.wallet_201/res/6x.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 71.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/75.png and /tmp/fromBuild_com.samourai.wallet_201/res/75.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/7B.xml and /tmp/fromBuild_com.samourai.wallet_201/res/7B.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/7G.xml and /tmp/fromBuild_com.samourai.wallet_201/res/7G.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/7J.png and /tmp/fromBuild_com.samourai.wallet_201/res/7J.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 7m.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/7R.xml and /tmp/fromBuild_com.samourai.wallet_201/res/7R.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 7V.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/-7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/82.xml and /tmp/fromBuild_com.samourai.wallet_201/res/82.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8b.png and /tmp/fromBuild_com.samourai.wallet_201/res/8b.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8c.png and /tmp/fromBuild_com.samourai.wallet_201/res/8c.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8F.png and /tmp/fromBuild_com.samourai.wallet_201/res/8F.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8j.png and /tmp/fromBuild_com.samourai.wallet_201/res/8j.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8M.png and /tmp/fromBuild_com.samourai.wallet_201/res/8M.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: 8t.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/8X.xml and /tmp/fromBuild_com.samourai.wallet_201/res/8X.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/92.png and /tmp/fromBuild_com.samourai.wallet_201/res/92.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/96.xml and /tmp/fromBuild_com.samourai.wallet_201/res/96.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9a.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9a.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9D.png and /tmp/fromBuild_com.samourai.wallet_201/res/9D.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9E1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9E1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9E.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9E.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9j.png and /tmp/fromBuild_com.samourai.wallet_201/res/9j.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9J.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9J.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9k.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9k.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9K.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9K.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9m.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9m.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9O.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9O.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9V1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9V1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9V.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9V.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9w.png and /tmp/fromBuild_com.samourai.wallet_201/res/9w.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9X.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9X.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/9z.xml and /tmp/fromBuild_com.samourai.wallet_201/res/9z.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/a0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/a0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/A0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/A0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/a1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/a1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/A1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/A1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ab.png and /tmp/fromBuild_com.samourai.wallet_201/res/Ab.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/AB.xml and /tmp/fromBuild_com.samourai.wallet_201/res/AB.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Ac.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ae.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ae.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/AE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/AE.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Ag.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/aG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/aG.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/AG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/AG.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/AI.xml and /tmp/fromBuild_com.samourai.wallet_201/res/AI.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ak.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ak.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Al.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/AN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/AN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ap.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ap.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: aR.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/as.png and /tmp/fromBuild_com.samourai.wallet_201/res/as.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/aT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/aT.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: aU.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/A_.xml and /tmp/fromBuild_com.samourai.wallet_201/res/A_.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/B0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/B0.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Be.gz
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Be.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Be.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: bi.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Bi.png and /tmp/fromBuild_com.samourai.wallet_201/res/Bi.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/BI.png and /tmp/fromBuild_com.samourai.wallet_201/res/BI.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Bi.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Bi.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/bL.xml and /tmp/fromBuild_com.samourai.wallet_201/res/bL.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_B.png and /tmp/fromBuild_com.samourai.wallet_201/res/_B.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: BT.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/bT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/bT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/BT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/BT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Bv.png and /tmp/fromBuild_com.samourai.wallet_201/res/Bv.png differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: BW1.xml
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: bw.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/BW.xml and /tmp/fromBuild_com.samourai.wallet_201/res/BW.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/By.xml and /tmp/fromBuild_com.samourai.wallet_201/res/By.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Bz.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Bz.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/c6.xml and /tmp/fromBuild_com.samourai.wallet_201/res/c6.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cA.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cA.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ci.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ci.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Cj.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Cj.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Ck.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cm1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cm1.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: cm2.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cm.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cm.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: cN.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_background_cache_hint_selector_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_background_cache_hint_selector_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_background_cache_hint_selector_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_background_cache_hint_selector_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_hint_foreground_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_hint_foreground_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_hint_foreground_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_hint_foreground_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_primary_text_disable_only_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_primary_text_disable_only_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_primary_text_disable_only_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_primary_text_disable_only_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_primary_text_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_primary_text_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_primary_text_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_primary_text_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_secondary_text_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_secondary_text_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/abc_secondary_text_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/abc_secondary_text_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/design_box_stroke_color.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/design_box_stroke_color.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_dark_default_color_primary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_dark_default_color_primary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_dark_default_color_secondary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_dark_default_color_secondary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_dark_highlighted_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_dark_highlighted_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_dark_hint_foreground.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_dark_hint_foreground.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_dark_primary_text_disable_only.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_dark_primary_text_disable_only.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_default_color_primary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_default_color_primary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_default_color_secondary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_default_color_secondary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_highlighted_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_highlighted_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_hint_foreground.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_hint_foreground.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/m3_primary_text_disable_only.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/m3_primary_text_disable_only.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/switch_thumb_material_dark.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/switch_thumb_material_dark.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color/switch_thumb_material_light.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color/switch_thumb_material_light.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_default_color_primary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_default_color_primary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_default_color_secondary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_highlighted_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_highlighted_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_hint_foreground.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_hint_foreground.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_dark_primary_text_disable_only.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_default_color_primary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_default_color_primary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_default_color_secondary_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_default_color_secondary_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_highlighted_text.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_highlighted_text.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_hint_foreground.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_hint_foreground.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/color-v31/m3_dynamic_primary_text_disable_only.xml and /tmp/fromBuild_com.samourai.wallet_201/res/color-v31/m3_dynamic_primary_text_disable_only.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/CO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/CO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/CR1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/CR1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/CR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/CR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cs.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cs.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/CV.png and /tmp/fromBuild_com.samourai.wallet_201/res/CV.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cv.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cv.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cV.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cX.png and /tmp/fromBuild_com.samourai.wallet_201/res/cX.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/cy.xml and /tmp/fromBuild_com.samourai.wallet_201/res/cy.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/d1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/d1.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: D-1.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/d4.png and /tmp/fromBuild_com.samourai.wallet_201/res/d4.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dA.png and /tmp/fromBuild_com.samourai.wallet_201/res/dA.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/DB.xml and /tmp/fromBuild_com.samourai.wallet_201/res/DB.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dd.png and /tmp/fromBuild_com.samourai.wallet_201/res/dd.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/de.xml and /tmp/fromBuild_com.samourai.wallet_201/res/de.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/df.xml and /tmp/fromBuild_com.samourai.wallet_201/res/df.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dg.png and /tmp/fromBuild_com.samourai.wallet_201/res/dg.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/DG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/DG.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dH.png and /tmp/fromBuild_com.samourai.wallet_201/res/dH.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/dO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/d-.png and /tmp/fromBuild_com.samourai.wallet_201/res/d-.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Dq.png and /tmp/fromBuild_com.samourai.wallet_201/res/Dq.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/dT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/du.png and /tmp/fromBuild_com.samourai.wallet_201/res/du.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/D-.xml and /tmp/fromBuild_com.samourai.wallet_201/res/D-.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/dX.xml and /tmp/fromBuild_com.samourai.wallet_201/res/dX.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/e0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/e0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/E1.png and /tmp/fromBuild_com.samourai.wallet_201/res/E1.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/E3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/E3.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/EA.png and /tmp/fromBuild_com.samourai.wallet_201/res/EA.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/eA.xml and /tmp/fromBuild_com.samourai.wallet_201/res/eA.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Ec.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ej.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ej.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/eK1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/eK1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/eK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/eK.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Em.png and /tmp/fromBuild_com.samourai.wallet_201/res/Em.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/eN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/eN.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: En.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/EN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/EN.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: EP.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Er.png and /tmp/fromBuild_com.samourai.wallet_201/res/Er.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/er.xml and /tmp/fromBuild_com.samourai.wallet_201/res/er.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ES.png and /tmp/fromBuild_com.samourai.wallet_201/res/ES.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: es.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/eW.xml and /tmp/fromBuild_com.samourai.wallet_201/res/eW.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: eY.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/f0.png and /tmp/fromBuild_com.samourai.wallet_201/res/f0.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/f6.xml and /tmp/fromBuild_com.samourai.wallet_201/res/f6.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/F8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/F8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fe.xml and /tmp/fromBuild_com.samourai.wallet_201/res/fe.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Ff.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fg.xml and /tmp/fromBuild_com.samourai.wallet_201/res/fg.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fH.png and /tmp/fromBuild_com.samourai.wallet_201/res/fH.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/FK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/FK.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: FN.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fO.png and /tmp/fromBuild_com.samourai.wallet_201/res/fO.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Fp.png and /tmp/fromBuild_com.samourai.wallet_201/res/Fp.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: FQ.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/FR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/FR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/FS.png and /tmp/fromBuild_com.samourai.wallet_201/res/FS.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fS.xml and /tmp/fromBuild_com.samourai.wallet_201/res/fS.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/FT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/FT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/fu.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Fu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Fu.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/f_.xml and /tmp/fromBuild_com.samourai.wallet_201/res/f_.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/fY.xml and /tmp/fromBuild_com.samourai.wallet_201/res/fY.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Fz.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Fz.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: G2.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/g3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/g3.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/g4.xml and /tmp/fromBuild_com.samourai.wallet_201/res/g4.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gb.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gb.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Gc.png and /tmp/fromBuild_com.samourai.wallet_201/res/Gc.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gd.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gd.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gD.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gD.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/GE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/GE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gi.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gi.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Gk.png and /tmp/fromBuild_com.samourai.wallet_201/res/Gk.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gN.png and /tmp/fromBuild_com.samourai.wallet_201/res/gN.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Go.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Go.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gq.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gq.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/GQ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/GQ.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: gr.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/GR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/GR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gt.png and /tmp/fromBuild_com.samourai.wallet_201/res/gt.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/gu.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/g-.xml and /tmp/fromBuild_com.samourai.wallet_201/res/g-.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_G.xml and /tmp/fromBuild_com.samourai.wallet_201/res/_G.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: GY.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/gz.png and /tmp/fromBuild_com.samourai.wallet_201/res/gz.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/h5.xml and /tmp/fromBuild_com.samourai.wallet_201/res/h5.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/h8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/h8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/HA.png and /tmp/fromBuild_com.samourai.wallet_201/res/HA.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ha.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ha.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hb.xml and /tmp/fromBuild_com.samourai.wallet_201/res/hb.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/HF.xml and /tmp/fromBuild_com.samourai.wallet_201/res/HF.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hm.xml and /tmp/fromBuild_com.samourai.wallet_201/res/hm.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hn.png and /tmp/fromBuild_com.samourai.wallet_201/res/hn.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hP1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/hP1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-h.png and /tmp/fromBuild_com.samourai.wallet_201/res/-h.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/HP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/HP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/hu.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/hv.xml and /tmp/fromBuild_com.samourai.wallet_201/res/hv.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: _H.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Hx.png and /tmp/fromBuild_com.samourai.wallet_201/res/Hx.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/I0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/I0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/I3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/I3.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/i7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/i7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/iB.xml and /tmp/fromBuild_com.samourai.wallet_201/res/iB.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/IE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/IE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/iI.xml and /tmp/fromBuild_com.samourai.wallet_201/res/iI.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ik.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ik.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/iN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/iN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/iQ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/iQ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/IR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/IR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/IV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/IV.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: Iw.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Iy.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Iy.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/J0.png and /tmp/fromBuild_com.samourai.wallet_201/res/J0.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/j6.xml and /tmp/fromBuild_com.samourai.wallet_201/res/j6.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/J7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/J7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Jc.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Jc.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/jD.xml and /tmp/fromBuild_com.samourai.wallet_201/res/jD.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/JD.xml and /tmp/fromBuild_com.samourai.wallet_201/res/JD.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/JF.xml and /tmp/fromBuild_com.samourai.wallet_201/res/JF.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/jG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/jG.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: jH.gz
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-j.png and /tmp/fromBuild_com.samourai.wallet_201/res/-j.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Jp.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Jp.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/JP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/JP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Jq.png and /tmp/fromBuild_com.samourai.wallet_201/res/Jq.png differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: JU.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Jw.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Jw.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/JW.xml and /tmp/fromBuild_com.samourai.wallet_201/res/JW.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: j_.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Jz.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Jz.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/k0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/k0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/K3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/K3.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/K5.xml and /tmp/fromBuild_com.samourai.wallet_201/res/K5.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/k81.xml and /tmp/fromBuild_com.samourai.wallet_201/res/k81.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/k8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/k8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ka.png and /tmp/fromBuild_com.samourai.wallet_201/res/ka.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ki.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ki.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Kl.png and /tmp/fromBuild_com.samourai.wallet_201/res/Kl.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/kn.xml and /tmp/fromBuild_com.samourai.wallet_201/res/kn.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/kN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/kN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Kp.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Kp.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: kS.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/KT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/KT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/kV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/kV.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_k.xml and /tmp/fromBuild_com.samourai.wallet_201/res/_k.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/k_.xml and /tmp/fromBuild_com.samourai.wallet_201/res/k_.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/LA.png and /tmp/fromBuild_com.samourai.wallet_201/res/LA.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/lE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/lE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Lf.png and /tmp/fromBuild_com.samourai.wallet_201/res/Lf.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ll.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ll.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: LO.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/lR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/lR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ls.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ls.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/LS.xml and /tmp/fromBuild_com.samourai.wallet_201/res/LS.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/lT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/lT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/lv.png and /tmp/fromBuild_com.samourai.wallet_201/res/lv.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: LW.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/L-.xml and /tmp/fromBuild_com.samourai.wallet_201/res/L-.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/LX.png and /tmp/fromBuild_com.samourai.wallet_201/res/LX.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/m2.png and /tmp/fromBuild_com.samourai.wallet_201/res/m2.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/m8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/m8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/mA.png and /tmp/fromBuild_com.samourai.wallet_201/res/mA.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ma.png and /tmp/fromBuild_com.samourai.wallet_201/res/Ma.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/mA.xml and /tmp/fromBuild_com.samourai.wallet_201/res/mA.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: MD.png
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: md.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Mg.png and /tmp/fromBuild_com.samourai.wallet_201/res/Mg.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/mK.png and /tmp/fromBuild_com.samourai.wallet_201/res/mK.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ml.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ml.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/MO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/MO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/mr.xml and /tmp/fromBuild_com.samourai.wallet_201/res/mr.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Mt.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Mt.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/MU.xml and /tmp/fromBuild_com.samourai.wallet_201/res/MU.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: N3.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/nD.png and /tmp/fromBuild_com.samourai.wallet_201/res/nD.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/nL.png and /tmp/fromBuild_com.samourai.wallet_201/res/nL.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/NM.xml and /tmp/fromBuild_com.samourai.wallet_201/res/NM.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/NN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/NN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/n-.png and /tmp/fromBuild_com.samourai.wallet_201/res/n-.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/nP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/nP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/nu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/nu.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: Nv.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/nz.xml and /tmp/fromBuild_com.samourai.wallet_201/res/nz.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/o8.png and /tmp/fromBuild_com.samourai.wallet_201/res/o8.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Od.png and /tmp/fromBuild_com.samourai.wallet_201/res/Od.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/OD.xml and /tmp/fromBuild_com.samourai.wallet_201/res/OD.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: oi.ttf
+Files /tmp/fromPlay_com.samourai.wallet_201/res/oi.xml and /tmp/fromBuild_com.samourai.wallet_201/res/oi.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Oi.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Oi.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/oJ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/oJ.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: OM.png
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: on.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/o-.png and /tmp/fromBuild_com.samourai.wallet_201/res/o-.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/oP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/oP.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: or.ttf
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: OX1.png
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: OX.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/oY.xml and /tmp/fromBuild_com.samourai.wallet_201/res/oY.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/OZ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/OZ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/p0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/p0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/p3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/p3.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: p8.png
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: pa1.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pa.xml and /tmp/fromBuild_com.samourai.wallet_201/res/pa.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/pE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pI.png and /tmp/fromBuild_com.samourai.wallet_201/res/pI.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: pj.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/PL.png and /tmp/fromBuild_com.samourai.wallet_201/res/PL.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-_.png and /tmp/fromBuild_com.samourai.wallet_201/res/-_.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pN.png and /tmp/fromBuild_com.samourai.wallet_201/res/pN.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/PQ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/PQ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/PT.xml and /tmp/fromBuild_com.samourai.wallet_201/res/PT.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pV.png and /tmp/fromBuild_com.samourai.wallet_201/res/pV.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/pV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/pV.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/PV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/PV.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qC.png and /tmp/fromBuild_com.samourai.wallet_201/res/qC.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QD.png and /tmp/fromBuild_com.samourai.wallet_201/res/QD.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qF.png and /tmp/fromBuild_com.samourai.wallet_201/res/qF.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qH.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qH.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Qh.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Qh.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QH.xml and /tmp/fromBuild_com.samourai.wallet_201/res/QH.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/QN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_q.png and /tmp/fromBuild_com.samourai.wallet_201/res/_q.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Q-.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qS.png and /tmp/fromBuild_com.samourai.wallet_201/res/qS.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qS.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qS.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QS.xml and /tmp/fromBuild_com.samourai.wallet_201/res/QS.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qy.png and /tmp/fromBuild_com.samourai.wallet_201/res/qy.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qz1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qz1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QZ.png and /tmp/fromBuild_com.samourai.wallet_201/res/QZ.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/qz.xml and /tmp/fromBuild_com.samourai.wallet_201/res/qz.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/QZ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/QZ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/r2.xml and /tmp/fromBuild_com.samourai.wallet_201/res/r2.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/R5.xml and /tmp/fromBuild_com.samourai.wallet_201/res/R5.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/R7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/R7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rh.png and /tmp/fromBuild_com.samourai.wallet_201/res/rh.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/RJ.png and /tmp/fromBuild_com.samourai.wallet_201/res/RJ.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/rK.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/RK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/RK.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: rM.txt
+Files /tmp/fromPlay_com.samourai.wallet_201/res/RM.xml and /tmp/fromBuild_com.samourai.wallet_201/res/RM.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ro.png and /tmp/fromBuild_com.samourai.wallet_201/res/ro.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_r.png and /tmp/fromBuild_com.samourai.wallet_201/res/_r.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/rR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rU.xml and /tmp/fromBuild_com.samourai.wallet_201/res/rU.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rw.xml and /tmp/fromBuild_com.samourai.wallet_201/res/rw.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Rw.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Rw.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/rx.png and /tmp/fromBuild_com.samourai.wallet_201/res/rx.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Rx.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Rx.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/S1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/S1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/s7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/s7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/s8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/s8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/S8.xml and /tmp/fromBuild_com.samourai.wallet_201/res/S8.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/SE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/SE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/SF.xml and /tmp/fromBuild_com.samourai.wallet_201/res/SF.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/sH.png and /tmp/fromBuild_com.samourai.wallet_201/res/sH.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Sh.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Sh.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/SN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/SN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/sq.xml and /tmp/fromBuild_com.samourai.wallet_201/res/sq.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/sr.png and /tmp/fromBuild_com.samourai.wallet_201/res/sr.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Sr.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Sr.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/St.xml and /tmp/fromBuild_com.samourai.wallet_201/res/St.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Su.png and /tmp/fromBuild_com.samourai.wallet_201/res/Su.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/sy.png and /tmp/fromBuild_com.samourai.wallet_201/res/sy.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/t1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/t1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tb.png and /tmp/fromBuild_com.samourai.wallet_201/res/tb.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: td.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tI.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tI.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tj1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tj1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tj.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tj.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tJ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tJ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/TJ.xml and /tmp/fromBuild_com.samourai.wallet_201/res/TJ.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tK.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tL.png and /tmp/fromBuild_com.samourai.wallet_201/res/tL.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Tl.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Tm.png and /tmp/fromBuild_com.samourai.wallet_201/res/Tm.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Tp.png and /tmp/fromBuild_com.samourai.wallet_201/res/Tp.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tp.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tp.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/TP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/TP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tr.png and /tmp/fromBuild_com.samourai.wallet_201/res/tr.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Tr.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Tt.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Tt.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tu.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tu.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tU.xml and /tmp/fromBuild_com.samourai.wallet_201/res/tU.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/tW.png and /tmp/fromBuild_com.samourai.wallet_201/res/tW.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ty.png and /tmp/fromBuild_com.samourai.wallet_201/res/ty.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/u0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/u0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/U0.xml and /tmp/fromBuild_com.samourai.wallet_201/res/U0.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/U7.xml and /tmp/fromBuild_com.samourai.wallet_201/res/U7.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/U9.xml and /tmp/fromBuild_com.samourai.wallet_201/res/U9.xml differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: UC.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/uE.png and /tmp/fromBuild_com.samourai.wallet_201/res/uE.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/UF.png and /tmp/fromBuild_com.samourai.wallet_201/res/UF.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/uh.png and /tmp/fromBuild_com.samourai.wallet_201/res/uh.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/uI.png and /tmp/fromBuild_com.samourai.wallet_201/res/uI.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/uj.png and /tmp/fromBuild_com.samourai.wallet_201/res/uj.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Um.png and /tmp/fromBuild_com.samourai.wallet_201/res/Um.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/UR.png and /tmp/fromBuild_com.samourai.wallet_201/res/UR.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/uR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/uR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ut.png and /tmp/fromBuild_com.samourai.wallet_201/res/Ut.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/V3.xml and /tmp/fromBuild_com.samourai.wallet_201/res/V3.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/v9.png and /tmp/fromBuild_com.samourai.wallet_201/res/v9.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/v9.xml and /tmp/fromBuild_com.samourai.wallet_201/res/v9.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/vf.xml and /tmp/fromBuild_com.samourai.wallet_201/res/vf.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/vG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/vG.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Vi.png and /tmp/fromBuild_com.samourai.wallet_201/res/Vi.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: vi.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Vl.png and /tmp/fromBuild_com.samourai.wallet_201/res/Vl.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/vL.xml and /tmp/fromBuild_com.samourai.wallet_201/res/vL.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Vl.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Vl.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: vq1.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/vq.xml and /tmp/fromBuild_com.samourai.wallet_201/res/vq.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: VW.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/w5.png and /tmp/fromBuild_com.samourai.wallet_201/res/w5.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: W5.png
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: w7.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/w9.xml and /tmp/fromBuild_com.samourai.wallet_201/res/w9.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/wb.png and /tmp/fromBuild_com.samourai.wallet_201/res/wb.png differ
+Only in /tmp/fromPlay_com.samourai.wallet_201/res: Wj1.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Wj.png and /tmp/fromBuild_com.samourai.wallet_201/res/Wj.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/wl.png and /tmp/fromBuild_com.samourai.wallet_201/res/wl.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/wO.png and /tmp/fromBuild_com.samourai.wallet_201/res/wO.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Wo.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Wo.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/W-.png and /tmp/fromBuild_com.samourai.wallet_201/res/W-.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ws.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ws.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/WU.xml and /tmp/fromBuild_com.samourai.wallet_201/res/WU.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/WY.png and /tmp/fromBuild_com.samourai.wallet_201/res/WY.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: X9.ttf
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xa.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xa.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xb.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xb.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xd.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xd.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xD.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xD.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xe.png and /tmp/fromBuild_com.samourai.wallet_201/res/xe.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Xe.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Xe.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xk.png and /tmp/fromBuild_com.samourai.wallet_201/res/xk.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Xk.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Xk.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Xl.xml
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: __.xml
+Files /tmp/fromPlay_com.samourai.wallet_201/res/XM.xml and /tmp/fromBuild_com.samourai.wallet_201/res/XM.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/X_.png and /tmp/fromBuild_com.samourai.wallet_201/res/X_.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xs.xml and /tmp/fromBuild_com.samourai.wallet_201/res/xs.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/xz.png and /tmp/fromBuild_com.samourai.wallet_201/res/xz.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Y1.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Y1.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Y2.png and /tmp/fromBuild_com.samourai.wallet_201/res/Y2.png differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Y3.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/y6.xml and /tmp/fromBuild_com.samourai.wallet_201/res/y6.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: Y9.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yA.xml and /tmp/fromBuild_com.samourai.wallet_201/res/yA.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: YD.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Ye.xml and /tmp/fromBuild_com.samourai.wallet_201/res/Ye.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yf.xml and /tmp/fromBuild_com.samourai.wallet_201/res/yf.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yl.xml and /tmp/fromBuild_com.samourai.wallet_201/res/yl.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yn.png and /tmp/fromBuild_com.samourai.wallet_201/res/yn.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/YN.xml and /tmp/fromBuild_com.samourai.wallet_201/res/YN.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/YO.xml and /tmp/fromBuild_com.samourai.wallet_201/res/YO.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Yp.png and /tmp/fromBuild_com.samourai.wallet_201/res/Yp.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/YR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/YR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yV.xml and /tmp/fromBuild_com.samourai.wallet_201/res/yV.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/_y.xml and /tmp/fromBuild_com.samourai.wallet_201/res/_y.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/yY.png and /tmp/fromBuild_com.samourai.wallet_201/res/yY.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/z5.xml and /tmp/fromBuild_com.samourai.wallet_201/res/z5.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zc.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zc.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZC.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ZC.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zE.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zE.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zg.png and /tmp/fromBuild_com.samourai.wallet_201/res/zg.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zG.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zG.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zH.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zH.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZJ.png and /tmp/fromBuild_com.samourai.wallet_201/res/ZJ.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZK.png and /tmp/fromBuild_com.samourai.wallet_201/res/ZK.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZK.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ZK.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: zL.png
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZM.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ZM.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zP.png and /tmp/fromBuild_com.samourai.wallet_201/res/zP.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zp.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zp.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZP.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ZP.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zr.png and /tmp/fromBuild_com.samourai.wallet_201/res/zr.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zR.png and /tmp/fromBuild_com.samourai.wallet_201/res/zR.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZR.png and /tmp/fromBuild_com.samourai.wallet_201/res/ZR.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/zR.xml and /tmp/fromBuild_com.samourai.wallet_201/res/zR.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/Zv.png and /tmp/fromBuild_com.samourai.wallet_201/res/Zv.png differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/ZW.xml and /tmp/fromBuild_com.samourai.wallet_201/res/ZW.xml differ
+Files /tmp/fromPlay_com.samourai.wallet_201/res/-z.xml and /tmp/fromBuild_com.samourai.wallet_201/res/-z.xml differ
+Only in /tmp/fromBuild_com.samourai.wallet_201/res: zz.png
+Files /tmp/fromPlay_com.samourai.wallet_201/resources.arsc and /tmp/fromBuild_com.samourai.wallet_201/resources.arsc differ
+
+Revision, tag (and its signature):
+
+===== End Results =====
+</code></pre></div></div>
+
+<p>This product is <strong>not verifiable</strong>.</p>
+
+          
+
+  <p>
+  Product page updated by <a href="/authors/emanuel">Emanuel</a>, Mohammad Rafigh, <a href="/authors/leo">Leo Wandersleb</a></p>
+
+
+        </div>
+      </div><script type="module">
+    const { expertOpinions } = await import('/assets/js/nostr-opinion.js');
+</script>
+
+
+
+<nostr-opinion
+  subject="mobile/com.samourai.wallet"
+  opinionHeader="******** Opinion about Samourai Wallet (mobile)"
+  opinionFooter="[Join the conversation!](https://walletscrutiny.com/mobile/com.samourai.wallet/)"
+  opinionTitle="Opinion about Samourai Wallet"
+  opinionImage="https://walletscrutiny.com/images/social/mobile/com.samourai.wallet.png"
+  opinionTags="WalletScrutiny,nostrOpinion"
+  expertOpinionsConfig='{
+        "headline": "Community Opinions ($$nTrusted$$/$$nAll$$)",
+        "description": "These comments are contributed by nostr users using the nostr-opinions-plugin.",
+        "trustedAuthors": [
+          "npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6",
+          "npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d",
+          "npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas"
+        ]
+    }'>
+></nostr-opinion>
+
+      <div class="article-after disclaimer">
+  <div>
+    <h2>Do your own research</h2>
+    <p>In addition to reading our analysis, it is important to do your own checks. Before transferring any bitcoin to your wallet, look up reviews for the wallet you want to use. They should be easy to find. If they aren't, that itself is a reason to be extra careful.</p>
+  </div>
+</div>
+
+      <div class="spacer x2"></div>
+      <h2>Share on Social Media</h2>
+      <div style="margin-bottom: 20px; display: flex; align-items: center;" id="shareButtonContainer"></div>
+    </div>
+  </article>
+</div>
+
+<script>
+  window.addEventListener('verificationsUILoaded', async () => {
+    renderShareButton({
+      container: "#shareButtonContainer",
+      defaultMessage: "Check the Samourai Wallet page on WalletScrutiny!",
+      showRawButtons: true,
+      showOnLabel: ""
+    });
+  });
+</script>
+
+
+    <div class="page__footer">
+      <footer>
+        <div class="footer-links">
+  <a href="/howtoContributeToWS/"><i class="fas fa-hands-helping"></i>Contribute</a>
+  <a href="/donate/"><i class="fas fa-donate"></i>Donate</a>
+  <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom"><i class="fab fa-gitlab" aria-hidden="true"></i>GitLab</a>
+  <a href="https://discord.gg/yCNdcSJw9k"><i class="fab fa-discord"></i>Discord</a>
+  <a href="https://njump.me/npub1j9kttlc86w63emmldd4h74rekyqpksqup6p9trhp5gjsf374qlyszvuswx">
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 875 875" style="color: #1caa89; width: 21px; height: 21px; vertical-align: middle;">
+      <path fill="currentColor" d="m684.72,485.57c.22,12.59-11.93,51.47-38.67,81.3-26.74,29.83-56.02,20.85-58.42,20.16s-3.09-4.46-7.89-3.77-9.6,6.17-18.86,7.2-17.49,1.71-26.06-1.37c-4.46.69-5.14.71-7.2,2.24s-17.83,10.79-21.6,11.47c0,7.2-1.37,44.57,0,55.89s3.77,25.71,7.54,36c3.77,10.29,2.74,10.63,7.54,9.94s13.37.34,15.77,4.11c2.4,3.77,1.37,6.51,5.49,8.23s60.69,17.14,99.43,19.2c26.74.69,42.86,2.74,52.12,19.54,1.37,7.89,7.54,13.03,11.31,14.06s8.23,2.06,12,5.83,1.03,8.23,5.49,11.66c4.46,3.43,14.74,8.57,25.37,13.71,10.63,5.14,15.09,13.37,15.77,16.11s1.71,10.97,1.71,10.97c0,0-8.91,0-10.97-2.06s-2.74-5.83-2.74-5.83c0,0-6.17,1.03-7.54,3.43s.69,2.74-7.89.69-11.66-3.77-18.17-8.57c-6.51-4.8-16.46-17.14-25.03-16.8,4.11,8.23,5.83,8.23,10.63,10.97s8.23,5.83,8.23,5.83l-7.2,4.46s-4.46,2.06-14.74-.69-11.66-4.46-12.69-10.63,0-9.26-2.74-14.4-4.11-15.77-22.29-21.26c-18.17-5.49-66.52-21.26-100.12-24.69s-22.63-2.74-28.11-1.37-15.77,4.46-26.4-1.37c-10.63-5.83-16.8-13.71-17.49-20.23s-1.71-10.97,0-19.2,3.43-19.89,1.71-26.74-14.06-55.89-19.89-64.12c-13.03,1.03-50.74-.69-50.74-.69,0,0-2.4-.69-17.49,5.83s-36.48,13.76-46.77,19.93-14.4,9.7-16.12,13.13c.12,3-1.23,7.72-2.79,9.06s-12.48,2.42-12.48,2.42c0,0-5.85,5.86-8.25,9.97-6.86,9.6-55.2,125.14-66.52,149.83-13.54,32.57-9.77,27.43-37.71,27.43s-8.06.3-8.06.3c0,0-12.34,5.88-16.8,5.88s-18.86-2.4-26.4,0-16.46,9.26-23.31,10.29-4.95-1.34-8.38-3.74c-4-.21-14.27-.12-14.27-.12,0,0,1.74-6.51,7.91-10.88,8.23-5.83,25.37-16.11,34.63-21.26s17.49-7.89,23.31-9.26,18.51-6.17,30.51-9.94,19.54-8.23,29.83-31.54c10.29-23.31,50.4-111.43,51.43-116.23.63-2.96,3.73-6.48,4.8-15.09.66-5.35-2.49-13.04,1.71-22.63,10.97-25.03,21.6-20.23,26.4-20.23s17.14.34,26.4-1.37,15.43-2.74,24.69-7.89,11.31-8.91,11.31-8.91l-19.89-3.43s-18.51.69-25.03-4.46-15.43-15.77-15.43-15.77l-7.54-7.2,1.03,8.57s-5.14-8.91-6.51-10.29-8.57-6.51-11.31-11.31-7.54-25.03-7.54-25.03l-6.17,13.03-1.71-18.86-5.14,7.2-2.74-16.11-4.8,8.23-3.43-14.4-5.83,4.46-2.4-10.29-5.83-3.43s-14.06-9.26-16.46-9.6-4.46,3.43-4.46,3.43l1.37,12-12.2-6.27-7-11.9s2.36,4.01-9.62,7.53c-20.55,0-21.89-2.28-24.93-3.94-1.31-6.56-5.57-10.11-5.57-10.11h-20.57l-.34-6.86-7.89,3.09.69-10.29h-14.06l1.03-11.31h-8.91s3.09-9.26,25.71-22.97,25.03-16.46,46.29-17.14c21.26-.69,32.91,2.74,46.29,8.23s38.74,13.71,43.89,17.49c11.31-9.94,28.46-19.89,34.29-19.89,1.03-2.4,6.19-12.33,17.96-17.6,35.31-15.81,108.13-34,131.53-35.54,31.2-2.06,7.89-1.37,39.09,2.06,31.2,3.43,54.17,7.54,69.6,12.69,12.58,4.19,25.03,9.6,34.29,2.06,4.33-1.81,11.81-1.34,17.83-5.14,30.69-25.09,34.72-32.35,43.63-41.95s20.14-24.91,22.54-45.14,4.46-58.29-10.63-88.12-28.8-45.26-34.63-69.26c-5.83-24-8.23-61.03-6.17-73.03,2.06-12,5.14-22.29,6.86-30.51s9.94-14.74,19.89-16.46c9.94-1.71,17.83,1.37,22.29,4.8,4.46,3.43,11.65,6.28,13.37,10.29.34,1.71-1.37,6.51,8.23,8.23,9.6,1.71,16.05,4.16,16.05,4.16,0,0,15.64,4.29,3.11,7.73-12.69,2.06-20.52-.71-24.29,1.69s-7.21,10.08-9.61,11.1-7.2.34-12,4.11-9.6,6.86-12.69,14.4-5.49,15.77-3.43,26.74,8.57,31.54,14.4,43.2c5.83,11.66,20.23,40.8,24.34,47.66s15.77,29.49,16.8,53.83,1.03,44.23,0,54.86-10.84,51.65-35.53,85.94c-8.16,14.14-23.21,31.9-24.67,35.03-1.45,3.13-3.02,4.88-1.61,7.65,4.62,9.05,12.87,22.13,14.71,29.22,2.29,6.64,6.99,16.13,7.22,28.72Z"/>
+    </svg>Nostr
+  </a>
+  <a href="https://x.com/WalletScrutiny"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>
+  <a href="mailto:info@WalletScrutiny.com"><i class="fas fa-envelope"></i>E-Mail</a>
+  <a href="https://www.reddit.com/r/WalletScrutiny"><i class="fab fa-reddit"></i>Reddit</a>
+</div>
+
+        <div class="page__footer-copyright">Page last compiled Jul 09, 2026.
+  Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+</div>
+
+      </footer>
+    </div>
+
+      <script>const domSanitizationSrc = '/dist/dom_sanitization.8fd45f03875c5545260d.bundle.min.js';
+  const verificationsDataSrc = '/dist/verifications_data.ad96cdf440bae4a78d08.bundle.min.js';
+  const verificationsUiSrc = '/dist/verifications_ui.5b3e4237be586677d59a.bundle.min.js';
+  const shareUiSrc = '/dist/share_ui.fc95286b4f85d7a73c2d.bundle.min.js';
+  const loadVerificationsUi = true;
+  const loadShareUi = false;
+
+  function preloadScript(href) {
+    const link = document.createElement('link');
+    link.rel = 'preload';
+    link.as = 'script';
+    link.href = href;
+    document.head.appendChild(link);
+  }
+
+  preloadScript(domSanitizationSrc);
+  preloadScript(verificationsDataSrc);
+
+  function appendScript(src, onload) {
+    const script = document.createElement('script');
+    if (onload) {
+      script.onload = onload;
+    }
+    script.src = src;
+    document.body.appendChild(script);
+    return script;
+  }
+
+  if (loadVerificationsUi) {
+    const verificationsUiPreload = document.createElement('link');
+    verificationsUiPreload.rel = 'preload';
+    verificationsUiPreload.as = 'script';
+    verificationsUiPreload.href = verificationsUiSrc;
+    document.head.appendChild(verificationsUiPreload);
+  }
+
+  const startVerificationsData = () => {
+    window.dispatchEvent(new CustomEvent("verificationsDataLoaded"));
+
+    (async function() {
+      const ndkConnectPromise = nostrConnect();
+
+      let loadedFromCache = false;
+      window.allAssetInformation = await getAllAssetInformation({
+        onCachedDataLoaded: (cachedData) => {
+          console.log('Cached data loaded immediately!', cachedData);
+          loadedFromCache = true;
+          window.allAssetInformation = cachedData;
+          window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+        }
+      });
+
+      await ndkConnectPromise.catch(() => {});
+
+      if (!loadedFromCache || false) {
+        window.dispatchEvent(new CustomEvent("allAssetInformationLoaded"));
+      }
+      loadDraftVerificationsNotifications();
+
+      setTimeout(() => {
+        backgroundSyncEvents();
+      }, 7000);
+    })();
+
+    const onUiLoaded = () => {
+      window.dispatchEvent(new CustomEvent("verificationsUILoaded"));
+    };
+
+    if (loadVerificationsUi) {
+      appendScript(verificationsUiSrc, onUiLoaded);
+    } else if (loadShareUi) {
+      appendScript(shareUiSrc, onUiLoaded);
+    }
+  };
+
+  appendScript(domSanitizationSrc, () => {
+    appendScript(verificationsDataSrc, startVerificationsData);
+  });</script><script type="text/javascript" src="/assets/js/color-thief.umd.js"></script>
+
+<script type="text/javascript" src="/fewWallets.js"></script>
+<script>
+  (function() {
+    const script = document.createElement('script');
+    script.onload = () => {
+      window.allWalletsLoaded = true;
+      window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
+    };
+    script.src = '/allWallets.js';
+    (document.body || document.documentElement).appendChild(script);
+  })();
+</script>
+<script src="/dist/site_main.d5dcbd90e4190fc54597.bundle.min.js"></script><script defer="defer" src="/dist/font_awesome.3b27df111e3c3ba628af.bundle.min.js"></script> <script defer="defer" src="/assets/js/searchWallets.js"></script> <script src="/assets/js/mobilePlatformTabs.js"></script> <script src="/assets/js/review.js"></script>
+  </body>
+</html>

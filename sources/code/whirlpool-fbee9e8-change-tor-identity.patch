@@ -1,0 +1,56 @@
+From fbee9e820f511661c888a53c75a5e5e610b000f5 Mon Sep 17 00:00:00 2001
+From: zeroleak <zeroleak@samourai.io>
+Date: Fri, 29 Mar 2024 12:28:46 +0100
+Subject: [PATCH] fix: change Tor identity on REGISTER_OUTPUT
+
+---
+ pom.xml                                                   | 8 ++++----
+ .../java/com/samourai/whirlpool/client/mix/MixClient.java | 1 +
+ 2 files changed, 5 insertions(+), 4 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index 8f92c7a..b08f20f 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -14,17 +14,17 @@
+         <dependency>
+             <groupId>io.samourai.code.whirlpool</groupId>
+             <artifactId>whirlpool-protocol</artifactId>
+-            <version>1.0.1</version>
++            <version>1.0.2</version>
+         </dependency>
+         <dependency>
+             <groupId>io.samourai.code.wallet</groupId>
+             <artifactId>extlibj</artifactId>
+-            <version>1.0.2-SNAPSHOT</version>
++            <version>1.0.2</version>
+         </dependency>
+         <dependency>
+             <groupId>io.samourai.code.wallet</groupId>
+             <artifactId>soroban-client-java</artifactId>
+-            <version>1.0.0</version>
++            <version>1.0.1</version>
+             <scope>compile</scope>
+         </dependency>
+         <dependency>
+@@ -48,7 +48,7 @@
+         <dependency>
+             <groupId>io.samourai.code.wallet</groupId>
+             <artifactId>java-http-client</artifactId>
+-            <version>2.0.0</version>
++            <version>2.0.1</version>
+             <scope>test</scope>
+         </dependency>
+     </dependencies>
+diff --git a/src/main/java/com/samourai/whirlpool/client/mix/MixClient.java b/src/main/java/com/samourai/whirlpool/client/mix/MixClient.java
+index 87b9f23..9aea207 100644
+--- a/src/main/java/com/samourai/whirlpool/client/mix/MixClient.java
++++ b/src/main/java/com/samourai/whirlpool/client/mix/MixClient.java
+@@ -274,6 +274,7 @@ protected void doRegisterOutput(MixStatusResponseRegisterOutput mixNotificationR
+         mixProcess.registerOutput(mixNotificationRegisterOutput);
+ 
+     // use new identity to unlink from input
++    config.getHttpClientService().changeIdentity();
+     WhirlpoolApiClient whirlpoolApiClient = mixParams.getWhirlpoolApiClient();
+     WhirlpoolApiClient apiTemp = whirlpoolApiClient.createNewIdentity();
+ 
