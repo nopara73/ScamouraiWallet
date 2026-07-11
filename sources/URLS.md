@@ -1,6 +1,6 @@
 # Citation URL inventory
 
-Every external URL appearing in `POST_MORTEM.md`, sorted lexicographically. “External link only” means the original URL remains cited but no complete local copy was committed. Retrieval and archive assembly date: July 10, 2026.
+Every external URL appearing in `POST_MORTEM.md`, sorted lexicographically. “External link only” means the original URL remains cited but no complete local copy was committed. Retrieval and archive assembly date: July 10–11, 2026.
 
 - <https://archive.is/xUpKj> — local: [web/dojo-documentation-archive.html](web/dojo-documentation-archive.html)
 - <https://arstechnica.com/information-technology/2015/05/crypto-flaws-in-blockchain-android-app-sent-bitcoins-to-the-wrong-address/> — external link only
@@ -22,10 +22,10 @@ Every external URL appearing in `POST_MORTEM.md`, sorted lexicographically. “E
 - <https://github.com/noosphere888/sentinel-android/blob/b5ef29c14adbd65bb596f60856c8e5129cdcf000/app/src/main/java/com/samourai/sentinel/api/ApiService.kt#L114-L141> — local: [code/sentinel-android-b5ef29c-cited-files.zip](code/sentinel-android-b5ef29c-cited-files.zip)
 - <https://github.com/noosphere888/sentinel-android/blob/b5ef29c14adbd65bb596f60856c8e5129cdcf000/app/src/main/java/com/samourai/sentinel/ui/home/HomeActivity.kt#L286-L320> — local: [code/sentinel-android-b5ef29c-cited-files.zip](code/sentinel-android-b5ef29c-cited-files.zip)
 - <https://github.com/nopara73/ScamouraiWallet> — this repository
-- <https://github.com/nopara73/ZeroLink> — local: [code/zerolink-full-history.bundle](code/zerolink-full-history.bundle)
 - <https://github.com/nopara73/ZeroLink/commit/25d150216e3ab5027c5d2b79659d235252eb9daa> — local: [code/zerolink-full-history.bundle](code/zerolink-full-history.bundle), [code/zerolink-25d1502-publication-snapshot.zip](code/zerolink-25d1502-publication-snapshot.zip), [code/zerolink-25d1502-publication.patch](code/zerolink-25d1502-publication.patch)
 - <https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e> — local: [code/zerolink-full-history.bundle](code/zerolink-full-history.bundle), [code/zerolink-8fbdcb9-fix-typos.patch](code/zerolink-8fbdcb9-fix-typos.patch), [screenshots/zerolink-first-samourai-commit-fix-typos.jpg](screenshots/zerolink-first-samourai-commit-fix-typos.jpg)
 - <https://github.com/nopara73/ZeroLink/commits/master/> — local: [code/zerolink-full-history.bundle](code/zerolink-full-history.bundle)
+- <https://github.com/nopara73/ZeroLink> — local: [code/zerolink-full-history.bundle](code/zerolink-full-history.bundle)
 - <https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/api/APIFactory.java#L373-L405> — local: [code/samourai-wallet-android-c71f21a-cited-files.zip](code/samourai-wallet-android-c71f21a-cited-files.zip)
 - <https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/api/APIFactory.java#L430-L489> — local: [code/samourai-wallet-android-c71f21a-cited-files.zip](code/samourai-wallet-android-c71f21a-cited-files.zip)
 - <https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/LandingActivity.java#L91-L125> — local: [code/samourai-wallet-android-c71f21a-cited-files.zip](code/samourai-wallet-android-c71f21a-cited-files.zip)
@@ -69,6 +69,7 @@ Every external URL appearing in `POST_MORTEM.md`, sorted lexicographically. “E
 - <https://www.reddit.com/r/Bitcoin/comments/ku97pu/comment/gir5dzm> — local: [social/reddit/ku97pu-gir5dzm.html](social/reddit/ku97pu-gir5dzm.html)
 - <https://www.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/> — local: [social/reddit/zpnug5-joinmarket-dev.html](social/reddit/zpnug5-joinmarket-dev.html)
 - <https://www.reddit.com/r/WasabiWallet/comments/icvu58/any_statement_to_this_is_this_true/> — local: [social/reddit/icvu58-oxt-response.html](social/reddit/icvu58-oxt-response.html)
+- <https://www.worldpressphoto.org/collection/photo-contest/1961/yasushi-nagao/1> — external identification of the Inejirō Asanuma assassination photograph
 - <https://www.youtube.com/watch?v=_UZKNK3DZJo> — local: [video/bitcoin-takeover-tdevd.json](video/bitcoin-takeover-tdevd.json) (metadata only)
 - <https://www.youtube.com/watch?v=_Z5SwEnTOsU&t=3462s> — local: [video/blockdigest-shi256.json](video/blockdigest-shi256.json) (metadata only)
 - <https://www.youtube.com/watch?v=hdLk4lSoLz8> — local: [video/citadel-dispatch-joinmarket.json](video/citadel-dispatch-joinmarket.json) (metadata only)
@@ -82,6 +83,14 @@ Every external URL appearing in `POST_MORTEM.md`, sorted lexicographically. “E
 - <https://x.com/ersolus/status/1631997876682346497> — local: [social/tweets/ersolus-1631997876682346497.json](social/tweets/ersolus-1631997876682346497.json)
 - <https://x.com/nopara73/status/1647489516939382784> — local: [social/tweets/nopara73-1647489516939382784.json](social/tweets/nopara73-1647489516939382784.json), [screenshots/nopara73-death-threat-statement-2023-04-16.jpg](screenshots/nopara73-death-threat-statement-2023-04-16.jpg)
 - <https://x.com/nopara73/status/1648177095456223232> — local: [social/tweets/nopara73-1648177095456223232.json](social/tweets/nopara73-1648177095456223232.json), [screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png](screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png)
+- <https://x.com/SamouraiDev/status/1552265920013271041> — local: [social/tweets/samouraidev-1552265920013271041.json](social/tweets/samouraidev-1552265920013271041.json), [screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png](screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png)
+- <https://x.com/SamouraiDev/status/1647203226352074752> — local: [social/tweets/samouraidev-1647203226352074752.json](social/tweets/samouraidev-1647203226352074752.json)
+- <https://x.com/SamouraiDev/status/1649019968296566787> — local: [social/tweets/samouraidev-1649019968296566787.json](social/tweets/samouraidev-1649019968296566787.json), [social/media/samouraidev-1649019968296566787-photo1.png](social/media/samouraidev-1649019968296566787-photo1.png), [screenshots/x-samouraidev-2023-04-20-deserve-worse.png](screenshots/x-samouraidev-2023-04-20-deserve-worse.png)
+- <https://x.com/SamouraiDev/status/1759902075217965125> — local: [social/tweets/samouraidev-1759902075217965125.json](social/tweets/samouraidev-1759902075217965125.json), [screenshots/x-samouraidev-2024-02-20-get-yours-soon.png](screenshots/x-samouraidev-2024-02-20-get-yours-soon.png)
+- <https://x.com/SamouraiDev/status/1759958320289366412> — local: [social/tweets/samouraidev-1759958320289366412.json](social/tweets/samouraidev-1759958320289366412.json), [screenshots/x-samouraidev-2024-02-20-get-yours-soon.png](screenshots/x-samouraidev-2024-02-20-get-yours-soon.png)
+- <https://x.com/SamouraiDev/status/1775920406953701884> — local: [social/tweets/samouraidev-1775920406953701884.json](social/tweets/samouraidev-1775920406953701884.json), [social/media/samouraidev-1775920406953701884-photo1.png](social/media/samouraidev-1775920406953701884-photo1.png), [screenshots/x-samouraidev-2024-04-04-gutted-assassination.png](screenshots/x-samouraidev-2024-04-04-gutted-assassination.png)
 - <https://x.com/SamouraiDev> — local: [social/samouraidev-profile-2026-07-10.html](social/samouraidev-profile-2026-07-10.html), [screenshots/samouraidev-profile-2026-07-10.jpg](screenshots/samouraidev-profile-2026-07-10.jpg)
 - <https://x.com/SamouraiWallet/status/1376313082658496516> — local: [social/tweets/samouraiwallet-1376313082658496516.json](social/tweets/samouraiwallet-1376313082658496516.json)
+- <https://x.com/SamouraiWallet/status/1648132389221068802> — local: [social/tweets/samouraiwallet-1648132389221068802.json](social/tweets/samouraiwallet-1648132389221068802.json), [screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png](screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png)
+- <https://x.com/SamouraiWallet/status/1649363851526152192> — local: [social/tweets/samouraiwallet-1649363851526152192.json](social/tweets/samouraiwallet-1649363851526152192.json)
 - <https://x.com/Vladcostea/status/1298771143655124993> — local: [social/tweets/vladcostea-1298771143655124993.json](social/tweets/vladcostea-1298771143655124993.json)

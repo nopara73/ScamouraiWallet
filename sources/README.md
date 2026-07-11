@@ -1,6 +1,6 @@
 # Source archive
 
-This directory preserves the primary material cited by [`POST_MORTEM.md`](../POST_MORTEM.md). It was assembled on July 10, 2026.
+This directory preserves the primary material cited by [`POST_MORTEM.md`](../POST_MORTEM.md). It was assembled on July 10–11, 2026.
 
 [`URLS.md`](URLS.md) lists every external URL in the essay and identifies the corresponding local copy where one is included. [`SHA256SUMS`](SHA256SUMS) records a SHA-256 digest for every archived file.
 
@@ -9,7 +9,7 @@ This directory preserves the primary material cited by [`POST_MORTEM.md`](../POS
 - `legal/` — court filings and the defense letter concerning the late-disclosed FinCEN communication.
 - `research/` — the complete OXT report and the cited open research papers and thesis.
 - `code/` — exact-commit source snapshots, commit patches, and a complete ZeroLink Git bundle.
-- `screenshots/` — 26 evidence images: 22 illustrated exhibits used in the essay plus four supplementary OXT report pages retained for verification.
+- `screenshots/` — 30 evidence images: 26 illustrated exhibits used in the essay plus four supplementary OXT report pages retained for verification.
 - `social/` — public profile HTML, X oEmbed records, and saved Old Reddit pages.
 - `video/` — YouTube oEmbed metadata identifying each cited recording. The videos themselves are not copied.
 - `web/` — dated HTML or Markdown snapshots of central web sources that could be obtained cleanly.

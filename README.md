@@ -7,10 +7,10 @@ This repository contains my first-person account of the conflict between Samoura
 - [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the complete essay with citations and evidence placed beside the events it documents.
 - [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 34-page edition.
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
-- [**Complete citation inventory**](sources/URLS.md) — all 83 external URLs in the essay, with local copies identified where available.
-- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 95 archived files.
+- [**Complete citation inventory**](sources/URLS.md) — 92 external URLs and preserved public-post permalinks, with local copies identified where available.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 109 archived files.
 
-The archive includes 26 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
+The archive includes 30 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
 
 ## Evidence map
 
@@ -29,6 +29,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 - [**Dojo's own documentation says it bypassed the default hosted servers.**](sources/web/dojo-documentation-archive.html) It also describes the Tracker that monitored registered xpubs and addresses.
 - [**Sentinel moved xpub lookups from Blockchain.info to Samourai's API in 2017.**](sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg) The [commit patch](sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch) preserves the change directly.
 - [**Sentinel added Tor routing more than two years after the xpub move.**](sources/code/sentinel-1a4722f-add-tor.patch) Exact-commit [v3](sources/code/sentinel-android-cf46177-cited-files.zip) and [pre-seizure v5](sources/code/sentinel-android-b5ef29c-cited-files.zip) snapshots preserve the later server and Tor choices.
+- [**Asked about xpubs reaching Samourai servers, Hill changed “servers” to “coordinator.”**](sources/screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png) The same reply claimed Samourai implemented nopara73's ZeroLink specification because its author lacked the skill to do so; the Git history above disproves that authorship reversal.
 
 ### What the seized servers revealed
 
@@ -57,6 +58,9 @@ The descriptions below are deliberately short. They identify the issue shown by 
 - [**Anonymous messages sent a full address, asked if I thought I could stay safe, and threatened an eventual meeting.**](sources/screenshots/private-threat-we-shall-meet.png) The separate [address screenshot](sources/screenshots/private-threat-censored-address-and-town.png) was supplied with its street-level portion already blacked out; the account labels do not independently prove who controlled them.
 - [**The public SamouraiDev profile paired my name and parents' town with violent language.**](sources/screenshots/samouraidev-profile-2026-07-10.jpg) My parents' street address is intentionally not reproduced or linked anywhere in this repository.
 - [**The official Samourai Wallet account posted “Snitches get stitches.”**](sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png) The complete source image is preserved because X's timeline preview cropped its text.
+- [**Hill told me that as a “collaborator” I deserved “much worse” beside an armed-punishment image.**](sources/screenshots/x-samouraidev-2023-04-20-deserve-worse.png) The [original post](https://x.com/SamouraiDev/status/1649019968296566787), oEmbed record, screenshot, and attached media are preserved.
+- [**A follower hoped I would end up “in a ditch”; Hill answered “Yes” and “Soon.”**](sources/screenshots/x-samouraidev-2024-02-20-get-yours-soon.png) The thread began with Hill saying I was “overdue to get yours” and appending my parents' town as a hashtag.
+- [**“The fat boy is gutted” appeared above a photograph of a politician's onstage assassination.**](sources/screenshots/x-samouraidev-2024-04-04-gutted-assassination.png) The victim was Japanese Socialist Party chairman Inejirō Asanuma—not a prime minister—and the original image file and post metadata are archived.
 
 ### Product-security record
 
