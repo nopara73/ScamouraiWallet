@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="This site aims to provide the docs
+                you need to understand Bitcoin and start building Bitcoin-based
+                applications." />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta property="og:title" content="Operating Modes &#8212; Bitcoin" />
+    <meta property="og:description" content="This site aims to provide the
+    docs you need to understand Bitcoin and start building Bitcoin-based
+    applications." />
+    <meta property="og:image" content="https://developer.bitcoin.org/_static/bitcoindocs.png" />
+    <meta property="og:type" content="website" />
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+    
+    <title>Operating Modes &#8212; Bitcoin</title>
+
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/sphinxbootstrap4.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.3.1-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/main.css" />
+    
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/jquery.qrcode.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/sphinxbootstrap4.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="P2P Network" href="p2p_network.html" />
+    <link rel="prev" title="Payment Processing" href="payment_processing.html" /> 
+  </head><body>
+  
+<nav class="navbar navbar-expand-md  fixed-top navbar-dark">
+		<div class="content-container d-flex flex-wrap">
+			<a class="navbar-brand py-1" href="../index.html">
+				<div class="header-logo">
+					<div class="logo-light"></div>
+				</div>
+			</a>
+			<button class="navbar-toggler navbar-dark ml-auto py-2 black" type="button" data-toggle="collapse"
+				data-target="#exCollapsingNavbar2">
+				&#9776;
+			</button>
+			<div class="navbar-collapse collapse" id="exCollapsingNavbar2">
+				<ul class="navbar-nav mr-auto">
+					
+				</ul>
+				<div class="dropdown-divider d-block d-md-none my-3"></div>
+				
+<form class="form-inline navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" class="navbar-search-input form-control" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+
+			</div>
+		</div>
+	
+		<!--<div class="row hidden-sm-up">
+						<div class="collapse navbar-toggleable-xs container" id="exCollapsingNavbar2">
+								<div class="container">
+								　　 <a class="navbar-brand" href="../index.html">
+												Bitcoin
+										</a>
+								</div>
+								<ul class="nav navbar-nav">
+								</ul>
+								<div class="dropdown-divider"></div>
+								<div class="navbar-text">search<div>
+								
+<form class="form-inline navbar-search" action="../search.html" method="get">
+  <input type="text" name="q" class="navbar-search-input form-control" placeholder="Search" />
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+
+						</div>
+				</div>-->
+</nav>
+</div>
+
+  
+  <div class="breadcrumbs-section" role="navigation" aria-label="related navigation">
+	<div class="content-container">
+		<div class="d-flex justify-content-between flex-wrap">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item">
+					<a href="../index.html">Bitcoin</a>
+				</li>
+				<li class="breadcrumb-item">
+					<a href="index.html"  accesskey="U" class="active" >Developer Guides</a>
+				</li>
+				<li class="breadcrumb-item active">Operating Modes</li>
+			</ol>
+
+			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+				<a href="payment_processing.html" title="Previous Chapter: Payment Processing" class="btn btn-primary"
+					role="botton" accesskey="P">
+					&laquo; Payment Processing
+				</a>
+				<a href="p2p_network.html" title="Next Chapter: P2P Network" class="btn btn-primary"
+					role="botton" accesskey="N">
+					P2P Network &raquo;
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <div class="main container-fluid">
+    <div class="content-container">
+      <div class="row"> 
+  
+      <div class="sphinxsidebar d-none d-md-block">
+        <div class="sphinxsidebarwrapper">          
+            <h4>Table Of Contents</h4>
+            
+            
+              <div class="sidebartoctree">
+                <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Developer Guides</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="block_chain.html">Block Chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="transactions.html">Transactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contracts.html">Contracts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wallets.html">Wallets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="payment_processing.html">Payment Processing</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Operating Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="p2p_network.html">P2P Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mining.html">Mining</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/index.html">Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../reference/intro.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference/block_chain.html">Block Chain</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference/transactions.html">Transactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference/wallets.html">Wallets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference/p2p_networking.html">P2P Network</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reference/rpc/index.html">RPC API Reference</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Examples</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../examples/intro.html">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/testing.html">Testing Applications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/transactions.html">Transactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/payment_processing.html">Payment Processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../examples/p2p_networking.html">P2P Network</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+              </div>
+            
+          
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="payment_processing.html"
+                        title="previous chapter">Payment Processing</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="p2p_network.html"
+                        title="next chapter">P2P Network</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div>
+    <h4>Contribute</h4>
+    <p class="topless">
+      <a href="https://github.com/bitcoin-documentation/website/blob/master/devguide/operating_modes.rst">Edit Page</a>
+    </p>
+  </div>
+        </div>
+      </div>
+       
+  
+        <div class="document">
+        <div class="documentwrapper">
+          <div class="bodywrapper">
+            <div class="body">
+              
+  <div class="section" id="operating-modes">
+<h1>Operating Modes<a class="headerlink" href="#operating-modes" title="Permalink to this headline">¶</a></h1>
+<p>The Bitcoin software has different levels of security and tradeoffs in order to verify the blockchain.</p>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>Currently there are two primary methods of validating the block chain as a client: Full nodes and SPV clients. Other methods, such as server-trusting methods, are not discussed as they are not recommended.</p>
+</div>
+<div class="section" id="full-node">
+<h2>Full Node<a class="headerlink" href="#full-node" title="Permalink to this headline">¶</a></h2>
+<p>The first and most secure model is the one followed by Bitcoin Core, also known as a “thick” or “full chain” client. This security model assures the validity of the block chain by downloading and validating blocks from the genesis block all the way to the most recently discovered block. This is known as using the <em>height</em> of a particular block to verify the client’s view of the <a class="reference external" href="../devguide/p2p_network.html">network</a>.</p>
+<p>For a client to be fooled, an adversary would need to give a complete alternative block chain history that is of greater difficulty than the current “true” chain, which is computationally expensive (if not impossible) due to the fact that the chain with the most cumulative proof of work is by definition the “true” chain. Due to the computational difficulty required to generate a new block at the tip of the chain, the ability to fool a full node becomes very expensive after 6 confirmations. This form of verification is highly resistent to sybil attacks—only a single honest <a class="reference external" href="../devguide/p2p_network.html">network</a> peer is required in order to receive and verify the complete state of the “true” block chain.</p>
+<div class="figure align-default" id="id1">
+<img alt="Block Height Compared To Block Depth" src="../_images/en-block-height-vs-depth.svg" /><p class="caption"><span class="caption-text">Block Height Compared To Block Depth</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="simplified-payment-verification-spv">
+<h2>Simplified Payment Verification (SPV)<a class="headerlink" href="#simplified-payment-verification-spv" title="Permalink to this headline">¶</a></h2>
+<p>An alternative approach detailed in the <a class="reference external" href="https://bitcoin.org/en/bitcoin-paper">original Bitcoin paper</a> is a client that only downloads the headers of blocks during the initial syncing process and then requests transactions from full nodes as needed. This scales linearly with the height of the block chain at only 80 bytes per block header, or up to 4.2MB per year, regardless of total block size.</p>
+<p>As described in the white paper, the merkle root in the block header along with a merkle branch can prove to the SPV client that the transaction in question is embedded in a block in the block chain. This does not guarantee validity of the transactions that are embedded. Instead it demonstrates the amount of work required to perform a double-spend attack.</p>
+<p>The block’s depth in the block chain corresponds to the cumulative difficulty that has been performed to build on top of that particular block. The SPV client knows the merkle root and associated transaction information, and requests the respective merkle branch from a full node. Once the merkle branch has been retrieved, proving the existence of the transaction in the block, the SPV client can then look to block <em>depth</em> as a proxy for transaction validity and security. The cost of an attack on a user by a malicious node who inserts an invalid transaction grows with the cumulative difficulty built on top of that block, since the malicious node alone will be mining this forged chain.</p>
+<div class="section" id="potential-spv-weaknesses">
+<h3>Potential SPV Weaknesses<a class="headerlink" href="#potential-spv-weaknesses" title="Permalink to this headline">¶</a></h3>
+<p>If implemented naively, an SPV client has a few important weaknesses.</p>
+<p>First, while the SPV client can not be easily fooled into thinking a transaction is in a block when it is not, the reverse is not true. A full node can simply lie by omission, leading an SPV client to believe a transaction has not occurred. This can be considered a form of Denial of Service. One mitigation strategy is to connect to a number of full nodes, and send the requests to each node. However this can be defeated by <a class="reference external" href="../devguide/p2p_network.html">network</a> partitioning or Sybil attacks, since identities are essentially free, and can be bandwidth intensive. Care must be taken to ensure the client is not cut off from honest nodes.</p>
+<p>Second, the SPV client only requests transactions from full nodes corresponding to keys it owns. If the SPV client downloads all blocks and then discards unneeded ones, this can be extremely bandwidth intensive. If they simply ask full nodes for blocks with specific transactions, this allows full nodes a complete view of the public addresses that correspond to the user. This is a large privacy leak, and allows for tactics such as denial of service for clients, users, or addresses that are disfavored by those running full nodes, as well as trivial linking of funds. A client could simply spam many fake transaction requests, but this creates a large strain on the SPV client, and can end up defeating the purpose of thin clients altogether.</p>
+<p>To mitigate the latter issue, Bloom filters have been implemented as a method of obfuscation and compression of block data requests.</p>
+</div>
+<div class="section" id="bloom-filters">
+<h3>Bloom Filters<a class="headerlink" href="#bloom-filters" title="Permalink to this headline">¶</a></h3>
+<p>A Bloom filter is a space-efficient probabilistic data structure that is used to test membership of an element. The data structure achieves great data compression at the expense of a prescribed false positive rate.</p>
+<p>A Bloom filter starts out as an array of n bits all set to 0. A set of k random hash functions are chosen, each of which output a single integer between the range of 1 and n.</p>
+<p>When adding an element to the Bloom filter, the element is hashed k times separately, and for each of the k outputs, the corresponding Bloom filter bit at that index is set to 1.</p>
+<p>Querying of the Bloom filter is done by using the same hash functions as before. If all k bits accessed in the bloom filter are set to 1, this demonstrates with high probability that the element lies in the set. Clearly, the k indices could have been set to 1 by the addition of a combination of other elements in the domain, but the parameters allow the user to choose the acceptable false positive rate.</p>
+<p>Removal of elements can only be done by scrapping the bloom filter and re-creating it from scratch.</p>
+</div>
+<div class="section" id="application-of-bloom-filters">
+<h3>Application Of Bloom Filters<a class="headerlink" href="#application-of-bloom-filters" title="Permalink to this headline">¶</a></h3>
+<p>Rather than viewing the false positive rates as a liability, it is used to create a tunable parameter that represents the desired privacy level and bandwidth trade-off. A SPV client creates their Bloom filter and sends it to a full node using the message <code class="docutils literal notranslate"><span class="pre">filterload</span></code>, which sets the filter for which transactions are desired. The command <code class="docutils literal notranslate"><span class="pre">filteradd</span></code> allows addition of desired data to the filter without needing to send a totally new Bloom filter, and <code class="docutils literal notranslate"><span class="pre">filterclear</span></code> allows the connection to revert to standard block discovery mechanisms. If the filter has been loaded, then full nodes will send a modified form of blocks, called a merkle block. The merkle block is simply the block header with the merkle branch associated with the set Bloom filter.</p>
+<p>An SPV client can not only add transactions as elements to the filter, but also public keys, data from signature scripts and pubkey scripts, and more. This enables P2SH transaction finding.</p>
+<p>If a user is more privacy-conscious, he can set the Bloom filter to include more false positives, at the expense of extra bandwidth used for transaction discovery. If a user is on a tight bandwidth budget, he can set the false-positive rate to low, knowing that this will allow full nodes a clear view of what transactions are associated with his client.</p>
+<p><strong>Resources:</strong> <a class="reference external" href="http://bitcoinj.github.io">BitcoinJ</a>, a Java implementation of Bitcoin that is based on the SPV security model and Bloom filters. Used in most Android wallets.</p>
+<p>Bloom filters were standardized for use via <a class="reference external" href="https://github.com/bitcoin/bips/blob/master/bip-0037.mediawiki">BIP37</a>. Review the BIP for implementation details.</p>
+</div>
+</div>
+<div class="section" id="future-proposals">
+<h2>Future Proposals<a class="headerlink" href="#future-proposals" title="Permalink to this headline">¶</a></h2>
+<p>There are future proposals such as Unspent Transaction Output (UTXO) commitments in the block chain to find a more satisfactory middle-ground for clients between needing a complete copy of the block chain, or trusting that a majority of your connected peers are not lying. UTXO commitments would enable a very secure client using a finite amount of storage using a data structure that is authenticated in the block chain. These type of proposals are, however, in very early stages, and will require soft forks in the <a class="reference external" href="../devguide/p2p_network.html">network</a>.</p>
+<p>Until these types of operating modes are implemented, modes should be chosen based on the likely threat model, computing and bandwidth constraints, and liability in bitcoin value.</p>
+<p><strong>Resources:</strong> <a class="reference external" href="https://bitcointalk.org/index.php?topic=88208.0">Original Thread on UTXO Commitments</a></p>
+</div>
+</div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="clearer"></div>
+        </div>
+      </div>
+    </div>
+<footer class="footer">
+  <div class="footer-with-logo">
+    <div class="footer-container">
+      <a href="https://bitcoin.org/">
+        <div class="footer-logo"></div>
+      </a>
+
+      <div class="footer-row ">
+        <div class="donate">
+          <div class="donate-row">
+            <div>
+              <span class="footer-title">Support Bitcoin.org:</span>
+              <button onclick="openDonationModal()" class="donate-btn">Donate</button>
+              <p class="donate-text">
+                <a class="donate-link" href="bitcoin:3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd" target="_blank">3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footermenu">
+          <div class="footermenu-item footermenu-introduction">
+            <p class="footer-title">Introduction:</p>
+            <ul class="footermenu-list">
+              <li>
+                <a href="https://bitcoin.org/en/bitcoin-for-individuals">Individuals</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/bitcoin-for-businesses">Businesses</a>
+              </li>
+              <li>
+                <a href="https://developer.bitcoin.org/">Developers</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/getting-started">Getting started</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/how-it-works">How it works</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/you-need-to-know">You need to know</a>
+              </li>
+                <a href="https://bitcoin.org/en/bitcoin-paper">White paper</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="footermenu-item footermenu-resources">
+            <p class="footer-title">Resources:</p>
+            <ul class="footermenu-list">
+              <li>
+                <a href="https://bitcoin.org/en/resources">Resources</a>
+              <li>
+                <a href="https://bitcoin.org/en/exchanges">Exchanges</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/community">Community</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/vocabulary">Vocabulary</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/events">Events</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/bitcoin-core/">Bitcoin Core</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="footermenu-item footermenu-participate">
+            <p class="footer-title">Participate:</p>
+            <ul class="footermenu-list">
+              <li>
+                <a href="https://bitcoin.org/en/support-bitcoin">Support Bitcoin</a>
+              
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/buy">Buy Bitcoin</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/full-node">Running a full node</a>
+              </li>
+              <li>
+                <a href="https://bitcoin.org/en/development">Development</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footermenu-item footermenu-other">
+            <p class="footer-title">Other:</p>
+            <a href="https://bitcoin.org/en/scams">Avoid Scams</a>
+            <a href="https://bitcoin.org/en/legal">Legal</a>
+            <a href="https://bitcoin.org/en/privacy">Privacy Policy</a>
+            <a href="https://bitcoin.org/en/press">Press</a>
+            <a href="https://bitcoin.org/en/about-us">About bitcoin.org</a>
+            <a href="https://bitcoin.org/en/blog">Blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+      <div>&copy; Copyright Bitcoin Project 2009-2020.</div>
+  </div>
+</footer>
+
+<div id="donation-modal" style="display: none" class="donation-modal open">
+  <div>
+    <div>
+      <div class="modal-close-btn" onclick="closeDonationModal()">×</div>
+      <p class="modal-header-text">Donate to Bitcoin.org</p>
+    </div>
+    <p class="modal-subheader">Use this QR code or address below</p>
+    <div style="text-align: center;">
+      <div id="donation-qr-code" data-address="3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"></div>
+    </div>
+    <div>
+      <a
+        class="donation-btc-address"
+        href="bitcoin:3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd"
+        target="_blank"
+      >
+        3E8ociqZa9mZUSwGdSmAEMAoAxBK3FNDcd
+      </a>
+    </div>
+    <div style="overflow-y:hidden;text-align: center;">
+      <div class="donation-buttons">
+        <button type="button" class="donation-amount-btn" data-amount-usd="5">
+          $5.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        <button type="button" class="donation-amount-btn" data-amount-usd="25">
+          $25.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+        <button type="button" class="donation-amount-btn" data-amount-usd="50">
+          $50.00
+          <div class="donation-amount-usd-in-btc">(... BTC)</div>
+        </button>
+      </div>
+
+      <div class="donation-inputs">
+        <input
+          type="text"
+          placeholder="Or custom amount? (BTC)"
+          id="donation-input-amount-btc" class="donation-amount-input">
+        <input
+          type="text"
+          placeholder="Or custom amount? (USD)"
+          id="donation-input-amount-usd" class="donation-amount-input">
+      </div>
+
+      <div>
+        <textarea
+          class="donation-amount-input"
+          id="donation-input-message"
+          placeholder="Optional description (for your wallet)"></textarea>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

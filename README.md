@@ -7,8 +7,8 @@ This repository contains my first-person account of the conflict between Samoura
 - [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the complete essay with citations and evidence placed beside the events it documents.
 - [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 38-page edition.
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
-- [**Complete citation inventory**](sources/URLS.md) — 112 external URLs and preserved public-post permalinks, with local copies identified where available.
-- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 261 archived files.
+- [**Complete citation inventory**](sources/URLS.md) — 134 external URLs and preserved public-post permalinks, with local copies identified where available.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 285 archived files.
 
 The archive includes 33 evidence and publication images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, 33 Research Club transcripts with raw captions and metadata, and metadata for four additional cited recordings.
 
@@ -25,9 +25,11 @@ The descriptions below are deliberately short. They identify the issue shown by 
 
 ### Hosted backends, xpubs, and unsafe defaults
 
+- [**In an xpub thread, Samourai falsely called its default Android app a “full node wallet.”**](sources/screenshots/x-samouraiwallet-2022-10-03-full-node-wallet.png) It had just defended its chosen server-backed architecture; exact production source from four days earlier selected Samourai’s backend whenever Dojo was absent and sent the wallet’s xpubs to that backend.
 - [**Samourai's Android client could contact the hosted API with Tor disabled.**](sources/code/samourai-wallet-android-c71f21a-cited-files.zip) The exact-commit source preserves the wallet-creation, Tor-default, API-query, and xpub-registration paths cited in the essay.
 - [**A proposal to make Tor and Dojo safer by default was closed immediately.**](sources/screenshots/gitlab-issue-458-default-settings.png) The preserved [GitLab issue](sources/web/gitlab-issue-458-wayback.html) records the suggested defaults, the owner's response, and the closure.
 - [**Dojo's own documentation says it bypassed the default hosted servers.**](sources/web/dojo-documentation-archive.html) It also describes the Tracker that monitored registered xpubs and addresses.
+- [**Dojo pairing arrived only in July 2019 and initially required a newly created wallet.**](sources/web/samourai-wallet-0.99.81-dojo-pairing-wayback.html) Samourai’s own release notes say restoration of an existing wallet was unsupported, so pairing later could not retract an xpub already disclosed to the hosted backend.
 - [**Sentinel moved xpub lookups from Blockchain.info to Samourai's API in 2017.**](sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg) The [commit patch](sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch) preserves the change directly.
 - [**Sentinel added Tor routing more than two years after the xpub move.**](sources/code/sentinel-1a4722f-add-tor.patch) Exact-commit [v3](sources/code/sentinel-android-cf46177-cited-files.zip) and [pre-seizure v5](sources/code/sentinel-android-b5ef29c-cited-files.zip) snapshots preserve the later server and Tor choices.
 - [**Asked about xpubs reaching Samourai servers, Hill changed “servers” to “coordinator.”**](sources/screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png) The same reply claimed Samourai implemented nopara73's ZeroLink specification because its author lacked the skill to do so; the Git history above disproves that authorship reversal.
@@ -49,6 +51,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 
 - [**Rodriguez said Whirlpool did not change Tor identity between input and output registration.**](sources/screenshots/whirlpool-tor-default-conversation.png) The contemporaneous exchange preserves the categorical answer and surrounding dispute.
 - [**The client later added `changeIdentity()` immediately before output registration.**](sources/screenshots/whirlpool-change-tor-identity-code.jpg) The [full patch](sources/code/whirlpool-fbee9e8-change-tor-identity.patch) and [commit record](sources/screenshots/whirlpool-change-tor-identity-commit.jpg) preserve the quiet correction.
+- [**Samourai called Wasabi’s coordinator-fee address reuse irreversible—then Whirlpool reused one across 37 transactions.**](sources/web/gitlab-issue-462-wayback.html) The archived report identifies the address and transactions; one cited consolidation spends 36 outputs from it. The essay separates this direct double standard from the narrower, disputed question of whether the reuse itself reduced Whirlpool users’ anonymity.
 
 ### The OXT “critical vulnerability” claim
 
@@ -92,6 +95,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 
 ### Court records and legal context
 
+- [**The official account relished the possibility that hackers would send Luke Dashjr’s stolen coins into Whirlpool.**](sources/social/tweets/samouraiwallet-1610484148057120768.json) The complete January 2023 thread begins with funds labeled “Wallet Controlled By Hackers,” asks what Samourai would do if they entered Whirlpool, and preserves the official answer; it does not claim the deposit actually occurred.
 - [**The superseding indictment alleged Dread marketing through accounts presented as independent users.**](sources/legal/2025-06-24-superseding-indictment-ecf-109.pdf) The relevant [first](sources/screenshots/superseding-indictment-page-10-dread-marketing.png) and [second](sources/screenshots/superseding-indictment-page-11-dread-marketing.png) pages are rendered for quick review. These were allegations when filed, not findings by themselves.
 - [**The defense alleged that favorable FinCEN communications were disclosed late.**](sources/legal/2025-defense-letter-late-fincen-disclosure.pdf) This is preserved as a defense argument, not presented as a judicial finding.
 - [**The arrest, seizure, guilty pleas, and sentencing are preserved as separate dated records.**](sources/URLS.md) The inventory links the archived Justice Department pages and distinguishes the procedural stages.

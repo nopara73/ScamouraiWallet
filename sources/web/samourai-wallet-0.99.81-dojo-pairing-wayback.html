@@ -1,0 +1,450 @@
+<!DOCTYPE html><script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="https://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=b9f848c06fcba7eaf305d4a7cb7a1b98"></script><!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!--------------------------------------------
+        Simplify Theme
+        Version: 1.22
+        Created by: Amit Jakhu
+        Website: http://www.amitjakhu.com
+        Support: http://simplifytheme.tumblr.com
+        --------------------------------------------->
+        <title>Samourai Wallet - Introducing 0.99.81 - Enter The Dojo</title>
+        <style>figure{margin:0}.tmblr-iframe{position:absolute}.tmblr-iframe.hide{display:none}.tmblr-iframe--amp-cta-button{visibility:hidden;position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:100}.tmblr-iframe--amp-cta-button.tmblr-iframe--loaded{visibility:visible;animation:iframe-app-cta-transition .2s ease-out}</style><link rel="stylesheet" media="screen" href="https://assets.tumblr.com/client/prod/standalone/blog-network-npf/index.build.css?_v=46a7a9e1e08f1b33790dea4bb521d1c8"><link rel="shortcut icon" href="https://64.media.tumblr.com/avatar_36fa1c18c89f_128.pnj">
+        <link rel="apple-touch-icon" href="https://64.media.tumblr.com/avatar_36fa1c18c89f_128.pnj" />
+        <link rel="alternate" type="application/rss+xml" href="https://blog.samouraiwallet.com/rss">
+        
+        <meta name="description" content="Introducing 0.99.81 - Enter The Dojo This is an exciting one, so strap in. We are happy to announce 0.99.81 which brings in many Quality of Life updates, some bug fixes, and the highlight feature of..." />
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta property="og:title" content="Introducing 0.99.81 - Enter The Dojo - samouraiwallet" />
+        
+        
+        <meta property="og:site_name" content="Samourai Wallet"/>
+        
+        
+        <meta property="og:url" content="https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo"/>
+        <meta property="og:type" content="article"/>
+        
+        
+        <meta property="og:title" content="Introducing 0.99.81 - Enter The Dojo"/>
+        <meta property="og:description" content="This is an exciting
+one, so strap in. We are happy to announce 0.99.81 which brings in
+many Quality of Life updates, some bug fixes, and the highlight
+feature of pairing to your own self hosted Dojo node. 
+
+
+ You can get the
+latest update from Google
+Play as of today. 
+ 
+
+
+ apk hash sha-256
+of version 0.99.81 :
+073fa50552c07449538bc402519a237eb72f02ecf102bf8a415287a5dda05932 
+
+
+
+ 
+Dojo Pairing
+
+
+ Early last month we Open Sourced our back end infrastructure
+allowing you to self
+host your own Dojo full node. Today, as of version 0.99.81 we
+have introduced the ability to pair a newly created Samourai Wallet
+directly to your Dojo full node over Tor, bypassing our servers
+entirely. This allows you to be entirely sovereign and independent of
+Samourai operated servers.&nbsp;
+
+ Pairing is a simple process. Navigate to your fully synced Dojo
+maintenance control panel with the Pairing QR code visible. In your
+Samourai Wallet tap &ldquo;Pair to existing Dojo&rdquo; &nbsp;and then scan the QR
+code. Once paired you will be invited to create a new wallet. 
+
+
+ It is important to keep in mind that the full Dojo pairing process
+will include routines for restoring existing wallets, but this
+update is specifically for pairing newly created wallets.
+Restoring your existing wallet with Dojo is currently unsupported in
+this version. 
+
+
+ 
+Default Bech32 Addresses
+
+
+ Samourai Wallet was among the first to deliver
+full bech32 support to users in May 2018 , directly contributing
+to a reduction in the miner fees that Samourai Wallet users pay when
+transacting. In the 0.99.81 update we are happy to announce that
+bech32 addresses are now the default address type used by the wallet.
+If you are looking for other address types they are still available
+from the advanced toggle on the receive screen. 
+
+
+ 
+Improved QR scanner
+
+
+ Lets face it, at Samourai we love QR codes. From simple receive
+addresses, to Z85 encoded packet streams that ultimately get
+broadcast to space, we rely on QR codes as a way to efficently
+transmit data in a peer-2-peer manner. We&rsquo;re happy to roll out an
+updated QR scanner that is more responsive when dealing with the
+denser QR codes that are being created. This doesn&rsquo;t sound like a
+big deal, but you&rsquo;ll notice the difference when you use it.
+
+ 
+Tor updates
+
+
+ We have continued to work hard on refining the built in Tor layer
+of Samourai Wallet, with most users able to achieve stable
+performance with decent speed. By the very nature of Tor, it will
+never be as fast as Clearnet, but with continued investment in
+refining our implementation and contributing improvements and code to
+the upstream maintainer we hope to increase the stability of our Tor
+implementation. Along with stability improvements all Tor connections
+are now via v3 .onion addresses. This includes connections to your
+own Dojo and our own servers. Finally, you are also now able to manually invoke a new Tor identity. This
+can be achieved from the status bar notification or from the Network
+Dashboard in your wallet.
+
+ 
+STONEWALL Updates
+
+
+ This one is a little technical, but the long and short of it is we
+have strenghend STONEWALL even further with slight tweaks to the coin
+selection and transaction composition rules.
+
+ We have made some changes to our STONEWALL algorithm to optimize
+against deanonymization attacks. Previous iterations allowed for the
+miner fee of a STONEWALL to be paid entirely from one of the two UTXO
+sets, as of this version, STONEWALL miner fees are equally split
+between the two sets. 
+
+
+ This change also applies for STONEWALLx2. From 0.99.81 onward
+both you and your collaborator will split the miner fee equally, so
+in effect your collaborator is paying a very small sum to mix with
+you. 
+
+ Thank you 
+
+ As always we appreciate your continued support of the project. 
+
+ 
+
+We are available as always to answer any questions on support.samourai.io or by email at support@samouraiwallet.com
+
+ 
+
+ You can download Samourai Wallet from the Google Play Store
+
+ Stop by our active telegram channel of over 1,000 privacy activists and say hello."/>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <meta name="if:Portrait" content="1"/>
+        <meta name="if:Night Mode" content="1"/>
+        <meta name="if:Promote Tumblr" content="1"/>
+        <meta name="text:Disqus Shortname" content=""/>
+        <meta name="text:Google Analytics ID" content=""/>
+        
+        <link rel="stylesheet" href="//static.tumblr.com/ypi9dez/E6umyc2p8/normalize.min.css">
+        <link rel="stylesheet" href="//static.tumblr.com/ypi9dez/tCNon2w7h/style.css">
+        <link rel="stylesheet" href="//static.tumblr.com/ypi9dez/FsFo3am30/promote.css">
+        
+        
+        <script type="text/JavaScript">
+            function getStylesheet() {
+                  var currentTime = new Date().getHours();
+                  if (0 <= currentTime&&currentTime < 6) {
+                   document.write("<link rel='stylesheet' href='//static.tumblr.com/ypi9dez/CQqn9vdw8/night.css' type='text/css'>");
+                  }
+                  if (6 <= currentTime&&currentTime < 20) {
+                   document.write("<link rel='stylesheet' href='//static.tumblr.com/ypi9dez/rk6myhrlt/day.css' type='text/css'>");
+                  }
+                  if (20 <= currentTime&&currentTime <= 24) {
+                   document.write("<link rel='stylesheet' href='//static.tumblr.com/ypi9dez/CQqn9vdw8/night.css' type='text/css'>");
+                  }
+            }
+            getStylesheet();
+        </script>
+        
+        <style>
+
+        body{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif!important;
+}
+        
+        </style>
+        
+        <!--[if lt IE 9]>
+            <script src="//static.tumblr.com/ypi9dez/25Smyc2mx/html5-3.6-respond-1.1.0.min.js"></script>
+        <![endif]-->
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=samouraiwallet%26postID=186208584657" /><link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=samouraiwallet&postID=186208584657" /><link rel="alternate" type="application/json+oembed" href="https://www.tumblr.com/oembed/1.0?url=https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo" title="Introducing 0.99.81 - Enter The Dojo
+This is an exciting one, so strap in. We are happy to announce 0.99.81 which brings in many Quality of Life updates, some bug fixes, and the highlight feature of pairing to your own self hosted Dojo node. You can..."/><link rel="amphtml" href=https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo/amp /><script src="https://assets.tumblr.com/assets/scripts/tumblelog_post_message_queue.js?_v=a8fadfa499d8cb7c3f8eefdf0b1adfdd"></script><link rel="stylesheet" type="text/css" href="https://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3"><!-- GOOGLE CAROUSEL --><script type="application/ld+json">
+	{"@type":"SocialMediaPosting","url":"https:\/\/blog.samouraiwallet.com\/post\/186208584657\/introducing-09981-enter-the-dojo","mainEntityOfPage":true,"datePublished":"2019-07-11T10:44:21-04:00","author":"samouraiwallet","image":"https:\/\/64.media.tumblr.com\/29fca4d3a863099b5b08f61d4bab951d\/d09f5c0dec9c1680-76\/s540x810\/be7ad63ef65f45a5b945713da865ef90a1b1833b.jpg","headline":"Introducing 0.99.81 - Enter The Dojo","articleBody":"This is an exciting one, so strap in. We are happy to announce 0.99.81 which brings in many Quality of Life updates, some bug fixes, and the highlight feature of pairing to your own self hosted Dojo node. You can get the latest update from Google Play as of today.\n\u201capk hash sha-256 of version...","@context":"http:\/\/schema.org"}</script><link rel="canonical" href="https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo" /></head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-----LINKS----->
+
+        <nav class="menu">
+            <div class="wrapper">
+                <h6 class="menu-title"><a href="/"><img src="https://64.media.tumblr.com/avatar_36fa1c18c89f_64.pnj" alt="Samourai Wallet"> Samourai Wallet</a></h6>
+                <div id="menu-button" class="nav-button"><hr><hr><hr><span class="close">x</span></div>
+            </div>
+        </nav>
+        
+        <div id="menu">
+            <div id="search">
+                <form action="/search" method="get"><input type="search" name="q" placeholder="Search..." name="s"></form>
+            </div>
+            <ul id="links" class="clearfix">
+                
+                
+                
+                <li><a href="/archive">Archive</a></li>
+                <li><a href="https://blog.samouraiwallet.com/rss">RSS</a></li>
+                <li class="copyright"><a href="http://simplifytheme.tumblr.com">Simplify</a> version 1.22. Theme Designed &amp; Developed by <a href="http://amitjakhu.com"/>Amit Jakhu</a>. Powered by <a href="http://tumblr.com">Tumblr</a>.</li>
+            </ul>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <section id="posts" class="permalink-page">
+            
+                    <article id="186208584657" class="post text">
+                    <div class="post-date"><a href="https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo">Jul 11<br>2019</a></div>
+                        
+                            <h3><a href="https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo">Introducing 0.99.81 - Enter The Dojo</a></h3>
+                        <p>This is an exciting
+one, so strap in. We are happy to announce 0.99.81 which brings in
+many Quality of Life updates, some bug fixes, and the highlight
+feature of pairing to your own self hosted Dojo node. 
+</p><p>You can get the
+latest update from <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.samourai.wallet&amp;t=YmYzY2U0OTg2N2M3NDM1OTJkODRlZjA3YzJjNDIzYmNkMGNhMjMyOCxBZ0hxbldnVg%3D%3D&amp;b=t%3AgssRereQbaKEWqYj4_q6Mw&amp;p=https%3A%2F%2Fblog.samouraiwallet.com%2Fpost%2F186208584657%2Fintroducing-09981-enter-the-dojo&amp;m=1&amp;ts=1604789718">Google
+Play</a> as of today. 
+<br /></p><blockquote><p><b>apk hash sha-256
+of version 0.99.81 :
+073fa50552c07449538bc402519a237eb72f02ecf102bf8a415287a5dda05932 </b></p></blockquote><h2>
+Dojo Pairing
+</h2><p>Early last month we Open Sourced our back end infrastructure
+allowing you to <a href="https://blog.samouraiwallet.com/post/185312260292/introducing-samourai-dojo-10-open-source-and">self
+host your own Dojo full node</a>. Today, as of version 0.99.81 we
+have introduced the ability to pair a newly created Samourai Wallet
+directly to your Dojo full node over Tor, bypassing our servers
+entirely. This allows you to be entirely sovereign and independent of
+Samourai operated servers.&nbsp;</p><figure class="tmblr-full" data-orig-height="2606" data-orig-width="1439"><img src="https://64.media.tumblr.com/29fca4d3a863099b5b08f61d4bab951d/d09f5c0dec9c1680-76/s640x960/89418f6fa2f5a208dc31b85054f02cea83c9811f.jpg" data-orig-height="2606" data-orig-width="1439" width="500" height="906" alt="image" /></figure><p>Pairing is a simple process. Navigate to your fully synced Dojo
+maintenance control panel with the Pairing QR code visible. In your
+Samourai Wallet tap &ldquo;Pair to existing Dojo&rdquo; &nbsp;and then scan the QR
+code. Once paired you will be invited to create a new wallet. 
+</p><p>It is important to keep in mind that the full Dojo pairing process
+will include routines for restoring existing wallets, <b>but this
+update is specifically for pairing newly created wallets</b>.
+Restoring your existing wallet with Dojo is currently unsupported in
+this version. 
+</p><h2>
+Default Bech32 Addresses
+</h2><p>Samourai Wallet was among the first to <a href="https://blog.samouraiwallet.com/post/173544815052/full-bech32-support-introducing-boltzmann-and">deliver
+full bech32 support to users in May 2018 </a>, directly contributing
+to a reduction in the miner fees that Samourai Wallet users pay when
+transacting. In the 0.99.81 update we are happy to announce that
+bech32 addresses are now the default address type used by the wallet.
+If you are looking for other address types they are still available
+from the advanced toggle on the receive screen. 
+</p><h2>
+Improved QR scanner
+</h2><p>Lets face it, at Samourai we love QR codes. From simple receive
+addresses, to Z85 encoded packet streams that ultimately get
+broadcast to space, we rely on QR codes as a way to efficently
+transmit data in a peer-2-peer manner. We&rsquo;re happy to roll out an
+updated QR scanner that is more responsive when dealing with the
+denser QR codes that are being created. This doesn&rsquo;t sound like a
+big deal, but you&rsquo;ll notice the difference when you use it.</p><h2>
+Tor updates
+</h2><p>We have continued to work hard on refining the built in Tor layer
+of Samourai Wallet, with most users able to achieve stable
+performance with decent speed. By the very nature of Tor, it will
+never be as fast as Clearnet, but with continued investment in
+refining our implementation and contributing improvements and code to
+the upstream maintainer we hope to increase the stability of our Tor
+implementation. Along with stability improvements all Tor connections
+are now via v3 .onion addresses. This includes connections to your
+own Dojo and our own servers. Finally, you are also now able to manually invoke a new Tor identity. This
+can be achieved from the status bar notification or from the Network
+Dashboard in your wallet.</p><h2>
+STONEWALL Updates
+</h2><p>This one is a little technical, but the long and short of it is we
+have strenghend STONEWALL even further with slight tweaks to the coin
+selection and transaction composition rules.</p><p>We have made some changes to our STONEWALL algorithm to optimize
+against deanonymization attacks. Previous iterations allowed for the
+miner fee of a STONEWALL to be paid entirely from one of the two UTXO
+sets, as of this version, STONEWALL miner fees are equally split
+between the two sets. 
+</p><p>This change also applies for STONEWALLx2. From 0.99.81 onward
+both you and your collaborator will split the miner fee equally, so
+in effect your collaborator is paying a very small sum to mix with
+you. <br /></p><h2>Thank you<br /></h2><p>As always we appreciate your continued support of the project. </p><p>
+
+We are available as always to answer any questions on <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fsupport.samourai.io&amp;t=M2Q1ZDZiYjA5NjdiMjIwYTZmYmZiMTNlM2U3MTNjNzJmYmNkZGI0OCxBZ0hxbldnVg%3D%3D&amp;b=t%3AgssRereQbaKEWqYj4_q6Mw&amp;p=https%3A%2F%2Fblog.samouraiwallet.com%2Fpost%2F186208584657%2Fintroducing-09981-enter-the-dojo&amp;m=1&amp;ts=1604789718">support.samourai.io</a> or by email at support@samouraiwallet.com
+
+<br /></p><p>You can download Samourai Wallet from the <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.samourai.wallet&amp;t=YmYzY2U0OTg2N2M3NDM1OTJkODRlZjA3YzJjNDIzYmNkMGNhMjMyOCxBZ0hxbldnVg%3D%3D&amp;b=t%3AgssRereQbaKEWqYj4_q6Mw&amp;p=https%3A%2F%2Fblog.samouraiwallet.com%2Fpost%2F186208584657%2Fintroducing-09981-enter-the-dojo&amp;m=1&amp;ts=1604789718">Google Play Store</a></p><p>Stop by our <a href="https://t.umblr.com/redirect?z=https%3A%2F%2Ft.me%2FSamouraiWallet&amp;t=ZDM1MzI5NTc4ZWYxZmJkZWM1YjU0NGJkMmY1NGZlNmZjNTg5ZWFiYSxBZ0hxbldnVg%3D%3D&amp;b=t%3AgssRereQbaKEWqYj4_q6Mw&amp;p=https%3A%2F%2Fblog.samouraiwallet.com%2Fpost%2F186208584657%2Fintroducing-09981-enter-the-dojo&amp;m=1&amp;ts=1604789718">active telegram channel</a> of over 1,000 privacy activists and say hello.<br /><br /></p>
+                    </article>
+                
+                <footer class="clearfix">
+                    
+                    <ul class="info clearfix">
+                        <li class="date"><a href="https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo">July 11, 2019</a></li>
+                        
+                    </ul>
+                </footer>
+                
+        </section>
+        
+        
+        <!-----POST NOTES----->
+        <section id="notes" class="clearfix">
+            
+<ol class="notes"><!-- START NOTES --><li class="note like tumblelog_ehyowarrenzy without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://ehyowarrenzy.tumblr.com/" title="Aloha " rel="nofollow"><img src="https://64.media.tumblr.com/avatar_75bb48b3645f_16.pnj" class="avatar " alt="" /></a><span class="action"><a rel="nofollow" href="https://ehyowarrenzy.tumblr.com/" title="Aloha" rel="nofollow">ehyowarrenzy</a> liked this                                    </span><div class="clear"></div></li><li class="note reblog tumblelog_samouraiwallet original_post without_commentary"><a rel="nofollow" class="avatar_frame" target="_blank" href="https://blog.samouraiwallet.com/" title="Samourai Wallet"><img src="https://64.media.tumblr.com/avatar_36fa1c18c89f_16.pnj" class="avatar " alt="" /></a><span class="action" data-post-url="https://blog.samouraiwallet.com/post/186208584657"><a rel="nofollow" href="https://blog.samouraiwallet.com/" class="tumblelog" title="Samourai Wallet">samouraiwallet</a> posted this                                                                        </span><div class="clear"></div></li><!-- END NOTES --></ol></section>
+        <!-----END POST NOTES----->
+
+        
+        <!-----PERMALINK NAVIGATION----->
+        <nav class="navigation clearfix">
+            
+                <a href="https://blog.samouraiwallet.com/post/185312260292" class="nav-previous permalink-nav-previous">Older Post</a>
+            
+        
+            
+                <a href="https://blog.samouraiwallet.com/post/186458671552" class="nav-next permalink-nav-next">Newer Post</a>
+            
+        </nav>
+        <!-----PERMALINK NAVIGATION----->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script src="//static.tumblr.com/ypi9dez/NF5mye0bi/jquery.easing.1.3.min.js"></script>
+        <!-----PHOTOSET----->
+        <script src="//static.tumblr.com/ypi9dez/yPqml8j24/imagesloaded.min.js"></script>
+        <script src="//static.tumblr.com/ypi9dez/ryAon1pff/pxuphotoset.js"></script>
+        <script>
+            $('.photo-slideshow').pxuPhotoset({
+                'ligthbox'  : true,
+                'highRes'   : true,
+                'rounded'   : 'corners',
+                'exif'      : false,
+                'captions'  : false,
+                'gutter'    : '15px',
+                'photoset'  : '.photo-slideshow',
+                'photoWrap' : '.photo-data',
+                'photo'     : '.pxu-photo'
+            }, function() {
+                $(this).animate({opacity:1});
+            });
+        </script>
+         <!-----MENU----->
+        <script>
+            $('#menu-button').click(function(){
+                $('#menu').toggleClass('fullscreen');
+                $('body').toggleClass('noscroll');
+                $('.menu-title').addClass('show');
+                $('.nav-button hr').toggleClass('hide');
+                $('.nav-button .close').toggleClass('show');
+            });
+        </script>
+        <!-----SCROLL----->
+        
+        <script>
+            $('.menu-title').addClass('show');
+        </script>
+        <!-----ARROW KEY BINDINGS----->
+        
+        
+        <script>
+            function leftArrowPressed() {window.location = 'https://blog.samouraiwallet.com/post/186458671552';}
+            function rightArrowPressed() {window.location = 'https://blog.samouraiwallet.com/post/185312260292';}
+            document.onkeydown = function(evt) {
+                evt = evt || window.event;
+                switch (evt.keyCode) {
+                    case 37:
+                        leftArrowPressed();
+                        break;
+                    case 39:
+                        rightArrowPressed();
+                        break;
+                }
+            };
+        </script>
+        
+        <!-----RESPONSIVE VIDEO----->
+        <script src="//static.tumblr.com/ypi9dez/JNamp6ag6/fluidvids.min.js"></script>
+        <!-----DISQUS SCRIPT----->
+        
+        <!-----GOOGLE ANALYTICS----->
+        
+    
+<iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://assets.tumblr.com/analytics.html?_v=9f5febfd57a8a649c598d888f2d9e062#" +
+                              "https://blog.samouraiwallet.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/post/186208584657/introducing-09981-enter-the-dojo?route=%2Fpost%2F%3Aid%2F%3Asummary'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+    })();
+</script><script type="text/javascript" nonce="Uwpl7657K3XH5xuxkPo4El7x20c">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1604789718&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2Jsb2cuc2Ftb3VyYWl3YWxsZXQuY29tL3Bvc3QvMTg2MjA4NTg0NjU3L2ludHJvZHVjaW5nLTA5OTgxLWVudGVyLXRoZS1kb2pvIiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQvOnN1bW1hcnkifQ==&U=CFFPLEKMEL&K=bb8e2aad8622e948616a4e48c960f7af251cc40e66ca0ff6afc8a577510e1f4b&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1604789718&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDovL2Jsb2cuc2Ftb3VyYWl3YWxsZXQuY29tL3Bvc3QvMTg2MjA4NTg0NjU3L2ludHJvZHVjaW5nLTA5OTgxLWVudGVyLXRoZS1kb2pvIiwicmVxdHlwZSI6MCwicm91dGUiOiIvcG9zdC86aWQvOnN1bW1hcnkiLCJub3NjcmlwdCI6MX0=&U=CFFPLEKMEL&K=d75427df8e363c6d332ac854e7eb2b7e82a78c3b1106ea3a7e68707eba52fe9e&R="></noscript><script type="text/javascript" nonce="Uwpl7657K3XH5xuxkPo4El7x20c">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1604789718&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9ibG9nLnNhbW91cmFpd2FsbGV0LmNvbS9wb3N0LzE4NjIwODU4NDY1Ny9pbnRyb2R1Y2luZy0wOTk4MS1lbnRlci10aGUtZG9qbyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL3Bvc3QvOmlkLzpzdW1tYXJ5IiwicG9zdHMiOlt7InBvc3RpZCI6IjE4NjIwODU4NDY1NyIsImJsb2dpZCI6MjM1MTUyNzczLCJzb3VyY2UiOjMzfV19&U=KOBBBGGHPN&K=d73361c9dd134fb9e4ba61d04f4f90d1e7a87a150fa78a4040d91c477a2a32eb&R='.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1604789718&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6Ly9ibG9nLnNhbW91cmFpd2FsbGV0LmNvbS9wb3N0LzE4NjIwODU4NDY1Ny9pbnRyb2R1Y2luZy0wOTk4MS1lbnRlci10aGUtZG9qbyIsInJlcXR5cGUiOjAsInJvdXRlIjoiL3Bvc3QvOmlkLzpzdW1tYXJ5IiwicG9zdHMiOlt7InBvc3RpZCI6IjE4NjIwODU4NDY1NyIsImJsb2dpZCI6MjM1MTUyNzczLCJzb3VyY2UiOjMzfV0sIm5vc2NyaXB0IjoxfQ==&U=KOBBBGGHPN&K=9f704800977d6a757ba2d022caf3764f07c84d47737e1e2e10d2f53a378f166e&R="></noscript><noscript id="bootloader" data-bootstrap="{&quot;Components&quot;:{&quot;PostActivity&quot;:[],&quot;NotificationPoller&quot;:{&quot;messaging_keys&quot;:[],&quot;token&quot;:&quot;c86f8a500596474a7ef5034081f694bd&quot;,&quot;inbox_unread&quot;:0},&quot;DesktopDashboardLogo&quot;:{&quot;animations&quot;:[[&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1.png?_v=161861acded461bb6e995593a3bae835&quot;,&quot;https:\/\/assets.tumblr.com\/images\/logo\/hover-animations\/1@2x.png?_v=496a774637302a598c851381d00009b0&quot;]]},&quot;TumblelogIframe&quot;:{&quot;unified&quot;:true,&quot;variant&quot;:null,&quot;isCompact&quot;:true,&quot;tumblelogBundleSrc&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/standalone\/tumblelog\/index.build.js?_v=46ba0c34f7f8a6391e25c85f24278113&quot;,&quot;tumblelogName&quot;:&quot;samouraiwallet&quot;,&quot;isLoggedIn&quot;:false,&quot;isFriend&quot;:false,&quot;formKey&quot;:&quot;&quot;,&quot;canSubscribe&quot;:false,&quot;isSubscribed&quot;:false,&quot;tumblelogTitle&quot;:&quot;Samourai Wallet&quot;,&quot;tumblelogAvatar&quot;:&quot;https:\/\/64.media.tumblr.com\/avatar_36fa1c18c89f_64.pnj&quot;,&quot;tumblelogHost&quot;:&quot;https:\/\/blog.samouraiwallet.com&quot;,&quot;isOptica&quot;:false,&quot;isCustomTheme&quot;:false,&quot;themeHeaderImage&quot;:&quot;https:\/\/static.tumblr.com\/d08a2192621a005362b8c1d52102c411\/fiviv8w\/Rdunnzzi7\/tumblr_static_tumblr_static_6xkoo980c5c0wsw0kw44w800k_focused_v3.png&quot;,&quot;themeBackgroundColor&quot;:&quot;#ffffff&quot;,&quot;themeTitleColor&quot;:&quot;#444444&quot;,&quot;themeAccentColor&quot;:&quot;#529ECC&quot;,&quot;brag&quot;:false,&quot;adsEnabled&quot;:true,&quot;canShowAd&quot;:true,&quot;isPremium&quot;:false,&quot;showLrecAds&quot;:false,&quot;showStickyLrecBackfill&quot;:false,&quot;showGeminiAds&quot;:false,&quot;geminiSectionCodeDesktop&quot;:&quot;a10bca9c-0c5d-4a02-ab13-14ab8513d81d&quot;,&quot;geminiSectionCodeMobile&quot;:&quot;ced63809-b609-4aca-96a0-abc099acba6b&quot;,&quot;currentPageType&quot;:&quot;single_post&quot;,&quot;currentPage&quot;:1,&quot;searchQuery&quot;:&quot;&quot;,&quot;tag&quot;:&quot;&quot;,&quot;query&quot;:&quot;&quot;,&quot;chrono&quot;:false,&quot;postId&quot;:&quot;186208584657&quot;,&quot;src&quot;:&quot;https:\/\/blog.samouraiwallet.com\/post\/186208584657\/introducing-09981-enter-the-dojo&quot;,&quot;postUrl&quot;:&quot;&quot;,&quot;isBlocked&quot;:null,&quot;isAdmin&quot;:false,&quot;lookupButtonUrl&quot;:&quot;&quot;,&quot;showSpamButton&quot;:false,&quot;showRootPostButton&quot;:false,&quot;rootPostUrl&quot;:&quot;&quot;,&quot;showRadarPostButton&quot;:false,&quot;radarKeys&quot;:&quot;&quot;,&quot;isUniblocked&quot;:false,&quot;isNsfw&quot;:false,&quot;isAdult&quot;:false,&quot;isSpam&quot;:false,&quot;isPrimaryBlog&quot;:false,&quot;canEdit&quot;:false,&quot;canReblogSelf&quot;:false,&quot;showLikeButton&quot;:false,&quot;showReblogButton&quot;:false,&quot;reblogUrl&quot;:&quot;&quot;,&quot;showFanMailButton&quot;:false,&quot;showMessagingButton&quot;:false,&quot;loginCheckIframeSrc&quot;:&quot;https:\/\/assets.tumblr.com\/assets\/html\/iframe\/login_check.html?_v=3de94a184d600617102ddd5b48fb36e9&quot;,&quot;appInstallUrls&quot;:{&quot;android&quot;:&quot;https:\/\/play.google.com\/store\/apps\/details?id=com.tumblr\u0026referrer=utm_source%3Dtumblr%26utm_medium%3Diframe%26utm_campaign%3Dbn_continue_or_install_cta&quot;,&quot;ios&quot;:&quot;https:\/\/apps.apple.com\/app\/apple-store\/id305343404?pt=212308\u0026ct=bn_continue_or_install_cta\u0026mt=8&quot;},&quot;appOpenReferrer&quot;:&quot;tumblr_new_iframe&quot;,&quot;isShowSearch&quot;:true,&quot;supplyLogging&quot;:[],&quot;secondsSinceLastActivity&quot;:-1}},&quot;Flags&quot;:{&quot;features&quot;:&quot;eyJmaWx0ZXJfbnNmdyI6dHJ1ZSwibW9iaWxlX3dlYl9nYXRlIjp0cnVlLCJzYWZlX21vZGUiOnRydWUsInNhZmVfbW9kZV9lbmFibGVkIjp0cnVlLCJrZXljb21tYW5kX2F1dG9fcGFnaW5hdGUiOnRydWUsImxvZ2dlZF9vdXRfc2VhcmNoIjp0cnVlLCJrcmFrZW5fd2ViX2xvZ2dpbmdfbGlicmFyeSI6dHJ1ZSwibGl2ZXBob3Rvc193ZWIiOnRydWUsInVzZXJfdGFnX2ZpbHRlcmluZyI6dHJ1ZSwicHJvamVjdF94X2FwcGVhbCI6dHJ1ZSwicHJvamVjdF94X3dlYl9zZW5zaXRpdmVfY292ZXJzIjp0cnVlLCJzYWZlX21vZGVfb3duX3Bvc3QiOnRydWUsIm1vYmlsZV93ZWJfcGhvdG9zZXRzIjp0cnVlLCJoaWRlX2RlZmF1bHRfaGVhZGVyc19ibG9nX2NhcmRzIjp0cnVlLCJub3RpZmljYXRpb25fcmVwbHlfbGlua190b19ub3RlcyI6dHJ1ZSwidHlwaW5nX2luZGljYXRvcl93cml0ZSI6dHJ1ZSwiZ2Rwcl9ndWNlX2lzX3JlcXVpcmVkIjp0cnVlLCJ0dW1ibHJfdmlkZW9fc3BvbnNvcmVkX2RheSI6dHJ1ZSwiY2FwdGNoYTp1c2VfcmVjYXB0Y2hhMiI6dHJ1ZSwibGl0dGxlX3Npc3RlciI6dHJ1ZSwiZW5hYmxlX2pzX2Vycm9yc19sb2ciOnRydWUsImxvZ19sYWR5Ijp0cnVlLCJyZWRwb3BfcG9zdF9mb3JtX21vYmlsZV9jcmVhdGUiOnRydWUsImdkcHJfcXVhbnRjYXN0X2NtcCI6dHJ1ZSwiZGFybGFfYWRfZmVlZGJhY2siOnRydWUsInN0YXR1c19pbmRpY2F0b3IiOnRydWUsImNvbnZlcnNhdGlvbmFsX25vdGlmaWNhdGlvbnMiOnRydWUsImRpc2FibGVfeWFob29fYl9jb29raWUiOnRydWUsImxpdmVwaG90b3MiOnRydWUsIjIwMjBfYmxvZ19pZnJhbWVfYXBwX2luc3RhbGxfY3RhX3Rlc3QiOnRydWV9&quot;},&quot;Context&quot;:{&quot;name&quot;:&quot;default&quot;,&quot;time&quot;:1604789718000,&quot;userinfo&quot;:{&quot;primary&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;channels&quot;:[]},&quot;hosts&quot;:{&quot;assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;secure_assets_host&quot;:&quot;https:\/\/assets.tumblr.com&quot;,&quot;www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;secure_www_host&quot;:&quot;https:\/\/www.tumblr.com&quot;,&quot;embed_host&quot;:&quot;https:\/\/embed.tumblr.com&quot;,&quot;safe_host&quot;:&quot;https:\/\/safe.txmblr.com&quot;,&quot;platform_host&quot;:&quot;https:\/\/platform.tumblr.com&quot;},&quot;language&quot;:&quot;en_US&quot;,&quot;language_simple&quot;:&quot;en&quot;,&quot;assets&quot;:&quot;https:\/\/assets.tumblr.com\/client\/prod\/&quot;},&quot;Translations&quot;:{&quot;%1$sReport %2$s&#039;s post?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;,&quot;%1$sReport %2$s&#039;s reply?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;:&quot;%1$sReport %2$s&#039;s reblog?%3$sIf it violates our community guidelines, we&#039;ll remove it.%4$s&quot;}}"></noscript><script src="https://assets.tumblr.com/client/prod/standalone/tumblelog/index.build.js?_v=46ba0c34f7f8a6391e25c85f24278113"></script></body>
+</html>

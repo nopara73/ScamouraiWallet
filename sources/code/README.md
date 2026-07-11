@@ -4,6 +4,7 @@
 - `zerolink-25d1502-publication-snapshot.zip` — complete tree at the August 14, 2017 publication commit used for the authorship comparison.
 - `zerolink-8fbdcb9-fix-typos.patch` and `zerolink-25d1502-publication.patch` — portable patches for two commits cited directly in the essay.
 - `samourai-wallet-android-c71f21a-cited-files.zip` — the license and cited Android files at commit `c71f21a631bbc69db2bd411f2905c7f141d1523f`, including the wallet defaults, xpub paths, and Ricochet hop construction.
+- `samourai-wallet-android-4bf9870-cited-files.zip` — the license and four cited Android files at commit `4bf98700485879b1c4080e6a2e2f7d4ecbf24163`, merged four days before the October 2022 “full node wallet” post; the files preserve the default Samourai-backend selection and xpub request path.
 - `sentinel-android-cf46177-cited-files.zip` — the license and cited Sentinel v3-era files at commit `cf4617753168198b9816506b1a25f7bdd65ec207`.
 - `sentinel-android-b5ef29c-cited-files.zip` — the license and cited final pre-seizure mirror files at commit `b5ef29c14adbd65bb596f60856c8e5129cdcf000`.
 - `sentinel-77eca1d-move-xpub-to-samourai-api.patch` and `sentinel-1a4722f-add-tor.patch` — the two Sentinel changes discussed in the essay.

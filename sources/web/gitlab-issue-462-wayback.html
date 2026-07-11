@@ -1,0 +1,811 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+<title>Coordinator Fee Address Reuse (#462) · Issues · Wallet / samourai-wallet-android · GitLab</title>
+<script>
+//<![CDATA[
+window.gon={};gon.api_version="v4";gon.default_avatar_url="https://code.samourai.io/assets/no_avatar-849f9c04a3a0d0cea2424ae97b27447dc64a7dbfae83c036c45b403392f0e8ba.png";gon.max_file_size=400;gon.asset_host=null;gon.webpack_public_path="/assets/webpack/";gon.relative_url_root="";gon.user_color_scheme="white";gon.markdown_surround_selection=null;gon.markdown_automatic_lists=null;gon.recaptcha_api_server_url="https://www.recaptcha.net/recaptcha/api.js";gon.recaptcha_sitekey=null;gon.gitlab_url="https://code.samourai.io";gon.revision="e220da8eb24";gon.feature_category="team_planning";gon.gitlab_logo="/assets/gitlab_logo-2957169c8ef64c58616a1ac3f4fc626e8a35ce4eb3ed31bb0d873712f2a041a0.png";gon.secure=true;gon.sprite_icons="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg";gon.sprite_file_icons="/assets/file_icons/file_icons-6489590d770258cc27e4698405d309d83e42829b667b4d601534321e96739a5a.svg";gon.emoji_sprites_css_path="/assets/emoji_sprites-e1b1ba2d7a86a445dcb1110d1b6e7dd0200ecaa993a445df77a07537dbf8f475.css";gon.gridstack_css_path="/assets/lazy_bundles/gridstack-f9e005145f1f29d3fd436ec6eda8b264c017ee47886472841ed47e32332518ff.css";gon.test_env=false;gon.disable_animations=false;gon.suggested_label_colors={"#cc338b":"Magenta-pink","#dc143c":"Crimson","#c21e56":"Rose red","#cd5b45":"Dark coral","#ed9121":"Carrot orange","#eee600":"Titanium yellow","#009966":"Green-cyan","#8fbc8f":"Dark sea green","#6699cc":"Blue-gray","#e6e6fa":"Lavender","#9400d3":"Dark violet","#330066":"Deep violet","#36454f":"Charcoal grey","#808080":"Gray"};gon.first_day_of_week=0;gon.time_display_relative=true;gon.ee=true;gon.jh=false;gon.dot_com=false;gon.uf_error_prefix="UF";gon.pat_prefix="";gon.diagramsnet_url="https://embed.diagrams.net";gon.features={"usageDataApi":true,"securityAutoFix":false,"sourceEditorToolbar":false,"vscodeWebIde":true,"unbatchGraphqlQueries":false,"commandPalette":true,"removeMonitorMetrics":true,"gitlabDuo":false,"customEmoji":false,"aiChatHistoryContext":true,"preserveUnchangedMarkdown":false,"contentEditorOnIssues":true,"serviceDeskNewNoteEmailNativeAttachments":true,"savedReplies":true,"issuesGridView":false,"serviceDeskTicket":false,"workItems":true,"issueAssigneesWidget":false,"workItemsMvc":false,"workItemsMvc2":false,"epicWidgetEditConfirmation":false,"movedMrSidebar":true,"moveCloseIntoDropdown":false,"summarizeComments":false,"generateDescriptionAi":false};gon.roadmap_epics_limit=1000;gon.licensed_features={"escalationPolicies":false};
+//]]>
+</script>
+
+<script>
+//<![CDATA[
+var gl = window.gl || {};
+gl.startup_calls = {"/wallet/samourai-wallet-android/-/issues/462/related_branches":{},"/wallet/samourai-wallet-android/-/issues/462/discussions.json?per_page=20":{},"/wallet/samourai-wallet-android/-/issues/462.json?serializer=sidebar_extras":{}};
+gl.startup_graphql_calls = [{"query":"query getDesignList($fullPath: ID!, $iid: String!, $atVersion: DesignManagementVersionID) {\n  project(fullPath: $fullPath) {\n    __typename\n    id\n    issue(iid: $iid) {\n      __typename\n      id\n      designCollection {\n        __typename\n        copyState\n        designs(atVersion: $atVersion) {\n          __typename\n          nodes {\n            __typename\n            id\n            event\n            filename\n            notesCount\n            image\n            imageV432x230\n            currentUserTodos(state: pending) {\n              __typename\n              nodes {\n                __typename\n                id\n              }\n            }\n          }\n        }\n        versions {\n          __typename\n          nodes {\n            __typename\n            id\n            sha\n            createdAt\n            author {\n              __typename\n              id\n              name\n              avatarUrl\n            }\n          }\n        }\n      }\n    }\n  }\n}\n","variables":{"fullPath":"wallet/samourai-wallet-android","iid":"462","atVersion":null}},{"query":"query permissions($fullPath: ID!, $iid: String!) {\n  project(fullPath: $fullPath) {\n    __typename\n    id\n    issue(iid: $iid) {\n      __typename\n      id\n      userPermissions {\n        __typename\n        createDesign\n      }\n    }\n  }\n}\n","variables":{"fullPath":"wallet/samourai-wallet-android","iid":"462"}}];
+
+if (gl.startup_calls && window.fetch) {
+  Object.keys(gl.startup_calls).forEach(apiCall => {
+   gl.startup_calls[apiCall] = {
+      fetchCall: fetch(apiCall, {
+        // Emulate XHR for Rails AJAX request checks
+        headers: {
+          'X-Requested-With': 'XMLHttpRequest'
+        },
+        // fetch won’t send cookies in older browsers, unless you set the credentials init option.
+        // We set to `same-origin` which is default value in modern browsers.
+        // See https://github.com/whatwg/fetch/pull/585 for more information.
+        credentials: 'same-origin'
+      })
+    };
+  });
+}
+if (gl.startup_graphql_calls && window.fetch) {
+  const headers = {"X-CSRF-Token":"1y2UxGh5hPeqwK2C7bUtiGAxI1leFFXWJnFAK60g9c4C3RF3z7BvZh02iYGTKWb2Aa7bpt3uIqj2m_t7aXQlYg","x-gitlab-feature-category":"team_planning"};
+  const url = `https://code.samourai.io/api/graphql`
+
+  const opts = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      ...headers,
+    }
+  };
+
+  gl.startup_graphql_calls = gl.startup_graphql_calls.map(call => ({
+    ...call,
+    fetchCall: fetch(url, {
+      ...opts,
+      credentials: 'same-origin',
+      body: JSON.stringify(call)
+    })
+  }))
+}
+
+
+//]]>
+</script>
+
+
+<link rel="stylesheet" href="/assets/themes/theme_indigo-3331cd49e4ca5527df9ebb4ec47e8d1463168d5a75df83bf264da79f38af4c96.css" />
+
+<link rel="stylesheet" href="/assets/application-106174ae025caa47e54ebda6fb32a305a86857c1a808ab1a76a697e8a286166c.css" media="all" />
+<link rel="stylesheet" href="/assets/page_bundles/design_management-5f445d9d7482681275c909ec475485d46c496383ae0cde8f07c3728eba8072c5.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/incidents-dc798239907cec6b2e194fde0d101f15e30fe3e81afe57a0c245845d3fe1ff48.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/issues_show-467ebfe27343f2ae452ad9054c16090daeaa5130d5517ca5fbf00a60ee0a4ab8.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/work_items-b3dba0b3d3147aca4736625218114bce2e5525b3a770f3f62934890858033bd3.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/issuable-12c6bf1c1fee9d4e6f41f96fd96b153ce0a88480ae3981241973c51842f3dfe5.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/promotions-e99055642bdb75905bda2f589e1f80d7cb0d4314315b8981061b847fde32f532.css" media="all" /><link rel="stylesheet" href="/assets/page_bundles/promotions-e99055642bdb75905bda2f589e1f80d7cb0d4314315b8981061b847fde32f532.css" media="all" />
+<link rel="stylesheet" href="/assets/application_utilities-26f780caee4e43acc82f1ebfd4b70005b5c7c94d738a978604be403f36805310.css" media="all" />
+
+
+<link rel="stylesheet" href="/assets/fonts-171e1863d044918ea3bbaacf2a559ccaac603904aa851c3add5b714fa7066468.css" media="all" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-d4bf6efd4d4cafbf52e7bdc180f805995f08252441f5fcb74b733728fda3e82a.css" media="all" />
+
+
+<link rel="preload" href="/assets/application_utilities-26f780caee4e43acc82f1ebfd4b70005b5c7c94d738a978604be403f36805310.css" as="style" type="text/css">
+<link rel="preload" href="/assets/application-106174ae025caa47e54ebda6fb32a305a86857c1a808ab1a76a697e8a286166c.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-d4bf6efd4d4cafbf52e7bdc180f805995f08252441f5fcb74b733728fda3e82a.css" as="style" type="text/css">
+
+
+
+
+
+
+<script src="/assets/webpack/runtime.d7c78445.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.cf67e731.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/shortcutsBundle.daaeaa6f.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.details-pages.groups.epic_boards-pages.groups.show-pages.gr-71149389.51caf55c.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-initGFMInput-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.epics.new-pages.gro-2c96fda8.97e941cd.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.epics.new-pages.groups.epics.sho-a65b2822.0ccb24c7.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.runners.show-pages.groups.achievements-pages.groups.analytics.dashboards-pages.g-354250a0.cf1e6259.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.epics.new-pages.groups.epics.sho-8791cddd.61b752e6.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.epics.new-pages.groups.epics.sho-1675b8a6.4ae10b0e.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.topics.edit-pages.admin.topics.new-pages.groups.epics.new-pages.groups.epics.sho-6caa2fc9.41ddbc38.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/14.0c55bf13.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.abuse_reports-pages.admin.abuse_reports.show-pages.dashboard.todos.index-pages.g-6cf261f2.2cef5485.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.show-pages.groups.milestones.edit-pages.groups.milestones.new-pages.group-b6561599.7ddc2076.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.dashboard.issues-pages.groups.epics.index-pages.groups.issues-pages.groups.merge_reque-9c94b5b8.8ca05b1a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.dashboard.milestones.show-pages.groups.merge_requests-pages.groups.milestones.edit-pag-af2a147c.aa3ccad0.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.boards-pages.groups.epic_boards-pages.groups.epics.show-pages.groups.merge_requ-8444deba.d71a8974.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/23.d22760b6.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.dashboard.issues-pages.groups.issues-pages.groups.merge_requests-pages.projects.incide-72bed0ea.6b32fece.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.abuse_reports-pages.admin.abuse_reports.show-pages.dashboard.todos.index-pages.g-ac05a374.43b5497a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.epics.show-pages.groups.merge_requests-pages.groups.roadmap.show-pages.projects-71a91f8a.381bbc9d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.projects.issues.show.d45ef4d7.chunk.js" defer="defer"></script>
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="Coordinator Fee Address Reuse (#462) · Issues · Wallet / samourai-wallet-android · GitLab" property="og:title">
+<meta content="For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from..." property="og:description">
+<meta content="https://code.samourai.io/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://code.samourai.io/wallet/samourai-wallet-android/-/issues/462" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="Coordinator Fee Address Reuse (#462) · Issues · Wallet / samourai-wallet-android · GitLab" property="twitter:title">
+<meta content="For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from..." property="twitter:description">
+<meta content="https://code.samourai.io/assets/twitter_card-570ddb06edf56a2312253c5872489847a0f385112ddbcd71ccfa1570febab5d2.jpg" property="twitter:image">
+<meta property="twitter:label1" content="Author"><meta property="twitter:data1" content="Kruw Kruwed">
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="u0Crr_le9EXCwUmFB8-r3FtAtV-yr8FMyL5EjG9ivhNusC4cXpcf1HU3bYZ5U-CiOt9NoDFVtjIYVP_cqzZuvw" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/uploads/-/system/appearance/favicon/1/g22.png" id="favicon" data-original-href="/uploads/-/system/appearance/favicon/1/g22.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from..." name="description">
+<meta content="#292961" name="theme-color">
+</head>
+
+<body class="ui-indigo tab-width-8 gl-browser-chrome gl-platform-windows" data-find-file="/wallet/samourai-wallet-android/-/find_file/develop" data-group="wallet" data-group-full-path="wallet" data-namespace-id="3" data-page="projects:issues:show" data-page-type-id="462" data-project="samourai-wallet-android" data-project-id="112">
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.GfmAutoComplete = gl.GfmAutoComplete || {};
+gl.GfmAutoComplete.dataSources = {"members":"/wallet/samourai-wallet-android/-/autocomplete_sources/members?type=Issue\u0026type_id=462","issues":"/wallet/samourai-wallet-android/-/autocomplete_sources/issues","mergeRequests":"/wallet/samourai-wallet-android/-/autocomplete_sources/merge_requests","labels":"/wallet/samourai-wallet-android/-/autocomplete_sources/labels?type=Issue\u0026type_id=462","milestones":"/wallet/samourai-wallet-android/-/autocomplete_sources/milestones","commands":"/wallet/samourai-wallet-android/-/autocomplete_sources/commands?type=Issue\u0026type_id=462","snippets":"/wallet/samourai-wallet-android/-/autocomplete_sources/snippets","contacts":"/wallet/samourai-wallet-android/-/autocomplete_sources/contacts?type=Issue\u0026type_id=462"};
+
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isChrome":true,"isWindows":true};
+
+
+//]]>
+</script>
+
+
+
+<header class="navbar navbar-gitlab navbar-expand-sm js-navbar" data-testid="navbar">
+<a class="gl-sr-only gl-accessibility" href="#content-body">Skip to content</a>
+<div class="container-fluid">
+<div class="header-content js-header-content">
+<div class="title-container hide-when-top-nav-responsive-open gl-transition-medium gl-display-flex gl-align-items-stretch gl-pt-0 gl-mr-3">
+<div class="title">
+<span class="gl-sr-only">GitLab</span>
+<a title="Homepage" id="logo" class="has-tooltip" href="/"><img class="brand-header-logo lazy" data-src="/uploads/-/system/appearance/header_logo/1/g22.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+</a></div>
+<div class="gl-display-flex gl-align-items-center">
+</div>
+<div class="gl-display-none gl-sm-display-block">
+<ul class="list-unstyled nav navbar-sub-nav" data-view-model="{&quot;primary&quot;:[{&quot;type&quot;:&quot;header&quot;,&quot;title&quot;:&quot;Explore&quot;},{&quot;id&quot;:&quot;project&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Projects&quot;,&quot;active&quot;:true,&quot;icon&quot;:&quot;project&quot;,&quot;href&quot;:&quot;/explore&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Projects&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;groups&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Groups&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;group&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Groups&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;topics&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Topics&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;labels&quot;,&quot;href&quot;:&quot;/explore/projects/topics&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Topics&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;snippets&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;snippet&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Snippets&quot;},&quot;partial&quot;:null,&quot;component&quot;:null}],&quot;secondary&quot;:[],&quot;views&quot;:{},&quot;shortcuts&quot;:[{&quot;id&quot;:&quot;project-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Projects&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-projects&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Projects&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;groups-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Groups&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-groups&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Groups&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;topics-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Topics&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/projects/topics&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-topics&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Topics&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;snippets-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-snippets&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Snippets&quot;},&quot;partial&quot;:null,&quot;component&quot;:null}],&quot;menuTooltip&quot;:&quot;Main menu&quot;}" id="js-top-nav">
+<li>
+<a class="top-nav-toggle" data-toggle="dropdown" href="#" type="button">
+<svg class="s16" data-testid="hamburger-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#hamburger"></use></svg>
+</a>
+</li>
+</ul>
+<div class="hidden">
+<a class="dashboard-shortcuts-projects" href="/explore">Projects
+</a><a class="dashboard-shortcuts-groups" href="/explore/groups">Groups
+</a><a class="dashboard-shortcuts-topics" href="/explore/projects/topics">Topics
+</a><a class="dashboard-shortcuts-snippets" href="/explore/snippets">Snippets
+</a></div>
+
+</div>
+</div>
+<div class="navbar-collapse gl-transition-medium collapse gl-mr-auto global-search-container hide-when-top-nav-responsive-open">
+<ul class="nav navbar-nav gl-w-full gl-align-items-center">
+<li class="nav-item header-search gl-display-none gl-lg-display-block gl-w-full">
+<div class="header-search-form is-not-active gl-relative gl-w-full" data-autocomplete-path="/search/autocomplete" data-issues-path="/dashboard/issues" data-mr-path="/dashboard/merge_requests" data-search-context="{&quot;group&quot;:{&quot;id&quot;:3,&quot;name&quot;:&quot;Wallet&quot;,&quot;full_name&quot;:&quot;Wallet&quot;},&quot;group_metadata&quot;:{&quot;issues_path&quot;:&quot;/groups/wallet/-/issues&quot;,&quot;mr_path&quot;:&quot;/groups/wallet/-/merge_requests&quot;},&quot;project&quot;:{&quot;id&quot;:112,&quot;name&quot;:&quot;samourai-wallet-android&quot;},&quot;project_metadata&quot;:{&quot;mr_path&quot;:&quot;/wallet/samourai-wallet-android/-/merge_requests&quot;,&quot;issues_path&quot;:&quot;/wallet/samourai-wallet-android/-/issues&quot;},&quot;code_search&quot;:false,&quot;scope&quot;:&quot;issues&quot;,&quot;for_snippets&quot;:null}" data-search-path="/search" id="js-header-search">
+<form action="/search" accept-charset="UTF-8" method="get"><div class="gl-search-box-by-type">
+<svg class="s16 gl-search-box-by-type-search-icon gl-icon" data-testid="search-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#search"></use></svg>
+<input autocomplete="off" class="form-control gl-form-input gl-search-box-by-type-input" data-testid="search_box" id="search" name="search" placeholder="Search GitLab" type="text">
+</div>
+<input type="hidden" name="group_id" id="group_id" value="3" autocomplete="off" />
+<input type="hidden" name="project_id" id="project_id" value="112" autocomplete="off" />
+<input type="hidden" name="scope" id="scope" value="issues" autocomplete="off" />
+<input type="hidden" name="search_code" id="search_code" value="false" autocomplete="off" />
+<input type="hidden" name="snippets" id="snippets" autocomplete="off" />
+<input type="hidden" name="repository_ref" id="repository_ref" autocomplete="off" />
+<input type="hidden" name="nav_source" id="nav_source" value="navbar" autocomplete="off" />
+<kbd class="gl-absolute gl-right-3 gl-top-0 keyboard-shortcut-helper gl-z-index-1 has-tooltip" data-html="true" data-placement="bottom" title="Use the shortcut key &lt;kbd&gt;/&lt;/kbd&gt; to start a search">
+/
+</kbd>
+</form></div>
+
+</li>
+<li class="nav-item d-none d-sm-inline-block d-lg-none">
+<a title="Search" aria-label="Search" data-toggle="tooltip" data-placement="bottom" data-container="body" data-track-action="click_link" data-track-label="global_search" data-track-property="navigation_top" href="/search?project_id=112"><svg class="s16" data-testid="search-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#search"></use></svg>
+</a></li>
+</ul>
+</div>
+<div class="navbar-collapse gl-transition-medium collapse">
+<ul class="nav navbar-nav gl-w-full gl-align-items-center gl-justify-content-end">
+<li class="nav-item header-help dropdown d-none d-md-block">
+<a class="header-help-dropdown-toggle gl-relative" data-toggle="dropdown" data-track-action="click_question_mark_link" data-track-label="main_navigation" data-track-property="navigation_top" href="/help"><span class="gl-sr-only">
+Help
+</span>
+<svg class="s16" data-testid="question-o-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#question-o"></use></svg>
+<span class="notification-dot rounded-circle gl-absolute"></span>
+<svg class="s16 caret-down" data-testid="chevron-down-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-down"></use></svg>
+</a><div class="dropdown-menu dropdown-menu-right">
+<ul>
+<li>
+
+</li>
+
+<li>
+<a data-track-action="click_link" data-track-label="help" data-track-property="navigation_top" href="/help">Help</a>
+</li>
+<li>
+<a data-track-action="click_link" data-track-label="support" data-track-property="navigation_top" href="https://about.gitlab.com/get-help/">Support</a>
+</li>
+<li>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" data-track-action="click_link" data-track-label="community_forum" data-track-property="navigation_top" href="https://forum.gitlab.com">Community forum</a>
+
+</li>
+<li>
+<button class="js-shortcuts-modal-trigger" data-track-action="click_button" data-track-label="keyboard_shortcuts_help" data-track-property="navigation_top" type="button">
+Keyboard shortcuts
+<kbd aria-hidden="true" class="flat float-right">?</kbd>
+</button>
+</li>
+<li class="divider"></li>
+<li>
+<a data-track-action="click_link" data-track-label="submit_feedback" data-track-property="navigation_top" href="https://about.gitlab.com/submit-feedback">Submit feedback</a>
+</li>
+<li>
+
+</li>
+
+</ul>
+
+</div>
+</li>
+<li class="nav-item">
+<a class="gl-button btn btn-md btn-default " href="/users/sign_up"><span class="gl-button-text">
+Register
+
+</span>
+
+</a></li>
+<li class="nav-item gl-flex-grow-0! gl-flex-basis-half!">
+<a href="/users/sign_in?redirect_to_referer=yes">Sign in</a>
+</li>
+</ul>
+</div>
+<button class="navbar-toggler d-block d-sm-none gl-border-none!" data-testid="mobile_navbar_button" type="button">
+<span class="sr-only">Toggle navigation</span>
+<span class="more-icon gl-px-3 gl-font-sm gl-font-weight-bold">
+<span class="gl-pr-2">Menu</span>
+<svg class="s16" data-testid="hamburger-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#hamburger"></use></svg>
+</span>
+<svg class="s12 close-icon" data-testid="close-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#close"></use></svg>
+</button>
+</div>
+</div>
+</header>
+
+<div class="layout-page hide-when-top-nav-responsive-open page-gutter right-sidebar-expanded page-with-contextual-sidebar">
+<aside aria-label="Project navigation" class="nav-sidebar">
+<div class="nav-sidebar-inner-scroll">
+<ul class="sidebar-top-level-items" data-testid="project_sidebar">
+<li data-track-label="scope_menu" data-container="body" data-placement="right" class="context-header has-tooltip" title="samourai-wallet-android"><a aria-label="samourai-wallet-android" class="shortcuts-project rspec-project-link gl-link" data-qa-selector="sidebar_menu_link" data-qa-menu-item="Project scope" href="/wallet/samourai-wallet-android"><span class="avatar-container rect-avatar s32 project_avatar">
+<span class="avatar avatar-tile s32 identicon bg1">S</span>
+</span>
+<span class="sidebar-context-title">
+samourai-wallet-android
+</span>
+</a></li>
+<li data-track-label="project_information_menu" class="home"><a aria-label="Project information" class="shortcuts-project-information has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Project information" href="/wallet/samourai-wallet-android/activity"><span class="nav-icon-container">
+<svg class="s16" data-testid="project-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#project"></use></svg>
+</span>
+<span class="nav-item-name">
+Project information
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Project information
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="activity" class=""><a aria-label="Activity" class="shortcuts-project-activity gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Activity" href="/wallet/samourai-wallet-android/activity"><span class="gl-flex-grow-1">
+Activity
+</span>
+</a></li><li data-track-label="labels" class=""><a aria-label="Labels" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Labels" href="/wallet/samourai-wallet-android/-/labels"><span class="gl-flex-grow-1">
+Labels
+</span>
+</a></li><li data-track-label="members" class=""><a aria-label="Members" id="js-onboarding-members-link" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Members" href="/wallet/samourai-wallet-android/-/project_members"><span class="gl-flex-grow-1">
+Members
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="repository_menu" class=""><a aria-label="Repository" class="shortcuts-tree has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Repository" href="/wallet/samourai-wallet-android/-/tree/develop"><span class="nav-icon-container">
+<svg class="s16" data-testid="doc-text-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#doc-text"></use></svg>
+</span>
+<span class="nav-item-name" id="js-onboarding-repo-link">
+Repository
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Repository
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="files" class=""><a aria-label="Files" class="shortcuts-tree gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Files" href="/wallet/samourai-wallet-android/-/tree/develop"><span class="gl-flex-grow-1">
+Files
+</span>
+</a></li><li data-track-label="commits" class=""><a aria-label="Commits" id="js-onboarding-commits-link" class="shortcuts-commits gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Commits" href="/wallet/samourai-wallet-android/-/commits/develop?ref_type=heads"><span class="gl-flex-grow-1">
+Commits
+</span>
+</a></li><li data-track-label="branches" class=""><a aria-label="Branches" id="js-onboarding-branches-link" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Branches" href="/wallet/samourai-wallet-android/-/branches"><span class="gl-flex-grow-1">
+Branches
+</span>
+</a></li><li data-track-label="tags" class=""><a aria-label="Tags" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Tags" href="/wallet/samourai-wallet-android/-/tags"><span class="gl-flex-grow-1">
+Tags
+</span>
+</a></li><li data-track-label="contributors" class=""><a aria-label="Contributor statistics" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Contributor statistics" href="/wallet/samourai-wallet-android/-/graphs/develop?ref_type=heads"><span class="gl-flex-grow-1">
+Contributor statistics
+</span>
+</a></li><li data-track-label="graphs" class=""><a aria-label="Graph" class="shortcuts-network gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Graph" href="/wallet/samourai-wallet-android/-/network/develop?ref_type=heads"><span class="gl-flex-grow-1">
+Graph
+</span>
+</a></li><li data-track-label="compare" class=""><a aria-label="Compare revisions" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Compare revisions" href="/wallet/samourai-wallet-android/-/compare?from=develop&amp;to=develop"><span class="gl-flex-grow-1">
+Compare revisions
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="issues_menu" class="active"><a aria-label="Issues" class="shortcuts-issues has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Issues" href="/wallet/samourai-wallet-android/-/issues"><span class="nav-icon-container">
+<svg class="s16" data-testid="issues-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#issues"></use></svg>
+</span>
+<span class="nav-item-name" id="js-onboarding-issues-link">
+Issues
+</span>
+<span class="gl-badge badge badge-pill badge-info sm count issue_counter">96
+</span></a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item active"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Issues
+</strong>
+<span class="gl-badge badge badge-pill badge-info sm count fly-out-badge issue_counter">96
+</span></span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="issue_list" class=""><a aria-label="Issues" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="List" href="/wallet/samourai-wallet-android/-/issues"><span class="gl-flex-grow-1">
+List
+</span>
+</a></li><li data-track-label="boards" class=""><a aria-label="Boards" class="shortcuts-issue-boards gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Boards" href="/wallet/samourai-wallet-android/-/boards"><span class="gl-flex-grow-1">
+Boards
+</span>
+</a></li><li data-track-label="service_desk" class=""><a aria-label="Service Desk" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Service Desk" href="/wallet/samourai-wallet-android/-/issues/service_desk"><span class="gl-flex-grow-1">
+Service Desk
+</span>
+</a></li><li data-track-label="milestones" class=""><a aria-label="Milestones" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Milestones" href="/wallet/samourai-wallet-android/-/milestones"><span class="gl-flex-grow-1">
+Milestones
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="merge_requests_menu" class=""><a aria-label="Merge requests" class="shortcuts-merge_requests gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Merge requests" href="/wallet/samourai-wallet-android/-/merge_requests"><span class="nav-icon-container">
+<svg class="s16" data-testid="git-merge-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#git-merge"></use></svg>
+</span>
+<span class="nav-item-name" id="js-onboarding-mr-link">
+Merge requests
+</span>
+<span class="gl-badge badge badge-pill badge-info sm count merge_counter js-merge-counter">5
+</span></a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Merge requests
+</strong>
+<span class="gl-badge badge badge-pill badge-info sm count fly-out-badge merge_counter js-merge-counter">5
+</span></span>
+</li></ul>
+
+</li><li data-track-label="ci_cd_menu" class=""><a aria-label="CI/CD" class="shortcuts-pipelines rspec-link-pipelines has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="CI/CD" href="/wallet/samourai-wallet-android/-/pipelines"><span class="nav-icon-container">
+<svg class="s16" data-testid="rocket-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#rocket"></use></svg>
+</span>
+<span class="nav-item-name" id="js-onboarding-pipelines-link">
+CI/CD
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+CI/CD
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="pipelines" class=""><a aria-label="Pipelines" class="shortcuts-pipelines gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Pipelines" href="/wallet/samourai-wallet-android/-/pipelines"><span class="gl-flex-grow-1">
+Pipelines
+</span>
+</a></li><li data-track-label="jobs" class=""><a aria-label="Jobs" class="shortcuts-builds gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Jobs" href="/wallet/samourai-wallet-android/-/jobs"><span class="gl-flex-grow-1">
+Jobs
+</span>
+</a></li><li data-track-label="artifacts" class=""><a aria-label="Artifacts" class="shortcuts-builds gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Artifacts" href="/wallet/samourai-wallet-android/-/artifacts"><span class="gl-flex-grow-1">
+Artifacts
+</span>
+</a></li><li data-track-label="pipeline_schedules" class=""><a aria-label="Schedules" class="shortcuts-builds gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Schedules" href="/wallet/samourai-wallet-android/-/pipeline_schedules"><span class="gl-flex-grow-1">
+Schedules
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="deployments_menu" class=""><a aria-label="Deployments" class="shortcuts-deployments has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Deployments" href="/wallet/samourai-wallet-android/-/environments"><span class="nav-icon-container">
+<svg class="s16" data-testid="deployments-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#deployments"></use></svg>
+</span>
+<span class="nav-item-name">
+Deployments
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Deployments
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="environments" class=""><a aria-label="Environments" class="shortcuts-environments gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Environments" href="/wallet/samourai-wallet-android/-/environments"><span class="gl-flex-grow-1">
+Environments
+</span>
+</a></li><li data-track-label="releases" class=""><a aria-label="Releases" class="shortcuts-deployments-releases gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Releases" href="/wallet/samourai-wallet-android/-/releases"><span class="gl-flex-grow-1">
+Releases
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="packages_registries_menu" class=""><a aria-label="Packages and registries" class="has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Packages and registries" href="/wallet/samourai-wallet-android/-/packages"><span class="nav-icon-container">
+<svg class="s16" data-testid="package-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#package"></use></svg>
+</span>
+<span class="nav-item-name">
+Packages and registries
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Packages and registries
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="packages_registry" class=""><a aria-label="Package Registry" class="shortcuts-container-registry gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Package Registry" href="/wallet/samourai-wallet-android/-/packages"><span class="gl-flex-grow-1">
+Package Registry
+</span>
+</a></li><li data-track-label="infrastructure_registry" class=""><a aria-label="Terraform modules" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Terraform modules" href="/wallet/samourai-wallet-android/-/infrastructure_registry"><span class="gl-flex-grow-1">
+Terraform modules
+</span>
+</a></li><li data-track-label="model_experiments" class=""><a aria-label="Model experiments" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Model experiments" href="/wallet/samourai-wallet-android/-/ml/experiments"><span class="gl-flex-grow-1">
+Model experiments
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="monitor_menu" class=""><a aria-label="Monitor" class="shortcuts-monitor has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Monitor" href="/wallet/samourai-wallet-android/-/incidents"><span class="nav-icon-container">
+<svg class="s16" data-testid="monitor-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#monitor"></use></svg>
+</span>
+<span class="nav-item-name">
+Monitor
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Monitor
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="incidents" class=""><a aria-label="Incidents" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Incidents" href="/wallet/samourai-wallet-android/-/incidents"><span class="gl-flex-grow-1">
+Incidents
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="analytics_menu" class=""><a aria-label="Analytics" class="shortcuts-analytics has-sub-items gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Analytics" href="/wallet/samourai-wallet-android/-/value_stream_analytics"><span class="nav-icon-container">
+<svg class="s16" data-testid="chart-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chart"></use></svg>
+</span>
+<span class="nav-item-name">
+Analytics
+</span>
+</a><ul class="sidebar-sub-level-items">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Analytics
+</strong>
+</span>
+</li><li class="divider fly-out-top-item"></li>
+<li data-track-label="cycle_analytics" class=""><a aria-label="Value stream" class="shortcuts-project-cycle-analytics gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Value stream" href="/wallet/samourai-wallet-android/-/value_stream_analytics"><span class="gl-flex-grow-1">
+Value stream
+</span>
+</a></li><li data-track-label="ci_cd_analytics" class=""><a aria-label="CI/CD" class="gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="CI/CD" href="/wallet/samourai-wallet-android/-/pipelines/charts"><span class="gl-flex-grow-1">
+CI/CD
+</span>
+</a></li><li data-track-label="repository_analytics" class=""><a aria-label="Repository" class="shortcuts-repository-charts gl-link" data-testid="sidebar_menu_item_link" data-qa-menu-item="Repository" href="/wallet/samourai-wallet-android/-/graphs/develop/charts"><span class="gl-flex-grow-1">
+Repository
+</span>
+</a></li>
+</ul>
+
+</li><li data-track-label="wiki_menu" class=""><a aria-label="Wiki" class="shortcuts-wiki gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Wiki" href="/wallet/samourai-wallet-android/-/wikis/home"><span class="nav-icon-container">
+<svg class="s16" data-testid="book-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#book"></use></svg>
+</span>
+<span class="nav-item-name">
+Wiki
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Wiki
+</strong>
+</span>
+</li></ul>
+
+</li><li data-track-label="snippets_menu" class=""><a aria-label="Snippets" class="shortcuts-snippets gl-link" data-testid="sidebar_menu_link" data-qa-menu-item="Snippets" href="/wallet/samourai-wallet-android/-/snippets"><span class="nav-icon-container">
+<svg class="s16" data-testid="snippet-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#snippet"></use></svg>
+</span>
+<span class="nav-item-name">
+Snippets
+</span>
+</a><ul class="sidebar-sub-level-items is-fly-out-only">
+<li class="fly-out-top-item"><span class="fly-out-top-item-container">
+<strong class="fly-out-top-item-name">
+Snippets
+</strong>
+</span>
+</li></ul>
+
+</li>
+<li class="hidden">
+<a aria-label="Activity" class="shortcuts-project-activity gl-link" href="/wallet/samourai-wallet-android/activity">Activity
+</a></li>
+<li class="hidden">
+<a aria-label="Graph" class="shortcuts-network gl-link" href="/wallet/samourai-wallet-android/-/network/develop">Graph
+</a></li>
+<li class="hidden">
+<a aria-label="Create a new issue" class="shortcuts-new-issue gl-link" href="/wallet/samourai-wallet-android/-/issues/new">Create a new issue
+</a></li>
+<li class="hidden">
+<a aria-label="Jobs" class="shortcuts-builds gl-link" href="/wallet/samourai-wallet-android/-/jobs">Jobs
+</a></li>
+<li class="hidden">
+<a aria-label="Commits" class="shortcuts-commits gl-link" href="/wallet/samourai-wallet-android/-/commits/develop">Commits
+</a></li>
+<li class="hidden">
+<a aria-label="Issue Boards" class="shortcuts-issue-boards gl-link" href="/wallet/samourai-wallet-android/-/boards">Issue Boards
+</a></li>
+
+</ul>
+<a class="toggle-sidebar-button js-toggle-sidebar rspec-toggle-sidebar" role="button" title="Toggle sidebar" type="button">
+<svg class="s12 icon-chevron-double-lg-left" data-testid="chevron-double-lg-left-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-double-lg-left"></use></svg>
+<span class="collapse-text gl-ml-3">Collapse sidebar</span>
+</a>
+<button name="button" type="button" class="close-nav-button"><svg class="s16" data-testid="close-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#close"></use></svg>
+<span class="collapse-text gl-ml-3">Close sidebar</span>
+</button>
+</div>
+</aside>
+
+
+<div class="content-wrapper">
+<div class="mobile-overlay"></div>
+
+<div class="alert-wrapper gl-force-block-formatting-context">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container-fluid container-limited limit-container-width project-highlight-puc" data-testid="top-bar">
+<div class="top-bar-container gl-display-flex gl-align-items-center gl-gap-2 gl-border-b">
+<button class="gl-button btn btn-icon btn-md btn-default btn-default-tertiary toggle-mobile-nav gl-ml-n3" data-testid="toggle_mobile_nav_button" aria-label="Open sidebar" type="button"><svg class="s16 gl-icon gl-button-icon " data-testid="sidebar-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#sidebar"></use></svg>
+
+</button>
+<nav aria-label="Breadcrumbs" class="breadcrumbs" data-qa-selector="breadcrumb_links_content" data-testid="breadcrumb-links">
+<ul class="list-unstyled breadcrumbs-list js-breadcrumbs-list">
+<li><a class="group-path breadcrumb-item-text js-breadcrumb-item-text " href="/wallet"><img alt="Wallet" class="avatar-tile lazy" width="15" height="15" data-src="/uploads/-/system/group/avatar/3/profile_main.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />Wallet</a><svg class="s8 breadcrumbs-list-angle" data-testid="chevron-lg-right-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-lg-right"></use></svg></li> <li><a href="/wallet/samourai-wallet-android"><span class="breadcrumb-item-text js-breadcrumb-item-text">samourai-wallet-android</span></a><svg class="s8 breadcrumbs-list-angle" data-testid="chevron-lg-right-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-lg-right"></use></svg></li>
+<li><a href="/wallet/samourai-wallet-android/-/issues">Issues</a><svg class="s8 breadcrumbs-list-angle" data-testid="chevron-lg-right-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-lg-right"></use></svg></li>
+
+<li data-qa-selector="breadcrumb_current_link" data-testid="breadcrumb-current-link">
+<a href="/wallet/samourai-wallet-android/-/issues/462">#462</a>
+</li>
+</ul>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Wallet","item":"https://code.samourai.io/wallet"},{"@type":"ListItem","position":2,"name":"samourai-wallet-android","item":"https://code.samourai.io/wallet/samourai-wallet-android"},{"@type":"ListItem","position":3,"name":"Issues","item":"https://code.samourai.io/wallet/samourai-wallet-android/-/issues"},{"@type":"ListItem","position":4,"name":"#462","item":"https://code.samourai.io/wallet/samourai-wallet-android/-/issues/462"}]}
+
+</script>
+</nav>
+
+
+
+</div>
+</div>
+
+</div>
+<div class="container-fluid container-limited limit-container-width project-highlight-puc">
+<main class="content" id="content-body" itemscope itemtype="http://schema.org/SoftwareSourceCode">
+<div class="flash-container flash-container-page sticky" data-qa-selector="flash_container">
+</div>
+
+
+
+
+
+<div class="detail-page-header">
+<div class="detail-page-header-body gl-flex-wrap">
+<span class="gl-badge badge badge-pill badge-info md hidden issuable-status-badge gl-mr-3 issuable-status-badge-closed"><svg class="s16 gl-icon gl-badge-icon gl-mr-0! gl-mr-2" data-testid="issue-closed-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#issue-closed"></use></svg><div class="gl-display-none gl-sm-display-block gl-ml-2">
+Closed
+</div>
+</span><span class="gl-badge badge badge-pill badge-success md  issuable-status-badge gl-mr-3 issuable-status-badge-open"><svg class="s16 gl-icon gl-badge-icon gl-mr-0! gl-mr-2" data-testid="issues-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#issues"></use></svg><span class="gl-display-none gl-sm-display-block gl-ml-2">
+Open
+</span>
+</span><div data-hidden="false" id="js-issuable-header-warnings"></div>
+<span class="gl-mr-2" aria-hidden="true"><svg class="s16 gl-icon gl-vertical-align-middle gl-text-gray-500" data-testid="issue-type-issue-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#issue-type-issue"></use></svg></span><span class="gl-mr-2">Issue created <time class="js-timeago" title="Oct 25, 2023 11:27am" datetime="2023-10-25T11:27:38Z" data-toggle="tooltip" data-placement="top" data-container="body">Oct 25, 2023</time> by </span><strong><a class="author-link js-user-link d-none d-sm-inline-block" data-user-id="1347" data-username="Kruw" data-name="Kruw Kruwed" href="/Kruw"><img width="24" class="avatar avatar-inline s24 lazy" alt="" data-src="https://secure.gravatar.com/avatar/772c99ba70a96000eadc1eea0d4a82d5?s=48&amp;d=identicon" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><span class="author">Kruw Kruwed</span></a><a class="author-link js-user-link d-inline d-sm-none" data-user-id="1347" data-username="Kruw" data-name="Kruw Kruwed" href="/Kruw"><span class="author">@Kruw</span></a></strong><span class="has-tooltip gl-ml-2" title="1st contribution!"></span>
+<a class="gl-button btn btn-icon btn-md btn-default gl-float-right gl-display-block gl-sm-display-none! gutter-toggle issuable-gutter-toggle js-sidebar-toggle" href="#"><svg class="s16 gl-icon gl-button-icon " data-testid="chevron-double-lg-left-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-double-lg-left"></use></svg>
+
+</a>
+</div>
+<div class="js-issue-header-actions" data-can-create-incident="false" data-can-create-issue="true" data-can-destroy-issue="false" data-can-promote-to-epic="false" data-can-reopen-issue="false" data-can-report-spam="" data-can-update-issue="false" data-iid="462" data-is-issue-author="false" data-issuable-id="999" data-issue-path="/wallet/samourai-wallet-android/-/issues/462" data-issue-type="issue" data-new-issue-path="/wallet/samourai-wallet-android/-/issues/new?add_related_issue=462" data-project-path="wallet/samourai-wallet-android" data-report-abuse-path="/-/abuse_reports/add_category" data-reported-from-url="https://code.samourai.io/wallet/samourai-wallet-android/-/issues/462" data-reported-user-id="1347" data-submit-as-spam-path="/wallet/samourai-wallet-android/-/issues/462/mark_as_spam"></div>
+</div>
+
+<div class="issue-details issuable-details js-issue-details">
+<div class="detail-page-description content-block js-detail-page-description gl-pt-3 gl-pb-0 gl-border-none">
+<div data-full-path="wallet/samourai-wallet-android" data-initial="{&quot;endpoint&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462&quot;,&quot;updateEndpoint&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462.json&quot;,&quot;canUpdate&quot;:false,&quot;canDestroy&quot;:false,&quot;issuableRef&quot;:&quot;#462&quot;,&quot;markdownPreviewPath&quot;:&quot;/wallet/samourai-wallet-android/preview_markdown?target_id=462\u0026target_type=Issue&quot;,&quot;markdownDocsPath&quot;:&quot;/help/user/markdown&quot;,&quot;lockVersion&quot;:0,&quot;state&quot;:&quot;opened&quot;,&quot;issuableTemplateNamesPath&quot;:&quot;/wallet/samourai-wallet-android/description_templates/names/issue&quot;,&quot;initialTitleHtml&quot;:&quot;Coordinator Fee Address Reuse&quot;,&quot;initialTitleText&quot;:&quot;Coordinator Fee Address Reuse&quot;,&quot;initialDescriptionHtml&quot;:&quot;\u003cp data-sourcepos=\&quot;1:1-1:290\&quot; dir=\&quot;auto\&quot;\u003eFor Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from the change and the mixing amounts, so there is no presumption of privacy as to which entity controls it.\u003c/p\u003e\u0026#x000A;\u003cp data-sourcepos=\&quot;3:1-3:229\&quot; dir=\&quot;auto\&quot;\u003eHowever, the coordinator has been reusing receive addresses in some instances to collect this fee. The most used address I noticed during research was bc1qhyls4wa9hlpvwa0y980mz0qhjyfhjkf4t5v6lh which was used for 37 transactions.\u003c/p\u003e\u0026#x000A;\u003cp data-sourcepos=\&quot;5:1-5:95\&quot; dir=\&quot;auto\&quot;\u003eThis has happened both recently as well as in the past, reuse has occurred since at least 2022:\u003c/p\u003e\u0026#x000A;\u003cp data-sourcepos=\&quot;7:1-7:103\&quot; dir=\&quot;auto\&quot;\u003eUnconfirmed - \u003ca href=\&quot;https://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34\&quot; rel=\&quot;nofollow noreferrer noopener\&quot; target=\&quot;_blank\&quot;\u003ehttps://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34\u003c/a\u003e\u003c/p\u003e\u0026#x000A;\u003cp data-sourcepos=\&quot;9:1-9:105\&quot; dir=\&quot;auto\&quot;\u003eBlock height 810549 - \u003ca href=\&quot;https://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee\&quot; rel=\&quot;nofollow noreferrer noopener\&quot; target=\&quot;_blank\&quot;\u003ehttps://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee\u003c/a\u003e\u003c/p\u003e\u0026#x000A;\u003cp data-sourcepos=\&quot;11:1-11:105\&quot; dir=\&quot;auto\&quot;\u003eBlock height 756501 - \u003ca href=\&quot;https://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374\&quot; rel=\&quot;nofollow noreferrer noopener\&quot; target=\&quot;_blank\&quot;\u003ehttps://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374\u003c/a\u003e\u003c/p\u003e&quot;,&quot;initialDescriptionText&quot;:&quot;For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from the change and the mixing amounts, so there is no presumption of privacy as to which entity controls it.\n\nHowever, the coordinator has been reusing receive addresses in some instances to collect this fee. The most used address I noticed during research was bc1qhyls4wa9hlpvwa0y980mz0qhjyfhjkf4t5v6lh which was used for 37 transactions.\n\nThis has happened both recently as well as in the past, reuse has occurred since at least 2022:\n\nUnconfirmed - https://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34\n\nBlock height 810549 - https://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee\n\nBlock height 756501 - https://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374&quot;,&quot;initialTaskCompletionStatus&quot;:{&quot;count&quot;:0,&quot;completed_count&quot;:0},&quot;hasClosingMergeRequest&quot;:false,&quot;issueType&quot;:&quot;issue&quot;,&quot;zoomMeetingUrl&quot;:null,&quot;sentryIssueIdentifier&quot;:null,&quot;iid&quot;:&quot;462&quot;,&quot;isHidden&quot;:false,&quot;canCreateIncident&quot;:false,&quot;publishedIncidentUrl&quot;:null,&quot;slaFeatureAvailable&quot;:&quot;false&quot;,&quot;uploadMetricsFeatureAvailable&quot;:&quot;false&quot;,&quot;projectId&quot;:112,&quot;projectPath&quot;:&quot;samourai-wallet-android&quot;,&quot;projectNamespace&quot;:&quot;wallet&quot;,&quot;canAdmin&quot;:false,&quot;hasIssueWeightsFeature&quot;:false,&quot;hasIterationsFeature&quot;:false,&quot;canAdminRelation&quot;:false}" data-issuable-id="999" data-register-path="/users/sign_up?redirect_to_referer=yes" data-sign-in-path="/users/sign_in?redirect_to_referer=yes" id="js-issuable-app">
+<div class="title-container">
+<h1 class="title page-title gl-font-size-h-display">Coordinator Fee Address Reuse</h1>
+</div>
+<div class="description">
+<div class="md"><p data-sourcepos="1:1-1:290" dir="auto">For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from the change and the mixing amounts, so there is no presumption of privacy as to which entity controls it.</p>&#x000A;<p data-sourcepos="3:1-3:229" dir="auto">However, the coordinator has been reusing receive addresses in some instances to collect this fee. The most used address I noticed during research was bc1qhyls4wa9hlpvwa0y980mz0qhjyfhjkf4t5v6lh which was used for 37 transactions.</p>&#x000A;<p data-sourcepos="5:1-5:95" dir="auto">This has happened both recently as well as in the past, reuse has occurred since at least 2022:</p>&#x000A;<p data-sourcepos="7:1-7:103" dir="auto">Unconfirmed - <a href="https://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34" rel="nofollow noreferrer noopener" target="_blank">https://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34</a></p>&#x000A;<p data-sourcepos="9:1-9:105" dir="auto">Block height 810549 - <a href="https://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee" rel="nofollow noreferrer noopener" target="_blank">https://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee</a></p>&#x000A;<p data-sourcepos="11:1-11:105" dir="auto">Block height 756501 - <a href="https://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374" rel="nofollow noreferrer noopener" target="_blank">https://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374</a></p></div>
+</div>
+
+</div>
+<div class="js-issue-widgets">
+<div class="emoji-block emoji-block-sticky">
+<div class="row gl-m-0 gl-justify-content-space-between">
+<div class="js-noteable-awards">
+<div class="gl-display-flex gl-flex-wrap gl-justify-content-space-between gl-pt-3">
+<div data-can-award-emoji="false" data-path="/api/v4/projects/112/issues/462/award_emoji" id="js-vue-awards-block"></div>
+
+</div>
+
+</div>
+<div class="new-branch-col gl-font-size-0 gl-my-2">
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="js-issue-widgets">
+
+<div class="js-design-management" data-issue-iid="462" data-issue-path="/wallet/samourai-wallet-android/-/issues/462" data-new-comment-template-path="/-/profile/comment_templates" data-project-path="wallet/samourai-wallet-android" data-register-path="/users/sign_up?redirect_to_referer=yes" data-sign-in-path="/users/sign_in?redirect_to_referer=yes"></div>
+
+<div class="js-work-item-links-root" data-full-path="wallet/samourai-wallet-android" data-issuable-id="999" data-issuable-iid="462" data-register-path="/users/sign_up?redirect_to_referer=yes" data-sign-in-path="/users/sign_in?redirect_to_referer=yes" data-wi-full-path="wallet/samourai-wallet-android" data-wi-has-issuable-health-status-feature="false" data-wi-has-issue-weights-feature="false" data-wi-has-iterations-feature="false" data-wi-has-okrs-feature="false" data-wi-issues-list-path="/wallet/samourai-wallet-android/-/issues" data-wi-new-comment-template-path="/-/profile/comment_templates" data-wi-register-path="/users/sign_up?redirect_to_referer=yes" data-wi-report-abuse-path="/-/abuse_reports/add_category" data-wi-sign-in-path="/users/sign_in?redirect_to_referer=yes"></div>
+
+
+<div class="js-related-issues-root" data-can-add-related-issues="false" data-endpoint="/wallet/samourai-wallet-android/-/issues/462/links" data-full-path="wallet/samourai-wallet-android" data-has-issue-weights-feature="false" data-has-iterations-feature="false" data-help-path="/help/user/project/issues/related_issues" data-report-abuse-path="/-/abuse_reports/add_category" data-show-categorized-issues="false"></div>
+
+<div data-endpoint="/api/v4/projects/112/issues/462/related_merge_requests" data-project-namespace="wallet" data-project-path="samourai-wallet-android" id="js-related-merge-requests"></div>
+<div data-url="/wallet/samourai-wallet-android/-/issues/462/related_branches" id="related-branches">
+</div>
+</div>
+<div class="js-issue-widgets">
+<section class="issuable-discussion js-vue-notes-event">
+<div data-can-add-timeline-events="false" data-current-user-data="null" data-new-comment-template-path="/-/profile/comment_templates" data-noteable-data="{&quot;id&quot;:999,&quot;iid&quot;:462,&quot;description&quot;:&quot;For Whirlpool coinjoins, the coordinator collects their fee in each preceding tx0 transaction with its own dedicated output. The value of the fee output implicitly distinguishes it from the change and the mixing amounts, so there is no presumption of privacy as to which entity controls it.\n\nHowever, the coordinator has been reusing receive addresses in some instances to collect this fee. The most used address I noticed during research was bc1qhyls4wa9hlpvwa0y980mz0qhjyfhjkf4t5v6lh which was used for 37 transactions.\n\nThis has happened both recently as well as in the past, reuse has occurred since at least 2022:\n\nUnconfirmed - https://mempool.space/tx/5b22ceee9357f8049b555a8938f79c22ccef323ec9ce9976a2a9e9124c437f34\n\nBlock height 810549 - https://kycp.org/#/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee\n\nBlock height 756501 - https://kycp.org/#/075224a5f39388188daea9ab97cbe507bf807ef162221d2d3e5890a6755e1374&quot;,&quot;title&quot;:&quot;Coordinator Fee Address Reuse&quot;,&quot;time_estimate&quot;:0,&quot;total_time_spent&quot;:0,&quot;human_time_estimate&quot;:null,&quot;human_total_time_spent&quot;:null,&quot;state&quot;:&quot;opened&quot;,&quot;milestone_id&quot;:null,&quot;updated_by_id&quot;:null,&quot;created_at&quot;:&quot;2023-10-25T11:27:38Z&quot;,&quot;updated_at&quot;:&quot;2023-10-25T11:27:38Z&quot;,&quot;milestone&quot;:null,&quot;labels&quot;:[],&quot;lock_version&quot;:0,&quot;author_id&quot;:1347,&quot;confidential&quot;:false,&quot;discussion_locked&quot;:null,&quot;assignees&quot;:[],&quot;due_date&quot;:null,&quot;project_id&quot;:112,&quot;moved_to_id&quot;:null,&quot;duplicated_to_id&quot;:null,&quot;web_url&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462&quot;,&quot;current_user&quot;:{&quot;can_create_note&quot;:false,&quot;can_create_confidential_note&quot;:false,&quot;can_update&quot;:false,&quot;can_set_issue_metadata&quot;:false,&quot;can_award_emoji&quot;:false},&quot;create_note_path&quot;:&quot;/wallet/samourai-wallet-android/notes?target_id=999\u0026target_type=issue&quot;,&quot;preview_note_path&quot;:&quot;/wallet/samourai-wallet-android/preview_markdown?target_id=462\u0026target_type=Issue&quot;,&quot;is_project_archived&quot;:false,&quot;issue_email_participants&quot;:[],&quot;type&quot;:&quot;ISSUE&quot;,&quot;blocked&quot;:false,&quot;blocked_by_issues&quot;:[]}" data-noteable-type="Issue" data-notes-data="{&quot;discussionsPath&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462/discussions.json&quot;,&quot;registerPath&quot;:&quot;/users/sign_in?redirect_to_referer=yes#register-pane&quot;,&quot;newSessionPath&quot;:&quot;/users/sign_in?redirect_to_referer=yes&quot;,&quot;markdownDocsPath&quot;:&quot;/help/user/markdown&quot;,&quot;quickActionsDocsPath&quot;:&quot;/help/user/project/quick_actions&quot;,&quot;closePath&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462.json?issue%5Bstate_event%5D=close&quot;,&quot;reopenPath&quot;:&quot;/wallet/samourai-wallet-android/-/issues/462.json?issue%5Bstate_event%5D=reopen&quot;,&quot;notesPath&quot;:&quot;/wallet/samourai-wallet-android/noteable/issue/999/notes&quot;,&quot;prerenderedNotesCount&quot;:0,&quot;lastFetchedAt&quot;:1698233295000000,&quot;notesFilter&quot;:null}" data-notes-filters="{&quot;Show all activity&quot;:0,&quot;Show comments only&quot;:1,&quot;Show history only&quot;:2}" data-report-abuse-path="/-/abuse_reports/add_category" data-show-timeline-view-toggle="false" data-target-type="issue" id="js-vue-notes"></div>
+</section>
+
+</div>
+</div>
+<aside aria-label="issue" aria-live="polite" class="right-sidebar js-right-sidebar js-issuable-sidebar right-sidebar-expanded" data-always-show-toggle data-issuable-type="issue">
+<div class="issuable-sidebar">
+<div class="issuable-sidebar-header">
+<button class="gl-button btn btn-md btn-default gutter-toggle float-right js-sidebar-toggle has-tooltip gl-shadow-none! gl-display-block" type="button" aria-label="Toggle sidebar" title="Collapse sidebar" data-container="body" data-placement="left" data-boundary="viewport" type="button"><span class="gl-button-text">
+<span class="js-sidebar-toggle-container gl-button-text" data-is-expanded="true"><svg class="s16 js-sidebar-expand hidden" data-testid="chevron-double-lg-left-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-double-lg-left"></use></svg><svg class="s16 js-sidebar-collapse " data-testid="chevron-double-lg-right-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-double-lg-right"></use></svg></span>
+
+</span>
+
+</button></div>
+<form class="issuable-context-form inline-update js-issuable-update" action="/wallet/samourai-wallet-android/-/issues/462.json" accept-charset="UTF-8" data-remote="true" method="post"><div class="block assignee gl-mt-3" data-qa-selector="assignee_block_container" data-testid="assignee-block-container">
+<div class="js-sidebar-assignees-root" data-field="issue" data-max-assignees="1">
+<div class="title hide-collapsed">
+Assignee
+<span class="gl-spinner-container" role="status"><span aria-label="Loading" class="gl-spinner gl-spinner-sm gl-spinner-dark gl-vertical-align-text-bottom!"></span></span>
+</div>
+</div>
+<div class="js-sidebar-assignee-data selectbox hide-collapsed">
+<input type="hidden" name="issue[assignee_ids][]" value="0" autocomplete="off" />
+<div class="dropdown "><button class="dropdown-menu-toggle js-user-search js-author-search js-multiselect js-save-user-data" type="button" data-current-user="true" data-iid="462" data-issuable-type="issue" data-project-id="112" data-author-id="1347" data-field-name="issue[assignee_ids][]" data-issue-update="/wallet/samourai-wallet-android/-/issues/462.json" data-ability-name="issue" data-null-user="true" data-display="static" data-multi-select="true" data-dropdown-title="Select assignee" data-dropdown-header="Assignee" data-max-select="1" data-toggle="dropdown"><span class="dropdown-toggle-text ">Select assignee</span><svg class="s16 dropdown-menu-toggle-icon" data-testid="chevron-down-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#chevron-down"></use></svg></button><div class="dropdown-menu dropdown-select dropdown-menu-user dropdown-menu-selectable dropdown-menu-author"><div class="dropdown-title gl-display-flex"><span class="gl-ml-auto">Assign to</span><button class="dropdown-title-button dropdown-menu-close gl-ml-auto" aria-label="Close" type="button"><svg class="s16 dropdown-menu-close-icon" data-testid="close-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#close"></use></svg></button></div><div class="dropdown-input"><input type="search" data-qa-selector="dropdown_input_field" class="dropdown-input-field" placeholder="Search users" autocomplete="off" /><svg class="s16 dropdown-input-search" data-testid="search-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#search"></use></svg><svg class="s16 dropdown-input-clear js-dropdown-input-clear" data-testid="close-icon"><use href="/assets/icons-5af6a635d810e1104f2def09ede3ada64866640a56f75b704457f18be086e881.svg#close"></use></svg></div><div data-qa-selector="dropdown_list_content" class="dropdown-content "></div><div class="dropdown-loading"><div class="gl-spinner-container gl-mt-7" role="status"><span aria-label="Loading" class="gl-spinner gl-spinner-md gl-spinner-dark gl-vertical-align-text-bottom!"></span></div></div></div></div>
+
+</div>
+
+</div>
+
+
+<div class="js-sidebar-labels-widget-root" data-allow-label-create="" data-allow-scoped-labels="false" data-can-edit="" data-iid="462" data-issuable-type="issue" data-labels-fetch-path="/wallet/samourai-wallet-android/-/labels.json?include_ancestor_groups=true" data-labels-manage-path="/wallet/samourai-wallet-android/-/labels" data-project-issues-path="/wallet/samourai-wallet-android/-/issues" data-project-path="wallet/samourai-wallet-android" data-selected-labels="[]"></div>
+<div class="block milestone gl-border-b-0!" data-qa-selector="milestone_block" data-testid="sidebar-milestones">
+<div class="js-sidebar-milestone-widget-root" data-can-edit="" data-issue-iid="462" data-project-path="wallet/samourai-wallet-android"></div>
+</div>
+<div class="block gl-collapse-empty" data-testid="iteration_container"></div>
+
+
+<div class="js-sidebar-due-date-widget-root"></div>
+<div class="js-sidebar-time-tracking-root block">
+<!-- / Fallback while content is loading -->
+<div class="title hide-collapsed">
+Time tracking
+<span class="gl-spinner-container" role="status"><span aria-label="Loading" class="gl-spinner gl-spinner-sm gl-spinner-dark gl-vertical-align-text-bottom!"></span></span>
+</div>
+</div>
+<script id="js-confidential-issue-data" type="application/json">{"is_confidential":false,"is_editable":null}</script>
+<div class="js-sidebar-confidential-widget-root"></div>
+
+<div class="js-sidebar-participants-widget-root"></div>
+</form><script class="js-sidebar-options" type="application/json">{"endpoint":"/wallet/samourai-wallet-android/-/issues/462.json?serializer=sidebar_extras","toggleSubscriptionEndpoint":"/wallet/samourai-wallet-android/-/issues/462/toggle_subscription","moveIssueEndpoint":"/wallet/samourai-wallet-android/-/issues/462/move","projectsAutocompleteEndpoint":"/-/autocomplete/projects?project_id=112","editable":"","currentUser":{},"rootPath":"/","fullPath":"wallet/samourai-wallet-android","iid":462,"id":999,"severity":"unknown","timeTrackingLimitToHours":false,"canCreateTimelogs":null,"createNoteEmail":null,"issuableType":"issue","weightOptions":["None","Any",0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20],"weightNoneValue":"None"}</script>
+</div>
+</aside>
+
+
+
+
+</main>
+</div>
+
+
+</div>
+</div>
+<div class="top-nav-responsive layout-page">
+<div class="cloak-startup">
+<div data-view-model="{&quot;primary&quot;:[{&quot;type&quot;:&quot;header&quot;,&quot;title&quot;:&quot;Explore&quot;},{&quot;id&quot;:&quot;project&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Projects&quot;,&quot;active&quot;:true,&quot;icon&quot;:&quot;project&quot;,&quot;href&quot;:&quot;/explore&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Projects&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;groups&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Groups&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;group&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Groups&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;topics&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Topics&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;labels&quot;,&quot;href&quot;:&quot;/explore/projects/topics&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Topics&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;snippets&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;snippet&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Snippets&quot;},&quot;partial&quot;:null,&quot;component&quot;:null}],&quot;secondary&quot;:[],&quot;views&quot;:{&quot;search&quot;:{&quot;id&quot;:&quot;search&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Search&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;search&quot;,&quot;href&quot;:&quot;/search?project_id=112&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:null,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Search&quot;},&quot;partial&quot;:null,&quot;component&quot;:null}},&quot;shortcuts&quot;:[{&quot;id&quot;:&quot;project-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Projects&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-projects&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Projects&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;groups-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Groups&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-groups&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Groups&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;topics-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Topics&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/projects/topics&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-topics&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Topics&quot;},&quot;partial&quot;:null,&quot;component&quot;:null},{&quot;id&quot;:&quot;snippets-shortcut&quot;,&quot;type&quot;:&quot;item&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;active&quot;:false,&quot;icon&quot;:&quot;&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;view&quot;:&quot;&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-snippets&quot;,&quot;data&quot;:{&quot;testid&quot;:&quot;menu_item_link&quot;,&quot;qa_title&quot;:&quot;Snippets&quot;},&quot;partial&quot;:null,&quot;component&quot;:null}],&quot;menuTooltip&quot;:&quot;Main menu&quot;}" id="js-top-nav-responsive"></div>
+</div>
+</div>
+
+
+
+<script>
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded');
+    img.dataset.testid = 'js_lazy_loaded_content';
+  });
+}
+
+//]]>
+</script>
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.experiments = {};
+
+
+//]]>
+</script>
+
+</body>
+</html>
+
