@@ -5,12 +5,12 @@ This repository contains my first-person account of the conflict between Samoura
 ## Read this first
 
 - [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the complete essay with citations and evidence placed beside the events it documents.
-- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 34-page edition.
+- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 38-page edition.
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
-- [**Complete citation inventory**](sources/URLS.md) — 92 external URLs and preserved public-post permalinks, with local copies identified where available.
-- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 110 archived files.
+- [**Complete citation inventory**](sources/URLS.md) — 112 external URLs and preserved public-post permalinks, with local copies identified where available.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 261 archived files.
 
-The archive includes 31 evidence and publication images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
+The archive includes 33 evidence and publication images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, 33 Research Club transcripts with raw captions and metadata, and metadata for four additional cited recordings.
 
 ## Evidence map
 
@@ -21,6 +21,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 - [**Samourai's first ZeroLink commit was “Fix typos.”**](sources/screenshots/zerolink-first-samourai-commit-fix-typos.jpg) The screenshot and [portable patch](sources/code/zerolink-8fbdcb9-fix-typos.patch) preserve the first contribution made after the framework and its 184-line specification already existed.
 - [**The complete Git history makes the authorship claim reproducible.**](sources/code/zerolink-full-history.bundle) The bundle contains the public commit graph; the [August 2017 publication snapshot](sources/code/zerolink-25d1502-publication-snapshot.zip) fixes the comparison at the date used in the essay.
 - [**The ZeroLink authorship audit records chronology, line ownership, and commit churn.**](POST_MORTEM.md#how-zerolink-actually-began) The accompanying [code-evidence guide](sources/code/README.md) makes the result reproducible instead of treating raw line counts as a slogan.
+- [**ZeroLink was a wallet privacy framework, not merely a CoinJoin transaction type.**](sources/video/wasabi-research-club/transcripts/26-l7bK85obzrM.md) The timestamped discussion separates its blinded CoinJoin protocol from its broader network, wallet, and post-mix privacy rules—the scope Samourai later claimed to have co-created.
 
 ### Hosted backends, xpubs, and unsafe defaults
 
@@ -30,6 +31,13 @@ The descriptions below are deliberately short. They identify the issue shown by 
 - [**Sentinel moved xpub lookups from Blockchain.info to Samourai's API in 2017.**](sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg) The [commit patch](sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch) preserves the change directly.
 - [**Sentinel added Tor routing more than two years after the xpub move.**](sources/code/sentinel-1a4722f-add-tor.patch) Exact-commit [v3](sources/code/sentinel-android-cf46177-cited-files.zip) and [pre-seizure v5](sources/code/sentinel-android-b5ef29c-cited-files.zip) snapshots preserve the later server and Tor choices.
 - [**Asked about xpubs reaching Samourai servers, Hill changed “servers” to “coordinator.”**](sources/screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png) The same reply claimed Samourai implemented nopara73's ZeroLink specification because its author lacked the skill to do so; the Git history above disproves that authorship reversal.
+- [**The Research Club warned about the xpub-server design years before the seizure.**](sources/video/wasabi-research-club/README.md) Timestamped transcripts preserve the April 2020 rejection of a central xpub server, the July 2021 Samourai/SharedCoin comparison, and the September 2022 warning that retained xpubs could be exposed by hacking or seizure.
+- [**SharedCoin's server knowledge was treated as obvious; Samourai rebuilt the same operator-trust problem.**](sources/video/wasabi-research-club/transcripts/10-CtmSylCQNIc.md) Separate 2020 and 2021 discussions record that public CoinJoin ambiguity could not protect users from an operator that already knew the links, then apply that point to Samourai's default xpub collection.
+
+### Blockchain.info lineage
+
+- [**Hill led the visible Blockchain.info Android code history; he was not an incidental contributor.**](sources/code/blockchain-samourai-lineage.md) The repository begins with his initial commit, contains 352 commits under his identities, and includes his “UI prep for shared coin” change; contemporary records identify Rodriguez as product lead.
+- [**Samourai deliberately stayed closed-source for about a year, then published code with Blockchain.info lineage.**](sources/code/blockchain-samourai-lineage.md) Exact-commit archives preserve the paired files, including a 96-percent Git rename and a `BitcoinScript` descendant retaining 93.8 percent of the smaller file's normalized unique lines.
 
 ### What the seized servers revealed
 
@@ -44,10 +52,24 @@ The descriptions below are deliberately short. They identify the issue shown by 
 
 ### The OXT “critical vulnerability” claim
 
+- [**Samourai acquired OXT; Hill's own sentencing packet calls it “owned and operated by Samourai Wallet.”**](sources/screenshots/hill-sentencing-oxt-owned-operated.png) Samourai's [2017 acquisition announcement](sources/web/samourai-oxt-acquisition-2017-wayback.html) records the all-bitcoin purchase, while the government later described OXT as a tracing and wallet-attribution tool operated by Hill and Rodriguez.
+- [**OXT said privacy must be protected by default—while its owner collected xpubs by default.**](sources/web/oxt-follow-up.md) Its follow-up called OXT Samourai's “sparring partner” and placed responsibility on software defaults rather than users, the opposite of Samourai's Dojo escape hatch.
 - [**OXT's test begins with the target's funds and wallet state already known.**](sources/screenshots/oxt-report-page-5-test-actors.png) The [complete report](sources/research/2020-oxt-wasabi-report-full.pdf) supplies the assumptions omitted from the public warning.
 - [**The model requires knowledge of the target wallet at step N and later mixing events.**](sources/screenshots/oxt-report-page-2-assumed-wallet-knowledge.png) Its own [next page](sources/screenshots/oxt-report-page-3-exogenous-randomness.png) introduces the additional information needed to continue the analysis.
 - [**The report labels its result critical without recovering Wasabi's blinded input-output mapping.**](sources/screenshots/oxt-report-page-7-severity-claim.png) The archived [contemporaneous response](sources/social/reddit/icvu58-oxt-response.html) and [OXT follow-up](sources/web/oxt-follow-up.md) preserve both sides of the dispute.
 - [**The WabiSabi development timeline predates OXT's disclosure.**](sources/web/bitcoinops-2020-06-17-wabisabi.html) This record matters because Samourai later portrayed Wasabi 2's behavior as a reaction to the report.
+- [**Wasabi examined OXT-linked Boltzmann in public five months before the attack.**](sources/video/wasabi-research-club/transcripts/11-CYIDAqMSc4A.md) The complete March 2020 session distinguishes transaction-wide partition entropy from an individual user's privacy and records the computation's limits at Wasabi scale.
+
+### The megaphone was bigger than the product
+
+- [**Wasabi carried 8.19 times Whirlpool's fresh-bitcoin volume across their shared Dumplings dataset.**](sources/screenshots/dumplings-fresh-bitcoins-adoption.png) The [reproduction audit](sources/code/dumplings-adoption-audit.md) records 247,675 fresh BTC for Wasabi against 30,228 for Whirlpool from April 2019 through August 2022, with Wasabi ahead in every one of forty-one months.
+- [**Free remixes inflated activity without representing new adoption.**](sources/code/dumplings-36f28f2-adoption-files.7z) The preserved Dumplings inputs separate newly arriving bitcoin from repeated remixes, avoiding the headline transaction counts that made Whirlpool appear larger than it was.
+
+### Moving the privacy problem
+
+- [**Samourai itself called Whirlpool's output from `TX0` “unmixed toxic change.”**](sources/web/samourai-atomic-swaps-toxic-change.md) The official statement contradicts any impression that moving change outside the CoinJoin made it disappear from the user's transaction history.
+- [**Whirlpool's fixed denominations imposed visible costs before and after mixing.**](sources/code/whirlpool-server-cited-files.zip) Official server configuration and the [complete panel transcript](sources/video/wasabi-research-club/transcripts/34-Zu-bT9XojYk.md) document public `TX0` preparation, fixed pool amounts, and the consolidation and new change often required for ordinary payments.
+- [**Ricochet's default hop chain was recognizable in its own source.**](sources/code/samourai-wallet-android-c71f21a-cited-files.zip) The code constructs four sequential hops with calculated per-hop decreases; the essay treats this as a visible pattern, not as a proven deanonymization attack.
 
 ### Sockpuppets, retaliation, and threats
 
@@ -77,9 +99,8 @@ The descriptions below are deliberately short. They identify the issue shown by 
 ### Independent research and recordings
 
 - [**The 2022 thesis identifies the privacy trust placed in Samourai's default backend.**](sources/research/2022-varga-coinjoin-protocols-thesis.pdf) It also compares the published CoinJoin designs and implementations in detail.
-- [**The 2021 adoption study measures on-chain CoinJoin behavior, not the operator's off-chain xpub knowledge.**](sources/research/2021-adoption-and-actual-privacy-coinjoin.pdf) Its scope matters when transaction counts are presented as proof of privacy.
-- [**The 2026 ecosystem study measures adoption and liquidity but does not test full deanonymization resistance.**](sources/research/2026-coinjoin-ecosystem-insights.pdf) The paper states that limitation directly.
-- [**Four recordings preserve contemporary claims, criticism, and competing recollections.**](sources/video/README.md) The guide identifies the relevant timestamps; only metadata is stored locally.
+- [**The complete Wasabi Research Club playlist transcript archive preserves the technical record.**](sources/video/wasabi-research-club/README.md) Thirty-three available transcripts include raw captions, timestamped source data, video metadata, a completeness manifest, and a [Samourai findings index](sources/video/wasabi-research-club/SAMOURAI-FINDINGS.md).
+- [**Four additional recordings preserve contemporary claims, criticism, and competing recollections.**](sources/video/README.md) The guide identifies the relevant timestamps and local metadata.
 - [**Developer and community statements are archived by exact post or comment.**](sources/social/README.md) The archive contains X oEmbed JSON, dated Reddit HTML, and a public profile snapshot.
 
 ## Repository map
@@ -90,10 +111,10 @@ The descriptions below are deliberately short. They identify the issue shown by 
 | [`output/pdf/`](output/pdf/) | Publication-ready PDF |
 | [`sources/legal/`](sources/legal/) | Court filings and the FinCEN-disclosure defense letter |
 | [`sources/research/`](sources/research/) | OXT report, thesis, and independent CoinJoin studies |
-| [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, and cited source |
-| [`sources/screenshots/`](sources/screenshots/) | 22 focused exhibits used in the essay, plus four supplementary OXT report pages |
+| [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, lineage audit, and cited source |
+| [`sources/screenshots/`](sources/screenshots/) | Focused exhibits used in the essay and supplementary verification crops |
 | [`sources/social/`](sources/social/) | Public X, Reddit, and profile records |
-| [`sources/video/`](sources/video/) | Recording metadata and relevant timestamps |
+| [`sources/video/`](sources/video/) | Recording metadata, relevant timestamps, and the complete available Research Club transcript archive |
 | [`sources/web/`](sources/web/) | Preserved articles, documentation, discussions, and official pages |
 | [`sources/URLS.md`](sources/URLS.md) | Canonical mapping of every essay URL to its local copy |
 | [`LEGACY_LINKS.md`](LEGACY_LINKS.md) | Earlier research leads not relied upon by the final essay |

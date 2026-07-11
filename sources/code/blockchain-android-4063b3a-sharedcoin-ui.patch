@@ -1,0 +1,205 @@
+From 4063b3a935afc377a8351656dfcf9f7cf95e52ce Mon Sep 17 00:00:00 2001
+From: WilliamHill <william.hill@gmail.com>
+Date: Wed, 10 Sep 2014 19:37:39 +0100
+Subject: [PATCH] UI prep for shared coin
+
+---
+ res/layout/fragment_send.xml                  | 38 +++++++++++++++++--
+ res/values/strings.xml                        |  3 +-
+ .../blockchain/wallet/ui/SendFragment.java    | 38 +++++++++++++++----
+ 3 files changed, 68 insertions(+), 11 deletions(-)
+
+diff --git a/res/layout/fragment_send.xml b/res/layout/fragment_send.xml
+index 28b6c7c..202abb9 100644
+--- a/res/layout/fragment_send.xml
++++ b/res/layout/fragment_send.xml
+@@ -23,14 +23,44 @@
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+-    android:orientation="vertical" 
+-    android:layout_gravity="center_vertical|right"
+-    android:gravity="center_vertical|right"
++    android:orientation="horizontal" 
+     android:layout_marginTop="0dp"
+     android:layout_marginBottom="2dp"
++	android:layout_marginLeft="5dp"
+ 	android:layout_marginRight="5dp"
+     android:padding="0dp"
+ 	>
++<LinearLayout
++    android:layout_width="0dp"
++    android:layout_weight="1"
++    android:layout_height="wrap_content"
++    android:orientation="vertical" 
++    android:layout_gravity="center_vertical|left"
++    android:gravity="center_vertical|left"
++    android:layout_marginRight="2dp"
++	>
++    	<Switch
++        android:id="@+id/mode2"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++	    android:layout_gravity="center_vertical|right"
++	    android:gravity="center_vertical|right"
++	    android:textOn="ON"
++	    android:textOff="OFF"
++	    android:text="@string/shared_send"
++	    android:textColor="#FF000000"
++	    android:textSize="12sp"
++		/>
++</LinearLayout>
++<LinearLayout
++    android:layout_width="0dp"
++    android:layout_weight="1"
++    android:layout_height="wrap_content"
++    android:orientation="vertical" 
++    android:layout_gravity="center_vertical|right"
++    android:gravity="center_vertical|right"
++    android:layout_marginLeft="2dp"
++	>
+ 	<Switch
+         android:id="@+id/mode"
+         android:layout_width="wrap_content"
+@@ -41,8 +71,10 @@
+ 	    android:textOff="OFF"
+ 	    android:text="@string/advanced_send"
+ 	    android:textColor="#FF000000"
++	    android:textSize="12sp"
+ 		/>
+ </LinearLayout>
++</LinearLayout>
+ 
+ <LinearLayout
+     android:id="@+id/send_container"
+diff --git a/res/values/strings.xml b/res/values/strings.xml
+index 391d498..db9bf7e 100755
+--- a/res/values/strings.xml
++++ b/res/values/strings.xml
+@@ -519,7 +519,7 @@
+     <string name="addresses_contacts">Contacts</string>
+ 
+     <string name="send">Send</string>
+-    <string name="advanced_send">Advanced:</string>
++    <string name="advanced_send">Advanced</string>
+     <string name="transaction_completed">Transaction completed</string>
+ 
+     <string name="TO">TO</string>
+@@ -568,6 +568,7 @@
+     <string name="ok_writing_merchant">Thank you for your suggestion.</string>
+     <string name="error_writing_merchant">Error writing to database. Please try again.</string>
+     <string name="zero_pin">0000 is an invalid PIN code. Please try again.</string>
++    <string name="shared_send">Shared</string>
+     
+ <!--
+     <string-array name="menus">
+diff --git a/src/info/blockchain/wallet/ui/SendFragment.java b/src/info/blockchain/wallet/ui/SendFragment.java
+index d0f4b60..d06d7b0 100644
+--- a/src/info/blockchain/wallet/ui/SendFragment.java
++++ b/src/info/blockchain/wallet/ui/SendFragment.java
+@@ -159,6 +159,7 @@ public class SendFragment extends Fragment   {
+     private ListView magicList = null;
+     
+     private Switch sendMode = null;
++    private Switch sendMode2 = null;
+ 
+     private LinearLayout layoutAddresses = null;
+     private LinearLayout layoutContacts = null;
+@@ -738,7 +739,7 @@ public class SendFragment extends Fragment   {
+ 					application.getRemoteWallet().simpleSendCoinsAsync(receivingAddress.toString(), amount, feePolicy, fee, progress);
+ 				}
+ 				*/
+-				Toast.makeText(getActivity(), "Simple send:" + receivingAddress + "," + amount.toString(), Toast.LENGTH_SHORT).show();	// ###
++//				Toast.makeText(getActivity(), "Simple send:" + receivingAddress + "," + amount.toString(), Toast.LENGTH_SHORT).show();	// ###
+ 				application.getRemoteWallet().simpleSendCoinsAsync(receivingAddress.toString(), amount, feePolicy, fee, progress);
+ 
+ 			}
+@@ -838,7 +839,7 @@ public class SendFragment extends Fragment   {
+ 					if(sendViaEmail && emailOrNumber != null && emailOrNumber.contains("@")) {	
+ 
+ 						try {
+-							Toast.makeText(getActivity(), "Email send:" + emailOrNumber + "," + getBTCEnteredOutputValue(edAmount1.getText().toString()), Toast.LENGTH_SHORT).show();	// ###
++//							Toast.makeText(getActivity(), "Email send:" + emailOrNumber + "," + getBTCEnteredOutputValue(edAmount1.getText().toString()), Toast.LENGTH_SHORT).show();	// ###
+ 
+ 							remoteWallet.sendCoinsEmail(emailOrNumber, getBTCEnteredOutputValue(edAmount1.getText().toString()),
+ 									MyRemoteWallet.FeePolicy.FeeForce, biBaseFee, progressEmailSMS);
+@@ -849,7 +850,7 @@ public class SendFragment extends Fragment   {
+ 					} else if (sendViaSMS && emailOrNumber != null) {								
+ 					
+ 						try {
+-							Toast.makeText(getActivity(), "SMS send:" + emailOrNumber + "," + getBTCEnteredOutputValue(edAmount1.getText().toString()), Toast.LENGTH_SHORT).show();	// ###
++//							Toast.makeText(getActivity(), "SMS send:" + emailOrNumber + "," + getBTCEnteredOutputValue(edAmount1.getText().toString()), Toast.LENGTH_SHORT).show();	// ###
+ 
+ 							String numberFormated = emailOrNumber.replaceAll("\\D+", "");	
+ 							numberFormated = "+" + numberFormated;
+@@ -1033,7 +1034,7 @@ public class SendFragment extends Fragment   {
+ 	                	labels = application.getRemoteWallet().getLabelMap();
+ 	                
+ 		        	if(labels.get(edAddress.getText().toString()) == null) {
+-	 		            if(!isValidContent(edAddress.getText().toString(), edAmount1.getText().toString())) {
++	 		            if(!isValidContent(edAddress.getText().toString(), null)) {
+ 							Toast.makeText(getActivity(), edAddress.getText().toString() + " " + getActivity().getResources().getString(R.string.is_not_valid_BTC_address), Toast.LENGTH_LONG).show();
+ 	 		            	return false;
+ 	 		            }
+@@ -1143,17 +1144,33 @@ public class SendFragment extends Fragment   {
+         
+         sendMode = (Switch)rootView.findViewById(R.id.mode);
+         sendMode.setChecked(false);
++        sendMode2 = (Switch)rootView.findViewById(R.id.mode2);
++        sendMode2.setChecked(false);
+         sendMode.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+         	@Override
+         	public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+         		if(isChecked)	{
++        			sendMode2.setVisibility(View.INVISIBLE);
+         			doCustomSend();
+         		}
+         		else	{
++        			sendMode2.setVisibility(View.VISIBLE);
+         			doSimpleSend();
+         		}
+         	}
+         });
++        sendMode2.setOnCheckedChangeListener(new OnCheckedChangeListener() {
++        	@Override
++        	public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
++        		if(isChecked)	{
++        			sendMode.setVisibility(View.INVISIBLE);
++        			doSimpleSend();
++        		}
++        		else	{
++        			sendMode.setVisibility(View.VISIBLE);
++        		}
++        	}
++        });
+ 
+ 		final int colorOn = 0xFF808080;
+ 		final int colorOff = 0xFFffffff;
+@@ -3028,14 +3045,21 @@ public class SendFragment extends Fragment   {
+ 	}
+ 	
+ 	public boolean isValidContent(final String btcaddress, final String amount) {
+-		
++
+ 		boolean ret = false;
+ 
+ 		Pattern emailPattern = Patterns.EMAIL_ADDRESS;
+ 		Pattern phonePattern = Pattern.compile("(\\+[1-9]{1,3}|00[1-9]{1,3})[\\(\\)\\.\\-\\s\\d]+");
+-		
++
++		if(amount == null) {
++			return BitcoinAddressCheck.isValidAddress(btcaddress.trim())
++			|| emailPattern.matcher(btcaddress.trim()).matches()
++			|| phonePattern.matcher(btcaddress.trim()).matches()
++			|| (labels != null && labels.containsValue(btcaddress.trim()));
++		}
++
+ 		double dAmount = 0.0;
+-		
++
+ 		try {
+ 			dAmount = Double.parseDouble(amount.trim());
+ 		}
+-- 
+2.54.0.windows.1
+

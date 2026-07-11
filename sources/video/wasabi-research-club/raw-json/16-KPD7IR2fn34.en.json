@@ -1,0 +1,7616 @@
+{
+  "video_id": "KPD7IR2fn34",
+  "title": "Wasabi Research Club #16 - Protocol BLS",
+  "url": "https://www.youtube.com/watch?v=KPD7IR2fn34",
+  "playlist_index": 16,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "hey all right welcome everyone this is",
+      "start": 2.75,
+      "duration": 13.089
+    },
+    {
+      "text": "wasabi research club number 16 maybe and",
+      "start": 10.2,
+      "duration": 10.88
+    },
+    {
+      "text": "today we are going to talk about",
+      "start": 15.839,
+      "duration": 8.341
+    },
+    {
+      "text": "something that we started researching",
+      "start": 21.08,
+      "duration": 9.13
+    },
+    {
+      "text": "and this will be different research club",
+      "start": 24.18,
+      "duration": 9.539
+    },
+    {
+      "text": "from everything as was before because",
+      "start": 30.21,
+      "duration": 7.08
+    },
+    {
+      "text": "from now on we are not going to review",
+      "start": 33.719,
+      "duration": 7.921
+    },
+    {
+      "text": "papers but we are going to actually",
+      "start": 37.29,
+      "duration": 7.74
+    },
+    {
+      "text": "research so this will become a research",
+      "start": 41.64,
+      "duration": 6.48
+    },
+    {
+      "text": "club and not a review club and we will",
+      "start": 45.03,
+      "duration": 5.58
+    },
+    {
+      "text": "get back reviewing papers as soon as we",
+      "start": 48.12,
+      "duration": 8.599
+    },
+    {
+      "text": "stop researching and here we have today",
+      "start": 50.61,
+      "duration": 11.219
+    },
+    {
+      "text": "East one and you are who are working",
+      "start": 56.719,
+      "duration": 7.98
+    },
+    {
+      "text": "with me right now",
+      "start": 61.829,
+      "duration": 2.87
+    },
+    {
+      "text": "wabi-sabi which is trustless which is",
+      "start": 65.33,
+      "duration": 6.75
+    },
+    {
+      "text": "where we are trying to achieve",
+      "start": 69.479,
+      "duration": 6.261
+    },
+    {
+      "text": "translation orbit rare coin joints and",
+      "start": 72.08,
+      "duration": 7.329
+    },
+    {
+      "text": "why is it important what what's the",
+      "start": 75.74,
+      "duration": 7.57
+    },
+    {
+      "text": "logic behind it if you have ever used",
+      "start": 79.409,
+      "duration": 6.931
+    },
+    {
+      "text": "Cohen joins before at least with wasabi",
+      "start": 83.31,
+      "duration": 6.3
+    },
+    {
+      "text": "then you might have noticed that you",
+      "start": 86.34,
+      "duration": 5.849
+    },
+    {
+      "text": "have a lot of change and you cannot",
+      "start": 89.61,
+      "duration": 5.52
+    },
+    {
+      "text": "actually send money in the Cohen joins",
+      "start": 92.189,
+      "duration": 7.021
+    },
+    {
+      "text": "to other people and these are the",
+      "start": 95.13,
+      "duration": 6.919
+    },
+    {
+      "text": "problems that we are trying to solve and",
+      "start": 99.21,
+      "duration": 7.439
+    },
+    {
+      "text": "for that we first have to very quickly",
+      "start": 102.049,
+      "duration": 11.021
+    },
+    {
+      "text": "go through how coin joints are being",
+      "start": 106.649,
+      "duration": 9.231
+    },
+    {
+      "text": "done in in in a design level in",
+      "start": 113.07,
+      "duration": 6.45
+    },
+    {
+      "text": "architecture level and it all comes down",
+      "start": 115.88,
+      "duration": 7.47
+    },
+    {
+      "text": "to three main phases which is input",
+      "start": 119.52,
+      "duration": 6.48
+    },
+    {
+      "text": "registration every user comes together",
+      "start": 123.35,
+      "duration": 6.04
+    },
+    {
+      "text": "and register their inputs then output",
+      "start": 126.0,
+      "duration": 5.72
+    },
+    {
+      "text": "registration",
+      "start": 129.39,
+      "duration": 5.75
+    },
+    {
+      "text": "users register their desired outputs and",
+      "start": 131.72,
+      "duration": 9.62
+    },
+    {
+      "text": "then finally coin join is built and",
+      "start": 135.14,
+      "duration": 10.08
+    },
+    {
+      "text": "everyone has to sign and why this is",
+      "start": 141.34,
+      "duration": 6.31
+    },
+    {
+      "text": "important is because this grantee is",
+      "start": 145.22,
+      "duration": 6.18
+    },
+    {
+      "text": "security so if you don't see your design",
+      "start": 147.65,
+      "duration": 8.1
+    },
+    {
+      "text": "desire the input a desired output in the",
+      "start": 151.4,
+      "duration": 6.53
+    },
+    {
+      "text": "coin join them you don't sign your",
+      "start": 155.75,
+      "duration": 6.18
+    },
+    {
+      "text": "output you don't sign the coin join so",
+      "start": 157.93,
+      "duration": 6.279
+    },
+    {
+      "text": "the coin join will be invalid and it",
+      "start": 161.93,
+      "duration": 5.55
+    },
+    {
+      "text": "won't be not happen so this is why you",
+      "start": 164.209,
+      "duration": 5.701
+    },
+    {
+      "text": "cannot lose money in coin joins now",
+      "start": 167.48,
+      "duration": 8.01
+    },
+    {
+      "text": "going further think about how to how to",
+      "start": 169.91,
+      "duration": 8.46
+    },
+    {
+      "text": "register inputs and outputs to the coin",
+      "start": 175.49,
+      "duration": 6.12
+    },
+    {
+      "text": "join in an anonymous way because these",
+      "start": 178.37,
+      "duration": 5.73
+    },
+    {
+      "text": "input registrations should not be",
+      "start": 181.61,
+      "duration": 5.63
+    },
+    {
+      "text": "connected together with each other",
+      "start": 184.1,
+      "duration": 6.9
+    },
+    {
+      "text": "needed output registrations and for that",
+      "start": 187.24,
+      "duration": 7.48
+    },
+    {
+      "text": "there are actually two school of",
+      "start": 191.0,
+      "duration": 6.989
+    },
+    {
+      "text": "thoughts one is the coin shuffle school",
+      "start": 194.72,
+      "duration": 5.16
+    },
+    {
+      "text": "of thought when they build their own",
+      "start": 197.989,
+      "duration": 4.891
+    },
+    {
+      "text": "anonymity network to make sure the",
+      "start": 199.88,
+      "duration": 8.609
+    },
+    {
+      "text": "anonymity is ensured within the",
+      "start": 202.88,
+      "duration": 9.93
+    },
+    {
+      "text": "anonymity set which is all the users of",
+      "start": 208.489,
+      "duration": 9.511
+    },
+    {
+      "text": "that coin join in asabi it's different",
+      "start": 212.81,
+      "duration": 8.459
+    },
+    {
+      "text": "because there we are leveraging an",
+      "start": 218.0,
+      "duration": 5.91
+    },
+    {
+      "text": "existing anonymity network called the",
+      "start": 221.269,
+      "duration": 7.081
+    },
+    {
+      "text": "Tor network where the body it could be",
+      "start": 223.91,
+      "duration": 7.139
+    },
+    {
+      "text": "any any other anonymity network where",
+      "start": 228.35,
+      "duration": 5.04
+    },
+    {
+      "text": "every input registration and every",
+      "start": 231.049,
+      "duration": 4.891
+    },
+    {
+      "text": "output registration must happen with",
+      "start": 233.39,
+      "duration": 5.58
+    },
+    {
+      "text": "different anonymity network identities",
+      "start": 235.94,
+      "duration": 6.66
+    },
+    {
+      "text": "so no one can figure out what's the link",
+      "start": 238.97,
+      "duration": 6.049
+    },
+    {
+      "text": "there",
+      "start": 242.6,
+      "duration": 2.419
+    },
+    {
+      "text": "however this brings up a great problem",
+      "start": 245.38,
+      "duration": 9.7
+    },
+    {
+      "text": "here because if you can register outputs",
+      "start": 250.489,
+      "duration": 10.891
+    },
+    {
+      "text": "to a Co enjoying anonymously then what",
+      "start": 255.08,
+      "duration": 9.78
+    },
+    {
+      "text": "would prevent you from registering",
+      "start": 261.38,
+      "duration": 6.12
+    },
+    {
+      "text": "as many on who says you like I mean it's",
+      "start": 264.86,
+      "duration": 6.299
+    },
+    {
+      "text": "anonymous and that's what we are trying",
+      "start": 267.5,
+      "duration": 8.539
+    },
+    {
+      "text": "to find the solution to how to register",
+      "start": 271.159,
+      "duration": 4.88
+    },
+    {
+      "text": "arbitrary amount of inputs and arbitrary",
+      "start": 276.28,
+      "duration": 10.689
+    },
+    {
+      "text": "how to register inputs with arbitrary",
+      "start": 282.759,
+      "duration": 6.491
+    },
+    {
+      "text": "amounts and outputs with arbitrary",
+      "start": 286.969,
+      "duration": 3.931
+    },
+    {
+      "text": "outputs",
+      "start": 289.25,
+      "duration": 8.34
+    },
+    {
+      "text": "arbitrary amount and it's important the",
+      "start": 290.9,
+      "duration": 8.94
+    },
+    {
+      "text": "arbitrary part is important here because",
+      "start": 297.59,
+      "duration": 7.199
+    },
+    {
+      "text": "an an arbitrary way to register an an",
+      "start": 299.84,
+      "duration": 7.889
+    },
+    {
+      "text": "arbitrary way to to prevent denial of",
+      "start": 304.789,
+      "duration": 5.1
+    },
+    {
+      "text": "service attacks like registering many",
+      "start": 307.729,
+      "duration": 4.201
+    },
+    {
+      "text": "outputs would be what wasabi bullet is",
+      "start": 309.889,
+      "duration": 2.941
+    },
+    {
+      "text": "doing right now",
+      "start": 311.93,
+      "duration": 4.34
+    },
+    {
+      "text": "is that you have to have some",
+      "start": 312.83,
+      "duration": 7.709
+    },
+    {
+      "text": "denominations there and that way with",
+      "start": 316.27,
+      "duration": 6.73
+    },
+    {
+      "text": "some blind signature magic which we will",
+      "start": 320.539,
+      "duration": 5.31
+    },
+    {
+      "text": "go into later then we could make sure",
+      "start": 323.0,
+      "duration": 5.189
+    },
+    {
+      "text": "there are no denial of service attacks",
+      "start": 325.849,
+      "duration": 5.461
+    },
+    {
+      "text": "however if the amounts are arbitrary",
+      "start": 328.189,
+      "duration": 5.521
+    },
+    {
+      "text": "then this was scheme doesn't work any",
+      "start": 331.31,
+      "duration": 7.59
+    },
+    {
+      "text": "more because we have to the new question",
+      "start": 333.71,
+      "duration": 10.319
+    },
+    {
+      "text": "becomes how to answer user does not",
+      "start": 338.9,
+      "duration": 9.47
+    },
+    {
+      "text": "register more money in output",
+      "start": 344.029,
+      "duration": 7.831
+    },
+    {
+      "text": "registration then he provided inputs for",
+      "start": 348.37,
+      "duration": 8.079
+    },
+    {
+      "text": "but without knowing that which user",
+      "start": 351.86,
+      "duration": 8.459
+    },
+    {
+      "text": "registered which inputs and which",
+      "start": 356.449,
+      "duration": 6.84
+    },
+    {
+      "text": "outputs so the link should not be there",
+      "start": 360.319,
+      "duration": 5.34
+    },
+    {
+      "text": "the link should not be there between",
+      "start": 363.289,
+      "duration": 5.13
+    },
+    {
+      "text": "input and input registration of users",
+      "start": 365.659,
+      "duration": 6.06
+    },
+    {
+      "text": "and output and output registration of",
+      "start": 368.419,
+      "duration": 5.881
+    },
+    {
+      "text": "users and input and output registration",
+      "start": 371.719,
+      "duration": 5.88
+    },
+    {
+      "text": "of users so that's what we are trying to",
+      "start": 374.3,
+      "duration": 7.579
+    },
+    {
+      "text": "solve at the first phase of this",
+      "start": 377.599,
+      "duration": 6.651
+    },
+    {
+      "text": "research work",
+      "start": 381.879,
+      "duration": 5.41
+    },
+    {
+      "text": "it's a Patterson commitment scheme which",
+      "start": 384.25,
+      "duration": 7.8
+    },
+    {
+      "text": "I think I'm going to give over the",
+      "start": 387.289,
+      "duration": 9.12
+    },
+    {
+      "text": "explanation to you would you like to",
+      "start": 392.05,
+      "duration": 6.299
+    },
+    {
+      "text": "explain",
+      "start": 396.409,
+      "duration": 6.51
+    },
+    {
+      "text": "but but what was our very first way of",
+      "start": 398.349,
+      "duration": 8.83
+    },
+    {
+      "text": "thinking which we only saw the splitting",
+      "start": 402.919,
+      "duration": 6.87
+    },
+    {
+      "text": "of inputs at that point could you",
+      "start": 407.179,
+      "duration": 10.2
+    },
+    {
+      "text": "explain that okay so first I did want to",
+      "start": 409.789,
+      "duration": 11.49
+    },
+    {
+      "text": "add to your introduction that for now",
+      "start": 417.379,
+      "duration": 5.52
+    },
+    {
+      "text": "we're not yet thinking about the",
+      "start": 421.279,
+      "duration": 4.11
+    },
+    {
+      "text": "structure of the transaction how it ends",
+      "start": 422.899,
+      "duration": 5.93
+    },
+    {
+      "text": "up so that's like out of scope for",
+      "start": 425.389,
+      "duration": 7.11
+    },
+    {
+      "text": "today's discussion but it's still very",
+      "start": 428.829,
+      "duration": 6.79
+    },
+    {
+      "text": "much a concern so anyway with that out",
+      "start": 432.499,
+      "duration": 5.67
+    },
+    {
+      "text": "of the way I don't actually exactly",
+      "start": 435.619,
+      "duration": 6.45
+    },
+    {
+      "text": "remember what signature scheme we wanted",
+      "start": 438.169,
+      "duration": 9.63
+    },
+    {
+      "text": "to use but the idea of a Pettersen",
+      "start": 442.069,
+      "duration": 9.48
+    },
+    {
+      "text": "commitment is if you have an elliptic",
+      "start": 447.799,
+      "duration": 7.73
+    },
+    {
+      "text": "curve or any sort of group where the",
+      "start": 451.549,
+      "duration": 7.38
+    },
+    {
+      "text": "discrete log assumption hardness",
+      "start": 455.529,
+      "duration": 9.22
+    },
+    {
+      "text": "assumption holds you can take two points",
+      "start": 458.929,
+      "duration": 8.97
+    },
+    {
+      "text": "on the curve called generators and",
+      "start": 464.749,
+      "duration": 4.861
+    },
+    {
+      "text": "typically in pettersen commitments those",
+      "start": 467.899,
+      "duration": 7.91
+    },
+    {
+      "text": "are called H and G and you can multiply",
+      "start": 469.61,
+      "duration": 11.879
+    },
+    {
+      "text": "these two points by two numbers so one",
+      "start": 475.809,
+      "duration": 9.69
+    },
+    {
+      "text": "of those would be the the actual message",
+      "start": 481.489,
+      "duration": 8.3
+    },
+    {
+      "text": "and the other would be randomness and",
+      "start": 485.499,
+      "duration": 9.58
+    },
+    {
+      "text": "this creates and then you can sum those",
+      "start": 489.789,
+      "duration": 6.94
+    },
+    {
+      "text": "two values together and this is",
+      "start": 495.079,
+      "duration": 4.65
+    },
+    {
+      "text": "something that is somewhat analogous to",
+      "start": 496.729,
+      "duration": 8.97
+    },
+    {
+      "text": "a hash with salt or maybe an H Mac but",
+      "start": 499.729,
+      "duration": 9.48
+    },
+    {
+      "text": "the idea is like you because you because",
+      "start": 505.699,
+      "duration": 8.07
+    },
+    {
+      "text": "the discrete log problem is hard it's it",
+      "start": 509.209,
+      "duration": 6.87
+    },
+    {
+      "text": "should be impossible for anybody to",
+      "start": 513.769,
+      "duration": 4.86
+    },
+    {
+      "text": "figure out what values did you multiply",
+      "start": 516.079,
+      "duration": 4.71
+    },
+    {
+      "text": "so what were your numbers that went into",
+      "start": 518.629,
+      "duration": 7.32
+    },
+    {
+      "text": "this thing but then if you publish the",
+      "start": 520.789,
+      "duration": 9.771
+    },
+    {
+      "text": "the sum of these two products then",
+      "start": 525.949,
+      "duration": 8.051
+    },
+    {
+      "text": "you can later prove with which values",
+      "start": 530.56,
+      "duration": 5.82
+    },
+    {
+      "text": "like you actually multiplied those",
+      "start": 534.0,
+      "duration": 6.58
+    },
+    {
+      "text": "generators and the reason that you have",
+      "start": 536.38,
+      "duration": 8.61
+    },
+    {
+      "text": "two of these so if you only multiply a",
+      "start": 540.58,
+      "duration": 8.79
+    },
+    {
+      "text": "single generator by a number I believe",
+      "start": 544.99,
+      "duration": 6.53
+    },
+    {
+      "text": "that's what's called a Patterson hash",
+      "start": 549.37,
+      "duration": 7.2
+    },
+    {
+      "text": "and the idea is that like if the",
+      "start": 551.52,
+      "duration": 8.4
+    },
+    {
+      "text": "messages are like kind of easy to guess",
+      "start": 556.57,
+      "duration": 7.95
+    },
+    {
+      "text": "then having an additional randomness",
+      "start": 559.92,
+      "duration": 7.03
+    },
+    {
+      "text": "term makes it like impossible to",
+      "start": 564.52,
+      "duration": 5.7
+    },
+    {
+      "text": "brute-force that as well and the key",
+      "start": 566.95,
+      "duration": 5.19
+    },
+    {
+      "text": "difference to sort of keep in mind for",
+      "start": 570.22,
+      "duration": 4.68
+    },
+    {
+      "text": "the purpose of this discussion is that",
+      "start": 572.14,
+      "duration": 6.53
+    },
+    {
+      "text": "unlike traditional hash functions",
+      "start": 574.9,
+      "duration": 8.1
+    },
+    {
+      "text": "because the the group operation the",
+      "start": 578.67,
+      "duration": 6.54
+    },
+    {
+      "text": "addition of points on the curve is",
+      "start": 583.0,
+      "duration": 8.3
+    },
+    {
+      "text": "commutative this means that you have",
+      "start": 585.21,
+      "duration": 8.62
+    },
+    {
+      "text": "like it doesn't matter in which order",
+      "start": 591.3,
+      "duration": 7.06
+    },
+    {
+      "text": "you do this and the sum of the messages",
+      "start": 593.83,
+      "duration": 9.39
+    },
+    {
+      "text": "going into this kind of hash function if",
+      "start": 598.36,
+      "duration": 7.56
+    },
+    {
+      "text": "you take the the sum of several",
+      "start": 603.22,
+      "duration": 5.07
+    },
+    {
+      "text": "Patterson commitments then what you get",
+      "start": 605.92,
+      "duration": 4.59
+    },
+    {
+      "text": "back out is a Patterson commitment to",
+      "start": 608.29,
+      "duration": 4.86
+    },
+    {
+      "text": "the sum of the messages which is a very",
+      "start": 610.51,
+      "duration": 7.55
+    },
+    {
+      "text": "useful property I guess back to you",
+      "start": 613.15,
+      "duration": 8.7
+    },
+    {
+      "text": "thank you I will risk sounding stupid",
+      "start": 618.06,
+      "duration": 7.12
+    },
+    {
+      "text": "and I try to explain it again",
+      "start": 621.85,
+      "duration": 7.73
+    },
+    {
+      "text": "in some less technical terms so how we",
+      "start": 625.18,
+      "duration": 8.34
+    },
+    {
+      "text": "imagined to solve this issue of unlink",
+      "start": 629.58,
+      "duration": 6.64
+    },
+    {
+      "text": "ability between inputs and outputs would",
+      "start": 633.52,
+      "duration": 9.09
+    },
+    {
+      "text": "be that we figured if we if we have",
+      "start": 636.22,
+      "duration": 9.36
+    },
+    {
+      "text": "let's say one Bitcoin and we want to get",
+      "start": 642.61,
+      "duration": 10.2
+    },
+    {
+      "text": "an get output 0.1 and 0.9 bitcoins then",
+      "start": 645.58,
+      "duration": 10.25
+    },
+    {
+      "text": "we create two feathers and commitments",
+      "start": 652.81,
+      "duration": 6.93
+    },
+    {
+      "text": "more because there are zeros but let's",
+      "start": 655.83,
+      "duration": 7.09
+    },
+    {
+      "text": "just not care about that we create two",
+      "start": 659.74,
+      "duration": 8.43
+    },
+    {
+      "text": "patters and commitments for 0.1 and 0.9",
+      "start": 662.92,
+      "duration": 8.43
+    },
+    {
+      "text": "and that input registration we prove",
+      "start": 668.17,
+      "duration": 6.69
+    },
+    {
+      "text": "that that these stupid heirs and",
+      "start": 671.35,
+      "duration": 7.41
+    },
+    {
+      "text": "commitment dee-dee-dee-dee sum is one",
+      "start": 674.86,
+      "duration": 8.91
+    },
+    {
+      "text": "Bitcoin that our input and also have",
+      "start": 678.76,
+      "duration": 7.91
+    },
+    {
+      "text": "some range proofs there but again that",
+      "start": 683.77,
+      "duration": 7.68
+    },
+    {
+      "text": "that's a detail at this point and and we",
+      "start": 686.67,
+      "duration": 7.93
+    },
+    {
+      "text": "also found blind Patterson commitment",
+      "start": 691.45,
+      "duration": 7.95
+    },
+    {
+      "text": "scheme which enables us to get a blind",
+      "start": 694.6,
+      "duration": 11.19
+    },
+    {
+      "text": "signature for the message of the paddles",
+      "start": 699.4,
+      "duration": 10.77
+    },
+    {
+      "text": "and commitment without the the the",
+      "start": 705.79,
+      "duration": 7.19
+    },
+    {
+      "text": "coordinator knowing the the actual",
+      "start": 710.17,
+      "duration": 7.08
+    },
+    {
+      "text": "values there so give back the blank",
+      "start": 712.98,
+      "duration": 6.28
+    },
+    {
+      "text": "signatures for the users and now the",
+      "start": 717.25,
+      "duration": 5.58
+    },
+    {
+      "text": "users have unblind to signatures and the",
+      "start": 719.26,
+      "duration": 8.07
+    },
+    {
+      "text": "users have two signatures for 40.1",
+      "start": 722.83,
+      "duration": 7.86
+    },
+    {
+      "text": "Bitcoin and 0.9 Bitcoin and at output",
+      "start": 727.33,
+      "duration": 5.37
+    },
+    {
+      "text": "registration it can come with two",
+      "start": 730.69,
+      "duration": 4.62
+    },
+    {
+      "text": "different anonymity Network identity and",
+      "start": 732.7,
+      "duration": 6.27
+    },
+    {
+      "text": "for once it registers the 0.1 Bitcoin",
+      "start": 735.31,
+      "duration": 7.29
+    },
+    {
+      "text": "and provides the unblinded signature and",
+      "start": 738.97,
+      "duration": 6.6
+    },
+    {
+      "text": "for twice it registers the 0.9 Bitcoin",
+      "start": 742.6,
+      "duration": 6.14
+    },
+    {
+      "text": "and provides the unblinded signature and",
+      "start": 745.57,
+      "duration": 7.65
+    },
+    {
+      "text": "this way the coordinator can not tell",
+      "start": 748.74,
+      "duration": 6.07
+    },
+    {
+      "text": "because it has never seen these",
+      "start": 753.22,
+      "duration": 5.04
+    },
+    {
+      "text": "signatures before it cannot which input",
+      "start": 754.81,
+      "duration": 3.94
+    },
+    {
+      "text": "its",
+      "start": 758.26,
+      "duration": 5.77
+    },
+    {
+      "text": "mind those those values for and that",
+      "start": 758.75,
+      "duration": 9.27
+    },
+    {
+      "text": "that that was the basic working idea",
+      "start": 764.03,
+      "duration": 7.56
+    },
+    {
+      "text": "that we had however if you think about",
+      "start": 768.02,
+      "duration": 6.81
+    },
+    {
+      "text": "it it does not enable consolidating",
+      "start": 771.59,
+      "duration": 6.75
+    },
+    {
+      "text": "input so if I have five inputs and I",
+      "start": 774.83,
+      "duration": 6.78
+    },
+    {
+      "text": "want to make only one output of that",
+      "start": 778.34,
+      "duration": 7.38
+    },
+    {
+      "text": "then I cannot do it with this scheme so",
+      "start": 781.61,
+      "duration": 10.47
+    },
+    {
+      "text": "for this we figured out East Van figured",
+      "start": 785.72,
+      "duration": 10.53
+    },
+    {
+      "text": "out that it could be possible with the",
+      "start": 792.08,
+      "duration": 10.89
+    },
+    {
+      "text": "BLS blind BLS signature protocol and I",
+      "start": 796.25,
+      "duration": 10.5
+    },
+    {
+      "text": "would like to give the words to East Van",
+      "start": 802.97,
+      "duration": 7.68
+    },
+    {
+      "text": "could you explain the blind BLS",
+      "start": 806.75,
+      "duration": 6.21
+    },
+    {
+      "text": "signature protocol that we figured out",
+      "start": 810.65,
+      "duration": 4.56
+    },
+    {
+      "text": "and by the way this is not our our",
+      "start": 812.96,
+      "duration": 7.86
+    },
+    {
+      "text": "state-of-the-art idea but it is it is",
+      "start": 815.21,
+      "duration": 8.28
+    },
+    {
+      "text": "good to mention because it it works but",
+      "start": 820.82,
+      "duration": 5.94
+    },
+    {
+      "text": "it's quite complex state of the art from",
+      "start": 823.49,
+      "duration": 6.69
+    },
+    {
+      "text": "last week yes but we killed it really",
+      "start": 826.76,
+      "duration": 6.03
+    },
+    {
+      "text": "badly maybe I don't know if you can",
+      "start": 830.18,
+      "duration": 5.37
+    },
+    {
+      "text": "share your screen or I should but maybe",
+      "start": 832.79,
+      "duration": 5.4
+    },
+    {
+      "text": "it would be helpful for everyone if we",
+      "start": 835.55,
+      "duration": 6.12
+    },
+    {
+      "text": "can have a look at the github issue but",
+      "start": 838.19,
+      "duration": 7.53
+    },
+    {
+      "text": "if not then like so okay please share",
+      "start": 841.67,
+      "duration": 6.9
+    },
+    {
+      "text": "your square screen but I cannot share it",
+      "start": 845.72,
+      "duration": 6.18
+    },
+    {
+      "text": "because it does not get recorded but if",
+      "start": 848.57,
+      "duration": 6.26
+    },
+    {
+      "text": "anyone has shares it it gets recorded",
+      "start": 851.9,
+      "duration": 4.05
+    },
+    {
+      "text": "yes",
+      "start": 854.83,
+      "duration": 5.08
+    },
+    {
+      "text": "so like or the you well-motivated and",
+      "start": 855.95,
+      "duration": 6.99
+    },
+    {
+      "text": "also on opera why we like Patterson",
+      "start": 859.91,
+      "duration": 5.49
+    },
+    {
+      "text": "commitments so the thing is that in this",
+      "start": 862.94,
+      "duration": 5.81
+    },
+    {
+      "text": "wabi-sabi protocol we need to prove",
+      "start": 865.4,
+      "duration": 7.62
+    },
+    {
+      "text": "statements in zero knowledge about about",
+      "start": 868.75,
+      "duration": 6.64
+    },
+    {
+      "text": "input u TX oh well used",
+      "start": 873.02,
+      "duration": 5.01
+    },
+    {
+      "text": "so whenever for example a user registers",
+      "start": 875.39,
+      "duration": 6.09
+    },
+    {
+      "text": "and impose Duty EXO and she would like",
+      "start": 878.03,
+      "duration": 7.32
+    },
+    {
+      "text": "to register another or split this amount",
+      "start": 881.48,
+      "duration": 6.15
+    },
+    {
+      "text": "into two let's say to a change address",
+      "start": 885.35,
+      "duration": 5.25
+    },
+    {
+      "text": "or a payment value then we we need to",
+      "start": 887.63,
+      "duration": 3.62
+    },
+    {
+      "text": "allow",
+      "start": 890.6,
+      "duration": 3.83
+    },
+    {
+      "text": "users to create feathers and commitment",
+      "start": 891.25,
+      "duration": 5.31
+    },
+    {
+      "text": "and prove that the patters and",
+      "start": 894.43,
+      "duration": 5.34
+    },
+    {
+      "text": "commitments are formed in a good way",
+      "start": 896.56,
+      "duration": 4.59
+    },
+    {
+      "text": "so meaning that the underlying",
+      "start": 899.77,
+      "duration": 4.38
+    },
+    {
+      "text": "commitment values add up to the impute",
+      "start": 901.15,
+      "duration": 5.46
+    },
+    {
+      "text": "EXO value so and with feathers and",
+      "start": 904.15,
+      "duration": 6.18
+    },
+    {
+      "text": "commitments we can do as already no para",
+      "start": 906.61,
+      "duration": 6.39
+    },
+    {
+      "text": "and you have described that we can",
+      "start": 910.33,
+      "duration": 6.14
+    },
+    {
+      "text": "really easily prove such summation",
+      "start": 913.0,
+      "duration": 7.32
+    },
+    {
+      "text": "statements over committed values and",
+      "start": 916.47,
+      "duration": 5.62
+    },
+    {
+      "text": "then okay",
+      "start": 920.32,
+      "duration": 5.04
+    },
+    {
+      "text": "the next idea was we love feathers and",
+      "start": 922.09,
+      "duration": 4.68
+    },
+    {
+      "text": "commitments but because they are",
+      "start": 925.36,
+      "duration": 4.08
+    },
+    {
+      "text": "homomorphic and they allow us to build",
+      "start": 926.77,
+      "duration": 7.13
+    },
+    {
+      "text": "and prove easily this summing summation",
+      "start": 929.44,
+      "duration": 8.34
+    },
+    {
+      "text": "statements then let's let's go with",
+      "start": 933.9,
+      "duration": 7.21
+    },
+    {
+      "text": "another really flexible signature scheme",
+      "start": 937.78,
+      "duration": 7.56
+    },
+    {
+      "text": "namely BLS which is kind of the most the",
+      "start": 941.11,
+      "duration": 6.78
+    },
+    {
+      "text": "simplest signature scheme you can ever",
+      "start": 945.34,
+      "duration": 4.82
+    },
+    {
+      "text": "imagine",
+      "start": 947.89,
+      "duration": 5.76
+    },
+    {
+      "text": "so this is basically the BLS signature",
+      "start": 950.16,
+      "duration": 8.65
+    },
+    {
+      "text": "scheme you can see here no this is sorry",
+      "start": 953.65,
+      "duration": 6.87
+    },
+    {
+      "text": "the blind bill is signature scheme which",
+      "start": 958.81,
+      "duration": 4.59
+    },
+    {
+      "text": "is still pretty simple so there's a",
+      "start": 960.52,
+      "duration": 5.52
+    },
+    {
+      "text": "binding phase we have a message m we can",
+      "start": 963.4,
+      "duration": 3.81
+    },
+    {
+      "text": "blind it",
+      "start": 966.04,
+      "duration": 3.6
+    },
+    {
+      "text": "so we first of all we hash the message",
+      "start": 967.21,
+      "duration": 4.83
+    },
+    {
+      "text": "and with the generator in the elliptic",
+      "start": 969.64,
+      "duration": 4.71
+    },
+    {
+      "text": "curve group we can blind it with the",
+      "start": 972.04,
+      "duration": 4.98
+    },
+    {
+      "text": "randomness R so we sent the blinded",
+      "start": 974.35,
+      "duration": 5.46
+    },
+    {
+      "text": "message to the signer which in the",
+      "start": 977.02,
+      "duration": 6.0
+    },
+    {
+      "text": "wasabi lingo or in the coin join the",
+      "start": 979.81,
+      "duration": 5.64
+    },
+    {
+      "text": "feature we would call the coordinator so",
+      "start": 983.02,
+      "duration": 5.63
+    },
+    {
+      "text": "the coordinator gets blinded message and",
+      "start": 985.45,
+      "duration": 6.93
+    },
+    {
+      "text": "hat let's say and then the coordinator",
+      "start": 988.65,
+      "duration": 7.15
+    },
+    {
+      "text": "can come blind it with his secret key",
+      "start": 992.38,
+      "duration": 6.3
+    },
+    {
+      "text": "and then the receiver no sorry the",
+      "start": 995.8,
+      "duration": 5.28
+    },
+    {
+      "text": "coordinator can sign this blinded",
+      "start": 998.68,
+      "duration": 4.5
+    },
+    {
+      "text": "message and then the receiver um blinds",
+      "start": 1001.08,
+      "duration": 6.0
+    },
+    {
+      "text": "it so this is a three more signature",
+      "start": 1003.18,
+      "duration": 7.97
+    },
+    {
+      "text": "scheme and the big question was like",
+      "start": 1007.08,
+      "duration": 7.259
+    },
+    {
+      "text": "here we see a hash function right and",
+      "start": 1011.15,
+      "duration": 5.86
+    },
+    {
+      "text": "you've already pointed out this Paterson",
+      "start": 1014.339,
+      "duration": 6.091
+    },
+    {
+      "text": "hash we we all love because of its",
+      "start": 1017.01,
+      "duration": 6.21
+    },
+    {
+      "text": "homomorphic properties so one question",
+      "start": 1020.43,
+      "duration": 4.59
+    },
+    {
+      "text": "we needed to answer what",
+      "start": 1023.22,
+      "duration": 5.63
+    },
+    {
+      "text": "what should be this hash function and",
+      "start": 1025.02,
+      "duration": 7.14
+    },
+    {
+      "text": "let's let let's pick now the Patterson",
+      "start": 1028.85,
+      "duration": 6.64
+    },
+    {
+      "text": "hash because it preserves the algebraic",
+      "start": 1032.16,
+      "duration": 6.36
+    },
+    {
+      "text": "structure of the message so instead if",
+      "start": 1035.49,
+      "duration": 5.58
+    },
+    {
+      "text": "we would choose if we would go with a",
+      "start": 1038.52,
+      "duration": 4.59
+    },
+    {
+      "text": "hash function which like shatter shatter",
+      "start": 1041.07,
+      "duration": 5.07
+    },
+    {
+      "text": "e-cat sack then it would completely mess",
+      "start": 1043.11,
+      "duration": 5.55
+    },
+    {
+      "text": "up the structure of the message so it",
+      "start": 1046.14,
+      "duration": 5.19
+    },
+    {
+      "text": "would have would be really difficult so",
+      "start": 1048.66,
+      "duration": 4.68
+    },
+    {
+      "text": "not trivial at all how to prove",
+      "start": 1051.33,
+      "duration": 4.53
+    },
+    {
+      "text": "statements between these blinded",
+      "start": 1053.34,
+      "duration": 8.34
+    },
+    {
+      "text": "messages and yeah so shall I just easily",
+      "start": 1055.86,
+      "duration": 10.32
+    },
+    {
+      "text": "and quickly let me just first explain",
+      "start": 1061.68,
+      "duration": 7.14
+    },
+    {
+      "text": "like the impress registration phase so",
+      "start": 1066.18,
+      "duration": 5.73
+    },
+    {
+      "text": "we have a public value let's let's just",
+      "start": 1068.82,
+      "duration": 6.42
+    },
+    {
+      "text": "take this example we have a public value",
+      "start": 1071.91,
+      "duration": 6.3
+    },
+    {
+      "text": "M which which you can you should think",
+      "start": 1075.24,
+      "duration": 6.78
+    },
+    {
+      "text": "of em as as a subtle sheet amount which",
+      "start": 1078.21,
+      "duration": 5.99
+    },
+    {
+      "text": "is the subtle amount of your input",
+      "start": 1082.02,
+      "duration": 5.52
+    },
+    {
+      "text": "registered input and then you would like",
+      "start": 1084.2,
+      "duration": 7.99
+    },
+    {
+      "text": "to split this M your input to TXO into",
+      "start": 1087.54,
+      "duration": 7.89
+    },
+    {
+      "text": "two output you TXO values but you don't",
+      "start": 1092.19,
+      "duration": 5.16
+    },
+    {
+      "text": "want to reveal them to the coordinator",
+      "start": 1095.43,
+      "duration": 4.95
+    },
+    {
+      "text": "so you want to create you want to split",
+      "start": 1097.35,
+      "duration": 7.02
+    },
+    {
+      "text": "it into M 1 and M 2 and additionally you",
+      "start": 1100.38,
+      "duration": 7.62
+    },
+    {
+      "text": "want to prove to the coordinator that",
+      "start": 1104.37,
+      "duration": 6.87
+    },
+    {
+      "text": "the sum of M 1 and M 2 adds up to M",
+      "start": 1108.0,
+      "duration": 7.29
+    },
+    {
+      "text": "right you send the coordinator to the",
+      "start": 1111.24,
+      "duration": 6.3
+    },
+    {
+      "text": "blinded messages the blinded messages",
+      "start": 1115.29,
+      "duration": 6.54
+    },
+    {
+      "text": "are patters and commitments to M 1 and M",
+      "start": 1117.54,
+      "duration": 9.0
+    },
+    {
+      "text": "2 with randomness randomness is everyone",
+      "start": 1121.83,
+      "duration": 7.86
+    },
+    {
+      "text": "in there too so just by giving M 1 and M",
+      "start": 1126.54,
+      "duration": 6.39
+    },
+    {
+      "text": "2 the blinded messages to the",
+      "start": 1129.69,
+      "duration": 5.43
+    },
+    {
+      "text": "coordinator the coordinator will have no",
+      "start": 1132.93,
+      "duration": 5.58
+    },
+    {
+      "text": "clue whatsoever about message m1 and m2",
+      "start": 1135.12,
+      "duration": 6.72
+    },
+    {
+      "text": "but still we want to convince him that",
+      "start": 1138.51,
+      "duration": 5.85
+    },
+    {
+      "text": "the underlying committed messages adapt",
+      "start": 1141.84,
+      "duration": 5.79
+    },
+    {
+      "text": "to the public input to TXO value m and",
+      "start": 1144.36,
+      "duration": 4.38
+    },
+    {
+      "text": "it's super easy",
+      "start": 1147.63,
+      "duration": 3.33
+    },
+    {
+      "text": "due to the homomorphic property of",
+      "start": 1148.74,
+      "duration": 6.06
+    },
+    {
+      "text": "feathers and commitments so the comb the",
+      "start": 1150.96,
+      "duration": 5.95
+    },
+    {
+      "text": "coordinator would just",
+      "start": 1154.8,
+      "duration": 5.08
+    },
+    {
+      "text": "multiply and note this is multiplicative",
+      "start": 1156.91,
+      "duration": 6.69
+    },
+    {
+      "text": "notation hope people don't really don't",
+      "start": 1159.88,
+      "duration": 7.89
+    },
+    {
+      "text": "hate it so if we multiply these two",
+      "start": 1163.6,
+      "duration": 7.11
+    },
+    {
+      "text": "blinded messages then note that we would",
+      "start": 1167.77,
+      "duration": 6.36
+    },
+    {
+      "text": "have h2 em 1 plus em 2 multiplied with G",
+      "start": 1170.71,
+      "duration": 7.11
+    },
+    {
+      "text": "2 R 1 plus R 2 and if we give the sum of",
+      "start": 1174.13,
+      "duration": 5.85
+    },
+    {
+      "text": "the randomness values the coordinator",
+      "start": 1177.82,
+      "duration": 6.3
+    },
+    {
+      "text": "then the coordinator so basically we",
+      "start": 1179.98,
+      "duration": 7.35
+    },
+    {
+      "text": "open this the commitment corresponding",
+      "start": 1184.12,
+      "duration": 6.15
+    },
+    {
+      "text": "to the multiplication of the messages",
+      "start": 1187.33,
+      "duration": 6.78
+    },
+    {
+      "text": "then the and then the court and we could",
+      "start": 1190.27,
+      "duration": 6.81
+    },
+    {
+      "text": "we can convince the coordinator that",
+      "start": 1194.11,
+      "duration": 6.57
+    },
+    {
+      "text": "these values add up so this was like the",
+      "start": 1197.08,
+      "duration": 6.3
+    },
+    {
+      "text": "first step why we were kind of excited",
+      "start": 1200.68,
+      "duration": 6.3
+    },
+    {
+      "text": "about the blind be less signature",
+      "start": 1203.38,
+      "duration": 5.93
+    },
+    {
+      "text": "instantiated with the Patterson hash",
+      "start": 1206.98,
+      "duration": 6.15
+    },
+    {
+      "text": "because it gives us a really simple way",
+      "start": 1209.31,
+      "duration": 7.45
+    },
+    {
+      "text": "to prove splitting of UT exo's right",
+      "start": 1213.13,
+      "duration": 6.41
+    },
+    {
+      "text": "because if you want to make a payment",
+      "start": 1216.76,
+      "duration": 6.57
+    },
+    {
+      "text": "then it most likely you need to either",
+      "start": 1219.54,
+      "duration": 8.17
+    },
+    {
+      "text": "split or merge your UT axles but split",
+      "start": 1223.33,
+      "duration": 6.8
+    },
+    {
+      "text": "is the first thing we want it to solve",
+      "start": 1227.71,
+      "duration": 8.67
+    },
+    {
+      "text": "right yes so this is why we were started",
+      "start": 1230.13,
+      "duration": 9.28
+    },
+    {
+      "text": "to think about this be blind build a",
+      "start": 1236.38,
+      "duration": 5.13
+    },
+    {
+      "text": "signature scheme with the Patterson hash",
+      "start": 1239.41,
+      "duration": 10.5
+    },
+    {
+      "text": "and right let's let's continue or any",
+      "start": 1241.51,
+      "duration": 14.01
+    },
+    {
+      "text": "questions I just want to point out I",
+      "start": 1249.91,
+      "duration": 9.56
+    },
+    {
+      "text": "spoke earlier as in Bitcoin circles",
+      "start": 1255.52,
+      "duration": 6.45
+    },
+    {
+      "text": "usually people write in additive",
+      "start": 1259.47,
+      "duration": 5.68
+    },
+    {
+      "text": "notation and we wrote it here in",
+      "start": 1261.97,
+      "duration": 6.06
+    },
+    {
+      "text": "multiplicative notation but they're the",
+      "start": 1265.15,
+      "duration": 3.87
+    },
+    {
+      "text": "same thing",
+      "start": 1268.03,
+      "duration": 4.02
+    },
+    {
+      "text": "so that's the first clarification and",
+      "start": 1269.02,
+      "duration": 7.47
+    },
+    {
+      "text": "that second one is VLS signatures don't",
+      "start": 1272.05,
+      "duration": 8.67
+    },
+    {
+      "text": "work on bitcoins standard like elliptic",
+      "start": 1276.49,
+      "duration": 8.94
+    },
+    {
+      "text": "curve and it requires a different curve",
+      "start": 1280.72,
+      "duration": 7.99
+    },
+    {
+      "text": "which has what's called or different set",
+      "start": 1285.43,
+      "duration": 6.09
+    },
+    {
+      "text": "curse that has what's called a appearing",
+      "start": 1288.71,
+      "duration": 6.959
+    },
+    {
+      "text": "operation so I just thought that was",
+      "start": 1291.52,
+      "duration": 10.269
+    },
+    {
+      "text": "important yeah thank you please continue",
+      "start": 1295.669,
+      "duration": 6.781
+    },
+    {
+      "text": "ishtvan",
+      "start": 1301.789,
+      "duration": 3.661
+    },
+    {
+      "text": "i think it would be a good idea if you",
+      "start": 1302.45,
+      "duration": 5.849
+    },
+    {
+      "text": "guys explain stuff properly and then i",
+      "start": 1305.45,
+      "duration": 6.959
+    },
+    {
+      "text": "try to translate it to less technical",
+      "start": 1308.299,
+      "duration": 6.571
+    },
+    {
+      "text": "people and i think that that's a good",
+      "start": 1312.409,
+      "duration": 4.74
+    },
+    {
+      "text": "way to go about it so go ahead and",
+      "start": 1314.87,
+      "duration": 5.34
+    },
+    {
+      "text": "explain each one further okay so don't",
+      "start": 1317.149,
+      "duration": 4.801
+    },
+    {
+      "text": "get too much excited because this",
+      "start": 1320.21,
+      "duration": 5.339
+    },
+    {
+      "text": "protocol is broken but I can I can",
+      "start": 1321.95,
+      "duration": 6.719
+    },
+    {
+      "text": "explain it yeah what was the second",
+      "start": 1325.549,
+      "duration": 9.171
+    },
+    {
+      "text": "thought okay so now we know how to split",
+      "start": 1328.669,
+      "duration": 10.171
+    },
+    {
+      "text": "ut axis and let me just say it is not",
+      "start": 1334.72,
+      "duration": 7.72
+    },
+    {
+      "text": "broken it's it's something that you",
+      "start": 1338.84,
+      "duration": 5.309
+    },
+    {
+      "text": "don't like because you made a mistake",
+      "start": 1342.44,
+      "duration": 4.979
+    },
+    {
+      "text": "but the better double spending",
+      "start": 1344.149,
+      "duration": 6.091
+    },
+    {
+      "text": "protection actually fixes that mistakes",
+      "start": 1347.419,
+      "duration": 6.39
+    },
+    {
+      "text": "it's not actually broken yeah but it's",
+      "start": 1350.24,
+      "duration": 6.15
+    },
+    {
+      "text": "not lightweight it's not with it would",
+      "start": 1353.809,
+      "duration": 7.021
+    },
+    {
+      "text": "include additional assumptions like",
+      "start": 1356.39,
+      "duration": 7.34
+    },
+    {
+      "text": "you've uh pointed out so it builds upon",
+      "start": 1360.83,
+      "duration": 5.61
+    },
+    {
+      "text": "repairing base crypto and ideally we",
+      "start": 1363.73,
+      "duration": 5.71
+    },
+    {
+      "text": "would like to kind of remain at the same",
+      "start": 1366.44,
+      "duration": 5.459
+    },
+    {
+      "text": "technologies same assumptions but what",
+      "start": 1369.44,
+      "duration": 4.8
+    },
+    {
+      "text": "is already deployed in Bitcoin but",
+      "start": 1371.899,
+      "duration": 5.851
+    },
+    {
+      "text": "anyways let's continue so and how can we",
+      "start": 1374.24,
+      "duration": 7.5
+    },
+    {
+      "text": "prove so let's say we have we registered",
+      "start": 1377.75,
+      "duration": 9.57
+    },
+    {
+      "text": "a lots of input UT axis and now since we",
+      "start": 1381.74,
+      "duration": 8.37
+    },
+    {
+      "text": "not we also want to make payments",
+      "start": 1387.32,
+      "duration": 5.88
+    },
+    {
+      "text": "possibly potentially we might need to",
+      "start": 1390.11,
+      "duration": 6.39
+    },
+    {
+      "text": "consolidate some of our inputs right",
+      "start": 1393.2,
+      "duration": 6.39
+    },
+    {
+      "text": "because I don't know the payment value",
+      "start": 1396.5,
+      "duration": 5.25
+    },
+    {
+      "text": "is something super weird amount and and",
+      "start": 1399.59,
+      "duration": 5.189
+    },
+    {
+      "text": "we just need to merge coins so how to do",
+      "start": 1401.75,
+      "duration": 5.94
+    },
+    {
+      "text": "that with this blind be a signature",
+      "start": 1404.779,
+      "duration": 7.231
+    },
+    {
+      "text": "scheme with the Patterson hash so let's",
+      "start": 1407.69,
+      "duration": 7.38
+    },
+    {
+      "text": "say this is just an example of merging",
+      "start": 1412.01,
+      "duration": 7.39
+    },
+    {
+      "text": "to output to input UT exo's but",
+      "start": 1415.07,
+      "duration": 8.26
+    },
+    {
+      "text": "the same ideology would easily could be",
+      "start": 1419.4,
+      "duration": 8.88
+    },
+    {
+      "text": "easily generalized to multiple input UTX",
+      "start": 1423.33,
+      "duration": 7.92
+    },
+    {
+      "text": "emerging so let's say we have a mat",
+      "start": 1428.28,
+      "duration": 5.61
+    },
+    {
+      "text": "Hashem the message one and the signature",
+      "start": 1431.25,
+      "duration": 4.32
+    },
+    {
+      "text": "on a message one by the coordinator",
+      "start": 1433.89,
+      "duration": 3.84
+    },
+    {
+      "text": "since this is a blank signature scheme",
+      "start": 1435.57,
+      "duration": 5.34
+    },
+    {
+      "text": "the signature was not seen by the",
+      "start": 1437.73,
+      "duration": 6.03
+    },
+    {
+      "text": "coordinator yet as we have unlink",
+      "start": 1440.91,
+      "duration": 7.29
+    },
+    {
+      "text": "ability similarly we have the hash on",
+      "start": 1443.76,
+      "duration": 5.58
+    },
+    {
+      "text": "message two",
+      "start": 1448.2,
+      "duration": 3.15
+    },
+    {
+      "text": "and the signature on message 2 which",
+      "start": 1449.34,
+      "duration": 4.17
+    },
+    {
+      "text": "again was has not been seen by the",
+      "start": 1451.35,
+      "duration": 5.25
+    },
+    {
+      "text": "coordinator and now the question is how",
+      "start": 1453.51,
+      "duration": 6.06
+    },
+    {
+      "text": "can we prove that and we want to",
+      "start": 1456.6,
+      "duration": 5.28
+    },
+    {
+      "text": "register a UT EXO corresponding to the",
+      "start": 1459.57,
+      "duration": 5.25
+    },
+    {
+      "text": "value m1 plus m2 but we don't want to",
+      "start": 1461.88,
+      "duration": 6.09
+    },
+    {
+      "text": "reveal to the coordinator the underlying",
+      "start": 1464.82,
+      "duration": 5.85
+    },
+    {
+      "text": "value and bonding them too if this is a",
+      "start": 1467.97,
+      "duration": 4.56
+    },
+    {
+      "text": "cryptographic hash function which is",
+      "start": 1470.67,
+      "duration": 6.42
+    },
+    {
+      "text": "then so the coordinator doesn't see does",
+      "start": 1472.53,
+      "duration": 7.29
+    },
+    {
+      "text": "not know anything about message 1 and",
+      "start": 1477.09,
+      "duration": 6.45
+    },
+    {
+      "text": "our message 2 because this the Patterson",
+      "start": 1479.82,
+      "duration": 5.88
+    },
+    {
+      "text": "hash is the cryptographically secure",
+      "start": 1483.54,
+      "duration": 5.519
+    },
+    {
+      "text": "hash function given some range proofs",
+      "start": 1485.7,
+      "duration": 7.65
+    },
+    {
+      "text": "but let's put it aside so we just we",
+      "start": 1489.059,
+      "duration": 8.401
+    },
+    {
+      "text": "give the sum of the messages what we",
+      "start": 1493.35,
+      "duration": 6.66
+    },
+    {
+      "text": "want to register as an output to TX oh",
+      "start": 1497.46,
+      "duration": 6.42
+    },
+    {
+      "text": "well you and this for group element and",
+      "start": 1500.01,
+      "duration": 7.2
+    },
+    {
+      "text": "a small proof to convince the",
+      "start": 1503.88,
+      "duration": 5.429
+    },
+    {
+      "text": "coordinator that the underlying messages",
+      "start": 1507.21,
+      "duration": 4.83
+    },
+    {
+      "text": "adapt to this public value how can we do",
+      "start": 1509.309,
+      "duration": 5.581
+    },
+    {
+      "text": "that again we just need to it's super",
+      "start": 1512.04,
+      "duration": 5.16
+    },
+    {
+      "text": "simple we just need to multiply the",
+      "start": 1514.89,
+      "duration": 4.59
+    },
+    {
+      "text": "signatures what are the signatures the",
+      "start": 1517.2,
+      "duration": 6.24
+    },
+    {
+      "text": "signatures are now we just plug in the",
+      "start": 1519.48,
+      "duration": 5.97
+    },
+    {
+      "text": "definition here we just plug in the",
+      "start": 1523.44,
+      "duration": 3.989
+    },
+    {
+      "text": "definition of the blind a be a signature",
+      "start": 1525.45,
+      "duration": 6.09
+    },
+    {
+      "text": "scheme so Mac Sigma M 1 multiplied by",
+      "start": 1527.429,
+      "duration": 6.781
+    },
+    {
+      "text": "Sigma n 0 because the hash of the",
+      "start": 1531.54,
+      "duration": 4.889
+    },
+    {
+      "text": "message 1 raised to the coordinator",
+      "start": 1534.21,
+      "duration": 5.969
+    },
+    {
+      "text": "secret key multiplied with hash on the",
+      "start": 1536.429,
+      "duration": 6.451
+    },
+    {
+      "text": "message m 2 raised to the coordinators",
+      "start": 1540.179,
+      "duration": 6.661
+    },
+    {
+      "text": "secret key which is since in our case",
+      "start": 1542.88,
+      "duration": 5.73
+    },
+    {
+      "text": "the hash function is the Patterson hash",
+      "start": 1546.84,
+      "duration": 6.33
+    },
+    {
+      "text": "equals H 2 M 1x",
+      "start": 1548.61,
+      "duration": 8.43
+    },
+    {
+      "text": "and one is our secret value and the",
+      "start": 1553.17,
+      "duration": 9.12
+    },
+    {
+      "text": "other term is h2 m2x HSN generator in",
+      "start": 1557.04,
+      "duration": 8.7
+    },
+    {
+      "text": "the group so this equals H to X",
+      "start": 1562.29,
+      "duration": 6.87
+    },
+    {
+      "text": "multiplied with n plus and M 1 plus M 2",
+      "start": 1565.74,
+      "duration": 6.39
+    },
+    {
+      "text": "so the point is that if we give these",
+      "start": 1569.16,
+      "duration": 5.82
+    },
+    {
+      "text": "two values the coordinator then the",
+      "start": 1572.13,
+      "duration": 5.07
+    },
+    {
+      "text": "coordinator can just multiply them and",
+      "start": 1574.98,
+      "duration": 5.52
+    },
+    {
+      "text": "check this equality so note that this on",
+      "start": 1577.2,
+      "duration": 6.06
+    },
+    {
+      "text": "the right hand side H to the X",
+      "start": 1580.5,
+      "duration": 6.57
+    },
+    {
+      "text": "multiplied n plus M 1 plus M 2 can be",
+      "start": 1583.26,
+      "duration": 6.87
+    },
+    {
+      "text": "easily calculated by the coordinator so",
+      "start": 1587.07,
+      "duration": 5.94
+    },
+    {
+      "text": "access and the coordinators private key",
+      "start": 1590.13,
+      "duration": 5.67
+    },
+    {
+      "text": "and 1 and M 2 is the public values",
+      "start": 1593.01,
+      "duration": 5.61
+    },
+    {
+      "text": "because we this is the value of the",
+      "start": 1595.8,
+      "duration": 5.73
+    },
+    {
+      "text": "output UT X so we are registering so the",
+      "start": 1598.62,
+      "duration": 5.1
+    },
+    {
+      "text": "coordinator can compute this term and",
+      "start": 1601.53,
+      "duration": 5.33
+    },
+    {
+      "text": "similarly the coordinator can just",
+      "start": 1603.72,
+      "duration": 5.58
+    },
+    {
+      "text": "compute the multiplication of the two",
+      "start": 1606.86,
+      "duration": 5.59
+    },
+    {
+      "text": "signatures so the point here is that",
+      "start": 1609.3,
+      "duration": 6.63
+    },
+    {
+      "text": "this verification equality can be",
+      "start": 1612.45,
+      "duration": 6.0
+    },
+    {
+      "text": "trivially checked by the coordinator so",
+      "start": 1615.93,
+      "duration": 5.31
+    },
+    {
+      "text": "this is a super simple way to convince",
+      "start": 1618.45,
+      "duration": 5.76
+    },
+    {
+      "text": "the coordinator that look I have two",
+      "start": 1621.24,
+      "duration": 5.28
+    },
+    {
+      "text": "valid signatures on messages I'm not",
+      "start": 1624.21,
+      "duration": 4.35
+    },
+    {
+      "text": "going to tell you but still you can",
+      "start": 1626.52,
+      "duration": 4.29
+    },
+    {
+      "text": "verify that the underlying messages add",
+      "start": 1628.56,
+      "duration": 5.64
+    },
+    {
+      "text": "up to this public value so with that in",
+      "start": 1630.81,
+      "duration": 6.54
+    },
+    {
+      "text": "mind we basically solved on the problem",
+      "start": 1634.2,
+      "duration": 7.62
+    },
+    {
+      "text": "of splitting UT exo's and merging UT",
+      "start": 1637.35,
+      "duration": 7.2
+    },
+    {
+      "text": "exo's so basically the wabi-sabi is",
+      "start": 1641.82,
+      "duration": 16.41
+    },
+    {
+      "text": "ready right what do you think guys okay",
+      "start": 1644.55,
+      "duration": 17.19
+    },
+    {
+      "text": "so shall we kill the Joker or you want",
+      "start": 1658.23,
+      "duration": 6.15
+    },
+    {
+      "text": "to think about it by the way this is if",
+      "start": 1661.74,
+      "duration": 7.82
+    },
+    {
+      "text": "you go to Lobby subbies so github.com",
+      "start": 1664.38,
+      "duration": 9.6
+    },
+    {
+      "text": "/zk snags the slash wabi-sabi and the",
+      "start": 1669.56,
+      "duration": 7.3
+    },
+    {
+      "text": "fifth issue if you want to take it as a",
+      "start": 1673.98,
+      "duration": 5.49
+    },
+    {
+      "text": "homework or exercise to think about it",
+      "start": 1676.86,
+      "duration": 5.07
+    },
+    {
+      "text": "don't scroll that much down because here",
+      "start": 1679.47,
+      "duration": 6.63
+    },
+    {
+      "text": "you will see why it is broken but",
+      "start": 1681.93,
+      "duration": 7.83
+    },
+    {
+      "text": "yeah we were like in ecstasy in in half",
+      "start": 1686.1,
+      "duration": 6.99
+    },
+    {
+      "text": "a day and then through the reality hit",
+      "start": 1689.76,
+      "duration": 11.13
+    },
+    {
+      "text": "it yeah okay there are some subtleties",
+      "start": 1693.09,
+      "duration": 9.69
+    },
+    {
+      "text": "like we would need some padding scheme",
+      "start": 1700.89,
+      "duration": 5.66
+    },
+    {
+      "text": "but yeah okay",
+      "start": 1702.78,
+      "duration": 7.32
+    },
+    {
+      "text": "many questions comments on the on this",
+      "start": 1706.55,
+      "duration": 12.64
+    },
+    {
+      "text": "scheme okay so let's meet but what was",
+      "start": 1710.1,
+      "duration": 11.72
+    },
+    {
+      "text": "the problem with this and what was the",
+      "start": 1719.19,
+      "duration": 9.33
+    },
+    {
+      "text": "overcomplicated solution okay so so",
+      "start": 1721.82,
+      "duration": 9.25
+    },
+    {
+      "text": "let's give the protocol in two minutes",
+      "start": 1728.52,
+      "duration": 6.93
+    },
+    {
+      "text": "so the firm let's start with the obvious",
+      "start": 1731.07,
+      "duration": 7.11
+    },
+    {
+      "text": "mistake which was pointed out by Kobe",
+      "start": 1735.45,
+      "duration": 5.88
+    },
+    {
+      "text": "good cam good friend of mine so again",
+      "start": 1738.18,
+      "duration": 6.84
+    },
+    {
+      "text": "tech thanks cobby so the obvious problem",
+      "start": 1741.33,
+      "duration": 6.93
+    },
+    {
+      "text": "with this is that never ever so yeah",
+      "start": 1745.02,
+      "duration": 6.84
+    },
+    {
+      "text": "this is the description of blind BLS",
+      "start": 1748.26,
+      "duration": 7.11
+    },
+    {
+      "text": "signatures and anytime you would like to",
+      "start": 1751.86,
+      "duration": 6.33
+    },
+    {
+      "text": "implement it as a practitioner or or you",
+      "start": 1755.37,
+      "duration": 5.04
+    },
+    {
+      "text": "want to deploy it in the wild you need",
+      "start": 1758.19,
+      "duration": 5.07
+    },
+    {
+      "text": "to choose this hash function and one of",
+      "start": 1760.41,
+      "duration": 6.81
+    },
+    {
+      "text": "the key takeaways here is that you",
+      "start": 1763.26,
+      "duration": 6.93
+    },
+    {
+      "text": "should not choose blind be less",
+      "start": 1767.22,
+      "duration": 4.56
+    },
+    {
+      "text": "signatures with the Patterson hash",
+      "start": 1770.19,
+      "duration": 5.27
+    },
+    {
+      "text": "because then you you completely break",
+      "start": 1771.78,
+      "duration": 6.41
+    },
+    {
+      "text": "the underlying security properties of",
+      "start": 1775.46,
+      "duration": 6.21
+    },
+    {
+      "text": "the blank pls signature scheme why",
+      "start": 1778.19,
+      "duration": 9.04
+    },
+    {
+      "text": "because so this is the solution pointed",
+      "start": 1781.67,
+      "duration": 7.72
+    },
+    {
+      "text": "out by Coby",
+      "start": 1787.23,
+      "duration": 6.6
+    },
+    {
+      "text": "if a user has a single valid signature",
+      "start": 1789.39,
+      "duration": 7.47
+    },
+    {
+      "text": "so if the user has a message m and",
+      "start": 1793.83,
+      "duration": 6.06
+    },
+    {
+      "text": "obtains a blind signature which has the",
+      "start": 1796.86,
+      "duration": 8.16
+    },
+    {
+      "text": "form H to a max then a user can just",
+      "start": 1799.89,
+      "duration": 9.18
+    },
+    {
+      "text": "Forge any signature of her choice like",
+      "start": 1805.02,
+      "duration": 7.74
+    },
+    {
+      "text": "let's say M star and then can obtain a",
+      "start": 1809.07,
+      "duration": 6.6
+    },
+    {
+      "text": "valid blind signature on a message which",
+      "start": 1812.76,
+      "duration": 4.83
+    },
+    {
+      "text": "was not a very signed by the coordinator",
+      "start": 1815.67,
+      "duration": 3.78
+    },
+    {
+      "text": "so this is like conky",
+      "start": 1817.59,
+      "duration": 6.24
+    },
+    {
+      "text": "Italy breaks the guarantees the security",
+      "start": 1819.45,
+      "duration": 7.199
+    },
+    {
+      "text": "guarantees whatsoever of the blind build",
+      "start": 1823.83,
+      "duration": 6.719
+    },
+    {
+      "text": "a signature scheme so like so if you",
+      "start": 1826.649,
+      "duration": 7.14
+    },
+    {
+      "text": "learn something of this discussion so",
+      "start": 1830.549,
+      "duration": 6.291
+    },
+    {
+      "text": "far like first lesson is that don't",
+      "start": 1833.789,
+      "duration": 5.61
+    },
+    {
+      "text": "instantiate and blind be a signature",
+      "start": 1836.84,
+      "duration": 6.61
+    },
+    {
+      "text": "with but there's an - because then users",
+      "start": 1839.399,
+      "duration": 9.211
+    },
+    {
+      "text": "can screw you up yes and then and we",
+      "start": 1843.45,
+      "duration": 8.25
+    },
+    {
+      "text": "were trying to fix this protocol I'm not",
+      "start": 1848.61,
+      "duration": 5.429
+    },
+    {
+      "text": "sure if that's a little bit complicated",
+      "start": 1851.7,
+      "duration": 7.02
+    },
+    {
+      "text": "because then we would need to explain",
+      "start": 1854.039,
+      "duration": 7.02
+    },
+    {
+      "text": "what our accumulators but basically you",
+      "start": 1858.72,
+      "duration": 4.02
+    },
+    {
+      "text": "can save it but it's not",
+      "start": 1861.059,
+      "duration": 5.011
+    },
+    {
+      "text": "cryptographically sound construction and",
+      "start": 1862.74,
+      "duration": 5.1
+    },
+    {
+      "text": "protocol anymore because it would rely",
+      "start": 1866.07,
+      "duration": 4.68
+    },
+    {
+      "text": "on a completely broken blind signature",
+      "start": 1867.84,
+      "duration": 7.65
+    },
+    {
+      "text": "scheme so we were like well let's put",
+      "start": 1870.75,
+      "duration": 7.5
+    },
+    {
+      "text": "this aside and let's continue in another",
+      "start": 1875.49,
+      "duration": 4.95
+    },
+    {
+      "text": "direction because this is just not",
+      "start": 1878.25,
+      "duration": 4.97
+    },
+    {
+      "text": "kosher at all",
+      "start": 1880.44,
+      "duration": 4.979
+    },
+    {
+      "text": "yeah and that I think this is a good",
+      "start": 1883.22,
+      "duration": 3.87
+    },
+    {
+      "text": "point right to talk about trade-offs",
+      "start": 1885.419,
+      "duration": 4.921
+    },
+    {
+      "text": "because you know ultimately we want to",
+      "start": 1887.09,
+      "duration": 6.069
+    },
+    {
+      "text": "have a protocol that does communicate",
+      "start": 1890.34,
+      "duration": 5.13
+    },
+    {
+      "text": "with a central coordinator but we do not",
+      "start": 1893.159,
+      "duration": 5.161
+    },
+    {
+      "text": "want to have a decentralized protocol is",
+      "start": 1895.47,
+      "duration": 5.069
+    },
+    {
+      "text": "this would increase complexity it's also",
+      "start": 1898.32,
+      "duration": 4.38
+    },
+    {
+      "text": "staying centralized means we've reduced",
+      "start": 1900.539,
+      "duration": 4.561
+    },
+    {
+      "text": "complexity but then for example if we",
+      "start": 1902.7,
+      "duration": 4.29
+    },
+    {
+      "text": "would use this quote-unquote broken",
+      "start": 1905.1,
+      "duration": 3.689
+    },
+    {
+      "text": "protocol but fixed at both the",
+      "start": 1906.99,
+      "duration": 3.809
+    },
+    {
+      "text": "accumulators this would again increase",
+      "start": 1908.789,
+      "duration": 4.321
+    },
+    {
+      "text": "the complexity I then and this just",
+      "start": 1910.799,
+      "duration": 5.161
+    },
+    {
+      "text": "carries about a lot of trade-offs no of",
+      "start": 1913.11,
+      "duration": 4.83
+    },
+    {
+      "text": "just additional communication realms",
+      "start": 1915.96,
+      "duration": 3.809
+    },
+    {
+      "text": "where stuff can go wrong this is one of",
+      "start": 1917.94,
+      "duration": 3.239
+    },
+    {
+      "text": "the big ball next we haven't wasabi",
+      "start": 1919.769,
+      "duration": 3.301
+    },
+    {
+      "text": "currently that the torah' anonymity",
+      "start": 1921.179,
+      "duration": 5.25
+    },
+    {
+      "text": "network just breaks sometimes it does",
+      "start": 1923.07,
+      "duration": 5.55
+    },
+    {
+      "text": "not even work flawlessly all the time",
+      "start": 1926.429,
+      "duration": 3.661
+    },
+    {
+      "text": "and put the extra round of",
+      "start": 1928.62,
+      "duration": 3.63
+    },
+    {
+      "text": "communications this would become more",
+      "start": 1930.09,
+      "duration": 5.1
+    },
+    {
+      "text": "and more of an issue so so here again if",
+      "start": 1932.25,
+      "duration": 5.24
+    },
+    {
+      "text": "we can find a more beautiful",
+      "start": 1935.19,
+      "duration": 6.449
+    },
+    {
+      "text": "cryptographic solution that is less",
+      "start": 1937.49,
+      "duration": 6.7
+    },
+    {
+      "text": "complex that relies on less assumptions",
+      "start": 1941.639,
+      "duration": 5.461
+    },
+    {
+      "text": "and increment it then this would of",
+      "start": 1944.19,
+      "duration": 5.55
+    },
+    {
+      "text": "course be better so so that's why we",
+      "start": 1947.1,
+      "duration": 4.38
+    },
+    {
+      "text": "decided to abandon this approach and",
+      "start": 1949.74,
+      "duration": 3.03
+    },
+    {
+      "text": "look for something",
+      "start": 1951.48,
+      "duration": 3.449
+    },
+    {
+      "text": "and honestly there were many red flags",
+      "start": 1952.77,
+      "duration": 4.32
+    },
+    {
+      "text": "already from the beginning it's already",
+      "start": 1954.929,
+      "duration": 5.491
+    },
+    {
+      "text": "you well pointed out like obviously",
+      "start": 1957.09,
+      "duration": 7.29
+    },
+    {
+      "text": "blank signature sorry elliptic curve so",
+      "start": 1960.42,
+      "duration": 6.24
+    },
+    {
+      "text": "pairing based crypto is something",
+      "start": 1964.38,
+      "duration": 6.12
+    },
+    {
+      "text": "completely new and also we did some",
+      "start": 1966.66,
+      "duration": 5.64
+    },
+    {
+      "text": "research and we found out that there is",
+      "start": 1970.5,
+      "duration": 4.98
+    },
+    {
+      "text": "no C sharp implementation of BLS though",
+      "start": 1972.3,
+      "duration": 7.08
+    },
+    {
+      "text": "we as Max already pointed out like trade",
+      "start": 1975.48,
+      "duration": 7.41
+    },
+    {
+      "text": "offs so if we would have wanted to go",
+      "start": 1979.38,
+      "duration": 6.45
+    },
+    {
+      "text": "with the scheme then we would have",
+      "start": 1982.89,
+      "duration": 6.15
+    },
+    {
+      "text": "needed to implement our own BLS from",
+      "start": 1985.83,
+      "duration": 5.849
+    },
+    {
+      "text": "scratch so we also want to minimize",
+      "start": 1989.04,
+      "duration": 5.73
+    },
+    {
+      "text": "obviously the time to market so we would",
+      "start": 1991.679,
+      "duration": 5.671
+    },
+    {
+      "text": "like to make this available for our",
+      "start": 1994.77,
+      "duration": 6.14
+    },
+    {
+      "text": "users as soon as possible and and yeah",
+      "start": 1997.35,
+      "duration": 8.81
+    },
+    {
+      "text": "so yes all right thank you",
+      "start": 2000.91,
+      "duration": 8.59
+    },
+    {
+      "text": "just something here because I see we",
+      "start": 2006.16,
+      "duration": 6.22
+    },
+    {
+      "text": "have someone new and I just would like",
+      "start": 2009.5,
+      "duration": 6.9
+    },
+    {
+      "text": "to say hi Stefano would you like to",
+      "start": 2012.38,
+      "duration": 10.14
+    },
+    {
+      "text": "introduce yourself maybe all right can",
+      "start": 2016.4,
+      "duration": 12.45
+    },
+    {
+      "text": "you hear me yes yeah sorry I was a bit",
+      "start": 2022.52,
+      "duration": 10.38
+    },
+    {
+      "text": "late I missed the first part but I had",
+      "start": 2028.85,
+      "duration": 8.82
+    },
+    {
+      "text": "already seen the github issue so more or",
+      "start": 2032.9,
+      "duration": 8.79
+    },
+    {
+      "text": "less what you were talking about was not",
+      "start": 2037.67,
+      "duration": 9.29
+    },
+    {
+      "text": "completely new to me well about myself",
+      "start": 2041.69,
+      "duration": 10.52
+    },
+    {
+      "text": "master student at Alta when graduating",
+      "start": 2046.96,
+      "duration": 10.719
+    },
+    {
+      "text": "in July if everything goes right and I",
+      "start": 2052.21,
+      "duration": 9.48
+    },
+    {
+      "text": "have been interested in to block saying",
+      "start": 2057.679,
+      "duration": 7.801
+    },
+    {
+      "text": "Bitcoin in particular protocol since 2",
+      "start": 2061.69,
+      "duration": 9.13
+    },
+    {
+      "text": "to 3 years ago and yeah I'm pretty",
+      "start": 2065.48,
+      "duration": 7.409
+    },
+    {
+      "text": "passionate about cryptography I have",
+      "start": 2070.82,
+      "duration": 6.359
+    },
+    {
+      "text": "that's very maths so the mathematics",
+      "start": 2072.889,
+      "duration": 9.571
+    },
+    {
+      "text": "down there doesn't scare me anymore",
+      "start": 2077.179,
+      "duration": 10.771
+    },
+    {
+      "text": "oh I found it fun so I think I will take",
+      "start": 2082.46,
+      "duration": 9.719
+    },
+    {
+      "text": "part to this kind of meetings often in",
+      "start": 2087.95,
+      "duration": 18.32
+    },
+    {
+      "text": "the future I totally agree with that",
+      "start": 2092.179,
+      "duration": 14.091
+    },
+    {
+      "text": "I'm a bit sorry that I cannot help on",
+      "start": 2108.069,
+      "duration": 5.591
+    },
+    {
+      "text": "the implementation side because I'm not",
+      "start": 2111.8,
+      "duration": 5.12
+    },
+    {
+      "text": "really a c-sharp programmer it's",
+      "start": 2113.66,
+      "duration": 13.409
+    },
+    {
+      "text": "completely unknown to me but all right",
+      "start": 2116.92,
+      "duration": 14.26
+    },
+    {
+      "text": "let's continue and and I'm wondering how",
+      "start": 2127.069,
+      "duration": 9.27
+    },
+    {
+      "text": "shall we continue because because then",
+      "start": 2131.18,
+      "duration": 9.12
+    },
+    {
+      "text": "we went back maybe and with the idea",
+      "start": 2136.339,
+      "duration": 6.24
+    },
+    {
+      "text": "that maybe we can do something with our",
+      "start": 2140.3,
+      "duration": 5.549
+    },
+    {
+      "text": "feathers and commitments scheme but what",
+      "start": 2142.579,
+      "duration": 9.661
+    },
+    {
+      "text": "we had in mind and actually we brought a",
+      "start": 2145.849,
+      "duration": 10.831
+    },
+    {
+      "text": "comparison between our two schemes this",
+      "start": 2152.24,
+      "duration": 7.26
+    },
+    {
+      "text": "BLS signature scheme and our Patterson",
+      "start": 2156.68,
+      "duration": 7.649
+    },
+    {
+      "text": "commitment scheme and what we said is",
+      "start": 2159.5,
+      "duration": 8.369
+    },
+    {
+      "text": "the cryptography is for that Patterson",
+      "start": 2164.329,
+      "duration": 6.211
+    },
+    {
+      "text": "commitments scheme but which is",
+      "start": 2167.869,
+      "duration": 4.98
+    },
+    {
+      "text": "described in the beginning is relatively",
+      "start": 2170.54,
+      "duration": 6.09
+    },
+    {
+      "text": "simple the blind BLS signature scheme is",
+      "start": 2172.849,
+      "duration": 9.391
+    },
+    {
+      "text": "complex communication rounds the",
+      "start": 2176.63,
+      "duration": 8.85
+    },
+    {
+      "text": "Patterson commitment blind patterns and",
+      "start": 2182.24,
+      "duration": 5.369
+    },
+    {
+      "text": "commitment scheme does not introduce any",
+      "start": 2185.48,
+      "duration": 4.319
+    },
+    {
+      "text": "additional communication round while the",
+      "start": 2187.609,
+      "duration": 7.49
+    },
+    {
+      "text": "bind Els signature scheme does introduce",
+      "start": 2189.799,
+      "duration": 9.091
+    },
+    {
+      "text": "parallel communication round which means",
+      "start": 2195.099,
+      "duration": 8.2
+    },
+    {
+      "text": "it's not that bad this is because after",
+      "start": 2198.89,
+      "duration": 6.959
+    },
+    {
+      "text": "the input registration we have to give",
+      "start": 2203.299,
+      "duration": 7.441
+    },
+    {
+      "text": "out the accumulator for the two to the",
+      "start": 2205.849,
+      "duration": 8.22
+    },
+    {
+      "text": "piers so they can they can create their",
+      "start": 2210.74,
+      "duration": 4.32
+    },
+    {
+      "text": "outputs",
+      "start": 2214.069,
+      "duration": 5.161
+    },
+    {
+      "text": "and again coin splitting in the",
+      "start": 2215.06,
+      "duration": 6.96
+    },
+    {
+      "text": "Patterson commitments key in both scheme",
+      "start": 2219.23,
+      "duration": 6.51
+    },
+    {
+      "text": "is perfectly solved Cohen merging in the",
+      "start": 2222.02,
+      "duration": 6.18
+    },
+    {
+      "text": "Patterson commitment scheme is not",
+      "start": 2225.74,
+      "duration": 7.26
+    },
+    {
+      "text": "solved so there is privacy loss there in",
+      "start": 2228.2,
+      "duration": 9.54
+    },
+    {
+      "text": "the BLS signature scheme it's solved but",
+      "start": 2233.0,
+      "duration": 7.56
+    },
+    {
+      "text": "but again it could be improved by",
+      "start": 2237.74,
+      "duration": 5.28
+    },
+    {
+      "text": "introducing some denominations but we",
+      "start": 2240.56,
+      "duration": 4.35
+    },
+    {
+      "text": "really don't want to do that because we",
+      "start": 2243.02,
+      "duration": 5.3
+    },
+    {
+      "text": "are kind of back to back back to some",
+      "start": 2244.91,
+      "duration": 11.0
+    },
+    {
+      "text": "some some not very elegant scheme and",
+      "start": 2248.32,
+      "duration": 13.06
+    },
+    {
+      "text": "that's that's pretty much it and then we",
+      "start": 2255.91,
+      "duration": 8.5
+    },
+    {
+      "text": "went back and letters and commitments",
+      "start": 2261.38,
+      "duration": 9.63
+    },
+    {
+      "text": "came again and I would have a question",
+      "start": 2264.41,
+      "duration": 9.9
+    },
+    {
+      "text": "for the whole group I mean could you",
+      "start": 2271.01,
+      "duration": 5.91
+    },
+    {
+      "text": "maybe explain a bit more the the idea of",
+      "start": 2274.31,
+      "duration": 6.63
+    },
+    {
+      "text": "having um denominations and held know",
+      "start": 2276.92,
+      "duration": 5.94
+    },
+    {
+      "text": "how this would work and why this is not",
+      "start": 2280.94,
+      "duration": 7.71
+    },
+    {
+      "text": "optimal yeah sure so in the Patterson",
+      "start": 2282.86,
+      "duration": 9.96
+    },
+    {
+      "text": "committment scheme you can we we went",
+      "start": 2288.65,
+      "duration": 6.56
+    },
+    {
+      "text": "through how you can split the amounts",
+      "start": 2292.82,
+      "duration": 6.69
+    },
+    {
+      "text": "but we did not figure out how you can",
+      "start": 2295.21,
+      "duration": 8.5
+    },
+    {
+      "text": "match the amount so for example if you",
+      "start": 2299.51,
+      "duration": 6.87
+    },
+    {
+      "text": "have an input with one Bitcoin and",
+      "start": 2303.71,
+      "duration": 6.12
+    },
+    {
+      "text": "another input with two Bitcoin and then",
+      "start": 2306.38,
+      "duration": 5.67
+    },
+    {
+      "text": "you go with two different anonymity",
+      "start": 2309.83,
+      "duration": 5.43
+    },
+    {
+      "text": "Network identities and you you want a",
+      "start": 2312.05,
+      "duration": 7.89
+    },
+    {
+      "text": "three Bitcoin output then you wouldn't",
+      "start": 2315.26,
+      "duration": 9.03
+    },
+    {
+      "text": "be able to split any of those two inputs",
+      "start": 2319.94,
+      "duration": 7.89
+    },
+    {
+      "text": "to get three Bitcoin output but you",
+      "start": 2324.29,
+      "duration": 7.86
+    },
+    {
+      "text": "would somehow have to merge them and at",
+      "start": 2327.83,
+      "duration": 6.93
+    },
+    {
+      "text": "that point the only idea that we had in",
+      "start": 2332.15,
+      "duration": 5.28
+    },
+    {
+      "text": "mind that okay you get a Patterson",
+      "start": 2334.76,
+      "duration": 5.1
+    },
+    {
+      "text": "commitment for the one Bitcoin input and",
+      "start": 2337.43,
+      "duration": 5.48
+    },
+    {
+      "text": "Patterson commitment for the to Bitcoin",
+      "start": 2339.86,
+      "duration": 7.79
+    },
+    {
+      "text": "input and an adult with registration you",
+      "start": 2342.91,
+      "duration": 7.29
+    },
+    {
+      "text": "register them together so you are",
+      "start": 2347.65,
+      "duration": 6.75
+    },
+    {
+      "text": "basically exposing that you had a one",
+      "start": 2350.2,
+      "duration": 7.77
+    },
+    {
+      "text": "Bitcoin you have one Bitcoin and you",
+      "start": 2354.4,
+      "duration": 6.27
+    },
+    {
+      "text": "have three Bitcoin and where where can",
+      "start": 2357.97,
+      "duration": 4.92
+    },
+    {
+      "text": "those come from probably from the one",
+      "start": 2360.67,
+      "duration": 4.53
+    },
+    {
+      "text": "Bitcoin impotent probably from the three",
+      "start": 2362.89,
+      "duration": 6.87
+    },
+    {
+      "text": "Bitcoin input so that's not idea for",
+      "start": 2365.2,
+      "duration": 7.79
+    },
+    {
+      "text": "this we can introduce denominations that",
+      "start": 2369.76,
+      "duration": 7.32
+    },
+    {
+      "text": "just create a bunch of standard letters",
+      "start": 2372.99,
+      "duration": 6.7
+    },
+    {
+      "text": "and commitments than letters and",
+      "start": 2377.08,
+      "duration": 5.64
+    },
+    {
+      "text": "commitments with standard amounts and in",
+      "start": 2379.69,
+      "duration": 5.04
+    },
+    {
+      "text": "that way the coordinator at least I",
+      "start": 2382.72,
+      "duration": 5.19
+    },
+    {
+      "text": "thought would registration it will be",
+      "start": 2384.73,
+      "duration": 7.11
+    },
+    {
+      "text": "quiet quite difficult for the",
+      "start": 2387.91,
+      "duration": 7.62
+    },
+    {
+      "text": "coordinator to tell well often",
+      "start": 2391.84,
+      "duration": 6.66
+    },
+    {
+      "text": "impossible the where those are coming",
+      "start": 2395.53,
+      "duration": 5.7
+    },
+    {
+      "text": "from and that could work but but again",
+      "start": 2398.5,
+      "duration": 5.46
+    },
+    {
+      "text": "like introducing thousands of brothers",
+      "start": 2401.23,
+      "duration": 4.41
+    },
+    {
+      "text": "and commitments and things like this is",
+      "start": 2403.96,
+      "duration": 4.92
+    },
+    {
+      "text": "not very elegant and probably we would",
+      "start": 2405.64,
+      "duration": 5.73
+    },
+    {
+      "text": "just end up having implementation issues",
+      "start": 2408.88,
+      "duration": 3.66
+    },
+    {
+      "text": "all over the place",
+      "start": 2411.37,
+      "duration": 9.12
+    },
+    {
+      "text": "so what s can we do with this and each",
+      "start": 2412.54,
+      "duration": 12.09
+    },
+    {
+      "text": "twin spent some time on it at home and",
+      "start": 2420.49,
+      "duration": 8.55
+    },
+    {
+      "text": "he came up with something which I cannot",
+      "start": 2424.63,
+      "duration": 8.55
+    },
+    {
+      "text": "claim to understand but then we",
+      "start": 2429.04,
+      "duration": 10.43
+    },
+    {
+      "text": "progressed a bit further and and I'm not",
+      "start": 2433.18,
+      "duration": 9.93
+    },
+    {
+      "text": "okay so do you guys want to chime in",
+      "start": 2439.47,
+      "duration": 7.33
+    },
+    {
+      "text": "maybe you are better equipped to explain",
+      "start": 2443.11,
+      "duration": 10.05
+    },
+    {
+      "text": "our further progress here I think the",
+      "start": 2446.8,
+      "duration": 8.88
+    },
+    {
+      "text": "next thing we should like if we go over",
+      "start": 2453.16,
+      "duration": 6.84
+    },
+    {
+      "text": "issue number 10 I think we should have",
+      "start": 2455.68,
+      "duration": 6.36
+    },
+    {
+      "text": "enough time to cover it based on what we",
+      "start": 2460.0,
+      "duration": 5.01
+    },
+    {
+      "text": "already did it's quite similar because",
+      "start": 2462.04,
+      "duration": 6.96
+    },
+    {
+      "text": "it also uses by linear groups the",
+      "start": 2465.01,
+      "duration": 6.24
+    },
+    {
+      "text": "Patterson commitments are similar but",
+      "start": 2469.0,
+      "duration": 4.32
+    },
+    {
+      "text": "the signature algorithm and the",
+      "start": 2471.25,
+      "duration": 6.53
+    },
+    {
+      "text": "verification equation are different and",
+      "start": 2473.32,
+      "duration": 5.7
+    },
+    {
+      "text": "it",
+      "start": 2477.78,
+      "duration": 3.37
+    },
+    {
+      "text": "introduces some problems but it also",
+      "start": 2479.02,
+      "duration": 4.17
+    },
+    {
+      "text": "solved some problems and I think that",
+      "start": 2481.15,
+      "duration": 4.23
+    },
+    {
+      "text": "that's a good direction to to go in for",
+      "start": 2483.19,
+      "duration": 9.0
+    },
+    {
+      "text": "today do you present to everyone like",
+      "start": 2485.38,
+      "duration": 9.45
+    },
+    {
+      "text": "when when your screen sharing and",
+      "start": 2492.19,
+      "duration": 6.0
+    },
+    {
+      "text": "somebody else is talking then like I",
+      "start": 2494.83,
+      "duration": 5.85
+    },
+    {
+      "text": "think would still be useful to have your",
+      "start": 2498.19,
+      "duration": 5.46
+    },
+    {
+      "text": "screen show so you can click on each one",
+      "start": 2500.68,
+      "duration": 6.42
+    },
+    {
+      "text": "and it that way his monitor is going to",
+      "start": 2503.65,
+      "duration": 6.6
+    },
+    {
+      "text": "be be the dominant on your computer even",
+      "start": 2507.1,
+      "duration": 5.82
+    },
+    {
+      "text": "if you are talking I'm going to do that",
+      "start": 2510.25,
+      "duration": 5.43
+    },
+    {
+      "text": "too so the recording will be will be",
+      "start": 2512.92,
+      "duration": 8.15
+    },
+    {
+      "text": "correct yeah for the recording thank you",
+      "start": 2515.68,
+      "duration": 5.39
+    },
+    {
+      "text": "well I'm not sure how much time we want",
+      "start": 2521.7,
+      "duration": 6.49
+    },
+    {
+      "text": "to spend with this because this ad so",
+      "start": 2524.77,
+      "duration": 6.57
+    },
+    {
+      "text": "because this is not something super",
+      "start": 2528.19,
+      "duration": 7.59
+    },
+    {
+      "text": "known signature scheme so can I ask one",
+      "start": 2531.34,
+      "duration": 7.56
+    },
+    {
+      "text": "more question about last topic please",
+      "start": 2535.78,
+      "duration": 7.7
+    },
+    {
+      "text": "please do like if I understood correctly",
+      "start": 2538.9,
+      "duration": 8.7
+    },
+    {
+      "text": "whenever you are getting the outputs",
+      "start": 2543.48,
+      "duration": 6.37
+    },
+    {
+      "text": "from the coin zone you have to have at",
+      "start": 2547.6,
+      "duration": 7.02
+    },
+    {
+      "text": "least two outputs am I wrong or is it",
+      "start": 2549.85,
+      "duration": 7.08
+    },
+    {
+      "text": "that you have to have at least the same",
+      "start": 2554.62,
+      "duration": 4.44
+    },
+    {
+      "text": "amount of outputs coming out as you put",
+      "start": 2556.93,
+      "duration": 7.92
+    },
+    {
+      "text": "in in inputs more we want to make make",
+      "start": 2559.06,
+      "duration": 10.83
+    },
+    {
+      "text": "it be completely arbitrary III mean we",
+      "start": 2564.85,
+      "duration": 9.21
+    },
+    {
+      "text": "will have some restrictions some",
+      "start": 2569.89,
+      "duration": 6.84
+    },
+    {
+      "text": "standard amounts and things like that at",
+      "start": 2574.06,
+      "duration": 5.61
+    },
+    {
+      "text": "upper layers but on this layer were we",
+      "start": 2576.73,
+      "duration": 8.22
+    },
+    {
+      "text": "are working right now we want appears to",
+      "start": 2579.67,
+      "duration": 9.3
+    },
+    {
+      "text": "register completely arbitrary amounts",
+      "start": 2584.95,
+      "duration": 6.06
+    },
+    {
+      "text": "and number of inputs and completely",
+      "start": 2588.97,
+      "duration": 6.17
+    },
+    {
+      "text": "arbitrary amounts and number of outputs",
+      "start": 2591.01,
+      "duration": 9.24
+    },
+    {
+      "text": "later we will restrict it but for now we",
+      "start": 2595.14,
+      "duration": 8.5
+    },
+    {
+      "text": "want to to build something that's",
+      "start": 2600.25,
+      "duration": 8.61
+    },
+    {
+      "text": "flexible and at up early layers we will",
+      "start": 2603.64,
+      "duration": 7.53
+    },
+    {
+      "text": "restrict them",
+      "start": 2608.86,
+      "duration": 4.17
+    },
+    {
+      "text": "the short answer would be that there is",
+      "start": 2611.17,
+      "duration": 3.6
+    },
+    {
+      "text": "no correlation between the number of",
+      "start": 2613.03,
+      "duration": 3.72
+    },
+    {
+      "text": "input UT X's and the number of how to do",
+      "start": 2614.77,
+      "duration": 4.529
+    },
+    {
+      "text": "T X's they don't necessarily need to be",
+      "start": 2616.75,
+      "duration": 6.42
+    },
+    {
+      "text": "equal the only thing which is necessary",
+      "start": 2619.299,
+      "duration": 6.871
+    },
+    {
+      "text": "that roughly the sum of the input UT X's",
+      "start": 2623.17,
+      "duration": 6.03
+    },
+    {
+      "text": "equals and some of the output beauty X",
+      "start": 2626.17,
+      "duration": 5.37
+    },
+    {
+      "text": "values minus Fe and does this answer the",
+      "start": 2629.2,
+      "duration": 5.7
+    },
+    {
+      "text": "question yeah exactly that but what was",
+      "start": 2631.54,
+      "duration": 5.759
+    },
+    {
+      "text": "the problem with BLS and Peterson",
+      "start": 2634.9,
+      "duration": 5.88
+    },
+    {
+      "text": "signature wasn't it like that you can't",
+      "start": 2637.299,
+      "duration": 6.841
+    },
+    {
+      "text": "like just have one output coming out if",
+      "start": 2640.78,
+      "duration": 7.049
+    },
+    {
+      "text": "you are putting two inputs so the",
+      "start": 2644.14,
+      "duration": 7.469
+    },
+    {
+      "text": "problem is that again just to refresh so",
+      "start": 2647.829,
+      "duration": 5.311
+    },
+    {
+      "text": "this this was the blind build a",
+      "start": 2651.609,
+      "duration": 5.341
+    },
+    {
+      "text": "signature scheme like put this into your",
+      "start": 2653.14,
+      "duration": 8.1
+    },
+    {
+      "text": "photographic memory and then if so you",
+      "start": 2656.95,
+      "duration": 6.54
+    },
+    {
+      "text": "need to choose here a hash function you",
+      "start": 2661.24,
+      "duration": 5.01
+    },
+    {
+      "text": "see like you need to choose something",
+      "start": 2663.49,
+      "duration": 5.309
+    },
+    {
+      "text": "you need to go with a particular hash",
+      "start": 2666.25,
+      "duration": 5.309
+    },
+    {
+      "text": "function and if it if this particular",
+      "start": 2668.799,
+      "duration": 5.191
+    },
+    {
+      "text": "hash function is the peterson hash which",
+      "start": 2671.559,
+      "duration": 6.331
+    },
+    {
+      "text": "is basically takes a random generator in",
+      "start": 2673.99,
+      "duration": 6.089
+    },
+    {
+      "text": "the group let's say h and raise it to H",
+      "start": 2677.89,
+      "duration": 5.4
+    },
+    {
+      "text": "to the M so if that this is how you",
+      "start": 2680.079,
+      "duration": 7.441
+    },
+    {
+      "text": "define your hash function right so H of",
+      "start": 2683.29,
+      "duration": 8.34
+    },
+    {
+      "text": "M let's define it as H to the N mod P P",
+      "start": 2687.52,
+      "duration": 6.69
+    },
+    {
+      "text": "is a prime number which is the order of",
+      "start": 2691.63,
+      "duration": 5.459
+    },
+    {
+      "text": "the group so the number of elements in",
+      "start": 2694.21,
+      "duration": 5.879
+    },
+    {
+      "text": "the group then you will have a hash",
+      "start": 2697.089,
+      "duration": 7.681
+    },
+    {
+      "text": "function but the problem is that with",
+      "start": 2700.089,
+      "duration": 7.321
+    },
+    {
+      "text": "this instantiation the signature scheme",
+      "start": 2704.77,
+      "duration": 4.799
+    },
+    {
+      "text": "is completely broken so it's kind of",
+      "start": 2707.41,
+      "duration": 5.61
+    },
+    {
+      "text": "really non-intuitive because you would",
+      "start": 2709.569,
+      "duration": 5.881
+    },
+    {
+      "text": "you would just thought you one might",
+      "start": 2713.02,
+      "duration": 4.89
+    },
+    {
+      "text": "just think that okay I take the blind be",
+      "start": 2715.45,
+      "duration": 4.83
+    },
+    {
+      "text": "a signature scheme I instantiate it with",
+      "start": 2717.91,
+      "duration": 4.199
+    },
+    {
+      "text": "whatever hash function and then it",
+      "start": 2720.28,
+      "duration": 4.23
+    },
+    {
+      "text": "should be alright right this is like",
+      "start": 2722.109,
+      "duration": 5.371
+    },
+    {
+      "text": "what I thought but it turns out not to",
+      "start": 2724.51,
+      "duration": 7.819
+    },
+    {
+      "text": "be true so okay yeah yeah I get that and",
+      "start": 2727.48,
+      "duration": 8.25
+    },
+    {
+      "text": "that was understandable my question was",
+      "start": 2732.329,
+      "duration": 5.441
+    },
+    {
+      "text": "a little bit wrong I'm new with these",
+      "start": 2735.73,
+      "duration": 3.66
+    },
+    {
+      "text": "terms so bear with me",
+      "start": 2737.77,
+      "duration": 7.069
+    },
+    {
+      "text": "but learning",
+      "start": 2739.39,
+      "duration": 5.449
+    },
+    {
+      "text": "yeah maybe what I actually meant was the",
+      "start": 2745.21,
+      "duration": 6.48
+    },
+    {
+      "text": "problem with having multiple outputs and",
+      "start": 2748.42,
+      "duration": 10.08
+    },
+    {
+      "text": "merging them into one output I mean what",
+      "start": 2751.69,
+      "duration": 9.36
+    },
+    {
+      "text": "was the problem in that was it because",
+      "start": 2758.5,
+      "duration": 5.46
+    },
+    {
+      "text": "that so the problem that just cannot",
+      "start": 2761.05,
+      "duration": 5.88
+    },
+    {
+      "text": "have one output no no you can't have the",
+      "start": 2763.96,
+      "duration": 4.97
+    },
+    {
+      "text": "problem is that when you want to do this",
+      "start": 2766.93,
+      "duration": 6.57
+    },
+    {
+      "text": "you don't want to tell the coordinator",
+      "start": 2768.93,
+      "duration": 7.659
+    },
+    {
+      "text": "what are the values you are merging",
+      "start": 2773.5,
+      "duration": 5.28
+    },
+    {
+      "text": "because then the coordinator might guess",
+      "start": 2776.589,
+      "duration": 4.951
+    },
+    {
+      "text": "from which input UT axis you are trying",
+      "start": 2778.78,
+      "duration": 5.309
+    },
+    {
+      "text": "to merge and then you would leak you",
+      "start": 2781.54,
+      "duration": 4.41
+    },
+    {
+      "text": "would lose some privacy against the",
+      "start": 2784.089,
+      "duration": 3.421
+    },
+    {
+      "text": "coordinator does this answer the",
+      "start": 2785.95,
+      "duration": 5.97
+    },
+    {
+      "text": "question oh yeah exactly so let's let's",
+      "start": 2787.51,
+      "duration": 7.92
+    },
+    {
+      "text": "say you have two input UT axis like I",
+      "start": 2791.92,
+      "duration": 6.99
+    },
+    {
+      "text": "don't know 0.1 0.2 and you want to",
+      "start": 2795.43,
+      "duration": 5.669
+    },
+    {
+      "text": "register an output you TXO with value",
+      "start": 2798.91,
+      "duration": 5.13
+    },
+    {
+      "text": "0.3 then you want to do this in a way",
+      "start": 2801.099,
+      "duration": 4.561
+    },
+    {
+      "text": "that you don't want to tell the",
+      "start": 2804.04,
+      "duration": 4.319
+    },
+    {
+      "text": "coordinator then now pay coordinator now",
+      "start": 2805.66,
+      "duration": 6.57
+    },
+    {
+      "text": "I'm merging 0.1 you tx1 0.2 because then",
+      "start": 2808.359,
+      "duration": 6.571
+    },
+    {
+      "text": "the coordinator might guess okay this is",
+      "start": 2812.23,
+      "duration": 5.79
+    },
+    {
+      "text": "raffia this is because yeah so this is",
+      "start": 2814.93,
+      "duration": 6.419
+    },
+    {
+      "text": "what we want to avoid and to put this a",
+      "start": 2818.02,
+      "duration": 5.88
+    },
+    {
+      "text": "little bit more formal you want to",
+      "start": 2821.349,
+      "duration": 5.431
+    },
+    {
+      "text": "convince the coordinator that you have",
+      "start": 2823.9,
+      "duration": 5.13
+    },
+    {
+      "text": "valid signatures on messages that you",
+      "start": 2826.78,
+      "duration": 4.019
+    },
+    {
+      "text": "don't want to tell them because usually",
+      "start": 2829.03,
+      "duration": 5.279
+    },
+    {
+      "text": "if you verify messages as digital",
+      "start": 2830.799,
+      "duration": 5.491
+    },
+    {
+      "text": "signatures then in the verification",
+      "start": 2834.309,
+      "duration": 5.461
+    },
+    {
+      "text": "algorithm you also put the message",
+      "start": 2836.29,
+      "duration": 7.47
+    },
+    {
+      "text": "itself as an input right but if in this",
+      "start": 2839.77,
+      "duration": 6.96
+    },
+    {
+      "text": "case you would put them messages and",
+      "start": 2843.76,
+      "duration": 5.22
+    },
+    {
+      "text": "input in the verification algorithm then",
+      "start": 2846.73,
+      "duration": 4.74
+    },
+    {
+      "text": "you would lose privacy or some privacy",
+      "start": 2848.98,
+      "duration": 6.0
+    },
+    {
+      "text": "and and we need to come up with a way to",
+      "start": 2851.47,
+      "duration": 6.92
+    },
+    {
+      "text": "verify messages digital signatures",
+      "start": 2854.98,
+      "duration": 6.21
+    },
+    {
+      "text": "without giving out the underlying",
+      "start": 2858.39,
+      "duration": 4.419
+    },
+    {
+      "text": "message that that's the cryptographic",
+      "start": 2861.19,
+      "duration": 5.28
+    },
+    {
+      "text": "challenge here okay",
+      "start": 2862.809,
+      "duration": 6.871
+    },
+    {
+      "text": "yeah thanks that explained it yeah",
+      "start": 2866.47,
+      "duration": 5.73
+    },
+    {
+      "text": "so basically this is the challenge of",
+      "start": 2869.68,
+      "duration": 5.399
+    },
+    {
+      "text": "the main challenge of wabi-sabi of this",
+      "start": 2872.2,
+      "duration": 4.16
+    },
+    {
+      "text": "protocol",
+      "start": 2875.079,
+      "duration": 5.841
+    },
+    {
+      "text": "today thanks to your value is we have a",
+      "start": 2876.36,
+      "duration": 7.08
+    },
+    {
+      "text": "pretty neat solution which is I think",
+      "start": 2880.92,
+      "duration": 5.4
+    },
+    {
+      "text": "the most lightweight but not sure if we",
+      "start": 2883.44,
+      "duration": 8.1
+    },
+    {
+      "text": "will be able to cover it tonight yeah we",
+      "start": 2886.32,
+      "duration": 8.46
+    },
+    {
+      "text": "have basically two more protocols left",
+      "start": 2891.54,
+      "duration": 8.76
+    },
+    {
+      "text": "right do you do you want to go through",
+      "start": 2894.78,
+      "duration": 8.43
+    },
+    {
+      "text": "your your protocol that that that you",
+      "start": 2900.3,
+      "duration": 4.44
+    },
+    {
+      "text": "came up based on the knowledge",
+      "start": 2903.21,
+      "duration": 6.15
+    },
+    {
+      "text": "assumption paper or or go right to the",
+      "start": 2904.74,
+      "duration": 8.19
+    },
+    {
+      "text": "to the to the last one yeah maybe gold",
+      "start": 2909.36,
+      "duration": 6.42
+    },
+    {
+      "text": "right the next next one I can wrap it up",
+      "start": 2912.93,
+      "duration": 6.0
+    },
+    {
+      "text": "in five minutes so like it was kind of",
+      "start": 2915.78,
+      "duration": 6.0
+    },
+    {
+      "text": "obvious we motivated a thousand times we",
+      "start": 2918.93,
+      "duration": 4.59
+    },
+    {
+      "text": "love others and commitments because it's",
+      "start": 2921.78,
+      "duration": 4.95
+    },
+    {
+      "text": "homomorphic so we were looking for blind",
+      "start": 2923.52,
+      "duration": 5.13
+    },
+    {
+      "text": "signature scheme which allows us to have",
+      "start": 2926.73,
+      "duration": 5.22
+    },
+    {
+      "text": "a blind signature on a message committed",
+      "start": 2928.65,
+      "duration": 6.06
+    },
+    {
+      "text": "in a Patterson commitment and apparently",
+      "start": 2931.95,
+      "duration": 4.68
+    },
+    {
+      "text": "there are two schemes achieving this",
+      "start": 2934.71,
+      "duration": 6.0
+    },
+    {
+      "text": "this paper and another one by Foxborough",
+      "start": 2936.63,
+      "duration": 6.69
+    },
+    {
+      "text": "at all but it's a little bit more",
+      "start": 2940.71,
+      "duration": 5.07
+    },
+    {
+      "text": "complicated and then we were playing",
+      "start": 2943.32,
+      "duration": 5.94
+    },
+    {
+      "text": "around with this scheme wait a sec and I",
+      "start": 2945.78,
+      "duration": 6.09
+    },
+    {
+      "text": "can show you yeah this is the blind",
+      "start": 2949.26,
+      "duration": 5.01
+    },
+    {
+      "text": "signature scheme which I suppose in the",
+      "start": 2951.87,
+      "duration": 5.1
+    },
+    {
+      "text": "group only one or two people know but",
+      "start": 2954.27,
+      "duration": 5.1
+    },
+    {
+      "text": "don't worry this is not that well-known",
+      "start": 2956.97,
+      "duration": 9.53
+    },
+    {
+      "text": "paper yet and and then we created some",
+      "start": 2959.37,
+      "duration": 12.95
+    },
+    {
+      "text": "proof mechanism which allows us to do",
+      "start": 2966.5,
+      "duration": 9.22
+    },
+    {
+      "text": "utx so merging so splitting is basically",
+      "start": 2972.32,
+      "duration": 6.31
+    },
+    {
+      "text": "given for free because these blind",
+      "start": 2975.72,
+      "duration": 4.83
+    },
+    {
+      "text": "signature schemes gives us blind",
+      "start": 2978.63,
+      "duration": 3.78
+    },
+    {
+      "text": "signatures on committed messages on",
+      "start": 2980.55,
+      "duration": 4.77
+    },
+    {
+      "text": "patters and commitments like here this",
+      "start": 2982.41,
+      "duration": 5.04
+    },
+    {
+      "text": "is additive notation somewhat different",
+      "start": 2985.32,
+      "duration": 4.56
+    },
+    {
+      "text": "than the previous notation don't get",
+      "start": 2987.45,
+      "duration": 5.64
+    },
+    {
+      "text": "intimidated so basically here this is",
+      "start": 2989.88,
+      "duration": 5.31
+    },
+    {
+      "text": "the message which is committed in the",
+      "start": 2993.09,
+      "duration": 3.81
+    },
+    {
+      "text": "Patterson commitment and at the end of",
+      "start": 2995.19,
+      "duration": 3.75
+    },
+    {
+      "text": "the day we will have a blank signature",
+      "start": 2996.9,
+      "duration": 5.25
+    },
+    {
+      "text": "on this message without the court",
+      "start": 2998.94,
+      "duration": 5.49
+    },
+    {
+      "text": "letting the coordinator know what she",
+      "start": 3002.15,
+      "duration": 6.75
+    },
+    {
+      "text": "was signing so we have input UT access",
+      "start": 3004.43,
+      "duration": 5.52
+    },
+    {
+      "text": "splitting for free",
+      "start": 3008.9,
+      "duration": 3.36
+    },
+    {
+      "text": "and then we were creating some zero",
+      "start": 3009.95,
+      "duration": 4.86
+    },
+    {
+      "text": "knowledge proof systems to allow us to",
+      "start": 3012.26,
+      "duration": 4.77
+    },
+    {
+      "text": "do the merging but I don't think it's",
+      "start": 3014.81,
+      "duration": 5.66
+    },
+    {
+      "text": "that important because it's a little bit",
+      "start": 3017.03,
+      "duration": 6.66
+    },
+    {
+      "text": "would be too long and I don't want to",
+      "start": 3020.47,
+      "duration": 6.28
+    },
+    {
+      "text": "waste your time you can see all the",
+      "start": 3023.69,
+      "duration": 5.909
+    },
+    {
+      "text": "discussion here on blind things on",
+      "start": 3026.75,
+      "duration": 6.69
+    },
+    {
+      "text": "Patterson commitments hashtag ten number",
+      "start": 3029.599,
+      "duration": 6.151
+    },
+    {
+      "text": "ten yeah here's the protocol which",
+      "start": 3033.44,
+      "duration": 7.02
+    },
+    {
+      "text": "achieves this merging yeah maybe I think",
+      "start": 3035.75,
+      "duration": 7.349
+    },
+    {
+      "text": "it would be more enlightening if you",
+      "start": 3040.46,
+      "duration": 6.18
+    },
+    {
+      "text": "would hear the easiest way to do it all",
+      "start": 3043.099,
+      "duration": 6.391
+    },
+    {
+      "text": "right let's do that let's let's do that",
+      "start": 3046.64,
+      "duration": 7.219
+    },
+    {
+      "text": "first on what could you go on the the",
+      "start": 3049.49,
+      "duration": 8.31
+    },
+    {
+      "text": "issue yes please share your screen",
+      "start": 3053.859,
+      "duration": 5.98
+    },
+    {
+      "text": "because I cannot because that doesn't",
+      "start": 3057.8,
+      "duration": 5.49
+    },
+    {
+      "text": "get recorded very social issue that I",
+      "start": 3059.839,
+      "duration": 8.431
+    },
+    {
+      "text": "created and and after that you've uh but",
+      "start": 3063.29,
+      "duration": 8.43
+    },
+    {
+      "text": "let's first go through on mine double",
+      "start": 3068.27,
+      "duration": 7.319
+    },
+    {
+      "text": "blind is competitors income cool right",
+      "start": 3071.72,
+      "duration": 6.81
+    },
+    {
+      "text": "so I I want to go through this because",
+      "start": 3075.589,
+      "duration": 5.25
+    },
+    {
+      "text": "this might be easier to understand and",
+      "start": 3078.53,
+      "duration": 8.01
+    },
+    {
+      "text": "you was is is something that that's very",
+      "start": 3080.839,
+      "duration": 10.111
+    },
+    {
+      "text": "similar to this we kind of came up with",
+      "start": 3086.54,
+      "duration": 11.13
+    },
+    {
+      "text": "it in parallel I mean I can't really",
+      "start": 3090.95,
+      "duration": 8.97
+    },
+    {
+      "text": "claim that I came up with anything",
+      "start": 3097.67,
+      "duration": 4.71
+    },
+    {
+      "text": "because I was just coming up with",
+      "start": 3099.92,
+      "duration": 4.919
+    },
+    {
+      "text": "desires that it would be cool if the",
+      "start": 3102.38,
+      "duration": 7.62
+    },
+    {
+      "text": "crypto would work this way but anyway so",
+      "start": 3104.839,
+      "duration": 11.671
+    },
+    {
+      "text": "yeah yeah go go go back yeah so the idea",
+      "start": 3110.0,
+      "duration": 10.319
+    },
+    {
+      "text": "was that what if instead of we blind the",
+      "start": 3116.51,
+      "duration": 6.24
+    },
+    {
+      "text": "patterns and commitments once we could",
+      "start": 3120.319,
+      "duration": 6.631
+    },
+    {
+      "text": "blind them twice wow that would be",
+      "start": 3122.75,
+      "duration": 7.71
+    },
+    {
+      "text": "really cool wouldn't it so okay we blind",
+      "start": 3126.95,
+      "duration": 7.31
+    },
+    {
+      "text": "them twice and in that way we would get",
+      "start": 3130.46,
+      "duration": 8.629
+    },
+    {
+      "text": "the signatures for the single brightness",
+      "start": 3134.26,
+      "duration": 8.39
+    },
+    {
+      "text": "commitments and not the double blinded",
+      "start": 3139.089,
+      "duration": 6.261
+    },
+    {
+      "text": "and those single-blind that commitments",
+      "start": 3142.65,
+      "duration": 5.79
+    },
+    {
+      "text": "could be registered together later on",
+      "start": 3145.35,
+      "duration": 7.68
+    },
+    {
+      "text": "because a and and and the some could be",
+      "start": 3148.44,
+      "duration": 8.61
+    },
+    {
+      "text": "proven easily and because no one has",
+      "start": 3153.03,
+      "duration": 6.75
+    },
+    {
+      "text": "seen because the coordinator did not see",
+      "start": 3157.05,
+      "duration": 4.86
+    },
+    {
+      "text": "those singer blinded commitments and we",
+      "start": 3159.78,
+      "duration": 7.73
+    },
+    {
+      "text": "have signatures on them it can accept",
+      "start": 3161.91,
+      "duration": 10.08
+    },
+    {
+      "text": "their some and we don't actually expose",
+      "start": 3167.51,
+      "duration": 10.42
+    },
+    {
+      "text": "the amounts so this was my idea and you",
+      "start": 3171.99,
+      "duration": 10.5
+    },
+    {
+      "text": "will had a better one based on the the",
+      "start": 3177.93,
+      "duration": 6.81
+    },
+    {
+      "text": "paper that we actually looked through",
+      "start": 3182.49,
+      "duration": 5.4
+    },
+    {
+      "text": "last three search clubs so that didn't",
+      "start": 3184.74,
+      "duration": 9.48
+    },
+    {
+      "text": "go to waste and I would like to give yes",
+      "start": 3187.89,
+      "duration": 9.45
+    },
+    {
+      "text": "do you have any anything to add to my",
+      "start": 3194.22,
+      "duration": 7.11
+    },
+    {
+      "text": "really incomplete conceptual explanation",
+      "start": 3197.34,
+      "duration": 7.59
+    },
+    {
+      "text": "or or go through you guys stuff which",
+      "start": 3201.33,
+      "duration": 8.55
+    },
+    {
+      "text": "which seems be a more fine now I don't",
+      "start": 3204.93,
+      "duration": 7.83
+    },
+    {
+      "text": "know let's see so do you have anything",
+      "start": 3209.88,
+      "duration": 5.55
+    },
+    {
+      "text": "to add to this so far or give the word",
+      "start": 3212.76,
+      "duration": 11.22
+    },
+    {
+      "text": "to you but no let's let's give the word",
+      "start": 3215.43,
+      "duration": 12.96
+    },
+    {
+      "text": "to you well okay so I guess can you open",
+      "start": 3223.98,
+      "duration": 10.83
+    },
+    {
+      "text": "issue sixteen I guess the first thing is",
+      "start": 3228.39,
+      "duration": 9.48
+    },
+    {
+      "text": "we should give some credit for this idea",
+      "start": 3234.81,
+      "duration": 6.33
+    },
+    {
+      "text": "of double blinding the commitments and",
+      "start": 3237.87,
+      "duration": 6.54
+    },
+    {
+      "text": "that comes from paper relating to Z",
+      "start": 3241.14,
+      "duration": 5.7
+    },
+    {
+      "text": "Coyne lalangue tus I think it's cool",
+      "start": 3244.41,
+      "duration": 8.43
+    },
+    {
+      "text": "and the idea there is you kind of it's",
+      "start": 3246.84,
+      "duration": 8.58
+    },
+    {
+      "text": "not a signature based approach but",
+      "start": 3252.84,
+      "duration": 6.48
+    },
+    {
+      "text": "there's a lot of similarities and you",
+      "start": 3255.42,
+      "duration": 7.35
+    },
+    {
+      "text": "use other people's like every coin is",
+      "start": 3259.32,
+      "duration": 5.94
+    },
+    {
+      "text": "basically a Patterson commitment to an",
+      "start": 3262.77,
+      "duration": 4.86
+    },
+    {
+      "text": "amount so the amounts are confidential",
+      "start": 3265.26,
+      "duration": 5.19
+    },
+    {
+      "text": "like confidential transactions and then",
+      "start": 3267.63,
+      "duration": 7.14
+    },
+    {
+      "text": "you take additional coins as like decoy",
+      "start": 3270.45,
+      "duration": 5.38
+    },
+    {
+      "text": "inputs",
+      "start": 3274.77,
+      "duration": 3.7
+    },
+    {
+      "text": "and you kind of prove that you only",
+      "start": 3275.83,
+      "duration": 6.27
+    },
+    {
+      "text": "spent yours in the output creation but",
+      "start": 3278.47,
+      "duration": 6.84
+    },
+    {
+      "text": "this kind of where we got this double",
+      "start": 3282.1,
+      "duration": 7.53
+    },
+    {
+      "text": "binding concept I think it's I would",
+      "start": 3285.31,
+      "duration": 7.64
+    },
+    {
+      "text": "prefer if we refer to those as like",
+      "start": 3289.63,
+      "duration": 5.85
+    },
+    {
+      "text": "unlink of all commitments just because",
+      "start": 3292.95,
+      "duration": 4.27
+    },
+    {
+      "text": "double binding I think means something",
+      "start": 3295.48,
+      "duration": 8.01
+    },
+    {
+      "text": "specific in in that article so a similar",
+      "start": 3297.22,
+      "duration": 9.42
+    },
+    {
+      "text": "thing is instead of blinding instead of",
+      "start": 3303.49,
+      "duration": 5.49
+    },
+    {
+      "text": "taking a Patterson commitment blinding",
+      "start": 3306.64,
+      "duration": 5.28
+    },
+    {
+      "text": "it and receiving a signature on like the",
+      "start": 3308.98,
+      "duration": 7.77
+    },
+    {
+      "text": "unblinded version the anonymous",
+      "start": 3311.92,
+      "duration": 8.16
+    },
+    {
+      "text": "credentials light signature scheme does",
+      "start": 3316.75,
+      "duration": 5.1
+    },
+    {
+      "text": "something a little bit different where",
+      "start": 3320.08,
+      "duration": 4.41
+    },
+    {
+      "text": "you you give just North Edison",
+      "start": 3321.85,
+      "duration": 6.39
+    },
+    {
+      "text": "commitment and in the anonymous",
+      "start": 3324.49,
+      "duration": 8.88
+    },
+    {
+      "text": "credentials work the the thing that",
+      "start": 3328.24,
+      "duration": 7.44
+    },
+    {
+      "text": "you're actually signing there is what",
+      "start": 3333.37,
+      "duration": 4.44
+    },
+    {
+      "text": "like that's what they call an attribute",
+      "start": 3335.68,
+      "duration": 6.81
+    },
+    {
+      "text": "of the credential so in this signature",
+      "start": 3337.81,
+      "duration": 9.0
+    },
+    {
+      "text": "scheme the the user commits to a list of",
+      "start": 3342.49,
+      "duration": 7.71
+    },
+    {
+      "text": "attributes as a Patterson multi",
+      "start": 3346.81,
+      "duration": 8.64
+    },
+    {
+      "text": "commitment and then has a protocol to",
+      "start": 3350.2,
+      "duration": 7.35
+    },
+    {
+      "text": "get a signature not on that commitment",
+      "start": 3355.45,
+      "duration": 4.83
+    },
+    {
+      "text": "but a different commitment a blinded",
+      "start": 3357.55,
+      "duration": 4.65
+    },
+    {
+      "text": "commitment that still commits to the",
+      "start": 3360.28,
+      "duration": 5.67
+    },
+    {
+      "text": "same values so it's practically the same",
+      "start": 3362.2,
+      "duration": 4.17
+    },
+    {
+      "text": "thing",
+      "start": 3365.95,
+      "duration": 2.73
+    },
+    {
+      "text": "instead of like blinding getting a",
+      "start": 3366.37,
+      "duration": 5.04
+    },
+    {
+      "text": "signature and unblinding you provide",
+      "start": 3368.68,
+      "duration": 4.95
+    },
+    {
+      "text": "like one commitment and you get back a",
+      "start": 3371.41,
+      "duration": 5.39
+    },
+    {
+      "text": "signature for a differently blinded",
+      "start": 3373.63,
+      "duration": 8.25
+    },
+    {
+      "text": "commitment to the same messages and I",
+      "start": 3376.8,
+      "duration": 7.48
+    },
+    {
+      "text": "think probably we don't want to go into",
+      "start": 3381.88,
+      "duration": 4.94
+    },
+    {
+      "text": "too much detail about how the the",
+      "start": 3384.28,
+      "duration": 5.07
+    },
+    {
+      "text": "protocol actually works",
+      "start": 3386.82,
+      "duration": 5.59
+    },
+    {
+      "text": "it took me literally hours to just get",
+      "start": 3389.35,
+      "duration": 5.43
+    },
+    {
+      "text": "through one page of the paper and I",
+      "start": 3392.41,
+      "duration": 3.93
+    },
+    {
+      "text": "still don't think I understand",
+      "start": 3394.78,
+      "duration": 6.41
+    },
+    {
+      "text": "everything so I think like that is a",
+      "start": 3396.34,
+      "duration": 8.99
+    },
+    {
+      "text": "reasonable summary of of what what that",
+      "start": 3401.19,
+      "duration": 6.99
+    },
+    {
+      "text": "construction actually gives us",
+      "start": 3405.33,
+      "duration": 5.7
+    },
+    {
+      "text": "and then we can sort of recover the nice",
+      "start": 3408.18,
+      "duration": 5.52
+    },
+    {
+      "text": "properties of the second protocol that",
+      "start": 3411.03,
+      "duration": 5.579
+    },
+    {
+      "text": "we didn't discuss in too much detail",
+      "start": 3413.7,
+      "duration": 8.72
+    },
+    {
+      "text": "so unlike the the BLS signatures the",
+      "start": 3416.609,
+      "duration": 10.081
+    },
+    {
+      "text": "signatures are not homomorphic so but",
+      "start": 3422.42,
+      "duration": 6.04
+    },
+    {
+      "text": "the commitments are so we can still have",
+      "start": 3426.69,
+      "duration": 6.54
+    },
+    {
+      "text": "splitting we can make a series of",
+      "start": 3428.46,
+      "duration": 6.75
+    },
+    {
+      "text": "commitments to the split amounts that we",
+      "start": 3433.23,
+      "duration": 4.619
+    },
+    {
+      "text": "want they remain hidden and then we",
+      "start": 3435.21,
+      "duration": 5.67
+    },
+    {
+      "text": "receive we prove that the sum of these",
+      "start": 3437.849,
+      "duration": 5.281
+    },
+    {
+      "text": "commitments is equal to our input amount",
+      "start": 3440.88,
+      "duration": 6.84
+    },
+    {
+      "text": "and then we receive a list of signatures",
+      "start": 3443.13,
+      "duration": 6.54
+    },
+    {
+      "text": "on different commitments for the same",
+      "start": 3447.72,
+      "duration": 6.8
+    },
+    {
+      "text": "amount and those signatures don't have",
+      "start": 3449.67,
+      "duration": 7.65
+    },
+    {
+      "text": "like the double spending issues that we",
+      "start": 3454.52,
+      "duration": 4.66
+    },
+    {
+      "text": "we ran into with some of the merging",
+      "start": 3457.32,
+      "duration": 7.289
+    },
+    {
+      "text": "stuff or the signature forging so at",
+      "start": 3459.18,
+      "duration": 8.63
+    },
+    {
+      "text": "output registration time I just reveal",
+      "start": 3464.609,
+      "duration": 6.75
+    },
+    {
+      "text": "those signatures and each signature is",
+      "start": 3467.81,
+      "duration": 8.61
+    },
+    {
+      "text": "like a token but because the",
+      "start": 3471.359,
+      "duration": 7.081
+    },
+    {
+      "text": "verification equation for this signature",
+      "start": 3476.42,
+      "duration": 4.75
+    },
+    {
+      "text": "scheme works on the commitment not on",
+      "start": 3478.44,
+      "duration": 5.34
+    },
+    {
+      "text": "the message instead of giving the sub",
+      "start": 3481.17,
+      "duration": 5.25
+    },
+    {
+      "text": "amounts that we're like let's say I I",
+      "start": 3483.78,
+      "duration": 7.98
+    },
+    {
+      "text": "have two inputs and I want to take like",
+      "start": 3486.42,
+      "duration": 7.56
+    },
+    {
+      "text": "some I sorry I want to split my first",
+      "start": 3491.76,
+      "duration": 3.72
+    },
+    {
+      "text": "input and I want to split my second ad",
+      "start": 3493.98,
+      "duration": 4.41
+    },
+    {
+      "text": "but and then I want to take two sums out",
+      "start": 3495.48,
+      "duration": 6.119
+    },
+    {
+      "text": "of those for some reason at output",
+      "start": 3498.39,
+      "duration": 5.729
+    },
+    {
+      "text": "registration I provide two signatures",
+      "start": 3501.599,
+      "duration": 4.74
+    },
+    {
+      "text": "and two pettersen commitments for the",
+      "start": 3504.119,
+      "duration": 6.411
+    },
+    {
+      "text": "split amounts but I only need to reveal",
+      "start": 3506.339,
+      "duration": 7.171
+    },
+    {
+      "text": "the sum I don't actually reveal the",
+      "start": 3510.53,
+      "duration": 5.05
+    },
+    {
+      "text": "message at signature verification time",
+      "start": 3513.51,
+      "duration": 6.57
+    },
+    {
+      "text": "so this gives us a slightly easier to",
+      "start": 3515.58,
+      "duration": 9.81
+    },
+    {
+      "text": "reason about way of proving to the",
+      "start": 3520.08,
+      "duration": 7.519
+    },
+    {
+      "text": "coordinator that we're not overspending",
+      "start": 3525.39,
+      "duration": 5.1
+    },
+    {
+      "text": "in our output registration without",
+      "start": 3527.599,
+      "duration": 5.861
+    },
+    {
+      "text": "actually revealing the sub amounts that",
+      "start": 3530.49,
+      "duration": 8.94
+    },
+    {
+      "text": "we we only reveal the sounds um I think",
+      "start": 3533.46,
+      "duration": 8.04
+    },
+    {
+      "text": "that's a fair summary",
+      "start": 3539.43,
+      "duration": 4.02
+    },
+    {
+      "text": "I guess does anybody have any questions",
+      "start": 3541.5,
+      "duration": 4.92
+    },
+    {
+      "text": "at this point and if like we want to go",
+      "start": 3543.45,
+      "duration": 7.32
+    },
+    {
+      "text": "into more detail I can make maybe",
+      "start": 3546.42,
+      "duration": 5.52
+    },
+    {
+      "text": "explain a little bit more about the",
+      "start": 3550.77,
+      "duration": 6.96
+    },
+    {
+      "text": "signature algorithm itself thank you I",
+      "start": 3551.94,
+      "duration": 9.78
+    },
+    {
+      "text": "think we can actually leave this for the",
+      "start": 3557.73,
+      "duration": 8.27
+    },
+    {
+      "text": "next session to go into details in this",
+      "start": 3561.72,
+      "duration": 9.6
+    },
+    {
+      "text": "while obviously if if we we don't find",
+      "start": 3566.0,
+      "duration": 7.599
+    },
+    {
+      "text": "something is terribly wrong with this",
+      "start": 3571.32,
+      "duration": 6.83
+    },
+    {
+      "text": "and then we have to start all over again",
+      "start": 3573.599,
+      "duration": 4.551
+    },
+    {
+      "text": "if we find something terribly broken",
+      "start": 3578.18,
+      "duration": 4.84
+    },
+    {
+      "text": "then we I think we have an even better",
+      "start": 3580.89,
+      "duration": 6.29
+    },
+    {
+      "text": "reason to to do a research club bonnet",
+      "start": 3583.02,
+      "duration": 4.16
+    },
+    {
+      "text": "it was solid if it was solidified the",
+      "start": 3590.63,
+      "duration": 6.61
+    },
+    {
+      "text": "next for the for next week then then we",
+      "start": 3594.15,
+      "duration": 8.12
+    },
+    {
+      "text": "are go through it if it won't that's it",
+      "start": 3597.24,
+      "duration": 7.68
+    },
+    {
+      "text": "that's something to add about the",
+      "start": 3602.27,
+      "duration": 5.5
+    },
+    {
+      "text": "signature scheme an attractive property",
+      "start": 3604.92,
+      "duration": 4.77
+    },
+    {
+      "text": "is that it does not require bilinear",
+      "start": 3607.77,
+      "duration": 7.41
+    },
+    {
+      "text": "groups it's still Jana said last week",
+      "start": 3609.69,
+      "duration": 8.54
+    },
+    {
+      "text": "that some parts of the security proof",
+      "start": 3615.18,
+      "duration": 10.909
+    },
+    {
+      "text": "rely on so like you for a curve with say",
+      "start": 3618.23,
+      "duration": 13.29
+    },
+    {
+      "text": "128-bit security like set P 256 K one",
+      "start": 3626.089,
+      "duration": 9.491
+    },
+    {
+      "text": "you actually get a slightly reduced",
+      "start": 3631.52,
+      "duration": 7.329
+    },
+    {
+      "text": "security level I have not yet gotten to",
+      "start": 3635.58,
+      "duration": 8.19
+    },
+    {
+      "text": "those parts so I don't know if this is",
+      "start": 3638.849,
+      "duration": 7.891
+    },
+    {
+      "text": "an issue for us but at least in",
+      "start": 3643.77,
+      "duration": 8.22
+    },
+    {
+      "text": "principle if that's not a concern for",
+      "start": 3646.74,
+      "duration": 8.28
+    },
+    {
+      "text": "the soundness of the the protocol and",
+      "start": 3651.99,
+      "duration": 5.099
+    },
+    {
+      "text": "the the privacy of the protocol actually",
+      "start": 3655.02,
+      "duration": 4.29
+    },
+    {
+      "text": "the privacy is much more important if",
+      "start": 3657.089,
+      "duration": 4.53
+    },
+    {
+      "text": "that's not a concern then that means",
+      "start": 3659.31,
+      "duration": 5.22
+    },
+    {
+      "text": "that we can just use the same curve as",
+      "start": 3661.619,
+      "duration": 5.911
+    },
+    {
+      "text": "Bitcoin which has some nice advantages",
+      "start": 3664.53,
+      "duration": 5.6
+    },
+    {
+      "text": "as well",
+      "start": 3667.53,
+      "duration": 2.6
+    },
+    {
+      "text": "all right so was everything clear no yes",
+      "start": 3673.55,
+      "duration": 16.56
+    },
+    {
+      "text": "I mean I only have some new questions so",
+      "start": 3685.87,
+      "duration": 6.28
+    },
+    {
+      "text": "I'll maybe leave them to the end and",
+      "start": 3690.11,
+      "duration": 9.81
+    },
+    {
+      "text": "give other guy's a chance to ask I've",
+      "start": 3692.15,
+      "duration": 9.77
+    },
+    {
+      "text": "never heard this concept of double",
+      "start": 3699.92,
+      "duration": 4.8
+    },
+    {
+      "text": "lining or you know double and Patterson",
+      "start": 3701.92,
+      "duration": 3.6
+    },
+    {
+      "text": "commitments",
+      "start": 3704.72,
+      "duration": 5.37
+    },
+    {
+      "text": "yes exactly what's my question it like",
+      "start": 3705.52,
+      "duration": 6.85
+    },
+    {
+      "text": "do we have some peer reviewed like",
+      "start": 3710.09,
+      "duration": 4.59
+    },
+    {
+      "text": "proofs that this is sound or which is",
+      "start": 3712.37,
+      "duration": 9.06
+    },
+    {
+      "text": "hoping here paper was showing the double",
+      "start": 3714.68,
+      "duration": 11.39
+    },
+    {
+      "text": "blinding Patterson commitments but but",
+      "start": 3721.43,
+      "duration": 11.43
+    },
+    {
+      "text": "but he was but but the ACL paper idea is",
+      "start": 3726.07,
+      "duration": 11.44
+    },
+    {
+      "text": "actually not reliant on these doesn't",
+      "start": 3732.86,
+      "duration": 8.04
+    },
+    {
+      "text": "use double blinding it's what what does",
+      "start": 3737.51,
+      "duration": 8.82
+    },
+    {
+      "text": "it use what would you say that I think",
+      "start": 3740.9,
+      "duration": 10.05
+    },
+    {
+      "text": "it's a slightly technical but the idea",
+      "start": 3746.33,
+      "duration": 9.57
+    },
+    {
+      "text": "is so okay first I don't remember the",
+      "start": 3750.95,
+      "duration": 6.95
+    },
+    {
+      "text": "exact details of the double blinding but",
+      "start": 3755.9,
+      "duration": 5.42
+    },
+    {
+      "text": "from a security point of view there's no",
+      "start": 3757.9,
+      "duration": 8.11
+    },
+    {
+      "text": "there's no problem really because you",
+      "start": 3761.32,
+      "duration": 9.07
+    },
+    {
+      "text": "it's just like adding another factor to",
+      "start": 3766.01,
+      "duration": 8.91
+    },
+    {
+      "text": "the one of the generator points so you",
+      "start": 3770.39,
+      "duration": 6.69
+    },
+    {
+      "text": "can think of it as taking a Patterson",
+      "start": 3774.92,
+      "duration": 3.78
+    },
+    {
+      "text": "commitment and I think multiplying it by",
+      "start": 3777.08,
+      "duration": 5.52
+    },
+    {
+      "text": "a scalar that's no different than what",
+      "start": 3778.7,
+      "duration": 6.72
+    },
+    {
+      "text": "you do in a normal Patterson commitment",
+      "start": 3782.6,
+      "duration": 6.96
+    },
+    {
+      "text": "it's just like the the way that the",
+      "start": 3785.42,
+      "duration": 7.38
+    },
+    {
+      "text": "Lanza's paper uses it is the second",
+      "start": 3789.56,
+      "duration": 5.28
+    },
+    {
+      "text": "blinding is like a serial number and if",
+      "start": 3792.8,
+      "duration": 6.51
+    },
+    {
+      "text": "you and that's used for the way that",
+      "start": 3794.84,
+      "duration": 8.43
+    },
+    {
+      "text": "like Z coin does a double spend",
+      "start": 3799.31,
+      "duration": 6.24
+    },
+    {
+      "text": "prevention or like makes marks a coin",
+      "start": 3803.27,
+      "duration": 4.54
+    },
+    {
+      "text": "spent basically",
+      "start": 3805.55,
+      "duration": 7.24
+    },
+    {
+      "text": "so since our scheme is online we don't",
+      "start": 3807.81,
+      "duration": 8.7
+    },
+    {
+      "text": "actually need that and what we have in",
+      "start": 3812.79,
+      "duration": 7.32
+    },
+    {
+      "text": "the ACL scheme is a sort of similar",
+      "start": 3816.51,
+      "duration": 6.36
+    },
+    {
+      "text": "approach where you start with a",
+      "start": 3820.11,
+      "duration": 4.44
+    },
+    {
+      "text": "commitment and then in the signature",
+      "start": 3822.87,
+      "duration": 4.59
+    },
+    {
+      "text": "protocol eventually you get a signature",
+      "start": 3824.55,
+      "duration": 5.76
+    },
+    {
+      "text": "on another commitment that's multiplied",
+      "start": 3827.46,
+      "duration": 7.17
+    },
+    {
+      "text": "by a different scalar so actually I'm",
+      "start": 3830.31,
+      "duration": 6.21
+    },
+    {
+      "text": "not sure if it's a scalar and I'm not",
+      "start": 3834.63,
+      "duration": 4.68
+    },
+    {
+      "text": "gonna check just now because but like",
+      "start": 3836.52,
+      "duration": 7.23
+    },
+    {
+      "text": "think of it as like adding another key",
+      "start": 3839.31,
+      "duration": 6.84
+    },
+    {
+      "text": "like tweaking a key if you're familiar",
+      "start": 3843.75,
+      "duration": 6.15
+    },
+    {
+      "text": "with that terminology you're just taking",
+      "start": 3846.15,
+      "duration": 9.98
+    },
+    {
+      "text": "a curve point and adding like more like",
+      "start": 3849.9,
+      "duration": 10.86
+    },
+    {
+      "text": "another point to it and because of like",
+      "start": 3856.13,
+      "duration": 6.19
+    },
+    {
+      "text": "the reasons that a Pettersen commitment",
+      "start": 3860.76,
+      "duration": 7.56
+    },
+    {
+      "text": "works out as like a secure system this",
+      "start": 3862.32,
+      "duration": 9.24
+    },
+    {
+      "text": "you know generalizes to repeated",
+      "start": 3868.32,
+      "duration": 6.93
+    },
+    {
+      "text": "transformations like that if that did",
+      "start": 3871.56,
+      "duration": 5.67
+    },
+    {
+      "text": "not hold then like the Paterson",
+      "start": 3875.25,
+      "duration": 3.63
+    },
+    {
+      "text": "commitments themselves would not work so",
+      "start": 3877.23,
+      "duration": 3.51
+    },
+    {
+      "text": "I think that double blinding term is a",
+      "start": 3878.88,
+      "duration": 4.08
+    },
+    {
+      "text": "little bit scary but really all it means",
+      "start": 3880.74,
+      "duration": 4.8
+    },
+    {
+      "text": "is like firstly blind it and then you",
+      "start": 3882.96,
+      "duration": 8.54
+    },
+    {
+      "text": "blind it some more so in the ACL scheme",
+      "start": 3885.54,
+      "duration": 9.78
+    },
+    {
+      "text": "that process like in the the Lantis",
+      "start": 3891.5,
+      "duration": 7.02
+    },
+    {
+      "text": "stuff you you first you you do that",
+      "start": 3895.32,
+      "duration": 5.43
+    },
+    {
+      "text": "blinding and then you you blind some",
+      "start": 3898.52,
+      "duration": 4.75
+    },
+    {
+      "text": "more and then you prove something to the",
+      "start": 3900.75,
+      "duration": 7.05
+    },
+    {
+      "text": "blockchain about the like the the",
+      "start": 3903.27,
+      "duration": 7.44
+    },
+    {
+      "text": "composition of these in the ACL scheme",
+      "start": 3907.8,
+      "duration": 5.34
+    },
+    {
+      "text": "you start by blinding the amount once in",
+      "start": 3910.71,
+      "duration": 5.24
+    },
+    {
+      "text": "a like a normal Paterson commitment and",
+      "start": 3913.14,
+      "duration": 6.09
+    },
+    {
+      "text": "in the end you get a signature for a",
+      "start": 3915.95,
+      "duration": 5.64
+    },
+    {
+      "text": "different Paterson commitment that has",
+      "start": 3919.23,
+      "duration": 4.95
+    },
+    {
+      "text": "like additional blinding applied to it",
+      "start": 3921.59,
+      "duration": 6.22
+    },
+    {
+      "text": "but still commits the same thing so it's",
+      "start": 3924.18,
+      "duration": 6.0
+    },
+    {
+      "text": "kind of the same effect you there's no",
+      "start": 3927.81,
+      "duration": 5.28
+    },
+    {
+      "text": "way to link the two commitments because",
+      "start": 3930.18,
+      "duration": 5.37
+    },
+    {
+      "text": "the user controls the randomness going",
+      "start": 3933.09,
+      "duration": 7.78
+    },
+    {
+      "text": "into the the derived commitment but",
+      "start": 3935.55,
+      "duration": 8.33
+    },
+    {
+      "text": "the underlying messages are still the",
+      "start": 3940.87,
+      "duration": 5.56
+    },
+    {
+      "text": "same and the ACL protocol basically",
+      "start": 3943.88,
+      "duration": 4.38
+    },
+    {
+      "text": "guarantees that you can only get a",
+      "start": 3946.43,
+      "duration": 5.04
+    },
+    {
+      "text": "signature that commits to the the same",
+      "start": 3948.26,
+      "duration": 7.29
+    },
+    {
+      "text": "stuff that you made a commitment to at",
+      "start": 3951.47,
+      "duration": 6.78
+    },
+    {
+      "text": "the beginning of the protocol did that",
+      "start": 3955.55,
+      "duration": 13.47
+    },
+    {
+      "text": "explain it a bit better yeah the double",
+      "start": 3958.25,
+      "duration": 13.89
+    },
+    {
+      "text": "blinding thing was now a bit more clear",
+      "start": 3969.02,
+      "duration": 6.69
+    },
+    {
+      "text": "but yeah I think I have to just check",
+      "start": 3972.14,
+      "duration": 7.29
+    },
+    {
+      "text": "this show again after it's published",
+      "start": 3975.71,
+      "duration": 8.91
+    },
+    {
+      "text": "so I get everything out of this I mean",
+      "start": 3979.43,
+      "duration": 8.73
+    },
+    {
+      "text": "this ACL thing is still a bit confusing",
+      "start": 3984.62,
+      "duration": 7.65
+    },
+    {
+      "text": "but I don't think it's I just need some",
+      "start": 3988.16,
+      "duration": 6.6
+    },
+    {
+      "text": "time to process it but yeah thanks for",
+      "start": 3992.27,
+      "duration": 19.59
+    },
+    {
+      "text": "all the explanations I have a question I",
+      "start": 3994.76,
+      "duration": 21.75
+    },
+    {
+      "text": "don't really know if it makes sense at",
+      "start": 4011.86,
+      "duration": 13.56
+    },
+    {
+      "text": "all and it's on a higher level so is",
+      "start": 4016.51,
+      "duration": 13.47
+    },
+    {
+      "text": "there any interest or do we see any",
+      "start": 4025.42,
+      "duration": 8.27
+    },
+    {
+      "text": "particular problems in willing to output",
+      "start": 4029.98,
+      "duration": 10.64
+    },
+    {
+      "text": "from such coin join an output which is",
+      "start": 4033.69,
+      "duration": 11.53
+    },
+    {
+      "text": "multi signature in some way so it's a",
+      "start": 4040.62,
+      "duration": 6.97
+    },
+    {
+      "text": "double question does it even make sense",
+      "start": 4045.22,
+      "duration": 6.72
+    },
+    {
+      "text": "to think about it is there any use cases",
+      "start": 4047.59,
+      "duration": 11.58
+    },
+    {
+      "text": "for it and is it technically thinkable",
+      "start": 4051.94,
+      "duration": 12.27
+    },
+    {
+      "text": "with the within this scheme yes and yes",
+      "start": 4059.17,
+      "duration": 8.22
+    },
+    {
+      "text": "I think there are many interesting use",
+      "start": 4064.21,
+      "duration": 6.75
+    },
+    {
+      "text": "cases for multi signatures I'm not sure",
+      "start": 4067.39,
+      "duration": 7.25
+    },
+    {
+      "text": "if no power agrees but",
+      "start": 4070.96,
+      "duration": 3.68
+    },
+    {
+      "text": "did all of this stuff is only concerned",
+      "start": 4074.75,
+      "duration": 5.609
+    },
+    {
+      "text": "with the amounts of the outputs not the",
+      "start": 4077.72,
+      "duration": 5.399
+    },
+    {
+      "text": "scripts themselves so when you go to",
+      "start": 4080.359,
+      "duration": 6.121
+    },
+    {
+      "text": "register and output if you want all the",
+      "start": 4083.119,
+      "duration": 4.921
+    },
+    {
+      "text": "script types to be the same the",
+      "start": 4086.48,
+      "duration": 5.22
+    },
+    {
+      "text": "coordinator can just say you know when",
+      "start": 4088.04,
+      "duration": 5.43
+    },
+    {
+      "text": "you register and output you must provide",
+      "start": 4091.7,
+      "duration": 4.44
+    },
+    {
+      "text": "a pay to pop key hash output or",
+      "start": 4093.47,
+      "duration": 5.46
+    },
+    {
+      "text": "something like that or it it could let",
+      "start": 4096.14,
+      "duration": 4.71
+    },
+    {
+      "text": "you put any script type that you want",
+      "start": 4098.93,
+      "duration": 5.49
+    },
+    {
+      "text": "but the the cryptographic commitments",
+      "start": 4100.85,
+      "duration": 5.82
+    },
+    {
+      "text": "that we discussed so far are only",
+      "start": 4104.42,
+      "duration": 6.359
+    },
+    {
+      "text": "concerned with the satoshi amount that",
+      "start": 4106.67,
+      "duration": 8.52
+    },
+    {
+      "text": "that output will get not with the script",
+      "start": 4110.779,
+      "duration": 5.421
+    },
+    {
+      "text": "pub key",
+      "start": 4115.19,
+      "duration": 6.45
+    },
+    {
+      "text": "you could even register nope return so",
+      "start": 4116.2,
+      "duration": 10.9
+    },
+    {
+      "text": "yeah so and further maybe public key",
+      "start": 4121.64,
+      "duration": 9.659
+    },
+    {
+      "text": "tweaking to make it more efficient you",
+      "start": 4127.1,
+      "duration": 7.469
+    },
+    {
+      "text": "know the maybe the only thing that I",
+      "start": 4131.299,
+      "duration": 9.451
+    },
+    {
+      "text": "that could be an issue here is that you",
+      "start": 4134.569,
+      "duration": 9.061
+    },
+    {
+      "text": "want to give a maximum size for this",
+      "start": 4140.75,
+      "duration": 6.989
+    },
+    {
+      "text": "script that may be smaller than then",
+      "start": 4143.63,
+      "duration": 8.28
+    },
+    {
+      "text": "what Bitcoin would then what the Bitcoin",
+      "start": 4147.739,
+      "duration": 8.191
+    },
+    {
+      "text": "standards are because you don't know who",
+      "start": 4151.91,
+      "duration": 9.36
+    },
+    {
+      "text": "is paying for the for the script so that",
+      "start": 4155.93,
+      "duration": 9.179
+    },
+    {
+      "text": "input registration you you have to take",
+      "start": 4161.27,
+      "duration": 10.14
+    },
+    {
+      "text": "the network fees from people and and",
+      "start": 4165.109,
+      "duration": 8.101
+    },
+    {
+      "text": "let's see if everyone would come with",
+      "start": 4171.41,
+      "duration": 6.119
+    },
+    {
+      "text": "the maximum script sized script that",
+      "start": 4173.21,
+      "duration": 6.66
+    },
+    {
+      "text": "would be a denial of service attack or",
+      "start": 4177.529,
+      "duration": 5.671
+    },
+    {
+      "text": "things like that gets to there because",
+      "start": 4179.87,
+      "duration": 5.04
+    },
+    {
+      "text": "if the coordinator produces a",
+      "start": 4183.2,
+      "duration": 4.11
+    },
+    {
+      "text": "non-standard transaction then it's not",
+      "start": 4184.91,
+      "duration": 5.25
+    },
+    {
+      "text": "gonna get relayed but the beta script",
+      "start": 4187.31,
+      "duration": 5.06
+    },
+    {
+      "text": "hash completely gets around this problem",
+      "start": 4190.16,
+      "duration": 6.48
+    },
+    {
+      "text": "because the script pop key only contains",
+      "start": 4192.37,
+      "duration": 6.76
+    },
+    {
+      "text": "the hash of the script and there's no",
+      "start": 4196.64,
+      "duration": 4.83
+    },
+    {
+      "text": "standard Ness rules restricting redeem",
+      "start": 4199.13,
+      "duration": 5.52
+    },
+    {
+      "text": "scripts so unless you want to do like a",
+      "start": 4201.47,
+      "duration": 5.009
+    },
+    {
+      "text": "raw multi-sig screen",
+      "start": 4204.65,
+      "duration": 5.339
+    },
+    {
+      "text": "pop key or something like that I I don't",
+      "start": 4206.479,
+      "duration": 6.901
+    },
+    {
+      "text": "think that's really an issue yeah I was",
+      "start": 4209.989,
+      "duration": 6.42
+    },
+    {
+      "text": "thinking more about well it's not there",
+      "start": 4213.38,
+      "duration": 4.529
+    },
+    {
+      "text": "yet but I was thinking more about",
+      "start": 4216.409,
+      "duration": 5.25
+    },
+    {
+      "text": "Shannara multi signatures so that",
+      "start": 4217.909,
+      "duration": 6.891
+    },
+    {
+      "text": "wouldn't be so if we get tap script",
+      "start": 4221.659,
+      "duration": 7.261
+    },
+    {
+      "text": "outputs or the set with v1 outputs",
+      "start": 4224.8,
+      "duration": 8.319
+    },
+    {
+      "text": "they're gonna be even simpler then",
+      "start": 4228.92,
+      "duration": 6.389
+    },
+    {
+      "text": "because you're only really gonna have",
+      "start": 4233.119,
+      "duration": 4.891
+    },
+    {
+      "text": "one script type it's always going to be",
+      "start": 4235.309,
+      "duration": 6.69
+    },
+    {
+      "text": "32 bytes and it's functionally",
+      "start": 4238.01,
+      "duration": 7.08
+    },
+    {
+      "text": "equivalent to a paid to puppy hash and a",
+      "start": 4241.999,
+      "duration": 4.83
+    },
+    {
+      "text": "pay the script hash at the same time so",
+      "start": 4245.09,
+      "duration": 5.58
+    },
+    {
+      "text": "you can always after like as part of the",
+      "start": 4246.829,
+      "duration": 5.971
+    },
+    {
+      "text": "input of the next spending transaction",
+      "start": 4250.67,
+      "duration": 4.529
+    },
+    {
+      "text": "you can provide a tap script that",
+      "start": 4252.8,
+      "duration": 6.179
+    },
+    {
+      "text": "redeems it or you can sign with the I",
+      "start": 4255.199,
+      "duration": 5.52
+    },
+    {
+      "text": "forget what it's called that the key at",
+      "start": 4258.979,
+      "duration": 6.51
+    },
+    {
+      "text": "the the root and that would be I mean",
+      "start": 4260.719,
+      "duration": 6.75
+    },
+    {
+      "text": "it's not a pop key hash but it's like",
+      "start": 4265.489,
+      "duration": 6.351
+    },
+    {
+      "text": "paid a pub key so in this regard",
+      "start": 4267.469,
+      "duration": 8.041
+    },
+    {
+      "text": "if tap root is enabled and we also have",
+      "start": 4271.84,
+      "duration": 7.529
+    },
+    {
+      "text": "snore signatures in in the same go then",
+      "start": 4275.51,
+      "duration": 6.709
+    },
+    {
+      "text": "like the there's only going to be one",
+      "start": 4279.369,
+      "duration": 5.44
+    },
+    {
+      "text": "script type that's relevant for said",
+      "start": 4282.219,
+      "duration": 9.94
+    },
+    {
+      "text": "with v1 outputs yes so we probably have",
+      "start": 4284.809,
+      "duration": 10.051
+    },
+    {
+      "text": "to restrict arbitrary non standard",
+      "start": 4292.159,
+      "duration": 8.94
+    },
+    {
+      "text": "script some of return output as far as",
+      "start": 4294.86,
+      "duration": 11.099
+    },
+    {
+      "text": "size is concerned but but any script",
+      "start": 4301.099,
+      "duration": 8.011
+    },
+    {
+      "text": "that someone can imagine because because",
+      "start": 4305.959,
+      "duration": 10.26
+    },
+    {
+      "text": "of the PTO's script hash shesh script",
+      "start": 4309.11,
+      "duration": 9.75
+    },
+    {
+      "text": "hash kind of constructions which are",
+      "start": 4316.219,
+      "duration": 5.49
+    },
+    {
+      "text": "actually the standard way of doing",
+      "start": 4318.86,
+      "duration": 6.96
+    },
+    {
+      "text": "things so you can you can do almost",
+      "start": 4321.709,
+      "duration": 9.24
+    },
+    {
+      "text": "anything except non-standard stuff so",
+      "start": 4325.82,
+      "duration": 8.549
+    },
+    {
+      "text": "maybe a trivial example but or trivial",
+      "start": 4330.949,
+      "duration": 7.52
+    },
+    {
+      "text": "use case I was thinking",
+      "start": 4334.369,
+      "duration": 4.1
+    },
+    {
+      "text": "whether it was possible to have a",
+      "start": 4339.11,
+      "duration": 5.629
+    },
+    {
+      "text": "[Music]",
+      "start": 4343.31,
+      "duration": 5.389
+    },
+    {
+      "text": "lightning tunnel creation as a output",
+      "start": 4344.739,
+      "duration": 10.931
+    },
+    {
+      "text": "from coin join round so since that's the",
+      "start": 4348.699,
+      "duration": 10.031
+    },
+    {
+      "text": "weakest point in the in the privacy of",
+      "start": 4355.67,
+      "duration": 8.66
+    },
+    {
+      "text": "lightning you have public keys",
+      "start": 4358.73,
+      "duration": 11.04
+    },
+    {
+      "text": "associated publicly to some multi",
+      "start": 4364.33,
+      "duration": 7.36
+    },
+    {
+      "text": "signature transaction which is the",
+      "start": 4369.77,
+      "duration": 5.159
+    },
+    {
+      "text": "funding transaction it would be nice to",
+      "start": 4371.69,
+      "duration": 7.56
+    },
+    {
+      "text": "be able to provide privacy while going",
+      "start": 4374.929,
+      "duration": 7.5
+    },
+    {
+      "text": "in into the protocol so it's not",
+      "start": 4379.25,
+      "duration": 7.32
+    },
+    {
+      "text": "possible to trace back coins the history",
+      "start": 4382.429,
+      "duration": 8.52
+    },
+    {
+      "text": "of coins that create a fund a",
+      "start": 4386.57,
+      "duration": 8.22
+    },
+    {
+      "text": "transaction transaction so this is",
+      "start": 4390.949,
+      "duration": 6.621
+    },
+    {
+      "text": "something I've thought about quite a bit",
+      "start": 4394.79,
+      "duration": 6.15
+    },
+    {
+      "text": "already today you can do this with",
+      "start": 4397.57,
+      "duration": 6.99
+    },
+    {
+      "text": "single funded channels and join market",
+      "start": 4400.94,
+      "duration": 5.969
+    },
+    {
+      "text": "and there's no technical reason",
+      "start": 4404.56,
+      "duration": 5.29
+    },
+    {
+      "text": "whatsoever why this should not be",
+      "start": 4406.909,
+      "duration": 6.56
+    },
+    {
+      "text": "possible in wasabi that's just a",
+      "start": 4409.85,
+      "duration": 6.84
+    },
+    {
+      "text": "question of the transaction structure",
+      "start": 4413.469,
+      "duration": 5.351
+    },
+    {
+      "text": "that's currently enforced that requires",
+      "start": 4416.69,
+      "duration": 6.27
+    },
+    {
+      "text": "pay to witness pub key hash outputs I",
+      "start": 4418.82,
+      "duration": 7.379
+    },
+    {
+      "text": "think that in this protocol that we're",
+      "start": 4422.96,
+      "duration": 4.949
+    },
+    {
+      "text": "proposing that's not going to be any",
+      "start": 4426.199,
+      "duration": 3.631
+    },
+    {
+      "text": "different it's up to the coordinator",
+      "start": 4427.909,
+      "duration": 7.141
+    },
+    {
+      "text": "policy to interesting things to consider",
+      "start": 4429.83,
+      "duration": 9.96
+    },
+    {
+      "text": "about this are it's not just that so",
+      "start": 4435.05,
+      "duration": 7.2
+    },
+    {
+      "text": "like coin joints can help lightening",
+      "start": 4439.79,
+      "duration": 5.22
+    },
+    {
+      "text": "privacy but lightning can also break",
+      "start": 4442.25,
+      "duration": 8.1
+    },
+    {
+      "text": "coin joint privacy because the outputs",
+      "start": 4445.01,
+      "duration": 8.64
+    },
+    {
+      "text": "are announced on like the the lightning",
+      "start": 4450.35,
+      "duration": 6.9
+    },
+    {
+      "text": "graph the the gossip protocol so like",
+      "start": 4453.65,
+      "duration": 8.73
+    },
+    {
+      "text": "every node that has public channels has",
+      "start": 4457.25,
+      "duration": 9.0
+    },
+    {
+      "text": "a stable identifier its node ID and it's",
+      "start": 4462.38,
+      "duration": 6.42
+    },
+    {
+      "text": "basically linking a bunch of multi-sig",
+      "start": 4466.25,
+      "duration": 5.86
+    },
+    {
+      "text": "outputs that it's involved in",
+      "start": 4468.8,
+      "duration": 6.43
+    },
+    {
+      "text": "so I still think it's probably a good",
+      "start": 4472.11,
+      "duration": 6.42
+    },
+    {
+      "text": "idea but there's some really tricky",
+      "start": 4475.23,
+      "duration": 7.949
+    },
+    {
+      "text": "interactions to consider there and it",
+      "start": 4478.53,
+      "duration": 7.56
+    },
+    {
+      "text": "may turn out to be less desirable than",
+      "start": 4483.179,
+      "duration": 7.531
+    },
+    {
+      "text": "it seems at first and it's a little bit",
+      "start": 4486.09,
+      "duration": 7.41
+    },
+    {
+      "text": "more interesting with dual funded",
+      "start": 4490.71,
+      "duration": 5.489
+    },
+    {
+      "text": "channels so there's in the last few",
+      "start": 4493.5,
+      "duration": 5.58
+    },
+    {
+      "text": "months I think Lisa negged wrote a",
+      "start": 4496.199,
+      "duration": 8.491
+    },
+    {
+      "text": "proposal for interactive channel opening",
+      "start": 4499.08,
+      "duration": 9.84
+    },
+    {
+      "text": "that allows dual funding and prior to",
+      "start": 4504.69,
+      "duration": 6.75
+    },
+    {
+      "text": "that I think it's a generalization of a",
+      "start": 4508.92,
+      "duration": 6.65
+    },
+    {
+      "text": "prior work that is meant to deal with",
+      "start": 4511.44,
+      "duration": 7.59
+    },
+    {
+      "text": "splicing which i think is also very",
+      "start": 4515.57,
+      "duration": 5.56
+    },
+    {
+      "text": "interesting to consider in the context",
+      "start": 4519.03,
+      "duration": 4.649
+    },
+    {
+      "text": "of coin joints I think that the main",
+      "start": 4521.13,
+      "duration": 5.37
+    },
+    {
+      "text": "advantage that you gain is if you want",
+      "start": 4523.679,
+      "duration": 7.29
+    },
+    {
+      "text": "to open a channel to some other node and",
+      "start": 4526.5,
+      "duration": 6.21
+    },
+    {
+      "text": "you don't want to disclose how many",
+      "start": 4530.969,
+      "duration": 4.951
+    },
+    {
+      "text": "funds you had in a prior YouTube so that",
+      "start": 4532.71,
+      "duration": 7.219
+    },
+    {
+      "text": "you used to fund this then you get a",
+      "start": 4535.92,
+      "duration": 7.049
+    },
+    {
+      "text": "considerable benefit from coin joining",
+      "start": 4539.929,
+      "duration": 5.081
+    },
+    {
+      "text": "this and that's already possible today",
+      "start": 4542.969,
+      "duration": 7.071
+    },
+    {
+      "text": "with sea lightnings like API and",
+      "start": 4545.01,
+      "duration": 10.729
+    },
+    {
+      "text": "something like join markets patience and",
+      "start": 4550.04,
+      "duration": 5.699
+    },
+    {
+      "text": "just one actually had wrote a paper",
+      "start": 4556.76,
+      "duration": 8.14
+    },
+    {
+      "text": "previously so I would love to hear his",
+      "start": 4561.53,
+      "duration": 6.55
+    },
+    {
+      "text": "input here to know sorry for",
+      "start": 4564.9,
+      "duration": 5.19
+    },
+    {
+      "text": "interrupting you but I feel this was a",
+      "start": 4568.08,
+      "duration": 6.68
+    },
+    {
+      "text": "really nice example on how like",
+      "start": 4570.09,
+      "duration": 8.069
+    },
+    {
+      "text": "non-trivial ways some can reduce the",
+      "start": 4574.76,
+      "duration": 6.1
+    },
+    {
+      "text": "Hana limited set because like when",
+      "start": 4578.159,
+      "duration": 4.471
+    },
+    {
+      "text": "Stefano was asking the question I was",
+      "start": 4580.86,
+      "duration": 4.049
+    },
+    {
+      "text": "like wow this is a nice idea but then I",
+      "start": 4582.63,
+      "duration": 4.799
+    },
+    {
+      "text": "realized that if for example in today's",
+      "start": 4584.909,
+      "duration": 5.761
+    },
+    {
+      "text": "if you go to graph dot L in the Explorer",
+      "start": 4587.429,
+      "duration": 7.411
+    },
+    {
+      "text": "comm slash API slash graph you can",
+      "start": 4590.67,
+      "duration": 6.96
+    },
+    {
+      "text": "actually have a look at all the nodes",
+      "start": 4594.84,
+      "duration": 5.549
+    },
+    {
+      "text": "consisting of the public public graph",
+      "start": 4597.63,
+      "duration": 5.79
+    },
+    {
+      "text": "and you can investigate it essentially",
+      "start": 4600.389,
+      "duration": 5.251
+    },
+    {
+      "text": "like less than 1% of all the",
+      "start": 4603.42,
+      "duration": 5.52
+    },
+    {
+      "text": "would use tor and which means that the",
+      "start": 4605.64,
+      "duration": 7.74
+    },
+    {
+      "text": "rest of the 99% of the nodes exposes",
+      "start": 4608.94,
+      "duration": 7.38
+    },
+    {
+      "text": "their IP addresses so essentially if you",
+      "start": 4613.38,
+      "duration": 6.3
+    },
+    {
+      "text": "would use if you would do this like",
+      "start": 4616.32,
+      "duration": 6.42
+    },
+    {
+      "text": "Cohen joined out to a funding",
+      "start": 4619.68,
+      "duration": 6.0
+    },
+    {
+      "text": "transaction then you would instantly",
+      "start": 4622.74,
+      "duration": 5.64
+    },
+    {
+      "text": "lose one guy from the coin joint because",
+      "start": 4625.68,
+      "duration": 5.0
+    },
+    {
+      "text": "most likely that guy will just use",
+      "start": 4628.38,
+      "duration": 5.37
+    },
+    {
+      "text": "lightning with IP addresses and then you",
+      "start": 4630.68,
+      "duration": 5.56
+    },
+    {
+      "text": "would instantly know that this guy lives",
+      "start": 4633.75,
+      "duration": 4.23
+    },
+    {
+      "text": "in I don't know Chicago or something",
+      "start": 4636.24,
+      "duration": 4.98
+    },
+    {
+      "text": "like that so yeah this was a really nice",
+      "start": 4637.98,
+      "duration": 7.62
+    },
+    {
+      "text": "point from Nevada and great insight and",
+      "start": 4641.22,
+      "duration": 7.56
+    },
+    {
+      "text": "not only that one output but all of",
+      "start": 4645.6,
+      "duration": 8.16
+    },
+    {
+      "text": "their other channels as well yeah I mean",
+      "start": 4648.78,
+      "duration": 6.87
+    },
+    {
+      "text": "they're lightning as a lot of privacy",
+      "start": 4653.76,
+      "duration": 3.66
+    },
+    {
+      "text": "potential but currently it's just so",
+      "start": 4655.65,
+      "duration": 4.29
+    },
+    {
+      "text": " up Ted eventually will probably",
+      "start": 4657.42,
+      "duration": 4.8
+    },
+    {
+      "text": "have to do it in wasabi to be privacy",
+      "start": 4659.94,
+      "duration": 4.95
+    },
+    {
+      "text": "focused but in general I think this is a",
+      "start": 4662.22,
+      "duration": 4.59
+    },
+    {
+      "text": "very promising idea to do Kong joins",
+      "start": 4664.89,
+      "duration": 3.9
+    },
+    {
+      "text": "into good Lightning openings they're",
+      "start": 4666.81,
+      "duration": 3.78
+    },
+    {
+      "text": "lighting channel openings and especially",
+      "start": 4668.79,
+      "duration": 3.6
+    },
+    {
+      "text": "into something like lightning channel",
+      "start": 4670.59,
+      "duration": 4.41
+    },
+    {
+      "text": "factories or maybe Hyperloop Atomics box",
+      "start": 4672.39,
+      "duration": 4.92
+    },
+    {
+      "text": "into or out of the Lightning Network so",
+      "start": 4675.0,
+      "duration": 4.35
+    },
+    {
+      "text": "I think there's a lot of huge promise",
+      "start": 4677.31,
+      "duration": 4.26
+    },
+    {
+      "text": "here very long term because right now",
+      "start": 4679.35,
+      "duration": 3.93
+    },
+    {
+      "text": "the Lightning Network simply it's not",
+      "start": 4681.57,
+      "duration": 10.62
+    },
+    {
+      "text": "hit there you see the philosophy that I",
+      "start": 4683.28,
+      "duration": 12.27
+    },
+    {
+      "text": "changed from when I when I was writing",
+      "start": 4692.19,
+      "duration": 7.67
+    },
+    {
+      "text": "zero linking in C rolling I wanted to",
+      "start": 4695.55,
+      "duration": 8.54
+    },
+    {
+      "text": "ensure standard behavior from an",
+      "start": 4699.86,
+      "duration": 12.49
+    },
+    {
+      "text": "everyone who is who is mixing but now",
+      "start": 4704.09,
+      "duration": 13.45
+    },
+    {
+      "text": "here is I don't want anymore I want to",
+      "start": 4712.35,
+      "duration": 8.3
+    },
+    {
+      "text": "ensure as much flexibility as possible",
+      "start": 4717.54,
+      "duration": 9.77
+    },
+    {
+      "text": "and the clients has to work in a",
+      "start": 4720.65,
+      "duration": 11.62
+    },
+    {
+      "text": "standard way until one or two client",
+      "start": 4727.31,
+      "duration": 7.9
+    },
+    {
+      "text": "wants to to work in a different way like",
+      "start": 4732.27,
+      "duration": 4.86
+    },
+    {
+      "text": "he wants to open a",
+      "start": 4735.21,
+      "duration": 8.15
+    },
+    {
+      "text": "channel let's say and and you know if",
+      "start": 4737.13,
+      "duration": 9.569
+    },
+    {
+      "text": "it's easy to put the cut in to the",
+      "start": 4743.36,
+      "duration": 10.23
+    },
+    {
+      "text": "microwave accidentally if you are",
+      "start": 4746.699,
+      "duration": 9.96
+    },
+    {
+      "text": "behaving differently from other people",
+      "start": 4753.59,
+      "duration": 8.29
+    },
+    {
+      "text": "but in this case from how we are working",
+      "start": 4756.659,
+      "duration": 10.141
+    },
+    {
+      "text": "on here is that if you are actively if",
+      "start": 4761.88,
+      "duration": 8.549
+    },
+    {
+      "text": "you actively want to do something then I",
+      "start": 4766.8,
+      "duration": 8.04
+    },
+    {
+      "text": "don't want to prevent it anymore that",
+      "start": 4770.429,
+      "duration": 7.651
+    },
+    {
+      "text": "the only point the only goal is to most",
+      "start": 4774.84,
+      "duration": 7.44
+    },
+    {
+      "text": "of the the peers are are using the",
+      "start": 4778.08,
+      "duration": 6.75
+    },
+    {
+      "text": "default stuff and not messing around",
+      "start": 4782.28,
+      "duration": 6.81
+    },
+    {
+      "text": "with with with different parameters so",
+      "start": 4784.83,
+      "duration": 7.49
+    },
+    {
+      "text": "so yeah that let's not prevent things",
+      "start": 4789.09,
+      "duration": 6.359
+    },
+    {
+      "text": "but make sure that most of the peers are",
+      "start": 4792.32,
+      "duration": 7.35
+    },
+    {
+      "text": "using the default parameters so so",
+      "start": 4795.449,
+      "duration": 9.44
+    },
+    {
+      "text": "anonymity is and isn't terribly",
+      "start": 4799.67,
+      "duration": 11.2
+    },
+    {
+      "text": "compromised if if some someone wants to",
+      "start": 4804.889,
+      "duration": 9.04
+    },
+    {
+      "text": "to create scripts all the time or open",
+      "start": 4810.87,
+      "duration": 6.119
+    },
+    {
+      "text": "lightning channels all the time things",
+      "start": 4813.929,
+      "duration": 7.471
+    },
+    {
+      "text": "like that that that's what I I want to",
+      "start": 4816.989,
+      "duration": 11.221
+    },
+    {
+      "text": "do differently in this case if we want",
+      "start": 4821.4,
+      "duration": 9.39
+    },
+    {
+      "text": "to really philosophize then a long term",
+      "start": 4828.21,
+      "duration": 5.759
+    },
+    {
+      "text": "like think of the just a thought",
+      "start": 4830.79,
+      "duration": 5.97
+    },
+    {
+      "text": "experiment but if every coin join",
+      "start": 4833.969,
+      "duration": 5.46
+    },
+    {
+      "text": "instead of having multiple inputs and",
+      "start": 4836.76,
+      "duration": 7.47
+    },
+    {
+      "text": "multiple outputs had only a lot of",
+      "start": 4839.429,
+      "duration": 7.471
+    },
+    {
+      "text": "inputs going - a giant multi-sig for",
+      "start": 4844.23,
+      "duration": 5.46
+    },
+    {
+      "text": "everybody and a multi-sig coming out of",
+      "start": 4846.9,
+      "duration": 8.509
+    },
+    {
+      "text": "that and the coin join theft prevention",
+      "start": 4849.69,
+      "duration": 8.61
+    },
+    {
+      "text": "security worked by exactly like",
+      "start": 4855.409,
+      "duration": 6.611
+    },
+    {
+      "text": "lightning funding so you don't sign the",
+      "start": 4858.3,
+      "duration": 5.49
+    },
+    {
+      "text": "first transaction until everybody else",
+      "start": 4862.02,
+      "duration": 3.659
+    },
+    {
+      "text": "has signed to the output transaction",
+      "start": 4863.79,
+      "duration": 5.13
+    },
+    {
+      "text": "this is all really silly right you you",
+      "start": 4865.679,
+      "duration": 4.061
+    },
+    {
+      "text": "gain no benefit",
+      "start": 4868.92,
+      "duration": 3.52
+    },
+    {
+      "text": "it's now it's two transactions and the",
+      "start": 4869.74,
+      "duration": 4.95
+    },
+    {
+      "text": "interaction of a multi-sig is probably a",
+      "start": 4872.44,
+      "duration": 6.39
+    },
+    {
+      "text": "catastrophe but what you get out of it",
+      "start": 4874.69,
+      "duration": 6.57
+    },
+    {
+      "text": "is something that's very similar to a",
+      "start": 4878.83,
+      "duration": 6.15
+    },
+    {
+      "text": "multi-party payment channel and I think",
+      "start": 4881.26,
+      "duration": 6.9
+    },
+    {
+      "text": "like a very interesting long-term I mean",
+      "start": 4884.98,
+      "duration": 6.75
+    },
+    {
+      "text": "this requires soft Forks and all sorts",
+      "start": 4888.16,
+      "duration": 8.19
+    },
+    {
+      "text": "of novel like technology but it would be",
+      "start": 4891.73,
+      "duration": 10.08
+    },
+    {
+      "text": "really cool if the anonymity set of coin",
+      "start": 4896.35,
+      "duration": 10.26
+    },
+    {
+      "text": "joint type transactions was not just a",
+      "start": 4901.81,
+      "duration": 8.01
+    },
+    {
+      "text": "moment in time right where people could",
+      "start": 4906.61,
+      "duration": 6.15
+    },
+    {
+      "text": "sort of come into a pool and leave at",
+      "start": 4909.82,
+      "duration": 5.52
+    },
+    {
+      "text": "some later point much like a multi-party",
+      "start": 4912.76,
+      "duration": 6.72
+    },
+    {
+      "text": "payment channel so that anyway I just",
+      "start": 4915.34,
+      "duration": 6.72
+    },
+    {
+      "text": "think this is a fascinating idea and",
+      "start": 4919.48,
+      "duration": 5.31
+    },
+    {
+      "text": "something I've been thinking a lot about",
+      "start": 4922.06,
+      "duration": 7.14
+    },
+    {
+      "text": "how maybe one day we get it but it's all",
+      "start": 4924.79,
+      "duration": 8.09
+    },
+    {
+      "text": "very you know just in the future stuff",
+      "start": 4929.2,
+      "duration": 14.96
+    },
+    {
+      "text": "it's like similar I think but so I think",
+      "start": 4932.88,
+      "duration": 14.59
+    },
+    {
+      "text": "the Lightning privacy model I think is",
+      "start": 4944.16,
+      "duration": 8.32
+    },
+    {
+      "text": "fantastic for payments it's terrible for",
+      "start": 4947.47,
+      "duration": 9.6
+    },
+    {
+      "text": "coin history's so like what you",
+      "start": 4952.48,
+      "duration": 6.33
+    },
+    {
+      "text": "basically announced to the world is",
+      "start": 4957.07,
+      "duration": 4.2
+    },
+    {
+      "text": "here's how much money I have and then at",
+      "start": 4958.81,
+      "duration": 3.99
+    },
+    {
+      "text": "some later point you announced to the",
+      "start": 4961.27,
+      "duration": 3.09
+    },
+    {
+      "text": "world this is how much I have now",
+      "start": 4962.8,
+      "duration": 5.43
+    },
+    {
+      "text": "whenever you fund or close channels and",
+      "start": 4964.36,
+      "duration": 5.94
+    },
+    {
+      "text": "you don't disclose you know the the",
+      "start": 4968.23,
+      "duration": 3.69
+    },
+    {
+      "text": "transactions that you did in the middle",
+      "start": 4970.3,
+      "duration": 4.53
+    },
+    {
+      "text": "and this is exactly the opposite of the",
+      "start": 4971.92,
+      "duration": 4.8
+    },
+    {
+      "text": "kind of privacy that coin joins give",
+      "start": 4974.83,
+      "duration": 4.53
+    },
+    {
+      "text": "which is like you completely obscure the",
+      "start": 4976.72,
+      "duration": 6.75
+    },
+    {
+      "text": "history or not completely but you you",
+      "start": 4979.36,
+      "duration": 6.63
+    },
+    {
+      "text": "obscure the history to a reasonable",
+      "start": 4983.47,
+      "duration": 8.34
+    },
+    {
+      "text": "amount but then people can still see the",
+      "start": 4985.99,
+      "duration": 11.07
+    },
+    {
+      "text": "net flow on the pay drawing ideas they",
+      "start": 4991.81,
+      "duration": 7.86
+    },
+    {
+      "text": "kind of break that assumption but in in",
+      "start": 4997.06,
+      "duration": 4.74
+    },
+    {
+      "text": "principle you could you know continue",
+      "start": 4999.67,
+      "duration": 2.96
+    },
+    {
+      "text": "that",
+      "start": 5001.8,
+      "duration": 4.109
+    },
+    {
+      "text": "in a much more general direction where I",
+      "start": 5002.63,
+      "duration": 7.81
+    },
+    {
+      "text": "think payment channels coin giant",
+      "start": 5005.909,
+      "duration": 7.25
+    },
+    {
+      "text": "transactions page oint type interactions",
+      "start": 5010.44,
+      "duration": 6.48
+    },
+    {
+      "text": "things like covenants all of these",
+      "start": 5013.159,
+      "duration": 6.121
+    },
+    {
+      "text": "things go together in a way that's",
+      "start": 5016.92,
+      "duration": 5.73
+    },
+    {
+      "text": "beneficial for privacy it's because",
+      "start": 5019.28,
+      "duration": 5.799
+    },
+    {
+      "text": "privacy because fringe ability is",
+      "start": 5022.65,
+      "duration": 4.83
+    },
+    {
+      "text": "emergent from privacy it's beneficial",
+      "start": 5025.079,
+      "duration": 5.73
+    },
+    {
+      "text": "for the network as a whole and it's also",
+      "start": 5027.48,
+      "duration": 5.88
+    },
+    {
+      "text": "I think great for scaling because",
+      "start": 5030.809,
+      "duration": 5.551
+    },
+    {
+      "text": "effectively you use coin joins it's like",
+      "start": 5033.36,
+      "duration": 6.21
+    },
+    {
+      "text": "just a batch transaction mechanism so",
+      "start": 5036.36,
+      "duration": 5.129
+    },
+    {
+      "text": "you can think of like the the logical",
+      "start": 5039.57,
+      "duration": 6.21
+    },
+    {
+      "text": "end state of this is every like you have",
+      "start": 5041.489,
+      "duration": 7.891
+    },
+    {
+      "text": "blocks just filled with giant coin joint",
+      "start": 5045.78,
+      "duration": 5.87
+    },
+    {
+      "text": "transactions which basically are",
+      "start": 5049.38,
+      "duration": 5.25
+    },
+    {
+      "text": "snapshots of of channel states and",
+      "start": 5051.65,
+      "duration": 5.139
+    },
+    {
+      "text": "people just move in and out of channel",
+      "start": 5054.63,
+      "duration": 6.779
+    },
+    {
+      "text": "states and the most of the the actual",
+      "start": 5056.789,
+      "duration": 7.441
+    },
+    {
+      "text": "activity is off chain there's some",
+      "start": 5061.409,
+      "duration": 4.83
+    },
+    {
+      "text": "issues with that which is you know what",
+      "start": 5064.23,
+      "duration": 4.65
+    },
+    {
+      "text": "happens if people stop cooperating and",
+      "start": 5066.239,
+      "duration": 4.86
+    },
+    {
+      "text": "then your block size is too limited and",
+      "start": 5068.88,
+      "duration": 5.369
+    },
+    {
+      "text": "some people can't exit so still not",
+      "start": 5071.099,
+      "duration": 5.881
+    },
+    {
+      "text": "straightforward but I I think the",
+      "start": 5074.249,
+      "duration": 5.821
+    },
+    {
+      "text": "general intuition of putting is little",
+      "start": 5076.98,
+      "duration": 4.769
+    },
+    {
+      "text": "information on the blockchain itself",
+      "start": 5080.07,
+      "duration": 4.29
+    },
+    {
+      "text": "about what sort of interactions people",
+      "start": 5081.749,
+      "duration": 6.27
+    },
+    {
+      "text": "actually have like what actual payments",
+      "start": 5084.36,
+      "duration": 6.33
+    },
+    {
+      "text": "they send to each other that has",
+      "start": 5088.019,
+      "duration": 4.83
+    },
+    {
+      "text": "benefits for scaling for privacy and",
+      "start": 5090.69,
+      "duration": 4.59
+    },
+    {
+      "text": "fungibility so I would really like to",
+      "start": 5092.849,
+      "duration": 5.33
+    },
+    {
+      "text": "see all these things converge long term",
+      "start": 5095.28,
+      "duration": 5.129
+    },
+    {
+      "text": "anyway this is really off topic I'm",
+      "start": 5098.179,
+      "duration": 16.871
+    },
+    {
+      "text": "sorry so one of the most interesting",
+      "start": 5100.409,
+      "duration": 22.801
+    },
+    {
+      "text": "ideas there is up CTV up the cheque",
+      "start": 5115.05,
+      "duration": 12.029
+    },
+    {
+      "text": "template verify that's Jeremy Reubens",
+      "start": 5123.21,
+      "duration": 9.389
+    },
+    {
+      "text": "covenants construction and there's some",
+      "start": 5127.079,
+      "duration": 8.581
+    },
+    {
+      "text": "really cool stuff that he demonstrates",
+      "start": 5132.599,
+      "duration": 6.451
+    },
+    {
+      "text": "like his proofs of concept for things",
+      "start": 5135.66,
+      "duration": 6.59
+    },
+    {
+      "text": "like congestion control transactions I",
+      "start": 5139.05,
+      "duration": 5.1
+    },
+    {
+      "text": "think that that's the most interesting",
+      "start": 5142.25,
+      "duration": 3.96
+    },
+    {
+      "text": "direction that this stuff can go in and",
+      "start": 5144.15,
+      "duration": 4.74
+    },
+    {
+      "text": "with something slightly more general",
+      "start": 5146.21,
+      "duration": 5.83
+    },
+    {
+      "text": "than what he proposed like we could get",
+      "start": 5148.89,
+      "duration": 5.99
+    },
+    {
+      "text": "some really awesome stuff",
+      "start": 5152.04,
+      "duration": 2.84
+    },
+    {
+      "text": "closing the conversation and I hope",
+      "start": 5173.37,
+      "duration": 5.52
+    },
+    {
+      "text": "everyone enjoyed this cryptography",
+      "start": 5176.34,
+      "duration": 5.73
+    },
+    {
+      "text": "lesson this one and half an hour",
+      "start": 5178.89,
+      "duration": 8.34
+    },
+    {
+      "text": "cryptography lesson and now you can go",
+      "start": 5182.07,
+      "duration": 7.92
+    },
+    {
+      "text": "to your universities and tell them that",
+      "start": 5187.23,
+      "duration": 7.01
+    },
+    {
+      "text": "you applied what you learned there and",
+      "start": 5189.99,
+      "duration": 8.03
+    },
+    {
+      "text": "okay thank you guys",
+      "start": 5194.24,
+      "duration": 3.78
+    },
+    {
+      "text": "next week we are not going to have a",
+      "start": 5198.59,
+      "duration": 8.65
+    },
+    {
+      "text": "topic but the topic is going to be that",
+      "start": 5204.0,
+      "duration": 5.7
+    },
+    {
+      "text": "wabi-sabi repository whatever will",
+      "start": 5207.24,
+      "duration": 4.8
+    },
+    {
+      "text": "happen there I don't know",
+      "start": 5209.7,
+      "duration": 7.95
+    },
+    {
+      "text": "as you can see we have two guys working",
+      "start": 5212.04,
+      "duration": 11.15
+    },
+    {
+      "text": "on it who are much much smarter than",
+      "start": 5217.65,
+      "duration": 13.26
+    },
+    {
+      "text": "then and you know I know it's extreme",
+      "start": 5223.19,
+      "duration": 9.82
+    },
+    {
+      "text": "being brain power is on that repository",
+      "start": 5230.91,
+      "duration": 5.16
+    },
+    {
+      "text": "so we will see that what what's going to",
+      "start": 5233.01,
+      "duration": 4.95
+    },
+    {
+      "text": "happen next week what we are going to",
+      "start": 5236.07,
+      "duration": 8.46
+    },
+    {
+      "text": "talk about and that's it thank you for",
+      "start": 5237.96,
+      "duration": 10.77
+    },
+    {
+      "text": "for watching like share and subscribe",
+      "start": 5244.53,
+      "duration": 8.49
+    },
+    {
+      "text": "contribute to to between privacy and see",
+      "start": 5248.73,
+      "duration": 7.29
+    },
+    {
+      "text": "you next week bye bye",
+      "start": 5253.02,
+      "duration": 7.31
+    },
+    {
+      "text": "I think I died right",
+      "start": 5256.02,
+      "duration": 4.31
+    }
+  ]
+}

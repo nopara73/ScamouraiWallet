@@ -1,0 +1,7061 @@
+{
+  "video_id": "XDCQI7hrB58",
+  "title": "Wasabi Research Club #1 - Knapsack Mixing with Felix Maurer",
+  "url": "https://www.youtube.com/watch?v=XDCQI7hrB58",
+  "playlist_index": 1,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "so we're talking about knapsack coin",
+      "start": 0.03,
+      "duration": 5.16
+    },
+    {
+      "text": "joins today I'm just going to run",
+      "start": 2.31,
+      "duration": 4.83
+    },
+    {
+      "text": "through this slide and then hopefully",
+      "start": 5.19,
+      "duration": 5.61
+    },
+    {
+      "text": "Felix will jump in to clarify questions",
+      "start": 7.14,
+      "duration": 7.86
+    },
+    {
+      "text": "as they come or if I make a mistake so",
+      "start": 10.8,
+      "duration": 7.41
+    },
+    {
+      "text": "yeah this is the paper anonymous cordial",
+      "start": 15.0,
+      "duration": 5.85
+    },
+    {
+      "text": "transaction with arbitrary values we",
+      "start": 18.21,
+      "duration": 5.67
+    },
+    {
+      "text": "have one of the author's with us the",
+      "start": 20.85,
+      "duration": 5.49
+    },
+    {
+      "text": "PowerPoint this PowerPoint will be of",
+      "start": 23.88,
+      "duration": 6.239
+    },
+    {
+      "text": "made available if anyone wants it very",
+      "start": 26.34,
+      "duration": 6.27
+    },
+    {
+      "text": "straightforward so what's the problem in",
+      "start": 30.119,
+      "duration": 4.401
+    },
+    {
+      "text": "Bitcoin transactions are public",
+      "start": 32.61,
+      "duration": 3.87
+    },
+    {
+      "text": "transactions point to previous",
+      "start": 34.52,
+      "duration": 4.359
+    },
+    {
+      "text": "transactions in a sort of directed",
+      "start": 36.48,
+      "duration": 4.86
+    },
+    {
+      "text": "acyclic graph and transactions can leak",
+      "start": 38.879,
+      "duration": 5.641
+    },
+    {
+      "text": "future spending that's that's that's the",
+      "start": 41.34,
+      "duration": 4.98
+    },
+    {
+      "text": "problem we're trying to obfuscate the",
+      "start": 44.52,
+      "duration": 6.62
+    },
+    {
+      "text": "transaction graph so a simple idea from",
+      "start": 46.32,
+      "duration": 9.0
+    },
+    {
+      "text": "2013 or even earlier is just joining",
+      "start": 51.14,
+      "duration": 7.45
+    },
+    {
+      "text": "transactions so suppose you have two",
+      "start": 55.32,
+      "duration": 6.78
+    },
+    {
+      "text": "transactions on the left here we have",
+      "start": 58.59,
+      "duration": 7.529
+    },
+    {
+      "text": "two transactions with two inputs and two",
+      "start": 62.1,
+      "duration": 7.35
+    },
+    {
+      "text": "outputs 1 output is likely sending money",
+      "start": 66.119,
+      "duration": 5.07
+    },
+    {
+      "text": "somewhere and another output is change",
+      "start": 69.45,
+      "duration": 4.099
+    },
+    {
+      "text": "we could simply do is we could take",
+      "start": 71.189,
+      "duration": 3.86
+    },
+    {
+      "text": "transactions and we could just",
+      "start": 73.549,
+      "duration": 5.651
+    },
+    {
+      "text": "essentially collapse them together so",
+      "start": 75.049,
+      "duration": 7.36
+    },
+    {
+      "text": "there's nothing in Bitcoin that bars us",
+      "start": 79.2,
+      "duration": 4.5
+    },
+    {
+      "text": "from doing this currently at the moment",
+      "start": 82.409,
+      "duration": 5.131
+    },
+    {
+      "text": "and yeah so how does this look like on",
+      "start": 83.7,
+      "duration": 7.11
+    },
+    {
+      "text": "our left we have two unique transactions",
+      "start": 87.54,
+      "duration": 5.46
+    },
+    {
+      "text": "by two individuals and I've highlighted",
+      "start": 90.81,
+      "duration": 3.39
+    },
+    {
+      "text": "it in red",
+      "start": 93.0,
+      "duration": 4.34
+    },
+    {
+      "text": "the output that likely represents",
+      "start": 94.2,
+      "duration": 6.51
+    },
+    {
+      "text": "sending funds to a third party or to",
+      "start": 97.34,
+      "duration": 5.68
+    },
+    {
+      "text": "others to someone else and on the right",
+      "start": 100.71,
+      "duration": 4.65
+    },
+    {
+      "text": "what we do is we just take those inputs",
+      "start": 103.02,
+      "duration": 3.629
+    },
+    {
+      "text": "and outputs and we merge them into a",
+      "start": 105.36,
+      "duration": 5.25
+    },
+    {
+      "text": "single transaction now when we look at",
+      "start": 106.649,
+      "duration": 7.381
+    },
+    {
+      "text": "this from the outside we have to ask",
+      "start": 110.61,
+      "duration": 6.96
+    },
+    {
+      "text": "ourselves is it possible to to unravel",
+      "start": 114.03,
+      "duration": 6.629
+    },
+    {
+      "text": "the previous transaction that we",
+      "start": 117.57,
+      "duration": 6.21
+    },
+    {
+      "text": "the two sub transactions we merge",
+      "start": 120.659,
+      "duration": 5.731
+    },
+    {
+      "text": "together so we can start by taking an",
+      "start": 123.78,
+      "duration": 4.52
+    },
+    {
+      "text": "output like this one here",
+      "start": 126.39,
+      "duration": 5.19
+    },
+    {
+      "text": "valued at fifty and we can try to find",
+      "start": 128.3,
+      "duration": 6.79
+    },
+    {
+      "text": "inputs that exactly match the value of",
+      "start": 131.58,
+      "duration": 5.79
+    },
+    {
+      "text": "the sum of the outputs so in this case",
+      "start": 135.09,
+      "duration": 4.2
+    },
+    {
+      "text": "we try these two and it turns out",
+      "start": 137.37,
+      "duration": 4.949
+    },
+    {
+      "text": "there's no way we could come up with an",
+      "start": 139.29,
+      "duration": 5.19
+    },
+    {
+      "text": "output on the right that would match the",
+      "start": 142.319,
+      "duration": 5.64
+    },
+    {
+      "text": "two inputs on the left and we try again",
+      "start": 144.48,
+      "duration": 5.97
+    },
+    {
+      "text": "and we find that yes actually we can",
+      "start": 147.959,
+      "duration": 7.141
+    },
+    {
+      "text": "break this transaction down into two",
+      "start": 150.45,
+      "duration": 7.05
+    },
+    {
+      "text": "pieces once again because we see that",
+      "start": 155.1,
+      "duration": 5.16
+    },
+    {
+      "text": "the bottom two inputs in the bottom two",
+      "start": 157.5,
+      "duration": 6.569
+    },
+    {
+      "text": "outputs equal exactly 64 and the top two",
+      "start": 160.26,
+      "duration": 6.08
+    },
+    {
+      "text": "inputs and two outputs exactly equal 33",
+      "start": 164.069,
+      "duration": 4.771
+    },
+    {
+      "text": "we're excluding transaction fees in this",
+      "start": 166.34,
+      "duration": 6.79
+    },
+    {
+      "text": "model for simplicity and so essentially",
+      "start": 168.84,
+      "duration": 6.929
+    },
+    {
+      "text": "what happens is we take this this single",
+      "start": 173.13,
+      "duration": 5.88
+    },
+    {
+      "text": "transaction and we split it into two",
+      "start": 175.769,
+      "duration": 5.671
+    },
+    {
+      "text": "once again and we're left with the same",
+      "start": 179.01,
+      "duration": 5.61
+    },
+    {
+      "text": "privacy that we would have had before we",
+      "start": 181.44,
+      "duration": 6.18
+    },
+    {
+      "text": "did any of this joining so this isn't",
+      "start": 184.62,
+      "duration": 8.22
+    },
+    {
+      "text": "very good so most of the time we'll be",
+      "start": 187.62,
+      "duration": 7.29
+    },
+    {
+      "text": "able to unravel these transactions so if",
+      "start": 192.84,
+      "duration": 6.51
+    },
+    {
+      "text": "we if we look at the work done by in",
+      "start": 194.91,
+      "duration": 5.97
+    },
+    {
+      "text": "this paper what they've done is they",
+      "start": 199.35,
+      "duration": 3.6
+    },
+    {
+      "text": "formalize some some basic ideas so you",
+      "start": 200.88,
+      "duration": 3.449
+    },
+    {
+      "text": "know transactions have inputs outputs",
+      "start": 202.95,
+      "duration": 6.18
+    },
+    {
+      "text": "and values inputs you know we have the",
+      "start": 204.329,
+      "duration": 6.541
+    },
+    {
+      "text": "input set the output set and then we",
+      "start": 209.13,
+      "duration": 3.93
+    },
+    {
+      "text": "have coins which belong either to the",
+      "start": 210.87,
+      "duration": 4.08
+    },
+    {
+      "text": "inputs or the outputs and then a very",
+      "start": 213.06,
+      "duration": 3.57
+    },
+    {
+      "text": "basic rule which is that the sum of the",
+      "start": 214.95,
+      "duration": 3.42
+    },
+    {
+      "text": "inputs must equal the sum of the outputs",
+      "start": 216.63,
+      "duration": 6.53
+    },
+    {
+      "text": "for any subset can we create so",
+      "start": 218.37,
+      "duration": 6.75
+    },
+    {
+      "text": "according to a transaction consists of",
+      "start": 223.16,
+      "duration": 3.639
+    },
+    {
+      "text": "sub transactions and there must be at",
+      "start": 225.12,
+      "duration": 3.66
+    },
+    {
+      "text": "least one way of partitioning all inputs",
+      "start": 226.799,
+      "duration": 3.511
+    },
+    {
+      "text": "and outputs so that each sub set of",
+      "start": 228.78,
+      "duration": 4.38
+    },
+    {
+      "text": "inputs is exactly one corresponding sub",
+      "start": 230.31,
+      "duration": 6.989
+    },
+    {
+      "text": "set of outputs with which it forms a sub",
+      "start": 233.16,
+      "duration": 5.49
+    },
+    {
+      "text": "transactions and essentially what this",
+      "start": 237.299,
+      "duration": 4.321
+    },
+    {
+      "text": "means is that if we take a transaction",
+      "start": 238.65,
+      "duration": 5.1
+    },
+    {
+      "text": "we must be able to cut it up in such a",
+      "start": 241.62,
+      "duration": 4.709
+    },
+    {
+      "text": "way just like we did before we're a",
+      "start": 243.75,
+      "duration": 5.729
+    },
+    {
+      "text": "subset of the inputs matches some subset",
+      "start": 246.329,
+      "duration": 5.931
+    },
+    {
+      "text": "of the outputs in terms of value",
+      "start": 249.479,
+      "duration": 4.191
+    },
+    {
+      "text": "and we call this mapping as it Maps",
+      "start": 252.26,
+      "duration": 6.15
+    },
+    {
+      "text": "inputs to outputs so we have a set of",
+      "start": 253.67,
+      "duration": 7.86
+    },
+    {
+      "text": "all partitions denoted Phi of a set and",
+      "start": 258.41,
+      "duration": 5.16
+    },
+    {
+      "text": "then the set of all inputs set of all",
+      "start": 261.53,
+      "duration": 3.99
+    },
+    {
+      "text": "outputs and the set of all mappings is",
+      "start": 263.57,
+      "duration": 4.5
+    },
+    {
+      "text": "again and essentially the set of all",
+      "start": 265.52,
+      "duration": 5.91
+    },
+    {
+      "text": "mappings below here is just the set of",
+      "start": 268.07,
+      "duration": 7.83
+    },
+    {
+      "text": "all I think it's by jected mappings of",
+      "start": 271.43,
+      "duration": 8.609
+    },
+    {
+      "text": "inputs to outputs of the superset such",
+      "start": 275.9,
+      "duration": 6.329
+    },
+    {
+      "text": "that the sum of the inputs equals a sign",
+      "start": 280.039,
+      "duration": 4.921
+    },
+    {
+      "text": "of the outputs so again this is just",
+      "start": 282.229,
+      "duration": 5.131
+    },
+    {
+      "text": "saying that we can take a transaction",
+      "start": 284.96,
+      "duration": 6.69
+    },
+    {
+      "text": "and and create a list of all possible",
+      "start": 287.36,
+      "duration": 6.48
+    },
+    {
+      "text": "ways we could cut it up essentially",
+      "start": 291.65,
+      "duration": 3.93
+    },
+    {
+      "text": "figuring out different ways we could we",
+      "start": 293.84,
+      "duration": 5.549
+    },
+    {
+      "text": "could get some transactions and the",
+      "start": 295.58,
+      "duration": 5.88
+    },
+    {
+      "text": "entire list of all ways we could cut it",
+      "start": 299.389,
+      "duration": 5.581
+    },
+    {
+      "text": "up is denoted him I hope I haven't lost",
+      "start": 301.46,
+      "duration": 5.489
+    },
+    {
+      "text": "anyone so far but a good idea to maybe",
+      "start": 304.97,
+      "duration": 5.1
+    },
+    {
+      "text": "pause and ask did have I lost anyone so",
+      "start": 306.949,
+      "duration": 6.75
+    },
+    {
+      "text": "far no I think it's it's a great",
+      "start": 310.07,
+      "duration": 6.09
+    },
+    {
+      "text": "introduction I just want to say for some",
+      "start": 313.699,
+      "duration": 6.09
+    },
+    {
+      "text": "administration that since Felix appeared",
+      "start": 316.16,
+      "duration": 6.509
+    },
+    {
+      "text": "in this in this conversation back on",
+      "start": 319.789,
+      "duration": 5.88
+    },
+    {
+      "text": "Felix is one of the author of the paper",
+      "start": 322.669,
+      "duration": 6.991
+    },
+    {
+      "text": "and I think after your presentation we",
+      "start": 325.669,
+      "duration": 8.821
+    },
+    {
+      "text": "could move on to pick his brain and in",
+      "start": 329.66,
+      "duration": 7.92
+    },
+    {
+      "text": "order to not waste his time too much and",
+      "start": 334.49,
+      "duration": 6.209
+    },
+    {
+      "text": "and and then after that we can move on",
+      "start": 337.58,
+      "duration": 5.13
+    },
+    {
+      "text": "to other people's presentations and",
+      "start": 340.699,
+      "duration": 8.19
+    },
+    {
+      "text": "ideas and discussions about that yeah so",
+      "start": 342.71,
+      "duration": 8.97
+    },
+    {
+      "text": "this is pretty much it almost over I",
+      "start": 348.889,
+      "duration": 4.111
+    },
+    {
+      "text": "think we're probably two-thirds of the",
+      "start": 351.68,
+      "duration": 6.54
+    },
+    {
+      "text": "way through so well will will to ask",
+      "start": 353.0,
+      "duration": 9.84
+    },
+    {
+      "text": "Felix questions directly so yeah now",
+      "start": 358.22,
+      "duration": 6.93
+    },
+    {
+      "text": "moving on to results",
+      "start": 362.84,
+      "duration": 4.079
+    },
+    {
+      "text": "so yeah in simpler terms we want to be",
+      "start": 365.15,
+      "duration": 3.57
+    },
+    {
+      "text": "able to break down transactions into sub",
+      "start": 366.919,
+      "duration": 6.421
+    },
+    {
+      "text": "transactions a combination of inputs and",
+      "start": 368.72,
+      "duration": 7.8
+    },
+    {
+      "text": "outputs in the paper they they clarify",
+      "start": 373.34,
+      "duration": 4.949
+    },
+    {
+      "text": "between derived and non derived sub",
+      "start": 376.52,
+      "duration": 4.38
+    },
+    {
+      "text": "transactions what that means is that a",
+      "start": 378.289,
+      "duration": 5.541
+    },
+    {
+      "text": "non derived sub transaction is",
+      "start": 380.9,
+      "duration": 5.57
+    },
+    {
+      "text": "is some transaction that isn't composed",
+      "start": 383.83,
+      "duration": 5.7
+    },
+    {
+      "text": "of smaller sub transactions inside of it",
+      "start": 386.47,
+      "duration": 4.65
+    },
+    {
+      "text": "and we're only concerned with non direct",
+      "start": 389.53,
+      "duration": 6.66
+    },
+    {
+      "text": "sub transactions for simplicity so so",
+      "start": 391.12,
+      "duration": 7.53
+    },
+    {
+      "text": "the way that we look at anonymity or",
+      "start": 396.19,
+      "duration": 4.8
+    },
+    {
+      "text": "privacy in this model is we essentially",
+      "start": 398.65,
+      "duration": 5.4
+    },
+    {
+      "text": "take a transaction which has all these",
+      "start": 400.99,
+      "duration": 5.1
+    },
+    {
+      "text": "inputs outputs and it has all these",
+      "start": 404.05,
+      "duration": 3.869
+    },
+    {
+      "text": "mappings all the possible ways we could",
+      "start": 406.09,
+      "duration": 4.139
+    },
+    {
+      "text": "cut up the transaction and we",
+      "start": 407.919,
+      "duration": 4.711
+    },
+    {
+      "text": "essentially say that a specific coin on",
+      "start": 410.229,
+      "duration": 5.22
+    },
+    {
+      "text": "the left-hand side and any other coin on",
+      "start": 412.63,
+      "duration": 4.469
+    },
+    {
+      "text": "the right-hand side or on the left hand",
+      "start": 415.449,
+      "duration": 5.611
+    },
+    {
+      "text": "side is linked is linked to that coin in",
+      "start": 417.099,
+      "duration": 6.031
+    },
+    {
+      "text": "a probability probabilistic way",
+      "start": 421.06,
+      "duration": 4.47
+    },
+    {
+      "text": "depending on how many mappings of the",
+      "start": 423.13,
+      "duration": 4.5
+    },
+    {
+      "text": "total mappings there are how many of",
+      "start": 425.53,
+      "duration": 5.43
+    },
+    {
+      "text": "them include the two coins being in the",
+      "start": 427.63,
+      "duration": 7.89
+    },
+    {
+      "text": "same sub transaction so I think there's",
+      "start": 430.96,
+      "duration": 6.09
+    },
+    {
+      "text": "no way an easier way to think about this",
+      "start": 435.52,
+      "duration": 4.769
+    },
+    {
+      "text": "here it is formalized in the paper but",
+      "start": 437.05,
+      "duration": 5.01
+    },
+    {
+      "text": "non intuitively it makes a lot of sense",
+      "start": 440.289,
+      "duration": 3.78
+    },
+    {
+      "text": "and I think we'll see an example of it",
+      "start": 442.06,
+      "duration": 5.19
+    },
+    {
+      "text": "in just the next slide but that's the",
+      "start": 444.069,
+      "duration": 4.891
+    },
+    {
+      "text": "idea it's a probabilistic framework so",
+      "start": 447.25,
+      "duration": 6.06
+    },
+    {
+      "text": "in this case here if we go back and",
+      "start": 448.96,
+      "duration": 7.799
+    },
+    {
+      "text": "recreate what we did and we split these",
+      "start": 453.31,
+      "duration": 8.729
+    },
+    {
+      "text": "up into two sub transactions yeah we",
+      "start": 456.759,
+      "duration": 9.261
+    },
+    {
+      "text": "would say that for example output 3 is",
+      "start": 462.039,
+      "duration": 7.44
+    },
+    {
+      "text": "directly linked to input 3 with a",
+      "start": 466.02,
+      "duration": 7.209
+    },
+    {
+      "text": "hundred percent probability because",
+      "start": 469.479,
+      "duration": 5.791
+    },
+    {
+      "text": "there's only one way to partition this",
+      "start": 473.229,
+      "duration": 5.821
+    },
+    {
+      "text": "coin join and output 3 appears with",
+      "start": 475.27,
+      "duration": 5.97
+    },
+    {
+      "text": "input 3 a hundred percent of the time",
+      "start": 479.05,
+      "duration": 5.489
+    },
+    {
+      "text": "and we'll see later how that can that",
+      "start": 481.24,
+      "duration": 5.519
+    },
+    {
+      "text": "can be done differently so in the paper",
+      "start": 484.539,
+      "duration": 8.22
+    },
+    {
+      "text": "they essentially create or create a",
+      "start": 486.759,
+      "duration": 8.931
+    },
+    {
+      "text": "bunch of random transactions and then",
+      "start": 492.759,
+      "duration": 5.31
+    },
+    {
+      "text": "essentially purposefully combine them",
+      "start": 495.69,
+      "duration": 2.83
+    },
+    {
+      "text": "together",
+      "start": 498.069,
+      "duration": 8.1
+    },
+    {
+      "text": "and then observe the time it takes to to",
+      "start": 498.52,
+      "duration": 10.049
+    },
+    {
+      "text": "recreate the sub transactions from the",
+      "start": 506.169,
+      "duration": 4.74
+    },
+    {
+      "text": "couple transaction solely you know here",
+      "start": 508.569,
+      "duration": 4.59
+    },
+    {
+      "text": "we see that in the orange you know if",
+      "start": 510.909,
+      "duration": 4.931
+    },
+    {
+      "text": "you have five sub transactions",
+      "start": 513.159,
+      "duration": 6.071
+    },
+    {
+      "text": "I believe it's yeah so five sub",
+      "start": 515.84,
+      "duration": 6.36
+    },
+    {
+      "text": "transactions with with four inputs each",
+      "start": 519.23,
+      "duration": 4.98
+    },
+    {
+      "text": "that it takes about a second for a",
+      "start": 522.2,
+      "duration": 8.52
+    },
+    {
+      "text": "computer to be able to unravel that in",
+      "start": 524.21,
+      "duration": 9.81
+    },
+    {
+      "text": "that coin joining to it's relevant sub",
+      "start": 530.72,
+      "duration": 7.11
+    },
+    {
+      "text": "transactions and then we notice here",
+      "start": 534.02,
+      "duration": 8.24
+    },
+    {
+      "text": "that the number of non derived mappings",
+      "start": 537.83,
+      "duration": 10.56
+    },
+    {
+      "text": "isn't very high even as there are you",
+      "start": 542.26,
+      "duration": 7.6
+    },
+    {
+      "text": "know as many as you know four or five",
+      "start": 548.39,
+      "duration": 5.52
+    },
+    {
+      "text": "sub transactions because when we did in",
+      "start": 549.86,
+      "duration": 7.43
+    },
+    {
+      "text": "the first example we can typically",
+      "start": 553.91,
+      "duration": 7.47
+    },
+    {
+      "text": "unravel coin joints and have a very",
+      "start": 557.29,
+      "duration": 6.97
+    },
+    {
+      "text": "little overlap in terms of other other",
+      "start": 561.38,
+      "duration": 6.42
+    },
+    {
+      "text": "ways we could map inputs and outputs so",
+      "start": 564.26,
+      "duration": 6.3
+    },
+    {
+      "text": "the in here we see that only with six",
+      "start": 567.8,
+      "duration": 5.19
+    },
+    {
+      "text": "sub transactions and four inputs per sub",
+      "start": 570.56,
+      "duration": 5.43
+    },
+    {
+      "text": "transaction do we see more than just a",
+      "start": 572.99,
+      "duration": 8.55
+    },
+    {
+      "text": "few non derived mappings so there's a",
+      "start": 575.99,
+      "duration": 7.41
+    },
+    {
+      "text": "solution to this problem because right",
+      "start": 581.54,
+      "duration": 3.66
+    },
+    {
+      "text": "now what we see is that it doesn't take",
+      "start": 583.4,
+      "duration": 5.13
+    },
+    {
+      "text": "a lot of time to unpack these coin",
+      "start": 585.2,
+      "duration": 5.49
+    },
+    {
+      "text": "joints and when you do there are very",
+      "start": 588.53,
+      "duration": 4.14
+    },
+    {
+      "text": "few non derived mappings which means",
+      "start": 590.69,
+      "duration": 3.69
+    },
+    {
+      "text": "there's very little ambiguity in terms",
+      "start": 592.67,
+      "duration": 4.05
+    },
+    {
+      "text": "of what's linked so could we crease this",
+      "start": 594.38,
+      "duration": 4.41
+    },
+    {
+      "text": "well you know here's a knapsack mixing",
+      "start": 596.72,
+      "duration": 6.06
+    },
+    {
+      "text": "that is is how to optimize filling a",
+      "start": 598.79,
+      "duration": 7.17
+    },
+    {
+      "text": "knapsack with various things of",
+      "start": 602.78,
+      "duration": 5.43
+    },
+    {
+      "text": "different weights in this case we're",
+      "start": 605.96,
+      "duration": 4.53
+    },
+    {
+      "text": "trying to optimize the way to have",
+      "start": 608.21,
+      "duration": 5.34
+    },
+    {
+      "text": "output so that they fill given inputs so",
+      "start": 610.49,
+      "duration": 4.77
+    },
+    {
+      "text": "the algorithm is pretty simple",
+      "start": 613.55,
+      "duration": 5.82
+    },
+    {
+      "text": "the idea is to compare the two output",
+      "start": 615.26,
+      "duration": 7.92
+    },
+    {
+      "text": "sets and to essentially try to break",
+      "start": 619.37,
+      "duration": 9.27
+    },
+    {
+      "text": "down one of the outputs so that one of",
+      "start": 623.18,
+      "duration": 6.93
+    },
+    {
+      "text": "the values of the output is that the",
+      "start": 628.64,
+      "duration": 3.75
+    },
+    {
+      "text": "difference between the two sets so in",
+      "start": 630.11,
+      "duration": 4.95
+    },
+    {
+      "text": "this case the number 31 is the",
+      "start": 632.39,
+      "duration": 4.95
+    },
+    {
+      "text": "difference between the green and the",
+      "start": 635.06,
+      "duration": 6.86
+    },
+    {
+      "text": "orange and so here we've done it with",
+      "start": 637.34,
+      "duration": 8.25
+    },
+    {
+      "text": "you can see that we've split up the 50",
+      "start": 641.92,
+      "duration": 5.5
+    },
+    {
+      "text": "into 31 19 and on",
+      "start": 645.59,
+      "duration": 3.96
+    },
+    {
+      "text": "right we've recombined them to make a",
+      "start": 647.42,
+      "duration": 4.89
+    },
+    {
+      "text": "single coin joy transaction and now when",
+      "start": 649.55,
+      "duration": 5.88
+    },
+    {
+      "text": "we try to figure out the sub",
+      "start": 652.31,
+      "duration": 5.46
+    },
+    {
+      "text": "transactions we actually get two sub",
+      "start": 655.43,
+      "duration": 5.13
+    },
+    {
+      "text": "transactions we get this one here which",
+      "start": 657.77,
+      "duration": 4.5
+    },
+    {
+      "text": "connects the two on the left with the",
+      "start": 660.56,
+      "duration": 3.69
+    },
+    {
+      "text": "three on the right but we also get this",
+      "start": 662.27,
+      "duration": 5.7
+    },
+    {
+      "text": "sub transaction here and so the result",
+      "start": 664.25,
+      "duration": 6.9
+    },
+    {
+      "text": "is that if you asked for example this oh",
+      "start": 667.97,
+      "duration": 6.72
+    },
+    {
+      "text": "one linked with I three the answer is",
+      "start": 671.15,
+      "duration": 7.86
+    },
+    {
+      "text": "that there's a 50-50 chance that oh one",
+      "start": 674.69,
+      "duration": 7.2
+    },
+    {
+      "text": "in I three are linked because of the two",
+      "start": 679.01,
+      "duration": 5.88
+    },
+    {
+      "text": "sub transactions that we have in half of",
+      "start": 681.89,
+      "duration": 4.92
+    },
+    {
+      "text": "them oh one and I three are not linked",
+      "start": 684.89,
+      "duration": 12.45
+    },
+    {
+      "text": "and the other half they are the dialouge",
+      "start": 686.81,
+      "duration": 14.39
+    },
+    {
+      "text": "you or you lost me",
+      "start": 697.34,
+      "duration": 3.86
+    },
+    {
+      "text": "to have a probability of one we match",
+      "start": 766.29,
+      "duration": 5.18
+    },
+    {
+      "text": "with another input or another outplay",
+      "start": 768.18,
+      "duration": 8.94
+    },
+    {
+      "text": "yeah right so the left graph shows the",
+      "start": 771.47,
+      "duration": 9.22
+    },
+    {
+      "text": "number of pairs of inputs and outputs",
+      "start": 777.12,
+      "duration": 5.969
+    },
+    {
+      "text": "that are linked with probability one and",
+      "start": 780.69,
+      "duration": 5.73
+    },
+    {
+      "text": "the right one shows the number of input",
+      "start": 783.089,
+      "duration": 5.37
+    },
+    {
+      "text": "input pairs that are linked with the",
+      "start": 786.42,
+      "duration": 4.32
+    },
+    {
+      "text": "probability of one always depending on",
+      "start": 788.459,
+      "duration": 4.231
+    },
+    {
+      "text": "which knapsack mixing every when you've",
+      "start": 790.74,
+      "duration": 5.399
+    },
+    {
+      "text": "used so I think in the paper I had two",
+      "start": 792.69,
+      "duration": 5.579
+    },
+    {
+      "text": "different versions of the collapse like",
+      "start": 796.139,
+      "duration": 4.62
+    },
+    {
+      "text": "mixing algorithm one which I called",
+      "start": 798.269,
+      "duration": 6.211
+    },
+    {
+      "text": "input mixing and one output mixing and I",
+      "start": 800.759,
+      "duration": 6.301
+    },
+    {
+      "text": "think I even hinted at a third one that",
+      "start": 804.48,
+      "duration": 7.26
+    },
+    {
+      "text": "I came up with later in the in the time",
+      "start": 807.06,
+      "duration": 8.43
+    },
+    {
+      "text": "when I was writing the paper so this one",
+      "start": 811.74,
+      "duration": 6.029
+    },
+    {
+      "text": "even improved over what you see in the",
+      "start": 815.49,
+      "duration": 9.06
+    },
+    {
+      "text": "Kraft so far okay well very cool so I",
+      "start": 817.769,
+      "duration": 8.37
+    },
+    {
+      "text": "think the important things you know here",
+      "start": 824.55,
+      "duration": 4.709
+    },
+    {
+      "text": "is that we still have a problem where",
+      "start": 826.139,
+      "duration": 5.13
+    },
+    {
+      "text": "some inputs are connected with other",
+      "start": 829.259,
+      "duration": 3.45
+    },
+    {
+      "text": "inputs and some inputs are connected",
+      "start": 831.269,
+      "duration": 3.781
+    },
+    {
+      "text": "with other outputs so we don't have a",
+      "start": 832.709,
+      "duration": 8.161
+    },
+    {
+      "text": "perfect we have some points that are",
+      "start": 835.05,
+      "duration": 7.71
+    },
+    {
+      "text": "hard are achieving no additional and",
+      "start": 840.87,
+      "duration": 4.019
+    },
+    {
+      "text": "anima d except for the computational",
+      "start": 842.76,
+      "duration": 4.53
+    },
+    {
+      "text": "complexity that it takes to unravel the",
+      "start": 844.889,
+      "duration": 6.781
+    },
+    {
+      "text": "the coin joint so this is pretty much",
+      "start": 847.29,
+      "duration": 7.02
+    },
+    {
+      "text": "the ends here there's some anonymity",
+      "start": 851.67,
+      "duration": 6.38
+    },
+    {
+      "text": "here in the computational complexity",
+      "start": 854.31,
+      "duration": 8.04
+    },
+    {
+      "text": "that's required to to figure out how to",
+      "start": 858.05,
+      "duration": 6.339
+    },
+    {
+      "text": "break down these coin joins especially",
+      "start": 862.35,
+      "duration": 3.479
+    },
+    {
+      "text": "if we start talking about you know ten",
+      "start": 864.389,
+      "duration": 3.871
+    },
+    {
+      "text": "participants 30 participants 50",
+      "start": 865.829,
+      "duration": 5.791
+    },
+    {
+      "text": "participants there's still a link",
+      "start": 868.26,
+      "duration": 5.189
+    },
+    {
+      "text": "between the inputs and outputs the",
+      "start": 871.62,
+      "duration": 4.35
+    },
+    {
+      "text": "entire sub transaction petition must be",
+      "start": 873.449,
+      "duration": 3.931
+    },
+    {
+      "text": "known in order to apply the algorithm",
+      "start": 875.97,
+      "duration": 4.26
+    },
+    {
+      "text": "this is the most important trade-off I",
+      "start": 877.38,
+      "duration": 6.03
+    },
+    {
+      "text": "think is that currently from what I've",
+      "start": 880.23,
+      "duration": 6.209
+    },
+    {
+      "text": "read it seems that this can be done in a",
+      "start": 883.41,
+      "duration": 7.2
+    },
+    {
+      "text": "net trustless way where someone isn't",
+      "start": 886.439,
+      "duration": 7.26
+    },
+    {
+      "text": "coordinating all the transactions yeah",
+      "start": 890.61,
+      "duration": 5.31
+    },
+    {
+      "text": "and that's exactly the third algorithm I",
+      "start": 893.699,
+      "duration": 3.76
+    },
+    {
+      "text": "came up with",
+      "start": 895.92,
+      "duration": 4.169
+    },
+    {
+      "text": "I will have to read my own work again to",
+      "start": 897.459,
+      "duration": 4.951
+    },
+    {
+      "text": "understand what I did because it's or I",
+      "start": 900.089,
+      "duration": 4.42
+    },
+    {
+      "text": "think two years now that I was working",
+      "start": 902.41,
+      "duration": 5.489
+    },
+    {
+      "text": "on it but I had a third version of the",
+      "start": 904.509,
+      "duration": 5.43
+    },
+    {
+      "text": "algorithm which was working without",
+      "start": 907.899,
+      "duration": 5.011
+    },
+    {
+      "text": "knowing all the outputs so for each",
+      "start": 909.939,
+      "duration": 5.19
+    },
+    {
+      "text": "everybody knows needs to know all the",
+      "start": 912.91,
+      "duration": 4.859
+    },
+    {
+      "text": "inputs but each participant only needs",
+      "start": 915.129,
+      "duration": 7.83
+    },
+    {
+      "text": "to know his own outputs okay so would it",
+      "start": 917.769,
+      "duration": 12.42
+    },
+    {
+      "text": "be everybody just needs to know all the",
+      "start": 922.959,
+      "duration": 9.18
+    },
+    {
+      "text": "inputs okay",
+      "start": 930.189,
+      "duration": 5.94
+    },
+    {
+      "text": "so interesting so upper bound and nobody",
+      "start": 932.139,
+      "duration": 8.79
+    },
+    {
+      "text": "it's you know like if we look at this",
+      "start": 936.129,
+      "duration": 7.65
+    },
+    {
+      "text": "way of looking at transaction anonymity",
+      "start": 940.929,
+      "duration": 7.2
+    },
+    {
+      "text": "and we applied to zero link we see that",
+      "start": 943.779,
+      "duration": 6.631
+    },
+    {
+      "text": "zero link is like a perfect knapsack",
+      "start": 948.129,
+      "duration": 4.65
+    },
+    {
+      "text": "coin joint so that sort of provides us",
+      "start": 950.41,
+      "duration": 4.529
+    },
+    {
+      "text": "the upper bound anonymity which is",
+      "start": 952.779,
+      "duration": 3.511
+    },
+    {
+      "text": "essentially the number of total",
+      "start": 954.939,
+      "duration": 4.62
+    },
+    {
+      "text": "participants that are doing this this",
+      "start": 956.29,
+      "duration": 8.009
+    },
+    {
+      "text": "knapsack coin joint a lot of things here",
+      "start": 959.559,
+      "duration": 8.041
+    },
+    {
+      "text": "and I think this is your your last slide",
+      "start": 964.299,
+      "duration": 6.57
+    },
+    {
+      "text": "so can I come back to it later and",
+      "start": 967.6,
+      "duration": 6.12
+    },
+    {
+      "text": "discuss everything every concluding",
+      "start": 970.869,
+      "duration": 6.18
+    },
+    {
+      "text": "thought one by one sure sure",
+      "start": 973.72,
+      "duration": 9.869
+    },
+    {
+      "text": "so yeah only to Felix because that's",
+      "start": 977.049,
+      "duration": 11.27
+    },
+    {
+      "text": "pretty much deal have you seen the paper",
+      "start": 983.589,
+      "duration": 7.29
+    },
+    {
+      "text": "Thank You Aviv it's it's a nice",
+      "start": 988.319,
+      "duration": 4.781
+    },
+    {
+      "text": "introduction to get everyone catch up",
+      "start": 990.879,
+      "duration": 5.52
+    },
+    {
+      "text": "with the paper and we can go into the",
+      "start": 993.1,
+      "duration": 7.409
+    },
+    {
+      "text": "details here and there I was thinking",
+      "start": 996.399,
+      "duration": 7.831
+    },
+    {
+      "text": "that if Felix appears then we would we",
+      "start": 1000.509,
+      "duration": 6.24
+    },
+    {
+      "text": "would start with some questions to Felix",
+      "start": 1004.23,
+      "duration": 8.069
+    },
+    {
+      "text": "and then we would continue with the if",
+      "start": 1006.749,
+      "duration": 9.33
+    },
+    {
+      "text": "anyone has some small presentations then",
+      "start": 1012.299,
+      "duration": 5.97
+    },
+    {
+      "text": "then we would continue with those and",
+      "start": 1016.079,
+      "duration": 6.841
+    },
+    {
+      "text": "then we would end up with discussions",
+      "start": 1018.269,
+      "duration": 9.15
+    },
+    {
+      "text": "questions what did we not understood in",
+      "start": 1022.92,
+      "duration": 8.13
+    },
+    {
+      "text": "the in the paper",
+      "start": 1027.419,
+      "duration": 7.661
+    },
+    {
+      "text": "although this could be bring-bring here",
+      "start": 1031.05,
+      "duration": 7.6
+    },
+    {
+      "text": "right now because felix is still here so",
+      "start": 1035.08,
+      "duration": 9.36
+    },
+    {
+      "text": "and we would finally discuss some some",
+      "start": 1038.65,
+      "duration": 8.46
+    },
+    {
+      "text": "things like like if you have any ideas",
+      "start": 1044.44,
+      "duration": 5.25
+    },
+    {
+      "text": "that came to your mind with this paper",
+      "start": 1047.11,
+      "duration": 7.97
+    },
+    {
+      "text": "and then we would envy dirties and we",
+      "start": 1049.69,
+      "duration": 7.8
+    },
+    {
+      "text": "deciding on what should be the next",
+      "start": 1055.08,
+      "duration": 8.49
+    },
+    {
+      "text": "paper on next week so let's start with",
+      "start": 1057.49,
+      "duration": 10.89
+    },
+    {
+      "text": "let's start with some some more more fun",
+      "start": 1063.57,
+      "duration": 8.89
+    },
+    {
+      "text": "things Felix I I would like to to know",
+      "start": 1068.38,
+      "duration": 6.39
+    },
+    {
+      "text": "what was the story behind that knapsack",
+      "start": 1072.46,
+      "duration": 5.46
+    },
+    {
+      "text": "paper how did you come work we work on",
+      "start": 1074.77,
+      "duration": 6.86
+    },
+    {
+      "text": "it and yeah I can you tell us about it",
+      "start": 1077.92,
+      "duration": 7.38
+    },
+    {
+      "text": "yeah of course actually it started as my",
+      "start": 1081.63,
+      "duration": 9.01
+    },
+    {
+      "text": "master thesis so more or less when the",
+      "start": 1085.3,
+      "duration": 7.74
+    },
+    {
+      "text": "most of the content of the paper is also",
+      "start": 1090.64,
+      "duration": 6.71
+    },
+    {
+      "text": "my master thesis I opened it a bit of",
+      "start": 1093.04,
+      "duration": 7.11
+    },
+    {
+      "text": "yeah more of the related work which was",
+      "start": 1097.35,
+      "duration": 7.36
+    },
+    {
+      "text": "also a big part of my thesis and some",
+      "start": 1100.15,
+      "duration": 7.08
+    },
+    {
+      "text": "some of the results have not been part",
+      "start": 1104.71,
+      "duration": 5.34
+    },
+    {
+      "text": "of my thesis but more or less the idea",
+      "start": 1107.23,
+      "duration": 7.89
+    },
+    {
+      "text": "and the general yeah most of the work is",
+      "start": 1110.05,
+      "duration": 7.55
+    },
+    {
+      "text": "basically my math assist master thesis",
+      "start": 1115.12,
+      "duration": 6.0
+    },
+    {
+      "text": "so after I finished the thesis I was I",
+      "start": 1117.6,
+      "duration": 7.95
+    },
+    {
+      "text": "wrote and paper based on it and I think",
+      "start": 1121.12,
+      "duration": 7.77
+    },
+    {
+      "text": "the one interesting thing is also that",
+      "start": 1125.55,
+      "duration": 6.73
+    },
+    {
+      "text": "the knapsack the trunk knapsack for this",
+      "start": 1128.89,
+      "duration": 8.25
+    },
+    {
+      "text": "mixing is not it's not my my idea it was",
+      "start": 1132.28,
+      "duration": 8.19
+    },
+    {
+      "text": "I picked up the idea from two papers",
+      "start": 1137.14,
+      "duration": 6.99
+    },
+    {
+      "text": "which yeah basically in one or two",
+      "start": 1140.47,
+      "duration": 5.73
+    },
+    {
+      "text": "sentence describe that something like",
+      "start": 1144.13,
+      "duration": 5.01
+    },
+    {
+      "text": "this could be done but did not really go",
+      "start": 1146.2,
+      "duration": 7.44
+    },
+    {
+      "text": "into it so yeah this is how I came up",
+      "start": 1149.14,
+      "duration": 7.05
+    },
+    {
+      "text": "with this idea or why I started working",
+      "start": 1153.64,
+      "duration": 8.51
+    },
+    {
+      "text": "on this idea and did you follow up on",
+      "start": 1156.19,
+      "duration": 7.52
+    },
+    {
+      "text": "writing the paper",
+      "start": 1162.15,
+      "duration": 4.85
+    },
+    {
+      "text": "or what are you what did you move on to",
+      "start": 1163.71,
+      "duration": 7.709
+    },
+    {
+      "text": "no actually I started after my thesis I",
+      "start": 1167.0,
+      "duration": 8.649
+    },
+    {
+      "text": "started doing a PhD at the RW th in",
+      "start": 1171.419,
+      "duration": 9.351
+    },
+    {
+      "text": "authen but after year after one year I",
+      "start": 1175.649,
+      "duration": 7.321
+    },
+    {
+      "text": "realized that it's not the right",
+      "start": 1180.77,
+      "duration": 5.5
+    },
+    {
+      "text": "environment for me so I moved on and I'm",
+      "start": 1182.97,
+      "duration": 5.97
+    },
+    {
+      "text": "now working at and faunal for Institute",
+      "start": 1186.27,
+      "duration": 5.34
+    },
+    {
+      "text": "which is not at all related to what I've",
+      "start": 1188.94,
+      "duration": 5.07
+    },
+    {
+      "text": "done before so unfortunately since two",
+      "start": 1191.61,
+      "duration": 4.47
+    },
+    {
+      "text": "years I'm not working on the topic at",
+      "start": 1194.01,
+      "duration": 7.26
+    },
+    {
+      "text": "all anymore I see anyone has any general",
+      "start": 1196.08,
+      "duration": 8.31
+    },
+    {
+      "text": "questions I I have more more in topic",
+      "start": 1201.27,
+      "duration": 11.07
+    },
+    {
+      "text": "questions now hi well I would like to",
+      "start": 1204.39,
+      "duration": 14.009
+    },
+    {
+      "text": "know about the test the validation of",
+      "start": 1212.34,
+      "duration": 11.939
+    },
+    {
+      "text": "these policies if you have published the",
+      "start": 1218.399,
+      "duration": 10.28
+    },
+    {
+      "text": "the source code for this paper",
+      "start": 1224.279,
+      "duration": 4.4
+    },
+    {
+      "text": "yes actually I have I have published the",
+      "start": 1230.87,
+      "duration": 7.21
+    },
+    {
+      "text": "code that I was used to produce the",
+      "start": 1234.63,
+      "duration": 9.269
+    },
+    {
+      "text": "result of the paper I'm not sure if it's",
+      "start": 1238.08,
+      "duration": 8.67
+    },
+    {
+      "text": "linked anywhere but I it's a public",
+      "start": 1243.899,
+      "duration": 6.571
+    },
+    {
+      "text": "repository on jade lab let me paste the",
+      "start": 1246.75,
+      "duration": 10.89
+    },
+    {
+      "text": "link for you thank you it's great thank",
+      "start": 1250.47,
+      "duration": 8.48
+    },
+    {
+      "text": "you",
+      "start": 1257.64,
+      "duration": 4.98
+    },
+    {
+      "text": "most of the difficulties I I encountered",
+      "start": 1258.95,
+      "duration": 9.79
+    },
+    {
+      "text": "is the deciphering the pseudo code yeah",
+      "start": 1262.62,
+      "duration": 9.99
+    },
+    {
+      "text": "no the I was just looking into the code",
+      "start": 1268.74,
+      "duration": 8.069
+    },
+    {
+      "text": "everything's there the in it's written",
+      "start": 1272.61,
+      "duration": 6.179
+    },
+    {
+      "text": "in rust I don't know if you have",
+      "start": 1276.809,
+      "duration": 4.831
+    },
+    {
+      "text": "experience with rust but it should be",
+      "start": 1278.789,
+      "duration": 6.811
+    },
+    {
+      "text": "readable for anybody using who is used",
+      "start": 1281.64,
+      "duration": 8.22
+    },
+    {
+      "text": "to imperative languages and I think the",
+      "start": 1285.6,
+      "duration": 6.51
+    },
+    {
+      "text": "interesting part is on the main in the",
+      "start": 1289.86,
+      "duration": 5.819
+    },
+    {
+      "text": "main source for the distribution dot RS",
+      "start": 1292.11,
+      "duration": 4.82
+    },
+    {
+      "text": "file",
+      "start": 1295.679,
+      "duration": 5.871
+    },
+    {
+      "text": "in there are the the different mixing",
+      "start": 1296.93,
+      "duration": 11.27
+    },
+    {
+      "text": "algorithms that I used yeah Thank You",
+      "start": 1301.55,
+      "duration": 10.11
+    },
+    {
+      "text": "Lucas your root code for it - and",
+      "start": 1308.2,
+      "duration": 8.07
+    },
+    {
+      "text": "actually I brought code for it - perfect",
+      "start": 1311.66,
+      "duration": 8.1
+    },
+    {
+      "text": "so we can we can validate I have one",
+      "start": 1316.27,
+      "duration": 6.82
+    },
+    {
+      "text": "last question that all you can answer is",
+      "start": 1319.76,
+      "duration": 8.25
+    },
+    {
+      "text": "that on the paper at the end you wrote",
+      "start": 1323.09,
+      "duration": 5.49
+    },
+    {
+      "text": "that",
+      "start": 1328.01,
+      "duration": 3.9
+    },
+    {
+      "text": "however currently our output splitting",
+      "start": 1328.58,
+      "duration": 6.51
+    },
+    {
+      "text": "algorithm requires knowledge of all sub",
+      "start": 1331.91,
+      "duration": 6.66
+    },
+    {
+      "text": "transactions using it in a peer-to-peer",
+      "start": 1335.09,
+      "duration": 6.57
+    },
+    {
+      "text": "network would likely leak information to",
+      "start": 1338.57,
+      "duration": 4.47
+    },
+    {
+      "text": "all participants",
+      "start": 1341.66,
+      "duration": 4.8
+    },
+    {
+      "text": "we are already researching a new output",
+      "start": 1343.04,
+      "duration": 5.7
+    },
+    {
+      "text": "splitting algorithm that mitigates this",
+      "start": 1346.46,
+      "duration": 8.78
+    },
+    {
+      "text": "problem yes this is exactly the third",
+      "start": 1348.74,
+      "duration": 9.72
+    },
+    {
+      "text": "mixing algorithm that I developed mostly",
+      "start": 1355.24,
+      "duration": 5.71
+    },
+    {
+      "text": "at the end of writing the paper so it is",
+      "start": 1358.46,
+      "duration": 3.87
+    },
+    {
+      "text": "not part of the paper anymore",
+      "start": 1360.95,
+      "duration": 3.84
+    },
+    {
+      "text": "unfortunately it was finished shortly",
+      "start": 1362.33,
+      "duration": 7.7
+    },
+    {
+      "text": "after the paper let me see",
+      "start": 1364.79,
+      "duration": 5.24
+    },
+    {
+      "text": "it's in the code it's this line",
+      "start": 1370.57,
+      "duration": 12.64
+    },
+    {
+      "text": "basically the idea is that you broadcast",
+      "start": 1377.5,
+      "duration": 8.83
+    },
+    {
+      "text": "to all participants all the inputs well",
+      "start": 1383.21,
+      "duration": 4.92
+    },
+    {
+      "text": "you can also do that in a fashion that",
+      "start": 1386.33,
+      "duration": 5.88
+    },
+    {
+      "text": "you don't know the which input belongs",
+      "start": 1388.13,
+      "duration": 8.94
+    },
+    {
+      "text": "to which participant and then you can",
+      "start": 1392.21,
+      "duration": 8.28
+    },
+    {
+      "text": "split your own outputs based on all the",
+      "start": 1397.07,
+      "duration": 6.78
+    },
+    {
+      "text": "inputs that you that you've seen without",
+      "start": 1400.49,
+      "duration": 8.46
+    },
+    {
+      "text": "telling anybody all the outputs yeah",
+      "start": 1403.85,
+      "duration": 9.24
+    },
+    {
+      "text": "that sorry",
+      "start": 1408.95,
+      "duration": 7.68
+    },
+    {
+      "text": "where are you sharing the links in the",
+      "start": 1413.09,
+      "duration": 10.08
+    },
+    {
+      "text": "hangouts chat I saved them",
+      "start": 1416.63,
+      "duration": 12.9
+    },
+    {
+      "text": "okay thank you so that that was all my",
+      "start": 1423.17,
+      "duration": 9.24
+    },
+    {
+      "text": "questions that only Felix students were",
+      "start": 1429.53,
+      "duration": 8.33
+    },
+    {
+      "text": "any anyone has any questions to Felix",
+      "start": 1432.41,
+      "duration": 5.45
+    },
+    {
+      "text": "okay me I go again and about the two",
+      "start": 1447.04,
+      "duration": 9.99
+    },
+    {
+      "text": "things first I was playing with the",
+      "start": 1452.87,
+      "duration": 9.3
+    },
+    {
+      "text": "concept for a while and what I do is I",
+      "start": 1457.03,
+      "duration": 11.73
+    },
+    {
+      "text": "sort the outputs descending by amount",
+      "start": 1462.17,
+      "duration": 6.59
+    },
+    {
+      "text": "just to it's just an especial case right",
+      "start": 1471.04,
+      "duration": 8.68
+    },
+    {
+      "text": "and I use two outputs one is the payment",
+      "start": 1475.18,
+      "duration": 9.13
+    },
+    {
+      "text": "another is the change and I realized",
+      "start": 1479.72,
+      "duration": 7.14
+    },
+    {
+      "text": "that in this scheme with this",
+      "start": 1484.31,
+      "duration": 7.35
+    },
+    {
+      "text": "modification well I don't know if is",
+      "start": 1486.86,
+      "duration": 7.68
+    },
+    {
+      "text": "with this modification only but it",
+      "start": 1491.66,
+      "duration": 10.17
+    },
+    {
+      "text": "creates for example 1.5 outputs for each",
+      "start": 1494.54,
+      "duration": 9.99
+    },
+    {
+      "text": "original output for example if I have a",
+      "start": 1501.83,
+      "duration": 5.81
+    },
+    {
+      "text": "two participant",
+      "start": 1504.53,
+      "duration": 3.11
+    },
+    {
+      "text": "conjoint with four outputs it creates",
+      "start": 1507.75,
+      "duration": 11.65
+    },
+    {
+      "text": "six outputs if I have three participants",
+      "start": 1512.7,
+      "duration": 9.79
+    },
+    {
+      "text": "with two outputs I mean six outputs in",
+      "start": 1519.4,
+      "duration": 6.75
+    },
+    {
+      "text": "total it creates nine outputs and that I",
+      "start": 1522.49,
+      "duration": 5.82
+    },
+    {
+      "text": "don't know if you have some comment",
+      "start": 1526.15,
+      "duration": 6.42
+    },
+    {
+      "text": "about this but go us to to know how many",
+      "start": 1528.31,
+      "duration": 9.96
+    },
+    {
+      "text": "participants I are in that culture is it",
+      "start": 1532.57,
+      "duration": 9.0
+    },
+    {
+      "text": "that I'm doing something wrong or or is",
+      "start": 1538.27,
+      "duration": 5.67
+    },
+    {
+      "text": "just because I'm sorting the their",
+      "start": 1541.57,
+      "duration": 6.57
+    },
+    {
+      "text": "outputs or or well I can answer my",
+      "start": 1543.94,
+      "duration": 7.86
+    },
+    {
+      "text": "question just by by calling a bit more",
+      "start": 1548.14,
+      "duration": 5.64
+    },
+    {
+      "text": "but I don't know if it's something that",
+      "start": 1551.8,
+      "duration": 5.79
+    },
+    {
+      "text": "you can share with us about that no",
+      "start": 1553.78,
+      "duration": 6.21
+    },
+    {
+      "text": "that's actually an aspect that I didn't",
+      "start": 1557.59,
+      "duration": 6.45
+    },
+    {
+      "text": "look into one other aspect that I did",
+      "start": 1559.99,
+      "duration": 10.08
+    },
+    {
+      "text": "not look into is answering the question",
+      "start": 1564.04,
+      "duration": 10.86
+    },
+    {
+      "text": "whether looking at multiple knapsack mix",
+      "start": 1570.07,
+      "duration": 6.81
+    },
+    {
+      "text": "the coins and transactions would allow",
+      "start": 1574.9,
+      "duration": 6.51
+    },
+    {
+      "text": "you to then again establish stronger",
+      "start": 1576.88,
+      "duration": 8.61
+    },
+    {
+      "text": "links between inputs and outputs so this",
+      "start": 1581.41,
+      "duration": 7.64
+    },
+    {
+      "text": "is something I would I would look into",
+      "start": 1585.49,
+      "duration": 3.56
+    },
+    {
+      "text": "okay and my second question is about the",
+      "start": 1591.2,
+      "duration": 5.43
+    },
+    {
+      "text": "feet because in the paper you don't",
+      "start": 1594.47,
+      "duration": 4.65
+    },
+    {
+      "text": "analyze the fee you say basically that",
+      "start": 1596.63,
+      "duration": 6.84
+    },
+    {
+      "text": "the fee are some kind of noise right so",
+      "start": 1599.12,
+      "duration": 8.46
+    },
+    {
+      "text": "you cannot match the partitions by",
+      "start": 1603.47,
+      "duration": 7.77
+    },
+    {
+      "text": "equality because they the input the sum",
+      "start": 1607.58,
+      "duration": 6.51
+    },
+    {
+      "text": "of the input and the sum of the outputs",
+      "start": 1611.24,
+      "duration": 7.98
+    },
+    {
+      "text": "are not equal so it will be a bit harder",
+      "start": 1614.09,
+      "duration": 13.65
+    },
+    {
+      "text": "to to define the transactions but what I",
+      "start": 1619.22,
+      "duration": 13.11
+    },
+    {
+      "text": "was playing with this concept and I",
+      "start": 1627.74,
+      "duration": 6.81
+    },
+    {
+      "text": "don't know if you have some idea about",
+      "start": 1632.33,
+      "duration": 6.18
+    },
+    {
+      "text": "what's the the best way to handle the",
+      "start": 1634.55,
+      "duration": 8.79
+    },
+    {
+      "text": "the the defeat because if the",
+      "start": 1638.51,
+      "duration": 9.75
+    },
+    {
+      "text": "participant use the same fee right that",
+      "start": 1643.34,
+      "duration": 6.78
+    },
+    {
+      "text": "is for example pretty common in for",
+      "start": 1648.26,
+      "duration": 8.12
+    },
+    {
+      "text": "example in in in wasabi right and then",
+      "start": 1650.12,
+      "duration": 10.95
+    },
+    {
+      "text": "you know I was actually trying to create",
+      "start": 1656.38,
+      "duration": 8.14
+    },
+    {
+      "text": "this transactions is ethanol is a son on",
+      "start": 1661.07,
+      "duration": 6.15
+    },
+    {
+      "text": "wasabi transactions and it's such it's",
+      "start": 1664.52,
+      "duration": 6.09
+    },
+    {
+      "text": "really bad which is we can go up to one",
+      "start": 1667.22,
+      "duration": 6.5
+    },
+    {
+      "text": "person plus mine",
+      "start": 1670.61,
+      "duration": 3.11
+    },
+    {
+      "text": "and he's unreliable interesting well yes",
+      "start": 1673.94,
+      "duration": 14.78
+    },
+    {
+      "text": "well what I mean is that if if the",
+      "start": 1684.95,
+      "duration": 7.589
+    },
+    {
+      "text": "coordinator one coordinator that is",
+      "start": 1688.72,
+      "duration": 5.919
+    },
+    {
+      "text": "coordinating this knapsack transaction",
+      "start": 1692.539,
+      "duration": 6.961
+    },
+    {
+      "text": "right if everybody uses the same fee",
+      "start": 1694.639,
+      "duration": 8.16
+    },
+    {
+      "text": "right even the inputs that are bigger",
+      "start": 1699.5,
+      "duration": 6.57
+    },
+    {
+      "text": "than the outputs so they pay more more",
+      "start": 1702.799,
+      "duration": 9.51
+    },
+    {
+      "text": "fee if they pay proportional to the to",
+      "start": 1706.07,
+      "duration": 12.65
+    },
+    {
+      "text": "their transactions then yeah",
+      "start": 1712.309,
+      "duration": 12.24
+    },
+    {
+      "text": "that gives us a clue about I mean I can",
+      "start": 1718.72,
+      "duration": 8.86
+    },
+    {
+      "text": "find the sub transactions right the",
+      "start": 1724.549,
+      "duration": 8.1
+    },
+    {
+      "text": "partitions and and check if the if the",
+      "start": 1727.58,
+      "duration": 12.209
+    },
+    {
+      "text": "if the fee paid matches the same",
+      "start": 1732.649,
+      "duration": 8.581
+    },
+    {
+      "text": "transaction or not",
+      "start": 1739.789,
+      "duration": 9.421
+    },
+    {
+      "text": "so I it is an strong clue for the for",
+      "start": 1741.23,
+      "duration": 12.48
+    },
+    {
+      "text": "the chain analyzer so do you have Felix",
+      "start": 1749.21,
+      "duration": 10.62
+    },
+    {
+      "text": "any idea how to handle this what can we",
+      "start": 1753.71,
+      "duration": 14.219
+    },
+    {
+      "text": "do an idea actually no I my I to analyze",
+      "start": 1759.83,
+      "duration": 10.4
+    },
+    {
+      "text": "it I implemented an algorithm which it",
+      "start": 1767.929,
+      "duration": 7.47
+    },
+    {
+      "text": "enumerates all the possible sub sub",
+      "start": 1770.23,
+      "duration": 7.63
+    },
+    {
+      "text": "assets of the inputs and outputs and",
+      "start": 1775.399,
+      "duration": 7.051
+    },
+    {
+      "text": "tries to match them so you know I think",
+      "start": 1777.86,
+      "duration": 7.86
+    },
+    {
+      "text": "I know and I don't know I don't remember",
+      "start": 1782.45,
+      "duration": 6.329
+    },
+    {
+      "text": "how I did it but is spirited speeded it",
+      "start": 1785.72,
+      "duration": 6.539
+    },
+    {
+      "text": "up with an bloom filter and I'm I",
+      "start": 1788.779,
+      "duration": 6.541
+    },
+    {
+      "text": "realized that implementing a fast",
+      "start": 1792.259,
+      "duration": 5.941
+    },
+    {
+      "text": "algorithm is should probably intuitively",
+      "start": 1795.32,
+      "duration": 6.15
+    },
+    {
+      "text": "be more difficult if the sums did not",
+      "start": 1798.2,
+      "duration": 8.04
+    },
+    {
+      "text": "match so and my thinking was that maybe",
+      "start": 1801.47,
+      "duration": 6.3
+    },
+    {
+      "text": "it does not make the",
+      "start": 1806.24,
+      "duration": 3.87
+    },
+    {
+      "text": "mathematical problem harder but it makes",
+      "start": 1807.77,
+      "duration": 5.1
+    },
+    {
+      "text": "it much harder to implement an efficient",
+      "start": 1810.11,
+      "duration": 5.64
+    },
+    {
+      "text": "algorithm to actually find all the",
+      "start": 1812.87,
+      "duration": 5.31
+    },
+    {
+      "text": "possible mappings all the possible",
+      "start": 1815.75,
+      "duration": 5.85
+    },
+    {
+      "text": "partitions yeah that's clear because I'm",
+      "start": 1818.18,
+      "duration": 6.66
+    },
+    {
+      "text": "suffering with that problem it is it is",
+      "start": 1821.6,
+      "duration": 6.42
+    },
+    {
+      "text": "really hard because you say okay it has",
+      "start": 1824.84,
+      "duration": 6.78
+    },
+    {
+      "text": "to match it is have to in a in a range",
+      "start": 1828.02,
+      "duration": 7.65
+    },
+    {
+      "text": "right it has to okay if it is more or",
+      "start": 1831.62,
+      "duration": 6.78
+    },
+    {
+      "text": "less this value so yes it's a pain in",
+      "start": 1835.67,
+      "duration": 9.96
+    },
+    {
+      "text": "the ass but and my mic and you cannot",
+      "start": 1838.4,
+      "duration": 9.81
+    },
+    {
+      "text": "use and you cannot use a bloom filter of",
+      "start": 1845.63,
+      "duration": 5.1
+    },
+    {
+      "text": "course so you have to keep it in memory",
+      "start": 1848.21,
+      "duration": 7.05
+    },
+    {
+      "text": "what is what is even worse but the",
+      "start": 1850.73,
+      "duration": 10.94
+    },
+    {
+      "text": "question was about how to how can we",
+      "start": 1855.26,
+      "duration": 6.41
+    },
+    {
+      "text": "make the make the the participants pay a",
+      "start": 1862.39,
+      "duration": 6.92
+    },
+    {
+      "text": "fee in such a way that it doesn't",
+      "start": 1866.17,
+      "duration": 6.12
+    },
+    {
+      "text": "provide additional information to the",
+      "start": 1869.31,
+      "duration": 11.74
+    },
+    {
+      "text": "chain analyzer I'm I'm not sure whether",
+      "start": 1872.29,
+      "duration": 10.26
+    },
+    {
+      "text": "it actually provides additional",
+      "start": 1881.05,
+      "duration": 3.87
+    },
+    {
+      "text": "information I would have to think about",
+      "start": 1882.55,
+      "duration": 7.14
+    },
+    {
+      "text": "it because it would only provide more",
+      "start": 1884.92,
+      "duration": 8.79
+    },
+    {
+      "text": "information if it would help you",
+      "start": 1889.69,
+      "duration": 6.81
+    },
+    {
+      "text": "distinguish between subsets that are",
+      "start": 1893.71,
+      "duration": 6.12
+    },
+    {
+      "text": "more likely the real or mappings that",
+      "start": 1896.5,
+      "duration": 5.04
+    },
+    {
+      "text": "are more likely the real mappings than",
+      "start": 1899.83,
+      "duration": 7.74
+    },
+    {
+      "text": "others right agree that it doesn't",
+      "start": 1901.54,
+      "duration": 8.67
+    },
+    {
+      "text": "provide additional information it makes",
+      "start": 1907.57,
+      "duration": 7.58
+    },
+    {
+      "text": "it even harder to to do the the analysis",
+      "start": 1910.21,
+      "duration": 10.65
+    },
+    {
+      "text": "and I I did the analysis with the",
+      "start": 1915.15,
+      "duration": 10.36
+    },
+    {
+      "text": "precision and the only real difficulty",
+      "start": 1920.86,
+      "duration": 7.44
+    },
+    {
+      "text": "with the tunnel is how do you set the",
+      "start": 1925.51,
+      "duration": 7.29
+    },
+    {
+      "text": "precision and what I realized for Norma",
+      "start": 1928.3,
+      "duration": 6.72
+    },
+    {
+      "text": "Cohen joins you can set the precision as",
+      "start": 1932.8,
+      "duration": 4.8
+    },
+    {
+      "text": "the mining fee because the mining fee is",
+      "start": 1935.02,
+      "duration": 6.45
+    },
+    {
+      "text": "the maximum amount one participant can",
+      "start": 1937.6,
+      "duration": 7.05
+    },
+    {
+      "text": "pay with joint market transactions",
+      "start": 1941.47,
+      "duration": 7.92
+    },
+    {
+      "text": "it's mining fee plus random I I don't",
+      "start": 1944.65,
+      "duration": 7.14
+    },
+    {
+      "text": "know what what it should be random",
+      "start": 1949.39,
+      "duration": 5.69
+    },
+    {
+      "text": "whatever the the going market",
+      "start": 1951.79,
+      "duration": 7.35
+    },
+    {
+      "text": "transaction agreement was on the fees",
+      "start": 1955.08,
+      "duration": 8.67
+    },
+    {
+      "text": "that the taker pays for the makers on",
+      "start": 1959.14,
+      "duration": 8.82
+    },
+    {
+      "text": "massabi it's a mining fee plus 1% and",
+      "start": 1963.75,
+      "duration": 7.14
+    },
+    {
+      "text": "that produces a bunch of reliability",
+      "start": 1967.96,
+      "duration": 7.65
+    },
+    {
+      "text": "unreliability of course so so yeah it",
+      "start": 1970.89,
+      "duration": 10.0
+    },
+    {
+      "text": "it's I don't see how it would provide",
+      "start": 1975.61,
+      "duration": 7.33
+    },
+    {
+      "text": "more information",
+      "start": 1980.89,
+      "duration": 5.539
+    },
+    {
+      "text": "now it does it provides more information",
+      "start": 1982.94,
+      "duration": 7.93
+    },
+    {
+      "text": "in fact I mean if you for example you",
+      "start": 1986.429,
+      "duration": 7.201
+    },
+    {
+      "text": "know that the the fear rate is I don't",
+      "start": 1990.87,
+      "duration": 6.12
+    },
+    {
+      "text": "know one yes and you have all this noise",
+      "start": 1993.63,
+      "duration": 7.289
+    },
+    {
+      "text": "or know the explain it what does it mean",
+      "start": 1996.99,
+      "duration": 7.76
+    },
+    {
+      "text": "one okay a once at a shipper right",
+      "start": 2000.919,
+      "duration": 7.14
+    },
+    {
+      "text": "if the fill rate is once at provide for",
+      "start": 2004.75,
+      "duration": 7.12
+    },
+    {
+      "text": "example so and you use you will see that",
+      "start": 2008.059,
+      "duration": 8.21
+    },
+    {
+      "text": "the you can take all the the partitions",
+      "start": 2011.87,
+      "duration": 11.46
+    },
+    {
+      "text": "right and say okay this this the some of",
+      "start": 2016.269,
+      "duration": 11.5
+    },
+    {
+      "text": "these inputs yes - the some of these",
+      "start": 2023.33,
+      "duration": 9.329
+    },
+    {
+      "text": "outputs gives you the feel right so that",
+      "start": 2027.769,
+      "duration": 8.701
+    },
+    {
+      "text": "fee given the the size of the",
+      "start": 2032.659,
+      "duration": 9.98
+    },
+    {
+      "text": "transaction you know how much it paid a",
+      "start": 2036.47,
+      "duration": 8.4
+    },
+    {
+      "text": "what is there you don't know right",
+      "start": 2042.639,
+      "duration": 4.861
+    },
+    {
+      "text": "Sophie you don't know who pay the fee",
+      "start": 2044.87,
+      "duration": 5.489
+    },
+    {
+      "text": "there are many participants it could be",
+      "start": 2047.5,
+      "duration": 5.71
+    },
+    {
+      "text": "that only one participant beta fee it",
+      "start": 2050.359,
+      "duration": 4.651
+    },
+    {
+      "text": "could be that all of them played",
+      "start": 2053.21,
+      "duration": 4.07
+    },
+    {
+      "text": "together",
+      "start": 2055.01,
+      "duration": 2.27
+    },
+    {
+      "text": "yes well in that case if only one pay",
+      "start": 2057.62,
+      "duration": 7.26
+    },
+    {
+      "text": "the fee okay yes it makes sense but in",
+      "start": 2061.4,
+      "duration": 6.66
+    },
+    {
+      "text": "that case also also is is a problem",
+      "start": 2064.88,
+      "duration": 7.08
+    },
+    {
+      "text": "because you can say okay if it match",
+      "start": 2068.06,
+      "duration": 8.19
+    },
+    {
+      "text": "exactly yes then this is one of those",
+      "start": 2071.96,
+      "duration": 8.9
+    },
+    {
+      "text": "that didn't pay anything - exactly but",
+      "start": 2076.25,
+      "duration": 7.86
+    },
+    {
+      "text": "if the sum is the sum of the input and",
+      "start": 2080.86,
+      "duration": 6.31
+    },
+    {
+      "text": "the zone of the outputs then you can say",
+      "start": 2084.11,
+      "duration": 5.28
+    },
+    {
+      "text": "that this participant did not pay",
+      "start": 2087.17,
+      "duration": 3.09
+    },
+    {
+      "text": "anything",
+      "start": 2089.39,
+      "duration": 5.4
+    },
+    {
+      "text": "why wife yes who say that there are many",
+      "start": 2090.26,
+      "duration": 8.18
+    },
+    {
+      "text": "other sub mappings there could be",
+      "start": 2094.79,
+      "duration": 8.37
+    },
+    {
+      "text": "possible even if you found one that that",
+      "start": 2098.44,
+      "duration": 7.21
+    },
+    {
+      "text": "all the dark like that if if you find",
+      "start": 2103.16,
+      "duration": 4.83
+    },
+    {
+      "text": "other methods that that those are just",
+      "start": 2105.65,
+      "duration": 6.86
+    },
+    {
+      "text": "as likely as that your first",
+      "start": 2107.99,
+      "duration": 4.52
+    },
+    {
+      "text": "I think I understand what you mean Lucas",
+      "start": 2113.85,
+      "duration": 8.37
+    },
+    {
+      "text": "so if all the participants pay exactly",
+      "start": 2118.01,
+      "duration": 9.19
+    },
+    {
+      "text": "the same fee and we have one mapping",
+      "start": 2122.22,
+      "duration": 8.88
+    },
+    {
+      "text": "where all the input and the difference",
+      "start": 2127.2,
+      "duration": 5.97
+    },
+    {
+      "text": "between the inputs and the outputs met",
+      "start": 2131.1,
+      "duration": 5.79
+    },
+    {
+      "text": "exactly matches this fee then we would",
+      "start": 2133.17,
+      "duration": 5.67
+    },
+    {
+      "text": "assume that this must be the true",
+      "start": 2136.89,
+      "duration": 5.58
+    },
+    {
+      "text": "mapping but I'm not sure whether there",
+      "start": 2138.84,
+      "duration": 8.19
+    },
+    {
+      "text": "would only be one such mapping well yes",
+      "start": 2142.47,
+      "duration": 9.84
+    },
+    {
+      "text": "but in the in the runs that I think may",
+      "start": 2147.03,
+      "duration": 9.06
+    },
+    {
+      "text": "I found a lot of mappings but some",
+      "start": 2152.31,
+      "duration": 6.66
+    },
+    {
+      "text": "mappings have have only two inputs right",
+      "start": 2156.09,
+      "duration": 7.86
+    },
+    {
+      "text": "and other mappings have 6 inputs yes but",
+      "start": 2158.97,
+      "duration": 10.38
+    },
+    {
+      "text": "if if I know that they pay 1 Satoshi per",
+      "start": 2163.95,
+      "duration": 9.3
+    },
+    {
+      "text": "byte and the fee page was next I don't",
+      "start": 2169.35,
+      "duration": 7.47
+    },
+    {
+      "text": "know yes so I mean I can know which of",
+      "start": 2173.25,
+      "duration": 7.01
+    },
+    {
+      "text": "those mappings is the real one",
+      "start": 2176.82,
+      "duration": 7.92
+    },
+    {
+      "text": "because one will be paying exactly one",
+      "start": 2180.26,
+      "duration": 6.91
+    },
+    {
+      "text": "Satoshi provide and the other one will",
+      "start": 2184.74,
+      "duration": 5.13
+    },
+    {
+      "text": "be paying a lot less because they have a",
+      "start": 2187.17,
+      "duration": 5.61
+    },
+    {
+      "text": "lot more inputs so it's a more is a",
+      "start": 2189.87,
+      "duration": 7.14
+    },
+    {
+      "text": "bigger sub transaction so I know that",
+      "start": 2192.78,
+      "duration": 6.27
+    },
+    {
+      "text": "sub transaction cannot be the real one",
+      "start": 2197.01,
+      "duration": 6.57
+    },
+    {
+      "text": "because it's paying the less than and",
+      "start": 2199.05,
+      "duration": 11.13
+    },
+    {
+      "text": "expected things so you mean when you",
+      "start": 2203.58,
+      "duration": 10.62
+    },
+    {
+      "text": "have multiple mappings and then the",
+      "start": 2210.18,
+      "duration": 6.99
+    },
+    {
+      "text": "difference between the inputs and",
+      "start": 2214.2,
+      "duration": 4.77
+    },
+    {
+      "text": "outputs of sub transactions should be",
+      "start": 2217.17,
+      "duration": 5.16
+    },
+    {
+      "text": "proportional to the number of inputs and",
+      "start": 2218.97,
+      "duration": 6.63
+    },
+    {
+      "text": "outputs and then you would know that",
+      "start": 2222.33,
+      "duration": 9.15
+    },
+    {
+      "text": "it's likely the snapping yes exactly",
+      "start": 2225.6,
+      "duration": 15.83
+    },
+    {
+      "text": "exactly yeah it could be I mean",
+      "start": 2231.48,
+      "duration": 13.59
+    },
+    {
+      "text": "obviously I have to add this is more or",
+      "start": 2241.43,
+      "duration": 8.62
+    },
+    {
+      "text": "less an empirical analysis it's not",
+      "start": 2245.07,
+      "duration": 7.68
+    },
+    {
+      "text": "really yeah",
+      "start": 2250.05,
+      "duration": 6.63
+    },
+    {
+      "text": "a mathematical proof of this concept so",
+      "start": 2252.75,
+      "duration": 6.75
+    },
+    {
+      "text": "I think the idea is really good and I",
+      "start": 2256.68,
+      "duration": 8.82
+    },
+    {
+      "text": "think it would work combined because of",
+      "start": 2259.5,
+      "duration": 9.02
+    },
+    {
+      "text": "the reason that it's it's likely",
+      "start": 2265.5,
+      "duration": 5.43
+    },
+    {
+      "text": "infeasible to find out which mapping is",
+      "start": 2268.52,
+      "duration": 6.91
+    },
+    {
+      "text": "correct and also difficult to actually",
+      "start": 2270.93,
+      "duration": 7.8
+    },
+    {
+      "text": "find the mappings once the transactions",
+      "start": 2275.43,
+      "duration": 5.54
+    },
+    {
+      "text": "get big enough but it's not",
+      "start": 2278.73,
+      "duration": 6.0
+    },
+    {
+      "text": "yeah it's not provably correct or",
+      "start": 2280.97,
+      "duration": 7.78
+    },
+    {
+      "text": "provably anonymous in in a more strict",
+      "start": 2284.73,
+      "duration": 9.09
+    },
+    {
+      "text": "sense I guess okay when one more",
+      "start": 2288.75,
+      "duration": 9.47
+    },
+    {
+      "text": "question just kind curious and your",
+      "start": 2293.82,
+      "duration": 5.64
+    },
+    {
+      "text": "analysis",
+      "start": 2298.22,
+      "duration": 6.7
+    },
+    {
+      "text": "how many sub transactions inputs/outputs",
+      "start": 2299.46,
+      "duration": 8.91
+    },
+    {
+      "text": "did you did you use I mean did you try",
+      "start": 2304.92,
+      "duration": 7.13
+    },
+    {
+      "text": "with bigger with a bigger number of",
+      "start": 2308.37,
+      "duration": 6.27
+    },
+    {
+      "text": "participants with more inputs and more",
+      "start": 2312.05,
+      "duration": 7.5
+    },
+    {
+      "text": "outputs than those in the in the paper",
+      "start": 2314.64,
+      "duration": 9.51
+    },
+    {
+      "text": "actually no and the reason was that the",
+      "start": 2319.55,
+      "duration": 9.37
+    },
+    {
+      "text": "the time it took to to find the mappings",
+      "start": 2324.15,
+      "duration": 9.33
+    },
+    {
+      "text": "would just grew too much and I didn't it",
+      "start": 2328.92,
+      "duration": 6.93
+    },
+    {
+      "text": "didn't run on on my workstation I had a",
+      "start": 2333.48,
+      "duration": 5.46
+    },
+    {
+      "text": "bit bigger server with lots or lots of",
+      "start": 2335.85,
+      "duration": 6.6
+    },
+    {
+      "text": "RAM and multiple cores I think 64 cores",
+      "start": 2338.94,
+      "duration": 7.08
+    },
+    {
+      "text": "not obviously you could have a really",
+      "start": 2342.45,
+      "duration": 9.33
+    },
+    {
+      "text": "much bigger yeah a bigger computing the",
+      "start": 2346.02,
+      "duration": 9.99
+    },
+    {
+      "text": "computer or server or server farm yeah",
+      "start": 2351.78,
+      "duration": 6.66
+    },
+    {
+      "text": "for hours for us it was really the case",
+      "start": 2356.01,
+      "duration": 5.19
+    },
+    {
+      "text": "that it became just too difficult to",
+      "start": 2358.44,
+      "duration": 6.69
+    },
+    {
+      "text": "find all the or not not difficult but it",
+      "start": 2361.2,
+      "duration": 5.67
+    },
+    {
+      "text": "took too much time to find all the",
+      "start": 2365.13,
+      "duration": 6.39
+    },
+    {
+      "text": "mappings yes I know I try with a",
+      "start": 2366.87,
+      "duration": 7.11
+    },
+    {
+      "text": "participant that yes with sub",
+      "start": 2371.52,
+      "duration": 6.48
+    },
+    {
+      "text": "transactions and it was running all all",
+      "start": 2373.98,
+      "duration": 9.18
+    },
+    {
+      "text": "the day and didn't finish so I like can",
+      "start": 2378.0,
+      "duration": 9.99
+    },
+    {
+      "text": "selected in the process yeah okay thank",
+      "start": 2383.16,
+      "duration": 6.35
+    },
+    {
+      "text": "you",
+      "start": 2387.99,
+      "duration": 5.33
+    },
+    {
+      "text": "and if my analysis of the theoretically",
+      "start": 2389.51,
+      "duration": 7.12
+    },
+    {
+      "text": "theoretical complexity is not completely",
+      "start": 2393.32,
+      "duration": 8.17
+    },
+    {
+      "text": "wrong then yeah it's I think it the",
+      "start": 2396.63,
+      "duration": 7.32
+    },
+    {
+      "text": "computing time it takes depending on the",
+      "start": 2401.49,
+      "duration": 5.85
+    },
+    {
+      "text": "inputs and output really increases by a",
+      "start": 2403.95,
+      "duration": 5.7
+    },
+    {
+      "text": "lot when you increase the inputs and",
+      "start": 2407.34,
+      "duration": 5.04
+    },
+    {
+      "text": "output side I have it here but I it's",
+      "start": 2409.65,
+      "duration": 6.45
+    },
+    {
+      "text": "not written down in a in an easy in easy",
+      "start": 2412.38,
+      "duration": 9.48
+    },
+    {
+      "text": "way I think to ^ n times n where n is",
+      "start": 2416.1,
+      "duration": 16.83
+    },
+    {
+      "text": "the which n is set of size n are you",
+      "start": 2421.86,
+      "duration": 14.43
+    },
+    {
+      "text": "talking about the bare number or your",
+      "start": 2432.93,
+      "duration": 9.03
+    },
+    {
+      "text": "lower bound estimation my lower bound",
+      "start": 2436.29,
+      "duration": 11.52
+    },
+    {
+      "text": "estimation well yeah it's I think it",
+      "start": 2441.96,
+      "duration": 8.82
+    },
+    {
+      "text": "makes sense what I've read on the",
+      "start": 2447.81,
+      "duration": 8.4
+    },
+    {
+      "text": "internet on Wikipedia that the best best",
+      "start": 2450.78,
+      "duration": 10.65
+    },
+    {
+      "text": "algorithms known for subset sum so for",
+      "start": 2456.21,
+      "duration": 9.89
+    },
+    {
+      "text": "solving subset sum is still exponential",
+      "start": 2461.43,
+      "duration": 4.67
+    },
+    {
+      "text": "yeah so I think if you would I mean in",
+      "start": 2466.4,
+      "duration": 10.06
+    },
+    {
+      "text": "the the sizes of the of this mixed",
+      "start": 2473.31,
+      "duration": 6.36
+    },
+    {
+      "text": "transactions in the paper I think should",
+      "start": 2476.46,
+      "duration": 7.8
+    },
+    {
+      "text": "be only in an Academical setting if you",
+      "start": 2479.67,
+      "duration": 7.26
+    },
+    {
+      "text": "have if you can automate it and the idea",
+      "start": 2484.26,
+      "duration": 7.79
+    },
+    {
+      "text": "was you can join an arbitrary and",
+      "start": 2486.93,
+      "duration": 9.49
+    },
+    {
+      "text": "transactions because the the sum or the",
+      "start": 2492.05,
+      "duration": 6.47
+    },
+    {
+      "text": "value of the inputs doesn't matter it",
+      "start": 2496.42,
+      "duration": 4.23
+    },
+    {
+      "text": "doesn't need to be a fixed amount for",
+      "start": 2498.52,
+      "duration": 5.52
+    },
+    {
+      "text": "each input and then you can create for",
+      "start": 2500.65,
+      "duration": 5.25
+    },
+    {
+      "text": "each transaction that you do you can",
+      "start": 2504.04,
+      "duration": 4.71
+    },
+    {
+      "text": "create with other peers for each",
+      "start": 2505.9,
+      "duration": 4.53
+    },
+    {
+      "text": "transaction in such a corner and",
+      "start": 2508.75,
+      "duration": 4.2
+    },
+    {
+      "text": "transactional of a huge size if enough",
+      "start": 2510.43,
+      "duration": 4.8
+    },
+    {
+      "text": "people use the same wallet at the same",
+      "start": 2512.95,
+      "duration": 10.83
+    },
+    {
+      "text": "time yes we are going into it I'd like",
+      "start": 2515.23,
+      "duration": 13.46
+    },
+    {
+      "text": "to a an idea of mind at one of the most",
+      "start": 2523.78,
+      "duration": 8.73
+    },
+    {
+      "text": "frequent question in wasabi was that why",
+      "start": 2528.69,
+      "duration": 6.1
+    },
+    {
+      "text": "why do we have the hundred anonymity",
+      "start": 2532.51,
+      "duration": 7.14
+    },
+    {
+      "text": "certain and like that but and and the",
+      "start": 2534.79,
+      "duration": 6.72
+    },
+    {
+      "text": "reason is because I sent out the emails",
+      "start": 2539.65,
+      "duration": 4.89
+    },
+    {
+      "text": "and that seemed like them on census data",
+      "start": 2541.51,
+      "duration": 5.3
+    },
+    {
+      "text": "okay that that should be fine",
+      "start": 2544.54,
+      "duration": 5.73
+    },
+    {
+      "text": "the pond'rous participant but your lower",
+      "start": 2546.81,
+      "duration": 6.25
+    },
+    {
+      "text": "bound estimation could actually give us",
+      "start": 2550.27,
+      "duration": 8.78
+    },
+    {
+      "text": "a mathematic formula to to set a minimum",
+      "start": 2553.06,
+      "duration": 11.1
+    },
+    {
+      "text": "participants right for for any Cohen",
+      "start": 2559.05,
+      "duration": 8.08
+    },
+    {
+      "text": "joins okay you you you kind of need at",
+      "start": 2564.16,
+      "duration": 6.48
+    },
+    {
+      "text": "least this many participants in order to",
+      "start": 2567.13,
+      "duration": 7.31
+    },
+    {
+      "text": "make he in order to reach this",
+      "start": 2570.64,
+      "duration": 8.4
+    },
+    {
+      "text": "computational tour nests in deciphering",
+      "start": 2574.44,
+      "duration": 9.49
+    },
+    {
+      "text": "the Eco in joins does that make sense",
+      "start": 2579.04,
+      "duration": 12.17
+    },
+    {
+      "text": "guys I think the theoretical bound is",
+      "start": 2583.93,
+      "duration": 11.06
+    },
+    {
+      "text": "difficult to translate in and concrete",
+      "start": 2591.21,
+      "duration": 6.97
+    },
+    {
+      "text": "amount of time it needs to find the",
+      "start": 2594.99,
+      "duration": 6.85
+    },
+    {
+      "text": "partitioning it all it but it really",
+      "start": 2598.18,
+      "duration": 5.94
+    },
+    {
+      "text": "it's only really good for explaining how",
+      "start": 2601.84,
+      "duration": 6.6
+    },
+    {
+      "text": "fast it gets more complex or how fast",
+      "start": 2604.12,
+      "duration": 8.25
+    },
+    {
+      "text": "the time increases that you need to find",
+      "start": 2608.44,
+      "duration": 7.05
+    },
+    {
+      "text": "a partition depending on the number of",
+      "start": 2612.37,
+      "duration": 12.21
+    },
+    {
+      "text": "people who participate it's not a",
+      "start": 2615.49,
+      "duration": 12.39
+    },
+    {
+      "text": "perfect fit but the main problem is that",
+      "start": 2624.58,
+      "duration": 4.96
+    },
+    {
+      "text": "there must be enough",
+      "start": 2627.88,
+      "duration": 4.39
+    },
+    {
+      "text": "Virtue's them of what's the minimum",
+      "start": 2629.54,
+      "duration": 7.14
+    },
+    {
+      "text": "number of participants that we want to",
+      "start": 2632.27,
+      "duration": 8.16
+    },
+    {
+      "text": "do and that that's why I saw this this",
+      "start": 2636.68,
+      "duration": 6.12
+    },
+    {
+      "text": "formula your your lower bound estimation",
+      "start": 2640.43,
+      "duration": 5.46
+    },
+    {
+      "text": "would be actually somewhat useful in in",
+      "start": 2642.8,
+      "duration": 6.06
+    },
+    {
+      "text": "deciding on that number that we kind of",
+      "start": 2645.89,
+      "duration": 8.64
+    },
+    {
+      "text": "truth that they arbitrarily or with it",
+      "start": 2648.86,
+      "duration": 11.49
+    },
+    {
+      "text": "educated guesses I them yes I guess you",
+      "start": 2654.53,
+      "duration": 9.39
+    },
+    {
+      "text": "could based on the time it takes for",
+      "start": 2660.35,
+      "duration": 5.28
+    },
+    {
+      "text": "some simple examples you could",
+      "start": 2663.92,
+      "duration": 4.41
+    },
+    {
+      "text": "extrapolate using that function for more",
+      "start": 2665.63,
+      "duration": 5.07
+    },
+    {
+      "text": "complex cases with more participants",
+      "start": 2668.33,
+      "duration": 10.28
+    },
+    {
+      "text": "with more inputs to take part all right",
+      "start": 2670.7,
+      "duration": 7.91
+    },
+    {
+      "text": "but one more thing I remember in the in",
+      "start": 2678.85,
+      "duration": 9.72
+    },
+    {
+      "text": "the in the paper you said that if you",
+      "start": 2683.9,
+      "duration": 9.45
+    },
+    {
+      "text": "spend that one of those outputs in",
+      "start": 2688.57,
+      "duration": 10.23
+    },
+    {
+      "text": "another knapsack transaction yes the",
+      "start": 2693.35,
+      "duration": 11.01
+    },
+    {
+      "text": "difficulty could be similar to the one I",
+      "start": 2698.8,
+      "duration": 8.56
+    },
+    {
+      "text": "mean the problem of finding all the the",
+      "start": 2704.36,
+      "duration": 8.19
+    },
+    {
+      "text": "mappings is across different across a",
+      "start": 2707.36,
+      "duration": 9.33
+    },
+    {
+      "text": "chain of not sub transactions",
+      "start": 2712.55,
+      "duration": 8.92
+    },
+    {
+      "text": "the difficulty also increases similar to",
+      "start": 2716.69,
+      "duration": 9.27
+    },
+    {
+      "text": "the to the process of mining block 1",
+      "start": 2721.47,
+      "duration": 8.61
+    },
+    {
+      "text": "mining a chain of blocks right do you",
+      "start": 2725.96,
+      "duration": 8.83
+    },
+    {
+      "text": "have any additional numbers about that",
+      "start": 2730.08,
+      "duration": 7.74
+    },
+    {
+      "text": "because I agree intuitively that that is",
+      "start": 2734.79,
+      "duration": 6.42
+    },
+    {
+      "text": "true but do you have any numbers above",
+      "start": 2737.82,
+      "duration": 5.31
+    },
+    {
+      "text": "that have you tried that",
+      "start": 2741.21,
+      "duration": 4.35
+    },
+    {
+      "text": "no no sorry that's something I didn't",
+      "start": 2743.13,
+      "duration": 8.19
+    },
+    {
+      "text": "try and I'd like to add that intuitive I",
+      "start": 2745.56,
+      "duration": 10.17
+    },
+    {
+      "text": "think that the difficulty or the the",
+      "start": 2751.32,
+      "duration": 8.31
+    },
+    {
+      "text": "problem would be that if enough people",
+      "start": 2755.73,
+      "duration": 5.94
+    },
+    {
+      "text": "would use this kind of transactions and",
+      "start": 2759.63,
+      "duration": 4.59
+    },
+    {
+      "text": "you had would have a continuous flow of",
+      "start": 2761.67,
+      "duration": 4.26
+    },
+    {
+      "text": "these transactions which could create",
+      "start": 2764.22,
+      "duration": 5.07
+    },
+    {
+      "text": "kind of a backlog of coins and",
+      "start": 2765.93,
+      "duration": 6.33
+    },
+    {
+      "text": "transactions that you need to part to to",
+      "start": 2769.29,
+      "duration": 5.94
+    },
+    {
+      "text": "find the mappings for which is what I",
+      "start": 2772.26,
+      "duration": 7.02
+    },
+    {
+      "text": "mean by it the complexity increases when",
+      "start": 2775.23,
+      "duration": 7.53
+    },
+    {
+      "text": "you have when you use it continuously on",
+      "start": 2779.28,
+      "duration": 7.32
+    },
+    {
+      "text": "the other hand linking for example two",
+      "start": 2782.76,
+      "duration": 6.87
+    },
+    {
+      "text": "outputs together it could actually be",
+      "start": 2786.6,
+      "duration": 6.99
+    },
+    {
+      "text": "more easy if they both appear again as",
+      "start": 2789.63,
+      "duration": 6.33
+    },
+    {
+      "text": "inputs in at the next corner and",
+      "start": 2793.59,
+      "duration": 5.279
+    },
+    {
+      "text": "transactions that is one of the one of",
+      "start": 2795.96,
+      "duration": 4.5
+    },
+    {
+      "text": "the open questions one of the open",
+      "start": 2798.869,
+      "duration": 13.531
+    },
+    {
+      "text": "problems okay thank you one would like",
+      "start": 2800.46,
+      "duration": 16.49
+    },
+    {
+      "text": "to chime in it not talked yet",
+      "start": 2812.4,
+      "duration": 4.55
+    },
+    {
+      "text": "I only have a couple of basic maybe a",
+      "start": 2820.31,
+      "duration": 8.1
+    },
+    {
+      "text": "little bit stupid questions but are you",
+      "start": 2826.04,
+      "duration": 5.25
+    },
+    {
+      "text": "guys intending this knapsack going join",
+      "start": 2828.41,
+      "duration": 6.57
+    },
+    {
+      "text": "as a method of like payment for like",
+      "start": 2831.29,
+      "duration": 7.62
+    },
+    {
+      "text": "straight-up - father for example on some",
+      "start": 2834.98,
+      "duration": 7.05
+    },
+    {
+      "text": "service or it's like basic coin joint",
+      "start": 2838.91,
+      "duration": 7.08
+    },
+    {
+      "text": "like it's the output will come to me",
+      "start": 2842.03,
+      "duration": 15.51
+    },
+    {
+      "text": "the both outputs like like for for",
+      "start": 2845.99,
+      "duration": 14.9
+    },
+    {
+      "text": "payments whereas the zero link currently",
+      "start": 2857.54,
+      "duration": 6.69
+    },
+    {
+      "text": "does coin joins as the as mixing",
+      "start": 2860.89,
+      "duration": 5.5
+    },
+    {
+      "text": "transactions this is actually the",
+      "start": 2864.23,
+      "duration": 5.4
+    },
+    {
+      "text": "question I want to ask Felix was you",
+      "start": 2866.39,
+      "duration": 4.83
+    },
+    {
+      "text": "know if he if he knows anything about",
+      "start": 2869.63,
+      "duration": 5.28
+    },
+    {
+      "text": "how wasabi it currently works and you",
+      "start": 2871.22,
+      "duration": 8.4
+    },
+    {
+      "text": "know the the the distinction between a",
+      "start": 2874.91,
+      "duration": 6.9
+    },
+    {
+      "text": "coin joint for mixing that in a coin",
+      "start": 2879.62,
+      "duration": 6.3
+    },
+    {
+      "text": "joint for sending and I feel like have",
+      "start": 2881.81,
+      "duration": 7.02
+    },
+    {
+      "text": "you read this paper I feel like what's",
+      "start": 2885.92,
+      "duration": 4.86
+    },
+    {
+      "text": "not me being able to send in a coin",
+      "start": 2888.83,
+      "duration": 6.06
+    },
+    {
+      "text": "showing might might open doors for more",
+      "start": 2890.78,
+      "duration": 10.53
+    },
+    {
+      "text": "gratis II yet to be honest I didn't know",
+      "start": 2894.89,
+      "duration": 8.85
+    },
+    {
+      "text": "about wasabi until now because I really",
+      "start": 2901.31,
+      "duration": 5.22
+    },
+    {
+      "text": "I'm not keeping up with the current",
+      "start": 2903.74,
+      "duration": 6.36
+    },
+    {
+      "text": "developments on Bitcoin anymore or other",
+      "start": 2906.53,
+      "duration": 10.17
+    },
+    {
+      "text": "other cryptocurrencies but yeah what was",
+      "start": 2910.1,
+      "duration": 9.87
+    },
+    {
+      "text": "my my idea was that actually that's the",
+      "start": 2916.7,
+      "duration": 5.64
+    },
+    {
+      "text": "point of the collapse like mixing that",
+      "start": 2919.97,
+      "duration": 5.34
+    },
+    {
+      "text": "you can use coins on strength content",
+      "start": 2922.34,
+      "duration": 5.7
+    },
+    {
+      "text": "transactions for actually performing it",
+      "start": 2925.31,
+      "duration": 4.29
+    },
+    {
+      "text": "transactions that you want to do not",
+      "start": 2928.04,
+      "duration": 5.25
+    },
+    {
+      "text": "only for anonymizing coins so you can in",
+      "start": 2929.6,
+      "duration": 6.96
+    },
+    {
+      "text": "the same step send coins to a third",
+      "start": 2933.29,
+      "duration": 12.89
+    },
+    {
+      "text": "party and do the mixing okay thanks",
+      "start": 2936.56,
+      "duration": 9.62
+    },
+    {
+      "text": "one one comment just it is easy for us",
+      "start": 2947.96,
+      "duration": 7.2
+    },
+    {
+      "text": "if we one day decided to implement",
+      "start": 2952.31,
+      "duration": 4.83
+    },
+    {
+      "text": "something like this it is easy because",
+      "start": 2955.16,
+      "duration": 5.85
+    },
+    {
+      "text": "if you mix to yourself you can generate",
+      "start": 2957.14,
+      "duration": 6.39
+    },
+    {
+      "text": "all the addresses that you need because",
+      "start": 2961.01,
+      "duration": 4.77
+    },
+    {
+      "text": "you know your keys right and you can",
+      "start": 2963.53,
+      "duration": 4.86
+    },
+    {
+      "text": "generate your own keys as many as you",
+      "start": 2965.78,
+      "duration": 7.89
+    },
+    {
+      "text": "want but for payments you need to be",
+      "start": 2968.39,
+      "duration": 7.2
+    },
+    {
+      "text": "able to generate addresses for someone",
+      "start": 2973.67,
+      "duration": 6.21
+    },
+    {
+      "text": "else many addresses probably by show",
+      "start": 2975.59,
+      "duration": 7.11
+    },
+    {
+      "text": "more than and the payment and the change",
+      "start": 2979.88,
+      "duration": 5.34
+    },
+    {
+      "text": "you need to be able to generate more",
+      "start": 2982.7,
+      "duration": 6.57
+    },
+    {
+      "text": "addresses so it is not hard to do I",
+      "start": 2985.22,
+      "duration": 9.81
+    },
+    {
+      "text": "think but it is something that it's not",
+      "start": 2989.27,
+      "duration": 10.68
+    },
+    {
+      "text": "so easy with with the existing culture",
+      "start": 2995.03,
+      "duration": 7.5
+    },
+    {
+      "text": "let's say because if I want to pay you",
+      "start": 2999.95,
+      "duration": 7.23
+    },
+    {
+      "text": "aviv i ask you for one address imagine I",
+      "start": 3002.53,
+      "duration": 8.31
+    },
+    {
+      "text": "say ok Aviv I want to pay you send send",
+      "start": 3007.18,
+      "duration": 7.65
+    },
+    {
+      "text": "me ten of your addresses it is not it is",
+      "start": 3010.84,
+      "duration": 6.72
+    },
+    {
+      "text": "unusual right so we need something",
+      "start": 3014.83,
+      "duration": 7.01
+    },
+    {
+      "text": "different yes I agree there are",
+      "start": 3017.56,
+      "duration": 7.95
+    },
+    {
+      "text": "solutions for that like stat addresses",
+      "start": 3021.84,
+      "duration": 10.89
+    },
+    {
+      "text": "or give me an onion your onion nodes",
+      "start": 3025.51,
+      "duration": 13.23
+    },
+    {
+      "text": "onion address and we can we could maybe",
+      "start": 3032.73,
+      "duration": 11.02
+    },
+    {
+      "text": "work it out but it's it's a lot of work",
+      "start": 3038.74,
+      "duration": 5.88
+    },
+    {
+      "text": "yes",
+      "start": 3043.75,
+      "duration": 3.99
+    },
+    {
+      "text": "however maybe it's possible to do a",
+      "start": 3044.62,
+      "duration": 7.14
+    },
+    {
+      "text": "variation of nutsack where you where you",
+      "start": 3047.74,
+      "duration": 7.8
+    },
+    {
+      "text": "kind of keep the keep the payment as as",
+      "start": 3051.76,
+      "duration": 7.65
+    },
+    {
+      "text": "as it is but you are only mixing on the",
+      "start": 3055.54,
+      "duration": 9.74
+    },
+    {
+      "text": "changes it would be an easy easier thing",
+      "start": 3059.41,
+      "duration": 10.01
+    },
+    {
+      "text": "actually I'm quite sure I've read about",
+      "start": 3065.28,
+      "duration": 7.69
+    },
+    {
+      "text": "special kinds of Bitcoin addresses where",
+      "start": 3069.42,
+      "duration": 5.47
+    },
+    {
+      "text": "you can for the receiver of the",
+      "start": 3072.97,
+      "duration": 3.75
+    },
+    {
+      "text": "transaction generate as many addresses",
+      "start": 3074.89,
+      "duration": 6.48
+    },
+    {
+      "text": "as you want and I don't remember",
+      "start": 3076.72,
+      "duration": 8.04
+    },
+    {
+      "text": "was it was kind of like a public/private",
+      "start": 3081.37,
+      "duration": 6.84
+    },
+    {
+      "text": "key scheme where you can generate new",
+      "start": 3084.76,
+      "duration": 5.76
+    },
+    {
+      "text": "addresses and only the receiver was able",
+      "start": 3088.21,
+      "duration": 5.31
+    },
+    {
+      "text": "to use these addresses I guess the only",
+      "start": 3090.52,
+      "duration": 5.82
+    },
+    {
+      "text": "remaining problem would for the receiver",
+      "start": 3093.52,
+      "duration": 5.55
+    },
+    {
+      "text": "to notice transactions which are which",
+      "start": 3096.34,
+      "duration": 5.07
+    },
+    {
+      "text": "contain addresses that belong to him but",
+      "start": 3099.07,
+      "duration": 5.55
+    },
+    {
+      "text": "I will try to find out what they were",
+      "start": 3101.41,
+      "duration": 8.58
+    },
+    {
+      "text": "called it's okay I know to both of",
+      "start": 3104.62,
+      "duration": 7.65
+    },
+    {
+      "text": "dancing has some very serious trade-offs",
+      "start": 3109.99,
+      "duration": 5.46
+    },
+    {
+      "text": "say if it's one of them or if it's not",
+      "start": 3112.27,
+      "duration": 5.79
+    },
+    {
+      "text": "then I would like to investigate one is",
+      "start": 3115.45,
+      "duration": 6.21
+    },
+    {
+      "text": "that addresses the other one the",
+      "start": 3118.06,
+      "duration": 5.49
+    },
+    {
+      "text": "esthetic rest is you were actually",
+      "start": 3121.66,
+      "duration": 3.6
+    },
+    {
+      "text": "mentioning that in the paper and the",
+      "start": 3123.55,
+      "duration": 5.94
+    },
+    {
+      "text": "other one is payment codes is it one of",
+      "start": 3125.26,
+      "duration": 8.85
+    },
+    {
+      "text": "it I'm not sure I thought it was",
+      "start": 3129.49,
+      "duration": 7.68
+    },
+    {
+      "text": "something with blind signatures that",
+      "start": 3134.11,
+      "duration": 8.46
+    },
+    {
+      "text": "that would be actually awesome maybe",
+      "start": 3137.17,
+      "duration": 7.74
+    },
+    {
+      "text": "maybe I'm remembers remembering",
+      "start": 3142.57,
+      "duration": 5.76
+    },
+    {
+      "text": "something wrong but I can try to type",
+      "start": 3144.91,
+      "duration": 5.37
+    },
+    {
+      "text": "try to lube it up and try to find what I",
+      "start": 3148.33,
+      "duration": 5.73
+    },
+    {
+      "text": "was reading but I thought that that",
+      "start": 3150.28,
+      "duration": 18.42
+    },
+    {
+      "text": "might not be a problem and anyway I just",
+      "start": 3154.06,
+      "duration": 18.93
+    },
+    {
+      "text": "like to say that these conversations I",
+      "start": 3168.7,
+      "duration": 8.37
+    },
+    {
+      "text": "would really like to to make these these",
+      "start": 3172.99,
+      "duration": 6.77
+    },
+    {
+      "text": "as a learning conversations and not",
+      "start": 3177.07,
+      "duration": 6.72
+    },
+    {
+      "text": "necessarily how to integrate it or",
+      "start": 3179.76,
+      "duration": 6.82
+    },
+    {
+      "text": "implement it into a severe or had to do",
+      "start": 3183.79,
+      "duration": 5.97
+    },
+    {
+      "text": "anything with asabi because there are",
+      "start": 3186.58,
+      "duration": 5.46
+    },
+    {
+      "text": "like 600 more papers that I want to",
+      "start": 3189.76,
+      "duration": 5.01
+    },
+    {
+      "text": "review and maybe at the end when when",
+      "start": 3192.04,
+      "duration": 4.71
+    },
+    {
+      "text": "everything is we learned about",
+      "start": 3194.77,
+      "duration": 3.99
+    },
+    {
+      "text": "everything that we can you can come up",
+      "start": 3196.75,
+      "duration": 5.1
+    },
+    {
+      "text": "with something something and then we can",
+      "start": 3198.76,
+      "duration": 5.34
+    },
+    {
+      "text": "use different techniques from different",
+      "start": 3201.85,
+      "duration": 9.33
+    },
+    {
+      "text": "papers what what I but my thinking is",
+      "start": 3204.1,
+      "duration": 10.95
+    },
+    {
+      "text": "right now is that it's just a vogue",
+      "start": 3211.18,
+      "duration": 8.13
+    },
+    {
+      "text": "idea but if we could figure out if we",
+      "start": 3215.05,
+      "duration": 15.0
+    },
+    {
+      "text": "could figure out scaling quality if we",
+      "start": 3219.31,
+      "duration": 13.68
+    },
+    {
+      "text": "could make if we could give a number to",
+      "start": 3230.05,
+      "duration": 7.5
+    },
+    {
+      "text": "hey we mix this way and this mix is this",
+      "start": 3232.99,
+      "duration": 9.72
+    },
+    {
+      "text": "efficient if we could kill the",
+      "start": 3237.55,
+      "duration": 7.53
+    },
+    {
+      "text": "efficiency of the mix if we could tell",
+      "start": 3242.71,
+      "duration": 6.56
+    },
+    {
+      "text": "how efficient one mixes then we could",
+      "start": 3245.08,
+      "duration": 7.95
+    },
+    {
+      "text": "come up with a bunch of mixing solutions",
+      "start": 3249.27,
+      "duration": 6.28
+    },
+    {
+      "text": "and we would know that hey this this",
+      "start": 3253.03,
+      "duration": 6.89
+    },
+    {
+      "text": "mixing solution give the back best",
+      "start": 3255.55,
+      "duration": 7.23
+    },
+    {
+      "text": "blockchain space per unanimity gained",
+      "start": 3259.92,
+      "duration": 7.87
+    },
+    {
+      "text": "number right and what what would be the",
+      "start": 3262.78,
+      "duration": 7.71
+    },
+    {
+      "text": "unanimity gained but what is this",
+      "start": 3267.79,
+      "duration": 5.28
+    },
+    {
+      "text": "knapsack paper is is doing pretty bad",
+      "start": 3270.49,
+      "duration": 7.65
+    },
+    {
+      "text": "that it is I was always thinking about",
+      "start": 3273.07,
+      "duration": 7.71
+    },
+    {
+      "text": "just breaking the link with how much",
+      "start": 3278.14,
+      "duration": 4.71
+    },
+    {
+      "text": "anonymity said but this nut sack paper",
+      "start": 3280.78,
+      "duration": 5.31
+    },
+    {
+      "text": "pointed me that hey you actually can",
+      "start": 3282.85,
+      "duration": 5.61
+    },
+    {
+      "text": "break the link between the inputs you",
+      "start": 3286.09,
+      "duration": 4.44
+    },
+    {
+      "text": "can break the link between the outputs",
+      "start": 3288.46,
+      "duration": 4.29
+    },
+    {
+      "text": "and of course you can break the link",
+      "start": 3290.53,
+      "duration": 6.87
+    },
+    {
+      "text": "between inputs and outputs so that that",
+      "start": 3292.75,
+      "duration": 8.64
+    },
+    {
+      "text": "that makes the the the anonymity gained",
+      "start": 3297.4,
+      "duration": 6.69
+    },
+    {
+      "text": "metric and much better so that's that's",
+      "start": 3301.39,
+      "duration": 12.65
+    },
+    {
+      "text": "great all right do you guys have any",
+      "start": 3304.09,
+      "duration": 20.19
+    },
+    {
+      "text": "presentations with presentations here so",
+      "start": 3314.04,
+      "duration": 12.73
+    },
+    {
+      "text": "I guess at that point I'm going to leave",
+      "start": 3324.28,
+      "duration": 5.42
+    },
+    {
+      "text": "because it's already quite light here",
+      "start": 3326.77,
+      "duration": 7.56
+    },
+    {
+      "text": "the address in the paper is not my it's",
+      "start": 3329.7,
+      "duration": 6.28
+    },
+    {
+      "text": "not a valid email address anymore",
+      "start": 3334.33,
+      "duration": 3.15
+    },
+    {
+      "text": "I don't receive emails on that address",
+      "start": 3335.98,
+      "duration": 4.02
+    },
+    {
+      "text": "anymore but if you have any questions",
+      "start": 3337.48,
+      "duration": 6.21
+    },
+    {
+      "text": "you can contact me at any time I send",
+      "start": 3340.0,
+      "duration": 6.57
+    },
+    {
+      "text": "you my new email address in the chat so",
+      "start": 3343.69,
+      "duration": 5.13
+    },
+    {
+      "text": "feel free to ask me if you have any more",
+      "start": 3346.57,
+      "duration": 5.43
+    },
+    {
+      "text": "questions yeah thank thanks a lot for",
+      "start": 3348.82,
+      "duration": 6.51
+    },
+    {
+      "text": "for coming it was a pleasure - yeah",
+      "start": 3352.0,
+      "duration": 8.22
+    },
+    {
+      "text": "thanks for having me it's nice it's",
+      "start": 3355.33,
+      "duration": 7.77
+    },
+    {
+      "text": "always nice to see that you've done",
+      "start": 3360.22,
+      "duration": 8.58
+    },
+    {
+      "text": "something interesting yes I'm a big fan",
+      "start": 3363.1,
+      "duration": 6.57
+    },
+    {
+      "text": "of your work",
+      "start": 3368.8,
+      "duration": 8.91
+    },
+    {
+      "text": "Thanks so thanks and goodbye maybe until",
+      "start": 3369.67,
+      "duration": 11.99
+    },
+    {
+      "text": "sometime later all right bye bye",
+      "start": 3377.71,
+      "duration": 6.78
+    },
+    {
+      "text": "yeah I was thinking about could you",
+      "start": 3381.66,
+      "duration": 6.21
+    },
+    {
+      "text": "leave showed your presentation again",
+      "start": 3384.49,
+      "duration": 5.64
+    },
+    {
+      "text": "yeah just give me one quick SEC here",
+      "start": 3387.87,
+      "duration": 15.67
+    },
+    {
+      "text": "yeah do you have a slide in mind yeah",
+      "start": 3390.13,
+      "duration": 15.36
+    },
+    {
+      "text": "could you go on the one where is the",
+      "start": 3403.54,
+      "duration": 5.94
+    },
+    {
+      "text": "inputs and outputs like yeah for for",
+      "start": 3405.49,
+      "duration": 7.11
+    },
+    {
+      "text": "example this case what determines the",
+      "start": 3409.48,
+      "duration": 5.64
+    },
+    {
+      "text": "actual numbers of the outputs let's say",
+      "start": 3412.6,
+      "duration": 5.46
+    },
+    {
+      "text": "that if this wasn't for payments where",
+      "start": 3415.12,
+      "duration": 7.61
+    },
+    {
+      "text": "there is a exact number or some required",
+      "start": 3418.06,
+      "duration": 8.13
+    },
+    {
+      "text": "what deterrents these outputs or their",
+      "start": 3422.73,
+      "duration": 9.19
+    },
+    {
+      "text": "value of them yeah so so the idea is you",
+      "start": 3426.19,
+      "duration": 7.83
+    },
+    {
+      "text": "would get a more efficient knapsack mix",
+      "start": 3431.92,
+      "duration": 4.77
+    },
+    {
+      "text": "if you just allowed for infinite outputs",
+      "start": 3434.02,
+      "duration": 4.98
+    },
+    {
+      "text": "because they would get very small and",
+      "start": 3436.69,
+      "duration": 3.78
+    },
+    {
+      "text": "then it would take more time to compute",
+      "start": 3439.0,
+      "duration": 3.39
+    },
+    {
+      "text": "but there's the trade-off that you don't",
+      "start": 3440.47,
+      "duration": 5.04
+    },
+    {
+      "text": "want to have lots of outputs so the",
+      "start": 3442.39,
+      "duration": 7.17
+    },
+    {
+      "text": "simple knapsack idea here was just take",
+      "start": 3445.51,
+      "duration": 7.05
+    },
+    {
+      "text": "regular transactions that have no",
+      "start": 3449.56,
+      "duration": 6.42
+    },
+    {
+      "text": "special features and for every two",
+      "start": 3452.56,
+      "duration": 6.21
+    },
+    {
+      "text": "transaction take the larger one the one",
+      "start": 3455.98,
+      "duration": 5.58
+    },
+    {
+      "text": "with the larger output and break down a",
+      "start": 3458.77,
+      "duration": 6.72
+    },
+    {
+      "text": "large output into two parts where in",
+      "start": 3461.56,
+      "duration": 5.94
+    },
+    {
+      "text": "this case the number 31 is the",
+      "start": 3465.49,
+      "duration": 6.39
+    },
+    {
+      "text": "difference between with your and before",
+      "start": 3467.5,
+      "duration": 6.45
+    },
+    {
+      "text": "orange-brown",
+      "start": 3471.88,
+      "duration": 8.14
+    },
+    {
+      "text": "values so in this knapsack method you",
+      "start": 3473.95,
+      "duration": 9.01
+    },
+    {
+      "text": "all you only add one output for every",
+      "start": 3480.02,
+      "duration": 8.94
+    },
+    {
+      "text": "two transactions that that combined yeah",
+      "start": 3482.96,
+      "duration": 22.47
+    },
+    {
+      "text": "okay I'm back yeah yes sorry I lost",
+      "start": 3488.96,
+      "duration": 31.639
+    },
+    {
+      "text": "connection okay what I want to show you",
+      "start": 3505.43,
+      "duration": 26.07
+    },
+    {
+      "text": "is yes quality with openness with you",
+      "start": 3520.599,
+      "duration": 13.621
+    },
+    {
+      "text": "okay",
+      "start": 3531.5,
+      "duration": 2.72
+    },
+    {
+      "text": "three two pants",
+      "start": 3535.609,
+      "duration": 3.021
+    },
+    {
+      "text": "I don't know if he's going to her the",
+      "start": 3538.75,
+      "duration": 28.65
+    },
+    {
+      "text": "number of okay well just going back to",
+      "start": 3544.57,
+      "duration": 27.36
+    },
+    {
+      "text": "the previous presentation thing I was",
+      "start": 3567.4,
+      "duration": 7.23
+    },
+    {
+      "text": "just thinking about you know if it",
+      "start": 3571.93,
+      "duration": 4.169
+    },
+    {
+      "text": "wasn't for payments and there would be",
+      "start": 3574.63,
+      "duration": 4.469
+    },
+    {
+      "text": "like any kind of set amount that you",
+      "start": 3576.099,
+      "duration": 6.081
+    },
+    {
+      "text": "would have to reach on as output I",
+      "start": 3579.099,
+      "duration": 6.181
+    },
+    {
+      "text": "understand that we wouldn't like to like",
+      "start": 3582.18,
+      "duration": 5.8
+    },
+    {
+      "text": "use too many or break it down into too",
+      "start": 3585.28,
+      "duration": 8.1
+    },
+    {
+      "text": "many UT exo's but in like in some sense",
+      "start": 3587.98,
+      "duration": 8.58
+    },
+    {
+      "text": "I think it could kind of work I'm not",
+      "start": 3593.38,
+      "duration": 4.86
+    },
+    {
+      "text": "sure if it's just too expensive or",
+      "start": 3596.56,
+      "duration": 4.83
+    },
+    {
+      "text": "something for after why it's like",
+      "start": 3598.24,
+      "duration": 4.98
+    },
+    {
+      "text": "combining all these UT exo's or",
+      "start": 3601.39,
+      "duration": 4.38
+    },
+    {
+      "text": "something like that but you know like",
+      "start": 3603.22,
+      "duration": 4.619
+    },
+    {
+      "text": "breaking it down onto the small as",
+      "start": 3605.77,
+      "duration": 6.99
+    },
+    {
+      "text": "possible out input that there is and you",
+      "start": 3607.839,
+      "duration": 8.671
+    },
+    {
+      "text": "know not maybe like like the smallest",
+      "start": 3612.76,
+      "duration": 7.77
+    },
+    {
+      "text": "one but you know just breaking it down",
+      "start": 3616.51,
+      "duration": 7.29
+    },
+    {
+      "text": "into smaller and exact the same outputs",
+      "start": 3620.53,
+      "duration": 6.72
+    },
+    {
+      "text": "you know like you could combine many",
+      "start": 3623.8,
+      "duration": 6.48
+    },
+    {
+      "text": "inputs and the P would go like a",
+      "start": 3627.25,
+      "duration": 6.119
+    },
+    {
+      "text": "statically depending on how many inputs",
+      "start": 3630.28,
+      "duration": 6.12
+    },
+    {
+      "text": "you put in and then it would just you",
+      "start": 3633.369,
+      "duration": 6.781
+    },
+    {
+      "text": "know give you either like for example a",
+      "start": 3636.4,
+      "duration": 5.699
+    },
+    {
+      "text": "bigger sum or a smaller something could",
+      "start": 3640.15,
+      "duration": 4.02
+    },
+    {
+      "text": "be like different kind of connects arcs",
+      "start": 3642.099,
+      "duration": 5.461
+    },
+    {
+      "text": "going joints I'm not sure if I'm",
+      "start": 3644.17,
+      "duration": 5.46
+    },
+    {
+      "text": "explaining this correctly do you guys",
+      "start": 3647.56,
+      "duration": 8.58
+    },
+    {
+      "text": "get any any of that I think I understand",
+      "start": 3649.63,
+      "duration": 8.85
+    },
+    {
+      "text": "what you're saying there's some there's",
+      "start": 3656.14,
+      "duration": 5.61
+    },
+    {
+      "text": "some problems with that idea as well I",
+      "start": 3658.48,
+      "duration": 5.54
+    },
+    {
+      "text": "mean inefficiency is one of them but",
+      "start": 3661.75,
+      "duration": 3.83
+    },
+    {
+      "text": "their issue that I see with these",
+      "start": 3664.02,
+      "duration": 4.53
+    },
+    {
+      "text": "knapsack examples is we don't think",
+      "start": 3665.58,
+      "duration": 5.97
+    },
+    {
+      "text": "about how transactions look like over",
+      "start": 3668.55,
+      "duration": 5.7
+    },
+    {
+      "text": "over a longer period of time so for",
+      "start": 3671.55,
+      "duration": 5.37
+    },
+    {
+      "text": "example let's say you have many many",
+      "start": 3674.25,
+      "duration": 5.73
+    },
+    {
+      "text": "many change outputs if you decide to",
+      "start": 3676.92,
+      "duration": 6.03
+    },
+    {
+      "text": "then spend many of these change outputs",
+      "start": 3679.98,
+      "duration": 7.1
+    },
+    {
+      "text": "together in a transaction down the road",
+      "start": 3682.95,
+      "duration": 7.47
+    },
+    {
+      "text": "it undos all of the privacy gains from",
+      "start": 3687.08,
+      "duration": 7.99
+    },
+    {
+      "text": "the knapsack for the most part so I",
+      "start": 3690.42,
+      "duration": 9.27
+    },
+    {
+      "text": "think I think those are those are one",
+      "start": 3695.07,
+      "duration": 6.18
+    },
+    {
+      "text": "concern is there something else you",
+      "start": 3699.69,
+      "duration": 6.3
+    },
+    {
+      "text": "wanted to say yeah I'm not sure I mean I",
+      "start": 3701.25,
+      "duration": 6.96
+    },
+    {
+      "text": "just thought about this thing right now",
+      "start": 3705.99,
+      "duration": 4.65
+    },
+    {
+      "text": "so maybe I have to just sit down and",
+      "start": 3708.21,
+      "duration": 4.2
+    },
+    {
+      "text": "think about a little bit more before I",
+      "start": 3710.64,
+      "duration": 12.24
+    },
+    {
+      "text": "I'll try to like verbalize it but well",
+      "start": 3712.41,
+      "duration": 15.6
+    },
+    {
+      "text": "another thing was that about mappings",
+      "start": 3722.88,
+      "duration": 8.91
+    },
+    {
+      "text": "and the computation of that I mean is",
+      "start": 3728.01,
+      "duration": 6.21
+    },
+    {
+      "text": "that actually necessary for wasabi to do",
+      "start": 3731.79,
+      "duration": 5.64
+    },
+    {
+      "text": "or is it like just beneficial thing if",
+      "start": 3734.22,
+      "duration": 6.54
+    },
+    {
+      "text": "it would take too much time for actually",
+      "start": 3737.43,
+      "duration": 6.15
+    },
+    {
+      "text": "go down on all these mappings I mean",
+      "start": 3740.76,
+      "duration": 6.54
+    },
+    {
+      "text": "let's say that there would be like let's",
+      "start": 3743.58,
+      "duration": 6.54
+    },
+    {
+      "text": "say five participants which all are",
+      "start": 3747.3,
+      "duration": 5.36
+    },
+    {
+      "text": "putting like three different inputs and",
+      "start": 3750.12,
+      "duration": 6.3
+    },
+    {
+      "text": "yeah for example getting the well X",
+      "start": 3752.66,
+      "duration": 7.96
+    },
+    {
+      "text": "amount of outputs I'm not sure if it's",
+      "start": 3756.42,
+      "duration": 6.99
+    },
+    {
+      "text": "only a good thing if the mapping is hard",
+      "start": 3760.62,
+      "duration": 8.4
+    },
+    {
+      "text": "to calculate my mapping is not necessary",
+      "start": 3763.41,
+      "duration": 12.3
+    },
+    {
+      "text": "to do in order to be a system it's a but",
+      "start": 3769.02,
+      "duration": 11.82
+    },
+    {
+      "text": "but what's interesting about calculating",
+      "start": 3775.71,
+      "duration": 7.92
+    },
+    {
+      "text": "these mappings is that we can actually",
+      "start": 3780.84,
+      "duration": 5.73
+    },
+    {
+      "text": "see that where are the bottlenecks of",
+      "start": 3783.63,
+      "duration": 5.52
+    },
+    {
+      "text": "block chain analysis companies so that's",
+      "start": 3786.57,
+      "duration": 4.44
+    },
+    {
+      "text": "that's I am interested in calculating",
+      "start": 3789.15,
+      "duration": 6.46
+    },
+    {
+      "text": "the mappings yeah that's what",
+      "start": 3791.01,
+      "duration": 7.21
+    },
+    {
+      "text": "I was thinking also I mean if we could",
+      "start": 3795.61,
+      "duration": 8.91
+    },
+    {
+      "text": "just use it as a benefit yeah back back",
+      "start": 3798.22,
+      "duration": 9.75
+    },
+    {
+      "text": "to the for example the idea that I said",
+      "start": 3804.52,
+      "duration": 8.28
+    },
+    {
+      "text": "before that Felix actually estimated the",
+      "start": 3807.97,
+      "duration": 9.83
+    },
+    {
+      "text": "lower lower bound for for the subset-sum",
+      "start": 3812.8,
+      "duration": 9.27
+    },
+    {
+      "text": "analysis here and we could say that hey",
+      "start": 3817.8,
+      "duration": 6.49
+    },
+    {
+      "text": "okay we need at least this many inputs",
+      "start": 3822.07,
+      "duration": 7.77
+    },
+    {
+      "text": "and outputs and if if 10 I think 10 is",
+      "start": 3824.29,
+      "duration": 9.63
+    },
+    {
+      "text": "pretty let's say if if 10 inputs and",
+      "start": 3829.84,
+      "duration": 7.77
+    },
+    {
+      "text": "outputs are present then that already",
+      "start": 3833.92,
+      "duration": 7.59
+    },
+    {
+      "text": "provides computational privacy so we",
+      "start": 3837.61,
+      "duration": 8.52
+    },
+    {
+      "text": "could set a lower bound for okay yeah we",
+      "start": 3841.51,
+      "duration": 9.12
+    },
+    {
+      "text": "want to target 10 as the minimum number",
+      "start": 3846.13,
+      "duration": 6.66
+    },
+    {
+      "text": "of participants or something like that",
+      "start": 3850.63,
+      "duration": 7.64
+    },
+    {
+      "text": "so that's that's interesting idea",
+      "start": 3852.79,
+      "duration": 5.48
+    },
+    {
+      "text": "can I add something before I have to run",
+      "start": 3861.7,
+      "duration": 8.55
+    },
+    {
+      "text": "here it seems like a lot of privacy",
+      "start": 3864.31,
+      "duration": 12.45
+    },
+    {
+      "text": "benefits would come from having so so",
+      "start": 3870.25,
+      "duration": 9.78
+    },
+    {
+      "text": "it's right now we've split the mixing",
+      "start": 3876.76,
+      "duration": 6.35
+    },
+    {
+      "text": "and the sending is two separate features",
+      "start": 3880.03,
+      "duration": 7.83
+    },
+    {
+      "text": "but it seems like a privacy would be",
+      "start": 3883.11,
+      "duration": 8.41
+    },
+    {
+      "text": "much stronger if people that weren't",
+      "start": 3887.86,
+      "duration": 6.51
+    },
+    {
+      "text": "doing mixing could still participate you",
+      "start": 3891.52,
+      "duration": 8.1
+    },
+    {
+      "text": "know asabi transaction it's just",
+      "start": 3894.37,
+      "duration": 11.76
+    },
+    {
+      "text": "something that I thought about I'm not",
+      "start": 3899.62,
+      "duration": 13.1
+    },
+    {
+      "text": "sure I understand sorry yeah I mean so",
+      "start": 3906.13,
+      "duration": 6.59
+    },
+    {
+      "text": "why that there would be like more people",
+      "start": 3912.84,
+      "duration": 11.56
+    },
+    {
+      "text": "linked to the coin joints even if they",
+      "start": 3920.79,
+      "duration": 7.92
+    },
+    {
+      "text": "don't actually use wasabi yeah",
+      "start": 3924.4,
+      "duration": 11.63
+    },
+    {
+      "text": "is that what if a user just wanted to",
+      "start": 3928.71,
+      "duration": 10.649
+    },
+    {
+      "text": "send someone money and essentially",
+      "start": 3936.03,
+      "duration": 5.04
+    },
+    {
+      "text": "wanted to participate in these knapsack",
+      "start": 3939.359,
+      "duration": 7.111
+    },
+    {
+      "text": "type coin joints for for spending then",
+      "start": 3941.07,
+      "duration": 7.38
+    },
+    {
+      "text": "that could be a separate service that",
+      "start": 3946.47,
+      "duration": 10.05
+    },
+    {
+      "text": "can be added to wasabi right like",
+      "start": 3948.45,
+      "duration": 10.44
+    },
+    {
+      "text": "imagine if the entire blockchain didn't",
+      "start": 3956.52,
+      "duration": 4.38
+    },
+    {
+      "text": "have transactions but just had lists of",
+      "start": 3958.89,
+      "duration": 5.64
+    },
+    {
+      "text": "inputs and outputs I think we can agree",
+      "start": 3960.9,
+      "duration": 5.459
+    },
+    {
+      "text": "that it would be Kahn occasionally very",
+      "start": 3964.53,
+      "duration": 9.02
+    },
+    {
+      "text": "hard for people to successfully unravel",
+      "start": 3966.359,
+      "duration": 11.73
+    },
+    {
+      "text": "the entire block of inputs and outputs",
+      "start": 3973.55,
+      "duration": 6.58
+    },
+    {
+      "text": "so I think that's sort of what I was",
+      "start": 3978.089,
+      "duration": 6.361
+    },
+    {
+      "text": "thinking about yeah",
+      "start": 3980.13,
+      "duration": 10.05
+    },
+    {
+      "text": "yes of course it's an even if you don't",
+      "start": 3984.45,
+      "duration": 9.87
+    },
+    {
+      "text": "do any mixing right more problems there",
+      "start": 3990.18,
+      "duration": 9.3
+    },
+    {
+      "text": "are read let's say how do you how do you",
+      "start": 3994.32,
+      "duration": 8.87
+    },
+    {
+      "text": "get over the participants of a block",
+      "start": 3999.48,
+      "duration": 13.23
+    },
+    {
+      "text": "agree on the field and I the it raises",
+      "start": 4003.19,
+      "duration": 14.28
+    },
+    {
+      "text": "more questions than it answers I think",
+      "start": 4012.71,
+      "duration": 4.76
+    },
+    {
+      "text": "one more thing transactions because Aviv",
+      "start": 4019.18,
+      "duration": 8.409
+    },
+    {
+      "text": "is leaving",
+      "start": 4026.54,
+      "duration": 5.61
+    },
+    {
+      "text": "before we leaves can we decide on what",
+      "start": 4027.589,
+      "duration": 8.071
+    },
+    {
+      "text": "what should be our next what should be",
+      "start": 4032.15,
+      "duration": 7.92
+    },
+    {
+      "text": "next Monday what should we be looking to",
+      "start": 4035.66,
+      "duration": 7.73
+    },
+    {
+      "text": "you guys have ideas",
+      "start": 4040.07,
+      "duration": 3.32
+    },
+    {
+      "text": "coughing all right",
+      "start": 4048.69,
+      "duration": 13.69
+    },
+    {
+      "text": "coin shuffle an idea there are some",
+      "start": 4053.86,
+      "duration": 13.2
+    },
+    {
+      "text": "papers that were cited by Felix's paper",
+      "start": 4062.38,
+      "duration": 6.86
+    },
+    {
+      "text": "that I thought were interesting but I",
+      "start": 4067.06,
+      "duration": 14.28
+    },
+    {
+      "text": "think coin shuffle was one of them Queen",
+      "start": 4069.24,
+      "duration": 16.71
+    },
+    {
+      "text": "James from crystal vodkas you know",
+      "start": 4081.34,
+      "duration": 8.88
+    },
+    {
+      "text": "anonymizing the world with human form",
+      "start": 4085.95,
+      "duration": 13.619
+    },
+    {
+      "text": "she actually enjoyed in mind also",
+      "start": 4090.22,
+      "duration": 9.349
+    },
+    {
+      "text": "although secure multi-party computation",
+      "start": 4101.19,
+      "duration": 5.399
+    },
+    {
+      "text": "these which came up in the paper but",
+      "start": 4107.37,
+      "duration": 7.51
+    },
+    {
+      "text": "I've seen that came up so many times in",
+      "start": 4111.37,
+      "duration": 6.42
+    },
+    {
+      "text": "so many papers in the coin shuffle paper",
+      "start": 4114.88,
+      "duration": 5.34
+    },
+    {
+      "text": "to by the way that I'm just as",
+      "start": 4117.79,
+      "duration": 8.219
+    },
+    {
+      "text": "interested but the heck that we so",
+      "start": 4120.22,
+      "duration": 8.789
+    },
+    {
+      "text": "anyway any more ideas or decide on these",
+      "start": 4126.009,
+      "duration": 6.6
+    },
+    {
+      "text": "three now or or both let let's vote on",
+      "start": 4129.009,
+      "duration": 7.171
+    },
+    {
+      "text": "for these three or or something else in",
+      "start": 4132.609,
+      "duration": 7.131
+    },
+    {
+      "text": "the mix do you want word",
+      "start": 4136.18,
+      "duration": 3.56
+    },
+    {
+      "text": "I prefer gone shuffle and there is an",
+      "start": 4141.179,
+      "duration": 8.221
+    },
+    {
+      "text": "another variant the adult I don't",
+      "start": 4146.279,
+      "duration": 6.33
+    },
+    {
+      "text": "remember is if it is gone shuffle blasts",
+      "start": 4149.4,
+      "duration": 6.56
+    },
+    {
+      "text": "blasts or something like that there is",
+      "start": 4152.609,
+      "duration": 6.121
+    },
+    {
+      "text": "there is coin shuffle plus press and",
+      "start": 4155.96,
+      "duration": 5.41
+    },
+    {
+      "text": "there is value shava which is coin",
+      "start": 4158.73,
+      "duration": 4.56
+    },
+    {
+      "text": "shuffle plus plus with confidential",
+      "start": 4161.37,
+      "duration": 8.25
+    },
+    {
+      "text": "transactions so anyway let's go from",
+      "start": 4163.29,
+      "duration": 9.96
+    },
+    {
+      "text": "left to right aviv when you shuffle coin",
+      "start": 4169.62,
+      "duration": 6.119
+    },
+    {
+      "text": "joins to Doku secure multi-party",
+      "start": 4173.25,
+      "duration": 14.299
+    },
+    {
+      "text": "computation okay Lucas coin shuffle igor",
+      "start": 4175.739,
+      "duration": 11.81
+    },
+    {
+      "text": "probably yes or yes also green jangsu",
+      "start": 4187.85,
+      "duration": 7.27
+    },
+    {
+      "text": "Doku but I think is is pretty much the",
+      "start": 4191.94,
+      "duration": 5.969
+    },
+    {
+      "text": "same that we have discussing today I",
+      "start": 4195.12,
+      "duration": 5.849
+    },
+    {
+      "text": "find in the the partitions so I don't",
+      "start": 4197.909,
+      "duration": 7.461
+    },
+    {
+      "text": "know if it brings something new to us",
+      "start": 4200.969,
+      "duration": 7.831
+    },
+    {
+      "text": "yeah that was kind of my idea there that",
+      "start": 4205.37,
+      "duration": 6.22
+    },
+    {
+      "text": "we could we could look at someone has",
+      "start": 4208.8,
+      "duration": 6.149
+    },
+    {
+      "text": "his work on the same topic that's",
+      "start": 4211.59,
+      "duration": 6.24
+    },
+    {
+      "text": "actually a part of the knapsack paper",
+      "start": 4214.949,
+      "duration": 6.991
+    },
+    {
+      "text": "and we could we could compare that my",
+      "start": 4217.83,
+      "duration": 14.67
+    },
+    {
+      "text": "idea so oh there is also sneaker oh it's",
+      "start": 4221.94,
+      "duration": 12.779
+    },
+    {
+      "text": "knickers - yeah it's knickers can be",
+      "start": 4232.5,
+      "duration": 5.73
+    },
+    {
+      "text": "true yeah probably sneakers is better",
+      "start": 4234.719,
+      "duration": 5.52
+    },
+    {
+      "text": "that ventia for because playing traffic",
+      "start": 4238.23,
+      "duration": 3.1
+    },
+    {
+      "text": "hazard some",
+      "start": 4240.239,
+      "duration": 4.951
+    },
+    {
+      "text": "some communication is key studies is",
+      "start": 4241.33,
+      "duration": 6.63
+    },
+    {
+      "text": "pretty hard I don't know if it can be",
+      "start": 4245.19,
+      "duration": 7.69
+    },
+    {
+      "text": "implemented really so yeah okay",
+      "start": 4247.96,
+      "duration": 7.62
+    },
+    {
+      "text": "let's start it again then and I will",
+      "start": 4252.88,
+      "duration": 6.03
+    },
+    {
+      "text": "note how much are the boots on and let's",
+      "start": 4255.58,
+      "duration": 4.35
+    },
+    {
+      "text": "get to wear it",
+      "start": 4258.91,
+      "duration": 8.25
+    },
+    {
+      "text": "so we shuffled is from in roughing and",
+      "start": 4259.93,
+      "duration": 10.98
+    },
+    {
+      "text": "it's about mixing transactions it's",
+      "start": 4267.16,
+      "duration": 7.02
+    },
+    {
+      "text": "similar to zero link in that sense Cohen",
+      "start": 4270.91,
+      "duration": 5.88
+    },
+    {
+      "text": "joins to Doku is from vista fat loss'",
+      "start": 4274.18,
+      "duration": 5.91
+    },
+    {
+      "text": "and it is how do you do non mi Schoen",
+      "start": 4276.79,
+      "duration": 3.9
+    },
+    {
+      "text": "Joyce",
+      "start": 4280.09,
+      "duration": 4.26
+    },
+    {
+      "text": "I think it's solving the subset-sum",
+      "start": 4280.69,
+      "duration": 8.43
+    },
+    {
+      "text": "problem this is this is a small acting",
+      "start": 4284.35,
+      "duration": 7.68
+    },
+    {
+      "text": "secure multi-party computation I have no",
+      "start": 4289.12,
+      "duration": 5.34
+    },
+    {
+      "text": "idea what is this but I think it's it's",
+      "start": 4292.03,
+      "duration": 5.31
+    },
+    {
+      "text": "it's something that we are come back",
+      "start": 4294.46,
+      "duration": 5.46
+    },
+    {
+      "text": "because it came back many times sneaker",
+      "start": 4297.34,
+      "duration": 7.32
+    },
+    {
+      "text": "is from Adam Gibson and this is a this",
+      "start": 4299.92,
+      "duration": 7.89
+    },
+    {
+      "text": "is Co enjoying some some interesting",
+      "start": 4304.66,
+      "duration": 8.73
+    },
+    {
+      "text": "idea to do Cohen joins okay Aviv Cohen",
+      "start": 4307.81,
+      "duration": 8.13
+    },
+    {
+      "text": "Schaffer Cohen joins Sudoku secure",
+      "start": 4313.39,
+      "duration": 5.94
+    },
+    {
+      "text": "multi-party computation sneaker you can",
+      "start": 4315.94,
+      "duration": 7.35
+    },
+    {
+      "text": "vote for multiple things I think the",
+      "start": 4319.33,
+      "duration": 5.67
+    },
+    {
+      "text": "question for the sneaker will be",
+      "start": 4323.29,
+      "duration": 2.87
+    },
+    {
+      "text": "interesting",
+      "start": 4325.0,
+      "duration": 5.07
+    },
+    {
+      "text": "okay punish of on boot sneaker on vote",
+      "start": 4326.16,
+      "duration": 12.82
+    },
+    {
+      "text": "because the sneakers monogram yes Nick",
+      "start": 4330.07,
+      "duration": 11.09
+    },
+    {
+      "text": "or",
+      "start": 4338.98,
+      "duration": 2.18
+    },
+    {
+      "text": "I cannot hear you",
+      "start": 4347.05,
+      "duration": 3.74
+    },
+    {
+      "text": "and couldn't couldn't hit anything I'm",
+      "start": 4362.76,
+      "duration": 21.81
+    },
+    {
+      "text": "gonna head out",
+      "start": 4383.67,
+      "duration": 5.67
+    },
+    {
+      "text": "I can see your judgment to vote and I'll",
+      "start": 4384.57,
+      "duration": 9.02
+    },
+    {
+      "text": "read whatever is submitted for next week",
+      "start": 4389.34,
+      "duration": 4.25
+    },
+    {
+      "text": "perfect see your beef thank you Cheers",
+      "start": 4394.97,
+      "duration": 8.43
+    },
+    {
+      "text": "thanks thanks an awesome presentation",
+      "start": 4399.66,
+      "duration": 6.08
+    },
+    {
+      "text": "thanks guys",
+      "start": 4403.4,
+      "duration": 17.86
+    },
+    {
+      "text": "thank you all right deeper into what I",
+      "start": 4405.74,
+      "duration": 16.87
+    },
+    {
+      "text": "don't give some does in this topic",
+      "start": 4421.26,
+      "duration": 4.2
+    },
+    {
+      "text": "because I know the men and yeah I'm",
+      "start": 4422.61,
+      "duration": 4.2
+    },
+    {
+      "text": "really curious what he's doing",
+      "start": 4425.46,
+      "duration": 4.05
+    },
+    {
+      "text": "especially with regards to what you guys",
+      "start": 4426.81,
+      "duration": 5.03
+    },
+    {
+      "text": "are researching so yeah I won't never",
+      "start": 4429.51,
+      "duration": 8.72
+    },
+    {
+      "text": "secrets alright and the naming is yeah",
+      "start": 4431.84,
+      "duration": 6.39
+    },
+    {
+      "text": "yeah I like the idea of shuffle and",
+      "start": 4440.24,
+      "duration": 4.95
+    },
+    {
+      "text": "sneakers",
+      "start": 4442.56,
+      "duration": 2.63
+    },
+    {
+      "text": "everyone is sanitary probably yeah yeah",
+      "start": 4445.67,
+      "duration": 9.21
+    },
+    {
+      "text": "yeah yeah are you with us okay I see",
+      "start": 4458.46,
+      "duration": 6.12
+    },
+    {
+      "text": "what you wrote",
+      "start": 4463.65,
+      "duration": 3.39
+    },
+    {
+      "text": "you're not familiar with any of all",
+      "start": 4464.58,
+      "duration": 5.73
+    },
+    {
+      "text": "right well is it very matter what I",
+      "start": 4467.04,
+      "duration": 6.54
+    },
+    {
+      "text": "wrote is going to be sneaker because",
+      "start": 4470.31,
+      "duration": 7.38
+    },
+    {
+      "text": "that has four vote and okay so it's",
+      "start": 4473.58,
+      "duration": 7.47
+    },
+    {
+      "text": "going to be snicker than next X meeting",
+      "start": 4477.69,
+      "duration": 7.799
+    },
+    {
+      "text": "and Lucas you were saying something that",
+      "start": 4481.05,
+      "duration": 8.689
+    },
+    {
+      "text": "I disrupted you so go ahead",
+      "start": 4485.489,
+      "duration": 7.17
+    },
+    {
+      "text": "yeah it's just a comment that those",
+      "start": 4489.739,
+      "duration": 8.021
+    },
+    {
+      "text": "snaps are instructions for an observer",
+      "start": 4492.659,
+      "duration": 8.851
+    },
+    {
+      "text": "an external observer it is not easy to",
+      "start": 4497.76,
+      "duration": 7.38
+    },
+    {
+      "text": "to realize it is a con job because I",
+      "start": 4501.51,
+      "duration": 8.82
+    },
+    {
+      "text": "mean can be a Buch construction a pay up",
+      "start": 4505.14,
+      "duration": 8.55
+    },
+    {
+      "text": "pay too many transactions I mean in the",
+      "start": 4510.33,
+      "duration": 5.4
+    },
+    {
+      "text": "blockchain there are lots and lots and",
+      "start": 4513.69,
+      "duration": 4.89
+    },
+    {
+      "text": "lots of transactions with more than I",
+      "start": 4515.73,
+      "duration": 7.71
+    },
+    {
+      "text": "don't know five inputs and then outputs",
+      "start": 4518.58,
+      "duration": 9.17
+    },
+    {
+      "text": "there are not gonna join right so and so",
+      "start": 4523.44,
+      "duration": 9.81
+    },
+    {
+      "text": "it is not it is not easy to to know that",
+      "start": 4527.75,
+      "duration": 7.63
+    },
+    {
+      "text": "that's a conjoined transaction so there",
+      "start": 4533.25,
+      "duration": 5.4
+    },
+    {
+      "text": "is not a clear finger freedom so you",
+      "start": 4535.38,
+      "duration": 6.95
+    },
+    {
+      "text": "have to do analyze the transaction and",
+      "start": 4538.65,
+      "duration": 7.08
+    },
+    {
+      "text": "then you say hey this transaction has a",
+      "start": 4542.33,
+      "duration": 7.599
+    },
+    {
+      "text": "lot of ambiguity so it has to be current",
+      "start": 4545.73,
+      "duration": 8.489
+    },
+    {
+      "text": "on transaction but otherwise is is it's",
+      "start": 4549.929,
+      "duration": 7.711
+    },
+    {
+      "text": "not easy and ok you know you say ok this",
+      "start": 4554.219,
+      "duration": 5.52
+    },
+    {
+      "text": "is a control transaction and not such",
+      "start": 4557.64,
+      "duration": 4.94
+    },
+    {
+      "text": "transaction",
+      "start": 4559.739,
+      "duration": 2.841
+    },
+    {
+      "text": "who who has created that section or how",
+      "start": 4563.6,
+      "duration": 10.51
+    },
+    {
+      "text": "many participant this has so this this",
+      "start": 4570.57,
+      "duration": 7.47
+    },
+    {
+      "text": "is not so easy for example in another",
+      "start": 4574.11,
+      "duration": 6.75
+    },
+    {
+      "text": "way I disagree completely because there",
+      "start": 4578.04,
+      "duration": 4.86
+    },
+    {
+      "text": "are just so many fingerprints in the",
+      "start": 4580.86,
+      "duration": 5.25
+    },
+    {
+      "text": "blood that you can tell exactly which",
+      "start": 4582.9,
+      "duration": 5.64
+    },
+    {
+      "text": "fall has created that transaction by",
+      "start": 4586.11,
+      "duration": 6.15
+    },
+    {
+      "text": "just dropping at and lock time let's say",
+      "start": 4588.54,
+      "duration": 10.17
+    },
+    {
+      "text": "you know yes yes yes sir it is possible",
+      "start": 4592.26,
+      "duration": 12.81
+    },
+    {
+      "text": "but anyway if you for example cannot",
+      "start": 4598.71,
+      "duration": 11.33
+    },
+    {
+      "text": "know so easily how many participants are",
+      "start": 4605.07,
+      "duration": 9.75
+    },
+    {
+      "text": "in wasabi this easy because if you count",
+      "start": 4610.04,
+      "duration": 8.71
+    },
+    {
+      "text": "how many equal outputs are if there are",
+      "start": 4614.82,
+      "duration": 10.16
+    },
+    {
+      "text": "66 equal outputs then there are 66",
+      "start": 4618.75,
+      "duration": 9.06
+    },
+    {
+      "text": "participants in this case is a bit",
+      "start": 4624.98,
+      "duration": 6.15
+    },
+    {
+      "text": "harder so it's",
+      "start": 4627.81,
+      "duration": 7.46
+    },
+    {
+      "text": "it's something to have in mind by the",
+      "start": 4631.13,
+      "duration": 6.77
+    },
+    {
+      "text": "way if I can ask a weird question then",
+      "start": 4635.27,
+      "duration": 6.53
+    },
+    {
+      "text": "what did you mean were no para about",
+      "start": 4637.9,
+      "duration": 7.12
+    },
+    {
+      "text": "being able to know which while it",
+      "start": 4641.8,
+      "duration": 5.29
+    },
+    {
+      "text": "created the transaction by the end locks",
+      "start": 4645.02,
+      "duration": 6.71
+    },
+    {
+      "text": "aren't that different wallets are using",
+      "start": 4647.09,
+      "duration": 8.88
+    },
+    {
+      "text": "different fees different and lock times",
+      "start": 4651.73,
+      "duration": 7.24
+    },
+    {
+      "text": "they either use it or not or they either",
+      "start": 4655.97,
+      "duration": 5.13
+    },
+    {
+      "text": "use a specific number",
+      "start": 4658.97,
+      "duration": 5.13
+    },
+    {
+      "text": "they might bump the transaction eibar to",
+      "start": 4661.1,
+      "duration": 6.3
+    },
+    {
+      "text": "do err bf you see there is a set of",
+      "start": 4664.1,
+      "duration": 8.73
+    },
+    {
+      "text": "features those features sometimes have",
+      "start": 4667.4,
+      "duration": 10.23
+    },
+    {
+      "text": "like run on uh let's say the fee you",
+      "start": 4672.83,
+      "duration": 8.73
+    },
+    {
+      "text": "have to decide what fee you will do in",
+      "start": 4677.63,
+      "duration": 7.95
+    },
+    {
+      "text": "the transaction and if that fee that",
+      "start": 4681.56,
+      "duration": 7.77
+    },
+    {
+      "text": "exact fee that transaction is being made",
+      "start": 4685.58,
+      "duration": 8.45
+    },
+    {
+      "text": "with can only be produced with the read",
+      "start": 4689.33,
+      "duration": 8.49
+    },
+    {
+      "text": "electron-electron is a bad example",
+      "start": 4694.03,
+      "duration": 5.86
+    },
+    {
+      "text": "because the electron Bitcoin core and",
+      "start": 4697.82,
+      "duration": 5.04
+    },
+    {
+      "text": "Wasabi's kind of can produce each",
+      "start": 4699.89,
+      "duration": 6.06
+    },
+    {
+      "text": "other's fees but if that can only be",
+      "start": 4702.86,
+      "duration": 5.34
+    },
+    {
+      "text": "produced with the electron then then",
+      "start": 4705.95,
+      "duration": 3.99
+    },
+    {
+      "text": "it's going to be a transaction with the",
+      "start": 4708.2,
+      "duration": 5.0
+    },
+    {
+      "text": "electron okay so now we figured out that",
+      "start": 4709.94,
+      "duration": 6.42
+    },
+    {
+      "text": "this is a transaction with electron now",
+      "start": 4713.2,
+      "duration": 7.54
+    },
+    {
+      "text": "we have to just apply our hell ristic",
+      "start": 4716.36,
+      "duration": 8.15
+    },
+    {
+      "text": "that what is the likelihood that this",
+      "start": 4720.74,
+      "duration": 7.98
+    },
+    {
+      "text": "electron is going to create a page to",
+      "start": 4724.51,
+      "duration": 7.69
+    },
+    {
+      "text": "endpoint transaction so so that's what",
+      "start": 4728.72,
+      "duration": 5.22
+    },
+    {
+      "text": "I'm saying that there are so many",
+      "start": 4732.2,
+      "duration": 4.65
+    },
+    {
+      "text": "metadata in the transactions that you",
+      "start": 4733.94,
+      "duration": 7.73
+    },
+    {
+      "text": "can probably tell what wallet created it",
+      "start": 4736.85,
+      "duration": 4.82
+    },
+    {
+      "text": "okay yeah thanks for clarifying that I",
+      "start": 4742.87,
+      "duration": 4.86
+    },
+    {
+      "text": "was fighting a lot against it previously",
+      "start": 4748.57,
+      "duration": 8.38
+    },
+    {
+      "text": "but I just realized it's it's it not",
+      "start": 4752.66,
+      "duration": 8.72
+    },
+    {
+      "text": "possible to divide anything because",
+      "start": 4756.95,
+      "duration": 8.03
+    },
+    {
+      "text": "there is always something",
+      "start": 4761.38,
+      "duration": 3.6
+    },
+    {
+      "text": "and if I may ask another stupid question",
+      "start": 4768.44,
+      "duration": 6.759
+    },
+    {
+      "text": "is what exactly is analog time and I",
+      "start": 4771.719,
+      "duration": 5.701
+    },
+    {
+      "text": "mean I think I've heard about it but I",
+      "start": 4775.199,
+      "duration": 7.261
+    },
+    {
+      "text": "just don't remember anything or what",
+      "start": 4777.42,
+      "duration": 7.969
+    },
+    {
+      "text": "does it like conclude",
+      "start": 4782.46,
+      "duration": 2.929
+    },
+    {
+      "text": "is when that transaction can be mine",
+      "start": 4788.98,
+      "duration": 7.23
+    },
+    {
+      "text": "basically you say okay this transaction",
+      "start": 4793.51,
+      "duration": 5.13
+    },
+    {
+      "text": "can be mine right now",
+      "start": 4796.21,
+      "duration": 9.05
+    },
+    {
+      "text": "can be mine after this vlog hi so",
+      "start": 4798.64,
+      "duration": 9.48
+    },
+    {
+      "text": "basically that's all we sell fail in the",
+      "start": 4805.26,
+      "duration": 6.04
+    },
+    {
+      "text": "transaction where you specify when that",
+      "start": 4808.12,
+      "duration": 6.63
+    },
+    {
+      "text": "transaction can be mine okay yeah all",
+      "start": 4811.3,
+      "duration": 3.99
+    },
+    {
+      "text": "right",
+      "start": 4814.75,
+      "duration": 5.88
+    },
+    {
+      "text": "Thanks for for example a Bitcoin core",
+      "start": 4815.29,
+      "duration": 9.29
+    },
+    {
+      "text": "and electrum are using an N log time",
+      "start": 4820.63,
+      "duration": 8.04
+    },
+    {
+      "text": "that is in order to discourage fist",
+      "start": 4824.58,
+      "duration": 6.76
+    },
+    {
+      "text": "knifing which whatever it is it's not on",
+      "start": 4828.67,
+      "duration": 5.94
+    },
+    {
+      "text": "top of my mind but you know like things",
+      "start": 4831.34,
+      "duration": 8.28
+    },
+    {
+      "text": "like this or the RBF that's right if you",
+      "start": 4834.61,
+      "duration": 11.33
+    },
+    {
+      "text": "send the transaction and you have RBF",
+      "start": 4839.62,
+      "duration": 11.61
+    },
+    {
+      "text": "neighborhood then only that information",
+      "start": 4845.94,
+      "duration": 11.23
+    },
+    {
+      "text": "that this transaction can do RBF just",
+      "start": 4851.23,
+      "duration": 8.55
+    },
+    {
+      "text": "okay now look at which wallets can do",
+      "start": 4857.17,
+      "duration": 6.54
+    },
+    {
+      "text": "RBF and it must be it's probably from",
+      "start": 4859.78,
+      "duration": 7.62
+    },
+    {
+      "text": "those wallets now if you do an RPF",
+      "start": 4863.71,
+      "duration": 7.32
+    },
+    {
+      "text": "transaction if you bump the feet then oh",
+      "start": 4867.4,
+      "duration": 6.54
+    },
+    {
+      "text": "that's a lot more information to expose",
+      "start": 4871.03,
+      "duration": 6.54
+    },
+    {
+      "text": "because you can only bump the fee from",
+      "start": 4873.94,
+      "duration": 7.17
+    },
+    {
+      "text": "removing the change then you just",
+      "start": 4877.57,
+      "duration": 7.16
+    },
+    {
+      "text": "exposed where you are sending the money",
+      "start": 4881.11,
+      "duration": 5.64
+    },
+    {
+      "text": "which would be exposed by the",
+      "start": 4884.73,
+      "duration": 4.66
+    },
+    {
+      "text": "transaction chain anyway later on but",
+      "start": 4886.75,
+      "duration": 5.07
+    },
+    {
+      "text": "you just exposed at that point where you",
+      "start": 4889.39,
+      "duration": 6.48
+    },
+    {
+      "text": "are sending the money and if the fee",
+      "start": 4891.82,
+      "duration": 7.94
+    },
+    {
+      "text": "bump has such a specific number that",
+      "start": 4895.87,
+      "duration": 7.38
+    },
+    {
+      "text": "okay let's say Bitcoin corresponds the",
+      "start": 4899.76,
+      "duration": 7.48
+    },
+    {
+      "text": "fee with this number or with this period",
+      "start": 4903.25,
+      "duration": 7.65
+    },
+    {
+      "text": "then then you can you can further narrow",
+      "start": 4907.24,
+      "duration": 6.87
+    },
+    {
+      "text": "the range of possible wallets that can",
+      "start": 4910.9,
+      "duration": 8.34
+    },
+    {
+      "text": "can can do that so it gets really really",
+      "start": 4914.11,
+      "duration": 6.67
+    },
+    {
+      "text": "bad",
+      "start": 4919.24,
+      "duration": 4.94
+    },
+    {
+      "text": "okay yeah I think I got it and with RBF",
+      "start": 4920.78,
+      "duration": 6.28
+    },
+    {
+      "text": "you like exposed which one of the",
+      "start": 4924.18,
+      "duration": 5.94
+    },
+    {
+      "text": "addresses or outputs are like the actual",
+      "start": 4927.06,
+      "duration": 6.15
+    },
+    {
+      "text": "change yes right that might be the most",
+      "start": 4930.12,
+      "duration": 5.58
+    },
+    {
+      "text": "obvious one I didn't even have this for",
+      "start": 4933.21,
+      "duration": 3.57
+    },
+    {
+      "text": "a very long time",
+      "start": 4935.7,
+      "duration": 4.44
+    },
+    {
+      "text": "but then things just start to click you",
+      "start": 4936.78,
+      "duration": 10.94
+    },
+    {
+      "text": "know okay yeah okay good to know",
+      "start": 4940.14,
+      "duration": 17.31
+    },
+    {
+      "text": "all right I have a question you said",
+      "start": 4947.72,
+      "duration": 13.9
+    },
+    {
+      "text": "about the paper that about that had",
+      "start": 4957.45,
+      "duration": 6.06
+    },
+    {
+      "text": "information about confidential assets",
+      "start": 4961.62,
+      "duration": 4.68
+    },
+    {
+      "text": "and mixing or something like that you",
+      "start": 4963.51,
+      "duration": 6.41
+    },
+    {
+      "text": "mentioned it like five minutes ago",
+      "start": 4966.3,
+      "duration": 3.62
+    },
+    {
+      "text": "yes I was explained yeah I was",
+      "start": 4970.4,
+      "duration": 8.02
+    },
+    {
+      "text": "explaining the history of of coin",
+      "start": 4976.05,
+      "duration": 7.23
+    },
+    {
+      "text": "shuffle it started with coin surfer then",
+      "start": 4978.42,
+      "duration": 9.27
+    },
+    {
+      "text": "they they came up with a new protocol",
+      "start": 4983.28,
+      "duration": 6.45
+    },
+    {
+      "text": "that does not require the word that's",
+      "start": 4987.69,
+      "duration": 5.67
+    },
+    {
+      "text": "called ice mix and they incorporated it",
+      "start": 4989.73,
+      "duration": 5.67
+    },
+    {
+      "text": "into coin shuffle and they called it",
+      "start": 4993.36,
+      "duration": 5.34
+    },
+    {
+      "text": "coin shuffle plus plus and then they",
+      "start": 4995.4,
+      "duration": 5.85
+    },
+    {
+      "text": "figured out how to do coin shuffle with",
+      "start": 4998.7,
+      "duration": 5.19
+    },
+    {
+      "text": "confidential transactions and that is",
+      "start": 5001.25,
+      "duration": 9.03
+    },
+    {
+      "text": "called while you shuffle okay send me a",
+      "start": 5003.89,
+      "duration": 9.27
+    },
+    {
+      "text": "reference think or something on that I",
+      "start": 5010.28,
+      "duration": 5.73
+    },
+    {
+      "text": "am already done to go in it but it could",
+      "start": 5013.16,
+      "duration": 10.56
+    },
+    {
+      "text": "be a bit faster and more helpful just",
+      "start": 5016.01,
+      "duration": 16.35
+    },
+    {
+      "text": "Google values of beta Malaysia are you",
+      "start": 5023.72,
+      "duration": 12.17
+    },
+    {
+      "text": "interested in question four plus plus",
+      "start": 5032.36,
+      "duration": 7.94
+    },
+    {
+      "text": "well I'm interested in mixing and",
+      "start": 5035.89,
+      "duration": 7.23
+    },
+    {
+      "text": "confidential assets involvement in that",
+      "start": 5040.3,
+      "duration": 6.58
+    },
+    {
+      "text": "because it is well I want to know if",
+      "start": 5043.12,
+      "duration": 8.28
+    },
+    {
+      "text": "there is something then I can bring 4rg",
+      "start": 5046.88,
+      "duration": 6.31
+    },
+    {
+      "text": "yeah that's",
+      "start": 5051.4,
+      "duration": 5.3
+    },
+    {
+      "text": "but something that we could review later",
+      "start": 5053.19,
+      "duration": 9.66
+    },
+    {
+      "text": "oh okay well that could be the topic",
+      "start": 5056.7,
+      "duration": 9.92
+    },
+    {
+      "text": "that I might be prepared for so yeah",
+      "start": 5062.85,
+      "duration": 7.47
+    },
+    {
+      "text": "thanks for explaining that again oh my",
+      "start": 5066.62,
+      "duration": 4.62
+    },
+    {
+      "text": "good",
+      "start": 5070.32,
+      "duration": 4.56
+    },
+    {
+      "text": "yeah bring it to next episode and review",
+      "start": 5071.24,
+      "duration": 6.16
+    },
+    {
+      "text": "see I think there is some some",
+      "start": 5074.88,
+      "duration": 5.7
+    },
+    {
+      "text": "interesting things to learn from me too",
+      "start": 5077.4,
+      "duration": 10.97
+    },
+    {
+      "text": "I checked it give you a vote for that",
+      "start": 5080.58,
+      "duration": 14.25
+    },
+    {
+      "text": "thank you yeah thanks alright do you",
+      "start": 5088.37,
+      "duration": 9.81
+    },
+    {
+      "text": "guys have anything else",
+      "start": 5094.83,
+      "duration": 3.35
+    },
+    {
+      "text": "my homework yeah me too",
+      "start": 5105.56,
+      "duration": 8.02
+    },
+    {
+      "text": "all right then",
+      "start": 5111.59,
+      "duration": 6.0
+    },
+    {
+      "text": "next next episode is going to be speaker",
+      "start": 5113.58,
+      "duration": 8.82
+    },
+    {
+      "text": "and yeah thank thanks for coming and I I",
+      "start": 5117.59,
+      "duration": 9.31
+    },
+    {
+      "text": "feel I will publish it I don't know",
+      "start": 5122.4,
+      "duration": 7.47
+    },
+    {
+      "text": "where if the recording is good I will",
+      "start": 5126.9,
+      "duration": 7.37
+    },
+    {
+      "text": "publish it probably the wasabi China and",
+      "start": 5129.87,
+      "duration": 9.45
+    },
+    {
+      "text": "and and we see like what what are you",
+      "start": 5134.27,
+      "duration": 8.56
+    },
+    {
+      "text": "thoughts about how was this so far did",
+      "start": 5139.32,
+      "duration": 4.319
+    },
+    {
+      "text": "you enjoy it",
+      "start": 5142.83,
+      "duration": 3.51
+    },
+    {
+      "text": "do you have any recommendations out to",
+      "start": 5143.639,
+      "duration": 8.491
+    },
+    {
+      "text": "or to improve these conversations at",
+      "start": 5146.34,
+      "duration": 8.64
+    },
+    {
+      "text": "least read the obvious presentation was",
+      "start": 5152.13,
+      "duration": 4.08
+    },
+    {
+      "text": "pretty damn good",
+      "start": 5154.98,
+      "duration": 4.409
+    },
+    {
+      "text": "in my opinion I mean like a short recap",
+      "start": 5156.21,
+      "duration": 6.739
+    },
+    {
+      "text": "of what was what and what's the point of",
+      "start": 5159.389,
+      "duration": 6.921
+    },
+    {
+      "text": "knapsack so it makes a pretty good like",
+      "start": 5162.949,
+      "duration": 7.991
+    },
+    {
+      "text": "yeah just a video in itself but of",
+      "start": 5166.31,
+      "duration": 9.579
+    },
+    {
+      "text": "course also these talks to you know I I",
+      "start": 5170.94,
+      "duration": 7.29
+    },
+    {
+      "text": "was kind of afraid that Felix are going",
+      "start": 5175.889,
+      "duration": 6.451
+    },
+    {
+      "text": "is going to leave we have to grab Felix",
+      "start": 5178.23,
+      "duration": 6.33
+    },
+    {
+      "text": "at the beginning because he's gonna",
+      "start": 5182.34,
+      "duration": 9.6
+    },
+    {
+      "text": "leave there definitely yes from my my",
+      "start": 5184.56,
+      "duration": 11.67
+    },
+    {
+      "text": "point to feel the participation of Felix",
+      "start": 5191.94,
+      "duration": 5.19
+    },
+    {
+      "text": "was great",
+      "start": 5196.23,
+      "duration": 7.1
+    },
+    {
+      "text": "and so if for sneakers we can't have the",
+      "start": 5197.13,
+      "duration": 10.62
+    },
+    {
+      "text": "if we can't have Adam here it could be",
+      "start": 5203.33,
+      "duration": 6.559
+    },
+    {
+      "text": "great too",
+      "start": 5207.75,
+      "duration": 7.38
+    },
+    {
+      "text": "I will ask him I can't can't promise",
+      "start": 5209.889,
+      "duration": 8.58
+    },
+    {
+      "text": "feelings didn't promise it to either he",
+      "start": 5215.13,
+      "duration": 4.989
+    },
+    {
+      "text": "he said he be a try",
+      "start": 5218.469,
+      "duration": 6.571
+    },
+    {
+      "text": "so that's why I didn't even sent out at",
+      "start": 5220.119,
+      "duration": 6.991
+    },
+    {
+      "text": "meet or anything hey Felix is going to",
+      "start": 5225.04,
+      "duration": 2.639
+    },
+    {
+      "text": "be here",
+      "start": 5227.11,
+      "duration": 7.29
+    },
+    {
+      "text": "because if he's not anyway I will tell",
+      "start": 5227.679,
+      "duration": 10.29
+    },
+    {
+      "text": "Adam to to come yeah definitely I I hope",
+      "start": 5234.4,
+      "duration": 8.64
+    },
+    {
+      "text": "he can yeah yeah I think this format was",
+      "start": 5237.969,
+      "duration": 8.101
+    },
+    {
+      "text": "very good when on the on one hand you",
+      "start": 5243.04,
+      "duration": 5.159
+    },
+    {
+      "text": "had person within the team who",
+      "start": 5246.07,
+      "duration": 5.85
+    },
+    {
+      "text": "introduced the brief recap of the",
+      "start": 5248.199,
+      "duration": 6.061
+    },
+    {
+      "text": "article and then on the other hand he",
+      "start": 5251.92,
+      "duration": 4.44
+    },
+    {
+      "text": "had the actual author of the article",
+      "start": 5254.26,
+      "duration": 6.709
+    },
+    {
+      "text": "that could like country but online and",
+      "start": 5256.36,
+      "duration": 8.22
+    },
+    {
+      "text": "fix mistakes misunderstandings son",
+      "start": 5260.969,
+      "duration": 5.65
+    },
+    {
+      "text": "everything and also knowing that he's",
+      "start": 5264.58,
+      "duration": 3.119
+    },
+    {
+      "text": "not working anymore",
+      "start": 5266.619,
+      "duration": 2.911
+    },
+    {
+      "text": "look Felix is not working in a war for",
+      "start": 5267.699,
+      "duration": 4.051
+    },
+    {
+      "text": "example for on this topic is also",
+      "start": 5269.53,
+      "duration": 4.709
+    },
+    {
+      "text": "available because you kind of understand",
+      "start": 5271.75,
+      "duration": 6.15
+    },
+    {
+      "text": "where it goes and what questions he can",
+      "start": 5274.239,
+      "duration": 5.641
+    },
+    {
+      "text": "cover and which questions probably",
+      "start": 5277.9,
+      "duration": 4.19
+    },
+    {
+      "text": "should be covered by someone else",
+      "start": 5279.88,
+      "duration": 6.81
+    },
+    {
+      "text": "so yeah head and author of paper mister",
+      "start": 5282.09,
+      "duration": 6.76
+    },
+    {
+      "text": "bit here and of course the discussion",
+      "start": 5286.69,
+      "duration": 6.92
+    },
+    {
+      "text": "afterwards as always just marvelous",
+      "start": 5288.85,
+      "duration": 4.76
+    },
+    {
+      "text": "alright guys so if no one has anything",
+      "start": 5294.06,
+      "duration": 8.29
+    },
+    {
+      "text": "then thank you all for coming and if",
+      "start": 5297.31,
+      "duration": 7.619
+    },
+    {
+      "text": "this is published and you're listening",
+      "start": 5302.35,
+      "duration": 5.059
+    },
+    {
+      "text": "it on youtube or something then",
+      "start": 5304.929,
+      "duration": 5.401
+    },
+    {
+      "text": "definitely everything everything that we",
+      "start": 5307.409,
+      "duration": 6.431
+    },
+    {
+      "text": "talked about the paper Felix's code or",
+      "start": 5310.33,
+      "duration": 5.849
+    },
+    {
+      "text": "code everything is going to be in the",
+      "start": 5313.84,
+      "duration": 5.25
+    },
+    {
+      "text": "description so you can follow up and",
+      "start": 5316.179,
+      "duration": 6.69
+    },
+    {
+      "text": "maybe change the world by why are you",
+      "start": 5319.09,
+      "duration": 7.26
+    },
+    {
+      "text": "getting some ideas alright thank you",
+      "start": 5322.869,
+      "duration": 9.59
+    },
+    {
+      "text": "guys thank you alright",
+      "start": 5326.35,
+      "duration": 8.289
+    },
+    {
+      "text": "why",
+      "start": 5332.459,
+      "duration": 2.18
+    }
+  ]
+}

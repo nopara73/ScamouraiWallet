@@ -1,0 +1,7196 @@
+{
+  "video_id": "tUWEoFJnuF0",
+  "title": "Wasabi Research Club #9 - Anonymity Likes Company",
+  "url": "https://www.youtube.com/watch?v=tUWEoFJnuF0",
+  "playlist_index": 9,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "when one okay welcome everyone to",
+      "start": 0.03,
+      "duration": 12.81
+    },
+    {
+      "text": "another wasabi research club meeting",
+      "start": 10.86,
+      "duration": 4.59
+    },
+    {
+      "text": "today we're talking about a 2006 paper",
+      "start": 12.84,
+      "duration": 6.12
+    },
+    {
+      "text": "called anonymity loves company usability",
+      "start": 15.45,
+      "duration": 8.61
+    },
+    {
+      "text": "in the network effects this paper is by",
+      "start": 18.96,
+      "duration": 9.389
+    },
+    {
+      "text": "Dingell dine and Mathewson and you can",
+      "start": 24.06,
+      "duration": 7.799
+    },
+    {
+      "text": "find all the papers that we read on our",
+      "start": 28.349,
+      "duration": 7.401
+    },
+    {
+      "text": "website the link is just below our",
+      "start": 31.859,
+      "duration": 7.531
+    },
+    {
+      "text": "github excuse me just to remind everyone",
+      "start": 35.75,
+      "duration": 8.59
+    },
+    {
+      "text": "where we are in the last few weeks we",
+      "start": 39.39,
+      "duration": 7.05
+    },
+    {
+      "text": "were talking about coin shuffle + + +",
+      "start": 44.34,
+      "duration": 6.36
+    },
+    {
+      "text": "cash Fusion and I've decided to call",
+      "start": 46.44,
+      "duration": 6.75
+    },
+    {
+      "text": "this meeting you know sort of principles",
+      "start": 50.7,
+      "duration": 4.949
+    },
+    {
+      "text": "in privacy or perhaps principles and",
+      "start": 53.19,
+      "duration": 5.13
+    },
+    {
+      "text": "privacy in anonymity networks because I",
+      "start": 55.649,
+      "duration": 4.351
+    },
+    {
+      "text": "think it's very appropriate to what",
+      "start": 58.32,
+      "duration": 5.52
+    },
+    {
+      "text": "we're doing and next week's research",
+      "start": 60.0,
+      "duration": 5.79
+    },
+    {
+      "text": "club meeting will be decided by the end",
+      "start": 63.84,
+      "duration": 4.529
+    },
+    {
+      "text": "of this meeting you can find everything",
+      "start": 65.79,
+      "duration": 6.149
+    },
+    {
+      "text": "on the github just a reminder two weeks",
+      "start": 68.369,
+      "duration": 7.201
+    },
+    {
+      "text": "ago and last week we talked about cash",
+      "start": 71.939,
+      "duration": 6.75
+    },
+    {
+      "text": "Fusion talked about doing coin joins",
+      "start": 75.57,
+      "duration": 4.95
+    },
+    {
+      "text": "with arbitrary numbers of inputs and",
+      "start": 78.689,
+      "duration": 5.161
+    },
+    {
+      "text": "outputs where users all submit inputs",
+      "start": 80.52,
+      "duration": 6.389
+    },
+    {
+      "text": "outputs and blanks and through the magic",
+      "start": 83.85,
+      "duration": 6.089
+    },
+    {
+      "text": "of home Orphic encryption homework like",
+      "start": 86.909,
+      "duration": 6.181
+    },
+    {
+      "text": "Peter Peterson commitments we can",
+      "start": 89.939,
+      "duration": 4.86
+    },
+    {
+      "text": "guarantee that no one is getting more",
+      "start": 93.09,
+      "duration": 4.95
+    },
+    {
+      "text": "money than they put in and we have all",
+      "start": 94.799,
+      "duration": 5.64
+    },
+    {
+      "text": "users verifying other users to make sure",
+      "start": 98.04,
+      "duration": 6.39
+    },
+    {
+      "text": "that no one cheated last week we asked",
+      "start": 100.439,
+      "duration": 6.841
+    },
+    {
+      "text": "the question is this really private is",
+      "start": 104.43,
+      "duration": 7.14
+    },
+    {
+      "text": "it secure can someone break this method",
+      "start": 107.28,
+      "duration": 6.86
+    },
+    {
+      "text": "of obfuscated inputs and outputs and",
+      "start": 111.57,
+      "duration": 4.77
+    },
+    {
+      "text": "there was a claim being made in our",
+      "start": 114.14,
+      "duration": 5.589
+    },
+    {
+      "text": "discussion that due to the Bell member",
+      "start": 116.34,
+      "duration": 5.61
+    },
+    {
+      "text": "and the subset-sum problem you are",
+      "start": 119.729,
+      "duration": 5.971
+    },
+    {
+      "text": "secure given enough users who possess a",
+      "start": 121.95,
+      "duration": 6.36
+    },
+    {
+      "text": "large enough set of inputs and outputs",
+      "start": 125.7,
+      "duration": 5.3
+    },
+    {
+      "text": "within a particular range of values",
+      "start": 128.31,
+      "duration": 5.61
+    },
+    {
+      "text": "because the bail number is quite large",
+      "start": 131.0,
+      "duration": 5.92
+    },
+    {
+      "text": "in those cases and the knapsack problem",
+      "start": 133.92,
+      "duration": 5.87
+    },
+    {
+      "text": "is computationally difficult to solve",
+      "start": 136.92,
+      "duration": 5.569
+    },
+    {
+      "text": "please see videos on YouTube for",
+      "start": 139.79,
+      "duration": 5.79
+    },
+    {
+      "text": "interesting debate that ensued after",
+      "start": 142.489,
+      "duration": 7.86
+    },
+    {
+      "text": "this discussion so yes so the question",
+      "start": 145.58,
+      "duration": 7.48
+    },
+    {
+      "text": "posed by this paper that we're reading",
+      "start": 150.349,
+      "duration": 4.78
+    },
+    {
+      "text": "today is how should we think about",
+      "start": 153.06,
+      "duration": 3.87
+    },
+    {
+      "text": "building using privacy tools in",
+      "start": 155.129,
+      "duration": 6.301
+    },
+    {
+      "text": "anonymity networks when I say anonymity",
+      "start": 156.93,
+      "duration": 6.75
+    },
+    {
+      "text": "networks I mean something like tour or",
+      "start": 161.43,
+      "duration": 5.58
+    },
+    {
+      "text": "jab or mixed minion Mixmaster or an art",
+      "start": 163.68,
+      "duration": 6.36
+    },
+    {
+      "text": "we care about in these calls is coin",
+      "start": 167.01,
+      "duration": 8.309
+    },
+    {
+      "text": "joint an eminent work relies on getting",
+      "start": 170.04,
+      "duration": 8.46
+    },
+    {
+      "text": "anonymity from hiding among other users",
+      "start": 175.319,
+      "duration": 7.14
+    },
+    {
+      "text": "and from this idea we get the anonymity",
+      "start": 178.5,
+      "duration": 6.78
+    },
+    {
+      "text": "set which is the concept that you are as",
+      "start": 182.459,
+      "duration": 5.101
+    },
+    {
+      "text": "anonymous as the number of people that",
+      "start": 185.28,
+      "duration": 7.28
+    },
+    {
+      "text": "are acting and behaving like you in this",
+      "start": 187.56,
+      "duration": 8.94
+    },
+    {
+      "text": "anonymity Network so the author",
+      "start": 192.56,
+      "duration": 5.53
+    },
+    {
+      "text": "encourages us through a thought",
+      "start": 196.5,
+      "duration": 4.17
+    },
+    {
+      "text": "experiment to consider something this",
+      "start": 198.09,
+      "duration": 6.54
+    },
+    {
+      "text": "sort imagine you have an email you want",
+      "start": 200.67,
+      "duration": 7.71
+    },
+    {
+      "text": "to set and you have two options for",
+      "start": 204.63,
+      "duration": 6.15
+    },
+    {
+      "text": "email encryption on your left is a",
+      "start": 208.38,
+      "duration": 5.85
+    },
+    {
+      "text": "little a tiny padlock it's a light",
+      "start": 210.78,
+      "duration": 7.65
+    },
+    {
+      "text": "crypto security encryption scheme for",
+      "start": 214.23,
+      "duration": 6.39
+    },
+    {
+      "text": "your email and on the right is a big",
+      "start": 218.43,
+      "duration": 6.929
+    },
+    {
+      "text": "lock it's a heavy crypto encryption",
+      "start": 220.62,
+      "duration": 6.6
+    },
+    {
+      "text": "scheme so you have to ask yourself Who",
+      "start": 225.359,
+      "duration": 3.331
+    },
+    {
+      "text": "am I going to use the heavy duty",
+      "start": 227.22,
+      "duration": 4.4
+    },
+    {
+      "text": "encryption or the lightweight encryption",
+      "start": 228.69,
+      "duration": 6.329
+    },
+    {
+      "text": "the obvious thing is to say oh I'll just",
+      "start": 231.62,
+      "duration": 6.19
+    },
+    {
+      "text": "use the the best possible encryption",
+      "start": 235.019,
+      "duration": 6.481
+    },
+    {
+      "text": "scheme that there is out there however",
+      "start": 237.81,
+      "duration": 5.759
+    },
+    {
+      "text": "what this fails to consider is that",
+      "start": 241.5,
+      "duration": 5.549
+    },
+    {
+      "text": "email encryption isn't a one-person",
+      "start": 243.569,
+      "duration": 5.85
+    },
+    {
+      "text": "endeavor it's something you do with",
+      "start": 247.049,
+      "duration": 4.53
+    },
+    {
+      "text": "other participants and other",
+      "start": 249.419,
+      "duration": 5.07
+    },
+    {
+      "text": "participants might not use the same",
+      "start": 251.579,
+      "duration": 5.071
+    },
+    {
+      "text": "email encryption scheme that you use but",
+      "start": 254.489,
+      "duration": 4.201
+    },
+    {
+      "text": "not just that even if you do use a",
+      "start": 256.65,
+      "duration": 4.16
+    },
+    {
+      "text": "particular email encryption",
+      "start": 258.69,
+      "duration": 5.15
+    },
+    {
+      "text": "if they use the scheme you are using",
+      "start": 260.81,
+      "duration": 8.07
+    },
+    {
+      "text": "orally your privacy is hurt because the",
+      "start": 263.84,
+      "duration": 8.37
+    },
+    {
+      "text": "anime community the anonymity network is",
+      "start": 268.88,
+      "duration": 6.27
+    },
+    {
+      "text": "weakened by bad participants who don't",
+      "start": 272.21,
+      "duration": 6.6
+    },
+    {
+      "text": "know what they're doing and if you are",
+      "start": 275.15,
+      "duration": 6.51
+    },
+    {
+      "text": "really super knowledgeable about using",
+      "start": 278.81,
+      "duration": 5.25
+    },
+    {
+      "text": "email encryption and there's only ten",
+      "start": 281.66,
+      "duration": 4.47
+    },
+    {
+      "text": "other people in the whole world that are",
+      "start": 284.06,
+      "duration": 3.51
+    },
+    {
+      "text": "aware of this then you have another",
+      "start": 286.13,
+      "duration": 2.88
+    },
+    {
+      "text": "problem which is that are you really",
+      "start": 287.57,
+      "duration": 5.49
+    },
+    {
+      "text": "hidden in this network so we're going to",
+      "start": 289.01,
+      "duration": 6.06
+    },
+    {
+      "text": "talk about some principles in anonymity",
+      "start": 293.06,
+      "duration": 4.859
+    },
+    {
+      "text": "network so insecure so these are just",
+      "start": 295.07,
+      "duration": 5.64
+    },
+    {
+      "text": "some things that were brought up by the",
+      "start": 297.919,
+      "duration": 5.131
+    },
+    {
+      "text": "author insecure modes of operation are",
+      "start": 300.71,
+      "duration": 5.22
+    },
+    {
+      "text": "bound to be used unknowingly in those",
+      "start": 303.05,
+      "duration": 5.429
+    },
+    {
+      "text": "modes so if you have some encryption",
+      "start": 305.93,
+      "duration": 5.16
+    },
+    {
+      "text": "schemes some sort of privacy scheming",
+      "start": 308.479,
+      "duration": 4.621
+    },
+    {
+      "text": "and anonymity network insecure modes of",
+      "start": 311.09,
+      "duration": 4.74
+    },
+    {
+      "text": "operation are big red flag optional",
+      "start": 313.1,
+      "duration": 6.93
+    },
+    {
+      "text": "security typically get turned off and",
+      "start": 315.83,
+      "duration": 7.44
+    },
+    {
+      "text": "users forget to turn them back on ever",
+      "start": 320.03,
+      "duration": 6.35
+    },
+    {
+      "text": "again the example that's given here is",
+      "start": 323.27,
+      "duration": 6.69
+    },
+    {
+      "text": "browser cookies so a lot of people click",
+      "start": 326.38,
+      "duration": 5.92
+    },
+    {
+      "text": "no when a site asks for cookies but then",
+      "start": 329.96,
+      "duration": 4.32
+    },
+    {
+      "text": "later will look yes and they'll never go",
+      "start": 332.3,
+      "duration": 3.989
+    },
+    {
+      "text": "back to cookie no so from then on",
+      "start": 334.28,
+      "duration": 3.69
+    },
+    {
+      "text": "they're always giving their personal",
+      "start": 336.289,
+      "duration": 3.351
+    },
+    {
+      "text": "information to sites that the isn't",
+      "start": 337.97,
+      "duration": 4.23
+    },
+    {
+      "text": "badly labeled us which is another",
+      "start": 339.64,
+      "duration": 10.39
+    },
+    {
+      "text": "problem and this is where a user has the",
+      "start": 342.2,
+      "duration": 9.96
+    },
+    {
+      "text": "ability to turn off something that",
+      "start": 350.03,
+      "duration": 6.66
+    },
+    {
+      "text": "secures their privacy and doesn't",
+      "start": 352.16,
+      "duration": 7.05
+    },
+    {
+      "text": "realize that they're they're really",
+      "start": 356.69,
+      "duration": 4.62
+    },
+    {
+      "text": "harming their privacy because they see a",
+      "start": 359.21,
+      "duration": 4.11
+    },
+    {
+      "text": "switch and it's not properly labeled as",
+      "start": 361.31,
+      "duration": 4.079
+    },
+    {
+      "text": "a dangerous off switch so they they",
+      "start": 363.32,
+      "duration": 3.659
+    },
+    {
+      "text": "trigger it and they don't realize that",
+      "start": 365.389,
+      "duration": 3.511
+    },
+    {
+      "text": "they've heard their privacy and what's",
+      "start": 366.979,
+      "duration": 3.211
+    },
+    {
+      "text": "worse is that someone could convince",
+      "start": 368.9,
+      "duration": 4.29
+    },
+    {
+      "text": "that users do that as a social",
+      "start": 370.19,
+      "duration": 5.849
+    },
+    {
+      "text": "engineering attack inconvenience",
+      "start": 373.19,
+      "duration": 5.76
+    },
+    {
+      "text": "security often ends up being tossed",
+      "start": 376.039,
+      "duration": 4.861
+    },
+    {
+      "text": "aside for more convenient but less",
+      "start": 378.95,
+      "duration": 4.41
+    },
+    {
+      "text": "secure methods of operation so people",
+      "start": 380.9,
+      "duration": 4.739
+    },
+    {
+      "text": "don't people don't want to behave in a",
+      "start": 383.36,
+      "duration": 3.75
+    },
+    {
+      "text": "convenient way so they'll pick the more",
+      "start": 385.639,
+      "duration": 4.561
+    },
+    {
+      "text": "convenient way which is often hurts that",
+      "start": 387.11,
+      "duration": 5.549
+    },
+    {
+      "text": "false sense of security is a big problem",
+      "start": 390.2,
+      "duration": 3.14
+    },
+    {
+      "text": "wearing",
+      "start": 392.659,
+      "duration": 2.331
+    },
+    {
+      "text": "wrongfully thinks that what they're",
+      "start": 393.34,
+      "duration": 3.63
+    },
+    {
+      "text": "doing is securing private when what",
+      "start": 394.99,
+      "duration": 4.32
+    },
+    {
+      "text": "they're doing is not secured private and",
+      "start": 396.97,
+      "duration": 4.29
+    },
+    {
+      "text": "then bad mental models encourage users",
+      "start": 399.31,
+      "duration": 7.95
+    },
+    {
+      "text": "to behave in in the wrong way and don't",
+      "start": 401.26,
+      "duration": 9.6
+    },
+    {
+      "text": "accurately allow the user to appreciate",
+      "start": 407.26,
+      "duration": 6.71
+    },
+    {
+      "text": "how private or secure their behavior is",
+      "start": 410.86,
+      "duration": 5.85
+    },
+    {
+      "text": "so usability is more important for",
+      "start": 413.97,
+      "duration": 4.69
+    },
+    {
+      "text": "privacy this is the claim the author is",
+      "start": 416.71,
+      "duration": 4.14
+    },
+    {
+      "text": "making so when more users join the",
+      "start": 418.66,
+      "duration": 5.28
+    },
+    {
+      "text": "network existing users benefit this is",
+      "start": 420.85,
+      "duration": 5.93
+    },
+    {
+      "text": "the case with every anonymity Network",
+      "start": 423.94,
+      "duration": 5.76
+    },
+    {
+      "text": "that we're talking about and encryption",
+      "start": 426.78,
+      "duration": 4.18
+    },
+    {
+      "text": "is different than an intimidating and",
+      "start": 429.7,
+      "duration": 4.11
+    },
+    {
+      "text": "eliminated network you can excuse me",
+      "start": 430.96,
+      "duration": 5.46
+    },
+    {
+      "text": "with encryption you can encrypt your own",
+      "start": 433.81,
+      "duration": 4.89
+    },
+    {
+      "text": "files on your own computer with any",
+      "start": 436.42,
+      "duration": 4.89
+    },
+    {
+      "text": "encryption scheme that you want you",
+      "start": 438.7,
+      "duration": 3.9
+    },
+    {
+      "text": "could pick the strongest encryption",
+      "start": 441.31,
+      "duration": 3.21
+    },
+    {
+      "text": "scheme that's fine but when you're in an",
+      "start": 442.6,
+      "duration": 4.14
+    },
+    {
+      "text": "anonymity network you depend on your",
+      "start": 444.52,
+      "duration": 6.54
+    },
+    {
+      "text": "peers to be anonymous so when we talk to",
+      "start": 446.74,
+      "duration": 5.91
+    },
+    {
+      "text": "so the example here is it is going to be",
+      "start": 451.06,
+      "duration": 3.12
+    },
+    {
+      "text": "tor but I just want to remind you that",
+      "start": 452.65,
+      "duration": 4.59
+    },
+    {
+      "text": "coin shuffle use the same idea I will",
+      "start": 454.18,
+      "duration": 5.61
+    },
+    {
+      "text": "just show the analogy if you recall all",
+      "start": 457.24,
+      "duration": 4.62
+    },
+    {
+      "text": "these users have their outputs and they",
+      "start": 459.79,
+      "duration": 3.57
+    },
+    {
+      "text": "want to do a coin joint but they have",
+      "start": 461.86,
+      "duration": 3.63
+    },
+    {
+      "text": "these equal outputs that must be",
+      "start": 463.36,
+      "duration": 6.47
+    },
+    {
+      "text": "anonymous and so what they do is they",
+      "start": 465.49,
+      "duration": 7.47
+    },
+    {
+      "text": "onion encrypt their outputs and then run",
+      "start": 469.83,
+      "duration": 5.53
+    },
+    {
+      "text": "them through a network of their peers",
+      "start": 472.96,
+      "duration": 5.88
+    },
+    {
+      "text": "and the final result is a set of outputs",
+      "start": 475.36,
+      "duration": 6.87
+    },
+    {
+      "text": "that no one knows where the outputs came",
+      "start": 478.84,
+      "duration": 6.57
+    },
+    {
+      "text": "from only orange knows is his or her own",
+      "start": 482.23,
+      "duration": 6.15
+    },
+    {
+      "text": "output and yellow knows his or her own",
+      "start": 485.41,
+      "duration": 5.88
+    },
+    {
+      "text": "output but yellow doesn't know anyone",
+      "start": 488.38,
+      "duration": 5.01
+    },
+    {
+      "text": "else is outputting so everyone is",
+      "start": 491.29,
+      "duration": 4.11
+    },
+    {
+      "text": "anonymous against everyone else and no",
+      "start": 493.39,
+      "duration": 5.04
+    },
+    {
+      "text": "one knows anyone else's outputs and tor",
+      "start": 495.4,
+      "duration": 4.92
+    },
+    {
+      "text": "is that they you know exactly the same",
+      "start": 498.43,
+      "duration": 4.23
+    },
+    {
+      "text": "idea in this case the peers are tor",
+      "start": 500.32,
+      "duration": 5.97
+    },
+    {
+      "text": "nodes and here red wants to send a",
+      "start": 502.66,
+      "duration": 7.29
+    },
+    {
+      "text": "packet maybe to a website you know pick",
+      "start": 506.29,
+      "duration": 6.54
+    },
+    {
+      "text": "paint a website and so he or she onion",
+      "start": 509.95,
+      "duration": 6.27
+    },
+    {
+      "text": "encrypts through the network you know at",
+      "start": 512.83,
+      "duration": 7.32
+    },
+    {
+      "text": "each layer the the at each step one",
+      "start": 516.22,
+      "duration": 6.18
+    },
+    {
+      "text": "layer is removed and sent the cross at",
+      "start": 520.15,
+      "duration": 4.16
+    },
+    {
+      "text": "any point you know someone like",
+      "start": 522.4,
+      "duration": 5.18
+    },
+    {
+      "text": "has no idea this has come from read at",
+      "start": 524.31,
+      "duration": 5.19
+    },
+    {
+      "text": "each point it's just one person passing",
+      "start": 527.58,
+      "duration": 4.26
+    },
+    {
+      "text": "to the next until finally purple will",
+      "start": 529.5,
+      "duration": 4.44
+    },
+    {
+      "text": "reach out to the website on behalf of",
+      "start": 531.84,
+      "duration": 4.83
+    },
+    {
+      "text": "red without even knowledge that the red",
+      "start": 533.94,
+      "duration": 6.47
+    },
+    {
+      "text": "is the person that said the information",
+      "start": 536.67,
+      "duration": 7.74
+    },
+    {
+      "text": "so toresen anonymity network if you",
+      "start": 540.41,
+      "duration": 6.01
+    },
+    {
+      "text": "can't break the encryption of tor which",
+      "start": 544.41,
+      "duration": 4.02
+    },
+    {
+      "text": "once we assume you can't then really",
+      "start": 546.42,
+      "duration": 3.3
+    },
+    {
+      "text": "what it looks like it's just this big",
+      "start": 548.43,
+      "duration": 4.59
+    },
+    {
+      "text": "black box where users are you know",
+      "start": 549.72,
+      "duration": 5.58
+    },
+    {
+      "text": "entering the network and they're doing",
+      "start": 553.02,
+      "duration": 4.74
+    },
+    {
+      "text": "all sorts of activity and all you see is",
+      "start": 555.3,
+      "duration": 4.14
+    },
+    {
+      "text": "activity coming in and coming out but",
+      "start": 557.76,
+      "duration": 3.81
+    },
+    {
+      "text": "you don't know how to cut which person",
+      "start": 559.44,
+      "duration": 6.089
+    },
+    {
+      "text": "to which other person and so the first",
+      "start": 561.57,
+      "duration": 6.269
+    },
+    {
+      "text": "problem is that if only one person is",
+      "start": 565.529,
+      "duration": 7.25
+    },
+    {
+      "text": "using tor it's trivial to see to link",
+      "start": 567.839,
+      "duration": 7.861
+    },
+    {
+      "text": "information going out of to out of the",
+      "start": 572.779,
+      "duration": 4.271
+    },
+    {
+      "text": "Tor network and information coming into",
+      "start": 575.7,
+      "duration": 4.23
+    },
+    {
+      "text": "the Tor network another problem is that",
+      "start": 577.05,
+      "duration": 5.24
+    },
+    {
+      "text": "if everyone is speaking Yiddish and",
+      "start": 579.93,
+      "duration": 5.7
+    },
+    {
+      "text": "doing things in a very Western English",
+      "start": 582.29,
+      "duration": 6.549
+    },
+    {
+      "text": "way so for example you know you know",
+      "start": 585.63,
+      "duration": 5.13
+    },
+    {
+      "text": "writing in English accessing English",
+      "start": 588.839,
+      "duration": 5.341
+    },
+    {
+      "text": "websites maybe only awake at certain",
+      "start": 590.76,
+      "duration": 4.23
+    },
+    {
+      "text": "times of the day",
+      "start": 594.18,
+      "duration": 2.55
+    },
+    {
+      "text": "then someone here for example who's",
+      "start": 594.99,
+      "duration": 5.37
+    },
+    {
+      "text": "Hungarian speaking Hungarian will be",
+      "start": 596.73,
+      "duration": 8.97
+    },
+    {
+      "text": "easily G anonymize by the fact that",
+      "start": 600.36,
+      "duration": 6.63
+    },
+    {
+      "text": "they're the only person that that's",
+      "start": 605.7,
+      "duration": 4.8
+    },
+    {
+      "text": "doing that so usability versus security",
+      "start": 606.99,
+      "duration": 5.64
+    },
+    {
+      "text": "is a big problem",
+      "start": 610.5,
+      "duration": 5.22
+    },
+    {
+      "text": "you have to ask you know which are",
+      "start": 612.63,
+      "duration": 4.08
+    },
+    {
+      "text": "you're gonna take are you going to pick",
+      "start": 615.72,
+      "duration": 5.19
+    },
+    {
+      "text": "the slow high latency system or the fast",
+      "start": 616.71,
+      "duration": 6.87
+    },
+    {
+      "text": "low latency system which are you going",
+      "start": 620.91,
+      "duration": 5.61
+    },
+    {
+      "text": "to pick well supposing that the high",
+      "start": 623.58,
+      "duration": 5.42
+    },
+    {
+      "text": "latency slow system is way way better",
+      "start": 626.52,
+      "duration": 5.91
+    },
+    {
+      "text": "but nobody is using it it ends up being",
+      "start": 629.0,
+      "duration": 5.62
+    },
+    {
+      "text": "the case that even though you know it's",
+      "start": 632.43,
+      "duration": 4.77
+    },
+    {
+      "text": "more secure it's better to use the",
+      "start": 634.62,
+      "duration": 4.74
+    },
+    {
+      "text": "faster Network where more people are",
+      "start": 637.2,
+      "duration": 7.47
+    },
+    {
+      "text": "currently using it and a big thing that",
+      "start": 639.36,
+      "duration": 7.269
+    },
+    {
+      "text": "the the author now",
+      "start": 644.67,
+      "duration": 5.479
+    },
+    {
+      "text": "Clay's is that easier against for max",
+      "start": 646.629,
+      "duration": 8.7
+    },
+    {
+      "text": "this this this section is for max yes so",
+      "start": 650.149,
+      "duration": 9.78
+    },
+    {
+      "text": "I'm gonna really hold it in and not say",
+      "start": 655.329,
+      "duration": 8.38
+    },
+    {
+      "text": "anything about Mesabi even though the",
+      "start": 659.929,
+      "duration": 5.37
+    },
+    {
+      "text": "tone of my voice should hit strongly",
+      "start": 663.709,
+      "duration": 7.771
+    },
+    {
+      "text": "that this is talking about us but the",
+      "start": 665.299,
+      "duration": 8.52
+    },
+    {
+      "text": "author argues against options right so",
+      "start": 671.48,
+      "duration": 4.56
+    },
+    {
+      "text": "designers are faced with security",
+      "start": 673.819,
+      "duration": 3.96
+    },
+    {
+      "text": "decisions they leave it to the user",
+      "start": 676.04,
+      "duration": 3.959
+    },
+    {
+      "text": "because designers don't necessarily know",
+      "start": 677.779,
+      "duration": 4.47
+    },
+    {
+      "text": "what the right thing to do the protocol",
+      "start": 679.999,
+      "duration": 3.81
+    },
+    {
+      "text": "designer is leaving to the implementers",
+      "start": 682.249,
+      "duration": 3.3
+    },
+    {
+      "text": "the implementers leave it also to the",
+      "start": 683.809,
+      "duration": 4.981
+    },
+    {
+      "text": "users and what ends up happening users",
+      "start": 685.549,
+      "duration": 5.491
+    },
+    {
+      "text": "are the least able to make decisions for",
+      "start": 688.79,
+      "duration": 4.38
+    },
+    {
+      "text": "themselves so if you're asking a user",
+      "start": 691.04,
+      "duration": 6.239
+    },
+    {
+      "text": "hey you go ahead you decide abs or to",
+      "start": 693.17,
+      "duration": 5.669
+    },
+    {
+      "text": "fish which which is your preferred",
+      "start": 697.279,
+      "duration": 3.99
+    },
+    {
+      "text": "symmetric encryption scheme unless you",
+      "start": 698.839,
+      "duration": 4.11
+    },
+    {
+      "text": "know what is what symmetric encryption",
+      "start": 701.269,
+      "duration": 3.391
+    },
+    {
+      "text": "schemes look like and you know the",
+      "start": 702.949,
+      "duration": 5.971
+    },
+    {
+      "text": "difference between those two models you",
+      "start": 704.66,
+      "duration": 5.489
+    },
+    {
+      "text": "are not the right person to answer that",
+      "start": 708.92,
+      "duration": 4.289
+    },
+    {
+      "text": "question alkanes make the code very hard",
+      "start": 710.149,
+      "duration": 6.03
+    },
+    {
+      "text": "to audit because the configuration of a",
+      "start": 713.209,
+      "duration": 5.75
+    },
+    {
+      "text": "particular software is exponentially",
+      "start": 716.179,
+      "duration": 8.4
+    },
+    {
+      "text": "grows with them with more option that",
+      "start": 718.959,
+      "duration": 7.18
+    },
+    {
+      "text": "you give it so if you give you know one",
+      "start": 724.579,
+      "duration": 3.51
+    },
+    {
+      "text": "option over here option a and one option",
+      "start": 726.139,
+      "duration": 2.57
+    },
+    {
+      "text": "over here",
+      "start": 728.089,
+      "duration": 3.99
+    },
+    {
+      "text": "option B then whether or not option A is",
+      "start": 728.709,
+      "duration": 5.41
+    },
+    {
+      "text": "on or off and whether or not a PB is on",
+      "start": 732.079,
+      "duration": 3.81
+    },
+    {
+      "text": "or off give you four options and then",
+      "start": 734.119,
+      "duration": 3.84
+    },
+    {
+      "text": "you know this is clearly girls",
+      "start": 735.889,
+      "duration": 5.07
+    },
+    {
+      "text": "exponentially users with uncommon",
+      "start": 737.959,
+      "duration": 4.891
+    },
+    {
+      "text": "preferences are singled out this is a",
+      "start": 740.959,
+      "duration": 4.05
+    },
+    {
+      "text": "very interesting one so you give people",
+      "start": 742.85,
+      "duration": 4.889
+    },
+    {
+      "text": "tons of options now they select you know",
+      "start": 745.009,
+      "duration": 4.92
+    },
+    {
+      "text": "out of the 14 options you give them they",
+      "start": 747.739,
+      "duration": 5.33
+    },
+    {
+      "text": "select seven of them that is already way",
+      "start": 749.929,
+      "duration": 5.731
+    },
+    {
+      "text": "very unlikely to match with someone else",
+      "start": 753.069,
+      "duration": 4.93
+    },
+    {
+      "text": "and the default option usually prevails",
+      "start": 755.66,
+      "duration": 4.679
+    },
+    {
+      "text": "for casual users and so it should",
+      "start": 757.999,
+      "duration": 4.351
+    },
+    {
+      "text": "prevail for experienced users as well",
+      "start": 760.339,
+      "duration": 5.19
+    },
+    {
+      "text": "this is a pretty big argument that's",
+      "start": 762.35,
+      "duration": 4.44
+    },
+    {
+      "text": "being made by the author but I think",
+      "start": 765.529,
+      "duration": 7.261
+    },
+    {
+      "text": "it's it's very convincing so one case",
+      "start": 766.79,
+      "duration": 8.719
+    },
+    {
+      "text": "study was the mixed minion and the mind",
+      "start": 772.79,
+      "duration": 5.37
+    },
+    {
+      "text": "case study so mixed minion is and",
+      "start": 775.509,
+      "duration": 4.991
+    },
+    {
+      "text": "an email anonymity Network and mine is",
+      "start": 778.16,
+      "duration": 3.39
+    },
+    {
+      "text": "the multi-purpose internet mail",
+      "start": 780.5,
+      "duration": 3.42
+    },
+    {
+      "text": "extension it's just a flag that tells",
+      "start": 781.55,
+      "duration": 6.03
+    },
+    {
+      "text": "you the the format of the content of an",
+      "start": 783.92,
+      "duration": 6.12
+    },
+    {
+      "text": "email the problem is that every email",
+      "start": 787.58,
+      "duration": 6.14
+    },
+    {
+      "text": "service service uses a distinct mind and",
+      "start": 790.04,
+      "duration": 7.44
+    },
+    {
+      "text": "the what that means is that if if two",
+      "start": 793.72,
+      "duration": 6.4
+    },
+    {
+      "text": "people are using one email service and",
+      "start": 797.48,
+      "duration": 4.08
+    },
+    {
+      "text": "everyone else uses a different one you",
+      "start": 800.12,
+      "duration": 3.36
+    },
+    {
+      "text": "can clearly link those two email",
+      "start": 801.56,
+      "duration": 5.07
+    },
+    {
+      "text": "services to each other so one one",
+      "start": 803.48,
+      "duration": 5.37
+    },
+    {
+      "text": "thought you might have is well okay why",
+      "start": 806.63,
+      "duration": 3.96
+    },
+    {
+      "text": "don't we just limit everyone who uses",
+      "start": 808.85,
+      "duration": 5.48
+    },
+    {
+      "text": "our mix minion software to one format",
+      "start": 810.59,
+      "duration": 6.18
+    },
+    {
+      "text": "but the others talked about how if you",
+      "start": 814.33,
+      "duration": 4.24
+    },
+    {
+      "text": "if you limit to one format all of a",
+      "start": 816.77,
+      "duration": 3.63
+    },
+    {
+      "text": "sudden you don't let users send Word",
+      "start": 818.57,
+      "duration": 4.05
+    },
+    {
+      "text": "documents you don't let users send PDF",
+      "start": 820.4,
+      "duration": 4.74
+    },
+    {
+      "text": "documents you don't let users do all of",
+      "start": 822.62,
+      "duration": 4.26
+    },
+    {
+      "text": "these things so what's gonna happen is",
+      "start": 825.14,
+      "duration": 3.96
+    },
+    {
+      "text": "the user is gonna figure out a way to",
+      "start": 826.88,
+      "duration": 4.95
+    },
+    {
+      "text": "overcome this problem by by making by",
+      "start": 829.1,
+      "duration": 4.14
+    },
+    {
+      "text": "doing the wrong thing essentially in",
+      "start": 831.83,
+      "duration": 3.36
+    },
+    {
+      "text": "terms of privacy and by hurting their",
+      "start": 833.24,
+      "duration": 3.57
+    },
+    {
+      "text": "privacy while thinking they're still",
+      "start": 835.19,
+      "duration": 7.16
+    },
+    {
+      "text": "doing good for their privacy and further",
+      "start": 836.81,
+      "duration": 8.76
+    },
+    {
+      "text": "it will end up being the case that users",
+      "start": 842.35,
+      "duration": 5.17
+    },
+    {
+      "text": "simply leave the port O'Call",
+      "start": 845.57,
+      "duration": 3.48
+    },
+    {
+      "text": "altogether because you didn't give them",
+      "start": 847.52,
+      "duration": 4.35
+    },
+    {
+      "text": "enough options so in the end and I was",
+      "start": 849.05,
+      "duration": 6.3
+    },
+    {
+      "text": "surprised to read this the the middle",
+      "start": 851.87,
+      "duration": 5.91
+    },
+    {
+      "text": "ground the the best case for privacy was",
+      "start": 855.35,
+      "duration": 4.44
+    },
+    {
+      "text": "to allow users to behave in a diverse",
+      "start": 857.78,
+      "duration": 4.74
+    },
+    {
+      "text": "way but more than clearly about certain",
+      "start": 859.79,
+      "duration": 6.72
+    },
+    {
+      "text": "choices okay tor installation tor is",
+      "start": 862.52,
+      "duration": 5.97
+    },
+    {
+      "text": "what's used by only cool nerds on unique",
+      "start": 866.51,
+      "duration": 4.86
+    },
+    {
+      "text": "systems and then as you new users",
+      "start": 868.49,
+      "duration": 6.33
+    },
+    {
+      "text": "started to join and used for there was a",
+      "start": 871.37,
+      "duration": 5.19
+    },
+    {
+      "text": "need to quickly onboard them without a",
+      "start": 874.82,
+      "duration": 5.34
+    },
+    {
+      "text": "lot of a lot of explanation what",
+      "start": 876.56,
+      "duration": 5.61
+    },
+    {
+      "text": "beginners did not understand DNS issues",
+      "start": 880.16,
+      "duration": 4.44
+    },
+    {
+      "text": "so what happened is they didn't realize",
+      "start": 882.17,
+      "duration": 6.41
+    },
+    {
+      "text": "that tor wouldn't help at all if you are",
+      "start": 884.6,
+      "duration": 7.59
+    },
+    {
+      "text": "pinging a website or the clear net for a",
+      "start": 888.58,
+      "duration": 5.77
+    },
+    {
+      "text": "lookup table of the site that you're",
+      "start": 892.19,
+      "duration": 5.52
+    },
+    {
+      "text": "looking to access so you need us socks5",
+      "start": 894.35,
+      "duration": 5.91
+    },
+    {
+      "text": "proxy or whatever it is and beginners",
+      "start": 897.71,
+      "duration": 6.12
+    },
+    {
+      "text": "that understand this so what kind of",
+      "start": 900.26,
+      "duration": 5.67
+    },
+    {
+      "text": "solution is could could we do for these",
+      "start": 903.83,
+      "duration": 3.72
+    },
+    {
+      "text": "these users who essentially we're",
+      "start": 905.93,
+      "duration": 3.03
+    },
+    {
+      "text": "getting no privacy",
+      "start": 907.55,
+      "duration": 4.01
+    },
+    {
+      "text": "by doing this well okay the first thing",
+      "start": 908.96,
+      "duration": 6.03
+    },
+    {
+      "text": "was improve documentation turns out that",
+      "start": 911.56,
+      "duration": 5.59
+    },
+    {
+      "text": "didn't help it only helped users who",
+      "start": 914.99,
+      "duration": 3.72
+    },
+    {
+      "text": "read it and all the illusions that",
+      "start": 917.15,
+      "duration": 4.13
+    },
+    {
+      "text": "didn't read it just continue to make",
+      "start": 918.71,
+      "duration": 5.43
+    },
+    {
+      "text": "make big privacy blunders the next thing",
+      "start": 921.28,
+      "duration": 5.65
+    },
+    {
+      "text": "was give a warning message this only",
+      "start": 924.14,
+      "duration": 4.17
+    },
+    {
+      "text": "created more confusion you know you",
+      "start": 926.93,
+      "duration": 4.14
+    },
+    {
+      "text": "would say to them hey you're you know by",
+      "start": 928.31,
+      "duration": 5.31
+    },
+    {
+      "text": "a by using tor without a Sox by proxy",
+      "start": 931.07,
+      "duration": 4.77
+    },
+    {
+      "text": "your dns is really leaked to the blah",
+      "start": 933.62,
+      "duration": 3.93
+    },
+    {
+      "text": "blah the user would just be completely",
+      "start": 935.84,
+      "duration": 4.56
+    },
+    {
+      "text": "confused about what was going on finally",
+      "start": 937.55,
+      "duration": 4.95
+    },
+    {
+      "text": "the the working solution was an error",
+      "start": 940.4,
+      "duration": 3.33
+    },
+    {
+      "text": "message that pointed to the",
+      "start": 942.5,
+      "duration": 3.24
+    },
+    {
+      "text": "documentation which told you sir what to",
+      "start": 943.73,
+      "duration": 6.78
+    },
+    {
+      "text": "do okay so this is where I ran out of",
+      "start": 945.74,
+      "duration": 7.64
+    },
+    {
+      "text": "time cuz I'm a busy man but I take",
+      "start": 950.51,
+      "duration": 5.49
+    },
+    {
+      "text": "responsibility so we'll continue talking",
+      "start": 953.38,
+      "duration": 4.21
+    },
+    {
+      "text": "about the paper but I don't have any",
+      "start": 956.0,
+      "duration": 4.53
+    },
+    {
+      "text": "more slides so we'll just leave it to",
+      "start": 957.59,
+      "duration": 8.46
+    },
+    {
+      "text": "discussion Thank You Arif I think this",
+      "start": 960.53,
+      "duration": 8.76
+    },
+    {
+      "text": "paper was very different from from the",
+      "start": 966.05,
+      "duration": 7.8
+    },
+    {
+      "text": "previous sessions because it was very",
+      "start": 969.29,
+      "duration": 8.43
+    },
+    {
+      "text": "unique in a sense that kind of a",
+      "start": 973.85,
+      "duration": 8.28
+    },
+    {
+      "text": "philosophical paper but in a research",
+      "start": 977.72,
+      "duration": 6.78
+    },
+    {
+      "text": "paper philosophy capice in a research",
+      "start": 982.13,
+      "duration": 7.53
+    },
+    {
+      "text": "paper so that said that's why I don't",
+      "start": 984.5,
+      "duration": 10.89
+    },
+    {
+      "text": "have much comments on it but I have",
+      "start": 989.66,
+      "duration": 10.92
+    },
+    {
+      "text": "something I have one two three four five",
+      "start": 995.39,
+      "duration": 7.89
+    },
+    {
+      "text": "questions for the author who is not with",
+      "start": 1000.58,
+      "duration": 6.45
+    },
+    {
+      "text": "us but I have three more topics to",
+      "start": 1003.28,
+      "duration": 7.65
+    },
+    {
+      "text": "discuss and and this might be a bit",
+      "start": 1007.03,
+      "duration": 7.2
+    },
+    {
+      "text": "redundant because of we've talked about",
+      "start": 1010.93,
+      "duration": 5.88
+    },
+    {
+      "text": "it but let's let's see the very first",
+      "start": 1014.23,
+      "duration": 6.15
+    },
+    {
+      "text": "thing I just I just want to I just want",
+      "start": 1016.81,
+      "duration": 7.83
+    },
+    {
+      "text": "to to quote something that another area",
+      "start": 1020.38,
+      "duration": 7.38
+    },
+    {
+      "text": "where human factors are critical in",
+      "start": 1024.64,
+      "duration": 5.85
+    },
+    {
+      "text": "privacy he's bootstrapping new systems",
+      "start": 1027.76,
+      "duration": 6.42
+    },
+    {
+      "text": "and this resonates with me a lot because",
+      "start": 1030.49,
+      "duration": 7.41
+    },
+    {
+      "text": "in wasabi the other Hebrew bootstrap",
+      "start": 1034.18,
+      "duration": 7.409
+    },
+    {
+      "text": "this thing was quite huge issue back",
+      "start": 1037.9,
+      "duration": 4.62
+    },
+    {
+      "text": "then",
+      "start": 1041.589,
+      "duration": 4.771
+    },
+    {
+      "text": "it's somehow all worked out yeah what",
+      "start": 1042.52,
+      "duration": 7.17
+    },
+    {
+      "text": "what what do you guys have yeah if I",
+      "start": 1046.36,
+      "duration": 4.92
+    },
+    {
+      "text": "remember the early days where we had the",
+      "start": 1049.69,
+      "duration": 3.6
+    },
+    {
+      "text": "anonymity set of five for wasabi meat",
+      "start": 1051.28,
+      "duration": 4.5
+    },
+    {
+      "text": "sauce and of course it did not give you",
+      "start": 1053.29,
+      "duration": 5.64
+    },
+    {
+      "text": "much privacy at all but still you know",
+      "start": 1055.78,
+      "duration": 5.31
+    },
+    {
+      "text": "enthusiasts could use it knowing that",
+      "start": 1058.93,
+      "duration": 5.31
+    },
+    {
+      "text": "they did not get much privacy but but",
+      "start": 1061.09,
+      "duration": 4.86
+    },
+    {
+      "text": "knowing the potential that it has right",
+      "start": 1064.24,
+      "duration": 3.99
+    },
+    {
+      "text": "and that it's at least you know better",
+      "start": 1065.95,
+      "duration": 4.65
+    },
+    {
+      "text": "than nothing even if you do small realms",
+      "start": 1068.23,
+      "duration": 4.17
+    },
+    {
+      "text": "it's it's still better than nothing I",
+      "start": 1070.6,
+      "duration": 4.98
+    },
+    {
+      "text": "didn't not to encourage one at all so",
+      "start": 1072.4,
+      "duration": 5.07
+    },
+    {
+      "text": "that was the reason why I used it right",
+      "start": 1075.58,
+      "duration": 4.41
+    },
+    {
+      "text": "first if it was the only workable",
+      "start": 1077.47,
+      "duration": 5.16
+    },
+    {
+      "text": "solution so there was no other option",
+      "start": 1079.99,
+      "duration": 6.54
+    },
+    {
+      "text": "for me as an enthusiast and second III I",
+      "start": 1082.63,
+      "duration": 6.24
+    },
+    {
+      "text": "saw the potential of what this can be",
+      "start": 1086.53,
+      "duration": 4.77
+    },
+    {
+      "text": "and that if I help bootstrap the system",
+      "start": 1088.87,
+      "duration": 5.22
+    },
+    {
+      "text": "now that later at a point in time when",
+      "start": 1091.3,
+      "duration": 5.49
+    },
+    {
+      "text": "others start using this you know but I",
+      "start": 1094.09,
+      "duration": 10.85
+    },
+    {
+      "text": "can have a better tool yeah I remember",
+      "start": 1096.79,
+      "duration": 11.4
+    },
+    {
+      "text": "finding out about wasabi maybe because",
+      "start": 1104.94,
+      "duration": 6.39
+    },
+    {
+      "text": "of Max's videos and all of his",
+      "start": 1108.19,
+      "duration": 5.49
+    },
+    {
+      "text": "enthusiasm about what hobby wallet and",
+      "start": 1111.33,
+      "duration": 5.29
+    },
+    {
+      "text": "that kind of like drove me into looking",
+      "start": 1113.68,
+      "duration": 7.41
+    },
+    {
+      "text": "it up and yeah I was definitely a little",
+      "start": 1116.62,
+      "duration": 7.68
+    },
+    {
+      "text": "surprised that it wasn't that difficult",
+      "start": 1121.09,
+      "duration": 9.24
+    },
+    {
+      "text": "that I first thought but yeah I mean",
+      "start": 1124.3,
+      "duration": 8.73
+    },
+    {
+      "text": "there's a lot of confusing little words",
+      "start": 1130.33,
+      "duration": 5.55
+    },
+    {
+      "text": "or words that people use when talking",
+      "start": 1133.03,
+      "duration": 4.95
+    },
+    {
+      "text": "about wasabi wallet and the coin joints",
+      "start": 1135.88,
+      "duration": 5.67
+    },
+    {
+      "text": "in itself so I think that's a big issue",
+      "start": 1137.98,
+      "duration": 7.86
+    },
+    {
+      "text": "that it might scare people off just",
+      "start": 1141.55,
+      "duration": 7.43
+    },
+    {
+      "text": "because they don't know what to expect",
+      "start": 1145.84,
+      "duration": 3.14
+    },
+    {
+      "text": "it's interesting isn't it we have a",
+      "start": 1149.55,
+      "duration": 7.39
+    },
+    {
+      "text": "philosophical paper and because of the",
+      "start": 1152.53,
+      "duration": 8.57
+    },
+    {
+      "text": "lack of of technical depth in it but",
+      "start": 1156.94,
+      "duration": 8.61
+    },
+    {
+      "text": "it's very good huge big picture document",
+      "start": 1161.1,
+      "duration": 6.19
+    },
+    {
+      "text": "but because of the lack of technical",
+      "start": 1165.55,
+      "duration": 3.98
+    },
+    {
+      "text": "things we are already putting on to",
+      "start": 1167.29,
+      "duration": 6.54
+    },
+    {
+      "text": "applying it to to the best-known system",
+      "start": 1169.53,
+      "duration": 5.38
+    },
+    {
+      "text": "that we know about",
+      "start": 1173.83,
+      "duration": 3.829
+    },
+    {
+      "text": "she's facade",
+      "start": 1174.91,
+      "duration": 5.459
+    },
+    {
+      "text": "maybe this conversation is gonna be",
+      "start": 1177.659,
+      "duration": 10.661
+    },
+    {
+      "text": "about fasabi yeah I think that we should",
+      "start": 1180.369,
+      "duration": 10.081
+    },
+    {
+      "text": "talk about what something because",
+      "start": 1188.32,
+      "duration": 5.189
+    },
+    {
+      "text": "there's no way to it's interesting way",
+      "start": 1190.45,
+      "duration": 6.63
+    },
+    {
+      "text": "to nest this conversation into something",
+      "start": 1193.509,
+      "duration": 5.821
+    },
+    {
+      "text": "that we can all understand really well",
+      "start": 1197.08,
+      "duration": 6.059
+    },
+    {
+      "text": "so let me start by saying this this",
+      "start": 1199.33,
+      "duration": 7.74
+    },
+    {
+      "text": "paper made me feel like I'm like I was",
+      "start": 1203.139,
+      "duration": 5.461
+    },
+    {
+      "text": "right about something and wrong about",
+      "start": 1207.07,
+      "duration": 2.189
+    },
+    {
+      "text": "something",
+      "start": 1208.6,
+      "duration": 3.48
+    },
+    {
+      "text": "from the past so one thing I was right",
+      "start": 1209.259,
+      "duration": 4.74
+    },
+    {
+      "text": "about that more at least is this paper",
+      "start": 1212.08,
+      "duration": 5.039
+    },
+    {
+      "text": "argues that I was right about is the",
+      "start": 1213.999,
+      "duration": 6.961
+    },
+    {
+      "text": "idea that if we can we should make the",
+      "start": 1217.119,
+      "duration": 7.26
+    },
+    {
+      "text": "way that wasabi works very very simple",
+      "start": 1220.96,
+      "duration": 9.36
+    },
+    {
+      "text": "to the point where you know to explain",
+      "start": 1224.379,
+      "duration": 8.16
+    },
+    {
+      "text": "to a user what they're gonna expect out",
+      "start": 1230.32,
+      "duration": 5.489
+    },
+    {
+      "text": "of Mesabi it should be it should be very",
+      "start": 1232.539,
+      "duration": 5.281
+    },
+    {
+      "text": "simple and I should stay constant and",
+      "start": 1235.809,
+      "duration": 4.83
+    },
+    {
+      "text": "the same so it seems like this paper",
+      "start": 1237.82,
+      "duration": 5.88
+    },
+    {
+      "text": "would argue for that where I was wrong",
+      "start": 1240.639,
+      "duration": 6.331
+    },
+    {
+      "text": "is is the idea of giving people a lot of",
+      "start": 1243.7,
+      "duration": 6.479
+    },
+    {
+      "text": "options so allowing people you know for",
+      "start": 1246.97,
+      "duration": 5.159
+    },
+    {
+      "text": "example I was very happy with the custom",
+      "start": 1250.179,
+      "duration": 5.49
+    },
+    {
+      "text": "fee and I wasn't happening before that",
+      "start": 1252.129,
+      "duration": 5.4
+    },
+    {
+      "text": "when there wasn't a custom fee but",
+      "start": 1255.669,
+      "duration": 3.811
+    },
+    {
+      "text": "having read this paper I actually am of",
+      "start": 1257.529,
+      "duration": 3.39
+    },
+    {
+      "text": "the belief that there should only be",
+      "start": 1259.48,
+      "duration": 5.129
+    },
+    {
+      "text": "three options for a fee and if we really",
+      "start": 1260.919,
+      "duration": 6.151
+    },
+    {
+      "text": "care about what we were doing we should",
+      "start": 1264.609,
+      "duration": 4.081
+    },
+    {
+      "text": "accept the fact that even though you",
+      "start": 1267.07,
+      "duration": 4.349
+    },
+    {
+      "text": "don't get your perfect exact correct fee",
+      "start": 1268.69,
+      "duration": 4.859
+    },
+    {
+      "text": "that you think is right it's still",
+      "start": 1271.419,
+      "duration": 4.47
+    },
+    {
+      "text": "better for everyone else and I think",
+      "start": 1273.549,
+      "duration": 4.021
+    },
+    {
+      "text": "that's something we should we should do",
+      "start": 1275.889,
+      "duration": 4.86
+    },
+    {
+      "text": "across the board for all features you",
+      "start": 1277.57,
+      "duration": 5.16
+    },
+    {
+      "text": "know the crimper giving it up because",
+      "start": 1280.749,
+      "duration": 3.721
+    },
+    {
+      "text": "that was exactly what came to my mind to",
+      "start": 1282.73,
+      "duration": 3.389
+    },
+    {
+      "text": "the issue of the fee like that",
+      "start": 1284.47,
+      "duration": 3.899
+    },
+    {
+      "text": "personally love setting the custom fees",
+      "start": 1286.119,
+      "duration": 4.321
+    },
+    {
+      "text": "exactly how I like it but after reading",
+      "start": 1288.369,
+      "duration": 5.071
+    },
+    {
+      "text": "this paper that's very stupid to do you",
+      "start": 1290.44,
+      "duration": 4.349
+    },
+    {
+      "text": "know you should just go with Bitcoin",
+      "start": 1293.44,
+      "duration": 4.169
+    },
+    {
+      "text": "course Marty estimation and do the",
+      "start": 1294.789,
+      "duration": 4.74
+    },
+    {
+      "text": "default that everyone else uses that",
+      "start": 1297.609,
+      "duration": 3.27
+    },
+    {
+      "text": "leads to much less followed",
+      "start": 1299.529,
+      "duration": 4.951
+    },
+    {
+      "text": "fingerprinting but you know it also",
+      "start": 1300.879,
+      "duration": 5.13
+    },
+    {
+      "text": "comes with the other point in the paper",
+      "start": 1304.48,
+      "duration": 4.35
+    },
+    {
+      "text": "that although although they're having",
+      "start": 1306.009,
+      "duration": 3.571
+    },
+    {
+      "text": "too many options",
+      "start": 1308.83,
+      "duration": 3.03
+    },
+    {
+      "text": "an issue if you don't have many options",
+      "start": 1309.58,
+      "duration": 4.29
+    },
+    {
+      "text": "then people will not use it right the",
+      "start": 1311.86,
+      "duration": 4.23
+    },
+    {
+      "text": "power user who insists on having the",
+      "start": 1313.87,
+      "duration": 5.85
+    },
+    {
+      "text": "custom fees evil evil you know then no",
+      "start": 1316.09,
+      "duration": 5.28
+    },
+    {
+      "text": "longer used for sabe thus decreasing the",
+      "start": 1319.72,
+      "duration": 4.17
+    },
+    {
+      "text": "network effect so I think what we have",
+      "start": 1321.37,
+      "duration": 5.28
+    },
+    {
+      "text": "right now is a decent compromise where",
+      "start": 1323.89,
+      "duration": 5.16
+    },
+    {
+      "text": "you know at least the average user has",
+      "start": 1326.65,
+      "duration": 4.56
+    },
+    {
+      "text": "only the fee slider with Bitcoin core",
+      "start": 1329.05,
+      "duration": 5.31
+    },
+    {
+      "text": "estimation but then in these settings an",
+      "start": 1331.21,
+      "duration": 5.19
+    },
+    {
+      "text": "advanced user can activate the custom",
+      "start": 1334.36,
+      "duration": 4.8
+    },
+    {
+      "text": "fee and do what he wants right so I",
+      "start": 1336.4,
+      "duration": 4.98
+    },
+    {
+      "text": "think that is good but I would know much",
+      "start": 1339.16,
+      "duration": 3.66
+    },
+    {
+      "text": "more a much more go into that direction",
+      "start": 1341.38,
+      "duration": 3.66
+    },
+    {
+      "text": "where I would suggest to every user to",
+      "start": 1342.82,
+      "duration": 5.04
+    },
+    {
+      "text": "always go with Bitcoin core unless it is",
+      "start": 1345.04,
+      "duration": 5.04
+    },
+    {
+      "text": "it is some case but it really is",
+      "start": 1347.86,
+      "duration": 8.19
+    },
+    {
+      "text": "military yeah I agree with that what I",
+      "start": 1350.08,
+      "duration": 9.93
+    },
+    {
+      "text": "really liked was was the idea of having",
+      "start": 1356.05,
+      "duration": 6.15
+    },
+    {
+      "text": "error messages point to documentation",
+      "start": 1360.01,
+      "duration": 4.8
+    },
+    {
+      "text": "because I know we have excellent",
+      "start": 1362.2,
+      "duration": 5.07
+    },
+    {
+      "text": "documentation and we're very proud of it",
+      "start": 1364.81,
+      "duration": 5.19
+    },
+    {
+      "text": "but right now the problem is that most",
+      "start": 1367.27,
+      "duration": 5.43
+    },
+    {
+      "text": "users don't read it and the biggest plus",
+      "start": 1370.0,
+      "duration": 4.86
+    },
+    {
+      "text": "that I see from the documentation is",
+      "start": 1372.7,
+      "duration": 5.19
+    },
+    {
+      "text": "that yahia is really good at referencing",
+      "start": 1374.86,
+      "duration": 4.86
+    },
+    {
+      "text": "documentation when answering questions",
+      "start": 1377.89,
+      "duration": 6.51
+    },
+    {
+      "text": "to people on on reddit so he's doing",
+      "start": 1379.72,
+      "duration": 6.24
+    },
+    {
+      "text": "exactly what the paper recommends which",
+      "start": 1384.4,
+      "duration": 3.24
+    },
+    {
+      "text": "is when someone asks a question you just",
+      "start": 1385.96,
+      "duration": 3.81
+    },
+    {
+      "text": "point exactly in the documentation where",
+      "start": 1387.64,
+      "duration": 4.68
+    },
+    {
+      "text": "it is but if we could have altering",
+      "start": 1389.77,
+      "duration": 5.46
+    },
+    {
+      "text": "settings like with an error message that",
+      "start": 1392.32,
+      "duration": 5.46
+    },
+    {
+      "text": "points to documentation so you know if I",
+      "start": 1395.23,
+      "duration": 6.36
+    },
+    {
+      "text": "turn off tour actually say error you've",
+      "start": 1397.78,
+      "duration": 6.35
+    },
+    {
+      "text": "turned off tour here's the documentation",
+      "start": 1401.59,
+      "duration": 5.07
+    },
+    {
+      "text": "where it explains why tour protects your",
+      "start": 1404.13,
+      "duration": 7.81
+    },
+    {
+      "text": "privacy we should somehow be yeah I've",
+      "start": 1406.66,
+      "duration": 7.61
+    },
+    {
+      "text": "been thinking about this too because",
+      "start": 1411.94,
+      "duration": 5.94
+    },
+    {
+      "text": "there is a bullet I think it's called",
+      "start": 1414.27,
+      "duration": 7.81
+    },
+    {
+      "text": "exodus' and people were saying very good",
+      "start": 1417.88,
+      "duration": 8.19
+    },
+    {
+      "text": "things about it that it it has the",
+      "start": 1422.08,
+      "duration": 6.93
+    },
+    {
+      "text": "documentation in the wallet itself and",
+      "start": 1426.07,
+      "duration": 6.57
+    },
+    {
+      "text": "that gives them a lot of confidence and",
+      "start": 1429.01,
+      "duration": 7.41
+    },
+    {
+      "text": "I was thinking about it's it's a lot to",
+      "start": 1432.64,
+      "duration": 8.01
+    },
+    {
+      "text": "but how do you you know how do you solve",
+      "start": 1436.42,
+      "duration": 6.28
+    },
+    {
+      "text": "this technical challenge",
+      "start": 1440.65,
+      "duration": 4.51
+    },
+    {
+      "text": "in a different way because they'll be",
+      "start": 1442.7,
+      "duration": 5.76
+    },
+    {
+      "text": "waste to add the documentation into",
+      "start": 1445.16,
+      "duration": 7.23
+    },
+    {
+      "text": "Vasavi and and it's kind of like that",
+      "start": 1448.46,
+      "duration": 6.57
+    },
+    {
+      "text": "duplicating everything but how do you",
+      "start": 1452.39,
+      "duration": 4.98
+    },
+    {
+      "text": "solve it without duplicating that's a",
+      "start": 1455.03,
+      "duration": 3.66
+    },
+    {
+      "text": "good question",
+      "start": 1457.37,
+      "duration": 4.5
+    },
+    {
+      "text": "or is the is the system stable enough so",
+      "start": 1458.69,
+      "duration": 6.89
+    },
+    {
+      "text": "we could have sufficient documentation",
+      "start": 1461.87,
+      "duration": 7.83
+    },
+    {
+      "text": "or is the system is is going to change",
+      "start": 1465.58,
+      "duration": 9.87
+    },
+    {
+      "text": "that much that it just doesn't work",
+      "start": 1469.7,
+      "duration": 8.85
+    },
+    {
+      "text": "building the documentation into Vasavi",
+      "start": 1475.45,
+      "duration": 8.5
+    },
+    {
+      "text": "you know I think documentation in wasabi",
+      "start": 1478.55,
+      "duration": 7.65
+    },
+    {
+      "text": "is exactly right one thing I thought",
+      "start": 1483.95,
+      "duration": 3.81
+    },
+    {
+      "text": "about reading this paper is about mental",
+      "start": 1486.2,
+      "duration": 4.2
+    },
+    {
+      "text": "models and to me it's like every time I",
+      "start": 1487.76,
+      "duration": 6.0
+    },
+    {
+      "text": "should I open wasabi it should have ten",
+      "start": 1490.4,
+      "duration": 6.09
+    },
+    {
+      "text": "like where were five screens beautiful",
+      "start": 1493.76,
+      "duration": 5.33
+    },
+    {
+      "text": "graphic screens like six 102 Bitcoin",
+      "start": 1496.49,
+      "duration": 7.05
+    },
+    {
+      "text": "with his graphic designs that I can skip",
+      "start": 1499.09,
+      "duration": 6.07
+    },
+    {
+      "text": "if I want to like a big skip button",
+      "start": 1503.54,
+      "duration": 3.69
+    },
+    {
+      "text": "right below but every time you go into",
+      "start": 1505.16,
+      "duration": 3.84
+    },
+    {
+      "text": "wasabi you just feel like hey this is",
+      "start": 1507.23,
+      "duration": 3.0
+    },
+    {
+      "text": "what you're doing this is what it looks",
+      "start": 1509.0,
+      "duration": 3.63
+    },
+    {
+      "text": "like this is you know just some good",
+      "start": 1510.23,
+      "duration": 4.94
+    },
+    {
+      "text": "mental models for users and having",
+      "start": 1512.63,
+      "duration": 4.59
+    },
+    {
+      "text": "documentation and these mental models in",
+      "start": 1515.17,
+      "duration": 4.66
+    },
+    {
+      "text": "wasabi without them having to go to a",
+      "start": 1517.22,
+      "duration": 5.07
+    },
+    {
+      "text": "website or reddit or daughter github I",
+      "start": 1519.83,
+      "duration": 4.55
+    },
+    {
+      "text": "think that would be a pretty big plus",
+      "start": 1522.29,
+      "duration": 5.42
+    },
+    {
+      "text": "yeah yes I agree Aviv here it",
+      "start": 1524.38,
+      "duration": 6.22
+    },
+    {
+      "text": "it's I think a two-fold approach right",
+      "start": 1527.71,
+      "duration": 5.35
+    },
+    {
+      "text": "one is to have such a starting guide to",
+      "start": 1530.6,
+      "duration": 5.1
+    },
+    {
+      "text": "get every user on the on the same in on",
+      "start": 1533.06,
+      "duration": 5.13
+    },
+    {
+      "text": "the same starting point and and that is",
+      "start": 1535.7,
+      "duration": 4.47
+    },
+    {
+      "text": "definitely awesome and then further it",
+      "start": 1538.19,
+      "duration": 4.2
+    },
+    {
+      "text": "would be for these advanced things like",
+      "start": 1540.17,
+      "duration": 3.78
+    },
+    {
+      "text": "Evita as you mentioned when you turn off",
+      "start": 1542.39,
+      "duration": 4.23
+    },
+    {
+      "text": "tour all right these things were many",
+      "start": 1543.95,
+      "duration": 4.17
+    },
+    {
+      "text": "edge cases there's thousands of them in",
+      "start": 1546.62,
+      "duration": 4.71
+    },
+    {
+      "text": "the wallet right where then one pop-up",
+      "start": 1548.12,
+      "duration": 5.25
+    },
+    {
+      "text": "notification comes that says this is",
+      "start": 1551.33,
+      "duration": 2.58
+    },
+    {
+      "text": "wrong",
+      "start": 1553.37,
+      "duration": 3.12
+    },
+    {
+      "text": "danger be careful here is explained why",
+      "start": 1553.91,
+      "duration": 5.37
+    },
+    {
+      "text": "right so I think a combination of both",
+      "start": 1556.49,
+      "duration": 9.47
+    },
+    {
+      "text": "is what might be useful against",
+      "start": 1559.28,
+      "duration": 10.05
+    },
+    {
+      "text": "documentation in the wallet I'm just",
+      "start": 1565.96,
+      "duration": 5.35
+    },
+    {
+      "text": "bringing up that there are other issues",
+      "start": 1569.33,
+      "duration": 4.7
+    },
+    {
+      "text": "here which is the technical death that",
+      "start": 1571.31,
+      "duration": 4.59
+    },
+    {
+      "text": "everything of",
+      "start": 1574.03,
+      "duration": 9.85
+    },
+    {
+      "text": "has to be created in we'd be the",
+      "start": 1575.9,
+      "duration": 10.89
+    },
+    {
+      "text": "documentation itself and if you want to",
+      "start": 1583.88,
+      "duration": 5.19
+    },
+    {
+      "text": "change something then you have to update",
+      "start": 1586.79,
+      "duration": 4.5
+    },
+    {
+      "text": "the documentation it's like it's like",
+      "start": 1589.07,
+      "duration": 6.63
+    },
+    {
+      "text": "double work and it might work when when",
+      "start": 1591.29,
+      "duration": 7.92
+    },
+    {
+      "text": "the product doesn't really want to",
+      "start": 1595.7,
+      "duration": 6.62
+    },
+    {
+      "text": "change that much anymore oh it's like",
+      "start": 1599.21,
+      "duration": 6.72
+    },
+    {
+      "text": "it's like new languages it's like having",
+      "start": 1602.32,
+      "duration": 6.13
+    },
+    {
+      "text": "your software in many different",
+      "start": 1605.93,
+      "duration": 6.36
+    },
+    {
+      "text": "languages is awesome except that you",
+      "start": 1608.45,
+      "duration": 8.09
+    },
+    {
+      "text": "won't be able to change it anymore and",
+      "start": 1612.29,
+      "duration": 8.04
+    },
+    {
+      "text": "without without fixing every single",
+      "start": 1616.54,
+      "duration": 7.57
+    },
+    {
+      "text": "language you know that is the real issue",
+      "start": 1620.33,
+      "duration": 7.65
+    },
+    {
+      "text": "here I mean software ones is is soft",
+      "start": 1624.11,
+      "duration": 6.21
+    },
+    {
+      "text": "right hardware is hard",
+      "start": 1627.98,
+      "duration": 4.949
+    },
+    {
+      "text": "it doesn't change software is soft it",
+      "start": 1630.32,
+      "duration": 12.77
+    },
+    {
+      "text": "Taurus changes any way anymore on this",
+      "start": 1632.929,
+      "duration": 12.901
+    },
+    {
+      "text": "you know I think one especially",
+      "start": 1643.09,
+      "duration": 4.63
+    },
+    {
+      "text": "regarding options that is very",
+      "start": 1645.83,
+      "duration": 4.17
+    },
+    {
+      "text": "applicable to wasabi it's the question",
+      "start": 1647.72,
+      "duration": 4.68
+    },
+    {
+      "text": "of manual or automatic coin selection",
+      "start": 1650.0,
+      "duration": 4.62
+    },
+    {
+      "text": "right of course it's in my opinion one",
+      "start": 1652.4,
+      "duration": 3.779
+    },
+    {
+      "text": "of the best features of wasabi to have",
+      "start": 1654.62,
+      "duration": 4.05
+    },
+    {
+      "text": "the manual coin selection because",
+      "start": 1656.179,
+      "duration": 4.021
+    },
+    {
+      "text": "there's allows users who know what",
+      "start": 1658.67,
+      "duration": 3.42
+    },
+    {
+      "text": "they're doing to use this to a great",
+      "start": 1660.2,
+      "duration": 4.17
+    },
+    {
+      "text": "extent but of course this also means",
+      "start": 1662.09,
+      "duration": 3.57
+    },
+    {
+      "text": "that anyone who does not know what",
+      "start": 1664.37,
+      "duration": 2.64
+    },
+    {
+      "text": "they're doing with just a vast majority",
+      "start": 1665.66,
+      "duration": 3.66
+    },
+    {
+      "text": "of all users to shoot themselves in the",
+      "start": 1667.01,
+      "duration": 6.33
+    },
+    {
+      "text": "foot and to [ __ ] up right so where where",
+      "start": 1669.32,
+      "duration": 6.72
+    },
+    {
+      "text": "do we stand here can we or they even",
+      "start": 1673.34,
+      "duration": 5.25
+    },
+    {
+      "text": "have the technical capacity to having a",
+      "start": 1676.04,
+      "duration": 4.83
+    },
+    {
+      "text": "same automatic coin selection algorithm",
+      "start": 1678.59,
+      "duration": 8.219
+    },
+    {
+      "text": "that actually works for anyone right yes",
+      "start": 1680.87,
+      "duration": 10.83
+    },
+    {
+      "text": "I think it's already possible but it's a",
+      "start": 1686.809,
+      "duration": 7.261
+    },
+    {
+      "text": "lot of work and thinking and how do you",
+      "start": 1691.7,
+      "duration": 7.979
+    },
+    {
+      "text": "do the levers but maybe that's",
+      "start": 1694.07,
+      "duration": 8.25
+    },
+    {
+      "text": "definitely the goal right to get rid of",
+      "start": 1699.679,
+      "duration": 5.941
+    },
+    {
+      "text": "the coins but it's not going to happen",
+      "start": 1702.32,
+      "duration": 6.84
+    },
+    {
+      "text": "within five to ten years maybe because",
+      "start": 1705.62,
+      "duration": 4.14
+    },
+    {
+      "text": "it's just",
+      "start": 1709.16,
+      "duration": 3.08
+    },
+    {
+      "text": "in grayned but but on the other hand",
+      "start": 1709.76,
+      "duration": 5.66
+    },
+    {
+      "text": "moving into the direction of of",
+      "start": 1712.24,
+      "duration": 6.4
+    },
+    {
+      "text": "automatic coin selection by grouping",
+      "start": 1715.42,
+      "duration": 7.6
+    },
+    {
+      "text": "coins it's it's like semi-automatic that",
+      "start": 1718.64,
+      "duration": 6.27
+    },
+    {
+      "text": "that would that would make sense",
+      "start": 1723.02,
+      "duration": 4.29
+    },
+    {
+      "text": "more sense than just getting rid of the",
+      "start": 1724.91,
+      "duration": 5.34
+    },
+    {
+      "text": "coins all together or they're just moved",
+      "start": 1727.31,
+      "duration": 6.12
+    },
+    {
+      "text": "slowly into that direction like all the",
+      "start": 1730.25,
+      "duration": 6.93
+    },
+    {
+      "text": "the red all the green coins and there is",
+      "start": 1733.43,
+      "duration": 5.58
+    },
+    {
+      "text": "not really much of a difference between",
+      "start": 1737.18,
+      "duration": 4.23
+    },
+    {
+      "text": "them so they could be grouped into one",
+      "start": 1739.01,
+      "duration": 7.89
+    },
+    {
+      "text": "role for example actually I would point",
+      "start": 1741.41,
+      "duration": 6.99
+    },
+    {
+      "text": "out that there is a difference between",
+      "start": 1746.9,
+      "duration": 4.32
+    },
+    {
+      "text": "green coins if they're they come from",
+      "start": 1748.4,
+      "duration": 7.26
+    },
+    {
+      "text": "two separate instances of mixing as an",
+      "start": 1751.22,
+      "duration": 6.78
+    },
+    {
+      "text": "example if I mix some coins to two weeks",
+      "start": 1755.66,
+      "duration": 5.63
+    },
+    {
+      "text": "ago and I mixed some coins yesterday",
+      "start": 1758.0,
+      "duration": 5.82
+    },
+    {
+      "text": "those green coins are coming from",
+      "start": 1761.29,
+      "duration": 5.08
+    },
+    {
+      "text": "different times so an optimal coin",
+      "start": 1763.82,
+      "duration": 5.97
+    },
+    {
+      "text": "selection would actually pick coins from",
+      "start": 1766.37,
+      "duration": 6.9
+    },
+    {
+      "text": "across both because that would really be",
+      "start": 1769.79,
+      "duration": 7.32
+    },
+    {
+      "text": "confusing to in terms of linking which",
+      "start": 1773.27,
+      "duration": 8.84
+    },
+    {
+      "text": "which user does on yeah maybe not but",
+      "start": 1777.11,
+      "duration": 11.34
+    },
+    {
+      "text": "there are exactly the same yes they are",
+      "start": 1782.11,
+      "duration": 9.34
+    },
+    {
+      "text": "not exactly the same but for all intents",
+      "start": 1788.45,
+      "duration": 7.71
+    },
+    {
+      "text": "and purposes for for all the threat",
+      "start": 1791.45,
+      "duration": 9.56
+    },
+    {
+      "text": "models they could be considered the same",
+      "start": 1796.16,
+      "duration": 4.85
+    },
+    {
+      "text": "yes again right and in the issue that",
+      "start": 1802.84,
+      "duration": 4.69
+    },
+    {
+      "text": "comes up here is that as long as we rely",
+      "start": 1805.7,
+      "duration": 4.53
+    },
+    {
+      "text": "on manual coin selection we again has",
+      "start": 1807.53,
+      "duration": 5.31
+    },
+    {
+      "text": "user bias on on which option is being",
+      "start": 1810.23,
+      "duration": 5.88
+    },
+    {
+      "text": "chosen right and and that can lead to to",
+      "start": 1812.84,
+      "duration": 5.1
+    },
+    {
+      "text": "again finger printing off individual",
+      "start": 1816.11,
+      "duration": 4.17
+    },
+    {
+      "text": "users depending on how they select the",
+      "start": 1817.94,
+      "duration": 5.43
+    },
+    {
+      "text": "coins and so this is indeed a very very",
+      "start": 1820.28,
+      "duration": 6.75
+    },
+    {
+      "text": "pressing issue I don't agree with that",
+      "start": 1823.37,
+      "duration": 8.03
+    },
+    {
+      "text": "until you give me an example",
+      "start": 1827.03,
+      "duration": 4.37
+    },
+    {
+      "text": "hmm we think well specifically for coin",
+      "start": 1838.369,
+      "duration": 11.29
+    },
+    {
+      "text": "selection you're talking about money own",
+      "start": 1843.059,
+      "duration": 14.85
+    },
+    {
+      "text": "selection now yes I know for example",
+      "start": 1849.659,
+      "duration": 11.1
+    },
+    {
+      "text": "what what what avi said that if you have",
+      "start": 1857.909,
+      "duration": 6.09
+    },
+    {
+      "text": "two different you know clusters of mixed",
+      "start": 1860.759,
+      "duration": 5.55
+    },
+    {
+      "text": "coins right they're mixed but they're",
+      "start": 1863.999,
+      "duration": 4.91
+    },
+    {
+      "text": "still from different sessions of mixing",
+      "start": 1866.309,
+      "duration": 6.72
+    },
+    {
+      "text": "now if one user all the time selects for",
+      "start": 1868.909,
+      "duration": 6.19
+    },
+    {
+      "text": "one transaction only those coins within",
+      "start": 1873.029,
+      "duration": 4.86
+    },
+    {
+      "text": "one session and another user selects",
+      "start": 1875.099,
+      "duration": 6.721
+    },
+    {
+      "text": "coins from that span across sessions you",
+      "start": 1877.889,
+      "duration": 5.91
+    },
+    {
+      "text": "know that that might already be be from",
+      "start": 1881.82,
+      "duration": 6.479
+    },
+    {
+      "text": "some thread model user doesn't even know",
+      "start": 1883.799,
+      "duration": 7.38
+    },
+    {
+      "text": "that there are sessions even I'm not",
+      "start": 1888.299,
+      "duration": 5.31
+    },
+    {
+      "text": "sure four sessions mean in this context",
+      "start": 1891.179,
+      "duration": 7.2
+    },
+    {
+      "text": "different rounds maybe but but as far as",
+      "start": 1893.609,
+      "duration": 9.02
+    },
+    {
+      "text": "I understood Aviv went down on that",
+      "start": 1898.379,
+      "duration": 8.13
+    },
+    {
+      "text": "ultrabeat hole and then ended up nowhere",
+      "start": 1902.629,
+      "duration": 8.35
+    },
+    {
+      "text": "because it did not really really made",
+      "start": 1906.509,
+      "duration": 8.51
+    },
+    {
+      "text": "that much sense is that correct",
+      "start": 1910.979,
+      "duration": 8.76
+    },
+    {
+      "text": "assertion of the situation sorry I went",
+      "start": 1915.019,
+      "duration": 8.86
+    },
+    {
+      "text": "down with this these two sessions coins",
+      "start": 1919.739,
+      "duration": 12.961
+    },
+    {
+      "text": "thing it means having collections from",
+      "start": 1923.879,
+      "duration": 15.811
+    },
+    {
+      "text": "two different sessions yes yeah so the",
+      "start": 1932.7,
+      "duration": 9.209
+    },
+    {
+      "text": "reason why I think it would make some",
+      "start": 1939.69,
+      "duration": 8.309
+    },
+    {
+      "text": "sense is because you know if you have if",
+      "start": 1941.909,
+      "duration": 7.86
+    },
+    {
+      "text": "you receive let's just a simple example",
+      "start": 1947.999,
+      "duration": 5.52
+    },
+    {
+      "text": "you received one Bitcoin twice so once a",
+      "start": 1949.769,
+      "duration": 7.29
+    },
+    {
+      "text": "month ago once a week ago and you have",
+      "start": 1953.519,
+      "duration": 7.23
+    },
+    {
+      "text": "ten coins from both if you if you need",
+      "start": 1957.059,
+      "duration": 6.271
+    },
+    {
+      "text": "to send someone one Bitcoin it would be",
+      "start": 1960.749,
+      "duration": 5.79
+    },
+    {
+      "text": "better for you to send a few coins from",
+      "start": 1963.33,
+      "duration": 3.89
+    },
+    {
+      "text": "the",
+      "start": 1966.539,
+      "duration": 2.271
+    },
+    {
+      "text": "we could go in a few coins from the",
+      "start": 1967.22,
+      "duration": 14.49
+    },
+    {
+      "text": "month ago why because it so generally",
+      "start": 1968.81,
+      "duration": 15.66
+    },
+    {
+      "text": "you don't want to send all the coins",
+      "start": 1981.71,
+      "duration": 5.4
+    },
+    {
+      "text": "from a mix right you don't want to see",
+      "start": 1984.47,
+      "duration": 4.14
+    },
+    {
+      "text": "like if you if you if you mixed coins",
+      "start": 1987.11,
+      "duration": 3.6
+    },
+    {
+      "text": "and I have 20 coins you don't send all",
+      "start": 1988.61,
+      "duration": 4.34
+    },
+    {
+      "text": "of those 20 together",
+      "start": 1990.71,
+      "duration": 6.48
+    },
+    {
+      "text": "so how come because you you know you",
+      "start": 1992.95,
+      "duration": 6.04
+    },
+    {
+      "text": "sort of you've entered at one point in",
+      "start": 1997.19,
+      "duration": 3.93
+    },
+    {
+      "text": "the network you've exited another point",
+      "start": 1998.99,
+      "duration": 4.41
+    },
+    {
+      "text": "and the amounts are similar so there's a",
+      "start": 2001.12,
+      "duration": 5.79
+    },
+    {
+      "text": "higher degree of link ability so what",
+      "start": 2003.4,
+      "duration": 5.34
+    },
+    {
+      "text": "happens is is if you pointed to",
+      "start": 2006.91,
+      "duration": 4.77
+    },
+    {
+      "text": "different times you measured right now",
+      "start": 2008.74,
+      "duration": 6.24
+    },
+    {
+      "text": "there's a I think this is my version I",
+      "start": 2011.68,
+      "duration": 7.56
+    },
+    {
+      "text": "think I your intuition is right which is",
+      "start": 2014.98,
+      "duration": 8.61
+    },
+    {
+      "text": "that you know if you are mixing one",
+      "start": 2019.24,
+      "duration": 8.07
+    },
+    {
+      "text": "after another then those coins might be",
+      "start": 2023.59,
+      "duration": 7.74
+    },
+    {
+      "text": "more likely to to belong to the same",
+      "start": 2027.31,
+      "duration": 6.48
+    },
+    {
+      "text": "cluster right this is your intuition and",
+      "start": 2031.33,
+      "duration": 6.3
+    },
+    {
+      "text": "and and this is somewhat right what what",
+      "start": 2033.79,
+      "duration": 6.36
+    },
+    {
+      "text": "you're missing there is that merging",
+      "start": 2037.63,
+      "duration": 6.96
+    },
+    {
+      "text": "together coins actually exposes that",
+      "start": 2040.15,
+      "duration": 10.16
+    },
+    {
+      "text": "link hundred percent so it's you don't",
+      "start": 2044.59,
+      "duration": 9.42
+    },
+    {
+      "text": "expose more than you are addicts but you",
+      "start": 2050.31,
+      "duration": 5.01
+    },
+    {
+      "text": "know what I mean",
+      "start": 2054.01,
+      "duration": 6.36
+    },
+    {
+      "text": "so the information that sorry merging",
+      "start": 2055.32,
+      "duration": 10.62
+    },
+    {
+      "text": "coins links a hundred percent yeah yeah",
+      "start": 2060.37,
+      "duration": 11.94
+    },
+    {
+      "text": "how's that you put two coins into the",
+      "start": 2065.94,
+      "duration": 8.53
+    },
+    {
+      "text": "same transaction so that must come from",
+      "start": 2072.31,
+      "duration": 9.05
+    },
+    {
+      "text": "the same person right okay",
+      "start": 2074.47,
+      "duration": 12.83
+    },
+    {
+      "text": "block chain analysis heuristics 101",
+      "start": 2081.36,
+      "duration": 10.96
+    },
+    {
+      "text": "Kashyap holistic that's okay but",
+      "start": 2087.3,
+      "duration": 7.51
+    },
+    {
+      "text": "blocking analysis will we'll look at",
+      "start": 2092.32,
+      "duration": 5.02
+    },
+    {
+      "text": "those those two coins and say",
+      "start": 2094.81,
+      "duration": 4.9
+    },
+    {
+      "text": "okay one point is from but we can go one",
+      "start": 2097.34,
+      "duration": 4.92
+    },
+    {
+      "text": "point is to a month ago now we need to",
+      "start": 2099.71,
+      "duration": 9.45
+    },
+    {
+      "text": "find a user that used wasabi a month ago",
+      "start": 2102.26,
+      "duration": 9.33
+    },
+    {
+      "text": "and a week ago and that could be any",
+      "start": 2109.16,
+      "duration": 4.02
+    },
+    {
+      "text": "user like that there's a lot of users",
+      "start": 2111.59,
+      "duration": 5.82
+    },
+    {
+      "text": "there and they they they don't have a",
+      "start": 2113.18,
+      "duration": 6.48
+    },
+    {
+      "text": "good upper balance because the user only",
+      "start": 2117.41,
+      "duration": 4.05
+    },
+    {
+      "text": "selected one coin from each it's instead",
+      "start": 2119.66,
+      "duration": 8.61
+    },
+    {
+      "text": "of two coins from the same place why",
+      "start": 2121.46,
+      "duration": 16.92
+    },
+    {
+      "text": "would okay III them so so it might be in",
+      "start": 2128.27,
+      "duration": 13.8
+    },
+    {
+      "text": "my example of a person who received one",
+      "start": 2138.38,
+      "duration": 6.93
+    },
+    {
+      "text": "coin one Bitcoin a month ago one bit",
+      "start": 2142.07,
+      "duration": 6.14
+    },
+    {
+      "text": "when we go he has 20 coins in total",
+      "start": 2145.31,
+      "duration": 7.53
+    },
+    {
+      "text": "right 10 from a week ago 10 from a month",
+      "start": 2148.21,
+      "duration": 7.42
+    },
+    {
+      "text": "ago and I'm saying if you want to send",
+      "start": 2152.84,
+      "duration": 5.16
+    },
+    {
+      "text": "someone one Bitcoin it's better that you",
+      "start": 2155.63,
+      "duration": 5.55
+    },
+    {
+      "text": "send five coins from a week ago and five",
+      "start": 2158.0,
+      "duration": 5.85
+    },
+    {
+      "text": "points from a month ago then ten coins",
+      "start": 2161.18,
+      "duration": 8.49
+    },
+    {
+      "text": "from a week ago right because five coins",
+      "start": 2163.85,
+      "duration": 8.49
+    },
+    {
+      "text": "from a week ago there's a lot of people",
+      "start": 2169.67,
+      "duration": 5.34
+    },
+    {
+      "text": "that that mixed and had five coins from",
+      "start": 2172.34,
+      "duration": 6.63
+    },
+    {
+      "text": "a week ago in five coins from a month",
+      "start": 2175.01,
+      "duration": 6.53
+    },
+    {
+      "text": "ago there's a lot of people that had",
+      "start": 2178.97,
+      "duration": 8.31
+    },
+    {
+      "text": "five points from a month ago so that's",
+      "start": 2181.54,
+      "duration": 7.27
+    },
+    {
+      "text": "where my intuition comes from as opposed",
+      "start": 2187.28,
+      "duration": 3.0
+    },
+    {
+      "text": "to ten coins which is which is now",
+      "start": 2188.81,
+      "duration": 5.76
+    },
+    {
+      "text": "duction you know obvious that intuition",
+      "start": 2190.28,
+      "duration": 5.94
+    },
+    {
+      "text": "might be right but i would say it",
+      "start": 2194.57,
+      "duration": 3.53
+    },
+    {
+      "text": "depends very much on the other users",
+      "start": 2196.22,
+      "duration": 4.47
+    },
+    {
+      "text": "writer quoting here the paper chapter",
+      "start": 2198.1,
+      "duration": 5.17
+    },
+    {
+      "text": "ten uses safety relies on them behaving",
+      "start": 2200.69,
+      "duration": 5.31
+    },
+    {
+      "text": "like the others users but how can they",
+      "start": 2203.27,
+      "duration": 5.28
+    },
+    {
+      "text": "predict how other users behave right and",
+      "start": 2206.0,
+      "duration": 5.1
+    },
+    {
+      "text": "that's exactly the issue if there are if",
+      "start": 2208.55,
+      "duration": 4.65
+    },
+    {
+      "text": "there are more people who have ten coins",
+      "start": 2211.1,
+      "duration": 5.4
+    },
+    {
+      "text": "from this week compared to users that",
+      "start": 2213.2,
+      "duration": 5.01
+    },
+    {
+      "text": "have five coins from this week five",
+      "start": 2216.5,
+      "duration": 5.49
+    },
+    {
+      "text": "coins from last month then you might",
+      "start": 2218.21,
+      "duration": 5.25
+    },
+    {
+      "text": "actually be better to send the ten",
+      "start": 2221.99,
+      "duration": 3.66
+    },
+    {
+      "text": "points from this week rather than the",
+      "start": 2223.46,
+      "duration": 4.23
+    },
+    {
+      "text": "size and the size because there are more",
+      "start": 2225.65,
+      "duration": 5.279
+    },
+    {
+      "text": "users who have ten coins from this week",
+      "start": 2227.69,
+      "duration": 5.609
+    },
+    {
+      "text": "so so although your intuition might be",
+      "start": 2230.929,
+      "duration": 4.77
+    },
+    {
+      "text": "correct it very much depends on other",
+      "start": 2233.299,
+      "duration": 5.19
+    },
+    {
+      "text": "users and how do we know how would their",
+      "start": 2235.699,
+      "duration": 6.24
+    },
+    {
+      "text": "coin situation is we don't feel ok",
+      "start": 2238.489,
+      "duration": 7.73
+    },
+    {
+      "text": "that's a good that's a very good point",
+      "start": 2241.939,
+      "duration": 9.0
+    },
+    {
+      "text": "yes I don't also I don't agree with that",
+      "start": 2246.219,
+      "duration": 8.83
+    },
+    {
+      "text": "I'll be with that inside because you are",
+      "start": 2250.939,
+      "duration": 6.84
+    },
+    {
+      "text": "dachshund or another tenant Bitcoin you",
+      "start": 2255.049,
+      "duration": 7.92
+    },
+    {
+      "text": "TXO for no reason I mean I do kinda",
+      "start": 2257.779,
+      "duration": 7.79
+    },
+    {
+      "text": "understand what you mean by that",
+      "start": 2262.969,
+      "duration": 4.95
+    },
+    {
+      "text": "confusing the assignment analysis and",
+      "start": 2265.569,
+      "duration": 5.17
+    },
+    {
+      "text": "mixing up another UT echo from different",
+      "start": 2267.919,
+      "duration": 6.12
+    },
+    {
+      "text": "time or different rounds but I don't",
+      "start": 2270.739,
+      "duration": 5.911
+    },
+    {
+      "text": "know you would have to go on and mix",
+      "start": 2274.039,
+      "duration": 8.94
+    },
+    {
+      "text": "that then Bitcoin UT EXO again anyway so",
+      "start": 2276.65,
+      "duration": 8.219
+    },
+    {
+      "text": "I'm not sure if that's the most",
+      "start": 2282.979,
+      "duration": 5.911
+    },
+    {
+      "text": "convenient thing for the user to do I'm",
+      "start": 2284.869,
+      "duration": 7.261
+    },
+    {
+      "text": "not sure but my intuition would be to",
+      "start": 2288.89,
+      "duration": 12.449
+    },
+    {
+      "text": "disagree regarding this paper just he's",
+      "start": 2292.13,
+      "duration": 13.409
+    },
+    {
+      "text": "really really instructive that we're",
+      "start": 2301.339,
+      "duration": 6.36
+    },
+    {
+      "text": "talking about these UTX of coin",
+      "start": 2305.539,
+      "duration": 6.69
+    },
+    {
+      "text": "selections those even if the intuition",
+      "start": 2307.699,
+      "duration": 8.76
+    },
+    {
+      "text": "would be hundred percent correct there",
+      "start": 2312.229,
+      "duration": 6.84
+    },
+    {
+      "text": "is still the the thing that we learned",
+      "start": 2316.459,
+      "duration": 4.941
+    },
+    {
+      "text": "last week that it's kind of",
+      "start": 2319.069,
+      "duration": 5.94
+    },
+    {
+      "text": "computationally infeasible to to look at",
+      "start": 2321.4,
+      "duration": 6.339
+    },
+    {
+      "text": "his links especially if you are talking",
+      "start": 2325.009,
+      "duration": 6.121
+    },
+    {
+      "text": "with probabilities and and this brings",
+      "start": 2327.739,
+      "duration": 7.26
+    },
+    {
+      "text": "back brings us back to the paper that is",
+      "start": 2331.13,
+      "duration": 8.279
+    },
+    {
+      "text": "is this procrastination and the user",
+      "start": 2334.999,
+      "duration": 8.49
+    },
+    {
+      "text": "experience shouldn't be more important",
+      "start": 2339.409,
+      "duration": 9.21
+    },
+    {
+      "text": "than some some really weak intuition on",
+      "start": 2343.489,
+      "duration": 11.7
+    },
+    {
+      "text": "privacy you know and this is right we",
+      "start": 2348.619,
+      "duration": 8.7
+    },
+    {
+      "text": "here to write of course that there might",
+      "start": 2355.189,
+      "duration": 4.56
+    },
+    {
+      "text": "be you know something to be figured out",
+      "start": 2357.319,
+      "duration": 4.74
+    },
+    {
+      "text": "on how precisely to to this coin",
+      "start": 2359.749,
+      "duration": 4.681
+    },
+    {
+      "text": "selection and then how to do it right",
+      "start": 2362.059,
+      "duration": 6.691
+    },
+    {
+      "text": "after all I think the the this is a",
+      "start": 2364.43,
+      "duration": 6.84
+    },
+    {
+      "text": "comparatively a marginal gain of privacy",
+      "start": 2368.75,
+      "duration": 5.09
+    },
+    {
+      "text": "right some better private a time",
+      "start": 2371.27,
+      "duration": 5.61
+    },
+    {
+      "text": "correlation protection or whatever but",
+      "start": 2373.84,
+      "duration": 4.69
+    },
+    {
+      "text": "comparing that to a user interface that",
+      "start": 2376.88,
+      "duration": 3.12
+    },
+    {
+      "text": "is much more intuitive",
+      "start": 2378.53,
+      "duration": 3.45
+    },
+    {
+      "text": "where more users will use it or the",
+      "start": 2380.0,
+      "duration": 4.74
+    },
+    {
+      "text": "anonymity set as a whole grows that will",
+      "start": 2381.98,
+      "duration": 7.02
+    },
+    {
+      "text": "give I would say much more privacy of",
+      "start": 2384.74,
+      "duration": 7.53
+    },
+    {
+      "text": "course it's a different strategy I agree",
+      "start": 2389.0,
+      "duration": 5.04
+    },
+    {
+      "text": "with max actually I think there are way",
+      "start": 2392.27,
+      "duration": 4.14
+    },
+    {
+      "text": "bigger problems and bigger gains we can",
+      "start": 2394.04,
+      "duration": 3.9
+    },
+    {
+      "text": "make them quite selection I was just",
+      "start": 2396.41,
+      "duration": 3.69
+    },
+    {
+      "text": "thinking out loud so I'm happy to",
+      "start": 2397.94,
+      "duration": 5.0
+    },
+    {
+      "text": "concede that the Quinn selection doesn't",
+      "start": 2400.1,
+      "duration": 5.73
+    },
+    {
+      "text": "matter that much or at least me if I",
+      "start": 2402.94,
+      "duration": 4.48
+    },
+    {
+      "text": "want if you wouldn't think about this at",
+      "start": 2405.83,
+      "duration": 5.4
+    },
+    {
+      "text": "another time okay new topic I am reading",
+      "start": 2407.42,
+      "duration": 7.08
+    },
+    {
+      "text": "from the paper reboot ability is an",
+      "start": 2411.23,
+      "duration": 7.38
+    },
+    {
+      "text": "anonymity issue for two reasons first it",
+      "start": 2414.5,
+      "duration": 6.78
+    },
+    {
+      "text": "impacts the sustainability of the",
+      "start": 2418.61,
+      "duration": 6.06
+    },
+    {
+      "text": "network a network that's always about to",
+      "start": 2421.28,
+      "duration": 5.64
+    },
+    {
+      "text": "be shut down has difficulty attracting",
+      "start": 2424.67,
+      "duration": 5.94
+    },
+    {
+      "text": "and keeping users so it's anonymity set",
+      "start": 2426.92,
+      "duration": 9.3
+    },
+    {
+      "text": "suffers second a disreputable network",
+      "start": 2430.61,
+      "duration": 8.34
+    },
+    {
+      "text": "attracts the attention of powerful",
+      "start": 2436.22,
+      "duration": 6.36
+    },
+    {
+      "text": "attackers who may not mind revealing the",
+      "start": 2438.95,
+      "duration": 6.39
+    },
+    {
+      "text": "identities of all of the users to",
+      "start": 2442.58,
+      "duration": 8.6
+    },
+    {
+      "text": "uncover a few bad ones now I was",
+      "start": 2445.34,
+      "duration": 8.6
+    },
+    {
+      "text": "watching the tour developers talk",
+      "start": 2451.18,
+      "duration": 7.42
+    },
+    {
+      "text": "yesterday and he was talking about Silk",
+      "start": 2453.94,
+      "duration": 9.15
+    },
+    {
+      "text": "Road that when Silk Road was shut down",
+      "start": 2458.6,
+      "duration": 9.54
+    },
+    {
+      "text": "I'm not sure which agency um but some",
+      "start": 2463.09,
+      "duration": 8.47
+    },
+    {
+      "text": "some American US agency went to him and",
+      "start": 2468.14,
+      "duration": 7.53
+    },
+    {
+      "text": "told him that 90% of the tor traffic",
+      "start": 2471.56,
+      "duration": 6.72
+    },
+    {
+      "text": "just disappear because ciick road was",
+      "start": 2475.67,
+      "duration": 5.46
+    },
+    {
+      "text": "shut down and he was like oh really",
+      "start": 2478.28,
+      "duration": 5.49
+    },
+    {
+      "text": "went home and and look at the stuff that",
+      "start": 2481.13,
+      "duration": 5.73
+    },
+    {
+      "text": "what was going on and it turned out that",
+      "start": 2483.77,
+      "duration": 8.33
+    },
+    {
+      "text": "that was a lie so that's why",
+      "start": 2486.86,
+      "duration": 8.34
+    },
+    {
+      "text": "transparency is kind of important in",
+      "start": 2492.1,
+      "duration": 4.979
+    },
+    {
+      "text": "anonymity systems because",
+      "start": 2495.2,
+      "duration": 4.329
+    },
+    {
+      "text": "other words or is just say any",
+      "start": 2497.079,
+      "duration": 5.76
+    },
+    {
+      "text": "statistics that they come up with out of",
+      "start": 2499.529,
+      "duration": 6.611
+    },
+    {
+      "text": "nowhere and just just makes make false",
+      "start": 2502.839,
+      "duration": 4.41
+    },
+    {
+      "text": "accusations",
+      "start": 2506.14,
+      "duration": 6.6
+    },
+    {
+      "text": "so repeatability what's your thoughts on",
+      "start": 2507.249,
+      "duration": 9.631
+    },
+    {
+      "text": "that yes I think that that's quite a",
+      "start": 2512.74,
+      "duration": 6.48
+    },
+    {
+      "text": "good insight right because again the",
+      "start": 2516.88,
+      "duration": 4.739
+    },
+    {
+      "text": "reputation will lead users to trust or",
+      "start": 2519.22,
+      "duration": 4.92
+    },
+    {
+      "text": "not trust the software with their",
+      "start": 2521.619,
+      "duration": 4.65
+    },
+    {
+      "text": "privacy and then of course the more the",
+      "start": 2524.14,
+      "duration": 4.109
+    },
+    {
+      "text": "more users trust a specific software",
+      "start": 2526.269,
+      "duration": 5.01
+    },
+    {
+      "text": "were tooled in general was to be used to",
+      "start": 2528.249,
+      "duration": 4.83
+    },
+    {
+      "text": "protect their privacy the higher the",
+      "start": 2531.279,
+      "duration": 3.78
+    },
+    {
+      "text": "anonymity sent us the higher the privacy",
+      "start": 2533.079,
+      "duration": 4.02
+    },
+    {
+      "text": "right so if you have some shady provider",
+      "start": 2535.059,
+      "duration": 4.8
+    },
+    {
+      "text": "you know claiming that he gives privacy",
+      "start": 2537.099,
+      "duration": 5.76
+    },
+    {
+      "text": "but not nobody really believing him then",
+      "start": 2539.859,
+      "duration": 5.131
+    },
+    {
+      "text": "of course nobody will use him and duster",
+      "start": 2542.859,
+      "duration": 3.69
+    },
+    {
+      "text": "will actually not be any privacy",
+      "start": 2544.99,
+      "duration": 3.69
+    },
+    {
+      "text": "compared to if you have a provider that",
+      "start": 2546.549,
+      "duration": 4.02
+    },
+    {
+      "text": "is very transparent and very open and",
+      "start": 2548.68,
+      "duration": 5.339
+    },
+    {
+      "text": "very educated then this this will leave",
+      "start": 2550.569,
+      "duration": 6.361
+    },
+    {
+      "text": "more users to to trust that this is the",
+      "start": 2554.019,
+      "duration": 5.221
+    },
+    {
+      "text": "right tool to use and thus providing a",
+      "start": 2556.93,
+      "duration": 11.609
+    },
+    {
+      "text": "higher anonymity said yeah sorry the big",
+      "start": 2559.24,
+      "duration": 11.4
+    },
+    {
+      "text": "thing with the paper that I took away is",
+      "start": 2568.539,
+      "duration": 6.81
+    },
+    {
+      "text": "how important it is to help the least",
+      "start": 2570.64,
+      "duration": 8.76
+    },
+    {
+      "text": "knowledgeable users you know how",
+      "start": 2575.349,
+      "duration": 6.75
+    },
+    {
+      "text": "critical they are and because if you",
+      "start": 2579.4,
+      "duration": 4.53
+    },
+    {
+      "text": "think of a lot of people that come into",
+      "start": 2582.099,
+      "duration": 4.2
+    },
+    {
+      "text": "the Bitcoin space and that are you know",
+      "start": 2583.93,
+      "duration": 5.369
+    },
+    {
+      "text": "not super tech oriented don't know don't",
+      "start": 2586.299,
+      "duration": 6.631
+    },
+    {
+      "text": "know a lot a lot of those people are not",
+      "start": 2589.299,
+      "duration": 6.21
+    },
+    {
+      "text": "you know the malicious or nefarious so",
+      "start": 2592.93,
+      "duration": 5.429
+    },
+    {
+      "text": "if they decide not to use wasabi then",
+      "start": 2595.509,
+      "duration": 4.79
+    },
+    {
+      "text": "wasabi is only used by two groups",
+      "start": 2598.359,
+      "duration": 5.851
+    },
+    {
+      "text": "criminals and people who are smart and",
+      "start": 2600.299,
+      "duration": 6.52
+    },
+    {
+      "text": "appreciate privacy and have the ability",
+      "start": 2604.21,
+      "duration": 4.68
+    },
+    {
+      "text": "to do that but but we have to have you",
+      "start": 2606.819,
+      "duration": 3.72
+    },
+    {
+      "text": "know everyday people who don't even know",
+      "start": 2608.89,
+      "duration": 3.33
+    },
+    {
+      "text": "very much apart from that is secure in",
+      "start": 2610.539,
+      "duration": 3.871
+    },
+    {
+      "text": "private who are using it without without",
+      "start": 2612.22,
+      "duration": 7.47
+    },
+    {
+      "text": "flaw we're very much a creed and that",
+      "start": 2614.41,
+      "duration": 7.919
+    },
+    {
+      "text": "was funnily enough my main motivation of",
+      "start": 2619.69,
+      "duration": 4.23
+    },
+    {
+      "text": "doing the educational videos at first",
+      "start": 2622.329,
+      "duration": 4.081
+    },
+    {
+      "text": "because I realized that the tool is [ __ ]",
+      "start": 2623.92,
+      "duration": 4.87
+    },
+    {
+      "text": "if only five people use it",
+      "start": 2626.41,
+      "duration": 4.66
+    },
+    {
+      "text": "if I want privacy myself I better",
+      "start": 2628.79,
+      "duration": 5.66
+    },
+    {
+      "text": "educate others how to use it",
+      "start": 2631.07,
+      "duration": 3.38
+    },
+    {
+      "text": "alright so the very last topic I have",
+      "start": 2634.9,
+      "duration": 7.09
+    },
+    {
+      "text": "for today and I'm going to just just",
+      "start": 2638.66,
+      "duration": 6.09
+    },
+    {
+      "text": "give this question out and let you guys",
+      "start": 2641.99,
+      "duration": 8.85
+    },
+    {
+      "text": "think about it and I'm not sure I'm",
+      "start": 2644.75,
+      "duration": 8.16
+    },
+    {
+      "text": "going to contribute much or the",
+      "start": 2650.84,
+      "duration": 5.34
+    },
+    {
+      "text": "conversation from here on just wait for",
+      "start": 2652.91,
+      "duration": 5.97
+    },
+    {
+      "text": "some awkward moment and and then discuss",
+      "start": 2656.18,
+      "duration": 8.37
+    },
+    {
+      "text": "the next next meetings a schedule of",
+      "start": 2658.88,
+      "duration": 9.15
+    },
+    {
+      "text": "what what we should do so after reading",
+      "start": 2664.55,
+      "duration": 8.76
+    },
+    {
+      "text": "this paper should I put it you know this",
+      "start": 2668.03,
+      "duration": 8.64
+    },
+    {
+      "text": "paper is about usability more important",
+      "start": 2673.31,
+      "duration": 10.98
+    },
+    {
+      "text": "than then technical hardness and it's",
+      "start": 2676.67,
+      "duration": 12.51
+    },
+    {
+      "text": "quiet apparent that possibly was from",
+      "start": 2684.29,
+      "duration": 8.27
+    },
+    {
+      "text": "the very beginning was going for",
+      "start": 2689.18,
+      "duration": 6.57
+    },
+    {
+      "text": "anonymity like in the hardest sense that",
+      "start": 2692.56,
+      "duration": 8.73
+    },
+    {
+      "text": "could be humanly achieved on Bitcoin and",
+      "start": 2695.75,
+      "duration": 9.74
+    },
+    {
+      "text": "compare it to something like dark wallet",
+      "start": 2701.29,
+      "duration": 7.18
+    },
+    {
+      "text": "yeah probably dark wallet was the purest",
+      "start": 2705.49,
+      "duration": 7.81
+    },
+    {
+      "text": "idea of usability there that it was",
+      "start": 2708.47,
+      "duration": 8.28
+    },
+    {
+      "text": "doing to off to Cohen joins if you wanna",
+      "start": 2713.3,
+      "duration": 7.41
+    },
+    {
+      "text": "send money somewhere then you register",
+      "start": 2716.75,
+      "duration": 7.53
+    },
+    {
+      "text": "this sand and whenever there is another",
+      "start": 2720.71,
+      "duration": 6.03
+    },
+    {
+      "text": "person who wants to send you're gonna",
+      "start": 2724.28,
+      "duration": 5.94
+    },
+    {
+      "text": "send together that that was dark wallet",
+      "start": 2726.74,
+      "duration": 8.88
+    },
+    {
+      "text": "and maybe we are in the wrong path with",
+      "start": 2730.22,
+      "duration": 9.24
+    },
+    {
+      "text": "Vasavi against trying to it ultimate",
+      "start": 2735.62,
+      "duration": 7.98
+    },
+    {
+      "text": "privacy but maybe just two of two coin",
+      "start": 2739.46,
+      "duration": 7.83
+    },
+    {
+      "text": "joints would do much more for Bitcoin",
+      "start": 2743.6,
+      "duration": 4.8
+    },
+    {
+      "text": "privacy than this",
+      "start": 2747.29,
+      "duration": 6.09
+    },
+    {
+      "text": "I think Adam here you're on somewhat of",
+      "start": 2748.4,
+      "duration": 7.53
+    },
+    {
+      "text": "a track here but I think it can still be",
+      "start": 2753.38,
+      "duration": 5.7
+    },
+    {
+      "text": "combined both if you have only the dark",
+      "start": 2755.93,
+      "duration": 5.43
+    },
+    {
+      "text": "wallet concept very usable but only two",
+      "start": 2759.08,
+      "duration": 3.33
+    },
+    {
+      "text": "of two coins",
+      "start": 2761.36,
+      "duration": 3.82
+    },
+    {
+      "text": "then it although it might provide a",
+      "start": 2762.41,
+      "duration": 4.54
+    },
+    {
+      "text": "large anonymity set of a total number of",
+      "start": 2765.18,
+      "duration": 4.35
+    },
+    {
+      "text": "users before any given user it does not",
+      "start": 2766.95,
+      "duration": 5.85
+    },
+    {
+      "text": "provide much privacy at all those so of",
+      "start": 2769.53,
+      "duration": 5.04
+    },
+    {
+      "text": "course what I would like to have is a",
+      "start": 2772.8,
+      "duration": 5.22
+    },
+    {
+      "text": "bit of both I do have 50 anonymity set",
+      "start": 2774.57,
+      "duration": 5.91
+    },
+    {
+      "text": "coin joints that are very easy one-click",
+      "start": 2778.02,
+      "duration": 5.52
+    },
+    {
+      "text": "function that just work so of course",
+      "start": 2780.48,
+      "duration": 5.69
+    },
+    {
+      "text": "that would be perfect to have a good",
+      "start": 2783.54,
+      "duration": 5.01
+    },
+    {
+      "text": "mathematically sound privacy protocols",
+      "start": 2786.17,
+      "duration": 8.89
+    },
+    {
+      "text": "that are very easy to use I study the",
+      "start": 2788.55,
+      "duration": 9.12
+    },
+    {
+      "text": "motion with max the payment explicitly",
+      "start": 2795.06,
+      "duration": 4.89
+    },
+    {
+      "text": "says if you use an unsecure protocol it",
+      "start": 2797.67,
+      "duration": 3.78
+    },
+    {
+      "text": "doesn't matter how easy to use it is",
+      "start": 2799.95,
+      "duration": 3.72
+    },
+    {
+      "text": "it's not secure it's not private",
+      "start": 2801.45,
+      "duration": 5.81
+    },
+    {
+      "text": "so to of to go enjoy this is not a",
+      "start": 2803.67,
+      "duration": 6.6
+    },
+    {
+      "text": "two-person Quinten is not - it is not",
+      "start": 2807.26,
+      "duration": 4.75
+    },
+    {
+      "text": "secure I would say five person point",
+      "start": 2810.27,
+      "duration": 3.54
+    },
+    {
+      "text": "join it's not secure but then again I",
+      "start": 2812.01,
+      "duration": 4.22
+    },
+    {
+      "text": "get attacked on Twitter as Maxted",
+      "start": 2813.81,
+      "duration": 9.45
+    },
+    {
+      "text": "earlier today yeah so I want to bring up",
+      "start": 2816.23,
+      "duration": 11.35
+    },
+    {
+      "text": "one point that that shows how the wasabi",
+      "start": 2823.26,
+      "duration": 8.28
+    },
+    {
+      "text": "philosophy is slightly divergent from",
+      "start": 2827.58,
+      "duration": 6.54
+    },
+    {
+      "text": "the philosophy of this paper and that",
+      "start": 2831.54,
+      "duration": 4.38
+    },
+    {
+      "text": "has to do with the fee that we charge",
+      "start": 2834.12,
+      "duration": 3.12
+    },
+    {
+      "text": "for our users",
+      "start": 2835.92,
+      "duration": 4.83
+    },
+    {
+      "text": "so wasabi charges users based on the",
+      "start": 2837.24,
+      "duration": 7.62
+    },
+    {
+      "text": "anonymity set this is a an incredibly",
+      "start": 2840.75,
+      "duration": 7.95
+    },
+    {
+      "text": "fair thing to do because it's",
+      "start": 2844.86,
+      "duration": 6.12
+    },
+    {
+      "text": "proportional to how much try to see you",
+      "start": 2848.7,
+      "duration": 4.47
+    },
+    {
+      "text": "are getting right you can paying the",
+      "start": 2850.98,
+      "duration": 4.5
+    },
+    {
+      "text": "portion along price you're getting and",
+      "start": 2853.17,
+      "duration": 4.05
+    },
+    {
+      "text": "that seems incredibly fair so if you're",
+      "start": 2855.48,
+      "duration": 2.91
+    },
+    {
+      "text": "getting not a lot of privacy you're not",
+      "start": 2857.22,
+      "duration": 4.29
+    },
+    {
+      "text": "you're not paying as much but the result",
+      "start": 2858.39,
+      "duration": 7.08
+    },
+    {
+      "text": "is twofold as a problem the first",
+      "start": 2861.51,
+      "duration": 6.06
+    },
+    {
+      "text": "problem is that users never know how",
+      "start": 2865.47,
+      "duration": 9.24
+    },
+    {
+      "text": "much it costs and the second quite",
+      "start": 2867.57,
+      "duration": 11.01
+    },
+    {
+      "text": "ironically quite funny is that as soon",
+      "start": 2874.71,
+      "duration": 6.54
+    },
+    {
+      "text": "as one person behaves poorly and gets D",
+      "start": 2878.58,
+      "duration": 4.95
+    },
+    {
+      "text": "anonymized people will go on Twitter and",
+      "start": 2881.25,
+      "duration": 5.73
+    },
+    {
+      "text": "say oh you charged for 80 anonymity set",
+      "start": 2883.53,
+      "duration": 5.52
+    },
+    {
+      "text": "but you're getting only 50 so you're",
+      "start": 2886.98,
+      "duration": 4.86
+    },
+    {
+      "text": "being ripped off which is something that",
+      "start": 2889.05,
+      "duration": 4.5
+    },
+    {
+      "text": "we're not in control of so I just want",
+      "start": 2891.84,
+      "duration": 2.86
+    },
+    {
+      "text": "people what",
+      "start": 2893.55,
+      "duration": 5.049
+    },
+    {
+      "text": "their thoughts because I think that pain",
+      "start": 2894.7,
+      "duration": 8.43
+    },
+    {
+      "text": "/ anonymity set is the correct your way",
+      "start": 2898.599,
+      "duration": 8.181
+    },
+    {
+      "text": "to do it from a practical standpoint",
+      "start": 2903.13,
+      "duration": 6.39
+    },
+    {
+      "text": "users simply don't know what's going on",
+      "start": 2906.78,
+      "duration": 3.87
+    },
+    {
+      "text": "most users don't know what they're gonna",
+      "start": 2909.52,
+      "duration": 6.839
+    },
+    {
+      "text": "expect to pay and and are confused that",
+      "start": 2910.65,
+      "duration": 7.24
+    },
+    {
+      "text": "doesn't need a very good point of these",
+      "start": 2916.359,
+      "duration": 4.111
+    },
+    {
+      "text": "that you bring up and maybe to put this",
+      "start": 2917.89,
+      "duration": 4.77
+    },
+    {
+      "text": "a bit more into the light of in context",
+      "start": 2920.47,
+      "duration": 4.98
+    },
+    {
+      "text": "of the paper the paper describes these",
+      "start": 2922.66,
+      "duration": 5.22
+    },
+    {
+      "text": "costs for privacy mainly in terms of",
+      "start": 2925.45,
+      "duration": 5.37
+    },
+    {
+      "text": "latency I said that if you want to use a",
+      "start": 2927.88,
+      "duration": 4.83
+    },
+    {
+      "text": "more private system you have to pay with",
+      "start": 2930.82,
+      "duration": 5.73
+    },
+    {
+      "text": "your time right and this might also then",
+      "start": 2932.71,
+      "duration": 6.03
+    },
+    {
+      "text": "come to it you know you can configure it",
+      "start": 2936.55,
+      "duration": 4.319
+    },
+    {
+      "text": "how long do you want to wait until tor",
+      "start": 2938.74,
+      "duration": 5.55
+    },
+    {
+      "text": "go to your website or whatever and",
+      "start": 2940.869,
+      "duration": 5.941
+    },
+    {
+      "text": "having a user option to do so I told",
+      "start": 2944.29,
+      "duration": 3.72
+    },
+    {
+      "text": "many hops do you want to have in the",
+      "start": 2946.81,
+      "duration": 4.83
+    },
+    {
+      "text": "onion world and of course that on the",
+      "start": 2948.01,
+      "duration": 5.64
+    },
+    {
+      "text": "other hand here is then what you bring",
+      "start": 2951.64,
+      "duration": 4.8
+    },
+    {
+      "text": "up I said that the more transparency you",
+      "start": 2953.65,
+      "duration": 4.83
+    },
+    {
+      "text": "have in that sense and the more easy it",
+      "start": 2956.44,
+      "duration": 11.31
+    },
+    {
+      "text": "is to understand the better so I didn't",
+      "start": 2958.48,
+      "duration": 11.18
+    },
+    {
+      "text": "want to talk to you too much about",
+      "start": 2967.75,
+      "duration": 4.079
+    },
+    {
+      "text": "wasabi because I think that's a whole",
+      "start": 2969.66,
+      "duration": 6.31
+    },
+    {
+      "text": "other conversation but I would like to",
+      "start": 2971.829,
+      "duration": 7.231
+    },
+    {
+      "text": "push this as an idea would anybody be",
+      "start": 2975.97,
+      "duration": 5.639
+    },
+    {
+      "text": "interested in having this discussion",
+      "start": 2979.06,
+      "duration": 4.92
+    },
+    {
+      "text": "next week sort of like a philosophical",
+      "start": 2981.609,
+      "duration": 4.891
+    },
+    {
+      "text": "continuation or should this be much much",
+      "start": 2983.98,
+      "duration": 6.859
+    },
+    {
+      "text": "later once we've read many more papers I",
+      "start": 2986.5,
+      "duration": 4.339
+    },
+    {
+      "text": "would prefer it after what is it April",
+      "start": 2991.109,
+      "duration": 14.801
+    },
+    {
+      "text": "6th it's a very specific day oh why",
+      "start": 2996.63,
+      "duration": 11.17
+    },
+    {
+      "text": "and you probably mean April 5th the",
+      "start": 3005.91,
+      "duration": 4.56
+    },
+    {
+      "text": "conjoin day which is the Nexus IV",
+      "start": 3007.8,
+      "duration": 4.01
+    },
+    {
+      "text": "release",
+      "start": 3010.47,
+      "duration": 5.79
+    },
+    {
+      "text": "yes April 5th because that's the coin",
+      "start": 3011.81,
+      "duration": 6.49
+    },
+    {
+      "text": "join indeed as the Nexus ah be release",
+      "start": 3016.26,
+      "duration": 6.329
+    },
+    {
+      "text": "and whatever happens then after that I'm",
+      "start": 3018.3,
+      "duration": 6.96
+    },
+    {
+      "text": "going to hundred percent concentrate on",
+      "start": 3022.589,
+      "duration": 3.901
+    },
+    {
+      "text": "research",
+      "start": 3025.26,
+      "duration": 2.78
+    },
+    {
+      "text": "[Music]",
+      "start": 3026.49,
+      "duration": 8.43
+    },
+    {
+      "text": "yeah that's that's why I read you that",
+      "start": 3028.04,
+      "duration": 10.72
+    },
+    {
+      "text": "you will concentrate on research no yeah",
+      "start": 3034.92,
+      "duration": 7.05
+    },
+    {
+      "text": "you know I'm coding a lot and trying to",
+      "start": 3038.76,
+      "duration": 8.0
+    },
+    {
+      "text": "wrap up everything but of the things",
+      "start": 3041.97,
+      "duration": 10.58
+    },
+    {
+      "text": "with Bitcoin core actually that means -",
+      "start": 3046.76,
+      "duration": 9.97
+    },
+    {
+      "text": "mmm there is some constant needed for",
+      "start": 3052.55,
+      "duration": 7.21
+    },
+    {
+      "text": "for something in Bitcoin core in order",
+      "start": 3056.73,
+      "duration": 6.6
+    },
+    {
+      "text": "to properly implement it - wasabi but",
+      "start": 3059.76,
+      "duration": 7.62
+    },
+    {
+      "text": "constants is not reached so like maybe",
+      "start": 3063.33,
+      "duration": 6.69
+    },
+    {
+      "text": "maybe it kind core integration will be",
+      "start": 3067.38,
+      "duration": 9.99
+    },
+    {
+      "text": "delayed to further future than I hoped",
+      "start": 3070.02,
+      "duration": 12.69
+    },
+    {
+      "text": "previously sunny vague anymore more on",
+      "start": 3077.37,
+      "duration": 7.62
+    },
+    {
+      "text": "this or should we discussed the next",
+      "start": 3082.71,
+      "duration": 4.83
+    },
+    {
+      "text": "sessions topics that what should it be",
+      "start": 3084.99,
+      "duration": 6.39
+    },
+    {
+      "text": "I thought had quite a lot but Rafael go",
+      "start": 3087.54,
+      "duration": 8.93
+    },
+    {
+      "text": "ahead yeah I just had one thought about",
+      "start": 3091.38,
+      "duration": 9.81
+    },
+    {
+      "text": "topic about of picking up or different",
+      "start": 3096.47,
+      "duration": 7.51
+    },
+    {
+      "text": "coins for your transaction I mean if we",
+      "start": 3101.19,
+      "duration": 6.72
+    },
+    {
+      "text": "are actually just trying to confuse",
+      "start": 3103.98,
+      "duration": 8.58
+    },
+    {
+      "text": "these China analytics companies with",
+      "start": 3107.91,
+      "duration": 8.82
+    },
+    {
+      "text": "deep doing like mixing up with the",
+      "start": 3112.56,
+      "duration": 6.84
+    },
+    {
+      "text": "heuristics and all of that stuff I mean",
+      "start": 3116.73,
+      "duration": 7.32
+    },
+    {
+      "text": "why don't we just try to like for",
+      "start": 3119.4,
+      "duration": 6.75
+    },
+    {
+      "text": "example the things like pay join where",
+      "start": 3124.05,
+      "duration": 8.12
+    },
+    {
+      "text": "you are making the transaction look like",
+      "start": 3126.15,
+      "duration": 9.21
+    },
+    {
+      "text": "different that it actually is it doesn't",
+      "start": 3132.17,
+      "duration": 7.36
+    },
+    {
+      "text": "look like a normal payment so why don't",
+      "start": 3135.36,
+      "duration": 7.32
+    },
+    {
+      "text": "we just try to add these kind of options",
+      "start": 3139.53,
+      "duration": 6.48
+    },
+    {
+      "text": "into the wallet or why do not force the",
+      "start": 3142.68,
+      "duration": 5.82
+    },
+    {
+      "text": "users to do a certain thing but just",
+      "start": 3146.01,
+      "duration": 4.98
+    },
+    {
+      "text": "give them a lot of tips and hints why",
+      "start": 3148.5,
+      "duration": 7.02
+    },
+    {
+      "text": "this and that way of doing stuff would",
+      "start": 3150.99,
+      "duration": 8.54
+    },
+    {
+      "text": "be good for their anonymity",
+      "start": 3155.52,
+      "duration": 4.01
+    },
+    {
+      "text": "would just educate people already so on",
+      "start": 3159.71,
+      "duration": 8.58
+    },
+    {
+      "text": "that topic this is what I was I was",
+      "start": 3165.53,
+      "duration": 4.71
+    },
+    {
+      "text": "gonna leave out but I'll just hint at it",
+      "start": 3168.29,
+      "duration": 6.15
+    },
+    {
+      "text": "briefly by having users be able to",
+      "start": 3170.24,
+      "duration": 6.9
+    },
+    {
+      "text": "consolidate and spend and coin joint in",
+      "start": 3174.44,
+      "duration": 4.83
+    },
+    {
+      "text": "the same transaction",
+      "start": 3177.14,
+      "duration": 4.979
+    },
+    {
+      "text": "it makes things way easier for us from",
+      "start": 3179.27,
+      "duration": 4.89
+    },
+    {
+      "text": "the perspective of of hiding from",
+      "start": 3182.119,
+      "duration": 4.531
+    },
+    {
+      "text": "forensics because now the wasabi is is",
+      "start": 3184.16,
+      "duration": 7.83
+    },
+    {
+      "text": "just all users are are doing actions",
+      "start": 3186.65,
+      "duration": 7.949
+    },
+    {
+      "text": "only inside these massive coin joint",
+      "start": 3191.99,
+      "duration": 4.8
+    },
+    {
+      "text": "transactions as opposed to doing actions",
+      "start": 3194.599,
+      "duration": 3.211
+    },
+    {
+      "text": "on their own terms",
+      "start": 3196.79,
+      "duration": 3.12
+    },
+    {
+      "text": "sending sending funds outside of those",
+      "start": 3197.81,
+      "duration": 4.83
+    },
+    {
+      "text": "transactions so that would be like",
+      "start": 3199.91,
+      "duration": 5.67
+    },
+    {
+      "text": "revolutionary like gigantically forward",
+      "start": 3202.64,
+      "duration": 5.99
+    },
+    {
+      "text": "in terms of privacy absolutely I agree",
+      "start": 3205.58,
+      "duration": 6.21
+    },
+    {
+      "text": "you know it for the next content",
+      "start": 3208.63,
+      "duration": 5.32
+    },
+    {
+      "text": "implementation I would just love to have",
+      "start": 3211.79,
+      "duration": 3.75
+    },
+    {
+      "text": "users being able to register multiple",
+      "start": 3213.95,
+      "duration": 4.86
+    },
+    {
+      "text": "inputs to generate multiple outputs and",
+      "start": 3215.54,
+      "duration": 6.27
+    },
+    {
+      "text": "to be able to send precise amount to a",
+      "start": 3218.81,
+      "duration": 6.99
+    },
+    {
+      "text": "external wallet address that would then",
+      "start": 3221.81,
+      "duration": 5.85
+    },
+    {
+      "text": "would be I think the win for Bitcoin",
+      "start": 3225.8,
+      "duration": 6.14
+    },
+    {
+      "text": "privacy so we just need to figure it out",
+      "start": 3227.66,
+      "duration": 4.28
+    },
+    {
+      "text": "yeah sorry I was just gonna say that",
+      "start": 3235.81,
+      "duration": 4.9
+    },
+    {
+      "text": "definitely that what max said but you",
+      "start": 3238.369,
+      "duration": 5.101
+    },
+    {
+      "text": "could just add multiple inputs and get",
+      "start": 3240.71,
+      "duration": 4.649
+    },
+    {
+      "text": "some multiple outputs wherever you want",
+      "start": 3243.47,
+      "duration": 4.02
+    },
+    {
+      "text": "but that would be pretty great I mean",
+      "start": 3245.359,
+      "duration": 4.291
+    },
+    {
+      "text": "that would mix up a lot of different",
+      "start": 3247.49,
+      "duration": 6.21
+    },
+    {
+      "text": "heuristics wouldn't it I mean even as",
+      "start": 3249.65,
+      "duration": 7.02
+    },
+    {
+      "text": "simple as being able to to take your",
+      "start": 3253.7,
+      "duration": 6.149
+    },
+    {
+      "text": "mixed coins and pay someone in a wasabi",
+      "start": 3256.67,
+      "duration": 5.79
+    },
+    {
+      "text": "coin joint it would change everything",
+      "start": 3259.849,
+      "duration": 4.951
+    },
+    {
+      "text": "because it means that anyone who",
+      "start": 3262.46,
+      "duration": 5.19
+    },
+    {
+      "text": "receives funds anyone who spends and",
+      "start": 3264.8,
+      "duration": 4.65
+    },
+    {
+      "text": "what's not be conjoined how put doesn't",
+      "start": 3267.65,
+      "duration": 3.48
+    },
+    {
+      "text": "necessarily mean that they've ever used",
+      "start": 3269.45,
+      "duration": 4.2
+    },
+    {
+      "text": "wasabi and that's what that's what would",
+      "start": 3271.13,
+      "duration": 4.89
+    },
+    {
+      "text": "really change the game in terms of",
+      "start": 3273.65,
+      "duration": 4.62
+    },
+    {
+      "text": "privacy so I could literally : join into",
+      "start": 3276.02,
+      "duration": 5.37
+    },
+    {
+      "text": "my exchange address and that exchange",
+      "start": 3278.27,
+      "duration": 5.099
+    },
+    {
+      "text": "now looks like it's doing coin joints",
+      "start": 3281.39,
+      "duration": 4.77
+    },
+    {
+      "text": "even though it's not so it's it is so",
+      "start": 3283.369,
+      "duration": 4.411
+    },
+    {
+      "text": "then it becomes hard to blame someone",
+      "start": 3286.16,
+      "duration": 5.34
+    },
+    {
+      "text": "for having the wasabi coin joint hug",
+      "start": 3287.78,
+      "duration": 7.3
+    },
+    {
+      "text": "yeah I do like that idea but I just",
+      "start": 3291.5,
+      "duration": 6.13
+    },
+    {
+      "text": "think that that might give a little bit",
+      "start": 3295.08,
+      "duration": 5.7
+    },
+    {
+      "text": "of problems for the whoever receives the",
+      "start": 3297.63,
+      "duration": 6.75
+    },
+    {
+      "text": "coins you know if they are not aware of",
+      "start": 3300.78,
+      "duration": 6.3
+    },
+    {
+      "text": "these being conjoined coins and if there",
+      "start": 3304.38,
+      "duration": 7.47
+    },
+    {
+      "text": "is someone like flagging them I'm not",
+      "start": 3307.08,
+      "duration": 7.7
+    },
+    {
+      "text": "sure but I mean I like the idea but just",
+      "start": 3311.85,
+      "duration": 5.79
+    },
+    {
+      "text": "we should all also think about the",
+      "start": 3314.78,
+      "duration": 7.35
+    },
+    {
+      "text": "probable problems that comes with that I",
+      "start": 3317.64,
+      "duration": 7.89
+    },
+    {
+      "text": "mean for example if you are sending to",
+      "start": 3322.13,
+      "duration": 8.05
+    },
+    {
+      "text": "an exchange through that coin joint they",
+      "start": 3325.53,
+      "duration": 7.95
+    },
+    {
+      "text": "could just freeze your funds or if you",
+      "start": 3330.18,
+      "duration": 6.51
+    },
+    {
+      "text": "are sending to someone else and they",
+      "start": 3333.48,
+      "duration": 5.31
+    },
+    {
+      "text": "don't they are not actually knowing it's",
+      "start": 3336.69,
+      "duration": 4.62
+    },
+    {
+      "text": "gonna be from a coin joint they might",
+      "start": 3338.79,
+      "duration": 6.59
+    },
+    {
+      "text": "get the funds freeze I don't know",
+      "start": 3341.31,
+      "duration": 4.07
+    },
+    {
+      "text": "indeed whether there are there many",
+      "start": 3345.619,
+      "duration": 6.911
+    },
+    {
+      "text": "things to take care of you one thing",
+      "start": 3347.73,
+      "duration": 6.36
+    },
+    {
+      "text": "that I would like to talk about as",
+      "start": 3352.53,
+      "duration": 2.52
+    },
+    {
+      "text": "Chapter six",
+      "start": 3354.09,
+      "duration": 3.51
+    },
+    {
+      "text": "but basically just the title of it which",
+      "start": 3355.05,
+      "duration": 6.93
+    },
+    {
+      "text": "is at or installation and I think that",
+      "start": 3357.6,
+      "duration": 6.5
+    },
+    {
+      "text": "is one of the aspects for wasabi is",
+      "start": 3361.98,
+      "duration": 5.19
+    },
+    {
+      "text": "absolutely superb where it combines both",
+      "start": 3364.1,
+      "duration": 5.74
+    },
+    {
+      "text": "being technically sound right having",
+      "start": 3367.17,
+      "duration": 5.28
+    },
+    {
+      "text": "multiple tours identities different tour",
+      "start": 3369.84,
+      "duration": 5.34
+    },
+    {
+      "text": "circuits that change like every couple",
+      "start": 3372.45,
+      "duration": 5.37
+    },
+    {
+      "text": "seconds with new circuits while still",
+      "start": 3375.18,
+      "duration": 4.89
+    },
+    {
+      "text": "being incredibly user-friendly in the",
+      "start": 3377.82,
+      "duration": 4.38
+    },
+    {
+      "text": "sense that there is nothing in the GUI",
+      "start": 3380.07,
+      "duration": 4.35
+    },
+    {
+      "text": "that the user has to setup but it just",
+      "start": 3382.2,
+      "duration": 4.68
+    },
+    {
+      "text": "works plug and play by default for every",
+      "start": 3384.42,
+      "duration": 4.29
+    },
+    {
+      "text": "users the same there is nothing to",
+      "start": 3386.88,
+      "duration": 4.11
+    },
+    {
+      "text": "configure there's nothing to [ __ ] up you",
+      "start": 3388.71,
+      "duration": 4.53
+    },
+    {
+      "text": "just start wasabi and it works and it",
+      "start": 3390.99,
+      "duration": 4.2
+    },
+    {
+      "text": "works on a technologically very sound",
+      "start": 3393.24,
+      "duration": 4.5
+    },
+    {
+      "text": "level and so I think this is the prime",
+      "start": 3395.19,
+      "duration": 4.44
+    },
+    {
+      "text": "example of where we want to be with",
+      "start": 3397.74,
+      "duration": 3.69
+    },
+    {
+      "text": "everything in the wallet I'd have",
+      "start": 3399.63,
+      "duration": 4.14
+    },
+    {
+      "text": "everything as technologically sound and",
+      "start": 3401.43,
+      "duration": 4.11
+    },
+    {
+      "text": "as user-friendly meaning no",
+      "start": 3403.77,
+      "duration": 4.53
+    },
+    {
+      "text": "configuration at all as the tour set up",
+      "start": 3405.54,
+      "duration": 5.21
+    },
+    {
+      "text": "in wasabi",
+      "start": 3408.3,
+      "duration": 2.45
+    },
+    {
+      "text": "okay but not much to that and then the",
+      "start": 3417.67,
+      "duration": 5.62
+    },
+    {
+      "text": "second thing I would like to talk about",
+      "start": 3421.82,
+      "duration": 5.22
+    },
+    {
+      "text": "though is Chapter seven about the Java",
+      "start": 3423.29,
+      "duration": 7.08
+    },
+    {
+      "text": "and on proxy and what I found very",
+      "start": 3427.04,
+      "duration": 5.34
+    },
+    {
+      "text": "interesting that it is a graphical user",
+      "start": 3430.37,
+      "duration": 5.52
+    },
+    {
+      "text": "interface that has three different and",
+      "start": 3432.38,
+      "duration": 6.36
+    },
+    {
+      "text": "eliminated levels low which is ready",
+      "start": 3435.89,
+      "duration": 5.79
+    },
+    {
+      "text": "fare which is green and high which is",
+      "start": 3438.74,
+      "duration": 7.11
+    },
+    {
+      "text": "blue so these I found very similar to",
+      "start": 3441.68,
+      "duration": 6.63
+    },
+    {
+      "text": "the wasabi bullet anonymity said shields",
+      "start": 3445.85,
+      "duration": 5.88
+    },
+    {
+      "text": "by the Red Cross shield the yellow",
+      "start": 3448.31,
+      "duration": 5.73
+    },
+    {
+      "text": "exclamation shield the green shield and",
+      "start": 3451.73,
+      "duration": 4.38
+    },
+    {
+      "text": "the green checkmark shield by to",
+      "start": 3454.04,
+      "duration": 4.41
+    },
+    {
+      "text": "indicate how much anonymity set you have",
+      "start": 3456.11,
+      "duration": 4.92
+    },
+    {
+      "text": "of course the the more greener the",
+      "start": 3458.45,
+      "duration": 3.72
+    },
+    {
+      "text": "better basically",
+      "start": 3461.03,
+      "duration": 4.14
+    },
+    {
+      "text": "and the second part of the comparison",
+      "start": 3462.17,
+      "duration": 6.09
+    },
+    {
+      "text": "just just just as a there is also",
+      "start": 3465.17,
+      "duration": 5.73
+    },
+    {
+      "text": "another one it's over 9000",
+      "start": 3468.26,
+      "duration": 6.51
+    },
+    {
+      "text": "she's that's the best don't tell them",
+      "start": 3470.9,
+      "duration": 16.37
+    },
+    {
+      "text": "about it but another comparison to this",
+      "start": 3474.77,
+      "duration": 15.27
+    },
+    {
+      "text": "mjp that I found so interesting is that",
+      "start": 3487.27,
+      "duration": 5.77
+    },
+    {
+      "text": "their level of anonymity depends on the",
+      "start": 3490.04,
+      "duration": 5.88
+    },
+    {
+      "text": "number of users so the more users use",
+      "start": 3493.04,
+      "duration": 4.89
+    },
+    {
+      "text": "the same entry and exit notes or",
+      "start": 3495.92,
+      "duration": 4.32
+    },
+    {
+      "text": "whatever they're called the higher the",
+      "start": 3497.93,
+      "duration": 4.74
+    },
+    {
+      "text": "anonymity so they think right and that",
+      "start": 3500.24,
+      "duration": 5.16
+    },
+    {
+      "text": "is the same as we have in wasabi that",
+      "start": 3502.67,
+      "duration": 4.65
+    },
+    {
+      "text": "the more users register their coins and",
+      "start": 3505.4,
+      "duration": 5.16
+    },
+    {
+      "text": "the more quantity of equal value on puts",
+      "start": 3507.32,
+      "duration": 5.45
+    },
+    {
+      "text": "being created to higher the anonymity",
+      "start": 3510.56,
+      "duration": 5.28
+    },
+    {
+      "text": "which in first glance makes a lot of",
+      "start": 3512.77,
+      "duration": 5.59
+    },
+    {
+      "text": "sense right the crowd is larger but then",
+      "start": 3515.84,
+      "duration": 3.6
+    },
+    {
+      "text": "what they talk about here in this",
+      "start": 3518.36,
+      "duration": 4.14
+    },
+    {
+      "text": "chapter of chat is that it is still if",
+      "start": 3519.44,
+      "duration": 4.95
+    },
+    {
+      "text": "you do for example in this case time",
+      "start": 3522.5,
+      "duration": 4.65
+    },
+    {
+      "text": "correlation you can still discover the",
+      "start": 3524.39,
+      "duration": 7.8
+    },
+    {
+      "text": "user ID and in the sense of wasabi will",
+      "start": 3527.15,
+      "duration": 6.66
+    },
+    {
+      "text": "be a bit different but if other users",
+      "start": 3532.19,
+      "duration": 3.99
+    },
+    {
+      "text": "[ __ ] up or if for example you send to",
+      "start": 3533.81,
+      "duration": 4.53
+    },
+    {
+      "text": "your old to the same address twice right",
+      "start": 3536.18,
+      "duration": 4.32
+    },
+    {
+      "text": "address reuse or you leave your ex pop",
+      "start": 3538.34,
+      "duration": 4.56
+    },
+    {
+      "text": "or whatever happens there are still many",
+      "start": 3540.5,
+      "duration": 4.74
+    },
+    {
+      "text": "ways that despite having a large crowd",
+      "start": 3542.9,
+      "duration": 4.2
+    },
+    {
+      "text": "you that can still lead to the",
+      "start": 3545.24,
+      "duration": 5.34
+    },
+    {
+      "text": "anonymization and I'm not sure if",
+      "start": 3547.1,
+      "duration": 6.24
+    },
+    {
+      "text": "there is any way to to remedy that that",
+      "start": 3550.58,
+      "duration": 4.59
+    },
+    {
+      "text": "regardless the size of the crowd and",
+      "start": 3553.34,
+      "duration": 3.75
+    },
+    {
+      "text": "regardless how beautifully you display",
+      "start": 3555.17,
+      "duration": 3.9
+    },
+    {
+      "text": "that in the GUI there are still ways to",
+      "start": 3557.09,
+      "duration": 4.38
+    },
+    {
+      "text": "[ __ ] it up and the user often times not",
+      "start": 3559.07,
+      "duration": 4.23
+    },
+    {
+      "text": "even does not even know that he's",
+      "start": 3561.47,
+      "duration": 7.35
+    },
+    {
+      "text": "[ __ ] up his privacy I mean we are low",
+      "start": 3563.3,
+      "duration": 9.39
+    },
+    {
+      "text": "boiling it a lot I mean these odd thing",
+      "start": 3568.82,
+      "duration": 7.05
+    },
+    {
+      "text": "together anonymity sets because that's",
+      "start": 3572.69,
+      "duration": 5.49
+    },
+    {
+      "text": "what we are doing it's it's just so",
+      "start": 3575.87,
+      "duration": 7.26
+    },
+    {
+      "text": "incorrect it's mathematically speaking",
+      "start": 3578.18,
+      "duration": 7.59
+    },
+    {
+      "text": "we should be multiplying the anonymity",
+      "start": 3583.13,
+      "duration": 8.31
+    },
+    {
+      "text": "sets but we want to low boil it as much",
+      "start": 3585.77,
+      "duration": 7.98
+    },
+    {
+      "text": "as possible so we are not multiplying",
+      "start": 3591.44,
+      "duration": 8.58
+    },
+    {
+      "text": "them but adding them together I know so",
+      "start": 3593.75,
+      "duration": 10.89
+    },
+    {
+      "text": "it's like yeah you can [ __ ] up things",
+      "start": 3600.02,
+      "duration": 8.13
+    },
+    {
+      "text": "but on the other hand we are trying to",
+      "start": 3604.64,
+      "duration": 8.01
+    },
+    {
+      "text": "balance it out in some some way even if",
+      "start": 3608.15,
+      "duration": 7.68
+    },
+    {
+      "text": "that's kind of incorrect and missing",
+      "start": 3612.65,
+      "duration": 5.72
+    },
+    {
+      "text": "because you gain more privacy than",
+      "start": 3615.83,
+      "duration": 6.66
+    },
+    {
+      "text": "actually it shows but you know what I",
+      "start": 3618.37,
+      "duration": 4.69
+    },
+    {
+      "text": "mean",
+      "start": 3622.49,
+      "duration": 3.9
+    },
+    {
+      "text": "is that correct or what what does the",
+      "start": 3623.06,
+      "duration": 9.33
+    },
+    {
+      "text": "paper says about this approach well",
+      "start": 3626.39,
+      "duration": 7.68
+    },
+    {
+      "text": "basically that it's very difficult right",
+      "start": 3632.39,
+      "duration": 5.79
+    },
+    {
+      "text": "that in the case of Trump the size of",
+      "start": 3634.07,
+      "duration": 6.33
+    },
+    {
+      "text": "the crowds does not matter if you can do",
+      "start": 3638.18,
+      "duration": 4.53
+    },
+    {
+      "text": "time correlation attacks right something",
+      "start": 3640.4,
+      "duration": 4.44
+    },
+    {
+      "text": "similar would be in Vasavi the size of",
+      "start": 3642.71,
+      "duration": 4.47
+    },
+    {
+      "text": "the anonymity set does not matter if you",
+      "start": 3644.84,
+      "duration": 5.1
+    },
+    {
+      "text": "do address reuse afterwards right if you",
+      "start": 3647.18,
+      "duration": 3.99
+    },
+    {
+      "text": "shoot yourself in the foot",
+      "start": 3649.94,
+      "duration": 5.61
+    },
+    {
+      "text": "then there's then you're screwed and you",
+      "start": 3651.17,
+      "duration": 6.18
+    },
+    {
+      "text": "know to a lesser extent also if others",
+      "start": 3655.55,
+      "duration": 4.05
+    },
+    {
+      "text": "shoot themselves in the foot then your",
+      "start": 3657.35,
+      "duration": 5.21
+    },
+    {
+      "text": "unanimity size decreases more and more",
+      "start": 3659.6,
+      "duration": 5.52
+    },
+    {
+      "text": "to a point where you might not need to",
+      "start": 3662.56,
+      "duration": 4.27
+    },
+    {
+      "text": "know that you no longer have any",
+      "start": 3665.12,
+      "duration": 3.99
+    },
+    {
+      "text": "anonymity set because all other users",
+      "start": 3666.83,
+      "duration": 10.8
+    },
+    {
+      "text": "are D anonymized already it makes a",
+      "start": 3669.11,
+      "duration": 12.72
+    },
+    {
+      "text": "couple of times then even if you don't",
+      "start": 3677.63,
+      "duration": 6.66
+    },
+    {
+      "text": "mix a couple of times only once",
+      "start": 3681.83,
+      "duration": 5.13
+    },
+    {
+      "text": "that the chances that most of the other",
+      "start": 3684.29,
+      "duration": 4.71
+    },
+    {
+      "text": "users are going to die anonymize",
+      "start": 3686.96,
+      "duration": 6.92
+    },
+    {
+      "text": "yourself the anonymized themselves I",
+      "start": 3689.0,
+      "duration": 4.88
+    },
+    {
+      "text": "don't know but that's why I recommend",
+      "start": 3694.54,
+      "duration": 7.03
+    },
+    {
+      "text": "people to mix twice just in case",
+      "start": 3698.0,
+      "duration": 9.26
+    },
+    {
+      "text": "I mean I knock this tree low but anyway",
+      "start": 3701.57,
+      "duration": 9.54
+    },
+    {
+      "text": "yeah and that's the that's the other",
+      "start": 3707.26,
+      "duration": 9.04
+    },
+    {
+      "text": "idea between weeks twice and from an an",
+      "start": 3711.11,
+      "duration": 9.75
+    },
+    {
+      "text": "apart in in time so mix once now and mix",
+      "start": 3716.3,
+      "duration": 8.22
+    },
+    {
+      "text": "once a year from now and then you can",
+      "start": 3720.86,
+      "duration": 6.72
+    },
+    {
+      "text": "you can be sure that the unanimity set",
+      "start": 3724.52,
+      "duration": 5.73
+    },
+    {
+      "text": "is like really like multiplying or",
+      "start": 3727.58,
+      "duration": 4.82
+    },
+    {
+      "text": "something like that",
+      "start": 3730.25,
+      "duration": 7.68
+    },
+    {
+      "text": "yeah that's a big argument that nowhere",
+      "start": 3732.4,
+      "duration": 7.69
+    },
+    {
+      "text": "and I have had because I'm of the firm",
+      "start": 3737.93,
+      "duration": 5.82
+    },
+    {
+      "text": "belief that when you have a coin from a",
+      "start": 3740.09,
+      "duration": 7.02
+    },
+    {
+      "text": "coin joint and then you remix it in the",
+      "start": 3743.75,
+      "duration": 6.81
+    },
+    {
+      "text": "immediate next coin joint it's barely",
+      "start": 3747.11,
+      "duration": 7.14
+    },
+    {
+      "text": "even feasible to call that addition of",
+      "start": 3750.56,
+      "duration": 8.7
+    },
+    {
+      "text": "anonymity set but but ok you can say",
+      "start": 3754.25,
+      "duration": 6.27
+    },
+    {
+      "text": "that it's the addition of the anonymity",
+      "start": 3759.26,
+      "duration": 3.62
+    },
+    {
+      "text": "set you will have participants that are",
+      "start": 3760.52,
+      "duration": 4.71
+    },
+    {
+      "text": "repeated quite a few that are repeated",
+      "start": 3762.88,
+      "duration": 5.41
+    },
+    {
+      "text": "from one to the next but as soon as you",
+      "start": 3765.23,
+      "duration": 5.55
+    },
+    {
+      "text": "remix from a coin joint a month ago to a",
+      "start": 3768.29,
+      "duration": 6.0
+    },
+    {
+      "text": "coin join today and everyone starts",
+      "start": 3770.78,
+      "duration": 6.0
+    },
+    {
+      "text": "doing that then you can actually make a",
+      "start": 3774.29,
+      "duration": 5.58
+    },
+    {
+      "text": "pretty solid argument for multiplication",
+      "start": 3776.78,
+      "duration": 5.04
+    },
+    {
+      "text": "or something that's even greater than",
+      "start": 3779.87,
+      "duration": 3.78
+    },
+    {
+      "text": "addition it might not be multiplication",
+      "start": 3781.82,
+      "duration": 4.38
+    },
+    {
+      "text": "but it but it could exactly more than",
+      "start": 3783.65,
+      "duration": 6.36
+    },
+    {
+      "text": "addition but you can make the argument",
+      "start": 3786.2,
+      "duration": 6.95
+    },
+    {
+      "text": "what the paper says that that's just not",
+      "start": 3790.01,
+      "duration": 7.55
+    },
+    {
+      "text": "useable if you have to wait months",
+      "start": 3793.15,
+      "duration": 7.06
+    },
+    {
+      "text": "before you can use your coins you know",
+      "start": 3797.56,
+      "duration": 7.96
+    },
+    {
+      "text": "it no all I would require is when a user",
+      "start": 3800.21,
+      "duration": 7.71
+    },
+    {
+      "text": "receives money they make sending before",
+      "start": 3805.52,
+      "duration": 2.67
+    },
+    {
+      "text": "they",
+      "start": 3807.92,
+      "duration": 3.09
+    },
+    {
+      "text": "want to spend their money they they mix",
+      "start": 3808.19,
+      "duration": 5.49
+    },
+    {
+      "text": "or they mix spend something of that",
+      "start": 3811.01,
+      "duration": 7.55
+    },
+    {
+      "text": "nature okay that's a good idea actually",
+      "start": 3813.68,
+      "duration": 4.88
+    },
+    {
+      "text": "yeah you know basically it's the idea",
+      "start": 3818.68,
+      "duration": 4.96
+    },
+    {
+      "text": "that and again to automate but as soon",
+      "start": 3820.88,
+      "duration": 4.62
+    },
+    {
+      "text": "as you receive it immediately afterwards",
+      "start": 3823.64,
+      "duration": 4.14
+    },
+    {
+      "text": "it registers for a coin join and then",
+      "start": 3825.5,
+      "duration": 4.74
+    },
+    {
+      "text": "the only way to spend is in a coin run",
+      "start": 3827.78,
+      "duration": 4.98
+    },
+    {
+      "text": "even if it's a naive unequal amount",
+      "start": 3830.24,
+      "duration": 4.14
+    },
+    {
+      "text": "coins on it doesn't matter even if it's",
+      "start": 3832.76,
+      "duration": 3.78
+    },
+    {
+      "text": "only a five part five person conjoint",
+      "start": 3834.38,
+      "duration": 5.969
+    },
+    {
+      "text": "doesn't really matter right anything is",
+      "start": 3836.54,
+      "duration": 6.09
+    },
+    {
+      "text": "better than having a two input two",
+      "start": 3840.349,
+      "duration": 4.74
+    },
+    {
+      "text": "output transaction for example just like",
+      "start": 3842.63,
+      "duration": 10.469
+    },
+    {
+      "text": "the regular spending transaction all",
+      "start": 3845.089,
+      "duration": 13.081
+    },
+    {
+      "text": "right are we ready to decide the next",
+      "start": 3853.099,
+      "duration": 8.73
+    },
+    {
+      "text": "week's topic one more thing that I would",
+      "start": 3858.17,
+      "duration": 5.25
+    },
+    {
+      "text": "like to bring up now in the context that",
+      "start": 3861.829,
+      "duration": 3.421
+    },
+    {
+      "text": "we talked about the the anonymity so",
+      "start": 3863.42,
+      "duration": 3.54
+    },
+    {
+      "text": "targets and bringing it back to the",
+      "start": 3865.25,
+      "duration": 4.23
+    },
+    {
+      "text": "conversation about against options",
+      "start": 3866.96,
+      "duration": 6.389
+    },
+    {
+      "text": "chapter four currently we have three",
+      "start": 3869.48,
+      "duration": 5.49
+    },
+    {
+      "text": "different options that the user can",
+      "start": 3873.349,
+      "duration": 3.871
+    },
+    {
+      "text": "choose yellow shield green shield and",
+      "start": 3874.97,
+      "duration": 6.389
+    },
+    {
+      "text": "exclamation point field is that is that",
+      "start": 3877.22,
+      "duration": 6.51
+    },
+    {
+      "text": "too many choices or or should the user",
+      "start": 3881.359,
+      "duration": 4.411
+    },
+    {
+      "text": "even have a choice for how much",
+      "start": 3883.73,
+      "duration": 4.589
+    },
+    {
+      "text": "anonymity said he should get because",
+      "start": 3885.77,
+      "duration": 4.319
+    },
+    {
+      "text": "again some users might just choose one",
+      "start": 3888.319,
+      "duration": 3.78
+    },
+    {
+      "text": "round some users might increase that to",
+      "start": 3890.089,
+      "duration": 3.111
+    },
+    {
+      "text": "whatever they want",
+      "start": 3892.099,
+      "duration": 4.141
+    },
+    {
+      "text": "what is it better to have the same level",
+      "start": 3893.2,
+      "duration": 5.02
+    },
+    {
+      "text": "of anonymity set target for every user",
+      "start": 3896.24,
+      "duration": 12.329
+    },
+    {
+      "text": "and not even be able to configure it I",
+      "start": 3898.22,
+      "duration": 14.849
+    },
+    {
+      "text": "mean once the feature is out that you",
+      "start": 3908.569,
+      "duration": 7.26
+    },
+    {
+      "text": "cannot take it out that's that's",
+      "start": 3913.069,
+      "duration": 5.451
+    },
+    {
+      "text": "something I know",
+      "start": 3915.829,
+      "duration": 2.691
+    },
+    {
+      "text": "you have a very good alternative of",
+      "start": 3923.38,
+      "duration": 5.729
+    },
+    {
+      "text": "course well I mean bad padlet argue from",
+      "start": 3924.97,
+      "duration": 5.94
+    },
+    {
+      "text": "the case that we are redesigning wasabi",
+      "start": 3929.109,
+      "duration": 10.081
+    },
+    {
+      "text": "with a new conjoint and a new UX I would",
+      "start": 3930.91,
+      "duration": 14.429
+    },
+    {
+      "text": "feel odd or okay so it's a tricky",
+      "start": 3939.19,
+      "duration": 8.49
+    },
+    {
+      "text": "question I don't really know the answer",
+      "start": 3945.339,
+      "duration": 11.131
+    },
+    {
+      "text": "to that what would you guys do I would",
+      "start": 3947.68,
+      "duration": 11.25
+    },
+    {
+      "text": "get rid of the term anonymity said",
+      "start": 3956.47,
+      "duration": 4.559
+    },
+    {
+      "text": "entirely get rid of the option and then",
+      "start": 3958.93,
+      "duration": 7.2
+    },
+    {
+      "text": "just have a system that's this the",
+      "start": 3961.029,
+      "duration": 7.681
+    },
+    {
+      "text": "lowest common denominator understand",
+      "start": 3966.13,
+      "duration": 4.919
+    },
+    {
+      "text": "something like you you have to mix once",
+      "start": 3968.71,
+      "duration": 4.649
+    },
+    {
+      "text": "and you have to mix once before you send",
+      "start": 3971.049,
+      "duration": 7.46
+    },
+    {
+      "text": "I don't know I mean in my opinion we are",
+      "start": 3973.359,
+      "duration": 7.791
+    },
+    {
+      "text": "thinking of talking about a little bit",
+      "start": 3978.509,
+      "duration": 6.911
+    },
+    {
+      "text": "way too small specifics and I don't",
+      "start": 3981.15,
+      "duration": 7.899
+    },
+    {
+      "text": "think they are even that big of a deal I",
+      "start": 3985.42,
+      "duration": 7.08
+    },
+    {
+      "text": "mean for example just indicating that",
+      "start": 3989.049,
+      "duration": 6.54
+    },
+    {
+      "text": "you can mix for example just seven",
+      "start": 3992.5,
+      "duration": 6.599
+    },
+    {
+      "text": "different or put seven different outputs",
+      "start": 3995.589,
+      "duration": 7.321
+    },
+    {
+      "text": "in a coin joint that's much more",
+      "start": 3999.099,
+      "duration": 7.74
+    },
+    {
+      "text": "relevant or problem than what's the",
+      "start": 4002.91,
+      "duration": 6.449
+    },
+    {
+      "text": "color of the shields or the unanimity",
+      "start": 4006.839,
+      "duration": 4.831
+    },
+    {
+      "text": "set number I mean I think those are",
+      "start": 4009.359,
+      "duration": 5.4
+    },
+    {
+      "text": "awesome information I think those are",
+      "start": 4011.67,
+      "duration": 4.71
+    },
+    {
+      "text": "pretty relevant I don't think those are",
+      "start": 4014.759,
+      "duration": 7.08
+    },
+    {
+      "text": "anyway like disturbing or confusing for",
+      "start": 4016.38,
+      "duration": 8.399
+    },
+    {
+      "text": "new users I think they are pretty great",
+      "start": 4021.839,
+      "duration": 4.68
+    },
+    {
+      "text": "but there's a lot of these different",
+      "start": 4024.779,
+      "duration": 8.04
+    },
+    {
+      "text": "things that are a bit confusing I know",
+      "start": 4026.519,
+      "duration": 7.59
+    },
+    {
+      "text": "that they're meant there are many quirks",
+      "start": 4032.819,
+      "duration": 4.19
+    },
+    {
+      "text": "on the design that that really should be",
+      "start": 4034.109,
+      "duration": 6.48
+    },
+    {
+      "text": "redone or just to make it more beautiful",
+      "start": 4037.009,
+      "duration": 6.52
+    },
+    {
+      "text": "in general yeah I don't know I just like",
+      "start": 4040.589,
+      "duration": 4.92
+    },
+    {
+      "text": "the current version way too much and I'm",
+      "start": 4043.529,
+      "duration": 4.201
+    },
+    {
+      "text": "like that don't don't you guys mess it",
+      "start": 4045.509,
+      "duration": 4.981
+    },
+    {
+      "text": "up so much yeah me too me too",
+      "start": 4047.73,
+      "duration": 5.129
+    },
+    {
+      "text": "but one other thing to consider again is",
+      "start": 4050.49,
+      "duration": 4.529
+    },
+    {
+      "text": "the point that especially now where the",
+      "start": 4052.859,
+      "duration": 3.231
+    },
+    {
+      "text": "user pays for",
+      "start": 4055.019,
+      "duration": 4.011
+    },
+    {
+      "text": "or please / and in the mid he said it's",
+      "start": 4056.09,
+      "duration": 4.8
+    },
+    {
+      "text": "it's a question of of how much is the",
+      "start": 4059.03,
+      "duration": 4.71
+    },
+    {
+      "text": "user willing to pay and of course with",
+      "start": 4060.89,
+      "duration": 6.33
+    },
+    {
+      "text": "with network level and anonymity he just",
+      "start": 4063.74,
+      "duration": 5.61
+    },
+    {
+      "text": "pays with his time of his computational",
+      "start": 4067.22,
+      "duration": 4.5
+    },
+    {
+      "text": "power but for Bitcoin anonymity he pays",
+      "start": 4069.35,
+      "duration": 4.59
+    },
+    {
+      "text": "for it with his money it's so that is",
+      "start": 4071.72,
+      "duration": 4.14
+    },
+    {
+      "text": "something to consider as well there",
+      "start": 4073.94,
+      "duration": 4.32
+    },
+    {
+      "text": "might be users we have you know a high",
+      "start": 4075.86,
+      "duration": 3.69
+    },
+    {
+      "text": "threshold for spending as much as",
+      "start": 4078.26,
+      "duration": 3.27
+    },
+    {
+      "text": "possible on privacy because they're",
+      "start": 4079.55,
+      "duration": 5.19
+    },
+    {
+      "text": "really desperately needed in quotations",
+      "start": 4081.53,
+      "duration": 5.76
+    },
+    {
+      "text": "again that might lead to actually them",
+      "start": 4084.74,
+      "duration": 4.47
+    },
+    {
+      "text": "being D anonymized but if it's clear",
+      "start": 4087.29,
+      "duration": 3.81
+    },
+    {
+      "text": "that this one user paid a lot and he",
+      "start": 4089.21,
+      "duration": 3.36
+    },
+    {
+      "text": "might be tracked and that might be a",
+      "start": 4091.1,
+      "duration": 4.77
+    },
+    {
+      "text": "fingerprint and only other hand other",
+      "start": 4092.57,
+      "duration": 5.039
+    },
+    {
+      "text": "users just want to have very light",
+      "start": 4095.87,
+      "duration": 4.38
+    },
+    {
+      "text": "preliminary privacy and they don't want",
+      "start": 4097.609,
+      "duration": 5.041
+    },
+    {
+      "text": "to pay as much and and again to get",
+      "start": 4100.25,
+      "duration": 4.29
+    },
+    {
+      "text": "these two things together is again",
+      "start": 4102.65,
+      "duration": 4.98
+    },
+    {
+      "text": "options and configurations and and",
+      "start": 4104.54,
+      "duration": 5.43
+    },
+    {
+      "text": "trying to reduce the footprint it's it's",
+      "start": 4107.63,
+      "duration": 9.57
+    },
+    {
+      "text": "very difficult because of the virus we",
+      "start": 4109.97,
+      "duration": 10.65
+    },
+    {
+      "text": "might have to cut our beards down to",
+      "start": 4117.2,
+      "duration": 7.8
+    },
+    {
+      "text": "make it not airtight anyway so guys what",
+      "start": 4120.62,
+      "duration": 6.33
+    },
+    {
+      "text": "do you think about what do you think",
+      "start": 4125.0,
+      "duration": 6.72
+    },
+    {
+      "text": "about me if I'm not if I have time then",
+      "start": 4126.95,
+      "duration": 7.409
+    },
+    {
+      "text": "I would cut out the wasabi conversations",
+      "start": 4131.72,
+      "duration": 8.34
+    },
+    {
+      "text": "from this and and and let I don't know",
+      "start": 4134.359,
+      "duration": 9.181
+    },
+    {
+      "text": "just just cut out you know presentations",
+      "start": 4140.06,
+      "duration": 10.41
+    },
+    {
+      "text": "now yeah but max aren't you worried that",
+      "start": 4143.54,
+      "duration": 9.27
+    },
+    {
+      "text": "our dozens of viewers are gonna be",
+      "start": 4150.47,
+      "duration": 7.05
+    },
+    {
+      "text": "overwhelmed there's like you mean",
+      "start": 4152.81,
+      "duration": 10.799
+    },
+    {
+      "text": "literally wonderful do you know when I",
+      "start": 4157.52,
+      "duration": 7.98
+    },
+    {
+      "text": "walk the streets now max I keep getting",
+      "start": 4163.609,
+      "duration": 3.661
+    },
+    {
+      "text": "accosted by people who recognized me",
+      "start": 4165.5,
+      "duration": 3.93
+    },
+    {
+      "text": "from YouTube it's like I can't deal with",
+      "start": 4167.27,
+      "duration": 11.16
+    },
+    {
+      "text": "this Fame alright guys I do have to go",
+      "start": 4169.43,
+      "duration": 12.45
+    },
+    {
+      "text": "pretty soon so uh no para do you want to",
+      "start": 4178.43,
+      "duration": 6.24
+    },
+    {
+      "text": "decide to the paper or suggest people",
+      "start": 4181.88,
+      "duration": 6.01
+    },
+    {
+      "text": "have may I just ask",
+      "start": 4184.67,
+      "duration": 7.03
+    },
+    {
+      "text": "one add one more thing about this wallet",
+      "start": 4187.89,
+      "duration": 6.69
+    },
+    {
+      "text": "discussion maybe just adding something",
+      "start": 4191.7,
+      "duration": 7.53
+    },
+    {
+      "text": "like the total percentage of or at least",
+      "start": 4194.58,
+      "duration": 7.02
+    },
+    {
+      "text": "the estimation about with the current",
+      "start": 4199.23,
+      "duration": 5.25
+    },
+    {
+      "text": "amount of participant in the next coin",
+      "start": 4201.6,
+      "duration": 7.08
+    },
+    {
+      "text": "join times the actual fee that goes to",
+      "start": 4204.48,
+      "duration": 8.31
+    },
+    {
+      "text": "the coordinator and possibly like the",
+      "start": 4208.68,
+      "duration": 7.02
+    },
+    {
+      "text": "actual network fee also but just give us",
+      "start": 4212.79,
+      "duration": 5.7
+    },
+    {
+      "text": "some kind of estimate for the user I",
+      "start": 4215.7,
+      "duration": 5.07
+    },
+    {
+      "text": "think that would be pretty awesome so",
+      "start": 4218.49,
+      "duration": 5.16
+    },
+    {
+      "text": "because in my opinion there's a lot of",
+      "start": 4220.77,
+      "duration": 4.74
+    },
+    {
+      "text": "these questions about how much is",
+      "start": 4223.65,
+      "duration": 3.78
+    },
+    {
+      "text": "actually going to pay young people like",
+      "start": 4225.51,
+      "duration": 4.62
+    },
+    {
+      "text": "calculating it and all that kind of",
+      "start": 4227.43,
+      "duration": 5.42
+    },
+    {
+      "text": "stuff yeah I agree",
+      "start": 4230.13,
+      "duration": 5.79
+    },
+    {
+      "text": "I'm not quite sure where to put it",
+      "start": 4232.85,
+      "duration": 7.48
+    },
+    {
+      "text": "obviously I cannot crowd more things",
+      "start": 4235.92,
+      "duration": 6.96
+    },
+    {
+      "text": "into the coin joint top because it's",
+      "start": 4240.33,
+      "duration": 11.34
+    },
+    {
+      "text": "already scary but this should be there",
+      "start": 4242.88,
+      "duration": 11.18
+    },
+    {
+      "text": "[Music]",
+      "start": 4251.67,
+      "duration": 6.81
+    },
+    {
+      "text": "I'll take a look around it and just give",
+      "start": 4254.06,
+      "duration": 9.28
+    },
+    {
+      "text": "some kind of idea anyway avi do you have",
+      "start": 4258.48,
+      "duration": 7.68
+    },
+    {
+      "text": "any suggestion for for the paper next",
+      "start": 4263.34,
+      "duration": 7.22
+    },
+    {
+      "text": "week nope okay so here are the things",
+      "start": 4266.16,
+      "duration": 6.87
+    },
+    {
+      "text": "heuristics on Bitcoin privacy Vicky",
+      "start": 4270.56,
+      "duration": 5.47
+    },
+    {
+      "text": "Cohen joins Sudoku boards Minh papers",
+      "start": 4273.03,
+      "duration": 5.24
+    },
+    {
+      "text": "from blockchain owner is this company's",
+      "start": 4276.03,
+      "duration": 4.47
+    },
+    {
+      "text": "topological analysis of the Lightning",
+      "start": 4278.27,
+      "duration": 5.92
+    },
+    {
+      "text": "Network I am NOT an anthro piece blocks",
+      "start": 4280.5,
+      "duration": 6.69
+    },
+    {
+      "text": "I design and application of blockchain",
+      "start": 4284.19,
+      "duration": 5.82
+    },
+    {
+      "text": "analysis platform traceability analysis",
+      "start": 4287.19,
+      "duration": 6.3
+    },
+    {
+      "text": "on one arrow towards information",
+      "start": 4290.01,
+      "duration": 6.42
+    },
+    {
+      "text": "theoretic metric for anonymity a brief",
+      "start": 4293.49,
+      "duration": 5.43
+    },
+    {
+      "text": "history of linear and mixed integer",
+      "start": 4296.43,
+      "duration": 5.91
+    },
+    {
+      "text": "programming computation okay so I'm not",
+      "start": 4298.92,
+      "duration": 7.59
+    },
+    {
+      "text": "going to to to talk about the - to say",
+      "start": 4302.34,
+      "duration": 7.08
+    },
+    {
+      "text": "these these papers again to say what",
+      "start": 4306.51,
+      "duration": 6.27
+    },
+    {
+      "text": "what you think would be interesting and",
+      "start": 4309.42,
+      "duration": 6.56
+    },
+    {
+      "text": "we will vote on them",
+      "start": 4312.78,
+      "duration": 3.2
+    },
+    {
+      "text": "I think last time also we we said there",
+      "start": 4316.07,
+      "duration": 4.08
+    },
+    {
+      "text": "would be good - now after this more",
+      "start": 4318.29,
+      "duration": 3.81
+    },
+    {
+      "text": "philosophical paper go into the",
+      "start": 4320.15,
+      "duration": 5.43
+    },
+    {
+      "text": "calculation of the value of anonymity so",
+      "start": 4322.1,
+      "duration": 4.86
+    },
+    {
+      "text": "that will be conjoined pseudocode that",
+      "start": 4325.58,
+      "duration": 3.72
+    },
+    {
+      "text": "will be Boltzmann later why I am NOT an",
+      "start": 4326.96,
+      "duration": 4.44
+    },
+    {
+      "text": "entropy and I think that would be an",
+      "start": 4329.3,
+      "duration": 3.3
+    },
+    {
+      "text": "interesting path to go down",
+      "start": 4331.4,
+      "duration": 3.69
+    },
+    {
+      "text": "how do we score the quality of 0.1",
+      "start": 4332.6,
+      "duration": 6.75
+    },
+    {
+      "text": "they've on paper I think it would be",
+      "start": 4335.09,
+      "duration": 6.78
+    },
+    {
+      "text": "good to start with Sadako okay coin",
+      "start": 4339.35,
+      "duration": 6.9
+    },
+    {
+      "text": "joins Dooku who is voting for that yeah",
+      "start": 4341.87,
+      "duration": 5.73
+    },
+    {
+      "text": "I second the motion",
+      "start": 4346.25,
+      "duration": 6.12
+    },
+    {
+      "text": "yeah I like that too okay I'm going for",
+      "start": 4347.6,
+      "duration": 7.65
+    },
+    {
+      "text": "that too Oh everyone is voting for that",
+      "start": 4352.37,
+      "duration": 8.82
+    },
+    {
+      "text": "then I guess we just got a winner Cohen",
+      "start": 4355.25,
+      "duration": 9.15
+    },
+    {
+      "text": "joins the Doku next week all right",
+      "start": 4361.19,
+      "duration": 6.09
+    },
+    {
+      "text": "so are you sure I shouldn't cut out the",
+      "start": 4364.4,
+      "duration": 5.64
+    },
+    {
+      "text": "wasabi stuff because it's it it should",
+      "start": 4367.28,
+      "duration": 7.8
+    },
+    {
+      "text": "be about the paper I mean it's not a big",
+      "start": 4370.04,
+      "duration": 6.9
+    },
+    {
+      "text": "deal it's like in 20 people that are",
+      "start": 4375.08,
+      "duration": 5.4
+    },
+    {
+      "text": "gonna watch it so not a big deal no and",
+      "start": 4376.94,
+      "duration": 4.95
+    },
+    {
+      "text": "I think it was actually quite valuable",
+      "start": 4380.48,
+      "duration": 4.05
+    },
+    {
+      "text": "to have this because I mean this was a",
+      "start": 4381.89,
+      "duration": 6.84
+    },
+    {
+      "text": "rather philosophical one so yeah I think",
+      "start": 4384.53,
+      "duration": 8.4
+    },
+    {
+      "text": "it's good to apply this more right all",
+      "start": 4388.73,
+      "duration": 9.09
+    },
+    {
+      "text": "right then thank you guys and next week",
+      "start": 4392.93,
+      "duration": 7.65
+    },
+    {
+      "text": "going against Sudoku like share and",
+      "start": 4397.82,
+      "duration": 7.8
+    },
+    {
+      "text": "subscribe and research so thank you bye",
+      "start": 4400.58,
+      "duration": 7.07
+    },
+    {
+      "text": "bye",
+      "start": 4405.62,
+      "duration": 2.03
+    }
+  ]
+}

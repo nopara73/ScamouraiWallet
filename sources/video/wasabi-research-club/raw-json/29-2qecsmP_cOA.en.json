@@ -1,0 +1,1681 @@
+{
+  "video_id": "2qecsmP_cOA",
+  "title": "Wasabi Research Club #28 - 2.0 Finishing touches",
+  "url": "https://www.youtube.com/watch?v=2qecsmP_cOA",
+  "playlist_index": 29,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "i will start off with david if you are",
+      "start": 0.0,
+      "duration": 3.12
+    },
+    {
+      "text": "ready",
+      "start": 1.52,
+      "duration": 3.04
+    },
+    {
+      "text": "yeah",
+      "start": 3.12,
+      "duration": 3.679
+    },
+    {
+      "text": "thank you",
+      "start": 4.56,
+      "duration": 4.72
+    },
+    {
+      "text": "so we were working on the client the vv2",
+      "start": 6.799,
+      "duration": 4.72
+    },
+    {
+      "text": "client obviously in the previous two",
+      "start": 9.28,
+      "duration": 3.6
+    },
+    {
+      "text": "weeks",
+      "start": 11.519,
+      "duration": 3.12
+    },
+    {
+      "text": "and",
+      "start": 12.88,
+      "duration": 4.479
+    },
+    {
+      "text": "we fixed a couple of things uh we are",
+      "start": 14.639,
+      "duration": 4.56
+    },
+    {
+      "text": "trying to finalize",
+      "start": 17.359,
+      "duration": 3.601
+    },
+    {
+      "text": "all the existing features in the",
+      "start": 19.199,
+      "duration": 3.041
+    },
+    {
+      "text": "software",
+      "start": 20.96,
+      "duration": 3.76
+    },
+    {
+      "text": "and we have a feature freeze both on the",
+      "start": 22.24,
+      "duration": 5.039
+    },
+    {
+      "text": "ui and",
+      "start": 24.72,
+      "duration": 4.719
+    },
+    {
+      "text": "the code as well",
+      "start": 27.279,
+      "duration": 3.76
+    },
+    {
+      "text": "um",
+      "start": 29.439,
+      "duration": 2.96
+    },
+    {
+      "text": "so",
+      "start": 31.039,
+      "duration": 3.761
+    },
+    {
+      "text": "beside the client side",
+      "start": 32.399,
+      "duration": 3.521
+    },
+    {
+      "text": "uh",
+      "start": 34.8,
+      "duration": 3.36
+    },
+    {
+      "text": "for example the the changeless coin",
+      "start": 35.92,
+      "duration": 4.56
+    },
+    {
+      "text": "selector has a slight problem",
+      "start": 38.16,
+      "duration": 3.52
+    },
+    {
+      "text": "in it",
+      "start": 40.48,
+      "duration": 4.16
+    },
+    {
+      "text": "that the guys are working on so beside",
+      "start": 41.68,
+      "duration": 5.039
+    },
+    {
+      "text": "the client we're trying to optimize the",
+      "start": 44.64,
+      "duration": 4.88
+    },
+    {
+      "text": "back end as well uh for example the",
+      "start": 46.719,
+      "duration": 6.081
+    },
+    {
+      "text": "performance and the the",
+      "start": 49.52,
+      "duration": 4.0
+    },
+    {
+      "text": "the",
+      "start": 52.8,
+      "duration": 4.04
+    },
+    {
+      "text": "response time of the backhand",
+      "start": 53.52,
+      "duration": 6.64
+    },
+    {
+      "text": "and these are ticking times because all",
+      "start": 56.84,
+      "duration": 5.559
+    },
+    {
+      "text": "of these final",
+      "start": 60.16,
+      "duration": 5.039
+    },
+    {
+      "text": "small touches on the software",
+      "start": 62.399,
+      "duration": 5.601
+    },
+    {
+      "text": "without refactoring everything",
+      "start": 65.199,
+      "duration": 5.641
+    },
+    {
+      "text": "always takes more time than than",
+      "start": 68.0,
+      "duration": 4.56
+    },
+    {
+      "text": "before",
+      "start": 70.84,
+      "duration": 5.8
+    },
+    {
+      "text": "so now we are in that phase and",
+      "start": 72.56,
+      "duration": 7.12
+    },
+    {
+      "text": "we are aiming for the final version of",
+      "start": 76.64,
+      "duration": 5.68
+    },
+    {
+      "text": "of 2.0",
+      "start": 79.68,
+      "duration": 4.96
+    },
+    {
+      "text": "and just one more thing that according",
+      "start": 82.32,
+      "duration": 4.479
+    },
+    {
+      "text": "to the current plans",
+      "start": 84.64,
+      "duration": 5.36
+    },
+    {
+      "text": "we are coming with the main net release",
+      "start": 86.799,
+      "duration": 5.121
+    },
+    {
+      "text": "that will be the next",
+      "start": 90.0,
+      "duration": 5.04
+    },
+    {
+      "text": "the next step so there there won't be a",
+      "start": 91.92,
+      "duration": 4.4
+    },
+    {
+      "text": "another",
+      "start": 95.04,
+      "duration": 4.24
+    },
+    {
+      "text": "main test main testing period or",
+      "start": 96.32,
+      "duration": 5.2
+    },
+    {
+      "text": "something like this",
+      "start": 99.28,
+      "duration": 3.76
+    },
+    {
+      "text": "to have the release",
+      "start": 101.52,
+      "duration": 3.12
+    },
+    {
+      "text": "quickly",
+      "start": 103.04,
+      "duration": 4.32
+    },
+    {
+      "text": "the these two phases now",
+      "start": 104.64,
+      "duration": 5.04
+    },
+    {
+      "text": "is merged together",
+      "start": 107.36,
+      "duration": 3.92
+    },
+    {
+      "text": "do you want to norbo go ahead and",
+      "start": 109.68,
+      "duration": 2.719
+    },
+    {
+      "text": "explain the stuff going on with the",
+      "start": 111.28,
+      "duration": 2.4
+    },
+    {
+      "text": "marketing side",
+      "start": 112.399,
+      "duration": 3.36
+    },
+    {
+      "text": "so we have started working on this uh",
+      "start": 113.68,
+      "duration": 5.68
+    },
+    {
+      "text": "wasabi box project we had a few meetings",
+      "start": 115.759,
+      "duration": 4.96
+    },
+    {
+      "text": "and",
+      "start": 119.36,
+      "duration": 4.16
+    },
+    {
+      "text": "figured out what that we should put",
+      "start": 120.719,
+      "duration": 4.161
+    },
+    {
+      "text": "inside the box",
+      "start": 123.52,
+      "duration": 3.76
+    },
+    {
+      "text": "the other topic is the",
+      "start": 124.88,
+      "duration": 5.439
+    },
+    {
+      "text": "new blog is almost ready i'm working on",
+      "start": 127.28,
+      "duration": 6.72
+    },
+    {
+      "text": "it and just need some bug fixes so and",
+      "start": 130.319,
+      "duration": 6.161
+    },
+    {
+      "text": "some videos and articles are also ready",
+      "start": 134.0,
+      "duration": 5.12
+    },
+    {
+      "text": "and we are doing everything i think",
+      "start": 136.48,
+      "duration": 5.28
+    },
+    {
+      "text": "that's all in that sub",
+      "start": 139.12,
+      "duration": 5.04
+    },
+    {
+      "text": "just to highlight uh if you want to help",
+      "start": 141.76,
+      "duration": 4.32
+    },
+    {
+      "text": "out with reviewing the blog posts please",
+      "start": 144.16,
+      "duration": 2.64
+    },
+    {
+      "text": "do",
+      "start": 146.08,
+      "duration": 2.96
+    },
+    {
+      "text": "and if you feel like coming onto a",
+      "start": 146.8,
+      "duration": 5.28
+    },
+    {
+      "text": "podcast to record then please let me",
+      "start": 149.04,
+      "duration": 5.36
+    },
+    {
+      "text": "know likewise and rearrange something",
+      "start": 152.08,
+      "duration": 7.28
+    },
+    {
+      "text": "okay so so regarding the wasabi 2.0",
+      "start": 154.4,
+      "duration": 6.72
+    },
+    {
+      "text": "market in france",
+      "start": 159.36,
+      "duration": 3.76
+    },
+    {
+      "text": "can you explain",
+      "start": 161.12,
+      "duration": 3.44
+    },
+    {
+      "text": "how",
+      "start": 163.12,
+      "duration": 4.0
+    },
+    {
+      "text": "the release is going to go",
+      "start": 164.56,
+      "duration": 4.16
+    },
+    {
+      "text": "let's say",
+      "start": 167.12,
+      "duration": 2.479
+    },
+    {
+      "text": "from",
+      "start": 168.72,
+      "duration": 2.799
+    },
+    {
+      "text": "the last week",
+      "start": 169.599,
+      "duration": 5.041
+    },
+    {
+      "text": "before the release to the first",
+      "start": 171.519,
+      "duration": 5.761
+    },
+    {
+      "text": "week after the release how do you",
+      "start": 174.64,
+      "duration": 4.0
+    },
+    {
+      "text": "imagine that",
+      "start": 177.28,
+      "duration": 4.319
+    },
+    {
+      "text": "like what's the big marketing plan there",
+      "start": 178.64,
+      "duration": 6.319
+    },
+    {
+      "text": "what's the schedule prepare everything",
+      "start": 181.599,
+      "duration": 5.36
+    },
+    {
+      "text": "in advance",
+      "start": 184.959,
+      "duration": 5.92
+    },
+    {
+      "text": "or at least as much as reasonable um",
+      "start": 186.959,
+      "duration": 5.92
+    },
+    {
+      "text": "contacts and texts ready for the",
+      "start": 190.879,
+      "duration": 4.0
+    },
+    {
+      "text": "announcement emails to all the news also",
+      "start": 192.879,
+      "duration": 4.561
+    },
+    {
+      "text": "outlets and whatnot then",
+      "start": 194.879,
+      "duration": 5.44
+    },
+    {
+      "text": "prepare for for the live release event",
+      "start": 197.44,
+      "duration": 4.719
+    },
+    {
+      "text": "uh for this you gotta invite guests",
+      "start": 200.319,
+      "duration": 3.441
+    },
+    {
+      "text": "mainly and maybe you want to have at",
+      "start": 202.159,
+      "duration": 3.041
+    },
+    {
+      "text": "least some time",
+      "start": 203.76,
+      "duration": 3.839
+    },
+    {
+      "text": "slot management to make it reasonable",
+      "start": 205.2,
+      "duration": 4.48
+    },
+    {
+      "text": "but maybe a free-for-all would be fun",
+      "start": 207.599,
+      "duration": 5.121
+    },
+    {
+      "text": "too who knows yeah then we make the we",
+      "start": 209.68,
+      "duration": 5.52
+    },
+    {
+      "text": "start the live show maybe two hours",
+      "start": 212.72,
+      "duration": 5.439
+    },
+    {
+      "text": "before the release we talk about wasabi",
+      "start": 215.2,
+      "duration": 4.88
+    },
+    {
+      "text": "get everyone excited",
+      "start": 218.159,
+      "duration": 4.321
+    },
+    {
+      "text": "and then david pushes the button live on",
+      "start": 220.08,
+      "duration": 4.079
+    },
+    {
+      "text": "stage and",
+      "start": 222.48,
+      "duration": 4.319
+    },
+    {
+      "text": "people go download uh and check it out",
+      "start": 224.159,
+      "duration": 4.961
+    },
+    {
+      "text": "and we continue having conversations uh",
+      "start": 226.799,
+      "duration": 5.041
+    },
+    {
+      "text": "bringing new guests on on board to talk",
+      "start": 229.12,
+      "duration": 4.72
+    },
+    {
+      "text": "about wasabi and",
+      "start": 231.84,
+      "duration": 4.24
+    },
+    {
+      "text": "eventually the first coin join happens i",
+      "start": 233.84,
+      "duration": 5.2
+    },
+    {
+      "text": "know an hour after or two hours after",
+      "start": 236.08,
+      "duration": 5.68
+    },
+    {
+      "text": "we release the software who knows",
+      "start": 239.04,
+      "duration": 5.36
+    },
+    {
+      "text": "and then we look at it on air and that's",
+      "start": 241.76,
+      "duration": 3.92
+    },
+    {
+      "text": "kind of the",
+      "start": 244.4,
+      "duration": 4.72
+    },
+    {
+      "text": "the end of the live ceremony i guess so",
+      "start": 245.68,
+      "duration": 5.759
+    },
+    {
+      "text": "probably five hours or something like",
+      "start": 249.12,
+      "duration": 5.28
+    },
+    {
+      "text": "this of continuous yeah live stream and",
+      "start": 251.439,
+      "duration": 5.121
+    },
+    {
+      "text": "in the meantime we send out the armada",
+      "start": 254.4,
+      "duration": 5.119
+    },
+    {
+      "text": "of emails to all the outlets uh with",
+      "start": 256.56,
+      "duration": 5.6
+    },
+    {
+      "text": "with the articles and announcements um",
+      "start": 259.519,
+      "duration": 4.801
+    },
+    {
+      "text": "the blog posts go out",
+      "start": 262.16,
+      "duration": 4.56
+    },
+    {
+      "text": "uh announcing the 2.0 mainnet release",
+      "start": 264.32,
+      "duration": 4.08
+    },
+    {
+      "text": "and maybe one additional",
+      "start": 266.72,
+      "duration": 4.0
+    },
+    {
+      "text": "blog post goes a couple minutes later i",
+      "start": 268.4,
+      "duration": 4.0
+    },
+    {
+      "text": "don't know and",
+      "start": 270.72,
+      "duration": 5.199
+    },
+    {
+      "text": "yeah i would like to have also at least",
+      "start": 272.4,
+      "duration": 4.48
+    },
+    {
+      "text": "one",
+      "start": 275.919,
+      "duration": 4.56
+    },
+    {
+      "text": "big bitcoin podcast release an episode",
+      "start": 276.88,
+      "duration": 6.48
+    },
+    {
+      "text": "uh when we act like on the day that we",
+      "start": 280.479,
+      "duration": 4.321
+    },
+    {
+      "text": "release",
+      "start": 283.36,
+      "duration": 4.48
+    },
+    {
+      "text": "that would be pretty cool yeah i guess",
+      "start": 284.8,
+      "duration": 6.08
+    },
+    {
+      "text": "that's the timeline all right thank you",
+      "start": 287.84,
+      "duration": 5.52
+    },
+    {
+      "text": "oh yeah i think i forgot is the the swag",
+      "start": 290.88,
+      "duration": 4.72
+    },
+    {
+      "text": "boxes i guess we'll see how fast we can",
+      "start": 293.36,
+      "duration": 4.48
+    },
+    {
+      "text": "get everything printed and shipped and",
+      "start": 295.6,
+      "duration": 4.8
+    },
+    {
+      "text": "delivered uh but it would be cool if we",
+      "start": 297.84,
+      "duration": 5.04
+    },
+    {
+      "text": "can send out the physical packages i",
+      "start": 300.4,
+      "duration": 4.72
+    },
+    {
+      "text": "guess at least three days before the",
+      "start": 302.88,
+      "duration": 4.64
+    },
+    {
+      "text": "actual release maybe five days before",
+      "start": 305.12,
+      "duration": 4.16
+    },
+    {
+      "text": "something like that just so that there's",
+      "start": 307.52,
+      "duration": 3.6
+    },
+    {
+      "text": "enough time for the packages to arrive",
+      "start": 309.28,
+      "duration": 4.4
+    },
+    {
+      "text": "at most people so yeah i guess that's",
+      "start": 311.12,
+      "duration": 4.639
+    },
+    {
+      "text": "something that we will check back on in",
+      "start": 313.68,
+      "duration": 5.84
+    },
+    {
+      "text": "two weeks uh on the 15th how the",
+      "start": 315.759,
+      "duration": 6.0
+    },
+    {
+      "text": "the swag box is going and if we will",
+      "start": 319.52,
+      "duration": 4.32
+    },
+    {
+      "text": "ship it out together with the release or",
+      "start": 321.759,
+      "duration": 5.041
+    },
+    {
+      "text": "a bit later um i guess uh",
+      "start": 323.84,
+      "duration": 4.88
+    },
+    {
+      "text": "one general question",
+      "start": 326.8,
+      "duration": 2.8
+    },
+    {
+      "text": "uh",
+      "start": 328.72,
+      "duration": 3.44
+    },
+    {
+      "text": "do you think we should start with more",
+      "start": 329.6,
+      "duration": 4.879
+    },
+    {
+      "text": "blog posts already the week before the",
+      "start": 332.16,
+      "duration": 5.039
+    },
+    {
+      "text": "release or should like you know be kind",
+      "start": 334.479,
+      "duration": 4.321
+    },
+    {
+      "text": "of a",
+      "start": 337.199,
+      "duration": 3.761
+    },
+    {
+      "text": "period of excitement before the release",
+      "start": 338.8,
+      "duration": 5.119
+    },
+    {
+      "text": "or should the big blog post come only",
+      "start": 340.96,
+      "duration": 5.12
+    },
+    {
+      "text": "with the release itself i think the blog",
+      "start": 343.919,
+      "duration": 4.801
+    },
+    {
+      "text": "posts um like having them go out is",
+      "start": 346.08,
+      "duration": 4.399
+    },
+    {
+      "text": "great but it's it's not as interactive",
+      "start": 348.72,
+      "duration": 3.6
+    },
+    {
+      "text": "as some of the other things so you know",
+      "start": 350.479,
+      "duration": 3.521
+    },
+    {
+      "text": "if there's videos or some other content",
+      "start": 352.32,
+      "duration": 3.04
+    },
+    {
+      "text": "that's not just reading i think that's",
+      "start": 354.0,
+      "duration": 3.12
+    },
+    {
+      "text": "even better so it's going to be a",
+      "start": 355.36,
+      "duration": 3.92
+    },
+    {
+      "text": "concerted effort between the blog posts",
+      "start": 357.12,
+      "duration": 4.16
+    },
+    {
+      "text": "the youtube videos",
+      "start": 359.28,
+      "duration": 3.84
+    },
+    {
+      "text": "and then on top of that the articles and",
+      "start": 361.28,
+      "duration": 3.68
+    },
+    {
+      "text": "stuff that other people are publishing",
+      "start": 363.12,
+      "duration": 3.519
+    },
+    {
+      "text": "how much emphasis should be put on the",
+      "start": 364.96,
+      "duration": 3.519
+    },
+    {
+      "text": "blog post i don't think is as important",
+      "start": 366.639,
+      "duration": 3.761
+    },
+    {
+      "text": "and the timing of that",
+      "start": 368.479,
+      "duration": 4.801
+    },
+    {
+      "text": "um it should just be 2.0 is out the blog",
+      "start": 370.4,
+      "duration": 4.48
+    },
+    {
+      "text": "post comes out as soon as we push the",
+      "start": 373.28,
+      "duration": 2.639
+    },
+    {
+      "text": "button",
+      "start": 374.88,
+      "duration": 2.64
+    },
+    {
+      "text": "you know here it is",
+      "start": 375.919,
+      "duration": 4.321
+    },
+    {
+      "text": "and then it's really the twitter's job",
+      "start": 377.52,
+      "duration": 4.239
+    },
+    {
+      "text": "and like youtube and all these other",
+      "start": 380.24,
+      "duration": 4.239
+    },
+    {
+      "text": "outlets job to spread the news",
+      "start": 381.759,
+      "duration": 4.641
+    },
+    {
+      "text": "uh for the actual release we're going to",
+      "start": 384.479,
+      "duration": 4.72
+    },
+    {
+      "text": "have that live announcement party it",
+      "start": 386.4,
+      "duration": 5.919
+    },
+    {
+      "text": "might be cool to have a physical",
+      "start": 389.199,
+      "duration": 5.761
+    },
+    {
+      "text": "party in the office uh on that day uh",
+      "start": 392.319,
+      "duration": 5.201
+    },
+    {
+      "text": "and we might invite people who want to",
+      "start": 394.96,
+      "duration": 5.12
+    },
+    {
+      "text": "join um i know but was pretty cool",
+      "start": 397.52,
+      "duration": 4.08
+    },
+    {
+      "text": "atmosphere last time during the first",
+      "start": 400.08,
+      "duration": 3.04
+    },
+    {
+      "text": "release candidate",
+      "start": 401.6,
+      "duration": 2.64
+    },
+    {
+      "text": "uh so",
+      "start": 403.12,
+      "duration": 3.6
+    },
+    {
+      "text": "we could replicate that and just have a",
+      "start": 404.24,
+      "duration": 3.679
+    },
+    {
+      "text": "you know a",
+      "start": 406.72,
+      "duration": 3.12
+    },
+    {
+      "text": "microphone in there so that people can",
+      "start": 407.919,
+      "duration": 3.68
+    },
+    {
+      "text": "come join the live stream",
+      "start": 409.84,
+      "duration": 2.88
+    },
+    {
+      "text": "yeah i mean",
+      "start": 411.599,
+      "duration": 3.281
+    },
+    {
+      "text": "yeah if you if the office people think",
+      "start": 412.72,
+      "duration": 3.84
+    },
+    {
+      "text": "that there's going to be a bunch of",
+      "start": 414.88,
+      "duration": 4.08
+    },
+    {
+      "text": "people in budapest at that time and it's",
+      "start": 416.56,
+      "duration": 4.28
+    },
+    {
+      "text": "a it's a",
+      "start": 418.96,
+      "duration": 5.44
+    },
+    {
+      "text": "final closing something right closing",
+      "start": 420.84,
+      "duration": 5.88
+    },
+    {
+      "text": "the development",
+      "start": 424.4,
+      "duration": 3.84
+    },
+    {
+      "text": "with uh",
+      "start": 426.72,
+      "duration": 4.319
+    },
+    {
+      "text": "meet space event",
+      "start": 428.24,
+      "duration": 5.04
+    },
+    {
+      "text": "what's up with the ui",
+      "start": 431.039,
+      "duration": 3.801
+    },
+    {
+      "text": "exactly what i was about to",
+      "start": 433.28,
+      "duration": 4.319
+    },
+    {
+      "text": "ask hello guys hello",
+      "start": 434.84,
+      "duration": 6.199
+    },
+    {
+      "text": "okay so um dan and roland are not around",
+      "start": 437.599,
+      "duration": 6.16
+    },
+    {
+      "text": "so i'm going to sub for them to deport",
+      "start": 441.039,
+      "duration": 4.401
+    },
+    {
+      "text": "today um",
+      "start": 443.759,
+      "duration": 5.201
+    },
+    {
+      "text": "last week in ui team we have",
+      "start": 445.44,
+      "duration": 6.319
+    },
+    {
+      "text": "but basically there's only minor fixes",
+      "start": 448.96,
+      "duration": 4.48
+    },
+    {
+      "text": "that are going on",
+      "start": 451.759,
+      "duration": 3.121
+    },
+    {
+      "text": "um",
+      "start": 453.44,
+      "duration": 2.64
+    },
+    {
+      "text": "but um",
+      "start": 454.88,
+      "duration": 4.319
+    },
+    {
+      "text": "we are planning to fix um",
+      "start": 456.08,
+      "duration": 4.48
+    },
+    {
+      "text": "uh",
+      "start": 459.199,
+      "duration": 4.081
+    },
+    {
+      "text": "a couple of things like um showing times",
+      "start": 460.56,
+      "duration": 5.12
+    },
+    {
+      "text": "in the music box control",
+      "start": 463.28,
+      "duration": 4.88
+    },
+    {
+      "text": "and i am also working on fixing the high",
+      "start": 465.68,
+      "duration": 6.16
+    },
+    {
+      "text": "gpu usage on idle which i think i have i",
+      "start": 468.16,
+      "duration": 5.12
+    },
+    {
+      "text": "may have sold",
+      "start": 471.84,
+      "duration": 5.12
+    },
+    {
+      "text": "unless um adam proves otherwise",
+      "start": 473.28,
+      "duration": 5.359
+    },
+    {
+      "text": "and um",
+      "start": 476.96,
+      "duration": 4.079
+    },
+    {
+      "text": "and also adding some",
+      "start": 478.639,
+      "duration": 4.641
+    },
+    {
+      "text": "tweaks to the history",
+      "start": 481.039,
+      "duration": 4.401
+    },
+    {
+      "text": "um data grid",
+      "start": 483.28,
+      "duration": 5.359
+    },
+    {
+      "text": "and also to finalize any open uh open",
+      "start": 485.44,
+      "duration": 4.72
+    },
+    {
+      "text": "prs as well",
+      "start": 488.639,
+      "duration": 4.24
+    },
+    {
+      "text": "so all in all our things are going",
+      "start": 490.16,
+      "duration": 4.0
+    },
+    {
+      "text": "smoothly",
+      "start": 492.879,
+      "duration": 3.681
+    },
+    {
+      "text": "okay thank you",
+      "start": 494.16,
+      "duration": 4.24
+    },
+    {
+      "text": "are there any other questions for the ui",
+      "start": 496.56,
+      "duration": 2.88
+    },
+    {
+      "text": "team",
+      "start": 498.4,
+      "duration": 2.799
+    },
+    {
+      "text": "i think basically everything important",
+      "start": 499.44,
+      "duration": 3.199
+    },
+    {
+      "text": "is figured also",
+      "start": 501.199,
+      "duration": 3.201
+    },
+    {
+      "text": "pretty good on the ui from everything",
+      "start": 502.639,
+      "duration": 3.84
+    },
+    {
+      "text": "from now on it's just candy and sugar on",
+      "start": 504.4,
+      "duration": 3.44
+    },
+    {
+      "text": "top",
+      "start": 506.479,
+      "duration": 3.28
+    },
+    {
+      "text": "uh david i think last week you asked",
+      "start": 507.84,
+      "duration": 4.559
+    },
+    {
+      "text": "about getting some like newbie",
+      "start": 509.759,
+      "duration": 5.121
+    },
+    {
+      "text": "input on using the wallet",
+      "start": 512.399,
+      "duration": 3.841
+    },
+    {
+      "text": "was there anybody that was able to",
+      "start": 514.88,
+      "duration": 3.519
+    },
+    {
+      "text": "volunteer and do that with you",
+      "start": 516.24,
+      "duration": 5.359
+    },
+    {
+      "text": "i'm not sure what was about newbie input",
+      "start": 518.399,
+      "duration": 4.88
+    },
+    {
+      "text": "using the wallet",
+      "start": 521.599,
+      "duration": 3.92
+    },
+    {
+      "text": "first time user experience i'm guessing",
+      "start": 523.279,
+      "duration": 5.441
+    },
+    {
+      "text": "is what then the last exactly i actually",
+      "start": 525.519,
+      "duration": 6.0
+    },
+    {
+      "text": "remember that conversation and the",
+      "start": 528.72,
+      "duration": 5.36
+    },
+    {
+      "text": "resolution was that roland's girlfriend",
+      "start": 531.519,
+      "duration": 4.88
+    },
+    {
+      "text": "is going to beat upon",
+      "start": 534.08,
+      "duration": 4.64
+    },
+    {
+      "text": "so maybe you want to ask roland about",
+      "start": 536.399,
+      "duration": 3.361
+    },
+    {
+      "text": "that",
+      "start": 538.72,
+      "duration": 2.08
+    },
+    {
+      "text": "good",
+      "start": 539.76,
+      "duration": 2.639
+    },
+    {
+      "text": "i wanted to make sure it was uh taken",
+      "start": 540.8,
+      "duration": 4.32
+    },
+    {
+      "text": "care of but that's my main point or main",
+      "start": 542.399,
+      "duration": 5.44
+    },
+    {
+      "text": "main goal is if it was resolved i mean",
+      "start": 545.12,
+      "duration": 4.159
+    },
+    {
+      "text": "for like i've been doing this for a",
+      "start": 547.839,
+      "duration": 3.761
+    },
+    {
+      "text": "while uh already with a couple of people",
+      "start": 549.279,
+      "duration": 4.321
+    },
+    {
+      "text": "not many just a handful",
+      "start": 551.6,
+      "duration": 5.12
+    },
+    {
+      "text": "and that influenced a lot of my feedback",
+      "start": 553.6,
+      "duration": 4.32
+    },
+    {
+      "text": "very good",
+      "start": 556.72,
+      "duration": 3.04
+    },
+    {
+      "text": "anything else",
+      "start": 557.92,
+      "duration": 3.919
+    },
+    {
+      "text": "we can go into the general topics and",
+      "start": 559.76,
+      "duration": 3.84
+    },
+    {
+      "text": "conversations",
+      "start": 561.839,
+      "duration": 3.601
+    },
+    {
+      "text": "max you're coming to the lightning",
+      "start": 563.6,
+      "duration": 5.12
+    },
+    {
+      "text": "ground discussion yes",
+      "start": 565.44,
+      "duration": 5.28
+    },
+    {
+      "text": "i wanted to ask about something not",
+      "start": 568.72,
+      "duration": 4.0
+    },
+    {
+      "text": "related to 2.0 but just",
+      "start": 570.72,
+      "duration": 3.36
+    },
+    {
+      "text": "since everybody is here i know that",
+      "start": 572.72,
+      "duration": 2.88
+    },
+    {
+      "text": "there was the work swap that we were",
+      "start": 574.08,
+      "duration": 3.759
+    },
+    {
+      "text": "doing a few weeks ago and it's been",
+      "start": 575.6,
+      "duration": 3.679
+    },
+    {
+      "text": "kind of dead in the water the last",
+      "start": 577.839,
+      "duration": 2.641
+    },
+    {
+      "text": "couple of weeks",
+      "start": 579.279,
+      "duration": 2.721
+    },
+    {
+      "text": "with everything",
+      "start": 580.48,
+      "duration": 2.64
+    },
+    {
+      "text": "i think this is just one of those",
+      "start": 582.0,
+      "duration": 3.839
+    },
+    {
+      "text": "conversations that uh",
+      "start": 583.12,
+      "duration": 4.159
+    },
+    {
+      "text": "i know that everybody's busy it's kind",
+      "start": 585.839,
+      "duration": 4.241
+    },
+    {
+      "text": "of fizzled out as far as interest so the",
+      "start": 587.279,
+      "duration": 4.56
+    },
+    {
+      "text": "question is should it continue or should",
+      "start": 590.08,
+      "duration": 3.68
+    },
+    {
+      "text": "we ask it or should this conversation be",
+      "start": 591.839,
+      "duration": 4.321
+    },
+    {
+      "text": "brought up in another meeting elsewhere",
+      "start": 593.76,
+      "duration": 5.44
+    },
+    {
+      "text": "so my hope was that the new people are",
+      "start": 596.16,
+      "duration": 5.04
+    },
+    {
+      "text": "going to come",
+      "start": 599.2,
+      "duration": 4.16
+    },
+    {
+      "text": "there and",
+      "start": 601.2,
+      "duration": 4.639
+    },
+    {
+      "text": "and they can get",
+      "start": 603.36,
+      "duration": 4.479
+    },
+    {
+      "text": "they can learn about a lot of things",
+      "start": 605.839,
+      "duration": 4.401
+    },
+    {
+      "text": "right but it seems like the new people",
+      "start": 607.839,
+      "duration": 4.641
+    },
+    {
+      "text": "are not really coming there",
+      "start": 610.24,
+      "duration": 5.12
+    },
+    {
+      "text": "it's the same same world",
+      "start": 612.48,
+      "duration": 6.64
+    },
+    {
+      "text": "so i did not meet anyone on on the",
+      "start": 615.36,
+      "duration": 5.919
+    },
+    {
+      "text": "on the conversations right i did not",
+      "start": 619.12,
+      "duration": 4.64
+    },
+    {
+      "text": "meet anyone who i didn't already know",
+      "start": 621.279,
+      "duration": 4.24
+    },
+    {
+      "text": "and talk about it",
+      "start": 623.76,
+      "duration": 3.759
+    },
+    {
+      "text": "in that case then i think that we can uh",
+      "start": 625.519,
+      "duration": 3.841
+    },
+    {
+      "text": "brainstorm or talk about some other ways",
+      "start": 627.519,
+      "duration": 3.521
+    },
+    {
+      "text": "to get this happening whether it's you",
+      "start": 629.36,
+      "duration": 4.719
+    },
+    {
+      "text": "know just getting them to join in on the",
+      "start": 631.04,
+      "duration": 5.919
+    },
+    {
+      "text": "2.0 calls or doing something else but",
+      "start": 634.079,
+      "duration": 4.88
+    },
+    {
+      "text": "you know somehow finding a way for it to",
+      "start": 636.959,
+      "duration": 3.041
+    },
+    {
+      "text": "be",
+      "start": 638.959,
+      "duration": 2.88
+    },
+    {
+      "text": "participated in so",
+      "start": 640.0,
+      "duration": 2.959
+    },
+    {
+      "text": "we can talk about this in another",
+      "start": 641.839,
+      "duration": 3.0
+    },
+    {
+      "text": "meeting or another uh",
+      "start": 642.959,
+      "duration": 4.801
+    },
+    {
+      "text": "conversations privately i just unless",
+      "start": 644.839,
+      "duration": 4.68
+    },
+    {
+      "text": "people have ideas that they wanted to",
+      "start": 647.76,
+      "duration": 3.04
+    },
+    {
+      "text": "suggest",
+      "start": 649.519,
+      "duration": 4.241
+    },
+    {
+      "text": "i think also that preparing 2.0 is not",
+      "start": 650.8,
+      "duration": 5.44
+    },
+    {
+      "text": "so helpful regarding that",
+      "start": 653.76,
+      "duration": 3.68
+    },
+    {
+      "text": "workshop",
+      "start": 656.24,
+      "duration": 2.96
+    },
+    {
+      "text": "concept",
+      "start": 657.44,
+      "duration": 3.2
+    },
+    {
+      "text": "because",
+      "start": 659.2,
+      "duration": 2.639
+    },
+    {
+      "text": "in the last",
+      "start": 660.64,
+      "duration": 2.4
+    },
+    {
+      "text": "two weeks",
+      "start": 661.839,
+      "duration": 4.081
+    },
+    {
+      "text": "i just don't felt i have time to",
+      "start": 663.04,
+      "duration": 5.68
+    },
+    {
+      "text": "didn't feel to have time to go there",
+      "start": 665.92,
+      "duration": 5.12
+    },
+    {
+      "text": "so maybe that's it's timing it's a",
+      "start": 668.72,
+      "duration": 4.96
+    },
+    {
+      "text": "timing problem as well",
+      "start": 671.04,
+      "duration": 5.12
+    },
+    {
+      "text": "the prior the prior thing is that fatada",
+      "start": 673.68,
+      "duration": 3.76
+    },
+    {
+      "text": "mentioned that",
+      "start": 676.16,
+      "duration": 4.0
+    },
+    {
+      "text": "i was enjoyed doing it so i think the",
+      "start": 677.44,
+      "duration": 5.28
+    },
+    {
+      "text": "concept itself is not bad",
+      "start": 680.16,
+      "duration": 4.4
+    },
+    {
+      "text": "it's just that",
+      "start": 682.72,
+      "duration": 4.88
+    },
+    {
+      "text": "we did not reach the peak",
+      "start": 684.56,
+      "duration": 5.76
+    },
+    {
+      "text": "attention of the people",
+      "start": 687.6,
+      "duration": 4.239
+    },
+    {
+      "text": "i think then it can be a combination of",
+      "start": 690.32,
+      "duration": 4.32
+    },
+    {
+      "text": "the two we can probably revisit this uh",
+      "start": 691.839,
+      "duration": 4.641
+    },
+    {
+      "text": "after 2.0 is released so that way",
+      "start": 694.64,
+      "duration": 3.52
+    },
+    {
+      "text": "everybody can focus on getting this done",
+      "start": 696.48,
+      "duration": 3.84
+    },
+    {
+      "text": "i think everybody's got enough to do",
+      "start": 698.16,
+      "duration": 3.359
+    },
+    {
+      "text": "and then",
+      "start": 700.32,
+      "duration": 2.88
+    },
+    {
+      "text": "you know maybe another let's say two",
+      "start": 701.519,
+      "duration": 3.44
+    },
+    {
+      "text": "weeks or three weeks after release so",
+      "start": 703.2,
+      "duration": 3.199
+    },
+    {
+      "text": "that way we can get all the bugs worked",
+      "start": 704.959,
+      "duration": 3.521
+    },
+    {
+      "text": "out and make sure that it's not",
+      "start": 706.399,
+      "duration": 3.761
+    },
+    {
+      "text": "nothing's going crazy",
+      "start": 708.48,
+      "duration": 4.56
+    },
+    {
+      "text": "so whatever that would be june we can uh",
+      "start": 710.16,
+      "duration": 4.4
+    },
+    {
+      "text": "talk about getting this going in some",
+      "start": 713.04,
+      "duration": 3.68
+    },
+    {
+      "text": "other way or format",
+      "start": 714.56,
+      "duration": 4.32
+    },
+    {
+      "text": "that's everything then",
+      "start": 716.72,
+      "duration": 3.919
+    },
+    {
+      "text": "i will see all of you guys later next",
+      "start": 718.88,
+      "duration": 3.28
+    },
+    {
+      "text": "week we'll have our meeting as usual and",
+      "start": 720.639,
+      "duration": 2.481
+    },
+    {
+      "text": "uh",
+      "start": 722.16,
+      "duration": 2.64
+    },
+    {
+      "text": "look forward to seeing everyone then",
+      "start": 723.12,
+      "duration": 2.64
+    },
+    {
+      "text": "good luck",
+      "start": 724.8,
+      "duration": 4.44
+    },
+    {
+      "text": "see you bye",
+      "start": 725.76,
+      "duration": 3.48
+    }
+  ]
+}

@@ -1,0 +1,7841 @@
+{
+  "video_id": "MvEXPs3KSj8",
+  "title": "Wasabi Research Club # 18 - Protocol KVAC",
+  "url": "https://www.youtube.com/watch?v=MvEXPs3KSj8",
+  "playlist_index": 18,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "better you can hey yeah",
+      "start": 1.04,
+      "duration": 10.15
+    },
+    {
+      "text": "welcome everyone in the wasabi research",
+      "start": 7.35,
+      "duration": 8.19
+    },
+    {
+      "text": "club number 17 and I'm very happy today",
+      "start": 11.19,
+      "duration": 7.65
+    },
+    {
+      "text": "because today finally we are going to go",
+      "start": 15.54,
+      "duration": 9.06
+    },
+    {
+      "text": "through the go through our research the",
+      "start": 18.84,
+      "duration": 8.189
+    },
+    {
+      "text": "cryptographic primitives of our research",
+      "start": 24.6,
+      "duration": 6.179
+    },
+    {
+      "text": "and if you have not paid attention to",
+      "start": 27.029,
+      "duration": 6.661
+    },
+    {
+      "text": "the last two episodes then pay attention",
+      "start": 30.779,
+      "duration": 5.791
+    },
+    {
+      "text": "today because this is going to be the",
+      "start": 33.69,
+      "duration": 6.99
+    },
+    {
+      "text": "final scheme that we have came up with",
+      "start": 36.57,
+      "duration": 6.68
+    },
+    {
+      "text": "and this is what's going to be in",
+      "start": 40.68,
+      "duration": 6.27
+    },
+    {
+      "text": "Bitcoin in a couple of years time maybe",
+      "start": 43.25,
+      "duration": 8.649
+    },
+    {
+      "text": "two weeks just a quick overview on on",
+      "start": 46.95,
+      "duration": 7.53
+    },
+    {
+      "text": "what we are doing right here is that in",
+      "start": 51.899,
+      "duration": 4.921
+    },
+    {
+      "text": "Vasavi we would like to replace the",
+      "start": 54.48,
+      "duration": 5.129
+    },
+    {
+      "text": "mixing protocol in order to make the",
+      "start": 56.82,
+      "duration": 8.19
+    },
+    {
+      "text": "mixing well a couple of things to fix",
+      "start": 59.609,
+      "duration": 8.091
+    },
+    {
+      "text": "about the mixing for example we could",
+      "start": 65.01,
+      "duration": 8.75
+    },
+    {
+      "text": "remove the minimum denomination we could",
+      "start": 67.7,
+      "duration": 10.419
+    },
+    {
+      "text": "reduce or maybe completely make the",
+      "start": 73.76,
+      "duration": 7.6
+    },
+    {
+      "text": "change disappear in the mixes we could",
+      "start": 78.119,
+      "duration": 5.671
+    },
+    {
+      "text": "have more blockchain space efficient",
+      "start": 81.36,
+      "duration": 6.74
+    },
+    {
+      "text": "mixing and we could also make",
+      "start": 83.79,
+      "duration": 9.66
+    },
+    {
+      "text": "transactions in the mix and how that",
+      "start": 88.1,
+      "duration": 10.83
+    },
+    {
+      "text": "this this these ambitious plans here",
+      "start": 93.45,
+      "duration": 10.83
+    },
+    {
+      "text": "requires us to be able to break coins",
+      "start": 98.93,
+      "duration": 8.95
+    },
+    {
+      "text": "down or merge them together in any way",
+      "start": 104.28,
+      "duration": 6.51
+    },
+    {
+      "text": "shape or form and when I'm talking about",
+      "start": 107.88,
+      "duration": 6.21
+    },
+    {
+      "text": "coins here I'm talking about off chain",
+      "start": 110.79,
+      "duration": 7.829
+    },
+    {
+      "text": "Co enjoying coins which is star which is",
+      "start": 114.09,
+      "duration": 9.69
+    },
+    {
+      "text": "being which are living between the input",
+      "start": 118.619,
+      "duration": 8.161
+    },
+    {
+      "text": "and output registrations of the coin",
+      "start": 123.78,
+      "duration": 6.03
+    },
+    {
+      "text": "during phases so that's the big picture",
+      "start": 126.78,
+      "duration": 4.44
+    },
+    {
+      "text": "here",
+      "start": 129.81,
+      "duration": 8.27
+    },
+    {
+      "text": "we have roadmap and I would like to give",
+      "start": 131.22,
+      "duration": 11.31
+    },
+    {
+      "text": "divert to ishtvan or you while who would",
+      "start": 138.08,
+      "duration": 9.58
+    },
+    {
+      "text": "like to start Thank You function take it",
+      "start": 142.53,
+      "duration": 9.03
+    },
+    {
+      "text": "yeah but before we going deeper like a",
+      "start": 147.66,
+      "duration": 5.43
+    },
+    {
+      "text": "small correction that this is not our",
+      "start": 151.56,
+      "duration": 4.2
+    },
+    {
+      "text": "scheme so we are standing on the own",
+      "start": 153.09,
+      "duration": 5.93
+    },
+    {
+      "text": "giant shoulders so we just give slight",
+      "start": 155.76,
+      "duration": 5.16
+    },
+    {
+      "text": "modifications towards the existing",
+      "start": 159.02,
+      "duration": 7.62
+    },
+    {
+      "text": "schemes so yeah our added value is I",
+      "start": 160.92,
+      "duration": 9.27
+    },
+    {
+      "text": "would say almost negligible like just",
+      "start": 166.64,
+      "duration": 8.56
+    },
+    {
+      "text": "with an epsilon anyway so first we want",
+      "start": 170.19,
+      "duration": 7.94
+    },
+    {
+      "text": "to provide some lightweight background",
+      "start": 175.2,
+      "duration": 5.43
+    },
+    {
+      "text": "because we understand that there might",
+      "start": 178.13,
+      "duration": 4.54
+    },
+    {
+      "text": "be some newcomers who joined the",
+      "start": 180.63,
+      "duration": 3.93
+    },
+    {
+      "text": "research club or are not as familiar",
+      "start": 182.67,
+      "duration": 5.49
+    },
+    {
+      "text": "with this key with this scene so maybe",
+      "start": 184.56,
+      "duration": 6.0
+    },
+    {
+      "text": "we should start with commitment schemes",
+      "start": 188.16,
+      "duration": 8.18
+    },
+    {
+      "text": "like just a really quick review right or",
+      "start": 190.56,
+      "duration": 5.78
+    },
+    {
+      "text": "yeah shall we started commitment schemes",
+      "start": 197.57,
+      "duration": 5.05
+    },
+    {
+      "text": "you well or or yeah I think that's the",
+      "start": 200.34,
+      "duration": 5.369
+    },
+    {
+      "text": "most logical place all the commitments",
+      "start": 202.62,
+      "duration": 8.64
+    },
+    {
+      "text": "are the most sexy things so yes so like",
+      "start": 205.709,
+      "duration": 9.381
+    },
+    {
+      "text": "it's not that important that the that",
+      "start": 211.26,
+      "duration": 8.52
+    },
+    {
+      "text": "the viewer knows any instantiation of",
+      "start": 215.09,
+      "duration": 7.929
+    },
+    {
+      "text": "the commitment schemes it the you or",
+      "start": 219.78,
+      "duration": 6.15
+    },
+    {
+      "text": "should just understand that we have two",
+      "start": 223.019,
+      "duration": 7.44
+    },
+    {
+      "text": "algorithms this commit wait don't you",
+      "start": 225.93,
+      "duration": 7.02
+    },
+    {
+      "text": "want to explain the commitment scheme",
+      "start": 230.459,
+      "duration": 4.921
+    },
+    {
+      "text": "with my article that should be really",
+      "start": 232.95,
+      "duration": 3.18
+    },
+    {
+      "text": "fun",
+      "start": 235.38,
+      "duration": 5.49
+    },
+    {
+      "text": "yeah okay ah yeah with sex medium no",
+      "start": 236.13,
+      "duration": 11.16
+    },
+    {
+      "text": "para yeah I mean this is a special type",
+      "start": 240.87,
+      "duration": 9.899
+    },
+    {
+      "text": "of commitment scheme but yeah so but but",
+      "start": 247.29,
+      "duration": 5.91
+    },
+    {
+      "text": "before going into this like let's just",
+      "start": 250.769,
+      "duration": 5.611
+    },
+    {
+      "text": "give an overview that so we have a",
+      "start": 253.2,
+      "duration": 7.14
+    },
+    {
+      "text": "function which is called commit and it",
+      "start": 256.38,
+      "duration": 8.6
+    },
+    {
+      "text": "allows one to commit to a message be",
+      "start": 260.34,
+      "duration": 8.37
+    },
+    {
+      "text": "with the randomness our and this",
+      "start": 264.98,
+      "duration": 7.21
+    },
+    {
+      "text": "algorithm outputs a so-called commitment",
+      "start": 268.71,
+      "duration": 7.74
+    },
+    {
+      "text": "which is denoted as C and then later it",
+      "start": 272.19,
+      "duration": 6.27
+    },
+    {
+      "text": "allows the commuter to open this",
+      "start": 276.45,
+      "duration": 5.94
+    },
+    {
+      "text": "commitment and anyone so this is called",
+      "start": 278.46,
+      "duration": 6.51
+    },
+    {
+      "text": "opening a commitment and they can check",
+      "start": 282.39,
+      "duration": 6.05
+    },
+    {
+      "text": "whether this opening of the commitment",
+      "start": 284.97,
+      "duration": 7.2
+    },
+    {
+      "text": "is correct so what this achieves this",
+      "start": 288.44,
+      "duration": 6.43
+    },
+    {
+      "text": "commitment scheme is that one can think",
+      "start": 292.17,
+      "duration": 7.37
+    },
+    {
+      "text": "of it as someone puts a pan in a box as",
+      "start": 294.87,
+      "duration": 8.97
+    },
+    {
+      "text": "Adam says in his example and then later",
+      "start": 299.54,
+      "duration": 7.48
+    },
+    {
+      "text": "one wants someone put in this pan into a",
+      "start": 303.84,
+      "duration": 5.87
+    },
+    {
+      "text": "box then they cannot change their mind",
+      "start": 307.02,
+      "duration": 7.11
+    },
+    {
+      "text": "so this is called binding property but",
+      "start": 309.71,
+      "duration": 6.43
+    },
+    {
+      "text": "we also want that if someone just has a",
+      "start": 314.13,
+      "duration": 5.04
+    },
+    {
+      "text": "look have a look at the box then they",
+      "start": 316.14,
+      "duration": 4.47
+    },
+    {
+      "text": "should not be able to tell what's inside",
+      "start": 319.17,
+      "duration": 4.44
+    },
+    {
+      "text": "the box what's inside the commitment",
+      "start": 320.61,
+      "duration": 5.82
+    },
+    {
+      "text": "what message was committed and this",
+      "start": 323.61,
+      "duration": 7.56
+    },
+    {
+      "text": "property is called hiding and pretty",
+      "start": 326.43,
+      "duration": 9.12
+    },
+    {
+      "text": "much that's in let's I think suffice is",
+      "start": 331.17,
+      "duration": 7.32
+    },
+    {
+      "text": "to have for you why do you want to add",
+      "start": 335.55,
+      "duration": 15.26
+    },
+    {
+      "text": "something for commitment schemes and",
+      "start": 338.49,
+      "duration": 17.36
+    },
+    {
+      "text": "yeah so maybe we can move forward to max",
+      "start": 350.81,
+      "duration": 9.91
+    },
+    {
+      "text": "if there is no any comment to commitment",
+      "start": 355.85,
+      "duration": 5.35
+    },
+    {
+      "text": "schemes",
+      "start": 360.72,
+      "duration": 5.16
+    },
+    {
+      "text": "I guess maybe just so opening a to",
+      "start": 361.2,
+      "duration": 6.15
+    },
+    {
+      "text": "finish the analogy opening the",
+      "start": 365.88,
+      "duration": 3.81
+    },
+    {
+      "text": "commitment is like opening the box you",
+      "start": 367.35,
+      "duration": 6.12
+    },
+    {
+      "text": "after you promised you show everybody",
+      "start": 369.69,
+      "duration": 5.55
+    },
+    {
+      "text": "what you put inside the box in the first",
+      "start": 373.47,
+      "duration": 5.97
+    },
+    {
+      "text": "place and the most familiar example of",
+      "start": 375.24,
+      "duration": 6.99
+    },
+    {
+      "text": "commitment schemes are hashes with a",
+      "start": 379.44,
+      "duration": 6.62
+    },
+    {
+      "text": "random string added because there's a",
+      "start": 382.23,
+      "duration": 6.57
+    },
+    {
+      "text": "difference from just hashes to",
+      "start": 386.06,
+      "duration": 5.11
+    },
+    {
+      "text": "commitments if you commit to the same",
+      "start": 388.8,
+      "duration": 5.04
+    },
+    {
+      "text": "message twice normally you don't want to",
+      "start": 391.17,
+      "duration": 4.17
+    },
+    {
+      "text": "reveal that you committed to the same",
+      "start": 393.84,
+      "duration": 4.09
+    },
+    {
+      "text": "message twice so that's why you add",
+      "start": 395.34,
+      "duration": 6.84
+    },
+    {
+      "text": "randomness and it's not just the message",
+      "start": 397.93,
+      "duration": 4.25
+    },
+    {
+      "text": "yep",
+      "start": 402.33,
+      "duration": 3.04
+    },
+    {
+      "text": "so that commitment schemes are like",
+      "start": 403.6,
+      "duration": 5.069
+    },
+    {
+      "text": "cornerstones of crypto but I suppose",
+      "start": 405.37,
+      "duration": 6.299
+    },
+    {
+      "text": "like 99% of the audience already heard",
+      "start": 408.669,
+      "duration": 6.59
+    },
+    {
+      "text": "about them so let's move forward to",
+      "start": 411.669,
+      "duration": 8.451
+    },
+    {
+      "text": "where Linda on max okay lindell's",
+      "start": 415.259,
+      "duration": 8.101
+    },
+    {
+      "text": "this is like our Bible if you are into",
+      "start": 420.12,
+      "duration": 8.44
+    },
+    {
+      "text": "crypto then most likely you already are",
+      "start": 423.36,
+      "duration": 9.399
+    },
+    {
+      "text": "familiar with this book by you telling",
+      "start": 428.56,
+      "duration": 7.68
+    },
+    {
+      "text": "that and Yonatan cuts okay so what is an",
+      "start": 432.759,
+      "duration": 8.641
+    },
+    {
+      "text": "H Mac an h-back provides basically data",
+      "start": 436.24,
+      "duration": 8.609
+    },
+    {
+      "text": "integrity on messages so if you know",
+      "start": 441.4,
+      "duration": 5.43
+    },
+    {
+      "text": "what is a digital signature you can",
+      "start": 444.849,
+      "duration": 5.401
+    },
+    {
+      "text": "think of an H Mac as the symmetric key",
+      "start": 446.83,
+      "duration": 7.11
+    },
+    {
+      "text": "counterpart of digital signatures so one",
+      "start": 450.25,
+      "duration": 8.58
+    },
+    {
+      "text": "can produce with the K key an H Mac on a",
+      "start": 453.94,
+      "duration": 8.159
+    },
+    {
+      "text": "message and then later this so-called",
+      "start": 458.83,
+      "duration": 6.36
+    },
+    {
+      "text": "learn Mac stands for message",
+      "start": 462.099,
+      "duration": 5.521
+    },
+    {
+      "text": "authentication code this tag can be",
+      "start": 465.19,
+      "duration": 4.979
+    },
+    {
+      "text": "verified with the very same so note that",
+      "start": 467.62,
+      "duration": 5.28
+    },
+    {
+      "text": "for issuing this Mac and verifying the",
+      "start": 470.169,
+      "duration": 8.671
+    },
+    {
+      "text": "magazine he needs to be taken so this is",
+      "start": 472.9,
+      "duration": 7.71
+    },
+    {
+      "text": "like a symmetric key counterpart of",
+      "start": 478.84,
+      "duration": 3.93
+    },
+    {
+      "text": "digital signature so this doesn't not",
+      "start": 480.61,
+      "duration": 4.92
+    },
+    {
+      "text": "provide public verifiability but still",
+      "start": 482.77,
+      "duration": 6.36
+    },
+    {
+      "text": "it ensures that the message sent along",
+      "start": 485.53,
+      "duration": 5.94
+    },
+    {
+      "text": "with the Mac ensures that the message",
+      "start": 489.13,
+      "duration": 7.069
+    },
+    {
+      "text": "was not modified on the on the wire",
+      "start": 491.47,
+      "duration": 10.68
+    },
+    {
+      "text": "right and H Mac is like I think one of",
+      "start": 496.199,
+      "duration": 7.391
+    },
+    {
+      "text": "the most important and famous",
+      "start": 502.15,
+      "duration": 3.06
+    },
+    {
+      "text": "instantiation of Mac's",
+      "start": 503.59,
+      "duration": 4.77
+    },
+    {
+      "text": "but in the wabi-sabi we rely on a",
+      "start": 505.21,
+      "duration": 7.829
+    },
+    {
+      "text": "different Mac right anything I should",
+      "start": 508.36,
+      "duration": 7.64
+    },
+    {
+      "text": "add two Macs",
+      "start": 513.039,
+      "duration": 2.961
+    },
+    {
+      "text": "so if there's nothing I should add to",
+      "start": 521.229,
+      "duration": 6.581
+    },
+    {
+      "text": "max then maybe we can move forward to",
+      "start": 525.05,
+      "duration": 9.78
+    },
+    {
+      "text": "the signal paper so but what did you say",
+      "start": 527.81,
+      "duration": 11.719
+    },
+    {
+      "text": "just just a question Mac is the",
+      "start": 534.83,
+      "duration": 10.23
+    },
+    {
+      "text": "symmetric part of what was that yeah",
+      "start": 539.529,
+      "duration": 8.921
+    },
+    {
+      "text": "okay so like just think of like this",
+      "start": 545.06,
+      "duration": 5.31
+    },
+    {
+      "text": "would be if this would be a digital",
+      "start": 548.45,
+      "duration": 4.77
+    },
+    {
+      "text": "signature scheme then here okay you have",
+      "start": 550.37,
+      "duration": 4.74
+    },
+    {
+      "text": "a general key generation algorithm you",
+      "start": 553.22,
+      "duration": 3.96
+    },
+    {
+      "text": "generate the public key secret key and",
+      "start": 555.11,
+      "duration": 4.71
+    },
+    {
+      "text": "then for example here instead of a Mac",
+      "start": 557.18,
+      "duration": 5.94
+    },
+    {
+      "text": "you would have a sign algorithm which",
+      "start": 559.82,
+      "duration": 6.45
+    },
+    {
+      "text": "and which usually takes this the secret",
+      "start": 563.12,
+      "duration": 7.11
+    },
+    {
+      "text": "key as an argument and then it produces",
+      "start": 566.27,
+      "duration": 6.569
+    },
+    {
+      "text": "similarly not a tag but we call it a",
+      "start": 570.23,
+      "duration": 5.76
+    },
+    {
+      "text": "signature and then later the",
+      "start": 572.839,
+      "duration": 5.19
+    },
+    {
+      "text": "verification algorithm in case of our",
+      "start": 575.99,
+      "duration": 5.039
+    },
+    {
+      "text": "digital signature scheme takes as input",
+      "start": 578.029,
+      "duration": 6.241
+    },
+    {
+      "text": "as the public key of the issuer of the",
+      "start": 581.029,
+      "duration": 8.161
+    },
+    {
+      "text": "signature so there's an asymmetry so in",
+      "start": 584.27,
+      "duration": 8.04
+    },
+    {
+      "text": "a digital signature only does a secret",
+      "start": 589.19,
+      "duration": 4.74
+    },
+    {
+      "text": "key holder can produce digital",
+      "start": 592.31,
+      "duration": 6.51
+    },
+    {
+      "text": "signatures but the public can verify the",
+      "start": 593.93,
+      "duration": 7.08
+    },
+    {
+      "text": "validity of the digital signature given",
+      "start": 598.82,
+      "duration": 5.1
+    },
+    {
+      "text": "the message and the signature and here",
+      "start": 601.01,
+      "duration": 5.91
+    },
+    {
+      "text": "only those people can verify the",
+      "start": 603.92,
+      "duration": 6.69
+    },
+    {
+      "text": "validity of the Mac who has access this",
+      "start": 606.92,
+      "duration": 8.03
+    },
+    {
+      "text": "risky so this is kinda this is a",
+      "start": 610.61,
+      "duration": 7.53
+    },
+    {
+      "text": "relaxation of a digital signature or",
+      "start": 614.95,
+      "duration": 6.52
+    },
+    {
+      "text": "yeah so this does not provide public",
+      "start": 618.14,
+      "duration": 7.35
+    },
+    {
+      "text": "liability and each Mac is the most",
+      "start": 621.47,
+      "duration": 10.29
+    },
+    {
+      "text": "popular Mac yeah but in wabi-sabi we we",
+      "start": 625.49,
+      "duration": 9.089
+    },
+    {
+      "text": "will use and apply an SPO called",
+      "start": 631.76,
+      "duration": 7.35
+    },
+    {
+      "text": "algebraic Mac and this was I think the",
+      "start": 634.579,
+      "duration": 7.741
+    },
+    {
+      "text": "most important observation what you've",
+      "start": 639.11,
+      "duration": 6.06
+    },
+    {
+      "text": "all made that we don't need don't really",
+      "start": 642.32,
+      "duration": 5.43
+    },
+    {
+      "text": "need blind signatures or digital",
+      "start": 645.17,
+      "duration": 6.45
+    },
+    {
+      "text": "signatures at all because in a mixing if",
+      "start": 647.75,
+      "duration": 4.71
+    },
+    {
+      "text": "you apply",
+      "start": 651.62,
+      "duration": 3.3
+    },
+    {
+      "text": "coordinator then you don't really care",
+      "start": 652.46,
+      "duration": 6.45
+    },
+    {
+      "text": "about public verifiability because only",
+      "start": 654.92,
+      "duration": 6.51
+    },
+    {
+      "text": "the coordinator should be able to verify",
+      "start": 658.91,
+      "duration": 8.57
+    },
+    {
+      "text": "these credentials yeah so this makes",
+      "start": 661.43,
+      "duration": 9.69
+    },
+    {
+      "text": "this was the most important observation",
+      "start": 667.48,
+      "duration": 7.84
+    },
+    {
+      "text": "I think so far that we don't need this",
+      "start": 671.12,
+      "duration": 7.74
+    },
+    {
+      "text": "asymmetry the coordinator issues",
+      "start": 675.32,
+      "duration": 5.31
+    },
+    {
+      "text": "credentials and then only the",
+      "start": 678.86,
+      "duration": 5.01
+    },
+    {
+      "text": "coordinator needs to verify it in output",
+      "start": 680.63,
+      "duration": 5.7
+    },
+    {
+      "text": "registration but now I'm I'm getting to",
+      "start": 683.87,
+      "duration": 7.98
+    },
+    {
+      "text": "forward it is do I didn't realize that",
+      "start": 686.33,
+      "duration": 11.13
+    },
+    {
+      "text": "but then I ignored the literature on max",
+      "start": 691.85,
+      "duration": 9.09
+    },
+    {
+      "text": "for this because I thought it was mostly",
+      "start": 697.46,
+      "duration": 6.39
+    },
+    {
+      "text": "relying on bilinear groups so it's Jonas",
+      "start": 700.94,
+      "duration": 5.55
+    },
+    {
+      "text": "Nick again for like the third time we",
+      "start": 703.85,
+      "duration": 7.89
+    },
+    {
+      "text": "have to thank him for reminding me to to",
+      "start": 706.49,
+      "duration": 8.16
+    },
+    {
+      "text": "work correcting my misunderstanding and",
+      "start": 711.74,
+      "duration": 5.13
+    },
+    {
+      "text": "reminding me that I should take a closer",
+      "start": 714.65,
+      "duration": 4.92
+    },
+    {
+      "text": "look at that can I ask another thing",
+      "start": 716.87,
+      "duration": 6.3
+    },
+    {
+      "text": "that if the Cayenne does not need to",
+      "start": 719.57,
+      "duration": 9.54
+    },
+    {
+      "text": "verify then I mean in in show me and",
+      "start": 723.17,
+      "duration": 7.89
+    },
+    {
+      "text": "Cohen join at least the client needs to",
+      "start": 729.11,
+      "duration": 5.76
+    },
+    {
+      "text": "verify that the signature is correct but",
+      "start": 731.06,
+      "duration": 10.23
+    },
+    {
+      "text": "what the was the thing here also here do",
+      "start": 734.87,
+      "duration": 8.82
+    },
+    {
+      "text": "it later I think it's it's part of the",
+      "start": 741.29,
+      "duration": 5.36
+    },
+    {
+      "text": "that's addressed as part of the protocol",
+      "start": 743.69,
+      "duration": 5.22
+    },
+    {
+      "text": "but I think we should save that detail",
+      "start": 746.65,
+      "duration": 4.78
+    },
+    {
+      "text": "for after we we go over the definitions",
+      "start": 748.91,
+      "duration": 4.71
+    },
+    {
+      "text": "that we're gonna use because we need",
+      "start": 751.43,
+      "duration": 4.77
+    },
+    {
+      "text": "those definitions too but the short",
+      "start": 753.62,
+      "duration": 4.98
+    },
+    {
+      "text": "answer that still in this case the",
+      "start": 756.2,
+      "duration": 5.19
+    },
+    {
+      "text": "coordinator can convince the client that",
+      "start": 758.6,
+      "duration": 6.12
+    },
+    {
+      "text": "it gave out a correct Mac or on the",
+      "start": 761.39,
+      "duration": 5.45
+    },
+    {
+      "text": "message so this is that's the answer",
+      "start": 764.72,
+      "duration": 4.68
+    },
+    {
+      "text": "thank you and not only that that all the",
+      "start": 766.84,
+      "duration": 5.8
+    },
+    {
+      "text": "users have a mark issued by the same key",
+      "start": 769.4,
+      "duration": 7.67
+    },
+    {
+      "text": "so the coordinator cannot produce",
+      "start": 772.64,
+      "duration": 9.81
+    },
+    {
+      "text": "different like tags for sorry that's an",
+      "start": 777.07,
+      "duration": 7.99
+    },
+    {
+      "text": "overuse overloading of terminology so",
+      "start": 782.45,
+      "duration": 2.89
+    },
+    {
+      "text": "that",
+      "start": 785.06,
+      "duration": 2.95
+    },
+    {
+      "text": "the coordinator cannot use a different",
+      "start": 785.34,
+      "duration": 5.43
+    },
+    {
+      "text": "key for each user in order to do naanum",
+      "start": 788.01,
+      "duration": 7.14
+    },
+    {
+      "text": "eyes them later it has to to prove that",
+      "start": 790.77,
+      "duration": 7.62
+    },
+    {
+      "text": "it's making use of the same announced",
+      "start": 795.15,
+      "duration": 7.86
+    },
+    {
+      "text": "key so right anyway thank you the only",
+      "start": 798.39,
+      "duration": 7.17
+    },
+    {
+      "text": "thing you forgot to say is to spoiler I",
+      "start": 803.01,
+      "duration": 7.44
+    },
+    {
+      "text": "laughed but that's fine okay so let's",
+      "start": 805.56,
+      "duration": 9.0
+    },
+    {
+      "text": "move to the signal paper right or do we",
+      "start": 810.45,
+      "duration": 9.18
+    },
+    {
+      "text": "want to maybe cover not this Sigma Nu",
+      "start": 814.56,
+      "duration": 7.95
+    },
+    {
+      "text": "which one should I shall we think I",
+      "start": 819.63,
+      "duration": 4.35
+    },
+    {
+      "text": "think first we should go through the",
+      "start": 822.51,
+      "duration": 4.74
+    },
+    {
+      "text": "preliminaries of the Sigma paper and",
+      "start": 823.98,
+      "duration": 6.66
+    },
+    {
+      "text": "then if people want to go over zero",
+      "start": 827.25,
+      "duration": 4.98
+    },
+    {
+      "text": "knowledge proof sand the notation then",
+      "start": 830.64,
+      "duration": 4.11
+    },
+    {
+      "text": "the first two pages of damn birds",
+      "start": 832.23,
+      "duration": 5.13
+    },
+    {
+      "text": "introduction to Sigma protocols yeah",
+      "start": 834.75,
+      "duration": 4.94
+    },
+    {
+      "text": "it's a really nice example so we can",
+      "start": 837.36,
+      "duration": 4.38
+    },
+    {
+      "text": "depending on how it was we can either",
+      "start": 839.69,
+      "duration": 5.65
+    },
+    {
+      "text": "skip that or or not yeah anyway if you",
+      "start": 841.74,
+      "duration": 5.76
+    },
+    {
+      "text": "are dear viewer if you're new to this",
+      "start": 845.34,
+      "duration": 5.99
+    },
+    {
+      "text": "space and like these two introductory",
+      "start": 847.5,
+      "duration": 7.32
+    },
+    {
+      "text": "texts are your best friends",
+      "start": 851.33,
+      "duration": 5.8
+    },
+    {
+      "text": "so Sigma protocols and commitment",
+      "start": 854.82,
+      "duration": 4.38
+    },
+    {
+      "text": "schemes and zero knowledge protocols but",
+      "start": 857.13,
+      "duration": 6.38
+    },
+    {
+      "text": "going back to the signal paper so here",
+      "start": 859.2,
+      "duration": 9.66
+    },
+    {
+      "text": "pick six I think yeah okay this is not",
+      "start": 863.51,
+      "duration": 9.85
+    },
+    {
+      "text": "that important I suppose yeah let's go",
+      "start": 868.86,
+      "duration": 6.27
+    },
+    {
+      "text": "over because there were some confusions",
+      "start": 873.36,
+      "duration": 3.75
+    },
+    {
+      "text": "about like some of the feedback that we",
+      "start": 875.13,
+      "duration": 3.96
+    },
+    {
+      "text": "got so we might as well define this",
+      "start": 877.11,
+      "duration": 4.53
+    },
+    {
+      "text": "terminology because we use it later it",
+      "start": 879.09,
+      "duration": 5.52
+    },
+    {
+      "text": "should be its base okay so we are",
+      "start": 881.64,
+      "duration": 6.45
+    },
+    {
+      "text": "working on a finite cyclic group you can",
+      "start": 884.61,
+      "duration": 7.02
+    },
+    {
+      "text": "think of your favorite elliptic curve so",
+      "start": 888.09,
+      "duration": 6.66
+    },
+    {
+      "text": "this J denotes the point the set of the",
+      "start": 891.63,
+      "duration": 5.61
+    },
+    {
+      "text": "points of this elliptic curve usually in",
+      "start": 894.75,
+      "duration": 6.18
+    },
+    {
+      "text": "crypto we use the prime order prime",
+      "start": 897.24,
+      "duration": 8.31
+    },
+    {
+      "text": "order elliptic groups yeah and and we",
+      "start": 900.93,
+      "duration": 7.25
+    },
+    {
+      "text": "have this additional three",
+      "start": 905.55,
+      "duration": 5.48
+    },
+    {
+      "text": "functionalities which allow us to map",
+      "start": 908.18,
+      "duration": 5.65
+    },
+    {
+      "text": "arbitrary this means arbitrary bit",
+      "start": 911.03,
+      "duration": 5.77
+    },
+    {
+      "text": "strings to to group elements so we",
+      "start": 913.83,
+      "duration": 4.509
+    },
+    {
+      "text": "should just",
+      "start": 916.8,
+      "duration": 3.699
+    },
+    {
+      "text": "have this as a given that such functions",
+      "start": 918.339,
+      "duration": 6.72
+    },
+    {
+      "text": "exists and then similarly we can map we",
+      "start": 920.499,
+      "duration": 8.041
+    },
+    {
+      "text": "don't need those yeah okay so should I",
+      "start": 925.059,
+      "duration": 7.77
+    },
+    {
+      "text": "just keep it yeah I think so okay so we",
+      "start": 928.54,
+      "duration": 7.44
+    },
+    {
+      "text": "have this and then I think this is the",
+      "start": 932.829,
+      "duration": 4.86
+    },
+    {
+      "text": "important stuff",
+      "start": 935.98,
+      "duration": 8.07
+    },
+    {
+      "text": "so now let's introduce what is amor more",
+      "start": 937.689,
+      "duration": 10.14
+    },
+    {
+      "text": "precisely what is the algebraic back so",
+      "start": 944.05,
+      "duration": 7.05
+    },
+    {
+      "text": "again we have this beloved elliptic",
+      "start": 947.829,
+      "duration": 7.141
+    },
+    {
+      "text": "curve group and then we have a key",
+      "start": 951.1,
+      "duration": 6.299
+    },
+    {
+      "text": "generation algorithm which outputs two",
+      "start": 954.97,
+      "duration": 6.869
+    },
+    {
+      "text": "scalars in the ins EQ so do the",
+      "start": 957.399,
+      "duration": 7.8
+    },
+    {
+      "text": "coordinators private key consists of two",
+      "start": 961.839,
+      "duration": 8.341
+    },
+    {
+      "text": "elements from zq x0 and x1 then the",
+      "start": 965.199,
+      "duration": 9.12
+    },
+    {
+      "text": "coordinator the can generate max on a",
+      "start": 970.18,
+      "duration": 7.199
+    },
+    {
+      "text": "message m with the secret key by",
+      "start": 974.319,
+      "duration": 5.401
+    },
+    {
+      "text": "choosing a random point on the curve and",
+      "start": 977.379,
+      "duration": 6.091
+    },
+    {
+      "text": "then outputting well here they denote it",
+      "start": 979.72,
+      "duration": 7.08
+    },
+    {
+      "text": "as Sigma so it's like already you can",
+      "start": 983.47,
+      "duration": 6.45
+    },
+    {
+      "text": "think of it as some kind of signature so",
+      "start": 986.8,
+      "duration": 6.779
+    },
+    {
+      "text": "this Mac this algebraic Mac consists of",
+      "start": 989.92,
+      "duration": 9.509
+    },
+    {
+      "text": "two points you and due to the x0 plus x1",
+      "start": 993.579,
+      "duration": 9.93
+    },
+    {
+      "text": "times M so the authors of this signal",
+      "start": 999.429,
+      "duration": 7.53
+    },
+    {
+      "text": "paper used multiplicative notations and",
+      "start": 1003.509,
+      "duration": 8.041
+    },
+    {
+      "text": "then again the coordinator can verify",
+      "start": 1006.959,
+      "duration": 10.44
+    },
+    {
+      "text": "the validity of of a Mac given the",
+      "start": 1011.55,
+      "duration": 7.74
+    },
+    {
+      "text": "coordinator secret key and the message",
+      "start": 1017.399,
+      "duration": 5.28
+    },
+    {
+      "text": "by just basically recomputing it so how",
+      "start": 1019.29,
+      "duration": 6.269
+    },
+    {
+      "text": "can he recompute the mac so again just",
+      "start": 1022.679,
+      "duration": 7.561
+    },
+    {
+      "text": "applying the same formula he will get u",
+      "start": 1025.559,
+      "duration": 7.47
+    },
+    {
+      "text": "double prime and then he just needs to",
+      "start": 1030.24,
+      "duration": 5.61
+    },
+    {
+      "text": "check with the u double prime equals new",
+      "start": 1033.029,
+      "duration": 6.3
+    },
+    {
+      "text": "to the x0 plus x1 times m if this",
+      "start": 1035.85,
+      "duration": 6.66
+    },
+    {
+      "text": "equality holds then the mac is correct",
+      "start": 1039.329,
+      "duration": 4.941
+    },
+    {
+      "text": "and the message was not modified",
+      "start": 1042.51,
+      "duration": 3.689
+    },
+    {
+      "text": "otherwise outputs",
+      "start": 1044.27,
+      "duration": 6.83
+    },
+    {
+      "text": "well invalid so and then we have",
+      "start": 1046.199,
+      "duration": 10.171
+    },
+    {
+      "text": "desirable desirable security properties",
+      "start": 1051.1,
+      "duration": 10.89
+    },
+    {
+      "text": "right so but I think those yeah let's do",
+      "start": 1056.37,
+      "duration": 9.37
+    },
+    {
+      "text": "the minor note on the notation so here",
+      "start": 1061.99,
+      "duration": 7.86
+    },
+    {
+      "text": "they write U and u prime but later in",
+      "start": 1065.74,
+      "duration": 6.81
+    },
+    {
+      "text": "the paper they call it U and V so",
+      "start": 1069.85,
+      "duration": 7.35
+    },
+    {
+      "text": "uppercase u and uppercase v are this",
+      "start": 1072.55,
+      "duration": 7.41
+    },
+    {
+      "text": "paper owners is a little bit math so we",
+      "start": 1077.2,
+      "duration": 5.55
+    },
+    {
+      "text": "will we need to write a long-long errata",
+      "start": 1079.96,
+      "duration": 8.73
+    },
+    {
+      "text": "letter them so we will do don't worry ok",
+      "start": 1082.75,
+      "duration": 7.5
+    },
+    {
+      "text": "so now we know what is the commitment",
+      "start": 1088.69,
+      "duration": 5.94
+    },
+    {
+      "text": "scheme what are max algebraic max what",
+      "start": 1090.25,
+      "duration": 8.31
+    },
+    {
+      "text": "we need to know maybe we're here just",
+      "start": 1094.63,
+      "duration": 6.6
+    },
+    {
+      "text": "few words about ZK or or shall we",
+      "start": 1098.56,
+      "duration": 6.6
+    },
+    {
+      "text": "explain ZK here Sigma I think the",
+      "start": 1101.23,
+      "duration": 7.77
+    },
+    {
+      "text": "definition that section 2.4 I think is",
+      "start": 1105.16,
+      "duration": 7.62
+    },
+    {
+      "text": "is it's it's the same notation that we",
+      "start": 1109.0,
+      "duration": 6.3
+    },
+    {
+      "text": "use and it's pretty concise for yeah",
+      "start": 1112.78,
+      "duration": 5.4
+    },
+    {
+      "text": "right thread and this is um do you want",
+      "start": 1115.3,
+      "duration": 7.23
+    },
+    {
+      "text": "to explain it to you well I don't know",
+      "start": 1118.18,
+      "duration": 7.11
+    },
+    {
+      "text": "you're doing a good job where do you",
+      "start": 1122.53,
+      "duration": 7.44
+    },
+    {
+      "text": "wanna are you tired already so 0",
+      "start": 1125.29,
+      "duration": 6.75
+    },
+    {
+      "text": "approves these are magical create",
+      "start": 1129.97,
+      "duration": 5.24
+    },
+    {
+      "text": "creatures animals but they are not that",
+      "start": 1132.04,
+      "duration": 8.58
+    },
+    {
+      "text": "not that worrisome so but it doesn't say",
+      "start": 1135.21,
+      "duration": 10.69
+    },
+    {
+      "text": "the algorithms it has anyway yeah but",
+      "start": 1140.62,
+      "duration": 6.99
+    },
+    {
+      "text": "what do you mean the algorithms like",
+      "start": 1145.9,
+      "duration": 5.63
+    },
+    {
+      "text": "prove verify pigeon I was expecting",
+      "start": 1147.61,
+      "duration": 6.51
+    },
+    {
+      "text": "something different something similar",
+      "start": 1151.53,
+      "duration": 8.59
+    },
+    {
+      "text": "whatever I think maybe the original CMZ",
+      "start": 1154.12,
+      "duration": 10.74
+    },
+    {
+      "text": "13 paper has such definitions but sorry",
+      "start": 1160.12,
+      "duration": 8.97
+    },
+    {
+      "text": "I didn't I didn't prepare that we have",
+      "start": 1164.86,
+      "duration": 9.39
+    },
+    {
+      "text": "something here so okay let's stick to do",
+      "start": 1169.09,
+      "duration": 7.44
+    },
+    {
+      "text": "anyway so knowledge proof system has",
+      "start": 1174.25,
+      "duration": 5.1
+    },
+    {
+      "text": "basically many algorithms but let's",
+      "start": 1176.53,
+      "duration": 5.58
+    },
+    {
+      "text": "simplify it has two algorithms of proof",
+      "start": 1179.35,
+      "duration": 4.49
+    },
+    {
+      "text": "and the verify",
+      "start": 1182.11,
+      "duration": 4.72
+    },
+    {
+      "text": "so approver wants to prove that a",
+      "start": 1183.84,
+      "duration": 8.4
+    },
+    {
+      "text": "relation holds for X and W so W is",
+      "start": 1186.83,
+      "duration": 9.43
+    },
+    {
+      "text": "called the witness and it's in it the",
+      "start": 1192.24,
+      "duration": 6.93
+    },
+    {
+      "text": "prover wants to keep secret and witness",
+      "start": 1196.26,
+      "duration": 5.61
+    },
+    {
+      "text": "so it doesn't want to publish publicize",
+      "start": 1199.17,
+      "duration": 5.52
+    },
+    {
+      "text": "the witness otherwise it will be trivial",
+      "start": 1201.87,
+      "duration": 5.73
+    },
+    {
+      "text": "to prove this relation so how can we",
+      "start": 1204.69,
+      "duration": 6.69
+    },
+    {
+      "text": "circumvent this issue so the prover",
+      "start": 1207.6,
+      "duration": 7.14
+    },
+    {
+      "text": "generates a small proof by and then the",
+      "start": 1211.38,
+      "duration": 6.27
+    },
+    {
+      "text": "verifier can give an axe and PI but not",
+      "start": 1214.74,
+      "duration": 6.0
+    },
+    {
+      "text": "given that the witness can verify that",
+      "start": 1217.65,
+      "duration": 6.9
+    },
+    {
+      "text": "this relation holds so this is basically",
+      "start": 1220.74,
+      "duration": 9.65
+    },
+    {
+      "text": "the footprint of a 0h2 system and here's",
+      "start": 1224.55,
+      "duration": 9.23
+    },
+    {
+      "text": "define relation maybe because that's",
+      "start": 1230.39,
+      "duration": 8.95
+    },
+    {
+      "text": "yeah unintuitive yeah duh like in the",
+      "start": 1233.78,
+      "duration": 8.2
+    },
+    {
+      "text": "first higher level you can think of any",
+      "start": 1239.34,
+      "duration": 6.45
+    },
+    {
+      "text": "relation just involving a predicate",
+      "start": 1241.98,
+      "duration": 5.91
+    },
+    {
+      "text": "which used is x and y and some public",
+      "start": 1245.79,
+      "duration": 4.77
+    },
+    {
+      "text": "values but for example the most simple",
+      "start": 1247.89,
+      "duration": 5.64
+    },
+    {
+      "text": "and like the grandfather of all zero",
+      "start": 1250.56,
+      "duration": 5.18
+    },
+    {
+      "text": "knowledge proof systems is the Schnoor",
+      "start": 1253.53,
+      "duration": 5.52
+    },
+    {
+      "text": "identification protocol which allows to",
+      "start": 1255.74,
+      "duration": 10.87
+    },
+    {
+      "text": "prove approver that given Y and the G it",
+      "start": 1259.05,
+      "duration": 11.28
+    },
+    {
+      "text": "knows such acts that G to the x equals y",
+      "start": 1266.61,
+      "duration": 6.6
+    },
+    {
+      "text": "so this is called knowledge of discrete",
+      "start": 1270.33,
+      "duration": 7.35
+    },
+    {
+      "text": "log protocol and or we can have another",
+      "start": 1273.21,
+      "duration": 8.04
+    },
+    {
+      "text": "type of neurological system which is",
+      "start": 1277.68,
+      "duration": 6.03
+    },
+    {
+      "text": "called the oak the knowledge of opening",
+      "start": 1281.25,
+      "duration": 4.95
+    },
+    {
+      "text": "of the Patterson commitment so here we",
+      "start": 1283.71,
+      "duration": 5.45
+    },
+    {
+      "text": "prove that without releasing without",
+      "start": 1286.2,
+      "duration": 5.49
+    },
+    {
+      "text": "making any information whatsoever about",
+      "start": 1289.16,
+      "duration": 5.83
+    },
+    {
+      "text": "the exponents that we know x and y is",
+      "start": 1291.69,
+      "duration": 6.51
+    },
+    {
+      "text": "such that Z equals e to the X multiplied",
+      "start": 1294.99,
+      "duration": 5.3
+    },
+    {
+      "text": "by H dy",
+      "start": 1298.2,
+      "duration": 5.49
+    },
+    {
+      "text": "right and then we can combine such",
+      "start": 1300.29,
+      "duration": 9.13
+    },
+    {
+      "text": "proofs with logical and logical or write",
+      "start": 1303.69,
+      "duration": 8.61
+    },
+    {
+      "text": "and but in our case the most important",
+      "start": 1309.42,
+      "duration": 5.79
+    },
+    {
+      "text": "is that approver can prove that they",
+      "start": 1312.3,
+      "duration": 5.1
+    },
+    {
+      "text": "know an opening of a commitment",
+      "start": 1315.21,
+      "duration": 5.25
+    },
+    {
+      "text": "or in our generalized commitment so if",
+      "start": 1317.4,
+      "duration": 7.67
+    },
+    {
+      "text": "we have not just J and H as generators",
+      "start": 1320.46,
+      "duration": 8.76
+    },
+    {
+      "text": "comprising this element Z but we have",
+      "start": 1325.07,
+      "duration": 6.88
+    },
+    {
+      "text": "multiple generators then approver can",
+      "start": 1329.22,
+      "duration": 5.04
+    },
+    {
+      "text": "prove the knowledge of all these",
+      "start": 1331.95,
+      "duration": 5.22
+    },
+    {
+      "text": "exponents up here without releasing any",
+      "start": 1334.26,
+      "duration": 7.08
+    },
+    {
+      "text": "information about them right so this is",
+      "start": 1337.17,
+      "duration": 8.45
+    },
+    {
+      "text": "kind of a very crude very initial",
+      "start": 1341.34,
+      "duration": 6.0
+    },
+    {
+      "text": "introduction to the knowledge process",
+      "start": 1345.62,
+      "duration": 5.17
+    },
+    {
+      "text": "now maybe we can go to lobby lobby if",
+      "start": 1347.34,
+      "duration": 7.89
+    },
+    {
+      "text": "there is no any comment and if if this",
+      "start": 1350.79,
+      "duration": 7.29
+    },
+    {
+      "text": "is unclear we can consider doing like",
+      "start": 1355.23,
+      "duration": 7.4
+    },
+    {
+      "text": "the first page or first two pages of",
+      "start": 1358.08,
+      "duration": 9.66
+    },
+    {
+      "text": "Sigma I guess it's up to you guys to",
+      "start": 1362.63,
+      "duration": 22.3
+    },
+    {
+      "text": "decide no it's a it's a document for for",
+      "start": 1367.74,
+      "duration": 21.36
+    },
+    {
+      "text": "cryptography probably for implementing",
+      "start": 1384.93,
+      "duration": 8.58
+    },
+    {
+      "text": "this we need something different because",
+      "start": 1389.1,
+      "duration": 8.31
+    },
+    {
+      "text": "I think the document is okay s as it is",
+      "start": 1393.51,
+      "duration": 6.39
+    },
+    {
+      "text": "if I keep the refer can understand it",
+      "start": 1397.41,
+      "duration": 5.49
+    },
+    {
+      "text": "yeah I think from an implementation no",
+      "start": 1399.9,
+      "duration": 6.03
+    },
+    {
+      "text": "point of view it's really enough if you",
+      "start": 1402.9,
+      "duration": 5.88
+    },
+    {
+      "text": "just think of these like it just gives",
+      "start": 1405.93,
+      "duration": 5.19
+    },
+    {
+      "text": "you two functionalities you can prove",
+      "start": 1408.78,
+      "duration": 5.19
+    },
+    {
+      "text": "something and then you can verify some",
+      "start": 1411.12,
+      "duration": 5.61
+    },
+    {
+      "text": "this the validity of this proofs",
+      "start": 1413.97,
+      "duration": 6.09
+    },
+    {
+      "text": "so I think maybe this is this this might",
+      "start": 1416.73,
+      "duration": 6.45
+    },
+    {
+      "text": "be the closest and the most helpful",
+      "start": 1420.06,
+      "duration": 6.18
+    },
+    {
+      "text": "thing we can offer I don't know if it",
+      "start": 1423.18,
+      "duration": 5.58
+    },
+    {
+      "text": "helps I think yes actually I disagree",
+      "start": 1426.24,
+      "duration": 6.2
+    },
+    {
+      "text": "here I think if we do go through so like",
+      "start": 1428.76,
+      "duration": 6.3
+    },
+    {
+      "text": "let's let's quickly go through this noir",
+      "start": 1432.44,
+      "duration": 4.27
+    },
+    {
+      "text": "identification protocol as an",
+      "start": 1435.06,
+      "duration": 5.79
+    },
+    {
+      "text": "interactive protocol and then I think",
+      "start": 1436.71,
+      "duration": 7.77
+    },
+    {
+      "text": "everybody will recognize like Schnoor",
+      "start": 1440.85,
+      "duration": 6.81
+    },
+    {
+      "text": "signatures because this is how these",
+      "start": 1444.48,
+      "duration": 5.65
+    },
+    {
+      "text": "things are made concrete and I think",
+      "start": 1447.66,
+      "duration": 5.04
+    },
+    {
+      "text": "important thing is just to remember that",
+      "start": 1450.13,
+      "duration": 7.05
+    },
+    {
+      "text": "none of the proofs that we require need",
+      "start": 1452.7,
+      "duration": 6.7
+    },
+    {
+      "text": "anything more than Sigma protocols it's",
+      "start": 1457.18,
+      "duration": 7.77
+    },
+    {
+      "text": "just that it could be more efficient and",
+      "start": 1459.4,
+      "duration": 8.61
+    },
+    {
+      "text": "we also want to use the feature myristic",
+      "start": 1464.95,
+      "duration": 9.96
+    },
+    {
+      "text": "to make this non interactive are you or",
+      "start": 1468.01,
+      "duration": 10.14
+    },
+    {
+      "text": "you in favor yeah I mean if there's need",
+      "start": 1474.91,
+      "duration": 5.37
+    },
+    {
+      "text": "we can go over to start identification",
+      "start": 1478.15,
+      "duration": 6.81
+    },
+    {
+      "text": "typically okay so here just one minor",
+      "start": 1480.28,
+      "duration": 7.86
+    },
+    {
+      "text": "note is in his example he discusses this",
+      "start": 1484.96,
+      "duration": 6.48
+    },
+    {
+      "text": "of like just the integers mod piece and",
+      "start": 1488.14,
+      "duration": 6.75
+    },
+    {
+      "text": "large prime yeah but but for our",
+      "start": 1491.44,
+      "duration": 9.35
+    },
+    {
+      "text": "purposes like since the finite field Z",
+      "start": 1494.89,
+      "duration": 10.08
+    },
+    {
+      "text": "sub Q is also happens to be a group",
+      "start": 1500.79,
+      "duration": 7.45
+    },
+    {
+      "text": "because every field is a group we can",
+      "start": 1504.97,
+      "duration": 4.95
+    },
+    {
+      "text": "think of that as the elliptic curve in",
+      "start": 1508.24,
+      "duration": 4.01
+    },
+    {
+      "text": "this case yeah exactly",
+      "start": 1509.92,
+      "duration": 10.44
+    },
+    {
+      "text": "okay so shall we go over then yes please",
+      "start": 1512.25,
+      "duration": 14.32
+    },
+    {
+      "text": "okay so we again we have a verifier has",
+      "start": 1520.36,
+      "duration": 10.29
+    },
+    {
+      "text": "access to P as the characteristic of the",
+      "start": 1526.57,
+      "duration": 6.57
+    },
+    {
+      "text": "group doesn't really matter G and H and",
+      "start": 1530.65,
+      "duration": 4.98
+    },
+    {
+      "text": "the prover wants to convince the",
+      "start": 1533.14,
+      "duration": 6.08
+    },
+    {
+      "text": "verifier that he knows such witness",
+      "start": 1535.63,
+      "duration": 9.42
+    },
+    {
+      "text": "exponent which which is right if we",
+      "start": 1539.22,
+      "duration": 8.11
+    },
+    {
+      "text": "raise it to G then we have we will have",
+      "start": 1545.05,
+      "duration": 5.55
+    },
+    {
+      "text": "H so the statement we want to prove is",
+      "start": 1547.33,
+      "duration": 8.25
+    },
+    {
+      "text": "that G to the W equals H in this group",
+      "start": 1550.6,
+      "duration": 9.54
+    },
+    {
+      "text": "without leaking any information about",
+      "start": 1555.58,
+      "duration": 9.57
+    },
+    {
+      "text": "the weakness okay so so again this is",
+      "start": 1560.14,
+      "duration": 6.78
+    },
+    {
+      "text": "the statement we want to prove and then",
+      "start": 1565.15,
+      "duration": 7.08
+    },
+    {
+      "text": "this is like zero knowledge 101 so if",
+      "start": 1566.92,
+      "duration": 7.92
+    },
+    {
+      "text": "you will ever take another class in zero",
+      "start": 1572.23,
+      "duration": 4.71
+    },
+    {
+      "text": "knowledge proof system then this will be",
+      "start": 1574.84,
+      "duration": 5.55
+    },
+    {
+      "text": "most likely the first or one of the",
+      "start": 1576.94,
+      "duration": 5.91
+    },
+    {
+      "text": "first protocols you will see so it's a",
+      "start": 1580.39,
+      "duration": 3.51
+    },
+    {
+      "text": "three move protocol",
+      "start": 1582.85,
+      "duration": 4.29
+    },
+    {
+      "text": "first the prover chooses a random R in",
+      "start": 1583.9,
+      "duration": 7.56
+    },
+    {
+      "text": "the group and sent a to G to the R to",
+      "start": 1587.14,
+      "duration": 8.19
+    },
+    {
+      "text": "the verifier okay so P is the proverb is",
+      "start": 1591.46,
+      "duration": 7.41
+    },
+    {
+      "text": "the verifier then we and our correction",
+      "start": 1595.33,
+      "duration": 7.65
+    },
+    {
+      "text": "in this case even though the the scalar",
+      "start": 1598.87,
+      "duration": 6.42
+    },
+    {
+      "text": "field and the group are the same thing R",
+      "start": 1602.98,
+      "duration": 4.11
+    },
+    {
+      "text": "is a scalar so in the elliptic curve",
+      "start": 1605.29,
+      "duration": 8.42
+    },
+    {
+      "text": "case P chooses our from the the field of",
+      "start": 1607.09,
+      "duration": 10.61
+    },
+    {
+      "text": "like the the prime the the finite field",
+      "start": 1613.71,
+      "duration": 6.58
+    },
+    {
+      "text": "whose order is the same as the order of",
+      "start": 1617.7,
+      "duration": 7.27
+    },
+    {
+      "text": "the group yeah yes yeah I mean it's",
+      "start": 1620.29,
+      "duration": 6.48
+    },
+    {
+      "text": "really stuff a little bit but okay",
+      "start": 1624.97,
+      "duration": 4.46
+    },
+    {
+      "text": "nicely so we choose is a challenge e",
+      "start": 1626.77,
+      "duration": 6.36
+    },
+    {
+      "text": "from from this isn't really matter this",
+      "start": 1629.43,
+      "duration": 7.54
+    },
+    {
+      "text": "group and sends it to P and then the P",
+      "start": 1633.13,
+      "duration": 8.19
+    },
+    {
+      "text": "the prover sends Z equals air plus e",
+      "start": 1636.97,
+      "duration": 7.8
+    },
+    {
+      "text": "times W so basically the prover masks",
+      "start": 1641.32,
+      "duration": 9.06
+    },
+    {
+      "text": "the witness with this challenge e what Q",
+      "start": 1644.77,
+      "duration": 8.49
+    },
+    {
+      "text": "so basically this is kind of why the",
+      "start": 1650.38,
+      "duration": 5.4
+    },
+    {
+      "text": "verifier will not learn anything about",
+      "start": 1653.26,
+      "duration": 4.98
+    },
+    {
+      "text": "the witness and then the verifier can",
+      "start": 1655.78,
+      "duration": 6.87
+    },
+    {
+      "text": "check this equality here and correctness",
+      "start": 1658.24,
+      "duration": 9.21
+    },
+    {
+      "text": "so from any 0h protocol we require three",
+      "start": 1662.65,
+      "duration": 8.94
+    },
+    {
+      "text": "properties correctness so if the prover",
+      "start": 1667.45,
+      "duration": 6.57
+    },
+    {
+      "text": "knows such a witness which satisfies the",
+      "start": 1671.59,
+      "duration": 3.96
+    },
+    {
+      "text": "relation then the prover should be",
+      "start": 1674.02,
+      "duration": 4.62
+    },
+    {
+      "text": "always and should be always able to",
+      "start": 1675.55,
+      "duration": 5.82
+    },
+    {
+      "text": "convince the verifier so like it's super",
+      "start": 1678.64,
+      "duration": 4.86
+    },
+    {
+      "text": "simple to see that this relation holds",
+      "start": 1681.37,
+      "duration": 6.14
+    },
+    {
+      "text": "if the prover has the correct witness",
+      "start": 1683.5,
+      "duration": 6.96
+    },
+    {
+      "text": "then we also require soundness from a",
+      "start": 1687.51,
+      "duration": 5.59
+    },
+    {
+      "text": "proof system so if the prover doesn't",
+      "start": 1690.46,
+      "duration": 5.87
+    },
+    {
+      "text": "know such a witness namely the proverb",
+      "start": 1693.1,
+      "duration": 6.81
+    },
+    {
+      "text": "wants to lie or tries to lie then the",
+      "start": 1696.33,
+      "duration": 5.92
+    },
+    {
+      "text": "prover should not be able to lie or with",
+      "start": 1699.91,
+      "duration": 4.41
+    },
+    {
+      "text": "some or only with some negligible",
+      "start": 1702.25,
+      "duration": 4.47
+    },
+    {
+      "text": "probability and then we also require",
+      "start": 1704.32,
+      "duration": 4.05
+    },
+    {
+      "text": "zero knowledge which is a little bit",
+      "start": 1706.72,
+      "duration": 6.83
+    },
+    {
+      "text": "more technical to formally define but",
+      "start": 1708.37,
+      "duration": 7.56
+    },
+    {
+      "text": "zero knowledge means that the verifier",
+      "start": 1713.55,
+      "duration": 4.33
+    },
+    {
+      "text": "does not learn anything about",
+      "start": 1715.93,
+      "duration": 5.28
+    },
+    {
+      "text": "the witness which is the information the",
+      "start": 1717.88,
+      "duration": 7.22
+    },
+    {
+      "text": "approver would like to keep secret so",
+      "start": 1721.21,
+      "duration": 8.459
+    },
+    {
+      "text": "yeah this is a three move so called",
+      "start": 1725.1,
+      "duration": 8.59
+    },
+    {
+      "text": "Sigma protocol the way they are the",
+      "start": 1729.669,
+      "duration": 5.581
+    },
+    {
+      "text": "reason why they are called Sigma",
+      "start": 1733.69,
+      "duration": 5.91
+    },
+    {
+      "text": "protocols because maybe is there",
+      "start": 1735.25,
+      "duration": 7.35
+    },
+    {
+      "text": "anything like that no I don't think so",
+      "start": 1739.6,
+      "duration": 6.12
+    },
+    {
+      "text": "no it's a [ __ ] meme it should be",
+      "start": 1742.6,
+      "duration": 6.02
+    },
+    {
+      "text": "called the Z protocol or something it's",
+      "start": 1745.72,
+      "duration": 8.78
+    },
+    {
+      "text": "like three hundreds like if you draw",
+      "start": 1748.62,
+      "duration": 9.15
+    },
+    {
+      "text": "lines or how to say if you draw the",
+      "start": 1754.5,
+      "duration": 5.77
+    },
+    {
+      "text": "direction of the communication then it",
+      "start": 1757.77,
+      "duration": 4.93
+    },
+    {
+      "text": "looks like a sigma but but your body's",
+      "start": 1760.27,
+      "duration": 9.289
+    },
+    {
+      "text": "right so let's see yeah okay so I think",
+      "start": 1762.7,
+      "duration": 9.209
+    },
+    {
+      "text": "is everybody comfortable with that I",
+      "start": 1769.559,
+      "duration": 8.561
+    },
+    {
+      "text": "guess yes because we are pretty familiar",
+      "start": 1771.909,
+      "duration": 11.76
+    },
+    {
+      "text": "with that so if you understand so",
+      "start": 1778.12,
+      "duration": 9.809
+    },
+    {
+      "text": "basically all the zero knowledge proves",
+      "start": 1783.669,
+      "duration": 8.431
+    },
+    {
+      "text": "what we need in wabi-sabi are really",
+      "start": 1787.929,
+      "duration": 9.271
+    },
+    {
+      "text": "similar to this this specific Sigma",
+      "start": 1792.1,
+      "duration": 8.22
+    },
+    {
+      "text": "protocol like they are siblings or",
+      "start": 1797.2,
+      "duration": 5.849
+    },
+    {
+      "text": "brothers and sisters to this protocol so",
+      "start": 1800.32,
+      "duration": 5.4
+    },
+    {
+      "text": "if you understand nor identification",
+      "start": 1803.049,
+      "duration": 5.581
+    },
+    {
+      "text": "platycodon basically you almost",
+      "start": 1805.72,
+      "duration": 7.319
+    },
+    {
+      "text": "understand all other Sigma protocols so",
+      "start": 1808.63,
+      "duration": 6.09
+    },
+    {
+      "text": "that's good news and now we can maybe",
+      "start": 1813.039,
+      "duration": 5.781
+    },
+    {
+      "text": "move forward to a piece of it right",
+      "start": 1814.72,
+      "duration": 4.1
+    },
+    {
+      "text": "okay or her is there any question",
+      "start": 1822.74,
+      "duration": 10.319
+    },
+    {
+      "text": "comment critic there is none",
+      "start": 1826.23,
+      "duration": 9.99
+    },
+    {
+      "text": "okay so first let's just start with I'm",
+      "start": 1833.059,
+      "duration": 5.62
+    },
+    {
+      "text": "just a high-level description of the",
+      "start": 1836.22,
+      "duration": 5.88
+    },
+    {
+      "text": "protocol shall we also define",
+      "start": 1838.679,
+      "duration": 6.391
+    },
+    {
+      "text": "input/output Prudential attribute would",
+      "start": 1842.1,
+      "duration": 7.819
+    },
+    {
+      "text": "it make sense I don't think so",
+      "start": 1845.07,
+      "duration": 4.849
+    },
+    {
+      "text": "okay so the user acting as a list to",
+      "start": 1850.47,
+      "duration": 7.86
+    },
+    {
+      "text": "submit your input value so like anytime",
+      "start": 1855.149,
+      "duration": 5.76
+    },
+    {
+      "text": "we think of inputs or outputs we just",
+      "start": 1858.33,
+      "duration": 5.969
+    },
+    {
+      "text": "represent them as integers at namely",
+      "start": 1860.909,
+      "duration": 5.281
+    },
+    {
+      "text": "their Satoshi",
+      "start": 1864.299,
+      "duration": 4.801
+    },
+    {
+      "text": "well you so we extract away any other",
+      "start": 1866.19,
+      "duration": 6.27
+    },
+    {
+      "text": "information such as scripts strict",
+      "start": 1869.1,
+      "duration": 10.28
+    },
+    {
+      "text": "bupkes etc and whenever the user submits",
+      "start": 1872.46,
+      "duration": 15.599
+    },
+    {
+      "text": "an implicit EXO it also sends K pairs of",
+      "start": 1879.38,
+      "duration": 11.799
+    },
+    {
+      "text": "attributes so each input has K",
+      "start": 1888.059,
+      "duration": 6.48
+    },
+    {
+      "text": "attributes a value attribute and a",
+      "start": 1891.179,
+      "duration": 7.11
+    },
+    {
+      "text": "serial number attribute and you should",
+      "start": 1894.539,
+      "duration": 6.75
+    },
+    {
+      "text": "think of these attributes its commitment",
+      "start": 1898.289,
+      "duration": 8.01
+    },
+    {
+      "text": "to these messages so just by seeing MV I",
+      "start": 1901.289,
+      "duration": 8.37
+    },
+    {
+      "text": "and MSI you will not know anything about",
+      "start": 1906.299,
+      "duration": 7.431
+    },
+    {
+      "text": "the underlying B eyes and EFTS eyes and",
+      "start": 1909.659,
+      "duration": 8.191
+    },
+    {
+      "text": "so hand because the coordinator doesn't",
+      "start": 1913.73,
+      "duration": 7.329
+    },
+    {
+      "text": "know anything about these values whether",
+      "start": 1917.85,
+      "duration": 7.559
+    },
+    {
+      "text": "they are well formed or not the Elliots",
+      "start": 1921.059,
+      "duration": 7.74
+    },
+    {
+      "text": "also sends some very large proofs to",
+      "start": 1925.409,
+      "duration": 5.76
+    },
+    {
+      "text": "convince the coordinator that certain",
+      "start": 1928.799,
+      "duration": 5.99
+    },
+    {
+      "text": "relations hold for these m VI and msi",
+      "start": 1931.169,
+      "duration": 6.781
+    },
+    {
+      "text": "most importantly we want to prove that",
+      "start": 1934.789,
+      "duration": 6.88
+    },
+    {
+      "text": "the some of the underlying VI eyes add",
+      "start": 1937.95,
+      "duration": 10.14
+    },
+    {
+      "text": "up to this public V in and that and and",
+      "start": 1941.669,
+      "duration": 8.25
+    },
+    {
+      "text": "we also want to convince the coordinator",
+      "start": 1948.09,
+      "duration": 5.4
+    },
+    {
+      "text": "then that we did not print any more",
+      "start": 1949.919,
+      "duration": 5.291
+    },
+    {
+      "text": "money namely the",
+      "start": 1953.49,
+      "duration": 5.769
+    },
+    {
+      "text": "this MV eyes lie in certain range so you",
+      "start": 1955.21,
+      "duration": 6.199
+    },
+    {
+      "text": "should not be able to adjust the",
+      "start": 1959.259,
+      "duration": 7.14
+    },
+    {
+      "text": "register 21 million bitcoins more",
+      "start": 1961.409,
+      "duration": 8.171
+    },
+    {
+      "text": "importantly if you come in with like one",
+      "start": 1966.399,
+      "duration": 6.12
+    },
+    {
+      "text": "Satoshi and you register - a billion",
+      "start": 1969.58,
+      "duration": 5.49
+    },
+    {
+      "text": "Satoshi and plus a billion in one",
+      "start": 1972.519,
+      "duration": 4.921
+    },
+    {
+      "text": "Satoshi the sum is still equal to VN",
+      "start": 1975.07,
+      "duration": 3.989
+    },
+    {
+      "text": "that's why they have to be positive",
+      "start": 1977.44,
+      "duration": 6.989
+    },
+    {
+      "text": "that's how here so I want to expand on",
+      "start": 1979.059,
+      "duration": 8.7
+    },
+    {
+      "text": "this and say like not only are those",
+      "start": 1984.429,
+      "duration": 5.97
+    },
+    {
+      "text": "attributes commitments we want them to",
+      "start": 1987.759,
+      "duration": 3.061
+    },
+    {
+      "text": "be",
+      "start": 1990.399,
+      "duration": 3.03
+    },
+    {
+      "text": "Patterson commitments because we want",
+      "start": 1990.82,
+      "duration": 6.989
+    },
+    {
+      "text": "them to be homomorphic and homomorphic",
+      "start": 1993.429,
+      "duration": 8.79
+    },
+    {
+      "text": "means that the sum of two commitments is",
+      "start": 1997.809,
+      "duration": 9.03
+    },
+    {
+      "text": "the same thing as a commitment on the",
+      "start": 2002.219,
+      "duration": 8.731
+    },
+    {
+      "text": "sum of the two messages and this is also",
+      "start": 2006.839,
+      "duration": 7.92
+    },
+    {
+      "text": "why we use an algebraic Mac because the",
+      "start": 2010.95,
+      "duration": 6.63
+    },
+    {
+      "text": "algebraic Mac kind of preserves these",
+      "start": 2014.759,
+      "duration": 6.24
+    },
+    {
+      "text": "nice properties and if we didn't do this",
+      "start": 2017.58,
+      "duration": 5.339
+    },
+    {
+      "text": "if we didn't use Patterson commitments",
+      "start": 2020.999,
+      "duration": 5.64
+    },
+    {
+      "text": "and algebraic marks those that zero",
+      "start": 2022.919,
+      "duration": 5.25
+    },
+    {
+      "text": "knowledge proof of the storm would be",
+      "start": 2026.639,
+      "duration": 3.63
+    },
+    {
+      "text": "much much more complicated it could not",
+      "start": 2028.169,
+      "duration": 5.58
+    },
+    {
+      "text": "be a simple Sigma protocol or actually",
+      "start": 2030.269,
+      "duration": 5.46
+    },
+    {
+      "text": "we don't even need this Sigma protocol",
+      "start": 2033.749,
+      "duration": 6.331
+    },
+    {
+      "text": "that the way that we defined it but well",
+      "start": 2035.729,
+      "duration": 7.341
+    },
+    {
+      "text": "I'm getting ahead of myself",
+      "start": 2040.08,
+      "duration": 2.99
+    },
+    {
+      "text": "these groups are verified and they are",
+      "start": 2044.389,
+      "duration": 7.48
+    },
+    {
+      "text": "valid then the coordinator issues k-max",
+      "start": 2047.82,
+      "duration": 6.18
+    },
+    {
+      "text": "message authentication codes on the",
+      "start": 2051.869,
+      "duration": 5.371
+    },
+    {
+      "text": "requested attribute and also the",
+      "start": 2054.0,
+      "duration": 4.859
+    },
+    {
+      "text": "coordinator needs to convince now the",
+      "start": 2057.24,
+      "duration": 5.669
+    },
+    {
+      "text": "client the alias that these Macs are",
+      "start": 2058.859,
+      "duration": 8.43
+    },
+    {
+      "text": "well formed so that the coordinator does",
+      "start": 2062.909,
+      "duration": 9.51
+    },
+    {
+      "text": "not want to cheat a list okay so now we",
+      "start": 2067.289,
+      "duration": 7.32
+    },
+    {
+      "text": "just give a high-level overview so we",
+      "start": 2072.419,
+      "duration": 5.22
+    },
+    {
+      "text": "don't really describe how these",
+      "start": 2074.609,
+      "duration": 5.31
+    },
+    {
+      "text": "attributes and the credentials look like",
+      "start": 2077.639,
+      "duration": 6.631
+    },
+    {
+      "text": "so let's move forward or yeah is there",
+      "start": 2079.919,
+      "duration": 8.73
+    },
+    {
+      "text": "any questions to input registers",
+      "start": 2084.27,
+      "duration": 7.019
+    },
+    {
+      "text": "I mean now we are really just having",
+      "start": 2088.649,
+      "duration": 5.43
+    },
+    {
+      "text": "just a glimpse of the protocol we will",
+      "start": 2091.289,
+      "duration": 5.901
+    },
+    {
+      "text": "go into the details later",
+      "start": 2094.079,
+      "duration": 3.111
+    },
+    {
+      "text": "so just exactly what gets transferred",
+      "start": 2097.67,
+      "duration": 10.449
+    },
+    {
+      "text": "there so the DMV n ms the value and the",
+      "start": 2102.059,
+      "duration": 10.371
+    },
+    {
+      "text": "serial number Vektor the commitment",
+      "start": 2108.119,
+      "duration": 7.92
+    },
+    {
+      "text": "Chara arrays anyway so those get",
+      "start": 2112.43,
+      "duration": 9.1
+    },
+    {
+      "text": "transferred the range proofs regarding",
+      "start": 2116.039,
+      "duration": 9.33
+    },
+    {
+      "text": "the range proofs is it bulletproof or",
+      "start": 2121.53,
+      "duration": 7.95
+    },
+    {
+      "text": "just normal range proofs I mean as of",
+      "start": 2125.369,
+      "duration": 6.42
+    },
+    {
+      "text": "now you can think of favorite and most",
+      "start": 2129.48,
+      "duration": 4.8
+    },
+    {
+      "text": "below the range to but most likely I",
+      "start": 2131.789,
+      "duration": 4.891
+    },
+    {
+      "text": "suppose we will implement the most",
+      "start": 2134.28,
+      "duration": 4.17
+    },
+    {
+      "text": "efficient form which is currently the",
+      "start": 2136.68,
+      "duration": 4.31
+    },
+    {
+      "text": "state of the art is blue across here",
+      "start": 2138.45,
+      "duration": 6.54
+    },
+    {
+      "text": "alright and anything else that gets",
+      "start": 2140.99,
+      "duration": 8.109
+    },
+    {
+      "text": "transferred some and a small growth we",
+      "start": 2144.99,
+      "duration": 5.97
+    },
+    {
+      "text": "call it like a soundproof which",
+      "start": 2149.099,
+      "duration": 4.2
+    },
+    {
+      "text": "convinces the coordinator that the sum",
+      "start": 2150.96,
+      "duration": 6.05
+    },
+    {
+      "text": "of the committed v eyes adapt to be in",
+      "start": 2153.299,
+      "duration": 7.381
+    },
+    {
+      "text": "anything else you know that's it you you",
+      "start": 2157.01,
+      "duration": 5.89
+    },
+    {
+      "text": "summarized it correctly ok thank you",
+      "start": 2160.68,
+      "duration": 6.359
+    },
+    {
+      "text": "that's pretty simple so like you can",
+      "start": 2162.9,
+      "duration": 6.09
+    },
+    {
+      "text": "think of you have one Bitcoin and you",
+      "start": 2167.039,
+      "duration": 8.28
+    },
+    {
+      "text": "register you want to have 10 10.1 new TX",
+      "start": 2168.99,
+      "duration": 8.309
+    },
+    {
+      "text": "o outputs Bitcoin outputs then you",
+      "start": 2175.319,
+      "duration": 6.931
+    },
+    {
+      "text": "request 10 credentials for this and",
+      "start": 2177.299,
+      "duration": 8.911
+    },
+    {
+      "text": "group attributes actually I think he was",
+      "start": 2182.25,
+      "duration": 8.16
+    },
+    {
+      "text": "said that some kind of relationships has",
+      "start": 2186.21,
+      "duration": 9.899
+    },
+    {
+      "text": "to be also proven on M V and M s is that",
+      "start": 2190.41,
+      "duration": 8.01
+    },
+    {
+      "text": "are very you referring to the range",
+      "start": 2196.109,
+      "duration": 6.0
+    },
+    {
+      "text": "proofs and some proofs or no the Sun so",
+      "start": 2198.42,
+      "duration": 6.929
+    },
+    {
+      "text": "you want to prove anything with regards",
+      "start": 2202.109,
+      "duration": 5.341
+    },
+    {
+      "text": "to the serial number you don't really",
+      "start": 2205.349,
+      "duration": 6.331
+    },
+    {
+      "text": "care because the the Alice cannot cheat",
+      "start": 2207.45,
+      "duration": 12.83
+    },
+    {
+      "text": "there so it's Alice's yeah me so",
+      "start": 2211.68,
+      "duration": 12.14
+    },
+    {
+      "text": "yeah and it's gonna cheat anyway so we",
+      "start": 2220.28,
+      "duration": 5.1
+    },
+    {
+      "text": "don't really care about the serial",
+      "start": 2223.82,
+      "duration": 4.71
+    },
+    {
+      "text": "number commitment but we only care about",
+      "start": 2225.38,
+      "duration": 7.17
+    },
+    {
+      "text": "the value commitment and we each",
+      "start": 2228.53,
+      "duration": 6.9
+    },
+    {
+      "text": "individual mvi we will require a range",
+      "start": 2232.55,
+      "duration": 6.5
+    },
+    {
+      "text": "proof and we require this some proof I",
+      "start": 2235.43,
+      "duration": 9.54
+    },
+    {
+      "text": "don't think there's any ZK we require 4",
+      "start": 2239.05,
+      "duration": 10.09
+    },
+    {
+      "text": "m VI and MSI is there anything like that",
+      "start": 2244.97,
+      "duration": 6.54
+    },
+    {
+      "text": "you well I don't think so I think in the",
+      "start": 2249.14,
+      "duration": 6.03
+    },
+    {
+      "text": "version 0.1 we still wrote that there",
+      "start": 2251.51,
+      "duration": 5.58
+    },
+    {
+      "text": "should be a proof of knowledge of the",
+      "start": 2255.17,
+      "duration": 4.14
+    },
+    {
+      "text": "opening of the serial number commitment",
+      "start": 2257.09,
+      "duration": 6.84
+    },
+    {
+      "text": "but yes that it's it's not contributing",
+      "start": 2259.31,
+      "duration": 8.19
+    },
+    {
+      "text": "anything I mean if the user doesn't know",
+      "start": 2263.93,
+      "duration": 4.98
+    },
+    {
+      "text": "the opening of the serial number",
+      "start": 2267.5,
+      "duration": 4.5
+    },
+    {
+      "text": "commitment and that's her fault so but",
+      "start": 2268.91,
+      "duration": 5.49
+    },
+    {
+      "text": "yeah we could require something like",
+      "start": 2272.0,
+      "duration": 5.04
+    },
+    {
+      "text": "that but I don't think I mean the worst",
+      "start": 2274.4,
+      "duration": 5.33
+    },
+    {
+      "text": "that could happen is that Alice",
+      "start": 2277.04,
+      "duration": 6.0
+    },
+    {
+      "text": "sabotages the protocol by registering an",
+      "start": 2279.73,
+      "duration": 7.99
+    },
+    {
+      "text": "input that she can never open but that's",
+      "start": 2283.04,
+      "duration": 6.9
+    },
+    {
+      "text": "the same thing as refusing to sign in",
+      "start": 2287.72,
+      "duration": 3.99
+    },
+    {
+      "text": "the end or refusing to register an",
+      "start": 2289.94,
+      "duration": 4.44
+    },
+    {
+      "text": "output so it's it's the same like",
+      "start": 2291.71,
+      "duration": 6.0
+    },
+    {
+      "text": "unsolvable denial of service of Alice",
+      "start": 2294.38,
+      "duration": 8.99
+    },
+    {
+      "text": "disappears all right thank you",
+      "start": 2297.71,
+      "duration": 12.21
+    },
+    {
+      "text": "so ok what is an output registration now",
+      "start": 2303.37,
+      "duration": 11.55
+    },
+    {
+      "text": "with in yet another network identifier",
+      "start": 2309.92,
+      "duration": 7.89
+    },
+    {
+      "text": "acting as Bob Alice comes along to",
+      "start": 2314.92,
+      "duration": 5.8
+    },
+    {
+      "text": "register her I would put the user and",
+      "start": 2317.81,
+      "duration": 6.74
+    },
+    {
+      "text": "okay so now comes the fun part",
+      "start": 2320.72,
+      "duration": 9.5
+    },
+    {
+      "text": "previously we added commitment now Alice",
+      "start": 2324.55,
+      "duration": 9.61
+    },
+    {
+      "text": "randomizes the commitment um maybe the",
+      "start": 2330.22,
+      "duration": 5.62
+    },
+    {
+      "text": "viewer doesn't know what it means but",
+      "start": 2334.16,
+      "duration": 7.77
+    },
+    {
+      "text": "it's ok we will explain it later and by",
+      "start": 2335.84,
+      "duration": 11.48
+    },
+    {
+      "text": "randomizing this these attributes now",
+      "start": 2341.93,
+      "duration": 8.64
+    },
+    {
+      "text": "this makes these attributes unthinkable",
+      "start": 2347.32,
+      "duration": 5.86
+    },
+    {
+      "text": "to the previously",
+      "start": 2350.57,
+      "duration": 6.12
+    },
+    {
+      "text": "attributes by the coordinator and that's",
+      "start": 2353.18,
+      "duration": 6.839
+    },
+    {
+      "text": "the rationale behind randomizing these",
+      "start": 2356.69,
+      "duration": 5.94
+    },
+    {
+      "text": "attributes but still Alice can convince",
+      "start": 2360.019,
+      "duration": 5.01
+    },
+    {
+      "text": "that even though these attributes are",
+      "start": 2362.63,
+      "duration": 4.77
+    },
+    {
+      "text": "randomized still Alice can convince or",
+      "start": 2365.029,
+      "duration": 4.651
+    },
+    {
+      "text": "Bob if you wish can come with the",
+      "start": 2367.4,
+      "duration": 5.399
+    },
+    {
+      "text": "coordinator that these are valid",
+      "start": 2369.68,
+      "duration": 5.189
+    },
+    {
+      "text": "credentials issued by the coordinator",
+      "start": 2372.799,
+      "duration": 5.55
+    },
+    {
+      "text": "and that's that's why we also use this",
+      "start": 2374.869,
+      "duration": 6.24
+    },
+    {
+      "text": "algebraic Mac or are the signal paper",
+      "start": 2378.349,
+      "duration": 8.341
+    },
+    {
+      "text": "most more precisely and yeah anyway",
+      "start": 2381.109,
+      "duration": 7.381
+    },
+    {
+      "text": "verify a small thing because there's a",
+      "start": 2386.69,
+      "duration": 4.859
+    },
+    {
+      "text": "slight mistake here we need to fix",
+      "start": 2388.49,
+      "duration": 7.47
+    },
+    {
+      "text": "so it says a valid credential but it's",
+      "start": 2391.549,
+      "duration": 8.28
+    },
+    {
+      "text": "any number of credentials so the whole",
+      "start": 2395.96,
+      "duration": 6.049
+    },
+    {
+      "text": "point of this is you register each input",
+      "start": 2399.829,
+      "duration": 5.131
+    },
+    {
+      "text": "independently and you get several",
+      "start": 2402.009,
+      "duration": 6.31
+    },
+    {
+      "text": "credentials for each input and then you",
+      "start": 2404.96,
+      "duration": 6.089
+    },
+    {
+      "text": "go and you pick and choose whatever",
+      "start": 2408.319,
+      "duration": 5.04
+    },
+    {
+      "text": "combination you want for every output",
+      "start": 2411.049,
+      "duration": 6.171
+    },
+    {
+      "text": "registration so every user can in",
+      "start": 2413.359,
+      "duration": 6.121
+    },
+    {
+      "text": "register several inputs and can register",
+      "start": 2417.22,
+      "duration": 4.809
+    },
+    {
+      "text": "several outputs and no input should be",
+      "start": 2419.48,
+      "duration": 4.139
+    },
+    {
+      "text": "linkable to any other input or output",
+      "start": 2422.029,
+      "duration": 3.54
+    },
+    {
+      "text": "and no output should be linkable to any",
+      "start": 2423.619,
+      "duration": 10.111
+    },
+    {
+      "text": "other input or output yep and we again",
+      "start": 2425.569,
+      "duration": 10.411
+    },
+    {
+      "text": "in the output registration phase we will",
+      "start": 2433.73,
+      "duration": 6.65
+    },
+    {
+      "text": "require some zero knowledge proves what",
+      "start": 2435.98,
+      "duration": 7.23
+    },
+    {
+      "text": "properties should Alice convince the",
+      "start": 2440.38,
+      "duration": 9.429
+    },
+    {
+      "text": "coordinator about so let's start with",
+      "start": 2443.21,
+      "duration": 8.97
+    },
+    {
+      "text": "the serial numbers Alice will just or",
+      "start": 2449.809,
+      "duration": 5.43
+    },
+    {
+      "text": "Bob will just reveal these serial",
+      "start": 2452.18,
+      "duration": 8.359
+    },
+    {
+      "text": "numbers and that's where we will have",
+      "start": 2455.239,
+      "duration": 8.87
+    },
+    {
+      "text": "double spending protection a can I ask",
+      "start": 2460.539,
+      "duration": 4.95
+    },
+    {
+      "text": "yep",
+      "start": 2464.109,
+      "duration": 8.771
+    },
+    {
+      "text": "the serial number stuff as far as I can",
+      "start": 2465.489,
+      "duration": 9.81
+    },
+    {
+      "text": "see",
+      "start": 2472.88,
+      "duration": 7.649
+    },
+    {
+      "text": "wouldn't a simple blank signature scheme",
+      "start": 2475.299,
+      "duration": 7.78
+    },
+    {
+      "text": "could work with the serial numbers",
+      "start": 2480.529,
+      "duration": 7.98
+    },
+    {
+      "text": "or or not I think the effect is the same",
+      "start": 2483.079,
+      "duration": 7.49
+    },
+    {
+      "text": "or what would be the gain",
+      "start": 2488.509,
+      "duration": 5.911
+    },
+    {
+      "text": "no I'm just asking that is that",
+      "start": 2490.569,
+      "duration": 6.91
+    },
+    {
+      "text": "something swappable I don't think there",
+      "start": 2494.42,
+      "duration": 6.27
+    },
+    {
+      "text": "is a gain because right yeah we are",
+      "start": 2497.479,
+      "duration": 7.56
+    },
+    {
+      "text": "using the serial numbers for as as we",
+      "start": 2500.69,
+      "duration": 7.95
+    },
+    {
+      "text": "are using it for the exact same yeah I",
+      "start": 2505.039,
+      "duration": 6.72
+    },
+    {
+      "text": "think they are interchangeable that's if",
+      "start": 2508.64,
+      "duration": 4.619
+    },
+    {
+      "text": "I understand the question correctly I",
+      "start": 2511.759,
+      "duration": 4.141
+    },
+    {
+      "text": "think it's it's not possible because I",
+      "start": 2513.259,
+      "duration": 5.85
+    },
+    {
+      "text": "mean we need the algebraic max stuff or",
+      "start": 2515.9,
+      "duration": 7.339
+    },
+    {
+      "text": "something like the ACL scheme which is",
+      "start": 2519.109,
+      "duration": 6.96
+    },
+    {
+      "text": "line signature scheme with attributes if",
+      "start": 2523.239,
+      "duration": 5.38
+    },
+    {
+      "text": "we only do a blind signature on the",
+      "start": 2526.069,
+      "duration": 5.4
+    },
+    {
+      "text": "serial number here then nothing",
+      "start": 2528.619,
+      "duration": 7.021
+    },
+    {
+      "text": "constrains the user to only use the same",
+      "start": 2531.469,
+      "duration": 8.34
+    },
+    {
+      "text": "serial number with the same amount so by",
+      "start": 2535.64,
+      "duration": 6.569
+    },
+    {
+      "text": "doing it with a single Mac that covers",
+      "start": 2539.809,
+      "duration": 4.831
+    },
+    {
+      "text": "both of these together the Mac is only",
+      "start": 2542.209,
+      "duration": 5.31
+    },
+    {
+      "text": "valid if you expose the corresponding",
+      "start": 2544.64,
+      "duration": 5.659
+    },
+    {
+      "text": "serial number to the the same amount",
+      "start": 2547.519,
+      "duration": 5.671
+    },
+    {
+      "text": "okay thank you this is this is exactly",
+      "start": 2550.299,
+      "duration": 7.42
+    },
+    {
+      "text": "what I was I was looking for that okay",
+      "start": 2553.19,
+      "duration": 8.549
+    },
+    {
+      "text": "so the serial numbers and the values are",
+      "start": 2557.719,
+      "duration": 8.461
+    },
+    {
+      "text": "actually connected together but but the",
+      "start": 2561.739,
+      "duration": 8.79
+    },
+    {
+      "text": "MV in and M s and M VI and MSI's blindly",
+      "start": 2566.18,
+      "duration": 7.289
+    },
+    {
+      "text": "sign then this attack vector is fixed",
+      "start": 2570.529,
+      "duration": 6.27
+    },
+    {
+      "text": "right yeah and and that's exactly what",
+      "start": 2573.469,
+      "duration": 7.56
+    },
+    {
+      "text": "the ACL paper let us do right so there",
+      "start": 2576.799,
+      "duration": 7.831
+    },
+    {
+      "text": "we have a blind signature scheme with",
+      "start": 2581.029,
+      "duration": 5.871
+    },
+    {
+      "text": "attributes and the attributes are",
+      "start": 2584.63,
+      "duration": 6.51
+    },
+    {
+      "text": "exactly the same as as here would",
+      "start": 2586.9,
+      "duration": 8.049
+    },
+    {
+      "text": "they're just Patterson commitments the",
+      "start": 2591.14,
+      "duration": 7.889
+    },
+    {
+      "text": "difference is the randomization is more",
+      "start": 2594.949,
+      "duration": 9.32
+    },
+    {
+      "text": "complicated to prove things about the",
+      "start": 2599.029,
+      "duration": 9.901
+    },
+    {
+      "text": "signatures are larger so here as a Mac",
+      "start": 2604.269,
+      "duration": 9.1
+    },
+    {
+      "text": "is a single field element and two group",
+      "start": 2608.93,
+      "duration": 5.84
+    },
+    {
+      "text": "elements whereas",
+      "start": 2613.369,
+      "duration": 3.411
+    },
+    {
+      "text": "the ACL scheme I think it's like 1/8",
+      "start": 2614.77,
+      "duration": 5.55
+    },
+    {
+      "text": "tupple of like I don't remember how many",
+      "start": 2616.78,
+      "duration": 5.4
+    },
+    {
+      "text": "of those are group elements and how many",
+      "start": 2620.32,
+      "duration": 3.6
+    },
+    {
+      "text": "are I think they're all group elements",
+      "start": 2622.18,
+      "duration": 3.84
+    },
+    {
+      "text": "not that it matters because they're the",
+      "start": 2623.92,
+      "duration": 9.93
+    },
+    {
+      "text": "same size there's 32 bytes roughly so in",
+      "start": 2626.02,
+      "duration": 10.41
+    },
+    {
+      "text": "the ACL scheme I think is much harder to",
+      "start": 2633.85,
+      "duration": 8.6
+    },
+    {
+      "text": "understand than the algebraic max so",
+      "start": 2636.43,
+      "duration": 9.63
+    },
+    {
+      "text": "like this is meant to be a plug-and-play",
+      "start": 2642.45,
+      "duration": 7.96
+    },
+    {
+      "text": "sort of sorry a plug-in replacement for",
+      "start": 2646.06,
+      "duration": 8.19
+    },
+    {
+      "text": "the ACL scheme and in this sense it is",
+      "start": 2650.41,
+      "duration": 5.91
+    },
+    {
+      "text": "like the the blind signature scheme with",
+      "start": 2654.25,
+      "duration": 3.9
+    },
+    {
+      "text": "attributes gives us exactly the same",
+      "start": 2656.32,
+      "duration": 4.32
+    },
+    {
+      "text": "thing it just also provides a public",
+      "start": 2658.15,
+      "duration": 5.1
+    },
+    {
+      "text": "verifiability of these signatures which",
+      "start": 2660.64,
+      "duration": 12.96
+    },
+    {
+      "text": "we don't actually need so again and we",
+      "start": 2663.25,
+      "duration": 12.69
+    },
+    {
+      "text": "need to prove some relation between",
+      "start": 2673.6,
+      "duration": 5.519
+    },
+    {
+      "text": "these attributes because the user wants",
+      "start": 2675.94,
+      "duration": 7.49
+    },
+    {
+      "text": "to register an output to be the specific",
+      "start": 2679.119,
+      "duration": 7.711
+    },
+    {
+      "text": "Bitcoin value and maybe this bitcoin",
+      "start": 2683.43,
+      "duration": 7.02
+    },
+    {
+      "text": "value is constructed using several other",
+      "start": 2686.83,
+      "duration": 8.18
+    },
+    {
+      "text": "credentials so again here we will need",
+      "start": 2690.45,
+      "duration": 8.5
+    },
+    {
+      "text": "some proof these are all spelled out in",
+      "start": 2695.01,
+      "duration": 6.609
+    },
+    {
+      "text": "the paper so don't worry the crypto",
+      "start": 2698.95,
+      "duration": 7.29
+    },
+    {
+      "text": "details will come soon and then yeah",
+      "start": 2701.619,
+      "duration": 5.391
+    },
+    {
+      "text": "that's it",
+      "start": 2706.24,
+      "duration": 3.96
+    },
+    {
+      "text": "the user submit all this trust and then",
+      "start": 2707.01,
+      "duration": 7.359
+    },
+    {
+      "text": "we the coordinator verifies this proves",
+      "start": 2710.2,
+      "duration": 7.38
+    },
+    {
+      "text": "and how to register a shin is done",
+      "start": 2714.369,
+      "duration": 8.25
+    },
+    {
+      "text": "basically signing face is pretty much",
+      "start": 2717.58,
+      "duration": 8.16
+    },
+    {
+      "text": "the same we use the same as the in",
+      "start": 2722.619,
+      "duration": 5.971
+    },
+    {
+      "text": "current wasabi so the user just checks",
+      "start": 2725.74,
+      "duration": 5.79
+    },
+    {
+      "text": "whether her desire the output is",
+      "start": 2728.59,
+      "duration": 6.48
+    },
+    {
+      "text": "included among the output of the coins",
+      "start": 2731.53,
+      "duration": 5.79
+    },
+    {
+      "text": "and transaction if this is the case it",
+      "start": 2735.07,
+      "duration": 4.62
+    },
+    {
+      "text": "signs the transaction and sends over tor",
+      "start": 2737.32,
+      "duration": 5.28
+    },
+    {
+      "text": "the signature if this is not the case",
+      "start": 2739.69,
+      "duration": 9.11
+    },
+    {
+      "text": "then the user awards the protocol right",
+      "start": 2742.6,
+      "duration": 6.2
+    },
+    {
+      "text": "let's go to the crypto D test if there",
+      "start": 2749.73,
+      "duration": 15.37
+    },
+    {
+      "text": "is no question it is there any yes I'm",
+      "start": 2755.8,
+      "duration": 16.26
+    },
+    {
+      "text": "good okay so there's a lot of parameters",
+      "start": 2765.1,
+      "duration": 10.7
+    },
+    {
+      "text": "of the coordinators so anytime you see",
+      "start": 2772.06,
+      "duration": 7.08
+    },
+    {
+      "text": "the with some subscript it's just a",
+      "start": 2775.8,
+      "duration": 6.52
+    },
+    {
+      "text": "generator point it's just an element a",
+      "start": 2779.14,
+      "duration": 6.33
+    },
+    {
+      "text": "point in an elliptic curve and more most",
+      "start": 2782.32,
+      "duration": 6.89
+    },
+    {
+      "text": "importantly no one knows the underlying",
+      "start": 2785.47,
+      "duration": 6.63
+    },
+    {
+      "text": "discrete logs pairwise discrete logs",
+      "start": 2789.21,
+      "duration": 5.68
+    },
+    {
+      "text": "no one should should be able to to know",
+      "start": 2792.1,
+      "duration": 8.34
+    },
+    {
+      "text": "this and then the we want to talk about",
+      "start": 2794.89,
+      "duration": 8.6
+    },
+    {
+      "text": "the individual subscripts like at least",
+      "start": 2800.44,
+      "duration": 8.48
+    },
+    {
+      "text": "categorically I think so W and W prime",
+      "start": 2803.49,
+      "duration": 10.72
+    },
+    {
+      "text": "are part of the secret key there using",
+      "start": 2808.92,
+      "duration": 9.75
+    },
+    {
+      "text": "the keyed verification credential scheme",
+      "start": 2814.21,
+      "duration": 7.77
+    },
+    {
+      "text": "x0 and x1 are the generators used for",
+      "start": 2818.67,
+      "duration": 6.13
+    },
+    {
+      "text": "the algebraic mac so they correspond to",
+      "start": 2821.98,
+      "duration": 5.85
+    },
+    {
+      "text": "x0 and x1 which are the part of the",
+      "start": 2824.8,
+      "duration": 8.61
+    },
+    {
+      "text": "secret key in the algebraic mac Givi ng",
+      "start": 2827.83,
+      "duration": 10.08
+    },
+    {
+      "text": "s those are our notation in the original",
+      "start": 2833.41,
+      "duration": 8.9
+    },
+    {
+      "text": "paper these are denoted gy 0 gy 1 to n",
+      "start": 2837.91,
+      "duration": 11.63
+    },
+    {
+      "text": "they're used for the in the Mac for",
+      "start": 2842.31,
+      "duration": 10.32
+    },
+    {
+      "text": "verifying the attributes or sorry for",
+      "start": 2849.54,
+      "duration": 5.68
+    },
+    {
+      "text": "assigning the attributes or tagging the",
+      "start": 2852.63,
+      "duration": 4.14
+    },
+    {
+      "text": "attributes I guess is the correct term",
+      "start": 2855.22,
+      "duration": 6.96
+    },
+    {
+      "text": "then we add G sub G & G sub H for",
+      "start": 2856.77,
+      "duration": 8.77
+    },
+    {
+      "text": "Pettersen commitments and finally",
+      "start": 2862.18,
+      "duration": 6.93
+    },
+    {
+      "text": "there's G sub V which is used in the",
+      "start": 2865.54,
+      "duration": 10.02
+    },
+    {
+      "text": "verification of the algebraic mark yeah",
+      "start": 2869.11,
+      "duration": 9.35
+    },
+    {
+      "text": "and this is Christy of the coordinator",
+      "start": 2875.56,
+      "duration": 5.9
+    },
+    {
+      "text": "and",
+      "start": 2878.46,
+      "duration": 3.0
+    },
+    {
+      "text": "yeah maybe maybe we could change later",
+      "start": 2882.67,
+      "duration": 6.039
+    },
+    {
+      "text": "from issuer to the coordinator but in",
+      "start": 2885.43,
+      "duration": 7.149
+    },
+    {
+      "text": "the document as of now we use issuer and",
+      "start": 2888.709,
+      "duration": 8.06
+    },
+    {
+      "text": "coordinator a little bit interchangeably",
+      "start": 2892.579,
+      "duration": 4.19
+    },
+    {
+      "text": "and so these are the public parameters",
+      "start": 2896.859,
+      "duration": 5.051
+    },
+    {
+      "text": "of the coordinator these are the secret",
+      "start": 2899.449,
+      "duration": 5.79
+    },
+    {
+      "text": "parameters and now let's move forward to",
+      "start": 2901.91,
+      "duration": 6.629
+    },
+    {
+      "text": "the input registration so can I have a",
+      "start": 2905.239,
+      "duration": 8.27
+    },
+    {
+      "text": "question from Lucas actually so these",
+      "start": 2908.539,
+      "duration": 9.21
+    },
+    {
+      "text": "public constants of this look looking",
+      "start": 2913.509,
+      "duration": 9.33
+    },
+    {
+      "text": "how would this look like in c-sharp code",
+      "start": 2917.749,
+      "duration": 5.09
+    },
+    {
+      "text": "can you hear me yeah yeah well in",
+      "start": 2926.829,
+      "duration": 10.75
+    },
+    {
+      "text": "c-sharp called in it's just I don't",
+      "start": 2931.099,
+      "duration": 12.96
+    },
+    {
+      "text": "remember the new and Bitcoin library but",
+      "start": 2937.579,
+      "duration": 10.561
+    },
+    {
+      "text": "it is just a point right is just to",
+      "start": 2944.059,
+      "duration": 11.28
+    },
+    {
+      "text": "create a point in fact aye-aye sir paper",
+      "start": 2948.14,
+      "duration": 10.319
+    },
+    {
+      "text": "no no paper a pull request on and",
+      "start": 2955.339,
+      "duration": 9.41
+    },
+    {
+      "text": "decline where the recent way to derivate",
+      "start": 2958.459,
+      "duration": 11.82
+    },
+    {
+      "text": "one point one generator from another",
+      "start": 2964.749,
+      "duration": 9.671
+    },
+    {
+      "text": "generator but in a way that you don't",
+      "start": 2970.279,
+      "duration": 10.05
+    },
+    {
+      "text": "know they they shout to go from one to",
+      "start": 2974.42,
+      "duration": 6.389
+    },
+    {
+      "text": "another",
+      "start": 2980.329,
+      "duration": 3.48
+    },
+    {
+      "text": "I don't know how to play this and there",
+      "start": 2980.809,
+      "duration": 7.071
+    },
+    {
+      "text": "are hash function that's usually the yes",
+      "start": 2983.809,
+      "duration": 7.74
+    },
+    {
+      "text": "it uses is this is like a HUD function",
+      "start": 2987.88,
+      "duration": 7.989
+    },
+    {
+      "text": "of the of the previous one to generate",
+      "start": 2991.549,
+      "duration": 7.68
+    },
+    {
+      "text": "the the next one or something I don't",
+      "start": 2995.869,
+      "duration": 7.2
+    },
+    {
+      "text": "remember exactly the details but in in",
+      "start": 2999.229,
+      "duration": 8.72
+    },
+    {
+      "text": "in an Bitcoin for example you have a sec",
+      "start": 3003.069,
+      "duration": 9.8
+    },
+    {
+      "text": "SEC P 256",
+      "start": 3007.949,
+      "duration": 4.92
+    },
+    {
+      "text": "k 1 dot G big G that big G it's a liquid",
+      "start": 3013.88,
+      "duration": 10.08
+    },
+    {
+      "text": "pure point I think that the class is",
+      "start": 3020.78,
+      "duration": 9.9
+    },
+    {
+      "text": "called Big E C point if you have that G",
+      "start": 3023.96,
+      "duration": 11.37
+    },
+    {
+      "text": "big G that is the the generator so it's",
+      "start": 3030.68,
+      "duration": 12.93
+    },
+    {
+      "text": "basically and we can use okay for what",
+      "start": 3035.33,
+      "duration": 9.93
+    },
+    {
+      "text": "it's worth I think the traditional",
+      "start": 3043.61,
+      "duration": 4.44
+    },
+    {
+      "text": "method to do this is called hash and",
+      "start": 3045.26,
+      "duration": 6.24
+    },
+    {
+      "text": "pray where you start by hashing a",
+      "start": 3048.05,
+      "duration": 5.16
+    },
+    {
+      "text": "message in this case it just be the",
+      "start": 3051.5,
+      "duration": 4.62
+    },
+    {
+      "text": "variable name and you use that as the",
+      "start": 3053.21,
+      "duration": 5.07
+    },
+    {
+      "text": "x-coordinate and you check is this X",
+      "start": 3056.12,
+      "duration": 6.0
+    },
+    {
+      "text": "coordinated like on the curve does it",
+      "start": 3058.28,
+      "duration": 11.61
+    },
+    {
+      "text": "like map to corresponding Y that's on",
+      "start": 3062.12,
+      "duration": 10.8
+    },
+    {
+      "text": "the curve and I think with like a",
+      "start": 3069.89,
+      "duration": 4.92
+    },
+    {
+      "text": "probability 1/2 it should be the case",
+      "start": 3072.92,
+      "duration": 7.2
+    },
+    {
+      "text": "for SSCP 256 K 1 I suppose it should be",
+      "start": 3074.81,
+      "duration": 8.4
+    },
+    {
+      "text": "like almost because the order is very",
+      "start": 3080.12,
+      "duration": 3.81
+    },
+    {
+      "text": "close",
+      "start": 3083.21,
+      "duration": 4.49
+    },
+    {
+      "text": "sorry my bad yeah like if you have 200",
+      "start": 3083.93,
+      "duration": 8.52
+    },
+    {
+      "text": "bid then like pretty close to 1 yeah for",
+      "start": 3087.7,
+      "duration": 6.76
+    },
+    {
+      "text": "some reason I thought the the order was",
+      "start": 3092.45,
+      "duration": 7.02
+    },
+    {
+      "text": "2 to the 128th for a sec my bad yeah",
+      "start": 3094.46,
+      "duration": 8.46
+    },
+    {
+      "text": "because the rows I forget whose Rho",
+      "start": 3099.47,
+      "duration": 5.52
+    },
+    {
+      "text": "algorithm is like square root of n right",
+      "start": 3102.92,
+      "duration": 4.32
+    },
+    {
+      "text": "it's know for a security parameter of",
+      "start": 3104.99,
+      "duration": 5.52
+    },
+    {
+      "text": "128 you need 56 a group order of 2 to",
+      "start": 3107.24,
+      "duration": 7.44
+    },
+    {
+      "text": "the 56 more or less no run is that",
+      "start": 3110.51,
+      "duration": 9.15
+    },
+    {
+      "text": "that's not relevant anyway so if it's",
+      "start": 3114.68,
+      "duration": 8.0
+    },
+    {
+      "text": "not on the curve and you just say oh",
+      "start": 3119.66,
+      "duration": 7.56
+    },
+    {
+      "text": "sorry just a comment in the chat then",
+      "start": 3122.68,
+      "duration": 8.08
+    },
+    {
+      "text": "you can see how in c-sharp it could be I",
+      "start": 3127.22,
+      "duration": 7.8
+    },
+    {
+      "text": "mean it's just an elective cure and and",
+      "start": 3130.76,
+      "duration": 6.93
+    },
+    {
+      "text": "that's it I see that's very useful",
+      "start": 3135.02,
+      "duration": 8.75
+    },
+    {
+      "text": "actually Thanks I was just not sure how",
+      "start": 3137.69,
+      "duration": 9.32
+    },
+    {
+      "text": "how low we can go do we have these",
+      "start": 3143.77,
+      "duration": 8.01
+    },
+    {
+      "text": "building books already or or not is it",
+      "start": 3147.01,
+      "duration": 7.05
+    },
+    {
+      "text": "guaranteed that the discrete log is not",
+      "start": 3151.78,
+      "duration": 10.29
+    },
+    {
+      "text": "known between these we can't I mean we",
+      "start": 3154.06,
+      "duration": 12.3
+    },
+    {
+      "text": "can find a way to derivate one from the",
+      "start": 3162.07,
+      "duration": 8.94
+    },
+    {
+      "text": "other one off we can just select I don't",
+      "start": 3166.36,
+      "duration": 8.36
+    },
+    {
+      "text": "know I couldn't feel comfortable",
+      "start": 3171.01,
+      "duration": 10.109
+    },
+    {
+      "text": "selecting the values by by the way that",
+      "start": 3174.72,
+      "duration": 8.98
+    },
+    {
+      "text": "the signal paper defines it is that hash",
+      "start": 3181.119,
+      "duration": 4.921
+    },
+    {
+      "text": "to point function I think it's called",
+      "start": 3183.7,
+      "duration": 6.54
+    },
+    {
+      "text": "and you just hash the variable name take",
+      "start": 3186.04,
+      "duration": 9.99
+    },
+    {
+      "text": "that as the final score oh yeah okay yes",
+      "start": 3190.24,
+      "duration": 9.06
+    },
+    {
+      "text": "that that's a good way yeah it's not a",
+      "start": 3196.03,
+      "duration": 5.67
+    },
+    {
+      "text": "valid curve point then you just append",
+      "start": 3199.3,
+      "duration": 5.28
+    },
+    {
+      "text": "like an integer we increment an integer",
+      "start": 3201.7,
+      "duration": 5.37
+    },
+    {
+      "text": "right like do the variable name the",
+      "start": 3204.58,
+      "duration": 5.279
+    },
+    {
+      "text": "variable name dot 1 or something try to",
+      "start": 3207.07,
+      "duration": 4.95
+    },
+    {
+      "text": "hash that if it's still not working",
+      "start": 3209.859,
+      "duration": 5.161
+    },
+    {
+      "text": "hash point 2 and soon enough you find a",
+      "start": 3212.02,
+      "duration": 8.64
+    },
+    {
+      "text": "point that's the hash yeah yeah I I feel",
+      "start": 3215.02,
+      "duration": 8.73
+    },
+    {
+      "text": "I feel okay with that I mean if it",
+      "start": 3220.66,
+      "duration": 5.49
+    },
+    {
+      "text": "doesn't exist the point try it with the",
+      "start": 3223.75,
+      "duration": 9.54
+    },
+    {
+      "text": "next one yes it's a good way my bad so",
+      "start": 3226.15,
+      "duration": 9.32
+    },
+    {
+      "text": "this this is just the characteristic of",
+      "start": 3233.29,
+      "duration": 6.12
+    },
+    {
+      "text": "the scalar field and this is the actual",
+      "start": 3235.47,
+      "duration": 8.139
+    },
+    {
+      "text": "size of the elliptic curve group so it's",
+      "start": 3239.41,
+      "duration": 6.69
+    },
+    {
+      "text": "very close though yeah it's close so",
+      "start": 3243.609,
+      "duration": 6.331
+    },
+    {
+      "text": "like to divide this with two to the 256",
+      "start": 3246.1,
+      "duration": 7.11
+    },
+    {
+      "text": "it's three still it will be pretty close",
+      "start": 3249.94,
+      "duration": 6.179
+    },
+    {
+      "text": "to one so the hash and pray method",
+      "start": 3253.21,
+      "duration": 5.39
+    },
+    {
+      "text": "should output you almost instantly this",
+      "start": 3256.119,
+      "duration": 5.25
+    },
+    {
+      "text": "almost instantly a valid point on the",
+      "start": 3258.6,
+      "duration": 6.58
+    },
+    {
+      "text": "curve yes i-i've never I never seen a",
+      "start": 3261.369,
+      "duration": 8.161
+    },
+    {
+      "text": "point that is a number that is that that",
+      "start": 3265.18,
+      "duration": 8.37
+    },
+    {
+      "text": "give me an invalid point all the points",
+      "start": 3269.53,
+      "duration": 8.329
+    },
+    {
+      "text": "I tried it's always funny",
+      "start": 3273.55,
+      "duration": 9.029
+    },
+    {
+      "text": "nice okay so let's go but here",
+      "start": 3277.859,
+      "duration": 8.56
+    },
+    {
+      "text": "Oh part of that the subtlety of the hash",
+      "start": 3282.579,
+      "duration": 5.821
+    },
+    {
+      "text": "though is we need to convince the users",
+      "start": 3286.419,
+      "duration": 4.56
+    },
+    {
+      "text": "that the the coordinator did not",
+      "start": 3288.4,
+      "duration": 7.25
+    },
+    {
+      "text": "generate these points maliciously so",
+      "start": 3290.979,
+      "duration": 7.44
+    },
+    {
+      "text": "it's not just choosing a point it's you",
+      "start": 3295.65,
+      "duration": 4.929
+    },
+    {
+      "text": "need to choose a point that everybody",
+      "start": 3298.419,
+      "duration": 7.231
+    },
+    {
+      "text": "knows is safe maybe we can hash the",
+      "start": 3300.579,
+      "duration": 6.87
+    },
+    {
+      "text": "first I don't know ten words of the",
+      "start": 3305.65,
+      "duration": 4.529
+    },
+    {
+      "text": "white paper and then we will have some",
+      "start": 3307.449,
+      "duration": 5.1
+    },
+    {
+      "text": "points in the third so it should be",
+      "start": 3310.179,
+      "duration": 5.19
+    },
+    {
+      "text": "trying because you discuss the function",
+      "start": 3312.549,
+      "duration": 5.37
+    },
+    {
+      "text": "earlier it's called hash to G and it's",
+      "start": 3315.369,
+      "duration": 12.781
+    },
+    {
+      "text": "just the definition right okay so the",
+      "start": 3317.919,
+      "duration": 12.18
+    },
+    {
+      "text": "input registration because it split it",
+      "start": 3328.15,
+      "duration": 4.199
+    },
+    {
+      "text": "simple do we want to discuss the",
+      "start": 3330.099,
+      "duration": 5.22
+    },
+    {
+      "text": "parameter store what they mean",
+      "start": 3332.349,
+      "duration": 5.67
+    },
+    {
+      "text": "it eats it up you and I or a rich one",
+      "start": 3335.319,
+      "duration": 6.9
+    },
+    {
+      "text": "yeah it's a little bit unintuitive but",
+      "start": 3338.019,
+      "duration": 10.71
+    },
+    {
+      "text": "like what they do is they allow this is",
+      "start": 3342.219,
+      "duration": 9.5
+    },
+    {
+      "text": "used as part of the credential perfect",
+      "start": 3348.729,
+      "duration": 5.28
+    },
+    {
+      "text": "okay never mind let's let's do that",
+      "start": 3351.719,
+      "duration": 4.57
+    },
+    {
+      "text": "later after we do the show protocol so",
+      "start": 3354.009,
+      "duration": 4.41
+    },
+    {
+      "text": "just remind me to go back to the",
+      "start": 3356.289,
+      "duration": 9.87
+    },
+    {
+      "text": "parameters so we want we have input UT",
+      "start": 3358.419,
+      "duration": 10.8
+    },
+    {
+      "text": "XOR with value V in and we want to break",
+      "start": 3366.159,
+      "duration": 8.01
+    },
+    {
+      "text": "it into K inputs with value VI so to",
+      "start": 3369.219,
+      "duration": 9.09
+    },
+    {
+      "text": "that end we submit K Patterson",
+      "start": 3374.169,
+      "duration": 7.02
+    },
+    {
+      "text": "commitments so M VI is the Patterson",
+      "start": 3378.309,
+      "duration": 4.52
+    },
+    {
+      "text": "commitment to VI",
+      "start": 3381.189,
+      "duration": 7.05
+    },
+    {
+      "text": "namely a J - J sub G to the our VI",
+      "start": 3382.829,
+      "duration": 9.01
+    },
+    {
+      "text": "so this is the blinding factor and this",
+      "start": 3388.239,
+      "duration": 7.53
+    },
+    {
+      "text": "is J sub G to the V I so this is a",
+      "start": 3391.839,
+      "duration": 5.87
+    },
+    {
+      "text": "comment that there's no commitment to VI",
+      "start": 3395.769,
+      "duration": 5.49
+    },
+    {
+      "text": "blinded with RBI okay so we have K",
+      "start": 3397.709,
+      "duration": 6.671
+    },
+    {
+      "text": "commitments to be a similarly we have K",
+      "start": 3401.259,
+      "duration": 8.34
+    },
+    {
+      "text": "commitments to the serial numbers so k /",
+      "start": 3404.38,
+      "duration": 6.0
+    },
+    {
+      "text": "there's no commit",
+      "start": 3409.599,
+      "duration": 5.341
+    },
+    {
+      "text": "the serial numbers and for each value",
+      "start": 3410.38,
+      "duration": 8.43
+    },
+    {
+      "text": "commitment we also include a range proof",
+      "start": 3414.94,
+      "duration": 7.98
+    },
+    {
+      "text": "which says that I'm I have a commitment",
+      "start": 3418.81,
+      "duration": 6.83
+    },
+    {
+      "text": "which is basically a point on the curve",
+      "start": 3422.92,
+      "duration": 8.84
+    },
+    {
+      "text": "it's a commitment to be high with some",
+      "start": 3425.64,
+      "duration": 6.12
+    },
+    {
+      "text": "randomness rvi these are the witnesses",
+      "start": 3431.82,
+      "duration": 6.43
+    },
+    {
+      "text": "so I'm not going to tell you the",
+      "start": 3435.76,
+      "duration": 5.22
+    },
+    {
+      "text": "witnesses but I will be I will be",
+      "start": 3438.25,
+      "duration": 6.98
+    },
+    {
+      "text": "convincing you that still the underlying",
+      "start": 3440.98,
+      "duration": 8.46
+    },
+    {
+      "text": "value lies in the range so it's less",
+      "start": 3445.23,
+      "duration": 10.57
+    },
+    {
+      "text": "than say 21 million bitcoins so it's not",
+      "start": 3449.44,
+      "duration": 11.97
+    },
+    {
+      "text": "some negative value so we don't you",
+      "start": 3455.8,
+      "duration": 7.14
+    },
+    {
+      "text": "don't know you don't need to know how",
+      "start": 3461.41,
+      "duration": 5.1
+    },
+    {
+      "text": "such zero logical system looks like we",
+      "start": 3462.94,
+      "duration": 5.67
+    },
+    {
+      "text": "just need to accept that such a animal",
+      "start": 3466.51,
+      "duration": 7.11
+    },
+    {
+      "text": "exists and then okay so we were able to",
+      "start": 3468.61,
+      "duration": 7.29
+    },
+    {
+      "text": "prove that the commitments are well",
+      "start": 3473.62,
+      "duration": 5.37
+    },
+    {
+      "text": "formed now we need to convince the",
+      "start": 3475.9,
+      "duration": 7.35
+    },
+    {
+      "text": "coordinator that the sum of the sum of",
+      "start": 3478.99,
+      "duration": 8.93
+    },
+    {
+      "text": "the VIS add up to the claimed registered",
+      "start": 3483.25,
+      "duration": 10.47
+    },
+    {
+      "text": "in patootie rec so how come just a",
+      "start": 3487.92,
+      "duration": 10.63
+    },
+    {
+      "text": "comment and the you I don't know if you",
+      "start": 3493.72,
+      "duration": 13.11
+    },
+    {
+      "text": "said that the are B I am si the blinding",
+      "start": 3498.55,
+      "duration": 12.89
+    },
+    {
+      "text": "factors are chosen randomly oh yeah",
+      "start": 3506.83,
+      "duration": 6.99
+    },
+    {
+      "text": "that's right that's right I forgot to",
+      "start": 3511.44,
+      "duration": 7.15
+    },
+    {
+      "text": "tell ya you are absolutely right yeah if",
+      "start": 3513.82,
+      "duration": 7.08
+    },
+    {
+      "text": "they are not chosen randomly then Alice",
+      "start": 3518.59,
+      "duration": 7.85
+    },
+    {
+      "text": "is screwed and and the coordinator could",
+      "start": 3520.9,
+      "duration": 9.59
+    },
+    {
+      "text": "do unionize Alice if the values are not",
+      "start": 3526.44,
+      "duration": 12.58
+    },
+    {
+      "text": "padded here okay so this some proof this",
+      "start": 3530.49,
+      "duration": 11.98
+    },
+    {
+      "text": "is super simple we apply the same trick",
+      "start": 3539.02,
+      "duration": 5.31
+    },
+    {
+      "text": "we already",
+      "start": 3542.47,
+      "duration": 3.66
+    },
+    {
+      "text": "described several times in previous",
+      "start": 3544.33,
+      "duration": 4.53
+    },
+    {
+      "text": "muscle research club videos so it's",
+      "start": 3546.13,
+      "duration": 5.19
+    },
+    {
+      "text": "super easy how to have week improved the",
+      "start": 3548.86,
+      "duration": 4.38
+    },
+    {
+      "text": "stump of committed values in the petals",
+      "start": 3551.32,
+      "duration": 3.6
+    },
+    {
+      "text": "and commitment equals the public value",
+      "start": 3553.24,
+      "duration": 5.55
+    },
+    {
+      "text": "so we just need to the coordinator can",
+      "start": 3554.92,
+      "duration": 7.77
+    },
+    {
+      "text": "just calculate the product of the value",
+      "start": 3558.79,
+      "duration": 7.47
+    },
+    {
+      "text": "commitment and the product of the value",
+      "start": 3562.69,
+      "duration": 9.69
+    },
+    {
+      "text": "commitments will be gg to the sum sorry",
+      "start": 3566.26,
+      "duration": 10.37
+    },
+    {
+      "text": "Gigi to the sum of the yet to the sum of",
+      "start": 3572.38,
+      "duration": 7.92
+    },
+    {
+      "text": "the randomness values our VI the",
+      "start": 3576.63,
+      "duration": 8.29
+    },
+    {
+      "text": "blending factors and gh to the V in so",
+      "start": 3580.3,
+      "duration": 7.53
+    },
+    {
+      "text": "basically this is the this if this",
+      "start": 3584.92,
+      "duration": 7.98
+    },
+    {
+      "text": "equality holds then L is indeed convince",
+      "start": 3587.83,
+      "duration": 8.06
+    },
+    {
+      "text": "the coordinator that the sum of the",
+      "start": 3592.9,
+      "duration": 8.34
+    },
+    {
+      "text": "committed messages adapt to the in yeah",
+      "start": 3595.89,
+      "duration": 8.11
+    },
+    {
+      "text": "also not this is not zero knowledge",
+      "start": 3601.24,
+      "duration": 5.19
+    },
+    {
+      "text": "proof it's not a Sigma protocol either",
+      "start": 3604.0,
+      "duration": 7.92
+    },
+    {
+      "text": "but it could be for our purpose like if",
+      "start": 3606.43,
+      "duration": 8.55
+    },
+    {
+      "text": "you since when you reveal a sum of",
+      "start": 3611.92,
+      "duration": 7.02
+    },
+    {
+      "text": "random numbers you don't reveal anything",
+      "start": 3614.98,
+      "duration": 7.23
+    },
+    {
+      "text": "about the original numbers and those are",
+      "start": 3618.94,
+      "duration": 6.33
+    },
+    {
+      "text": "just blinding terms this is still what's",
+      "start": 3622.21,
+      "duration": 7.2
+    },
+    {
+      "text": "called witness hiding but it's strictly",
+      "start": 3625.27,
+      "duration": 9.32
+    },
+    {
+      "text": "speaking it's not zero knowledge and the",
+      "start": 3629.41,
+      "duration": 8.58
+    },
+    {
+      "text": "like we could do it zero knowledge by",
+      "start": 3634.59,
+      "duration": 5.8
+    },
+    {
+      "text": "making a Sigma protocol that proves",
+      "start": 3637.99,
+      "duration": 6.27
+    },
+    {
+      "text": "knowledge of the sum and like eventually",
+      "start": 3640.39,
+      "duration": 8.43
+    },
+    {
+      "text": "shows so we would do like G to the to",
+      "start": 3644.26,
+      "duration": 9.15
+    },
+    {
+      "text": "the PI sum and then prove that this",
+      "start": 3648.82,
+      "duration": 7.28
+    },
+    {
+      "text": "commitment lose the other commitment",
+      "start": 3653.41,
+      "duration": 5.73
+    },
+    {
+      "text": "opens to a commitment to VN or something",
+      "start": 3656.1,
+      "duration": 4.27
+    },
+    {
+      "text": "like that",
+      "start": 3659.14,
+      "duration": 4.32
+    },
+    {
+      "text": "we don't see a reason why that that",
+      "start": 3660.37,
+      "duration": 7.2
+    },
+    {
+      "text": "needs to to be a sigma protocol so just",
+      "start": 3663.46,
+      "duration": 7.26
+    },
+    {
+      "text": "to clarify that the this pi term is is",
+      "start": 3667.57,
+      "duration": 7.97
+    },
+    {
+      "text": "literally just the sum of the exponents",
+      "start": 3670.72,
+      "duration": 4.82
+    },
+    {
+      "text": "yeah okay so we have the some proof",
+      "start": 3676.13,
+      "duration": 7.02
+    },
+    {
+      "text": "which is pretty simple pretty standard",
+      "start": 3680.78,
+      "duration": 4.59
+    },
+    {
+      "text": "we discussed it several times what is",
+      "start": 3683.15,
+      "duration": 4.11
+    },
+    {
+      "text": "missing from the input registration is",
+      "start": 3685.37,
+      "duration": 5.76
+    },
+    {
+      "text": "that now the coordinator accepting and",
+      "start": 3687.26,
+      "duration": 5.76
+    },
+    {
+      "text": "verifying these proofs the coordinator",
+      "start": 3691.13,
+      "duration": 5.61
+    },
+    {
+      "text": "should give out these valid max and so",
+      "start": 3693.02,
+      "duration": 8.34
+    },
+    {
+      "text": "for each for each so this is the message",
+      "start": 3696.74,
+      "duration": 8.16
+    },
+    {
+      "text": "the coordinator is signing if you wish",
+      "start": 3701.36,
+      "duration": 8.0
+    },
+    {
+      "text": "this is not an insignia but a Mac and",
+      "start": 3704.9,
+      "duration": 11.22
+    },
+    {
+      "text": "the coordinator will convince Alice that",
+      "start": 3709.36,
+      "duration": 10.27
+    },
+    {
+      "text": "the Mac is Val formed so like without",
+      "start": 3716.12,
+      "duration": 5.31
+    },
+    {
+      "text": "this Z knowledge proof it would be",
+      "start": 3719.63,
+      "duration": 4.68
+    },
+    {
+      "text": "really bad because maybe Alice just got",
+      "start": 3721.43,
+      "duration": 5.97
+    },
+    {
+      "text": "to get some garbage from the coordinator",
+      "start": 3724.31,
+      "duration": 8.19
+    },
+    {
+      "text": "and we don't want that so this is just a",
+      "start": 3727.4,
+      "duration": 11.52
+    },
+    {
+      "text": "form of description how come how perform",
+      "start": 3732.5,
+      "duration": 8.07
+    },
+    {
+      "text": "a description of a zero knowledge proof",
+      "start": 3738.92,
+      "duration": 6.57
+    },
+    {
+      "text": "system that achieves convincing Alice",
+      "start": 3740.57,
+      "duration": 10.35
+    },
+    {
+      "text": "that V is a is a valid Mac with respect",
+      "start": 3745.49,
+      "duration": 8.94
+    },
+    {
+      "text": "to these public keys public parameters",
+      "start": 3750.92,
+      "duration": 7.02
+    },
+    {
+      "text": "of the coordinator yeah because",
+      "start": 3754.43,
+      "duration": 5.37
+    },
+    {
+      "text": "obviously the coordinator doesn't want",
+      "start": 3757.94,
+      "duration": 4.65
+    },
+    {
+      "text": "to tell Alice the underlying secret",
+      "start": 3759.8,
+      "duration": 6.69
+    },
+    {
+      "text": "parameters in the first place so yeah",
+      "start": 3762.59,
+      "duration": 6.36
+    },
+    {
+      "text": "maybe I have a lot of clear in",
+      "start": 3766.49,
+      "duration": 5.96
+    },
+    {
+      "text": "explaining this so you could help me",
+      "start": 3768.95,
+      "duration": 7.17
+    },
+    {
+      "text": "so first the T and you are also part of",
+      "start": 3772.45,
+      "duration": 6.43
+    },
+    {
+      "text": "the Mac I would say yeah yeah that's",
+      "start": 3776.12,
+      "duration": 6.06
+    },
+    {
+      "text": "true and then this is this is exactly",
+      "start": 3778.88,
+      "duration": 6.09
+    },
+    {
+      "text": "how the coordinator proves to Alice that",
+      "start": 3782.18,
+      "duration": 6.99
+    },
+    {
+      "text": "it's not using a different key for each",
+      "start": 3784.97,
+      "duration": 7.08
+    },
+    {
+      "text": "user so that it can be anonymous them",
+      "start": 3789.17,
+      "duration": 8.43
+    },
+    {
+      "text": "later the the reason is because CW and I",
+      "start": 3792.05,
+      "duration": 8.66
+    },
+    {
+      "text": "are published in advance",
+      "start": 3797.6,
+      "duration": 6.3
+    },
+    {
+      "text": "everybody should check that they get the",
+      "start": 3800.71,
+      "duration": 5.32
+    },
+    {
+      "text": "same ones if they fetch at different",
+      "start": 3803.9,
+      "duration": 5.22
+    },
+    {
+      "text": "times over different tor circuits so",
+      "start": 3806.03,
+      "duration": 3.99
+    },
+    {
+      "text": "these parameters",
+      "start": 3809.12,
+      "duration": 2.66
+    },
+    {
+      "text": "we well-known just like the round",
+      "start": 3810.02,
+      "duration": 5.01
+    },
+    {
+      "text": "denomination keys for the blind signing",
+      "start": 3811.78,
+      "duration": 6.76
+    },
+    {
+      "text": "or in the current protocol and then this",
+      "start": 3815.03,
+      "duration": 8.43
+    },
+    {
+      "text": "proof convinces Alice as a proof of",
+      "start": 3818.54,
+      "duration": 9.12
+    },
+    {
+      "text": "knowledge that this was relative to the",
+      "start": 3823.46,
+      "duration": 6.63
+    },
+    {
+      "text": "the key so Alice cannot use this to",
+      "start": 3827.66,
+      "duration": 4.86
+    },
+    {
+      "text": "prove to anybody else that her Mac was",
+      "start": 3830.09,
+      "duration": 5.67
+    },
+    {
+      "text": "derived correctly or sorry in this case",
+      "start": 3832.52,
+      "duration": 4.71
+    },
+    {
+      "text": "she can because this is probably gonna",
+      "start": 3835.76,
+      "duration": 4.32
+    },
+    {
+      "text": "be a non-interactive proof so anybody",
+      "start": 3837.23,
+      "duration": 4.98
+    },
+    {
+      "text": "could verify it but if she does that she",
+      "start": 3840.08,
+      "duration": 4.77
+    },
+    {
+      "text": "reveals her Mac so sorry that was a",
+      "start": 3842.21,
+      "duration": 6.0
+    },
+    {
+      "text": "little confusing but the point is Alice",
+      "start": 3844.85,
+      "duration": 5.55
+    },
+    {
+      "text": "only learns from this proof that this is",
+      "start": 3848.21,
+      "duration": 5.58
+    },
+    {
+      "text": "a Mac generated by the the secret keys",
+      "start": 3850.4,
+      "duration": 12.26
+    },
+    {
+      "text": "committed to by the parameters yeah okay",
+      "start": 3853.79,
+      "duration": 11.97
+    },
+    {
+      "text": "so with that we conclude the input",
+      "start": 3862.66,
+      "duration": 5.29
+    },
+    {
+      "text": "registration phase and now we can move",
+      "start": 3865.76,
+      "duration": 5.13
+    },
+    {
+      "text": "forward to the output registration which",
+      "start": 3867.95,
+      "duration": 5.91
+    },
+    {
+      "text": "is a little bit more complicated but not",
+      "start": 3870.89,
+      "duration": 9.0
+    },
+    {
+      "text": "that much so now let's say Alice got all",
+      "start": 3873.86,
+      "duration": 10.32
+    },
+    {
+      "text": "together T valid credentials so T valid",
+      "start": 3879.89,
+      "duration": 8.7
+    },
+    {
+      "text": "Max and now Alice just want to use in",
+      "start": 3884.18,
+      "duration": 7.74
+    },
+    {
+      "text": "the first output registration just ass",
+      "start": 3888.59,
+      "duration": 11.84
+    },
+    {
+      "text": "out of this D right",
+      "start": 3891.92,
+      "duration": 8.51
+    },
+    {
+      "text": "yeah so this this is in the first place",
+      "start": 3901.49,
+      "duration": 7.17
+    },
+    {
+      "text": "what we do and this this is called the",
+      "start": 3905.75,
+      "duration": 6.51
+    },
+    {
+      "text": "show protocol which is more in more",
+      "start": 3908.66,
+      "duration": 5.79
+    },
+    {
+      "text": "detailed explained in the signal paper",
+      "start": 3912.26,
+      "duration": 4.47
+    },
+    {
+      "text": "but it is even harder to understand the",
+      "start": 3914.45,
+      "duration": 4.29
+    },
+    {
+      "text": "single paper because in the signal paper",
+      "start": 3916.73,
+      "duration": 5.4
+    },
+    {
+      "text": "there are many typos and errors so we",
+      "start": 3918.74,
+      "duration": 5.52
+    },
+    {
+      "text": "maybe this is the right place to learn",
+      "start": 3922.13,
+      "duration": 4.62
+    },
+    {
+      "text": "it and it's also more general we only",
+      "start": 3924.26,
+      "duration": 4.89
+    },
+    {
+      "text": "need a specialized version of it because",
+      "start": 3926.75,
+      "duration": 5.19
+    },
+    {
+      "text": "we only use one kind of attribute that's",
+      "start": 3929.15,
+      "duration": 4.41
+    },
+    {
+      "text": "really true so what what's happening",
+      "start": 3931.94,
+      "duration": 4.71
+    },
+    {
+      "text": "under the hood is that we have this nvi",
+      "start": 3933.56,
+      "duration": 4.94
+    },
+    {
+      "text": "and msi commitment",
+      "start": 3936.65,
+      "duration": 9.24
+    },
+    {
+      "text": "these are reran demised namely really",
+      "start": 3938.5,
+      "duration": 10.54
+    },
+    {
+      "text": "randomizing me means that it's",
+      "start": 3945.89,
+      "duration": 6.479
+    },
+    {
+      "text": "multiplied with another point on the",
+      "start": 3949.04,
+      "duration": 6.51
+    },
+    {
+      "text": "curve just to look just to make it look",
+      "start": 3952.369,
+      "duration": 7.071
+    },
+    {
+      "text": "even more random and then we have this",
+      "start": 3955.55,
+      "duration": 10.11
+    },
+    {
+      "text": "randomized commitment and 0h magic",
+      "start": 3959.44,
+      "duration": 9.61
+    },
+    {
+      "text": "allows at least to prove that he has a",
+      "start": 3965.66,
+      "duration": 6.72
+    },
+    {
+      "text": "valid Mac on the rear end of my stuff or",
+      "start": 3969.05,
+      "duration": 7.08
+    },
+    {
+      "text": "more precisely that she just show she",
+      "start": 3972.38,
+      "duration": 6.57
+    },
+    {
+      "text": "just shows the rear end of my stuff but",
+      "start": 3976.13,
+      "duration": 6.9
+    },
+    {
+      "text": "still can say that look I know well is",
+      "start": 3978.95,
+      "duration": 7.49
+    },
+    {
+      "text": "Mac behind these three randomized things",
+      "start": 3983.03,
+      "duration": 7.2
+    },
+    {
+      "text": "maybe I was again a bit clearer but this",
+      "start": 3986.44,
+      "duration": 8.32
+    },
+    {
+      "text": "is this is what happened yeah what is",
+      "start": 3990.23,
+      "duration": 13.08
+    },
+    {
+      "text": "the the V the big V is the last run the",
+      "start": 3994.76,
+      "duration": 13.38
+    },
+    {
+      "text": "recession's weight in so that's that",
+      "start": 4003.31,
+      "duration": 5.94
+    },
+    {
+      "text": "should be VI",
+      "start": 4008.14,
+      "duration": 3.03
+    },
+    {
+      "text": "I think that's fickle of the eyes okay",
+      "start": 4009.25,
+      "duration": 6.47
+    },
+    {
+      "text": "and it's the last component of the Mac",
+      "start": 4011.17,
+      "duration": 6.72
+    },
+    {
+      "text": "yes perfect thank you",
+      "start": 4015.72,
+      "duration": 6.07
+    },
+    {
+      "text": "this is a type of from our part yeah I",
+      "start": 4017.89,
+      "duration": 6.81
+    },
+    {
+      "text": "fixed it I think you're using a an old",
+      "start": 4021.79,
+      "duration": 6.15
+    },
+    {
+      "text": "version of the PDF I don't know maybe I",
+      "start": 4024.7,
+      "duration": 7.83
+    },
+    {
+      "text": "fixed that okay sorry I think I fixed it",
+      "start": 4027.94,
+      "duration": 6.849
+    },
+    {
+      "text": "in the like the markdown",
+      "start": 4032.53,
+      "duration": 5.019
+    },
+    {
+      "text": "work in progress branch I should I",
+      "start": 4034.789,
+      "duration": 4.5
+    },
+    {
+      "text": "should bring that over to the overleaf",
+      "start": 4037.549,
+      "duration": 7.92
+    },
+    {
+      "text": "version another question in T because",
+      "start": 4039.289,
+      "duration": 9.93
+    },
+    {
+      "text": "the the the Mac has a component at each",
+      "start": 4045.469,
+      "duration": 9.3
+    },
+    {
+      "text": "component but this T is the number of of",
+      "start": 4049.219,
+      "duration": 12.5
+    },
+    {
+      "text": "Mac's or the combination a random scalar",
+      "start": 4054.769,
+      "duration": 10.52
+    },
+    {
+      "text": "it's a component of the Mac and it's",
+      "start": 4061.719,
+      "duration": 7.65
+    },
+    {
+      "text": "just a random field element no but but",
+      "start": 4065.289,
+      "duration": 6.79
+    },
+    {
+      "text": "Lucas makes a point here that we also do",
+      "start": 4069.369,
+      "duration": 5.83
+    },
+    {
+      "text": "not see the number of credentials and",
+      "start": 4072.079,
+      "duration": 11.73
+    },
+    {
+      "text": "it's gone yes oh sorry yeah but a TI is",
+      "start": 4075.199,
+      "duration": 10.711
+    },
+    {
+      "text": "the one that comes from the Mac and I",
+      "start": 4083.809,
+      "duration": 4.11
+    },
+    {
+      "text": "don't think we ever used he again after",
+      "start": 4085.91,
+      "duration": 5.549
+    },
+    {
+      "text": "this paragraph yeah we should choose a",
+      "start": 4087.919,
+      "duration": 6.18
+    },
+    {
+      "text": "different because here's there's the",
+      "start": 4091.459,
+      "duration": 6.03
+    },
+    {
+      "text": "class yeah yeah my bad you have an eye",
+      "start": 4094.099,
+      "duration": 11.58
+    },
+    {
+      "text": "like an ego I try to understand yeah but",
+      "start": 4097.489,
+      "duration": 10.471
+    },
+    {
+      "text": "this is the valid point because this is",
+      "start": 4105.679,
+      "duration": 4.35
+    },
+    {
+      "text": "called like C times K or something",
+      "start": 4107.96,
+      "duration": 4.799
+    },
+    {
+      "text": "instead of T okay this is confusing",
+      "start": 4110.029,
+      "duration": 6.63
+    },
+    {
+      "text": "indeed yeah so a little bit so little",
+      "start": 4112.759,
+      "duration": 6.36
+    },
+    {
+      "text": "letters in the alphabet we should have a",
+      "start": 4116.659,
+      "duration": 5.64
+    },
+    {
+      "text": "longer alphabet right or I don't know",
+      "start": 4119.119,
+      "duration": 7.46
+    },
+    {
+      "text": "maybe we should use Hebrew letters at",
+      "start": 4122.299,
+      "duration": 4.28
+    },
+    {
+      "text": "you have degree the Greek alphabet the",
+      "start": 4128.349,
+      "duration": 6.101
+    },
+    {
+      "text": "the English alphabet the Arabic alphabet",
+      "start": 4131.569,
+      "duration": 5.941
+    },
+    {
+      "text": "[Music]",
+      "start": 4134.45,
+      "duration": 3.06
+    },
+    {
+      "text": "why I think when one important thing for",
+      "start": 4141.25,
+      "duration": 9.009
+    },
+    {
+      "text": "the notation is anywhere you see a",
+      "start": 4147.619,
+      "duration": 6.18
+    },
+    {
+      "text": "subscript I that means it's part of like",
+      "start": 4150.259,
+      "duration": 5.54
+    },
+    {
+      "text": "it's related to specific credential",
+      "start": 4153.799,
+      "duration": 5.82
+    },
+    {
+      "text": "except where I made that typo with V I'm",
+      "start": 4155.799,
+      "duration": 9.96
+    },
+    {
+      "text": "sorry that's a helpful intuition though",
+      "start": 4159.619,
+      "duration": 9.45
+    },
+    {
+      "text": "it's just so that you could to write",
+      "start": 4165.759,
+      "duration": 5.901
+    },
+    {
+      "text": "perfect document there will be always",
+      "start": 4169.069,
+      "duration": 8.02
+    },
+    {
+      "text": "errors and typos well one step at a time",
+      "start": 4171.66,
+      "duration": 10.17
+    },
+    {
+      "text": "right okay so is there anything to add",
+      "start": 4177.089,
+      "duration": 8.131
+    },
+    {
+      "text": "to this credential validity so this is",
+      "start": 4181.83,
+      "duration": 5.25
+    },
+    {
+      "text": "where I wanted to bring up the issue air",
+      "start": 4185.22,
+      "duration": 4.53
+    },
+    {
+      "text": "parameters they're not just used in",
+      "start": 4187.08,
+      "duration": 7.02
+    },
+    {
+      "text": "order to convince Alice that she got a",
+      "start": 4189.75,
+      "duration": 8.55
+    },
+    {
+      "text": "valid Mac they're also used in here to",
+      "start": 4194.1,
+      "duration": 5.28
+    },
+    {
+      "text": "generate the proof",
+      "start": 4198.3,
+      "duration": 8.06
+    },
+    {
+      "text": "so both CW and I are used",
+      "start": 4199.38,
+      "duration": 11.67
+    },
+    {
+      "text": "sorry no only I in this case and this",
+      "start": 4206.36,
+      "duration": 12.28
+    },
+    {
+      "text": "value Z Z is generated by Alice it's",
+      "start": 4211.05,
+      "duration": 11.88
+    },
+    {
+      "text": "kind of generated one way so Alice",
+      "start": 4218.64,
+      "duration": 6.75
+    },
+    {
+      "text": "generates it by taking I and raising it",
+      "start": 4222.93,
+      "duration": 7.11
+    },
+    {
+      "text": "to the power Z but the coordinator",
+      "start": 4225.39,
+      "duration": 8.25
+    },
+    {
+      "text": "calculates I in a different way it",
+      "start": 4230.04,
+      "duration": 6.0
+    },
+    {
+      "text": "calculates it from the randomized",
+      "start": 4233.64,
+      "duration": 11.25
+    },
+    {
+      "text": "commitments and from its secret key yeah",
+      "start": 4236.04,
+      "duration": 11.61
+    },
+    {
+      "text": "but if you want you can also just as of",
+      "start": 4244.89,
+      "duration": 5.099
+    },
+    {
+      "text": "now think of this whole show protocol or",
+      "start": 4247.65,
+      "duration": 5.06
+    },
+    {
+      "text": "credential loyalty as a black box so",
+      "start": 4249.989,
+      "duration": 5.311
+    },
+    {
+      "text": "Alice randomizes the commitment and",
+      "start": 4252.71,
+      "duration": 6.07
+    },
+    {
+      "text": "proves that he has a Mac she has a Mac",
+      "start": 4255.3,
+      "duration": 7.56
+    },
+    {
+      "text": "which is valid but not not showing the",
+      "start": 4258.78,
+      "duration": 11.73
+    },
+    {
+      "text": "Mac itself to the coordinator maybe",
+      "start": 4262.86,
+      "duration": 12.47
+    },
+    {
+      "text": "maybe hopefully now we explained it well",
+      "start": 4270.51,
+      "duration": 4.82
+    },
+    {
+      "text": "I then",
+      "start": 4283.25,
+      "duration": 4.23
+    },
+    {
+      "text": "can you repeat that Lucas",
+      "start": 4299.74,
+      "duration": 4.32
+    },
+    {
+      "text": "looks like the internet is gone in",
+      "start": 4310.21,
+      "duration": 12.09
+    },
+    {
+      "text": "Argentina no okay so you can ask it as a",
+      "start": 4313.06,
+      "duration": 15.09
+    },
+    {
+      "text": "youtube comment okay so like how can we",
+      "start": 4322.3,
+      "duration": 10.17
+    },
+    {
+      "text": "prevent users overspending and then we",
+      "start": 4328.15,
+      "duration": 8.73
+    },
+    {
+      "text": "have one one less now just this right",
+      "start": 4332.47,
+      "duration": 6.89
+    },
+    {
+      "text": "what do we prove here",
+      "start": 4336.88,
+      "duration": 5.67
+    },
+    {
+      "text": "okay but this is trivial so what this is",
+      "start": 4339.36,
+      "duration": 4.48
+    },
+    {
+      "text": "also trivial whatever",
+      "start": 4342.55,
+      "duration": 6.54
+    },
+    {
+      "text": "so overspending prevention so the user",
+      "start": 4343.84,
+      "duration": 12.29
+    },
+    {
+      "text": "has the user has this as credentials and",
+      "start": 4349.09,
+      "duration": 10.59
+    },
+    {
+      "text": "we want to prove that they add up to",
+      "start": 4356.13,
+      "duration": 9.43
+    },
+    {
+      "text": "this output you txo well you be out so",
+      "start": 4359.68,
+      "duration": 9.42
+    },
+    {
+      "text": "again at this point in time Alice has",
+      "start": 4365.56,
+      "duration": 7.74
+    },
+    {
+      "text": "randomized commitments and this is CBI",
+      "start": 4369.1,
+      "duration": 6.83
+    },
+    {
+      "text": "CBI denotes the randomize commitment a",
+      "start": 4373.3,
+      "duration": 6.45
+    },
+    {
+      "text": "CBI is just basically mvi with",
+      "start": 4375.93,
+      "duration": 10.56
+    },
+    {
+      "text": "randomized with GV and by a user chosen",
+      "start": 4379.75,
+      "duration": 11.07
+    },
+    {
+      "text": "randomizing factor VII but if we spell",
+      "start": 4386.49,
+      "duration": 6.91
+    },
+    {
+      "text": "it out then this point is essentially",
+      "start": 4390.82,
+      "duration": 5.67
+    },
+    {
+      "text": "has three generator points and then each",
+      "start": 4393.4,
+      "duration": 6.54
+    },
+    {
+      "text": "generator point we have the exponents",
+      "start": 4396.49,
+      "duration": 7.08
+    },
+    {
+      "text": "are essentially sums terms of either zi",
+      "start": 4399.94,
+      "duration": 8.52
+    },
+    {
+      "text": "r VI or VI and we want to say something",
+      "start": 4403.57,
+      "duration": 8.73
+    },
+    {
+      "text": "about the sums of V eyes so this is",
+      "start": 4408.46,
+      "duration": 9.33
+    },
+    {
+      "text": "pretty simple if the coordinator takes",
+      "start": 4412.3,
+      "duration": 7.71
+    },
+    {
+      "text": "the product of these randomized",
+      "start": 4417.79,
+      "duration": 3.69
+    },
+    {
+      "text": "commitments then this is what we will",
+      "start": 4420.01,
+      "duration": 5.31
+    },
+    {
+      "text": "have okay so what we can do is we can",
+      "start": 4421.48,
+      "duration": 9.48
+    },
+    {
+      "text": "just open the commitment on GV and GG",
+      "start": 4425.32,
+      "duration": 7.98
+    },
+    {
+      "text": "how can we open the commitment with",
+      "start": 4430.96,
+      "duration": 5.94
+    },
+    {
+      "text": "respect to these two generators well we",
+      "start": 4433.3,
+      "duration": 6.99
+    },
+    {
+      "text": "just tell the coordinator the exponents",
+      "start": 4436.9,
+      "duration": 6.12
+    },
+    {
+      "text": "corresponding to these generators so",
+      "start": 4440.29,
+      "duration": 3.63
+    },
+    {
+      "text": "essential",
+      "start": 4443.02,
+      "duration": 2.82
+    },
+    {
+      "text": "the proof which is the Gannet in zero",
+      "start": 4443.92,
+      "duration": 3.48
+    },
+    {
+      "text": "knowledge proof but rather a witness",
+      "start": 4445.84,
+      "duration": 5.55
+    },
+    {
+      "text": "hiding but this is just small stability",
+      "start": 4447.4,
+      "duration": 9.68
+    },
+    {
+      "text": "just a technicality so the proof is two",
+      "start": 4451.39,
+      "duration": 9.3
+    },
+    {
+      "text": "scalar field elements the sum of the Z",
+      "start": 4457.08,
+      "duration": 5.62
+    },
+    {
+      "text": "is in the sum of the RBI's",
+      "start": 4460.69,
+      "duration": 8.54
+    },
+    {
+      "text": "so hence if we give these two group",
+      "start": 4462.7,
+      "duration": 8.88
+    },
+    {
+      "text": "scalar field elements the coordinator",
+      "start": 4469.23,
+      "duration": 5.44
+    },
+    {
+      "text": "the coordinator can just raise GV to the",
+      "start": 4471.58,
+      "duration": 6.69
+    },
+    {
+      "text": "first proof element and GG to the second",
+      "start": 4474.67,
+      "duration": 8.01
+    },
+    {
+      "text": "proof element and this is the well you",
+      "start": 4478.27,
+      "duration": 9.3
+    },
+    {
+      "text": "what Bob's claims to be the Sun so the",
+      "start": 4482.68,
+      "duration": 6.72
+    },
+    {
+      "text": "right hand side can trivially be",
+      "start": 4487.57,
+      "duration": 4.38
+    },
+    {
+      "text": "calculated either from the proof or is",
+      "start": 4489.4,
+      "duration": 6.78
+    },
+    {
+      "text": "public knowledge and their left hand",
+      "start": 4491.95,
+      "duration": 6.66
+    },
+    {
+      "text": "side is just the sum of the rear end of",
+      "start": 4496.18,
+      "duration": 5.55
+    },
+    {
+      "text": "my commitments so if this equality holds",
+      "start": 4498.61,
+      "duration": 5.79
+    },
+    {
+      "text": "then also the claim the statement what",
+      "start": 4501.73,
+      "duration": 7.59
+    },
+    {
+      "text": "Bob is trying to prove holds right so",
+      "start": 4504.4,
+      "duration": 9.21
+    },
+    {
+      "text": "this is this is it and so this is how we",
+      "start": 4509.32,
+      "duration": 11.01
+    },
+    {
+      "text": "can prove prevent overspending okay and",
+      "start": 4513.61,
+      "duration": 9.45
+    },
+    {
+      "text": "then in the very end of the output",
+      "start": 4520.33,
+      "duration": 6.35
+    },
+    {
+      "text": "registration phase we also want to",
+      "start": 4523.06,
+      "duration": 8.55
+    },
+    {
+      "text": "prevent double spending and double",
+      "start": 4526.68,
+      "duration": 8.02
+    },
+    {
+      "text": "spending is pretty similar that the",
+      "start": 4531.61,
+      "duration": 4.83
+    },
+    {
+      "text": "spending prevention is pretty similar to",
+      "start": 4534.7,
+      "duration": 8.0
+    },
+    {
+      "text": "the previous knowledge group we have as",
+      "start": 4536.44,
+      "duration": 9.75
+    },
+    {
+      "text": "we randomized serial number commitments",
+      "start": 4542.7,
+      "duration": 6.76
+    },
+    {
+      "text": "so again MSI is a commitment to the",
+      "start": 4546.19,
+      "duration": 6.15
+    },
+    {
+      "text": "serial number what which is now real",
+      "start": 4549.46,
+      "duration": 6.75
+    },
+    {
+      "text": "randomized by the user so the real",
+      "start": 4552.34,
+      "duration": 6.45
+    },
+    {
+      "text": "randomized commitment looks like GS to",
+      "start": 4556.21,
+      "duration": 8.15
+    },
+    {
+      "text": "the Z IgG to the RSI and gh to the si so",
+      "start": 4558.79,
+      "duration": 8.7
+    },
+    {
+      "text": "now the user needs to conduct the",
+      "start": 4564.36,
+      "duration": 7.0
+    },
+    {
+      "text": "coordinates a mistake in the this is",
+      "start": 4567.49,
+      "duration": 7.91
+    },
+    {
+      "text": "because we move the sections so this is",
+      "start": 4571.36,
+      "duration": 10.78
+    },
+    {
+      "text": "redundant with the CSI defined at 2.2.1",
+      "start": 4575.4,
+      "duration": 6.74
+    },
+    {
+      "text": "it's exactly the same one what's the",
+      "start": 4582.199,
+      "duration": 6.46
+    },
+    {
+      "text": "point what's your point",
+      "start": 4587.04,
+      "duration": 5.19
+    },
+    {
+      "text": "this one says she randomizes the serial",
+      "start": 4588.659,
+      "duration": 5.131
+    },
+    {
+      "text": "numbers again",
+      "start": 4592.23,
+      "duration": 3.84
+    },
+    {
+      "text": "but that's she already randomized them",
+      "start": 4593.79,
+      "duration": 5.49
+    },
+    {
+      "text": "to prove the credentials valid so same",
+      "start": 4596.07,
+      "duration": 9.859
+    },
+    {
+      "text": "CSI I just took it as a reminder okay I",
+      "start": 4599.28,
+      "duration": 10.169
+    },
+    {
+      "text": "know it's an editorial mistake because",
+      "start": 4605.929,
+      "duration": 7.27
+    },
+    {
+      "text": "women of things are okay so basically",
+      "start": 4609.449,
+      "duration": 5.761
+    },
+    {
+      "text": "the user wants to convince the",
+      "start": 4613.199,
+      "duration": 6.841
+    },
+    {
+      "text": "coordinator that given CSI the user",
+      "start": 4615.21,
+      "duration": 5.94
+    },
+    {
+      "text": "knows",
+      "start": 4620.04,
+      "duration": 6.75
+    },
+    {
+      "text": "gir Si and si such that so this is",
+      "start": 4621.15,
+      "duration": 10.29
+    },
+    {
+      "text": "called knowledge of representation so",
+      "start": 4626.79,
+      "duration": 8.639
+    },
+    {
+      "text": "the user knows that the representation",
+      "start": 4631.44,
+      "duration": 6.12
+    },
+    {
+      "text": "of this point with respect to these",
+      "start": 4635.429,
+      "duration": 5.341
+    },
+    {
+      "text": "three generator points without telling",
+      "start": 4637.56,
+      "duration": 6.36
+    },
+    {
+      "text": "the underlying individual exponents so",
+      "start": 4640.77,
+      "duration": 4.949
+    },
+    {
+      "text": "we have such a zero knowledge proof",
+      "start": 4643.92,
+      "duration": 4.049
+    },
+    {
+      "text": "system you don't need to know how it",
+      "start": 4645.719,
+      "duration": 6.96
+    },
+    {
+      "text": "works we have it out of the Shelf of the",
+      "start": 4647.969,
+      "duration": 11.641
+    },
+    {
+      "text": "Shelf and but in our case what we also",
+      "start": 4652.679,
+      "duration": 9.48
+    },
+    {
+      "text": "need to do need to do is that we can",
+      "start": 4659.61,
+      "duration": 12.02
+    },
+    {
+      "text": "publicize si because that's how we will",
+      "start": 4662.159,
+      "duration": 9.471
+    },
+    {
+      "text": "that so we need to public publicize si",
+      "start": 4671.69,
+      "duration": 8.529
+    },
+    {
+      "text": "and the serial number because otherwise",
+      "start": 4675.69,
+      "duration": 7.44
+    },
+    {
+      "text": "we will not accept on the output",
+      "start": 4680.219,
+      "duration": 14.19
+    },
+    {
+      "text": "registration yeah it's it's pretty easy",
+      "start": 4683.13,
+      "duration": 13.68
+    },
+    {
+      "text": "like you give the serial number and you",
+      "start": 4694.409,
+      "duration": 6.961
+    },
+    {
+      "text": "give Patterson commitment to not exactly",
+      "start": 4696.81,
+      "duration": 11.61
+    },
+    {
+      "text": "but like G to the Z G sorry G as to the",
+      "start": 4701.37,
+      "duration": 8.18
+    },
+    {
+      "text": "Z",
+      "start": 4708.42,
+      "duration": 8.58
+    },
+    {
+      "text": "Jiji to the RSI I proved knowledge of Zi",
+      "start": 4709.55,
+      "duration": 9.7
+    },
+    {
+      "text": "and RSI with respect to that commitment",
+      "start": 4717.0,
+      "duration": 4.46
+    },
+    {
+      "text": "and the coordinator can can confirm that",
+      "start": 4719.25,
+      "duration": 7.679
+    },
+    {
+      "text": "this commitment x GH to the SI is the",
+      "start": 4721.46,
+      "duration": 7.29
+    },
+    {
+      "text": "same as the randomized commitment",
+      "start": 4726.929,
+      "duration": 9.991
+    },
+    {
+      "text": "exactly thank so but if that that",
+      "start": 4728.75,
+      "duration": 10.51
+    },
+    {
+      "text": "concludes the output registration phase",
+      "start": 4736.92,
+      "duration": 7.049
+    },
+    {
+      "text": "and then we have wabi-sabi at least in",
+      "start": 4739.26,
+      "duration": 21.439
+    },
+    {
+      "text": "draft 0.2 in chinese GG means penis",
+      "start": 4743.969,
+      "duration": 16.73
+    },
+    {
+      "text": "something every day",
+      "start": 4763.429,
+      "duration": 3.391
+    },
+    {
+      "text": "so maybe hopefully we will have some",
+      "start": 4769.35,
+      "duration": 6.889
+    },
+    {
+      "text": "Chinese viewers and they can correct me",
+      "start": 4771.06,
+      "duration": 11.579
+    },
+    {
+      "text": "voice sitting here alright thank you",
+      "start": 4776.239,
+      "duration": 9.761
+    },
+    {
+      "text": "guys maybe do you do you have anything",
+      "start": 4782.639,
+      "duration": 6.691
+    },
+    {
+      "text": "you would like to talk about before we",
+      "start": 4786.0,
+      "duration": 15.03
+    },
+    {
+      "text": "go all right I think this as a no this",
+      "start": 4789.33,
+      "duration": 14.7
+    },
+    {
+      "text": "was a pretty intense session I will",
+      "start": 4801.03,
+      "duration": 5.81
+    },
+    {
+      "text": "definitely watch it a few times and",
+      "start": 4804.03,
+      "duration": 7.109
+    },
+    {
+      "text": "hopefully I understand more I have maybe",
+      "start": 4806.84,
+      "duration": 8.23
+    },
+    {
+      "text": "one last thing so we can post it in the",
+      "start": 4811.139,
+      "duration": 6.631
+    },
+    {
+      "text": "description but I would really recommend",
+      "start": 4815.07,
+      "duration": 7.23
+    },
+    {
+      "text": "to anybody who wants to read into this a",
+      "start": 4817.77,
+      "duration": 11.4
+    },
+    {
+      "text": "little bit more the original algebraic",
+      "start": 4822.3,
+      "duration": 10.68
+    },
+    {
+      "text": "mac paper i think is a",
+      "start": 4829.17,
+      "duration": 10.5
+    },
+    {
+      "text": "a very nice read wait let me give you a",
+      "start": 4832.98,
+      "duration": 11.36
+    },
+    {
+      "text": "precise title I'm sorry it goes wrong",
+      "start": 4839.67,
+      "duration": 7.2
+    },
+    {
+      "text": "paper yes",
+      "start": 4844.34,
+      "duration": 6.01
+    },
+    {
+      "text": "so algebraic maxed and key verification",
+      "start": 4846.87,
+      "duration": 5.4
+    },
+    {
+      "text": "anonymous anonymous credentials this is",
+      "start": 4850.35,
+      "duration": 4.59
+    },
+    {
+      "text": "where the stuff was introduced so",
+      "start": 4852.27,
+      "duration": 4.17
+    },
+    {
+      "text": "melissa chase Sarah Michael John and",
+      "start": 4854.94,
+      "duration": 4.02
+    },
+    {
+      "text": "Greg's Arusha whose name I keep",
+      "start": 4856.44,
+      "duration": 8.1
+    },
+    {
+      "text": "forgetting I'm so sorry Greg the signal",
+      "start": 4858.96,
+      "duration": 8.97
+    },
+    {
+      "text": "paper takes this there's two algebraic",
+      "start": 4864.54,
+      "duration": 7.29
+    },
+    {
+      "text": "Mac algorithms described in there one",
+      "start": 4867.93,
+      "duration": 8.61
+    },
+    {
+      "text": "relying on the generic group model for",
+      "start": 4871.83,
+      "duration": 6.87
+    },
+    {
+      "text": "security proof and the other relying on",
+      "start": 4876.54,
+      "duration": 6.12
+    },
+    {
+      "text": "decisional diffie-hellman so the signal",
+      "start": 4878.7,
+      "duration": 7.68
+    },
+    {
+      "text": "paper uses the first one and extends it",
+      "start": 4882.66,
+      "duration": 8.91
+    },
+    {
+      "text": "to support attributes where the",
+      "start": 4886.38,
+      "duration": 7.53
+    },
+    {
+      "text": "attribute values are not just scalars",
+      "start": 4891.57,
+      "duration": 6.09
+    },
+    {
+      "text": "but arbitrary group elements I think",
+      "start": 4893.91,
+      "duration": 6.24
+    },
+    {
+      "text": "it's very well written it's also got at",
+      "start": 4897.66,
+      "duration": 5.67
+    },
+    {
+      "text": "the very end like after the security",
+      "start": 4900.15,
+      "duration": 7.02
+    },
+    {
+      "text": "proofs there's a concrete instantiation",
+      "start": 4903.33,
+      "duration": 7.38
+    },
+    {
+      "text": "of the zero knowledge proof for this",
+      "start": 4907.17,
+      "duration": 7.77
+    },
+    {
+      "text": "slightly simpler scheme so that's a",
+      "start": 4910.71,
+      "duration": 7.94
+    },
+    {
+      "text": "really good reading I think and also",
+      "start": 4914.94,
+      "duration": 6.57
+    },
+    {
+      "text": "personally I'm kind of new to this zero",
+      "start": 4918.65,
+      "duration": 6.4
+    },
+    {
+      "text": "knowledge stuff so I found Ivan damn",
+      "start": 4921.51,
+      "duration": 6.69
+    },
+    {
+      "text": "guards introductory materials really",
+      "start": 4925.05,
+      "duration": 6.6
+    },
+    {
+      "text": "helpful both this one and the one on",
+      "start": 4928.2,
+      "duration": 6.3
+    },
+    {
+      "text": "commitment schemes and zero knowledge",
+      "start": 4931.65,
+      "duration": 5.13
+    },
+    {
+      "text": "protocols actually this one was probably",
+      "start": 4934.5,
+      "duration": 6.78
+    },
+    {
+      "text": "more helpful because it really goes",
+      "start": 4936.78,
+      "duration": 6.42
+    },
+    {
+      "text": "through the like the logic and the",
+      "start": 4941.28,
+      "duration": 4.53
+    },
+    {
+      "text": "definitions it it's a very clear",
+      "start": 4943.2,
+      "duration": 4.77
+    },
+    {
+      "text": "description of the difference between a",
+      "start": 4945.81,
+      "duration": 4.38
+    },
+    {
+      "text": "proof a proof of knowledge zero",
+      "start": 4947.97,
+      "duration": 4.14
+    },
+    {
+      "text": "knowledge proof zero knowledge proof of",
+      "start": 4950.19,
+      "duration": 6.51
+    },
+    {
+      "text": "knowledge etc etc and also covers stuff",
+      "start": 4952.11,
+      "duration": 8.0
+    },
+    {
+      "text": "like cryptographic simulators which are",
+      "start": 4956.7,
+      "duration": 8.4
+    },
+    {
+      "text": "needed for for all of this stuff both as",
+      "start": 4960.11,
+      "duration": 6.76
+    },
+    {
+      "text": "a theoretical concept",
+      "start": 4965.1,
+      "duration": 3.93
+    },
+    {
+      "text": "and for the a be blind signature scheme",
+      "start": 4966.87,
+      "duration": 4.14
+    },
+    {
+      "text": "you actually need to write a simulator",
+      "start": 4969.03,
+      "duration": 4.92
+    },
+    {
+      "text": "so it's really helpful to understand how",
+      "start": 4971.01,
+      "duration": 5.73
+    },
+    {
+      "text": "the Abed blind signature scheme in the",
+      "start": 4973.95,
+      "duration": 5.4
+    },
+    {
+      "text": "ACL paper we discussed like why that",
+      "start": 4976.74,
+      "duration": 6.42
+    },
+    {
+      "text": "even works anyway so those would be my",
+      "start": 4979.35,
+      "duration": 9.57
+    },
+    {
+      "text": "reading recommendations thank you",
+      "start": 4983.16,
+      "duration": 10.61
+    },
+    {
+      "text": "sorry I have a question you said that",
+      "start": 4988.92,
+      "duration": 10.29
+    },
+    {
+      "text": "given we are creating this dis max from",
+      "start": 4993.77,
+      "duration": 9.25
+    },
+    {
+      "text": "the commitment for the Palio commitment",
+      "start": 4999.21,
+      "duration": 6.87
+    },
+    {
+      "text": "and the serial number commitment you",
+      "start": 5003.02,
+      "duration": 6.45
+    },
+    {
+      "text": "said that this is the magnitude that we",
+      "start": 5006.08,
+      "duration": 8.36
+    },
+    {
+      "text": "need to use because this preserves the",
+      "start": 5009.47,
+      "duration": 15.0
+    },
+    {
+      "text": "on morphic the what sorry either I love",
+      "start": 5014.44,
+      "duration": 15.43
+    },
+    {
+      "text": "the word but then the property of Murphy",
+      "start": 5024.47,
+      "duration": 6.9
+    },
+    {
+      "text": "I'm a morphism",
+      "start": 5029.87,
+      "duration": 5.64
+    },
+    {
+      "text": "of the commitments and where are we",
+      "start": 5031.37,
+      "duration": 8.46
+    },
+    {
+      "text": "using that again so well why did we have",
+      "start": 5035.51,
+      "duration": 8.96
+    },
+    {
+      "text": "to preserve that just just making this",
+      "start": 5039.83,
+      "duration": 8.19
+    },
+    {
+      "text": "edit proves easier like we just want to",
+      "start": 5044.47,
+      "duration": 6.04
+    },
+    {
+      "text": "make our lives easier so if we have this",
+      "start": 5048.02,
+      "duration": 5.13
+    },
+    {
+      "text": "nice properties then for example this",
+      "start": 5050.51,
+      "duration": 4.62
+    },
+    {
+      "text": "overspending prevention like proving",
+      "start": 5053.15,
+      "duration": 7.14
+    },
+    {
+      "text": "sums becomes like almost trivial yeah so",
+      "start": 5055.13,
+      "duration": 7.86
+    },
+    {
+      "text": "we we use it implicitly in these some",
+      "start": 5060.29,
+      "duration": 5.37
+    },
+    {
+      "text": "proofs and also an input registration",
+      "start": 5062.99,
+      "duration": 8.4
+    },
+    {
+      "text": "phase yeah you can imagine something",
+      "start": 5065.66,
+      "duration": 9.42
+    },
+    {
+      "text": "that uses an H Mac but then doing the",
+      "start": 5071.39,
+      "duration": 4.95
+    },
+    {
+      "text": "zero knowledge proof should become",
+      "start": 5075.08,
+      "duration": 3.18
+    },
+    {
+      "text": "really complicated you need something",
+      "start": 5076.34,
+      "duration": 4.86
+    },
+    {
+      "text": "like ZK snarks or ZK Starks or something",
+      "start": 5078.26,
+      "duration": 6.66
+    },
+    {
+      "text": "like that like art enjoy arithmetic",
+      "start": 5081.2,
+      "duration": 5.91
+    },
+    {
+      "text": "circuits and the proving time is going",
+      "start": 5084.92,
+      "duration": 3.69
+    },
+    {
+      "text": "to be really long and the proofs are",
+      "start": 5087.11,
+      "duration": 5.22
+    },
+    {
+      "text": "gonna be yeah it's it's just probably",
+      "start": 5088.61,
+      "duration": 7.92
+    },
+    {
+      "text": "requires a trusted setup so that's like",
+      "start": 5092.33,
+      "duration": 6.48
+    },
+    {
+      "text": "the the main advantage is it makes the",
+      "start": 5096.53,
+      "duration": 3.96
+    },
+    {
+      "text": "all the zero knowledge proof",
+      "start": 5098.81,
+      "duration": 4.56
+    },
+    {
+      "text": "extremely simple on the same sort of",
+      "start": 5100.49,
+      "duration": 7.34
+    },
+    {
+      "text": "complexity as just the Schnoor signature",
+      "start": 5103.37,
+      "duration": 7.08
+    },
+    {
+      "text": "even the range proofs I would argue or",
+      "start": 5107.83,
+      "duration": 5.98
+    },
+    {
+      "text": "are still as simple it's just the same",
+      "start": 5110.45,
+      "duration": 6.75
+    },
+    {
+      "text": "idea like repeated multiple times and in",
+      "start": 5113.81,
+      "duration": 6.18
+    },
+    {
+      "text": "bullet proof they make it much more",
+      "start": 5117.2,
+      "duration": 6.0
+    },
+    {
+      "text": "efficient by doing it like that there's",
+      "start": 5119.99,
+      "duration": 6.48
+    },
+    {
+      "text": "a cool recursive trick but conceptually",
+      "start": 5123.2,
+      "duration": 5.55
+    },
+    {
+      "text": "it's still very much like a Sigma",
+      "start": 5126.47,
+      "duration": 4.71
+    },
+    {
+      "text": "protocol and not like one of the more",
+      "start": 5128.75,
+      "duration": 5.64
+    },
+    {
+      "text": "general purpose user knowledge proof",
+      "start": 5131.18,
+      "duration": 12.15
+    },
+    {
+      "text": "systems it seems to me I I'm not sure",
+      "start": 5134.39,
+      "duration": 12.06
+    },
+    {
+      "text": "but it seems to me that the harder",
+      "start": 5143.33,
+      "duration": 5.49
+    },
+    {
+      "text": "computation is performed by the client",
+      "start": 5146.45,
+      "duration": 4.74
+    },
+    {
+      "text": "or I mean from the from Alice right no",
+      "start": 5148.82,
+      "duration": 6.12
+    },
+    {
+      "text": "from or but not from the coordinator but",
+      "start": 5151.19,
+      "duration": 10.05
+    },
+    {
+      "text": "anyway thank you you have any any idea",
+      "start": 5154.94,
+      "duration": 11.31
+    },
+    {
+      "text": "of how how hard these computations are",
+      "start": 5161.24,
+      "duration": 7.56
+    },
+    {
+      "text": "on the server side in the on the",
+      "start": 5166.25,
+      "duration": 7.8
+    },
+    {
+      "text": "coordinator side and how many an elected",
+      "start": 5168.8,
+      "duration": 10.14
+    },
+    {
+      "text": "curve multiplications let's say well I",
+      "start": 5174.05,
+      "duration": 7.44
+    },
+    {
+      "text": "cannot really give precise numbers but",
+      "start": 5178.94,
+      "duration": 4.86
+    },
+    {
+      "text": "all of these proofs are like super",
+      "start": 5181.49,
+      "duration": 5.82
+    },
+    {
+      "text": "lightweight so I I think it's just a",
+      "start": 5183.8,
+      "duration": 6.6
+    },
+    {
+      "text": "question of milliseconds so I'm not",
+      "start": 5187.31,
+      "duration": 7.5
+    },
+    {
+      "text": "afraid at all I think the most expensive",
+      "start": 5190.4,
+      "duration": 7.62
+    },
+    {
+      "text": "part is the arrange proofs because in",
+      "start": 5194.81,
+      "duration": 4.76
+    },
+    {
+      "text": "the range proofs you need to do a binary",
+      "start": 5198.02,
+      "duration": 6.03
+    },
+    {
+      "text": "decomposition so there's like a vector",
+      "start": 5199.57,
+      "duration": 8.25
+    },
+    {
+      "text": "commitment to the individual bits and",
+      "start": 5204.05,
+      "duration": 5.76
+    },
+    {
+      "text": "like you need to compute the inner",
+      "start": 5207.82,
+      "duration": 6.97
+    },
+    {
+      "text": "product and I think that's so that that",
+      "start": 5209.81,
+      "duration": 9.12
+    },
+    {
+      "text": "would be like I think 51 if we use 51 as",
+      "start": 5214.79,
+      "duration": 9.54
+    },
+    {
+      "text": "the range times I guess it's like four",
+      "start": 5218.93,
+      "duration": 7.8
+    },
+    {
+      "text": "multiplications and then like you can",
+      "start": 5224.33,
+      "duration": 4.02
+    },
+    {
+      "text": "make it into a giant multi",
+      "start": 5226.73,
+      "duration": 4.31
+    },
+    {
+      "text": "exponentiation",
+      "start": 5228.35,
+      "duration": 2.69
+    },
+    {
+      "text": "it's basically oh of n",
+      "start": 5231.13,
+      "duration": 6.15
+    },
+    {
+      "text": "in the the parameter of 51 and there's a",
+      "start": 5233.54,
+      "duration": 5.1
+    },
+    {
+      "text": "protocol",
+      "start": 5237.28,
+      "duration": 6.55
+    },
+    {
+      "text": "so somebody linked on a slack channel if",
+      "start": 5238.64,
+      "duration": 7.2
+    },
+    {
+      "text": "you go it's fun very quickly to",
+      "start": 5243.83,
+      "duration": 5.28
+    },
+    {
+      "text": "lightweight dot money so this is the",
+      "start": 5245.84,
+      "duration": 5.94
+    },
+    {
+      "text": "Nanaki I think it's pronounced it's like",
+      "start": 5249.11,
+      "duration": 10.08
+    },
+    {
+      "text": "a Greek word this is a very similar idea",
+      "start": 5251.78,
+      "duration": 11.16
+    },
+    {
+      "text": "but it uses the older algebraic max",
+      "start": 5259.19,
+      "duration": 8.18
+    },
+    {
+      "text": "scheme and it uses alga Moll encryption",
+      "start": 5262.94,
+      "duration": 10.32
+    },
+    {
+      "text": "and blind issuance so I would say it's",
+      "start": 5267.37,
+      "duration": 9.22
+    },
+    {
+      "text": "ever so slightly more complex because of",
+      "start": 5273.26,
+      "duration": 5.94
+    },
+    {
+      "text": "the blind issuance then the newer signal",
+      "start": 5276.59,
+      "duration": 6.39
+    },
+    {
+      "text": "scheme and he has concrete performance",
+      "start": 5279.2,
+      "duration": 7.62
+    },
+    {
+      "text": "figures that I think should give us at",
+      "start": 5282.98,
+      "duration": 5.13
+    },
+    {
+      "text": "least an order of magnitude estimate",
+      "start": 5286.82,
+      "duration": 11.58
+    },
+    {
+      "text": "that's item 9 so in your opinion the the",
+      "start": 5288.11,
+      "duration": 16.74
+    },
+    {
+      "text": "the range proof I mean it requires the",
+      "start": 5298.4,
+      "duration": 11.55
+    },
+    {
+      "text": "the inner product of the each of the 51",
+      "start": 5304.85,
+      "duration": 14.58
+    },
+    {
+      "text": "beats for what the other element the way",
+      "start": 5309.95,
+      "duration": 12.06
+    },
+    {
+      "text": "the range proofs work is you make a",
+      "start": 5319.43,
+      "duration": 8.94
+    },
+    {
+      "text": "commitment to like I actually I don't",
+      "start": 5322.01,
+      "duration": 8.04
+    },
+    {
+      "text": "know how the commitments in bulletproof",
+      "start": 5328.37,
+      "duration": 5.79
+    },
+    {
+      "text": "vests work exactly I need to review that",
+      "start": 5330.05,
+      "duration": 6.87
+    },
+    {
+      "text": "but as far as they like the the",
+      "start": 5334.16,
+      "duration": 6.03
+    },
+    {
+      "text": "statement being proven you do you take a",
+      "start": 5336.92,
+      "duration": 7.41
+    },
+    {
+      "text": "vector that's like some generator does",
+      "start": 5340.19,
+      "duration": 5.67
+    },
+    {
+      "text": "the same generator for the commitment",
+      "start": 5344.33,
+      "duration": 7.83
+    },
+    {
+      "text": "value to the power 0 to the power 1 to",
+      "start": 5345.86,
+      "duration": 9.0
+    },
+    {
+      "text": "the power 2 no sorry you do 2 to the",
+      "start": 5352.16,
+      "duration": 6.51
+    },
+    {
+      "text": "power like 0 1 2 times that generator",
+      "start": 5354.86,
+      "duration": 7.22
+    },
+    {
+      "text": "and then you you so you have these",
+      "start": 5358.67,
+      "duration": 5.58
+    },
+    {
+      "text": "generators that are the same for",
+      "start": 5362.08,
+      "duration": 5.579
+    },
+    {
+      "text": "everybody and that's just like a vector",
+      "start": 5364.25,
+      "duration": 5.3
+    },
+    {
+      "text": "of the powers of two and then you",
+      "start": 5367.659,
+      "duration": 5.971
+    },
+    {
+      "text": "compute the inner product of another",
+      "start": 5369.55,
+      "duration": 8.37
+    },
+    {
+      "text": "vector which is 0 or 1 for every binary",
+      "start": 5373.63,
+      "duration": 8.1
+    },
+    {
+      "text": "digit in the amount so you do like 0 or",
+      "start": 5377.92,
+      "duration": 7.02
+    },
+    {
+      "text": "1 times the first generator for you know",
+      "start": 5381.73,
+      "duration": 5.159
+    },
+    {
+      "text": "the first digit 0 1 times the first",
+      "start": 5384.94,
+      "duration": 3.63
+    },
+    {
+      "text": "generator the second generator for the",
+      "start": 5386.889,
+      "duration": 5.58
+    },
+    {
+      "text": "second digit and so on and then and the",
+      "start": 5388.57,
+      "duration": 5.91
+    },
+    {
+      "text": "inner product if this should be equal to",
+      "start": 5392.469,
+      "duration": 4.111
+    },
+    {
+      "text": "the Patterson commitment of the amount",
+      "start": 5394.48,
+      "duration": 5.07
+    },
+    {
+      "text": "and then you also need to prove for",
+      "start": 5396.58,
+      "duration": 6.36
+    },
+    {
+      "text": "every one of your bit commitments you",
+      "start": 5399.55,
+      "duration": 8.879
+    },
+    {
+      "text": "need to prove that it's exactly 0 or 1",
+      "start": 5402.94,
+      "duration": 7.02
+    },
+    {
+      "text": "and the way that you do this is you take",
+      "start": 5408.429,
+      "duration": 6.721
+    },
+    {
+      "text": "the a commitment times I think the sorry",
+      "start": 5409.96,
+      "duration": 9.87
+    },
+    {
+      "text": "the commitment witness the value times 1",
+      "start": 5415.15,
+      "duration": 11.04
+    },
+    {
+      "text": "minus that and this would be 0 for like",
+      "start": 5419.83,
+      "duration": 10.5
+    },
+    {
+      "text": "if the bit is 0 then 0 times 1 is 0 and",
+      "start": 5426.19,
+      "duration": 7.529
+    },
+    {
+      "text": "if the bit is 1 then 1 times 0 is 0 but",
+      "start": 5430.33,
+      "duration": 5.19
+    },
+    {
+      "text": "for every other value it's gonna be",
+      "start": 5433.719,
+      "duration": 5.881
+    },
+    {
+      "text": "nonzero so like you take all of this",
+      "start": 5435.52,
+      "duration": 5.49
+    },
+    {
+      "text": "stuff together and like one giant",
+      "start": 5439.6,
+      "duration": 6.18
+    },
+    {
+      "text": "polynomial and like that gives you",
+      "start": 5441.01,
+      "duration": 8.37
+    },
+    {
+      "text": "eventually a commitment to 0 and that's",
+      "start": 5445.78,
+      "duration": 6.3
+    },
+    {
+      "text": "what like ensures the validity of all of",
+      "start": 5449.38,
+      "duration": 4.859
+    },
+    {
+      "text": "this and and the bulletproof stuff like",
+      "start": 5452.08,
+      "duration": 4.59
+    },
+    {
+      "text": "you can do this as a Sigma protocol but",
+      "start": 5454.239,
+      "duration": 6.631
+    },
+    {
+      "text": "the bulletproof stuff does something",
+      "start": 5456.67,
+      "duration": 7.2
+    },
+    {
+      "text": "like really clever where they they",
+      "start": 5460.87,
+      "duration": 6.18
+    },
+    {
+      "text": "basically do like the recursive",
+      "start": 5463.87,
+      "duration": 7.59
+    },
+    {
+      "text": "decomposition of this problem and like",
+      "start": 5467.05,
+      "duration": 6.419
+    },
+    {
+      "text": "they add if this was an interactive",
+      "start": 5471.46,
+      "duration": 3.57
+    },
+    {
+      "text": "protocol it would take log n",
+      "start": 5473.469,
+      "duration": 3.301
+    },
+    {
+      "text": "interactions but with the Fiat ramier",
+      "start": 5475.03,
+      "duration": 3.6
+    },
+    {
+      "text": "heuristic you can still make it non",
+      "start": 5476.77,
+      "duration": 6.48
+    },
+    {
+      "text": "interactive and so the the prover and",
+      "start": 5478.63,
+      "duration": 7.109
+    },
+    {
+      "text": "the verify still do oh and work like",
+      "start": 5483.25,
+      "duration": 4.77
+    },
+    {
+      "text": "they would in a Sigma protocol but the",
+      "start": 5485.739,
+      "duration": 5.131
+    },
+    {
+      "text": "actual resulting proof size is only",
+      "start": 5488.02,
+      "duration": 5.33
+    },
+    {
+      "text": "logarithmic it's it's very small",
+      "start": 5490.87,
+      "duration": 5.579
+    },
+    {
+      "text": "hopefully that that makes sense and just",
+      "start": 5493.35,
+      "duration": 6.49
+    },
+    {
+      "text": "as a caveat I'm like I barely understand",
+      "start": 5496.449,
+      "duration": 4.291
+    },
+    {
+      "text": "that stuff",
+      "start": 5499.84,
+      "duration": 7.25
+    },
+    {
+      "text": "like so so I probably made okay yeah I'm",
+      "start": 5500.74,
+      "duration": 13.31
+    },
+    {
+      "text": "just asking this because I see a lot of",
+      "start": 5507.09,
+      "duration": 11.95
+    },
+    {
+      "text": "operations and the server is one only",
+      "start": 5514.05,
+      "duration": 8.68
+    },
+    {
+      "text": "one that had to to do this for every",
+      "start": 5519.04,
+      "duration": 10.85
+    },
+    {
+      "text": "every user for every single a pair of",
+      "start": 5522.73,
+      "duration": 13.23
+    },
+    {
+      "text": "commitments and we we have now the C or",
+      "start": 5529.89,
+      "duration": 8.59
+    },
+    {
+      "text": "C++ performance with c-sharp in this",
+      "start": 5535.96,
+      "duration": 6.57
+    },
+    {
+      "text": "kind of stuff but I'm just I just was",
+      "start": 5538.48,
+      "duration": 8.13
+    },
+    {
+      "text": "curious thank you I think so if we",
+      "start": 5542.53,
+      "duration": 6.54
+    },
+    {
+      "text": "compare it to that lightweight money",
+      "start": 5546.61,
+      "duration": 6.45
+    },
+    {
+      "text": "scheme the danaka scheme the credential",
+      "start": 5549.07,
+      "duration": 6.42
+    },
+    {
+      "text": "that like we have is very similar to",
+      "start": 5553.06,
+      "duration": 6.3
+    },
+    {
+      "text": "what he calls a token not a wallet so a",
+      "start": 5555.49,
+      "duration": 9.33
+    },
+    {
+      "text": "token spend is very similar to a output",
+      "start": 5559.36,
+      "duration": 10.86
+    },
+    {
+      "text": "registration and a I think he calls it a",
+      "start": 5564.82,
+      "duration": 9.0
+    },
+    {
+      "text": "wallet top up or like that's very",
+      "start": 5570.22,
+      "duration": 5.4
+    },
+    {
+      "text": "similar to input registration but a",
+      "start": 5573.82,
+      "duration": 4.35
+    },
+    {
+      "text": "little more complicated because it",
+      "start": 5575.62,
+      "duration": 5.61
+    },
+    {
+      "text": "requires like another proof and he uses",
+      "start": 5578.17,
+      "duration": 9.0
+    },
+    {
+      "text": "bullet proof for everything and the the",
+      "start": 5581.23,
+      "duration": 8.25
+    },
+    {
+      "text": "performance figures that he gives this",
+      "start": 5587.17,
+      "duration": 7.74
+    },
+    {
+      "text": "is on a curve 255 1/9 and rust it's",
+      "start": 5589.48,
+      "duration": 8.67
+    },
+    {
+      "text": "still only a few milliseconds per per",
+      "start": 5594.91,
+      "duration": 6.66
+    },
+    {
+      "text": "operation so if we take that as like an",
+      "start": 5598.15,
+      "duration": 5.04
+    },
+    {
+      "text": "order of magnitude let's say you know",
+      "start": 5601.57,
+      "duration": 7.05
+    },
+    {
+      "text": "it's 10 times slower I still think it's",
+      "start": 5603.19,
+      "duration": 9.44
+    },
+    {
+      "text": "very reasonable for a fixed number of",
+      "start": 5608.62,
+      "duration": 8.01
+    },
+    {
+      "text": "participants like this should be like",
+      "start": 5612.63,
+      "duration": 7.66
+    },
+    {
+      "text": "not more expensive than say like the",
+      "start": 5616.63,
+      "duration": 5.01
+    },
+    {
+      "text": "number of signatures you need to",
+      "start": 5620.29,
+      "duration": 3.09
+    },
+    {
+      "text": "validate a block or something like that",
+      "start": 5621.64,
+      "duration": 9.39
+    },
+    {
+      "text": "in Bitcoin so I don't know I mean maybe",
+      "start": 5623.38,
+      "duration": 10.8
+    },
+    {
+      "text": "like I think I'm really overestimating",
+      "start": 5631.03,
+      "duration": 3.359
+    },
+    {
+      "text": "here",
+      "start": 5634.18,
+      "duration": 2.4
+    },
+    {
+      "text": "but let's say it's like 10 seconds of",
+      "start": 5634.389,
+      "duration": 4.441
+    },
+    {
+      "text": "compute overall in an entire round I",
+      "start": 5636.58,
+      "duration": 4.17
+    },
+    {
+      "text": "think that would would probably be",
+      "start": 5638.83,
+      "duration": 7.8
+    },
+    {
+      "text": "enough and this stuff is like one of the",
+      "start": 5640.75,
+      "duration": 8.79
+    },
+    {
+      "text": "reasons we prefer this over like",
+      "start": 5646.63,
+      "duration": 6.48
+    },
+    {
+      "text": "bilinear groups and zk snarks and all of",
+      "start": 5649.54,
+      "duration": 7.61
+    },
+    {
+      "text": "that it's not just more complicated",
+      "start": 5653.11,
+      "duration": 7.65
+    },
+    {
+      "text": "conceptually it's also that those",
+      "start": 5657.15,
+      "duration": 5.41
+    },
+    {
+      "text": "underlying primitives are not as",
+      "start": 5660.76,
+      "duration": 3.75
+    },
+    {
+      "text": "efficient like for bilinear groups you",
+      "start": 5662.56,
+      "duration": 6.99
+    },
+    {
+      "text": "need groups with like a cofactor they",
+      "start": 5664.51,
+      "duration": 9.149
+    },
+    {
+      "text": "can't be groups of prime order because",
+      "start": 5669.55,
+      "duration": 6.87
+    },
+    {
+      "text": "you need like cyclic subgroups inside of",
+      "start": 5673.659,
+      "duration": 4.531
+    },
+    {
+      "text": "them so that's a like a bigger curve",
+      "start": 5676.42,
+      "duration": 6.69
+    },
+    {
+      "text": "order and typically they're not as like",
+      "start": 5678.19,
+      "duration": 7.049
+    },
+    {
+      "text": "the implementations are not as fast",
+      "start": 5683.11,
+      "duration": 5.52
+    },
+    {
+      "text": "either so I think from all the schemes",
+      "start": 5685.239,
+      "duration": 6.48
+    },
+    {
+      "text": "we consider this should actually be one",
+      "start": 5688.63,
+      "duration": 5.7
+    },
+    {
+      "text": "of the more performant ones even though",
+      "start": 5691.719,
+      "duration": 7.051
+    },
+    {
+      "text": "it's it's still probably at like at",
+      "start": 5694.33,
+      "duration": 6.15
+    },
+    {
+      "text": "least a hundred times slower than just a",
+      "start": 5698.77,
+      "duration": 11.48
+    },
+    {
+      "text": "plain blind nor signature all right",
+      "start": 5700.48,
+      "duration": 15.54
+    },
+    {
+      "text": "thank you guys for today and like share",
+      "start": 5710.25,
+      "duration": 7.989
+    },
+    {
+      "text": "and subscribe and there's a goodbye",
+      "start": 5716.02,
+      "duration": 6.92
+    },
+    {
+      "text": "let's hear some word from our sponsor",
+      "start": 5718.239,
+      "duration": 4.701
+    },
+    {
+      "text": "[Music]",
+      "start": 5723.64,
+      "duration": 3.149
+    }
+  ]
+}

@@ -1,0 +1,3336 @@
+{
+  "video_id": "Pqz7_Eqw9jM",
+  "title": "Wasabi Research Club #19 - CoinSwap",
+  "url": "https://www.youtube.com/watch?v=Pqz7_Eqw9jM",
+  "playlist_index": 19,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "all right happy Monday everyone today",
+      "start": 0.0,
+      "duration": 4.74
+    },
+    {
+      "text": "we're talking about coin swaps massively",
+      "start": 2.73,
+      "duration": 3.93
+    },
+    {
+      "text": "improving Bitcoin privacy and",
+      "start": 4.74,
+      "duration": 4.109
+    },
+    {
+      "text": "fungibility a lot of excitement around",
+      "start": 6.66,
+      "duration": 5.97
+    },
+    {
+      "text": "going swaps so hopefully we can you know",
+      "start": 8.849,
+      "duration": 6.601
+    },
+    {
+      "text": "touching some interesting things so yeah",
+      "start": 12.63,
+      "duration": 9.809
+    },
+    {
+      "text": "this is a 2020 ongoing github repo paper",
+      "start": 15.45,
+      "duration": 9.77
+    },
+    {
+      "text": "that Chris Belanger has been working on",
+      "start": 22.439,
+      "duration": 6.271
+    },
+    {
+      "text": "and you can view the original file here",
+      "start": 25.22,
+      "duration": 7.6
+    },
+    {
+      "text": "at this link and yeah it's heavily based",
+      "start": 28.71,
+      "duration": 9.36
+    },
+    {
+      "text": "on the 2013 work by Greg Maxwell just a",
+      "start": 32.82,
+      "duration": 6.93
+    },
+    {
+      "text": "reminder of what we've been doing",
+      "start": 38.07,
+      "duration": 5.34
+    },
+    {
+      "text": "wasabi research Club is a weekly meetup",
+      "start": 39.75,
+      "duration": 5.46
+    },
+    {
+      "text": "that tries to focus on interesting",
+      "start": 43.41,
+      "duration": 5.1
+    },
+    {
+      "text": "philosophical papers math papers privacy",
+      "start": 45.21,
+      "duration": 6.239
+    },
+    {
+      "text": "papers around Bitcoin so we cover",
+      "start": 48.51,
+      "duration": 4.29
+    },
+    {
+      "text": "different topics and you can see here",
+      "start": 51.449,
+      "duration": 2.851
+    },
+    {
+      "text": "we've covered a lot of different topics",
+      "start": 52.8,
+      "duration": 4.68
+    },
+    {
+      "text": "in the last a few months we went on a",
+      "start": 54.3,
+      "duration": 5.04
+    },
+    {
+      "text": "little bit of hiatus because I was",
+      "start": 57.48,
+      "duration": 3.93
+    },
+    {
+      "text": "mostly the one sort of organizing these",
+      "start": 59.34,
+      "duration": 5.249
+    },
+    {
+      "text": "things and became a lot less formal in",
+      "start": 61.41,
+      "duration": 7.26
+    },
+    {
+      "text": "April and May with casual conversations",
+      "start": 64.589,
+      "duration": 6.57
+    },
+    {
+      "text": "and most recently were very excited to",
+      "start": 68.67,
+      "duration": 5.4
+    },
+    {
+      "text": "say that wabi-sabi which was sort of the",
+      "start": 71.159,
+      "duration": 4.89
+    },
+    {
+      "text": "outcome of all of this discussion and",
+      "start": 74.07,
+      "duration": 4.95
+    },
+    {
+      "text": "work we have this new new protocol draft",
+      "start": 76.049,
+      "duration": 4.771
+    },
+    {
+      "text": "that's been you know just finished by a",
+      "start": 79.02,
+      "duration": 5.959
+    },
+    {
+      "text": "lot of people that are on this call and",
+      "start": 80.82,
+      "duration": 6.659
+    },
+    {
+      "text": "and that's very exciting and so now",
+      "start": 84.979,
+      "duration": 4.451
+    },
+    {
+      "text": "we're kind of getting back into the into",
+      "start": 87.479,
+      "duration": 4.161
+    },
+    {
+      "text": "the swing of things with regular",
+      "start": 89.43,
+      "duration": 5.22
+    },
+    {
+      "text": "discussions of paper papers last week we",
+      "start": 91.64,
+      "duration": 5.619
+    },
+    {
+      "text": "talked about coin swaps as just a broad",
+      "start": 94.65,
+      "duration": 4.38
+    },
+    {
+      "text": "idea like philosophically like what our",
+      "start": 97.259,
+      "duration": 4.951
+    },
+    {
+      "text": "coin swaps why we want them how are some",
+      "start": 99.03,
+      "duration": 5.22
+    },
+    {
+      "text": "ways we could use coin swaps etc today",
+      "start": 102.21,
+      "duration": 3.63
+    },
+    {
+      "text": "we're looking at a specific protocol",
+      "start": 104.25,
+      "duration": 3.439
+    },
+    {
+      "text": "going swaps which is Chris Belcher's",
+      "start": 105.84,
+      "duration": 5.849
+    },
+    {
+      "text": "2020 paper excellent find out everything",
+      "start": 107.689,
+      "duration": 6.871
+    },
+    {
+      "text": "about what we're doing on our github",
+      "start": 111.689,
+      "duration": 5.28
+    },
+    {
+      "text": "it's very likely we'll continue to talk",
+      "start": 114.56,
+      "duration": 4.449
+    },
+    {
+      "text": "about coins laps in next Monday's",
+      "start": 116.969,
+      "duration": 4.26
+    },
+    {
+      "text": "presentation so if you're enjoying coin",
+      "start": 119.009,
+      "duration": 5.631
+    },
+    {
+      "text": "swaps then you'll be pretty excited",
+      "start": 121.229,
+      "duration": 6.78
+    },
+    {
+      "text": "okay so like any good privacy paper the",
+      "start": 124.64,
+      "duration": 5.11
+    },
+    {
+      "text": "coin flops paper begins with a bit of",
+      "start": 128.009,
+      "duration": 5.551
+    },
+    {
+      "text": "prose Belcher writes imagine a future",
+      "start": 129.75,
+      "duration": 6.33
+    },
+    {
+      "text": "where a user Alice has bitcoins and",
+      "start": 133.56,
+      "duration": 4.47
+    },
+    {
+      "text": "wants to send them with maximal privacy",
+      "start": 136.08,
+      "duration": 3.51
+    },
+    {
+      "text": "so she creates a special kind of",
+      "start": 138.03,
+      "duration": 3.96
+    },
+    {
+      "text": "transaction for anyone looking at the",
+      "start": 139.59,
+      "duration": 4.26
+    },
+    {
+      "text": "blockchain her transaction appears",
+      "start": 141.99,
+      "duration": 3.69
+    },
+    {
+      "text": "completely normal with their coins",
+      "start": 143.85,
+      "duration": 3.63
+    },
+    {
+      "text": "seemingly going from address a to",
+      "start": 145.68,
+      "duration": 4.38
+    },
+    {
+      "text": "address B but in reality her coins end",
+      "start": 147.48,
+      "duration": 4.83
+    },
+    {
+      "text": "up in address Z which is entirely",
+      "start": 150.06,
+      "duration": 6.95
+    },
+    {
+      "text": "unconnected to either A or B and so here",
+      "start": 152.31,
+      "duration": 6.929
+    },
+    {
+      "text": "the big thing that Belcher is trying to",
+      "start": 157.01,
+      "duration": 5.759
+    },
+    {
+      "text": "talk about when he's bringing up his",
+      "start": 159.239,
+      "duration": 7.681
+    },
+    {
+      "text": "coin swaps for protocol is is a concept",
+      "start": 162.769,
+      "duration": 7.391
+    },
+    {
+      "text": "of covert miss right and so what is",
+      "start": 166.92,
+      "duration": 4.92
+    },
+    {
+      "text": "covert miss we talked about this last",
+      "start": 170.16,
+      "duration": 2.24
+    },
+    {
+      "text": "week",
+      "start": 171.84,
+      "duration": 4.29
+    },
+    {
+      "text": "covert miss we say that a protocol is",
+      "start": 172.4,
+      "duration": 6.07
+    },
+    {
+      "text": "covert if a passive bystander is not",
+      "start": 176.13,
+      "duration": 4.26
+    },
+    {
+      "text": "able to differentiate a user of the",
+      "start": 178.47,
+      "duration": 4.59
+    },
+    {
+      "text": "protocol with a regular everyday user",
+      "start": 180.39,
+      "duration": 5.61
+    },
+    {
+      "text": "who is not engaged in that protocol so",
+      "start": 183.06,
+      "duration": 5.399
+    },
+    {
+      "text": "for Bitcoin this means not revealing any",
+      "start": 186.0,
+      "duration": 4.59
+    },
+    {
+      "text": "sort of smart contract behavior in the",
+      "start": 188.459,
+      "duration": 4.471
+    },
+    {
+      "text": "address format or the transaction format",
+      "start": 190.59,
+      "duration": 6.54
+    },
+    {
+      "text": "now if we care about is Cove earnest we",
+      "start": 192.93,
+      "duration": 5.88
+    },
+    {
+      "text": "have to admit that that coin joints are",
+      "start": 197.13,
+      "duration": 4.55
+    },
+    {
+      "text": "not covert what do we mean by that well",
+      "start": 198.81,
+      "duration": 5.519
+    },
+    {
+      "text": "when we look at a coin join yes we can",
+      "start": 201.68,
+      "duration": 5.8
+    },
+    {
+      "text": "say you know individuals participating",
+      "start": 204.329,
+      "duration": 4.561
+    },
+    {
+      "text": "in a coin join are anonymous",
+      "start": 207.48,
+      "duration": 3.86
+    },
+    {
+      "text": "between themselves and there's certain",
+      "start": 208.89,
+      "duration": 4.92
+    },
+    {
+      "text": "sort of probabilistic uncertainty in",
+      "start": 211.34,
+      "duration": 5.41
+    },
+    {
+      "text": "terms of which blind get output belongs",
+      "start": 213.81,
+      "duration": 5.67
+    },
+    {
+      "text": "to which participant but there's no",
+      "start": 216.75,
+      "duration": 5.04
+    },
+    {
+      "text": "question to the passive observer that",
+      "start": 219.48,
+      "duration": 4.89
+    },
+    {
+      "text": "what's going on before them is a coin",
+      "start": 221.79,
+      "duration": 4.169
+    },
+    {
+      "text": "joint it is these these three",
+      "start": 224.37,
+      "duration": 3.3
+    },
+    {
+      "text": "individuals are engaged in some sort of",
+      "start": 225.959,
+      "duration": 4.801
+    },
+    {
+      "text": "privacy enhancing technique and so in",
+      "start": 227.67,
+      "duration": 5.19
+    },
+    {
+      "text": "that way a zero length coin joint is not",
+      "start": 230.76,
+      "duration": 4.8
+    },
+    {
+      "text": "covert right when we know people who use",
+      "start": 232.86,
+      "duration": 4.409
+    },
+    {
+      "text": "conjure and will who don't use coin",
+      "start": 235.56,
+      "duration": 5.459
+    },
+    {
+      "text": "joint and they're very distinct so why",
+      "start": 237.269,
+      "duration": 5.671
+    },
+    {
+      "text": "is covert nerves so critical this is",
+      "start": 241.019,
+      "duration": 3.621
+    },
+    {
+      "text": "brought up immediately in the paper",
+      "start": 242.94,
+      "duration": 3.9
+    },
+    {
+      "text": "Belcher makes a good point he says it",
+      "start": 244.64,
+      "duration": 3.38
+    },
+    {
+      "text": "imagine",
+      "start": 246.84,
+      "duration": 3.52
+    },
+    {
+      "text": "different user Carroll who doesn't care",
+      "start": 248.02,
+      "duration": 5.16
+    },
+    {
+      "text": "at all about privacy and she says her",
+      "start": 250.36,
+      "duration": 4.5
+    },
+    {
+      "text": "Bitcoin using a regular wallet which",
+      "start": 253.18,
+      "duration": 4.02
+    },
+    {
+      "text": "exists today that isn't conservative",
+      "start": 254.86,
+      "duration": 3.24
+    },
+    {
+      "text": "carbon C at all",
+      "start": 257.2,
+      "duration": 3.42
+    },
+    {
+      "text": "but because Carole's transaction looks",
+      "start": 258.1,
+      "duration": 5.7
+    },
+    {
+      "text": "exactly like Alice's and Alice does care",
+      "start": 260.62,
+      "duration": 5.04
+    },
+    {
+      "text": "about privacy alice is doing these",
+      "start": 263.8,
+      "duration": 5.82
+    },
+    {
+      "text": "covert coin swaps Carol's transaction is",
+      "start": 265.66,
+      "duration": 10.35
+    },
+    {
+      "text": "now possibly Alice's transaction it you",
+      "start": 269.62,
+      "duration": 8.34
+    },
+    {
+      "text": "can't be certain but Carol herself is",
+      "start": 276.01,
+      "duration": 3.66
+    },
+    {
+      "text": "not engaged in some privacy protocol",
+      "start": 277.96,
+      "duration": 3.75
+    },
+    {
+      "text": "because it looks just like Alice",
+      "start": 279.67,
+      "duration": 3.96
+    },
+    {
+      "text": "so Carol's privacy is improved even",
+      "start": 281.71,
+      "duration": 3.12
+    },
+    {
+      "text": "though she didn't change her behavior",
+      "start": 283.63,
+      "duration": 3.81
+    },
+    {
+      "text": "and perhaps had never even heard of the",
+      "start": 284.83,
+      "duration": 4.47
+    },
+    {
+      "text": "sovereign so she doesn't care at all",
+      "start": 287.44,
+      "duration": 3.72
+    },
+    {
+      "text": "about coin swaps because Alice is",
+      "start": 289.3,
+      "duration": 4.95
+    },
+    {
+      "text": "engaged in these covert privacy",
+      "start": 291.16,
+      "duration": 5.07
+    },
+    {
+      "text": "protocols she's actually shielding Carol",
+      "start": 294.25,
+      "duration": 4.74
+    },
+    {
+      "text": "as well this is a pretty huge property",
+      "start": 296.23,
+      "duration": 5.49
+    },
+    {
+      "text": "and coin joint in a sense does offer",
+      "start": 298.99,
+      "duration": 4.89
+    },
+    {
+      "text": "this property in a very small amount",
+      "start": 301.72,
+      "duration": 4.71
+    },
+    {
+      "text": "because if coin joint participants are",
+      "start": 303.88,
+      "duration": 4.77
+    },
+    {
+      "text": "engaged with average everyday users",
+      "start": 306.43,
+      "duration": 4.32
+    },
+    {
+      "text": "those average everyday users are getting",
+      "start": 308.65,
+      "duration": 6.63
+    },
+    {
+      "text": "a very very office gated coins and so",
+      "start": 310.75,
+      "duration": 6.15
+    },
+    {
+      "text": "when they then give those obviously the",
+      "start": 315.28,
+      "duration": 3.72
+    },
+    {
+      "text": "Quinns to other users opposite coins",
+      "start": 316.9,
+      "duration": 4.29
+    },
+    {
+      "text": "become sort of everywhere but here this",
+      "start": 319.0,
+      "duration": 6.81
+    },
+    {
+      "text": "is quite a bit further I think so what",
+      "start": 321.19,
+      "duration": 6.78
+    },
+    {
+      "text": "do we mean by covert nests in the conv",
+      "start": 325.81,
+      "duration": 4.8
+    },
+    {
+      "text": "and you know in light of coin swaps we",
+      "start": 327.97,
+      "duration": 4.71
+    },
+    {
+      "text": "mean that if you have an alice in orange",
+      "start": 330.61,
+      "duration": 4.71
+    },
+    {
+      "text": "and Bob in yellow that what they're",
+      "start": 332.68,
+      "duration": 4.29
+    },
+    {
+      "text": "doing when they're doing court off",
+      "start": 335.32,
+      "duration": 4.08
+    },
+    {
+      "text": "between each other is they're sending",
+      "start": 336.97,
+      "duration": 5.76
+    },
+    {
+      "text": "their addresses to a special address",
+      "start": 339.4,
+      "duration": 7.89
+    },
+    {
+      "text": "that looks like your average you know",
+      "start": 342.73,
+      "duration": 7.32
+    },
+    {
+      "text": "plain pay to public key hash address or",
+      "start": 347.29,
+      "duration": 4.23
+    },
+    {
+      "text": "pay to weddings public key hash address",
+      "start": 350.05,
+      "duration": 4.35
+    },
+    {
+      "text": "and then from that address they are",
+      "start": 351.52,
+      "duration": 5.399
+    },
+    {
+      "text": "switching ownership for from one to the",
+      "start": 354.4,
+      "duration": 4.68
+    },
+    {
+      "text": "other and the critical thing here is",
+      "start": 356.919,
+      "duration": 5.851
+    },
+    {
+      "text": "that on the blockchain these two graphs",
+      "start": 359.08,
+      "duration": 6.93
+    },
+    {
+      "text": "of you know Alice's coin going to this",
+      "start": 362.77,
+      "duration": 5.919
+    },
+    {
+      "text": "Brown address and then to yellow address",
+      "start": 366.01,
+      "duration": 5.739
+    },
+    {
+      "text": "is completely unconnected that there's",
+      "start": 368.689,
+      "duration": 4.891
+    },
+    {
+      "text": "no merging of the graphs from these two",
+      "start": 371.749,
+      "duration": 3.66
+    },
+    {
+      "text": "sides so they're completely separate",
+      "start": 373.58,
+      "duration": 5.369
+    },
+    {
+      "text": "graphs and so no one knows that this is",
+      "start": 375.409,
+      "duration": 6.51
+    },
+    {
+      "text": "happening and so the end result is that",
+      "start": 378.949,
+      "duration": 3.6
+    },
+    {
+      "text": "whatever",
+      "start": 381.919,
+      "duration": 3.84
+    },
+    {
+      "text": "Bob's history is now Alice's Alice is",
+      "start": 382.549,
+      "duration": 7.561
+    },
+    {
+      "text": "inheriting it so bob is a is a British",
+      "start": 385.759,
+      "duration": 6.601
+    },
+    {
+      "text": "individual who likes to buy you know",
+      "start": 390.11,
+      "duration": 5.489
+    },
+    {
+      "text": "shoes online his history is now going",
+      "start": 392.36,
+      "duration": 6.419
+    },
+    {
+      "text": "over to Alice who is then going to",
+      "start": 395.599,
+      "duration": 5.91
+    },
+    {
+      "text": "behave totally differently and any",
+      "start": 398.779,
+      "duration": 4.081
+    },
+    {
+      "text": "forensics company that's trying to",
+      "start": 401.509,
+      "duration": 4.05
+    },
+    {
+      "text": "cluster those behaviors and it's trying",
+      "start": 402.86,
+      "duration": 4.919
+    },
+    {
+      "text": "to say you know this graph looks clearly",
+      "start": 405.559,
+      "duration": 4.32
+    },
+    {
+      "text": "like Bob well we'll then they met with a",
+      "start": 407.779,
+      "duration": 3.331
+    },
+    {
+      "text": "completely different user behavior",
+      "start": 409.879,
+      "duration": 3.27
+    },
+    {
+      "text": "because actually it's Alice so this is",
+      "start": 411.11,
+      "duration": 4.199
+    },
+    {
+      "text": "totally covert that's what's going on",
+      "start": 413.149,
+      "duration": 6.83
+    },
+    {
+      "text": "here so here is Belcher talking about",
+      "start": 415.309,
+      "duration": 6.991
+    },
+    {
+      "text": "coin swaps in the very beginning you",
+      "start": 419.979,
+      "duration": 4.39
+    },
+    {
+      "text": "could see he outlines it very clearly",
+      "start": 422.3,
+      "duration": 5.099
+    },
+    {
+      "text": "here on the bottom the same sort of",
+      "start": 424.369,
+      "duration": 5.28
+    },
+    {
+      "text": "chart that I've you know that was on",
+      "start": 427.399,
+      "duration": 6.45
+    },
+    {
+      "text": "previous slide and the critical thing to",
+      "start": 429.649,
+      "duration": 5.61
+    },
+    {
+      "text": "understand of course is that coin swaps",
+      "start": 433.849,
+      "duration": 3.6
+    },
+    {
+      "text": "are non-custodial which means that you",
+      "start": 435.259,
+      "duration": 3.72
+    },
+    {
+      "text": "know an alice is not giving her coin up",
+      "start": 437.449,
+      "duration": 4.05
+    },
+    {
+      "text": "to Bob hoping that Bob doesn't steal",
+      "start": 438.979,
+      "duration": 5.4
+    },
+    {
+      "text": "that coin you know they're using hash",
+      "start": 441.499,
+      "duration": 5.25
+    },
+    {
+      "text": "time law contracts and the like to",
+      "start": 444.379,
+      "duration": 4.7
+    },
+    {
+      "text": "guarantee that as soon as Bob claims",
+      "start": 446.749,
+      "duration": 4.801
+    },
+    {
+      "text": "Alice's coin Alice is now able to claim",
+      "start": 449.079,
+      "duration": 5.59
+    },
+    {
+      "text": "Bob's coin this is not very different",
+      "start": 451.55,
+      "duration": 6.589
+    },
+    {
+      "text": "from the Lightning Network that we see",
+      "start": 454.669,
+      "duration": 5.881
+    },
+    {
+      "text": "and again like I said before this is",
+      "start": 458.139,
+      "duration": 4.75
+    },
+    {
+      "text": "heavily based on the 2013 Pro buggering",
+      "start": 460.55,
+      "duration": 5.369
+    },
+    {
+      "text": "Maxwell although back then Maxwell had",
+      "start": 462.889,
+      "duration": 5.34
+    },
+    {
+      "text": "to use many more transactions and they",
+      "start": 465.919,
+      "duration": 6.15
+    },
+    {
+      "text": "were they weren't covert at all it was",
+      "start": 468.229,
+      "duration": 6.9
+    },
+    {
+      "text": "quite evident at least that something",
+      "start": 472.069,
+      "duration": 4.65
+    },
+    {
+      "text": "fishy was going on that this transaction",
+      "start": 475.129,
+      "duration": 2.64
+    },
+    {
+      "text": "was different than an average",
+      "start": 476.719,
+      "duration": 3.84
+    },
+    {
+      "text": "transaction and this is not the case",
+      "start": 477.769,
+      "duration": 6.27
+    },
+    {
+      "text": "with with with Belcher's work so how is",
+      "start": 480.559,
+      "duration": 5.1
+    },
+    {
+      "text": "Belcher making it covert I mean if",
+      "start": 484.039,
+      "duration": 2.97
+    },
+    {
+      "text": "Maxwell couldn't make it go ger and how",
+      "start": 485.659,
+      "duration": 4.201
+    },
+    {
+      "text": "is Belcher doing that well he's using a",
+      "start": 487.009,
+      "duration": 6.66
+    },
+    {
+      "text": "clever trick called ECDSA 2p this is to",
+      "start": 489.86,
+      "duration": 5.25
+    },
+    {
+      "text": "party elliptic curve do signature",
+      "start": 493.669,
+      "duration": 3.51
+    },
+    {
+      "text": "algorithm so what essentially what it is",
+      "start": 495.11,
+      "duration": 4.44
+    },
+    {
+      "text": "is a two of two multi signature address",
+      "start": 497.179,
+      "duration": 4.621
+    },
+    {
+      "text": "but it looks the same as a regular",
+      "start": 499.55,
+      "duration": 5.82
+    },
+    {
+      "text": "single signature address and any address",
+      "start": 501.8,
+      "duration": 6.359
+    },
+    {
+      "text": "can be can be tricked can be converted",
+      "start": 505.37,
+      "duration": 5.519
+    },
+    {
+      "text": "into a two-party elliptic curve a",
+      "start": 508.159,
+      "duration": 5.43
+    },
+    {
+      "text": "two-party ECDSA so you can use it with",
+      "start": 510.889,
+      "duration": 4.171
+    },
+    {
+      "text": "pain and public key hash you can use it",
+      "start": 513.589,
+      "duration": 4.921
+    },
+    {
+      "text": "with pen script hash wrapped pain to",
+      "start": 515.06,
+      "duration": 5.159
+    },
+    {
+      "text": "witness public key hash or you can use",
+      "start": 518.51,
+      "duration": 3.75
+    },
+    {
+      "text": "it with the new back 32 paid a witness",
+      "start": 520.219,
+      "duration": 5.581
+    },
+    {
+      "text": "public key hash and there's a big point",
+      "start": 522.26,
+      "duration": 6.38
+    },
+    {
+      "text": "that vulture makes here which is which",
+      "start": 525.8,
+      "duration": 6.21
+    },
+    {
+      "text": "shows a lot of where he comes from",
+      "start": 528.64,
+      "duration": 5.23
+    },
+    {
+      "text": "because I haven't said a lot about about",
+      "start": 532.01,
+      "duration": 3.24
+    },
+    {
+      "text": "Chris Beltre because everyone in this",
+      "start": 533.87,
+      "duration": 4.11
+    },
+    {
+      "text": "chat knows something about him he is the",
+      "start": 535.25,
+      "duration": 5.16
+    },
+    {
+      "text": "privacy wiki maintainer he is the",
+      "start": 537.98,
+      "duration": 5.52
+    },
+    {
+      "text": "electro personal server maintainer he is",
+      "start": 540.41,
+      "duration": 4.86
+    },
+    {
+      "text": "the joint market maintainer so he's",
+      "start": 543.5,
+      "duration": 4.11
+    },
+    {
+      "text": "probably one of the top three people in",
+      "start": 545.27,
+      "duration": 6.15
+    },
+    {
+      "text": "the space working on privacy and you can",
+      "start": 547.61,
+      "duration": 6.9
+    },
+    {
+      "text": "see that something very smart and what",
+      "start": 551.42,
+      "duration": 5.46
+    },
+    {
+      "text": "he says here he says you know all those",
+      "start": 554.51,
+      "duration": 4.019
+    },
+    {
+      "text": "more signatures with music provide a",
+      "start": 556.88,
+      "duration": 3.57
+    },
+    {
+      "text": "much easier way to and create invisible",
+      "start": 558.529,
+      "duration": 4.231
+    },
+    {
+      "text": "to of two multi-state it is not as",
+      "start": 560.45,
+      "duration": 4.71
+    },
+    {
+      "text": "suitable for point swap it you might ask",
+      "start": 562.76,
+      "duration": 6.68
+    },
+    {
+      "text": "why would a more secure you know a",
+      "start": 565.16,
+      "duration": 8.82
+    },
+    {
+      "text": "simpler protocol that's you know that",
+      "start": 569.44,
+      "duration": 9.519
+    },
+    {
+      "text": "that that all of the all the new hive is",
+      "start": 573.98,
+      "duration": 6.72
+    },
+    {
+      "text": "is talking about why isn't that the way",
+      "start": 578.959,
+      "duration": 3.421
+    },
+    {
+      "text": "that Belcher wants to go and the answer",
+      "start": 580.7,
+      "duration": 4.02
+    },
+    {
+      "text": "is simple because not enough people are",
+      "start": 582.38,
+      "duration": 4.68
+    },
+    {
+      "text": "using this address and what vult really",
+      "start": 584.72,
+      "duration": 4.5
+    },
+    {
+      "text": "wants is he wants users who are here's a",
+      "start": 587.06,
+      "duration": 4.89
+    },
+    {
+      "text": "coin swap to look like an overwhelming",
+      "start": 589.22,
+      "duration": 4.619
+    },
+    {
+      "text": "majority of average people on the",
+      "start": 591.95,
+      "duration": 4.47
+    },
+    {
+      "text": "network so he wants people to look like",
+      "start": 593.839,
+      "duration": 5.221
+    },
+    {
+      "text": "just everyday old school paid a public",
+      "start": 596.42,
+      "duration": 4.83
+    },
+    {
+      "text": "key hash or the newer beta script hash",
+      "start": 599.06,
+      "duration": 5.64
+    },
+    {
+      "text": "wrapped and paid into public key hash he",
+      "start": 601.25,
+      "duration": 6.57
+    },
+    {
+      "text": "doesn't want to use a new format that is",
+      "start": 604.7,
+      "duration": 6.78
+    },
+    {
+      "text": "a very small number of people and so the",
+      "start": 607.82,
+      "duration": 5.49
+    },
+    {
+      "text": "property of covert race that's really",
+      "start": 611.48,
+      "duration": 3.96
+    },
+    {
+      "text": "important here is it is the one that",
+      "start": 613.31,
+      "duration": 3.719
+    },
+    {
+      "text": "I've sort of highlighted here in green",
+      "start": 615.44,
+      "duration": 3.54
+    },
+    {
+      "text": "it's the special address that's right",
+      "start": 617.029,
+      "duration": 4.68
+    },
+    {
+      "text": "these special addresses we need a to of",
+      "start": 618.98,
+      "duration": 4.08
+    },
+    {
+      "text": "to multi stake but we don't want to",
+      "start": 621.709,
+      "duration": 3.061
+    },
+    {
+      "text": "reveal that it's a to of two multi-sig",
+      "start": 623.06,
+      "duration": 4.529
+    },
+    {
+      "text": "because two of two multi six comprised",
+      "start": 624.77,
+      "duration": 5.51
+    },
+    {
+      "text": "of a super minority",
+      "start": 627.589,
+      "duration": 4.461
+    },
+    {
+      "text": "both Bitcoin amounts and Bitcoin",
+      "start": 630.28,
+      "duration": 3.81
+    },
+    {
+      "text": "addresses on the network so what I would",
+      "start": 632.05,
+      "duration": 3.24
+    },
+    {
+      "text": "like to do is we would like to look like",
+      "start": 634.09,
+      "duration": 4.05
+    },
+    {
+      "text": "any any wallet blockchain comm wall we",
+      "start": 635.29,
+      "duration": 4.59
+    },
+    {
+      "text": "want to look like you know what Saudi",
+      "start": 638.14,
+      "duration": 3.51
+    },
+    {
+      "text": "oil that we want to look like mycelium",
+      "start": 639.88,
+      "duration": 3.03
+    },
+    {
+      "text": "wall I want to look like we know me well",
+      "start": 641.65,
+      "duration": 3.27
+    },
+    {
+      "text": "I want to look at every other common",
+      "start": 642.91,
+      "duration": 3.42
+    },
+    {
+      "text": "wall and none of those wallets are",
+      "start": 644.92,
+      "duration": 3.06
+    },
+    {
+      "text": "offering to of to multi-sig because",
+      "start": 646.33,
+      "duration": 8.04
+    },
+    {
+      "text": "that's quite rare so so so so he saw",
+      "start": 647.98,
+      "duration": 9.24
+    },
+    {
+      "text": "this with with a two-party ECDSA the",
+      "start": 654.37,
+      "duration": 4.59
+    },
+    {
+      "text": "second thing we have to ask is well how",
+      "start": 657.22,
+      "duration": 2.97
+    },
+    {
+      "text": "are we going to avoid a mount",
+      "start": 658.96,
+      "duration": 3.69
+    },
+    {
+      "text": "correlation because the the problem you",
+      "start": 660.19,
+      "duration": 4.68
+    },
+    {
+      "text": "have is that if an adversary starts",
+      "start": 662.65,
+      "duration": 4.7
+    },
+    {
+      "text": "tracking an address of Alice at Point a",
+      "start": 664.87,
+      "duration": 5.01
+    },
+    {
+      "text": "they could unmix the points off easily",
+      "start": 667.35,
+      "duration": 4.24
+    },
+    {
+      "text": "by searching the entire blockchain for",
+      "start": 669.88,
+      "duration": 3.39
+    },
+    {
+      "text": "other transactions of the mouths close",
+      "start": 671.59,
+      "duration": 4.77
+    },
+    {
+      "text": "to the amount that alice is using if",
+      "start": 673.27,
+      "duration": 5.16
+    },
+    {
+      "text": "it's 15 Bitcoin and you know that",
+      "start": 676.36,
+      "duration": 3.36
+    },
+    {
+      "text": "forensics company is simply going to",
+      "start": 678.43,
+      "duration": 3.14
+    },
+    {
+      "text": "watch for other addresses that are doing",
+      "start": 679.72,
+      "duration": 4.29
+    },
+    {
+      "text": "transactions with exactly 15 Bitcoin",
+      "start": 681.57,
+      "duration": 4.6
+    },
+    {
+      "text": "which would lead them to to address",
+      "start": 684.01,
+      "duration": 4.83
+    },
+    {
+      "text": "Alice B we can beat this by a not",
+      "start": 686.17,
+      "duration": 4.83
+    },
+    {
+      "text": "correlation attack by creating multi",
+      "start": 688.84,
+      "duration": 5.28
+    },
+    {
+      "text": "transaction coin swaps what does that",
+      "start": 691.0,
+      "duration": 5.19
+    },
+    {
+      "text": "look like well looks like this instead",
+      "start": 694.12,
+      "duration": 4.23
+    },
+    {
+      "text": "of Alice you know at the top alice is",
+      "start": 696.19,
+      "duration": 4.68
+    },
+    {
+      "text": "gonna swap with Bob so she's gonna have",
+      "start": 698.35,
+      "duration": 4.23
+    },
+    {
+      "text": "her 30 bitcoins she's going to swap it",
+      "start": 700.87,
+      "duration": 3.87
+    },
+    {
+      "text": "over to Bob who's gonna receive the 30",
+      "start": 702.58,
+      "duration": 4.71
+    },
+    {
+      "text": "bitcoins but Bob isn't gonna give Alice",
+      "start": 704.74,
+      "duration": 4.59
+    },
+    {
+      "text": "a single utx so instead of bubbling to",
+      "start": 707.29,
+      "duration": 5.34
+    },
+    {
+      "text": "give Alice a cluster of utx shows the",
+      "start": 709.33,
+      "duration": 5.88
+    },
+    {
+      "text": "amount of 30 bitcoins as you can see",
+      "start": 712.63,
+      "duration": 6.0
+    },
+    {
+      "text": "here that now we're introducing not a",
+      "start": 715.21,
+      "duration": 6.3
+    },
+    {
+      "text": "single coin swap but but but a triple",
+      "start": 718.63,
+      "duration": 5.4
+    },
+    {
+      "text": "point swap Multi multi coin coin swap",
+      "start": 721.51,
+      "duration": 5.85
+    },
+    {
+      "text": "here and the net result is that it's",
+      "start": 724.03,
+      "duration": 5.4
+    },
+    {
+      "text": "much much harder for anyone on the",
+      "start": 727.36,
+      "duration": 6.33
+    },
+    {
+      "text": "outside to find you know those those new",
+      "start": 729.43,
+      "duration": 7.05
+    },
+    {
+      "text": "T excels that amount to 30 especially if",
+      "start": 733.69,
+      "duration": 4.68
+    },
+    {
+      "text": "Alice herself doesn't have a single UT",
+      "start": 736.48,
+      "duration": 3.45
+    },
+    {
+      "text": "Excel but with several new teak shows",
+      "start": 738.37,
+      "duration": 3.36
+    },
+    {
+      "text": "that she's exchanging for other UTX",
+      "start": 739.93,
+      "duration": 3.9
+    },
+    {
+      "text": "shows as it turns out with this protocol",
+      "start": 741.73,
+      "duration": 5.33
+    },
+    {
+      "text": "there are no limitations with both",
+      "start": 743.83,
+      "duration": 6.0
+    },
+    {
+      "text": "merging UT exo's in a coin swap but also",
+      "start": 747.06,
+      "duration": 4.84
+    },
+    {
+      "text": "branching youtube so isn't a coin swap",
+      "start": 749.83,
+      "duration": 4.23
+    },
+    {
+      "text": "so you really don't know if alice is",
+      "start": 751.9,
+      "duration": 4.17
+    },
+    {
+      "text": "getting one he takes no to t expose or",
+      "start": 754.06,
+      "duration": 5.7
+    },
+    {
+      "text": "12 UT exo's so that's how Belcher",
+      "start": 756.07,
+      "duration": 5.06
+    },
+    {
+      "text": "proposes that we prevent",
+      "start": 759.76,
+      "duration": 4.55
+    },
+    {
+      "text": "a mountain correlation now let's talk",
+      "start": 761.13,
+      "duration": 4.71
+    },
+    {
+      "text": "about trust lessness okay so we're",
+      "start": 764.31,
+      "duration": 2.7
+    },
+    {
+      "text": "talking about covert next let's talk",
+      "start": 765.84,
+      "duration": 3.48
+    },
+    {
+      "text": "about restlessness a protocol is trust",
+      "start": 767.01,
+      "duration": 4.98
+    },
+    {
+      "text": "less if it neither jeopardizes the",
+      "start": 769.32,
+      "duration": 6.14
+    },
+    {
+      "text": "security nor the privacy of the users",
+      "start": 771.99,
+      "duration": 6.36
+    },
+    {
+      "text": "Bitcoin and their Bitcoin history to any",
+      "start": 775.46,
+      "duration": 6.46
+    },
+    {
+      "text": "single party now the coins we've talked",
+      "start": 778.35,
+      "duration": 5.55
+    },
+    {
+      "text": "about in the past pretty particular zero",
+      "start": 781.92,
+      "duration": 3.77
+    },
+    {
+      "text": "link coin joints are trustless",
+      "start": 783.9,
+      "duration": 5.13
+    },
+    {
+      "text": "specifically zero link Chalian blind",
+      "start": 785.69,
+      "duration": 6.31
+    },
+    {
+      "text": "coins are trustless because the users do",
+      "start": 789.03,
+      "duration": 5.43
+    },
+    {
+      "text": "not give the central coordinator any",
+      "start": 792.0,
+      "duration": 4.56
+    },
+    {
+      "text": "additional information about their",
+      "start": 794.46,
+      "duration": 5.04
+    },
+    {
+      "text": "addresses now there are other protocols",
+      "start": 796.56,
+      "duration": 6.06
+    },
+    {
+      "text": "that don't do these this blinding and",
+      "start": 799.5,
+      "duration": 5.55
+    },
+    {
+      "text": "that of course is not trustless but with",
+      "start": 802.62,
+      "duration": 3.9
+    },
+    {
+      "text": "with the zero line coin when they are",
+      "start": 805.05,
+      "duration": 3.57
+    },
+    {
+      "text": "trustless and of course zero link point",
+      "start": 806.52,
+      "duration": 4.65
+    },
+    {
+      "text": "joints rely on the users having to sign",
+      "start": 808.62,
+      "duration": 5.34
+    },
+    {
+      "text": "the transactions so if the user believes",
+      "start": 811.17,
+      "duration": 4.86
+    },
+    {
+      "text": "they're being screwed over and do not",
+      "start": 813.96,
+      "duration": 3.81
+    },
+    {
+      "text": "get that amount of Bitcoin they deserve",
+      "start": 816.03,
+      "duration": 3.33
+    },
+    {
+      "text": "back they simply don't sign and there's",
+      "start": 817.77,
+      "duration": 3.3
+    },
+    {
+      "text": "no risk to the user of losing bitcoins",
+      "start": 819.36,
+      "duration": 4.53
+    },
+    {
+      "text": "but coin swaps are not trustless by",
+      "start": 821.07,
+      "duration": 4.98
+    },
+    {
+      "text": "default it's not the security of the of",
+      "start": 823.89,
+      "duration": 3.6
+    },
+    {
+      "text": "the Bitcoin that's of concern",
+      "start": 826.05,
+      "duration": 3.6
+    },
+    {
+      "text": "it's the privacy of the Bitcoin and why",
+      "start": 827.49,
+      "duration": 5.6
+    },
+    {
+      "text": "is that well it should be quite evident",
+      "start": 829.65,
+      "duration": 6.51
+    },
+    {
+      "text": "whenever you do a coin swap you are",
+      "start": 833.09,
+      "duration": 5.32
+    },
+    {
+      "text": "engaging with one other individual and",
+      "start": 836.16,
+      "duration": 3.84
+    },
+    {
+      "text": "so how do you know that one other",
+      "start": 838.41,
+      "duration": 3.69
+    },
+    {
+      "text": "individual isn't chained alysus or some",
+      "start": 840.0,
+      "duration": 3.96
+    },
+    {
+      "text": "forensics company and how do you know",
+      "start": 842.1,
+      "duration": 3.36
+    },
+    {
+      "text": "that individual isn't going to comply or",
+      "start": 843.96,
+      "duration": 5.67
+    },
+    {
+      "text": "or collude with a bad actor so clearly",
+      "start": 845.46,
+      "duration": 5.67
+    },
+    {
+      "text": "you don't know if the person you're",
+      "start": 849.63,
+      "duration": 3.69
+    },
+    {
+      "text": "you're collaborating with is going to",
+      "start": 851.13,
+      "duration": 5.07
+    },
+    {
+      "text": "rat you out because they know your",
+      "start": 853.32,
+      "duration": 5.66
+    },
+    {
+      "text": "history of coins so how does some",
+      "start": 856.2,
+      "duration": 4.74
+    },
+    {
+      "text": "Belcher do this problem while he",
+      "start": 858.98,
+      "duration": 4.0
+    },
+    {
+      "text": "introduces this idea of routing coin",
+      "start": 860.94,
+      "duration": 4.56
+    },
+    {
+      "text": "swaps now this this diagram here isn't",
+      "start": 862.98,
+      "duration": 4.5
+    },
+    {
+      "text": "very accurate there's a more accurate",
+      "start": 865.5,
+      "duration": 4.65
+    },
+    {
+      "text": "diagram in a second but the idea is sort",
+      "start": 867.48,
+      "duration": 4.92
+    },
+    {
+      "text": "of there so here what you can imagine is",
+      "start": 870.15,
+      "duration": 4.74
+    },
+    {
+      "text": "three participants are doing coin swaps",
+      "start": 872.4,
+      "duration": 4.53
+    },
+    {
+      "text": "between each other first alice is doing",
+      "start": 874.89,
+      "duration": 4.71
+    },
+    {
+      "text": "it with Bob and then out and then with",
+      "start": 876.93,
+      "duration": 4.8
+    },
+    {
+      "text": "Bob's coin alice is doing it with Carol",
+      "start": 879.6,
+      "duration": 3.9
+    },
+    {
+      "text": "and then finally with Carol's coin she",
+      "start": 881.73,
+      "duration": 4.47
+    },
+    {
+      "text": "receives that back and so the idea here",
+      "start": 883.5,
+      "duration": 4.32
+    },
+    {
+      "text": "is that coins are bouncing around from",
+      "start": 886.2,
+      "duration": 4.49
+    },
+    {
+      "text": "multiple participants such that yes",
+      "start": 887.82,
+      "duration": 5.84
+    },
+    {
+      "text": "one participant can know a particular",
+      "start": 890.69,
+      "duration": 6.12
+    },
+    {
+      "text": "link but in order for alice's coin to be",
+      "start": 893.66,
+      "duration": 3.81
+    },
+    {
+      "text": "anonymized",
+      "start": 896.81,
+      "duration": 4.23
+    },
+    {
+      "text": "all of the participants in this coin",
+      "start": 897.47,
+      "duration": 6.15
+    },
+    {
+      "text": "swap must Khalid together to D anonymize",
+      "start": 901.04,
+      "duration": 4.95
+    },
+    {
+      "text": "her and if this is starting to sound",
+      "start": 903.62,
+      "duration": 4.32
+    },
+    {
+      "text": "very similar it's because this sounds",
+      "start": 905.99,
+      "duration": 5.94
+    },
+    {
+      "text": "almost exactly like lightning or tor the",
+      "start": 907.94,
+      "duration": 5.37
+    },
+    {
+      "text": "fact that we're Onion Routing we're",
+      "start": 911.93,
+      "duration": 2.97
+    },
+    {
+      "text": "essentially doing this multiple times",
+      "start": 913.31,
+      "duration": 3.47
+    },
+    {
+      "text": "with multiple participants so that",
+      "start": 914.9,
+      "duration": 5.13
+    },
+    {
+      "text": "everybody is just one link to the final",
+      "start": 916.78,
+      "duration": 6.96
+    },
+    {
+      "text": "destination this is actually very secure",
+      "start": 920.03,
+      "duration": 7.95
+    },
+    {
+      "text": "here's a better diagram so you can",
+      "start": 923.74,
+      "duration": 6.01
+    },
+    {
+      "text": "imagine that on the left is Alice's coin",
+      "start": 927.98,
+      "duration": 3.24
+    },
+    {
+      "text": "and she's switching it for the brown",
+      "start": 929.75,
+      "duration": 3.48
+    },
+    {
+      "text": "coin and now she has that brown quench",
+      "start": 931.22,
+      "duration": 3.84
+    },
+    {
+      "text": "switching it for a blue coin and then",
+      "start": 933.23,
+      "duration": 3.12
+    },
+    {
+      "text": "she has a blue question switch there for",
+      "start": 935.06,
+      "duration": 2.97
+    },
+    {
+      "text": "a green coin and then she finally",
+      "start": 936.35,
+      "duration": 3.36
+    },
+    {
+      "text": "switches it for one last point and that",
+      "start": 938.03,
+      "duration": 3.87
+    },
+    {
+      "text": "is the coin she's deciding to spend from",
+      "start": 939.71,
+      "duration": 4.44
+    },
+    {
+      "text": "now on and the important thing is that",
+      "start": 941.9,
+      "duration": 4.38
+    },
+    {
+      "text": "all of these links need to be broken in",
+      "start": 944.15,
+      "duration": 4.11
+    },
+    {
+      "text": "order for her crimes to be broken and so",
+      "start": 946.28,
+      "duration": 4.17
+    },
+    {
+      "text": "Brown blue and green must collude",
+      "start": 948.26,
+      "duration": 5.88
+    },
+    {
+      "text": "together to break her privacy so if",
+      "start": 950.45,
+      "duration": 5.58
+    },
+    {
+      "text": "Alice wants to avoid dressing Bob Carol",
+      "start": 954.14,
+      "duration": 4.98
+    },
+    {
+      "text": "or dead she can trust none of them by",
+      "start": 956.03,
+      "duration": 5.28
+    },
+    {
+      "text": "essentially trusting a little all of",
+      "start": 959.12,
+      "duration": 3.99
+    },
+    {
+      "text": "them and as long as all of them don't",
+      "start": 961.31,
+      "duration": 4.44
+    },
+    {
+      "text": "collude in a conjunction format that is",
+      "start": 963.11,
+      "duration": 4.14
+    },
+    {
+      "text": "they all look together",
+      "start": 965.75,
+      "duration": 8.22
+    },
+    {
+      "text": "she's pretty much okay so then we have",
+      "start": 967.25,
+      "duration": 8.43
+    },
+    {
+      "text": "to combine these two concepts together",
+      "start": 973.97,
+      "duration": 6.96
+    },
+    {
+      "text": "so in in the paper Belcher has this",
+      "start": 975.68,
+      "duration": 7.08
+    },
+    {
+      "text": "drawing here where Alice has her",
+      "start": 980.93,
+      "duration": 4.98
+    },
+    {
+      "text": "multiple coins she switches swapping",
+      "start": 982.76,
+      "duration": 5.91
+    },
+    {
+      "text": "them with bombs multiple coins and then",
+      "start": 985.91,
+      "duration": 4.2
+    },
+    {
+      "text": "she has Bob's local coins and she's",
+      "start": 988.67,
+      "duration": 3.12
+    },
+    {
+      "text": "swapping with Charlie and then she has",
+      "start": 990.11,
+      "duration": 2.82
+    },
+    {
+      "text": "Charlie's court she's helped me with",
+      "start": 991.79,
+      "duration": 3.36
+    },
+    {
+      "text": "dentists and so forth until she's ready",
+      "start": 992.93,
+      "duration": 4.47
+    },
+    {
+      "text": "to spend those coins and the graph is",
+      "start": 995.15,
+      "duration": 3.93
+    },
+    {
+      "text": "completely broken and alice has not",
+      "start": 997.4,
+      "duration": 4.11
+    },
+    {
+      "text": "trusted Bob or Charlie or Dennis and the",
+      "start": 999.08,
+      "duration": 4.44
+    },
+    {
+      "text": "amount correlation is very hard to",
+      "start": 1001.51,
+      "duration": 2.54
+    },
+    {
+      "text": "perform",
+      "start": 1003.52,
+      "duration": 3.27
+    },
+    {
+      "text": "here's a slightly better diagram I think",
+      "start": 1004.05,
+      "duration": 4.51
+    },
+    {
+      "text": "than the one that Belcher gave just",
+      "start": 1006.79,
+      "duration": 3.9
+    },
+    {
+      "text": "because he was sort of constrained you",
+      "start": 1008.56,
+      "duration": 4.23
+    },
+    {
+      "text": "know again you just have these these",
+      "start": 1010.69,
+      "duration": 4.32
+    },
+    {
+      "text": "coin swaps for different coins of the",
+      "start": 1012.79,
+      "duration": 4.26
+    },
+    {
+      "text": "same total amounts and these coins have",
+      "start": 1015.01,
+      "duration": 3.36
+    },
+    {
+      "text": "continued sort",
+      "start": 1017.05,
+      "duration": 4.589
+    },
+    {
+      "text": "indefinitely now Belcher does make a",
+      "start": 1018.37,
+      "duration": 5.909
+    },
+    {
+      "text": "point that most people will trust one",
+      "start": 1021.639,
+      "duration": 5.491
+    },
+    {
+      "text": "swab and I think that's kind of an",
+      "start": 1024.279,
+      "duration": 4.68
+    },
+    {
+      "text": "interesting point that he makes that",
+      "start": 1027.13,
+      "duration": 3.899
+    },
+    {
+      "text": "most users will trust one or two swabs",
+      "start": 1028.959,
+      "duration": 5.181
+    },
+    {
+      "text": "and won't need to do many many swaps I",
+      "start": 1031.029,
+      "duration": 5.371
+    },
+    {
+      "text": "don't know if it's a particularly sound",
+      "start": 1034.14,
+      "duration": 5.76
+    },
+    {
+      "text": "thing to to suggest because it does",
+      "start": 1036.4,
+      "duration": 6.45
+    },
+    {
+      "text": "present problems with them with",
+      "start": 1039.9,
+      "duration": 5.559
+    },
+    {
+      "text": "motivated actors performing a simple",
+      "start": 1042.85,
+      "duration": 4.05
+    },
+    {
+      "text": "attack although he addresses that later",
+      "start": 1045.459,
+      "duration": 7.141
+    },
+    {
+      "text": "on so here's another diagram he also",
+      "start": 1046.9,
+      "duration": 7.59
+    },
+    {
+      "text": "talks about what happens if Alice is a",
+      "start": 1052.6,
+      "duration": 5.069
+    },
+    {
+      "text": "single UTF so of 15 Bitcoin well Alice",
+      "start": 1054.49,
+      "duration": 6.6
+    },
+    {
+      "text": "will need to do a branching coin swap",
+      "start": 1057.669,
+      "duration": 6.031
+    },
+    {
+      "text": "where she doesn't swap for a single coin",
+      "start": 1061.09,
+      "duration": 5.1
+    },
+    {
+      "text": "rather she swaps for a sixth of Bob's",
+      "start": 1063.7,
+      "duration": 4.65
+    },
+    {
+      "text": "coins and then those points are then",
+      "start": 1066.19,
+      "duration": 3.869
+    },
+    {
+      "text": "swapped for Charlie's point and ends",
+      "start": 1068.35,
+      "duration": 5.49
+    },
+    {
+      "text": "coins and they actually are swapped at",
+      "start": 1070.059,
+      "duration": 4.59
+    },
+    {
+      "text": "different times with different",
+      "start": 1073.84,
+      "duration": 3.6
+    },
+    {
+      "text": "participants so not all fifteen coins or",
+      "start": 1074.649,
+      "duration": 5.76
+    },
+    {
+      "text": "going in the same going in the same path",
+      "start": 1077.44,
+      "duration": 5.19
+    },
+    {
+      "text": "are actually branching out to different",
+      "start": 1080.409,
+      "duration": 5.4
+    },
+    {
+      "text": "individuals altogether so makes timing",
+      "start": 1082.63,
+      "duration": 5.159
+    },
+    {
+      "text": "and I'm not correlation very very hard",
+      "start": 1085.809,
+      "duration": 5.011
+    },
+    {
+      "text": "and so and Alice ends with a bunch of",
+      "start": 1087.789,
+      "duration": 6.26
+    },
+    {
+      "text": "coins from Johanna and from Fred and",
+      "start": 1090.82,
+      "duration": 6.599
+    },
+    {
+      "text": "then if Alice has two large coins and",
+      "start": 1094.049,
+      "duration": 5.531
+    },
+    {
+      "text": "she needs to consolidate them but she",
+      "start": 1097.419,
+      "duration": 4.11
+    },
+    {
+      "text": "doesn't want the the histories of those",
+      "start": 1099.58,
+      "duration": 3.99
+    },
+    {
+      "text": "two points to be merged she can again do",
+      "start": 1101.529,
+      "duration": 3.931
+    },
+    {
+      "text": "the same thing by switching them from",
+      "start": 1103.57,
+      "duration": 3.329
+    },
+    {
+      "text": "Bob when Charlie's coins and then",
+      "start": 1105.46,
+      "duration": 2.88
+    },
+    {
+      "text": "finally merging those points together",
+      "start": 1106.899,
+      "duration": 3.63
+    },
+    {
+      "text": "because Bob and Charlie's histories are",
+      "start": 1108.34,
+      "duration": 8.839
+    },
+    {
+      "text": "less critical than analysis history so",
+      "start": 1110.529,
+      "duration": 9.111
+    },
+    {
+      "text": "something interesting here so so now",
+      "start": 1117.179,
+      "duration": 4.661
+    },
+    {
+      "text": "Belcher's talking about breaking change",
+      "start": 1119.64,
+      "duration": 3.759
+    },
+    {
+      "text": "output and wala fingerprinting",
+      "start": 1121.84,
+      "duration": 4.02
+    },
+    {
+      "text": "heuristics the the first thing we talk",
+      "start": 1123.399,
+      "duration": 3.991
+    },
+    {
+      "text": "about is is the breaking the change",
+      "start": 1125.86,
+      "duration": 4.35
+    },
+    {
+      "text": "output so equal output coin joins easily",
+      "start": 1127.39,
+      "duration": 5.19
+    },
+    {
+      "text": "leak change addresses unless there are",
+      "start": 1130.21,
+      "duration": 5.91
+    },
+    {
+      "text": "suites with no change right so we know",
+      "start": 1132.58,
+      "duration": 8.04
+    },
+    {
+      "text": "that that any equal output coin join has",
+      "start": 1136.12,
+      "duration": 5.97
+    },
+    {
+      "text": "this problem where there is some change",
+      "start": 1140.62,
+      "duration": 3.39
+    },
+    {
+      "text": "and that changes is what we call own",
+      "start": 1142.09,
+      "duration": 6.569
+    },
+    {
+      "text": "toxic so this isn't a problem for coin",
+      "start": 1144.01,
+      "duration": 5.24
+    },
+    {
+      "text": "swap",
+      "start": 1148.659,
+      "duration": 3.681
+    },
+    {
+      "text": "any big one that you have you can find a",
+      "start": 1149.25,
+      "duration": 6.36
+    },
+    {
+      "text": "maker an individual who has bitcoins",
+      "start": 1152.34,
+      "duration": 5.61
+    },
+    {
+      "text": "who's willing to match your amount in",
+      "start": 1155.61,
+      "duration": 6.449
+    },
+    {
+      "text": "exchange for some some fee so quarrel",
+      "start": 1157.95,
+      "duration": 5.39
+    },
+    {
+      "text": "doesn't have that that change output",
+      "start": 1162.059,
+      "duration": 5.821
+    },
+    {
+      "text": "heuristic and this brings up to the next",
+      "start": 1163.34,
+      "duration": 6.04
+    },
+    {
+      "text": "point which is the walleye",
+      "start": 1167.88,
+      "duration": 4.049
+    },
+    {
+      "text": "fingerprinting heuristic and here I've",
+      "start": 1169.38,
+      "duration": 4.289
+    },
+    {
+      "text": "put in bracket the concept of randomness",
+      "start": 1171.929,
+      "duration": 3.901
+    },
+    {
+      "text": "so I'm just gonna say a little bit of a",
+      "start": 1173.669,
+      "duration": 3.931
+    },
+    {
+      "text": "personal story which hopefully I can put",
+      "start": 1175.83,
+      "duration": 7.26
+    },
+    {
+      "text": "up on them on hopefully I can put this",
+      "start": 1177.6,
+      "duration": 7.73
+    },
+    {
+      "text": "on",
+      "start": 1183.09,
+      "duration": 2.24
+    },
+    {
+      "text": "Belcher's of privacy wiki but BTC paste",
+      "start": 1185.45,
+      "duration": 10.359
+    },
+    {
+      "text": "server has a interesting transaction",
+      "start": 1190.02,
+      "duration": 8.55
+    },
+    {
+      "text": "output ordering for inputs so when when",
+      "start": 1195.809,
+      "duration": 5.971
+    },
+    {
+      "text": "when a be steep a server when you use",
+      "start": 1198.57,
+      "duration": 5.28
+    },
+    {
+      "text": "the B TCP server wallet and you send",
+      "start": 1201.78,
+      "duration": 3.86
+    },
+    {
+      "text": "money from within the BTC pay server",
+      "start": 1203.85,
+      "duration": 4.53
+    },
+    {
+      "text": "what it will do is it will sort of",
+      "start": 1205.64,
+      "duration": 5.279
+    },
+    {
+      "text": "randomly organize the inputs so",
+      "start": 1208.38,
+      "duration": 4.98
+    },
+    {
+      "text": "typically when you look at you know",
+      "start": 1210.919,
+      "duration": 5.64
+    },
+    {
+      "text": "businesses that get a lot of inputs you",
+      "start": 1213.36,
+      "duration": 5.4
+    },
+    {
+      "text": "get a lot of coins into their business",
+      "start": 1216.559,
+      "duration": 3.941
+    },
+    {
+      "text": "when they want to spend typically",
+      "start": 1218.76,
+      "duration": 4.07
+    },
+    {
+      "text": "businesses will either order my amount",
+      "start": 1220.5,
+      "duration": 5.01
+    },
+    {
+      "text": "whether it's reverse ordering or you",
+      "start": 1222.83,
+      "duration": 4.3
+    },
+    {
+      "text": "know high to low and low to high or they",
+      "start": 1225.51,
+      "duration": 4.02
+    },
+    {
+      "text": "will order by time that the Bitcoin has",
+      "start": 1227.13,
+      "duration": 3.47
+    },
+    {
+      "text": "a trident wallet",
+      "start": 1229.53,
+      "duration": 3.779
+    },
+    {
+      "text": "what be cheap a server didn't do that",
+      "start": 1230.6,
+      "duration": 6.01
+    },
+    {
+      "text": "they decided to do it randomly so they",
+      "start": 1233.309,
+      "duration": 4.801
+    },
+    {
+      "text": "took all their inputs and they and you",
+      "start": 1236.61,
+      "duration": 3.24
+    },
+    {
+      "text": "know it's random it's not my timings not",
+      "start": 1238.11,
+      "duration": 3.929
+    },
+    {
+      "text": "my amount now you might think wow this",
+      "start": 1239.85,
+      "duration": 3.329
+    },
+    {
+      "text": "is brilliant you know we'll use",
+      "start": 1242.039,
+      "duration": 3.651
+    },
+    {
+      "text": "randomness and and now we see pay server",
+      "start": 1243.179,
+      "duration": 4.801
+    },
+    {
+      "text": "doesn't you know you know add some",
+      "start": 1245.69,
+      "duration": 4.33
+    },
+    {
+      "text": "privacy to the merchants that use that",
+      "start": 1247.98,
+      "duration": 3.66
+    },
+    {
+      "text": "service unfortunately that's not the",
+      "start": 1250.02,
+      "duration": 3.84
+    },
+    {
+      "text": "case it's the opposite reality because",
+      "start": 1251.64,
+      "duration": 5.159
+    },
+    {
+      "text": "very few people use randomness and so",
+      "start": 1253.86,
+      "duration": 4.439
+    },
+    {
+      "text": "the result is that randomness is a",
+      "start": 1256.799,
+      "duration": 5.49
+    },
+    {
+      "text": "fingerprint so you know Belcher pointed",
+      "start": 1258.299,
+      "duration": 5.521
+    },
+    {
+      "text": "this out and it's a very good point he",
+      "start": 1262.289,
+      "duration": 4.201
+    },
+    {
+      "text": "he brings up here he says we can break",
+      "start": 1263.82,
+      "duration": 4.77
+    },
+    {
+      "text": "this heuristic by having makers randomly",
+      "start": 1266.49,
+      "duration": 3.96
+    },
+    {
+      "text": "with some probability send their change",
+      "start": 1268.59,
+      "duration": 4.14
+    },
+    {
+      "text": "to an address they've used before he's",
+      "start": 1270.45,
+      "duration": 4.459
+    },
+    {
+      "text": "talking here about a different heuristic",
+      "start": 1272.73,
+      "duration": 3.98
+    },
+    {
+      "text": "about the heuristic of",
+      "start": 1274.909,
+      "duration": 4.421
+    },
+    {
+      "text": "[Music]",
+      "start": 1276.71,
+      "duration": 5.62
+    },
+    {
+      "text": "the address is being reused or likely",
+      "start": 1279.33,
+      "duration": 5.94
+    },
+    {
+      "text": "payment addresses you know for example I",
+      "start": 1282.33,
+      "duration": 4.71
+    },
+    {
+      "text": "want to pay you money and I'm likely to",
+      "start": 1285.27,
+      "duration": 4.53
+    },
+    {
+      "text": "reuse your address but change addresses",
+      "start": 1287.04,
+      "duration": 4.98
+    },
+    {
+      "text": "are always brand new he's saying well",
+      "start": 1289.8,
+      "duration": 3.6
+    },
+    {
+      "text": "why don't we just have a small",
+      "start": 1292.02,
+      "duration": 3.36
+    },
+    {
+      "text": "probability of changed dresses being",
+      "start": 1293.4,
+      "duration": 4.68
+    },
+    {
+      "text": "reused on purpose and again some people",
+      "start": 1295.38,
+      "duration": 4.14
+    },
+    {
+      "text": "might say well don't should we never",
+      "start": 1298.08,
+      "duration": 2.34
+    },
+    {
+      "text": "reuse the dress",
+      "start": 1299.52,
+      "duration": 2.55
+    },
+    {
+      "text": "well actually what you're saying is it's",
+      "start": 1300.42,
+      "duration": 5.16
+    },
+    {
+      "text": "totally correct we should be behaving",
+      "start": 1302.07,
+      "duration": 6.18
+    },
+    {
+      "text": "like the crowd so that forensics",
+      "start": 1305.58,
+      "duration": 4.11
+    },
+    {
+      "text": "companies can't say anything",
+      "start": 1308.25,
+      "duration": 3.9
+    },
+    {
+      "text": "probabilistically artistically about our",
+      "start": 1309.69,
+      "duration": 5.61
+    },
+    {
+      "text": "particular protocol and actually it was",
+      "start": 1312.15,
+      "duration": 4.59
+    },
+    {
+      "text": "how we did a very similar thing I think",
+      "start": 1315.3,
+      "duration": 3.18
+    },
+    {
+      "text": "was how we did this about RBF recently",
+      "start": 1316.74,
+      "duration": 3.69
+    },
+    {
+      "text": "like we're a few months ago where we",
+      "start": 1318.48,
+      "duration": 3.45
+    },
+    {
+      "text": "found out that you know if there's like",
+      "start": 1320.43,
+      "duration": 4.92
+    },
+    {
+      "text": "something like 7% of BEC 32 spends I",
+      "start": 1321.93,
+      "duration": 6.0
+    },
+    {
+      "text": "have RBF enabled so we just we just made",
+      "start": 1325.35,
+      "duration": 4.62
+    },
+    {
+      "text": "it so that was Tommy wallets have like",
+      "start": 1327.93,
+      "duration": 5.0
+    },
+    {
+      "text": "seven percent of the time wasabi",
+      "start": 1329.97,
+      "duration": 5.22
+    },
+    {
+      "text": "transactions have RBF so it's",
+      "start": 1332.93,
+      "duration": 7.27
+    },
+    {
+      "text": "purposefully it's not random it's it's",
+      "start": 1335.19,
+      "duration": 7.92
+    },
+    {
+      "text": "looking similar to what other people are",
+      "start": 1340.2,
+      "duration": 5.22
+    },
+    {
+      "text": "doing so another great here is to kiki",
+      "start": 1343.11,
+      "duration": 4.29
+    },
+    {
+      "text": "attacks in the script type heuristic he",
+      "start": 1345.42,
+      "duration": 6.42
+    },
+    {
+      "text": "says why don't we just purposefully make",
+      "start": 1347.4,
+      "duration": 6.24
+    },
+    {
+      "text": "the address address wrong I would use",
+      "start": 1351.84,
+      "duration": 5.25
+    },
+    {
+      "text": "just look like the address format of the",
+      "start": 1353.64,
+      "duration": 5.64
+    },
+    {
+      "text": "rest of the network and this is also a",
+      "start": 1357.09,
+      "duration": 4.41
+    },
+    {
+      "text": "quite clever although there's some",
+      "start": 1359.28,
+      "duration": 3.36
+    },
+    {
+      "text": "downside I'm not using the most",
+      "start": 1361.5,
+      "duration": 2.55
+    },
+    {
+      "text": "efficient address format because that",
+      "start": 1362.64,
+      "duration": 6.3
+    },
+    {
+      "text": "results in higher fees so there was a",
+      "start": 1364.05,
+      "duration": 6.36
+    },
+    {
+      "text": "lot of other other things to talk about",
+      "start": 1368.94,
+      "duration": 7.47
+    },
+    {
+      "text": "in in this paper and I think it pretty",
+      "start": 1370.41,
+      "duration": 10.44
+    },
+    {
+      "text": "it likely merits in part two series",
+      "start": 1376.41,
+      "duration": 6.84
+    },
+    {
+      "text": "I was hoping Belcher's here at all he's",
+      "start": 1380.85,
+      "duration": 10.11
+    },
+    {
+      "text": "currently hearing that Chris no okay so",
+      "start": 1383.25,
+      "duration": 10.26
+    },
+    {
+      "text": "I was hoping to have it to have him on",
+      "start": 1390.96,
+      "duration": 5.46
+    },
+    {
+      "text": "here and answer some questions so far",
+      "start": 1393.51,
+      "duration": 4.8
+    },
+    {
+      "text": "but why don't we leave it there for now",
+      "start": 1396.42,
+      "duration": 7.64
+    },
+    {
+      "text": "and yeah questions comments",
+      "start": 1398.31,
+      "duration": 5.75
+    },
+    {
+      "text": "about what but what do you think that",
+      "start": 1410.51,
+      "duration": 8.62
+    },
+    {
+      "text": "should be the only because based on that",
+      "start": 1415.92,
+      "duration": 6.35
+    },
+    {
+      "text": "you know conjunction often stops and",
+      "start": 1419.13,
+      "duration": 7.86
+    },
+    {
+      "text": "burns Antony much more what should be",
+      "start": 1422.27,
+      "duration": 9.19
+    },
+    {
+      "text": "the end goal of different privacy the",
+      "start": 1426.99,
+      "duration": 10.31
+    },
+    {
+      "text": "end user experience can you describe it",
+      "start": 1431.46,
+      "duration": 5.84
+    },
+    {
+      "text": "so I can describe you what I user",
+      "start": 1441.08,
+      "duration": 8.05
+    },
+    {
+      "text": "experience of conjoined could be which",
+      "start": 1445.29,
+      "duration": 6.95
+    },
+    {
+      "text": "is actually to which is very small",
+      "start": 1449.13,
+      "duration": 6.99
+    },
+    {
+      "text": "dramatic enjoins too often conjoins and",
+      "start": 1452.24,
+      "duration": 6.01
+    },
+    {
+      "text": "that would result in every transaction",
+      "start": 1456.12,
+      "duration": 5.88
+    },
+    {
+      "text": "being a con Johnny so so that that's one",
+      "start": 1458.25,
+      "duration": 8.34
+    },
+    {
+      "text": "the TP as instant as it can be however",
+      "start": 1462.0,
+      "duration": 8.88
+    },
+    {
+      "text": "there is another one large engines for",
+      "start": 1466.59,
+      "duration": 6.6
+    },
+    {
+      "text": "there's a lot of privacy but if you take",
+      "start": 1470.88,
+      "duration": 9.17
+    },
+    {
+      "text": "like a total of Patrick after 20 or 40",
+      "start": 1473.19,
+      "duration": 12.87
+    },
+    {
+      "text": "organelle and for you to to be open open",
+      "start": 1480.05,
+      "duration": 8.32
+    },
+    {
+      "text": "your wallet and and then you can spawn",
+      "start": 1486.06,
+      "duration": 5.85
+    },
+    {
+      "text": "the occurrence so so what what how would",
+      "start": 1488.37,
+      "duration": 5.04
+    },
+    {
+      "text": "it look like",
+      "start": 1491.91,
+      "duration": 8.49
+    },
+    {
+      "text": "we need coins for tonight well it maxes",
+      "start": 1493.41,
+      "duration": 8.52
+    },
+    {
+      "text": "on the line and I'm sure he can jump in",
+      "start": 1500.4,
+      "duration": 6.26
+    },
+    {
+      "text": "and start to say where his end goal is",
+      "start": 1501.93,
+      "duration": 4.73
+    },
+    {
+      "text": "max",
+      "start": 1507.95,
+      "duration": 3.0
+    },
+    {
+      "text": "seven running them here other than us",
+      "start": 1513.09,
+      "duration": 4.52
+    },
+    {
+      "text": "okay well yeah it's a good question I",
+      "start": 1518.059,
+      "duration": 8.47
+    },
+    {
+      "text": "think the problem with coin swaps alone",
+      "start": 1523.049,
+      "duration": 12.63
+    },
+    {
+      "text": "is you still the way I see the privacy",
+      "start": 1526.529,
+      "duration": 11.551
+    },
+    {
+      "text": "and anonymity networks is you're trying",
+      "start": 1535.679,
+      "duration": 4.98
+    },
+    {
+      "text": "to smell user behavior and figure out",
+      "start": 1538.08,
+      "duration": 6.839
+    },
+    {
+      "text": "where users are and so I don't see like",
+      "start": 1540.659,
+      "duration": 8.791
+    },
+    {
+      "text": "one solution fits all where everything",
+      "start": 1544.919,
+      "duration": 5.521
+    },
+    {
+      "text": "is just solved",
+      "start": 1549.45,
+      "duration": 7.41
+    },
+    {
+      "text": "now you still have privacy problems you",
+      "start": 1550.44,
+      "duration": 7.77
+    },
+    {
+      "text": "know for example like let's say you're",
+      "start": 1556.86,
+      "duration": 7.35
+    },
+    {
+      "text": "just a merchant and you know you're",
+      "start": 1558.21,
+      "duration": 7.439
+    },
+    {
+      "text": "getting all these payments from people",
+      "start": 1564.21,
+      "duration": 3.15
+    },
+    {
+      "text": "that are doing these coin swaps so yeah",
+      "start": 1565.649,
+      "duration": 4.171
+    },
+    {
+      "text": "like that graph is really obfuscated but",
+      "start": 1567.36,
+      "duration": 4.319
+    },
+    {
+      "text": "now you have all these payments what do",
+      "start": 1569.82,
+      "duration": 4.109
+    },
+    {
+      "text": "you do I think for a lot of large",
+      "start": 1571.679,
+      "duration": 5.161
+    },
+    {
+      "text": "business cases and large users",
+      "start": 1573.929,
+      "duration": 6.48
+    },
+    {
+      "text": "I think coin join still is the most",
+      "start": 1576.84,
+      "duration": 6.77
+    },
+    {
+      "text": "effective because it just it just",
+      "start": 1580.409,
+      "duration": 7.02
+    },
+    {
+      "text": "crushes the the gravity it makes the",
+      "start": 1583.61,
+      "duration": 13.47
+    },
+    {
+      "text": "graph incredibly hard to to unravel yeah",
+      "start": 1587.429,
+      "duration": 9.651
+    },
+    {
+      "text": "makes sense",
+      "start": 1598.7,
+      "duration": 3.75
+    },
+    {
+      "text": "now I actually really like to hear",
+      "start": 1606.51,
+      "duration": 8.53
+    },
+    {
+      "text": "someone else talk as well just because",
+      "start": 1609.72,
+      "duration": 7.99
+    },
+    {
+      "text": "I'm not familiar with the different",
+      "start": 1615.04,
+      "duration": 7.04
+    },
+    {
+      "text": "wallets fingerprints what kind of things",
+      "start": 1617.71,
+      "duration": 12.21
+    },
+    {
+      "text": "left believes these I mean yeah I can",
+      "start": 1622.08,
+      "duration": 9.81
+    },
+    {
+      "text": "talk about that in depth I actually I",
+      "start": 1629.92,
+      "duration": 6.9
+    },
+    {
+      "text": "fingerprint a lot of bullets so so yeah",
+      "start": 1631.89,
+      "duration": 6.49
+    },
+    {
+      "text": "I actually can look at the blockchain",
+      "start": 1636.82,
+      "duration": 3.39
+    },
+    {
+      "text": "with pretty good accuracy and figure out",
+      "start": 1638.38,
+      "duration": 4.26
+    },
+    {
+      "text": "which which user is using which wallet I",
+      "start": 1640.21,
+      "duration": 5.46
+    },
+    {
+      "text": "mean it's everything right so so you",
+      "start": 1642.64,
+      "duration": 5.55
+    },
+    {
+      "text": "know you know when when I say a",
+      "start": 1645.67,
+      "duration": 3.87
+    },
+    {
+      "text": "transaction in the blockchain",
+      "start": 1648.19,
+      "duration": 3.48
+    },
+    {
+      "text": "what kind of address format okay that's",
+      "start": 1649.54,
+      "duration": 4.71
+    },
+    {
+      "text": "an easy one what kind of is the change",
+      "start": 1651.67,
+      "duration": 5.13
+    },
+    {
+      "text": "of dress a bit 69 is it indexed",
+      "start": 1654.25,
+      "duration": 4.59
+    },
+    {
+      "text": "lexicographically or is it just randomly",
+      "start": 1656.8,
+      "duration": 3.93
+    },
+    {
+      "text": "indexed okay that gives something away",
+      "start": 1658.84,
+      "duration": 4.53
+    },
+    {
+      "text": "what's the long time is it 0 or is it a",
+      "start": 1660.73,
+      "duration": 6.51
+    },
+    {
+      "text": "recent block what's the end sequence you",
+      "start": 1663.37,
+      "duration": 6.12
+    },
+    {
+      "text": "know what's the version number of that",
+      "start": 1667.24,
+      "duration": 5.1
+    },
+    {
+      "text": "transaction on the change address where",
+      "start": 1669.49,
+      "duration": 5.16
+    },
+    {
+      "text": "you used like block ENCOM okay that's",
+      "start": 1672.34,
+      "duration": 4.02
+    },
+    {
+      "text": "easy one you know that you know it's the",
+      "start": 1674.65,
+      "duration": 4.26
+    },
+    {
+      "text": "case sometimes I noticed that a wallet",
+      "start": 1676.36,
+      "duration": 6.45
+    },
+    {
+      "text": "will pay to like type outputs okay bingo",
+      "start": 1678.91,
+      "duration": 6.69
+    },
+    {
+      "text": "only a couple of wallets offer that",
+      "start": 1682.81,
+      "duration": 5.52
+    },
+    {
+      "text": "advanced feature so I immediately know",
+      "start": 1685.6,
+      "duration": 5.43
+    },
+    {
+      "text": "no it's what's going on on you know all",
+      "start": 1688.33,
+      "duration": 4.89
+    },
+    {
+      "text": "of these things like it's it becomes",
+      "start": 1691.03,
+      "duration": 4.29
+    },
+    {
+      "text": "quickly it becomes oh here's a good one",
+      "start": 1693.22,
+      "duration": 4.29
+    },
+    {
+      "text": "the transaction fee what kind of a",
+      "start": 1695.32,
+      "duration": 5.19
+    },
+    {
+      "text": "number is it is it a whole number or is",
+      "start": 1697.51,
+      "duration": 5.46
+    },
+    {
+      "text": "it a partial number is it when I look at",
+      "start": 1700.51,
+      "duration": 5.07
+    },
+    {
+      "text": "the blockchain at that time is it is it",
+      "start": 1702.97,
+      "duration": 7.47
+    },
+    {
+      "text": "based on electrons on a fee distribution",
+      "start": 1705.58,
+      "duration": 7.26
+    },
+    {
+      "text": "or big link or speed distribution is it",
+      "start": 1710.44,
+      "duration": 5.64
+    },
+    {
+      "text": "based on you know does the user get to",
+      "start": 1712.84,
+      "duration": 5.7
+    },
+    {
+      "text": "manually pick or are the three based",
+      "start": 1716.08,
+      "duration": 5.28
+    },
+    {
+      "text": "options you know these are things that",
+      "start": 1718.54,
+      "duration": 5.4
+    },
+    {
+      "text": "are pretty quickly revealed there are",
+      "start": 1721.36,
+      "duration": 5.55
+    },
+    {
+      "text": "probably like twenty to thirty qualities",
+      "start": 1723.94,
+      "duration": 5.4
+    },
+    {
+      "text": "of a transaction and the problem with",
+      "start": 1726.91,
+      "duration": 4.8
+    },
+    {
+      "text": "having a lot of qualities is that if you",
+      "start": 1729.34,
+      "duration": 4.92
+    },
+    {
+      "text": "repeat qualities you become a snowflake",
+      "start": 1731.71,
+      "duration": 3.62
+    },
+    {
+      "text": "which means you become",
+      "start": 1734.26,
+      "duration": 3.53
+    },
+    {
+      "text": "unique right no other wall is gonna have",
+      "start": 1735.33,
+      "duration": 4.37
+    },
+    {
+      "text": "the same twenty qualities that you do",
+      "start": 1737.79,
+      "duration": 6.12
+    },
+    {
+      "text": "and so for that reason someone like me I",
+      "start": 1739.7,
+      "duration": 6.73
+    },
+    {
+      "text": "have a pretty easy time like like",
+      "start": 1743.91,
+      "duration": 6.18
+    },
+    {
+      "text": "deciphering you know transactions",
+      "start": 1746.43,
+      "duration": 5.73
+    },
+    {
+      "text": "literally to which wallet was based on",
+      "start": 1750.09,
+      "duration": 5.73
+    },
+    {
+      "text": "nothing but but but one transaction all",
+      "start": 1752.16,
+      "duration": 7.74
+    },
+    {
+      "text": "right interesting okay yeah - for clear",
+      "start": 1755.82,
+      "duration": 6.5
+    },
+    {
+      "text": "and end out",
+      "start": 1759.9,
+      "duration": 2.42
+    },
+    {
+      "text": "and also the transaction backdraft the",
+      "start": 1762.8,
+      "duration": 5.25
+    },
+    {
+      "text": "deafhood well each if everything else",
+      "start": 1765.29,
+      "duration": 5.58
+    },
+    {
+      "text": "fails and that means the final clue of",
+      "start": 1768.05,
+      "duration": 6.11
+    },
+    {
+      "text": "what happened here",
+      "start": 1770.87,
+      "duration": 3.29
+    }
+  ]
+}

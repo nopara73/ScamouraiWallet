@@ -1,0 +1,7376 @@
+{
+  "video_id": "3P5sQwiwscI",
+  "title": "Wasabi Research Club #21 - CJDNS with Caleb DeLisle",
+  "url": "https://www.youtube.com/watch?v=3P5sQwiwscI",
+  "playlist_index": 21,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "welcome to a new",
+      "start": 0.32,
+      "duration": 7.439
+    },
+    {
+      "text": "wasabi research experience meeting",
+      "start": 4.64,
+      "duration": 7.44
+    },
+    {
+      "text": "uh this time um we have a special guest",
+      "start": 7.759,
+      "duration": 7.84
+    },
+    {
+      "text": "his name is kailaf he's the creator of",
+      "start": 12.08,
+      "duration": 8.16
+    },
+    {
+      "text": "cj dns project basically is a",
+      "start": 15.599,
+      "duration": 8.241
+    },
+    {
+      "text": "network that can replace the internet",
+      "start": 20.24,
+      "duration": 6.799
+    },
+    {
+      "text": "basically of course is that that is",
+      "start": 23.84,
+      "duration": 6.48
+    },
+    {
+      "text": "very ambitious other okay",
+      "start": 27.039,
+      "duration": 7.921
+    },
+    {
+      "text": "he will tell us better",
+      "start": 30.32,
+      "duration": 4.64
+    },
+    {
+      "text": "and part of this",
+      "start": 35.28,
+      "duration": 7.92
+    },
+    {
+      "text": "project is now already supported by",
+      "start": 39.68,
+      "duration": 7.28
+    },
+    {
+      "text": "the vip 150 55",
+      "start": 43.2,
+      "duration": 6.879
+    },
+    {
+      "text": "in in in bitcoin uh",
+      "start": 46.96,
+      "duration": 7.439
+    },
+    {
+      "text": "and bitcoin are other libraries too so",
+      "start": 50.079,
+      "duration": 7.761
+    },
+    {
+      "text": "this is an effort that part of the",
+      "start": 54.399,
+      "duration": 5.441
+    },
+    {
+      "text": "bitcoin community is doing",
+      "start": 57.84,
+      "duration": 6.0
+    },
+    {
+      "text": "in order to have a more diverse",
+      "start": 59.84,
+      "duration": 8.56
+    },
+    {
+      "text": "and robust network",
+      "start": 63.84,
+      "duration": 4.56
+    },
+    {
+      "text": "collectivity let's say or more resilient",
+      "start": 69.28,
+      "duration": 3.6
+    },
+    {
+      "text": "appear to be a",
+      "start": 71.6,
+      "duration": 4.32
+    },
+    {
+      "text": "network and where cgi dns",
+      "start": 72.88,
+      "duration": 6.16
+    },
+    {
+      "text": "is part of that too",
+      "start": 75.92,
+      "duration": 7.28
+    },
+    {
+      "text": "so klev welcome and",
+      "start": 79.04,
+      "duration": 6.48
+    },
+    {
+      "text": "we are happy to have you here thank you",
+      "start": 83.2,
+      "duration": 3.919
+    },
+    {
+      "text": "very much happy to be here",
+      "start": 85.52,
+      "duration": 5.44
+    },
+    {
+      "text": "um yeah so cjdns what is what is cjdns",
+      "start": 87.119,
+      "duration": 4.481
+    },
+    {
+      "text": "really",
+      "start": 90.96,
+      "duration": 3.68
+    },
+    {
+      "text": "it is a decentralized mesh networking",
+      "start": 91.6,
+      "duration": 6.08
+    },
+    {
+      "text": "protocol which is designed to function",
+      "start": 94.64,
+      "duration": 5.76
+    },
+    {
+      "text": "under in the context of some of the",
+      "start": 97.68,
+      "duration": 3.36
+    },
+    {
+      "text": "notes",
+      "start": 100.4,
+      "duration": 3.039
+    },
+    {
+      "text": "uh misbehaving that is some of the nodes",
+      "start": 101.04,
+      "duration": 4.16
+    },
+    {
+      "text": "being adversarial",
+      "start": 103.439,
+      "duration": 4.481
+    },
+    {
+      "text": "and that's actually very rare in in",
+      "start": 105.2,
+      "duration": 4.559
+    },
+    {
+      "text": "routing protocols networking protocols",
+      "start": 107.92,
+      "duration": 2.8
+    },
+    {
+      "text": "because",
+      "start": 109.759,
+      "duration": 4.241
+    },
+    {
+      "text": "typically if one of the nodes",
+      "start": 110.72,
+      "duration": 5.6
+    },
+    {
+      "text": "just starts announcing garbage to the",
+      "start": 114.0,
+      "duration": 3.2
+    },
+    {
+      "text": "other nodes",
+      "start": 116.32,
+      "duration": 2.96
+    },
+    {
+      "text": "then they will just routing turn the",
+      "start": 117.2,
+      "duration": 3.84
+    },
+    {
+      "text": "whole network into a big routing black",
+      "start": 119.28,
+      "duration": 2.4
+    },
+    {
+      "text": "hole",
+      "start": 121.04,
+      "duration": 4.16
+    },
+    {
+      "text": "um notable exceptions are bgp",
+      "start": 121.68,
+      "duration": 5.759
+    },
+    {
+      "text": "and that's obviously how the internet is",
+      "start": 125.2,
+      "duration": 3.199
+    },
+    {
+      "text": "routed",
+      "start": 127.439,
+      "duration": 4.001
+    },
+    {
+      "text": "but uh bgp is very hard to set up and",
+      "start": 128.399,
+      "duration": 5.2
+    },
+    {
+      "text": "so one of the other aspects of cj danis",
+      "start": 131.44,
+      "duration": 3.84
+    },
+    {
+      "text": "is it's source routed and that means",
+      "start": 133.599,
+      "duration": 3.121
+    },
+    {
+      "text": "that when you send a packet",
+      "start": 135.28,
+      "duration": 4.4
+    },
+    {
+      "text": "uh into the network yeah sorry for",
+      "start": 136.72,
+      "duration": 3.599
+    },
+    {
+      "text": "interrupt you",
+      "start": 139.68,
+      "duration": 4.16
+    },
+    {
+      "text": "i would like to to to go back and",
+      "start": 140.319,
+      "duration": 6.401
+    },
+    {
+      "text": "and and ask this question for you what",
+      "start": 143.84,
+      "duration": 4.24
+    },
+    {
+      "text": "what is wrong with the",
+      "start": 146.72,
+      "duration": 4.0
+    },
+    {
+      "text": "what we have now what do we need yeah",
+      "start": 148.08,
+      "duration": 3.28
+    },
+    {
+      "text": "yeah yeah",
+      "start": 150.72,
+      "duration": 2.64
+    },
+    {
+      "text": "uh it's all it's all centralized and",
+      "start": 151.36,
+      "duration": 3.599
+    },
+    {
+      "text": "it's centralized in the hands of",
+      "start": 153.36,
+      "duration": 2.8
+    },
+    {
+      "text": "companies that don't",
+      "start": 154.959,
+      "duration": 3.201
+    },
+    {
+      "text": "necessarily like us i mean all you need",
+      "start": 156.16,
+      "duration": 3.04
+    },
+    {
+      "text": "to do is go",
+      "start": 158.16,
+      "duration": 3.52
+    },
+    {
+      "text": "read the newspaper read the the new york",
+      "start": 159.2,
+      "duration": 4.319
+    },
+    {
+      "text": "times or read the um",
+      "start": 161.68,
+      "duration": 3.68
+    },
+    {
+      "text": "any one of these newspapers or tv",
+      "start": 163.519,
+      "duration": 4.0
+    },
+    {
+      "text": "stations and frankly these are tv",
+      "start": 165.36,
+      "duration": 3.519
+    },
+    {
+      "text": "stations that haven't turned an honest",
+      "start": 167.519,
+      "duration": 2.961
+    },
+    {
+      "text": "profit in 20 years",
+      "start": 168.879,
+      "duration": 4.72
+    },
+    {
+      "text": "and they are being controlled by the",
+      "start": 170.48,
+      "duration": 4.24
+    },
+    {
+      "text": "centralized",
+      "start": 173.599,
+      "duration": 4.321
+    },
+    {
+      "text": "centralized power structures",
+      "start": 174.72,
+      "duration": 6.48
+    },
+    {
+      "text": "and these they are are telling the story",
+      "start": 177.92,
+      "duration": 3.84
+    },
+    {
+      "text": "now",
+      "start": 181.2,
+      "duration": 3.119
+    },
+    {
+      "text": "that we are the enemy we are the enemy",
+      "start": 181.76,
+      "duration": 4.24
+    },
+    {
+      "text": "of the people we are because",
+      "start": 184.319,
+      "duration": 4.0
+    },
+    {
+      "text": "we're doing bitcoin mining or any kind",
+      "start": 186.0,
+      "duration": 3.68
+    },
+    {
+      "text": "of um",
+      "start": 188.319,
+      "duration": 4.721
+    },
+    {
+      "text": "uh encrypted crypto mining that we",
+      "start": 189.68,
+      "duration": 6.639
+    },
+    {
+      "text": "are we need to be shut down we need to",
+      "start": 193.04,
+      "duration": 5.279
+    },
+    {
+      "text": "be stopped and",
+      "start": 196.319,
+      "duration": 4.56
+    },
+    {
+      "text": "the this this saber rattling that we're",
+      "start": 198.319,
+      "duration": 3.28
+    },
+    {
+      "text": "seeing",
+      "start": 200.879,
+      "duration": 2.881
+    },
+    {
+      "text": "about how it's the biggest uh",
+      "start": 201.599,
+      "duration": 5.041
+    },
+    {
+      "text": "environmental disaster in history and",
+      "start": 203.76,
+      "duration": 5.52
+    },
+    {
+      "text": "to be clear here this is not the biggest",
+      "start": 206.64,
+      "duration": 4.48
+    },
+    {
+      "text": "environmental disaster in history for a",
+      "start": 209.28,
+      "duration": 3.039
+    },
+    {
+      "text": "couple reasons",
+      "start": 211.12,
+      "duration": 4.24
+    },
+    {
+      "text": "one is because it's actually not that",
+      "start": 212.319,
+      "duration": 4.161
+    },
+    {
+      "text": "big",
+      "start": 215.36,
+      "duration": 3.68
+    },
+    {
+      "text": "to give you a reference russia flares",
+      "start": 216.48,
+      "duration": 3.2
+    },
+    {
+      "text": "off",
+      "start": 219.04,
+      "duration": 3.04
+    },
+    {
+      "text": "three times as many as much energy in",
+      "start": 219.68,
+      "duration": 3.279
+    },
+    {
+      "text": "gas",
+      "start": 222.08,
+      "duration": 3.519
+    },
+    {
+      "text": "just from oil wells that have gas coming",
+      "start": 222.959,
+      "duration": 4.321
+    },
+    {
+      "text": "out they just flare it off into this",
+      "start": 225.599,
+      "duration": 4.881
+    },
+    {
+      "text": "into the air as the amount of energy",
+      "start": 227.28,
+      "duration": 5.2
+    },
+    {
+      "text": "being used by bitcoin so",
+      "start": 230.48,
+      "duration": 4.319
+    },
+    {
+      "text": "it's actually not that big it's much",
+      "start": 232.48,
+      "duration": 3.36
+    },
+    {
+      "text": "smaller than",
+      "start": 234.799,
+      "duration": 2.561
+    },
+    {
+      "text": "other things that have much better",
+      "start": 235.84,
+      "duration": 4.479
+    },
+    {
+      "text": "lobbies but the other thing about",
+      "start": 237.36,
+      "duration": 5.599
+    },
+    {
+      "text": "crypto mining is that while it does use",
+      "start": 240.319,
+      "duration": 3.761
+    },
+    {
+      "text": "a lot of energy",
+      "start": 242.959,
+      "duration": 4.0
+    },
+    {
+      "text": "it's also very effective at facilitating",
+      "start": 244.08,
+      "duration": 5.76
+    },
+    {
+      "text": "the transition to renewables because",
+      "start": 246.959,
+      "duration": 5.041
+    },
+    {
+      "text": "it uses the cheapest energy available",
+      "start": 249.84,
+      "duration": 3.44
+    },
+    {
+      "text": "and actually the cheapest",
+      "start": 252.0,
+      "duration": 2.959
+    },
+    {
+      "text": "available energy is what comes from",
+      "start": 253.28,
+      "duration": 3.76
+    },
+    {
+      "text": "renewables because there's nothing",
+      "start": 254.959,
+      "duration": 3.84
+    },
+    {
+      "text": "cheaper than a solar panel once you put",
+      "start": 257.04,
+      "duration": 2.24
+    },
+    {
+      "text": "it up",
+      "start": 258.799,
+      "duration": 2.72
+    },
+    {
+      "text": "it doesn't cost you anything to just let",
+      "start": 259.28,
+      "duration": 4.24
+    },
+    {
+      "text": "that solar panel sit there and run",
+      "start": 261.519,
+      "duration": 5.761
+    },
+    {
+      "text": "so i'm very strongly of the belief that",
+      "start": 263.52,
+      "duration": 7.44
+    },
+    {
+      "text": "the the the decentralized uh finance and",
+      "start": 267.28,
+      "duration": 4.72
+    },
+    {
+      "text": "the crypto",
+      "start": 270.96,
+      "duration": 4.239
+    },
+    {
+      "text": "and the mining is actually not uh",
+      "start": 272.0,
+      "duration": 5.44
+    },
+    {
+      "text": "cause of uh this massive environmental",
+      "start": 275.199,
+      "duration": 3.201
+    },
+    {
+      "text": "degradation",
+      "start": 277.44,
+      "duration": 2.88
+    },
+    {
+      "text": "the reason why we're seeing this coming",
+      "start": 278.4,
+      "duration": 3.68
+    },
+    {
+      "text": "up in the media is because",
+      "start": 280.32,
+      "duration": 4.24
+    },
+    {
+      "text": "these companies these people are lodging",
+      "start": 282.08,
+      "duration": 3.76
+    },
+    {
+      "text": "an attack against",
+      "start": 284.56,
+      "duration": 3.76
+    },
+    {
+      "text": "the decentralization community and this",
+      "start": 285.84,
+      "duration": 3.6
+    },
+    {
+      "text": "is nothing new",
+      "start": 288.32,
+      "duration": 3.68
+    },
+    {
+      "text": "we go back to the 90s you have the same",
+      "start": 289.44,
+      "duration": 3.759
+    },
+    {
+      "text": "people you know you have bill gates",
+      "start": 292.0,
+      "duration": 3.12
+    },
+    {
+      "text": "saying that linux is cancer",
+      "start": 293.199,
+      "duration": 3.921
+    },
+    {
+      "text": "and now you know bill gates is buying up",
+      "start": 295.12,
+      "duration": 4.88
+    },
+    {
+      "text": "github and there's all of these people",
+      "start": 297.12,
+      "duration": 6.16
+    },
+    {
+      "text": "who are moving uh they're making moves",
+      "start": 300.0,
+      "duration": 5.919
+    },
+    {
+      "text": "and there is really a war on crypto",
+      "start": 303.28,
+      "duration": 3.44
+    },
+    {
+      "text": "going on",
+      "start": 305.919,
+      "duration": 3.361
+    },
+    {
+      "text": "so it's very important right now that",
+      "start": 306.72,
+      "duration": 3.36
+    },
+    {
+      "text": "we're able to",
+      "start": 309.28,
+      "duration": 4.56
+    },
+    {
+      "text": "get our decentralized systems onto their",
+      "start": 310.08,
+      "duration": 5.119
+    },
+    {
+      "text": "own network because",
+      "start": 313.84,
+      "duration": 2.799
+    },
+    {
+      "text": "if we're going to rely on a network",
+      "start": 315.199,
+      "duration": 3.28
+    },
+    {
+      "text": "that's run by the people who are",
+      "start": 316.639,
+      "duration": 2.801
+    },
+    {
+      "text": "attacking us",
+      "start": 318.479,
+      "duration": 3.041
+    },
+    {
+      "text": "eventually they're going to shut us down",
+      "start": 319.44,
+      "duration": 3.12
+    },
+    {
+      "text": "so that's",
+      "start": 321.52,
+      "duration": 4.32
+    },
+    {
+      "text": "that's really why cj dns and the pkt",
+      "start": 322.56,
+      "duration": 5.6
+    },
+    {
+      "text": "project is so important for me",
+      "start": 325.84,
+      "duration": 5.199
+    },
+    {
+      "text": "because the point here is that we're",
+      "start": 328.16,
+      "duration": 3.92
+    },
+    {
+      "text": "going to be building",
+      "start": 331.039,
+      "duration": 4.0
+    },
+    {
+      "text": "a a mesh based network infrastructure",
+      "start": 332.08,
+      "duration": 3.44
+    },
+    {
+      "text": "where",
+      "start": 335.039,
+      "duration": 2.801
+    },
+    {
+      "text": "everybody can own a piece of the",
+      "start": 335.52,
+      "duration": 4.72
+    },
+    {
+      "text": "internet",
+      "start": 337.84,
+      "duration": 2.4
+    },
+    {
+      "text": "i don't i don't want to just model them",
+      "start": 343.759,
+      "duration": 5.201
+    },
+    {
+      "text": "here you have a question no no no no",
+      "start": 345.039,
+      "duration": 3.921
+    },
+    {
+      "text": "um yes now if you come if you can",
+      "start": 349.039,
+      "duration": 7.041
+    },
+    {
+      "text": "tell us what's the the division",
+      "start": 352.4,
+      "duration": 7.919
+    },
+    {
+      "text": "right and how the the the",
+      "start": 356.08,
+      "duration": 8.08
+    },
+    {
+      "text": "the technology is built",
+      "start": 360.319,
+      "duration": 6.241
+    },
+    {
+      "text": "in order to bypass all these",
+      "start": 364.16,
+      "duration": 3.759
+    },
+    {
+      "text": "restrictions and",
+      "start": 366.56,
+      "duration": 5.52
+    },
+    {
+      "text": "i would like personally know more about",
+      "start": 367.919,
+      "duration": 8.0
+    },
+    {
+      "text": "the well i understand the technology but",
+      "start": 372.08,
+      "duration": 6.0
+    },
+    {
+      "text": "probably not everybody understands how",
+      "start": 375.919,
+      "duration": 3.12
+    },
+    {
+      "text": "it works but",
+      "start": 378.08,
+      "duration": 4.48
+    },
+    {
+      "text": "about that and how you",
+      "start": 379.039,
+      "duration": 7.041
+    },
+    {
+      "text": "work with your ips as public keys and",
+      "start": 382.56,
+      "duration": 5.44
+    },
+    {
+      "text": "all the routings instead of",
+      "start": 386.08,
+      "duration": 5.04
+    },
+    {
+      "text": "right what's the address how to route",
+      "start": 388.0,
+      "duration": 6.16
+    },
+    {
+      "text": "to that address and how",
+      "start": 391.12,
+      "duration": 6.32
+    },
+    {
+      "text": "how everything plays together absolutely",
+      "start": 394.16,
+      "duration": 6.8
+    },
+    {
+      "text": "so um cj dns is as i said it is",
+      "start": 397.44,
+      "duration": 6.8
+    },
+    {
+      "text": "um uh adversary tolerance so",
+      "start": 400.96,
+      "duration": 5.519
+    },
+    {
+      "text": "you know you can have a bad router in",
+      "start": 404.24,
+      "duration": 3.84
+    },
+    {
+      "text": "that network and the network's not going",
+      "start": 406.479,
+      "duration": 2.801
+    },
+    {
+      "text": "to explode and",
+      "start": 408.08,
+      "duration": 2.8
+    },
+    {
+      "text": "there's a couple ways that we do that",
+      "start": 409.28,
+      "duration": 3.6
+    },
+    {
+      "text": "one of them is we have",
+      "start": 410.88,
+      "duration": 5.599
+    },
+    {
+      "text": "um we derive",
+      "start": 412.88,
+      "duration": 5.68
+    },
+    {
+      "text": "the ip address from the public key and",
+      "start": 416.479,
+      "duration": 4.321
+    },
+    {
+      "text": "so we're using ip6 addresses and the",
+      "start": 418.56,
+      "duration": 4.16
+    },
+    {
+      "text": "address is basically the fingerprint of",
+      "start": 420.8,
+      "duration": 3.04
+    },
+    {
+      "text": "the public key",
+      "start": 422.72,
+      "duration": 4.24
+    },
+    {
+      "text": "so when we do that we get the um",
+      "start": 423.84,
+      "duration": 5.84
+    },
+    {
+      "text": "the ability of you know if so if",
+      "start": 426.96,
+      "duration": 4.639
+    },
+    {
+      "text": "somebody says this is my ip address",
+      "start": 429.68,
+      "duration": 3.519
+    },
+    {
+      "text": "you know that it's their ip address",
+      "start": 431.599,
+      "duration": 3.6
+    },
+    {
+      "text": "because you can just communicate with",
+      "start": 433.199,
+      "duration": 2.801
+    },
+    {
+      "text": "them and you",
+      "start": 435.199,
+      "duration": 3.041
+    },
+    {
+      "text": "you are able to compare it to their",
+      "start": 436.0,
+      "duration": 3.84
+    },
+    {
+      "text": "public encryption key",
+      "start": 438.24,
+      "duration": 4.48
+    },
+    {
+      "text": "but that also poses another challenge",
+      "start": 439.84,
+      "duration": 3.68
+    },
+    {
+      "text": "which is that",
+      "start": 442.72,
+      "duration": 3.36
+    },
+    {
+      "text": "it it um it prevents hierarchical",
+      "start": 443.52,
+      "duration": 3.119
+    },
+    {
+      "text": "routing",
+      "start": 446.08,
+      "duration": 4.08
+    },
+    {
+      "text": "which is typical of systems uh routing",
+      "start": 446.639,
+      "duration": 5.921
+    },
+    {
+      "text": "systems so it's in place of hierarchical",
+      "start": 450.16,
+      "duration": 3.12
+    },
+    {
+      "text": "routing",
+      "start": 452.56,
+      "duration": 2.88
+    },
+    {
+      "text": "we use a system of source routing and",
+      "start": 453.28,
+      "duration": 3.52
+    },
+    {
+      "text": "source routing means that",
+      "start": 455.44,
+      "duration": 3.199
+    },
+    {
+      "text": "when you send the packet into the",
+      "start": 456.8,
+      "duration": 4.16
+    },
+    {
+      "text": "network it already has the entire path",
+      "start": 458.639,
+      "duration": 3.601
+    },
+    {
+      "text": "that needs to take all the way",
+      "start": 460.96,
+      "duration": 4.639
+    },
+    {
+      "text": "source to destination and the way that",
+      "start": 462.24,
+      "duration": 4.0
+    },
+    {
+      "text": "you",
+      "start": 465.599,
+      "duration": 3.521
+    },
+    {
+      "text": "get that route is going to be similar to",
+      "start": 466.24,
+      "duration": 4.16
+    },
+    {
+      "text": "the way that you do",
+      "start": 469.12,
+      "duration": 3.68
+    },
+    {
+      "text": "what is similar to the way you do a dns",
+      "start": 470.4,
+      "duration": 3.12
+    },
+    {
+      "text": "lookup",
+      "start": 472.8,
+      "duration": 3.2
+    },
+    {
+      "text": "you're sending a request to a route",
+      "start": 473.52,
+      "duration": 3.519
+    },
+    {
+      "text": "server",
+      "start": 476.0,
+      "duration": 3.199
+    },
+    {
+      "text": "and that route server is giving you the",
+      "start": 477.039,
+      "duration": 3.761
+    },
+    {
+      "text": "path that you should use to get from",
+      "start": 479.199,
+      "duration": 2.881
+    },
+    {
+      "text": "point a to point b",
+      "start": 480.8,
+      "duration": 3.679
+    },
+    {
+      "text": "and where we're going with this is that",
+      "start": 482.08,
+      "duration": 3.36
+    },
+    {
+      "text": "there's going to be",
+      "start": 484.479,
+      "duration": 3.681
+    },
+    {
+      "text": "multiple cloud isps what we're calling",
+      "start": 485.44,
+      "duration": 3.28
+    },
+    {
+      "text": "them",
+      "start": 488.16,
+      "duration": 2.879
+    },
+    {
+      "text": "and these cloud isps operate route",
+      "start": 488.72,
+      "duration": 3.28
+    },
+    {
+      "text": "servers and you",
+      "start": 491.039,
+      "duration": 2.641
+    },
+    {
+      "text": "just choose which one you want to do",
+      "start": 492.0,
+      "duration": 3.36
+    },
+    {
+      "text": "business with and that one",
+      "start": 493.68,
+      "duration": 4.72
+    },
+    {
+      "text": "will handle the business of getting your",
+      "start": 495.36,
+      "duration": 5.679
+    },
+    {
+      "text": "traffic onto the network and then to",
+      "start": 498.4,
+      "duration": 4.72
+    },
+    {
+      "text": "where you want it to be",
+      "start": 501.039,
+      "duration": 5.6
+    },
+    {
+      "text": "um why are we doing uh why do we have",
+      "start": 503.12,
+      "duration": 4.88
+    },
+    {
+      "text": "this semi-centralized",
+      "start": 506.639,
+      "duration": 4.641
+    },
+    {
+      "text": "model of uh cloud isps as opposed to",
+      "start": 508.0,
+      "duration": 5.12
+    },
+    {
+      "text": "just doing a fully decentralized let's",
+      "start": 511.28,
+      "duration": 3.6
+    },
+    {
+      "text": "route on a dht let's do",
+      "start": 513.12,
+      "duration": 4.64
+    },
+    {
+      "text": "everything like that the reason why",
+      "start": 514.88,
+      "duration": 4.56
+    },
+    {
+      "text": "we're doing it the way we do it",
+      "start": 517.76,
+      "duration": 4.88
+    },
+    {
+      "text": "is because when you have when when your",
+      "start": 519.44,
+      "duration": 6.32
+    },
+    {
+      "text": "primary access to the internet is",
+      "start": 522.64,
+      "duration": 5.6
+    },
+    {
+      "text": "based on a network you need to be able",
+      "start": 525.76,
+      "duration": 3.68
+    },
+    {
+      "text": "to call somebody",
+      "start": 528.24,
+      "duration": 2.64
+    },
+    {
+      "text": "when something doesn't work if you're",
+      "start": 529.44,
+      "duration": 3.92
+    },
+    {
+      "text": "paying real money to be able to get on",
+      "start": 530.88,
+      "duration": 4.88
+    },
+    {
+      "text": "the the network then you need to be able",
+      "start": 533.36,
+      "duration": 4.24
+    },
+    {
+      "text": "to make a phone call or whatever",
+      "start": 535.76,
+      "duration": 3.36
+    },
+    {
+      "text": "and you need somebody to be able to",
+      "start": 537.6,
+      "duration": 3.28
+    },
+    {
+      "text": "handle that situation",
+      "start": 539.12,
+      "duration": 5.04
+    },
+    {
+      "text": "and we need that that entity to be there",
+      "start": 540.88,
+      "duration": 5.84
+    },
+    {
+      "text": "to be that network operator to be able",
+      "start": 544.16,
+      "duration": 4.4
+    },
+    {
+      "text": "to fix that but",
+      "start": 546.72,
+      "duration": 4.48
+    },
+    {
+      "text": "we need that not to be a monopoly that",
+      "start": 548.56,
+      "duration": 4.399
+    },
+    {
+      "text": "controls everybody's access to",
+      "start": 551.2,
+      "duration": 2.4
+    },
+    {
+      "text": "everything",
+      "start": 552.959,
+      "duration": 3.601
+    },
+    {
+      "text": "so we have these cloud isps which are a",
+      "start": 553.6,
+      "duration": 3.679
+    },
+    {
+      "text": "little bit like",
+      "start": 556.56,
+      "duration": 4.16
+    },
+    {
+      "text": "just a vpn company and what they do",
+      "start": 557.279,
+      "duration": 7.041
+    },
+    {
+      "text": "is they manage all of the buying and",
+      "start": 560.72,
+      "duration": 4.48
+    },
+    {
+      "text": "selling of",
+      "start": 564.32,
+      "duration": 3.92
+    },
+    {
+      "text": "bandwidth leases from the people who are",
+      "start": 565.2,
+      "duration": 5.199
+    },
+    {
+      "text": "operating the actual infrastructure and",
+      "start": 568.24,
+      "duration": 3.039
+    },
+    {
+      "text": "then they find",
+      "start": 570.399,
+      "duration": 4.161
+    },
+    {
+      "text": "routes through the the mesh in order to",
+      "start": 571.279,
+      "duration": 3.921
+    },
+    {
+      "text": "get you",
+      "start": 574.56,
+      "duration": 2.64
+    },
+    {
+      "text": "access to what you need does that make",
+      "start": 575.2,
+      "duration": 4.319
+    },
+    {
+      "text": "sense",
+      "start": 577.2,
+      "duration": 2.319
+    },
+    {
+      "text": "yes but i think that is something new",
+      "start": 580.24,
+      "duration": 3.68
+    },
+    {
+      "text": "isn't it",
+      "start": 583.12,
+      "duration": 4.159
+    },
+    {
+      "text": "i mean it was not okay and how how was",
+      "start": 583.92,
+      "duration": 3.919
+    },
+    {
+      "text": "that",
+      "start": 587.279,
+      "duration": 3.68
+    },
+    {
+      "text": "handled before and how it's not handled",
+      "start": 587.839,
+      "duration": 4.241
+    },
+    {
+      "text": "now",
+      "start": 590.959,
+      "duration": 5.521
+    },
+    {
+      "text": "yes okay yeah so original cj dns did use",
+      "start": 592.08,
+      "duration": 5.36
+    },
+    {
+      "text": "a dht",
+      "start": 596.48,
+      "duration": 4.4
+    },
+    {
+      "text": "and um basically we we beat the",
+      "start": 597.44,
+      "duration": 5.12
+    },
+    {
+      "text": "we beat the software up as much as we",
+      "start": 600.88,
+      "duration": 3.68
+    },
+    {
+      "text": "could and we realized",
+      "start": 602.56,
+      "duration": 5.12
+    },
+    {
+      "text": "that there are fundamental limitations",
+      "start": 604.56,
+      "duration": 3.519
+    },
+    {
+      "text": "to",
+      "start": 607.68,
+      "duration": 3.279
+    },
+    {
+      "text": "a dht based routing model that are",
+      "start": 608.079,
+      "duration": 4.161
+    },
+    {
+      "text": "unsolvable",
+      "start": 610.959,
+      "duration": 4.161
+    },
+    {
+      "text": "without switching to something that is",
+      "start": 612.24,
+      "duration": 4.64
+    },
+    {
+      "text": "different so",
+      "start": 615.12,
+      "duration": 5.2
+    },
+    {
+      "text": "basically we can solve a lot of problems",
+      "start": 616.88,
+      "duration": 5.28
+    },
+    {
+      "text": "but the problem we can't solve",
+      "start": 620.32,
+      "duration": 5.12
+    },
+    {
+      "text": "is my internet doesn't work who do i",
+      "start": 622.16,
+      "duration": 4.16
+    },
+    {
+      "text": "call",
+      "start": 625.44,
+      "duration": 4.48
+    },
+    {
+      "text": "how do i fix this and because we can't",
+      "start": 626.32,
+      "duration": 5.84
+    },
+    {
+      "text": "really solve that who do you call",
+      "start": 629.92,
+      "duration": 3.359
+    },
+    {
+      "text": "problem",
+      "start": 632.16,
+      "duration": 4.32
+    },
+    {
+      "text": "that's why a fully decentralized routing",
+      "start": 633.279,
+      "duration": 4.401
+    },
+    {
+      "text": "infrastructure",
+      "start": 636.48,
+      "duration": 3.599
+    },
+    {
+      "text": "just doesn't isn't going to work in the",
+      "start": 637.68,
+      "duration": 3.44
+    },
+    {
+      "text": "long term so",
+      "start": 640.079,
+      "duration": 4.32
+    },
+    {
+      "text": "in place of that we create an ecosystem",
+      "start": 641.12,
+      "duration": 6.0
+    },
+    {
+      "text": "of different entities who can do routing",
+      "start": 644.399,
+      "duration": 4.641
+    },
+    {
+      "text": "for you and then you just get to choose",
+      "start": 647.12,
+      "duration": 5.52
+    },
+    {
+      "text": "which one you want to work with",
+      "start": 649.04,
+      "duration": 3.6
+    },
+    {
+      "text": "okay i see um so",
+      "start": 654.079,
+      "duration": 6.641
+    },
+    {
+      "text": "going going down a level",
+      "start": 657.36,
+      "duration": 7.68
+    },
+    {
+      "text": "in complexity i mean from a",
+      "start": 660.72,
+      "duration": 6.72
+    },
+    {
+      "text": "normal user right because now we are",
+      "start": 665.04,
+      "duration": 3.44
+    },
+    {
+      "text": "thinking all the time",
+      "start": 667.44,
+      "duration": 4.079
+    },
+    {
+      "text": "normal users and translate this concept",
+      "start": 668.48,
+      "duration": 6.24
+    },
+    {
+      "text": "too you know to to my mom",
+      "start": 671.519,
+      "duration": 6.721
+    },
+    {
+      "text": "um what does it mean for my mom",
+      "start": 674.72,
+      "duration": 6.799
+    },
+    {
+      "text": "what what problem does this technology",
+      "start": 678.24,
+      "duration": 6.88
+    },
+    {
+      "text": "solve right right so for an ordinary",
+      "start": 681.519,
+      "duration": 4.401
+    },
+    {
+      "text": "person",
+      "start": 685.12,
+      "duration": 2.32
+    },
+    {
+      "text": "that's going to be you're going to",
+      "start": 685.92,
+      "duration": 3.039
+    },
+    {
+      "text": "install the app",
+      "start": 687.44,
+      "duration": 3.68
+    },
+    {
+      "text": "onto your phone on your computer",
+      "start": 688.959,
+      "duration": 3.361
+    },
+    {
+      "text": "whatever and then",
+      "start": 691.12,
+      "duration": 2.719
+    },
+    {
+      "text": "you're just going to be able to access",
+      "start": 692.32,
+      "duration": 3.84
+    },
+    {
+      "text": "the internet fire your neighbor's wi-fi",
+      "start": 693.839,
+      "duration": 3.921
+    },
+    {
+      "text": "that's what we're talking about here",
+      "start": 696.16,
+      "duration": 3.679
+    },
+    {
+      "text": "you're just getting on onto",
+      "start": 697.76,
+      "duration": 4.0
+    },
+    {
+      "text": "your regular internet via your",
+      "start": 699.839,
+      "duration": 3.12
+    },
+    {
+      "text": "neighbor's wi-fi",
+      "start": 701.76,
+      "duration": 4.72
+    },
+    {
+      "text": "and you buy a vpn and the vpn company",
+      "start": 702.959,
+      "duration": 6.801
+    },
+    {
+      "text": "is paying your neighbor to provide you",
+      "start": 706.48,
+      "duration": 4.72
+    },
+    {
+      "text": "with that access to the internet that's",
+      "start": 709.76,
+      "duration": 2.8
+    },
+    {
+      "text": "what a cloud isp is",
+      "start": 711.2,
+      "duration": 4.56
+    },
+    {
+      "text": "it's a vpn which goes and pays",
+      "start": 712.56,
+      "duration": 5.2
+    },
+    {
+      "text": "the person who's providing you with the",
+      "start": 715.76,
+      "duration": 4.24
+    },
+    {
+      "text": "access to get to that vpn does that make",
+      "start": 717.76,
+      "duration": 4.48
+    },
+    {
+      "text": "sense",
+      "start": 720.0,
+      "duration": 2.24
+    },
+    {
+      "text": "it makes sense and how successful",
+      "start": 723.36,
+      "duration": 6.4
+    },
+    {
+      "text": "is is this right now i mean is it",
+      "start": 727.04,
+      "duration": 4.16
+    },
+    {
+      "text": "happening",
+      "start": 729.76,
+      "duration": 5.199
+    },
+    {
+      "text": "so we're in really um early stages at",
+      "start": 731.2,
+      "duration": 4.639
+    },
+    {
+      "text": "this moment",
+      "start": 734.959,
+      "duration": 3.521
+    },
+    {
+      "text": "we have the the packet coin which we're",
+      "start": 735.839,
+      "duration": 3.601
+    },
+    {
+      "text": "working on",
+      "start": 738.48,
+      "duration": 3.2
+    },
+    {
+      "text": "building all of this infrastructure on",
+      "start": 739.44,
+      "duration": 3.04
+    },
+    {
+      "text": "top of",
+      "start": 741.68,
+      "duration": 4.08
+    },
+    {
+      "text": "what we need is we need a very very low",
+      "start": 742.48,
+      "duration": 4.479
+    },
+    {
+      "text": "cost way to",
+      "start": 745.76,
+      "duration": 4.4
+    },
+    {
+      "text": "transact in tokens because when we're",
+      "start": 746.959,
+      "duration": 4.081
+    },
+    {
+      "text": "doing",
+      "start": 750.16,
+      "duration": 4.16
+    },
+    {
+      "text": "when um we're issuing bandwidth",
+      "start": 751.04,
+      "duration": 5.12
+    },
+    {
+      "text": "the bandwidth is going to need to be",
+      "start": 754.32,
+      "duration": 3.68
+    },
+    {
+      "text": "tokenized so that people can",
+      "start": 756.16,
+      "duration": 4.88
+    },
+    {
+      "text": "buy and sell and trade the right to use",
+      "start": 758.0,
+      "duration": 5.2
+    },
+    {
+      "text": "bandwidth on a particular link",
+      "start": 761.04,
+      "duration": 4.64
+    },
+    {
+      "text": "and so we need to make a token and it's",
+      "start": 763.2,
+      "duration": 4.24
+    },
+    {
+      "text": "not going to work to just use ethereum",
+      "start": 765.68,
+      "duration": 2.399
+    },
+    {
+      "text": "because",
+      "start": 767.44,
+      "duration": 4.0
+    },
+    {
+      "text": "the gas fees are just unacceptable so",
+      "start": 768.079,
+      "duration": 5.121
+    },
+    {
+      "text": "we're working on a project which we call",
+      "start": 771.44,
+      "duration": 3.36
+    },
+    {
+      "text": "token strike and",
+      "start": 773.2,
+      "duration": 3.759
+    },
+    {
+      "text": "token strike is basically you just make",
+      "start": 774.8,
+      "duration": 4.08
+    },
+    {
+      "text": "your own little blockchain",
+      "start": 776.959,
+      "duration": 4.32
+    },
+    {
+      "text": "and you sign all the blocks you're the",
+      "start": 778.88,
+      "duration": 3.519
+    },
+    {
+      "text": "issuer of the token",
+      "start": 781.279,
+      "duration": 3.12
+    },
+    {
+      "text": "you sign all the blocks and all that we",
+      "start": 782.399,
+      "duration": 3.601
+    },
+    {
+      "text": "need to do is have a means",
+      "start": 784.399,
+      "duration": 3.68
+    },
+    {
+      "text": "by which if the issuer does something",
+      "start": 786.0,
+      "duration": 3.76
+    },
+    {
+      "text": "nefarious for example",
+      "start": 788.079,
+      "duration": 4.0
+    },
+    {
+      "text": "claw back a token after they sold it to",
+      "start": 789.76,
+      "duration": 3.199
+    },
+    {
+      "text": "somebody",
+      "start": 792.079,
+      "duration": 4.241
+    },
+    {
+      "text": "then we need to be able to um",
+      "start": 792.959,
+      "duration": 6.32
+    },
+    {
+      "text": "i identify that nefarious activity and",
+      "start": 796.32,
+      "duration": 3.759
+    },
+    {
+      "text": "have",
+      "start": 799.279,
+      "duration": 3.841
+    },
+    {
+      "text": "nodes in the network which can um",
+      "start": 800.079,
+      "duration": 5.361
+    },
+    {
+      "text": "which can report to everybody that that",
+      "start": 803.12,
+      "duration": 4.159
+    },
+    {
+      "text": "issuer did something bad",
+      "start": 805.44,
+      "duration": 3.839
+    },
+    {
+      "text": "and then all of the software will be",
+      "start": 807.279,
+      "duration": 4.0
+    },
+    {
+      "text": "configured to not",
+      "start": 809.279,
+      "duration": 5.12
+    },
+    {
+      "text": "deal with that issuer until they fix",
+      "start": 811.279,
+      "duration": 4.24
+    },
+    {
+      "text": "their stuff",
+      "start": 814.399,
+      "duration": 3.841
+    },
+    {
+      "text": "so that's what we're working on in order",
+      "start": 815.519,
+      "duration": 4.481
+    },
+    {
+      "text": "to be able to tokenize and issue",
+      "start": 818.24,
+      "duration": 2.719
+    },
+    {
+      "text": "bandwidth so",
+      "start": 820.0,
+      "duration": 2.56
+    },
+    {
+      "text": "basically we're talking about free",
+      "start": 820.959,
+      "duration": 3.361
+    },
+    {
+      "text": "tokens you can just issue you can make a",
+      "start": 822.56,
+      "duration": 3.2
+    },
+    {
+      "text": "token you just downloaded the git",
+      "start": 824.32,
+      "duration": 4.079
+    },
+    {
+      "text": "repository and you compile it and you",
+      "start": 825.76,
+      "duration": 3.84
+    },
+    {
+      "text": "have a token",
+      "start": 828.399,
+      "duration": 3.761
+    },
+    {
+      "text": "um and we're gonna need that in order",
+      "start": 829.6,
+      "duration": 3.039
+    },
+    {
+      "text": "for",
+      "start": 832.16,
+      "duration": 3.6
+    },
+    {
+      "text": "these devices to sell uh",
+      "start": 832.639,
+      "duration": 5.361
+    },
+    {
+      "text": "their bandwidth as a token and then",
+      "start": 835.76,
+      "duration": 3.04
+    },
+    {
+      "text": "we're gonna need",
+      "start": 838.0,
+      "duration": 2.399
+    },
+    {
+      "text": "uh to use lightning network which we're",
+      "start": 838.8,
+      "duration": 3.2
+    },
+    {
+      "text": "working on now",
+      "start": 840.399,
+      "duration": 4.24
+    },
+    {
+      "text": "in order to transact those tokens using",
+      "start": 842.0,
+      "duration": 4.32
+    },
+    {
+      "text": "htlc",
+      "start": 844.639,
+      "duration": 5.361
+    },
+    {
+      "text": "contracts now um cjdns and vpn",
+      "start": 846.32,
+      "duration": 6.879
+    },
+    {
+      "text": "and vpn app are all in",
+      "start": 850.0,
+      "duration": 5.36
+    },
+    {
+      "text": "alpha testing or beta testing you can",
+      "start": 853.199,
+      "duration": 4.801
+    },
+    {
+      "text": "you can try out the app on android now",
+      "start": 855.36,
+      "duration": 5.919
+    },
+    {
+      "text": "um and the",
+      "start": 858.0,
+      "duration": 5.6
+    },
+    {
+      "text": "and what we're what we're using now is",
+      "start": 861.279,
+      "duration": 3.201
+    },
+    {
+      "text": "we have uh",
+      "start": 863.6,
+      "duration": 4.32
+    },
+    {
+      "text": "um the pkt project is based on",
+      "start": 864.48,
+      "duration": 6.159
+    },
+    {
+      "text": "uh a proof proof-of-work algorithm which",
+      "start": 867.92,
+      "duration": 4.96
+    },
+    {
+      "text": "is bandwidth hard and the bandwidth",
+      "start": 870.639,
+      "duration": 3.921
+    },
+    {
+      "text": "hardness is creating an artificial",
+      "start": 872.88,
+      "duration": 3.28
+    },
+    {
+      "text": "demand for bandwidth",
+      "start": 874.56,
+      "duration": 5.44
+    },
+    {
+      "text": "um and so unlike a lot of these tokens i",
+      "start": 876.16,
+      "duration": 6.0
+    },
+    {
+      "text": "mean i don't need to explain to you guys",
+      "start": 880.0,
+      "duration": 4.72
+    },
+    {
+      "text": "necessarily what uh is the difference",
+      "start": 882.16,
+      "duration": 3.119
+    },
+    {
+      "text": "between",
+      "start": 884.72,
+      "duration": 3.6
+    },
+    {
+      "text": "a token faucet and a proof of work",
+      "start": 885.279,
+      "duration": 5.521
+    },
+    {
+      "text": "but i'm finding a lot of people that",
+      "start": 888.32,
+      "duration": 4.24
+    },
+    {
+      "text": "don't understand",
+      "start": 890.8,
+      "duration": 4.56
+    },
+    {
+      "text": "that a proof of work is proof of fair",
+      "start": 892.56,
+      "duration": 3.519
+    },
+    {
+      "text": "issuance",
+      "start": 895.36,
+      "duration": 3.599
+    },
+    {
+      "text": "whereas uh all of these other kind of",
+      "start": 896.079,
+      "duration": 4.081
+    },
+    {
+      "text": "tokens",
+      "start": 898.959,
+      "duration": 3.68
+    },
+    {
+      "text": "these different issuance processes you",
+      "start": 900.16,
+      "duration": 4.16
+    },
+    {
+      "text": "can't prove that it was done",
+      "start": 902.639,
+      "duration": 6.32
+    },
+    {
+      "text": "fairly so um yeah we we have the only",
+      "start": 904.32,
+      "duration": 5.92
+    },
+    {
+      "text": "and this is something else that i",
+      "start": 908.959,
+      "duration": 3.12
+    },
+    {
+      "text": "created it's called packet crypt and it",
+      "start": 910.24,
+      "duration": 2.88
+    },
+    {
+      "text": "is the only",
+      "start": 912.079,
+      "duration": 3.041
+    },
+    {
+      "text": "bandwidth hard proof of work so it's",
+      "start": 913.12,
+      "duration": 3.519
+    },
+    {
+      "text": "really just a problem",
+      "start": 915.12,
+      "duration": 4.48
+    },
+    {
+      "text": "that is easier to solve if you solve it",
+      "start": 916.639,
+      "duration": 4.801
+    },
+    {
+      "text": "together with other miners",
+      "start": 919.6,
+      "duration": 5.12
+    },
+    {
+      "text": "and the the packet",
+      "start": 921.44,
+      "duration": 6.079
+    },
+    {
+      "text": "blockchain is based on the packet crypt",
+      "start": 924.72,
+      "duration": 5.119
+    },
+    {
+      "text": "uh bandwidth hard proof of work so",
+      "start": 927.519,
+      "duration": 4.961
+    },
+    {
+      "text": "this is going to incentivize people to",
+      "start": 929.839,
+      "duration": 3.761
+    },
+    {
+      "text": "build out",
+      "start": 932.48,
+      "duration": 3.039
+    },
+    {
+      "text": "large amounts of bandwidth which we",
+      "start": 933.6,
+      "duration": 3.679
+    },
+    {
+      "text": "foresee helping",
+      "start": 935.519,
+      "duration": 4.641
+    },
+    {
+      "text": "uh kickstart the the decentralized",
+      "start": 937.279,
+      "duration": 4.24
+    },
+    {
+      "text": "bandwidth marketplace",
+      "start": 940.16,
+      "duration": 4.08
+    },
+    {
+      "text": "which will finally be used for getting",
+      "start": 941.519,
+      "duration": 3.521
+    },
+    {
+      "text": "people off",
+      "start": 944.24,
+      "duration": 5.92
+    },
+    {
+      "text": "of the legacy and centralized internet",
+      "start": 945.04,
+      "duration": 5.12
+    },
+    {
+      "text": "okay and i don't know if i am the only",
+      "start": 951.199,
+      "duration": 3.44
+    },
+    {
+      "text": "one who",
+      "start": 953.6,
+      "duration": 4.56
+    },
+    {
+      "text": "would need who had to make questions but",
+      "start": 954.639,
+      "duration": 6.961
+    },
+    {
+      "text": "anyway let me go with that so what",
+      "start": 958.16,
+      "duration": 5.359
+    },
+    {
+      "text": "you're saying is that basically",
+      "start": 961.6,
+      "duration": 5.52
+    },
+    {
+      "text": "my neighbor or i",
+      "start": 963.519,
+      "duration": 6.641
+    },
+    {
+      "text": "can become an",
+      "start": 967.12,
+      "duration": 5.92
+    },
+    {
+      "text": "internet service provider exactly",
+      "start": 970.16,
+      "duration": 3.679
+    },
+    {
+      "text": "exactly",
+      "start": 973.04,
+      "duration": 3.12
+    },
+    {
+      "text": "but you're not going to need to do",
+      "start": 973.839,
+      "duration": 4.641
+    },
+    {
+      "text": "billing you're not going to need to do",
+      "start": 976.16,
+      "duration": 4.479
+    },
+    {
+      "text": "uh customer service you're not even",
+      "start": 978.48,
+      "duration": 3.599
+    },
+    {
+      "text": "going to need to do routing",
+      "start": 980.639,
+      "duration": 3.281
+    },
+    {
+      "text": "you're just going to set up that device",
+      "start": 982.079,
+      "duration": 3.521
+    },
+    {
+      "text": "and it's going to start earning you",
+      "start": 983.92,
+      "duration": 3.599
+    },
+    {
+      "text": "packet which i mean you can convert that",
+      "start": 985.6,
+      "duration": 4.08
+    },
+    {
+      "text": "to whatever currency you would prefer to",
+      "start": 987.519,
+      "duration": 4.401
+    },
+    {
+      "text": "have",
+      "start": 989.68,
+      "duration": 2.24
+    },
+    {
+      "text": "okay so i am now an internet service",
+      "start": 992.0,
+      "duration": 4.079
+    },
+    {
+      "text": "provider that provides",
+      "start": 994.72,
+      "duration": 3.76
+    },
+    {
+      "text": "the the the connection to all my",
+      "start": 996.079,
+      "duration": 3.521
+    },
+    {
+      "text": "neighbors",
+      "start": 998.48,
+      "duration": 5.279
+    },
+    {
+      "text": "and they pay um",
+      "start": 999.6,
+      "duration": 7.039
+    },
+    {
+      "text": "for bandwidth they buy bandwidth to uh",
+      "start": 1003.759,
+      "duration": 5.08
+    },
+    {
+      "text": "to a company",
+      "start": 1006.639,
+      "duration": 5.601
+    },
+    {
+      "text": "they they're going to pay a company in a",
+      "start": 1008.839,
+      "duration": 4.36
+    },
+    {
+      "text": "simple",
+      "start": 1012.24,
+      "duration": 3.839
+    },
+    {
+      "text": "obvious way you know regular old uh",
+      "start": 1013.199,
+      "duration": 4.32
+    },
+    {
+      "text": "maybe it's 29",
+      "start": 1016.079,
+      "duration": 4.481
+    },
+    {
+      "text": "a month whatever whatever that deal is",
+      "start": 1017.519,
+      "duration": 4.721
+    },
+    {
+      "text": "they're going to pay that to that",
+      "start": 1020.56,
+      "duration": 3.84
+    },
+    {
+      "text": "company in in that normal",
+      "start": 1022.24,
+      "duration": 4.4
+    },
+    {
+      "text": "obvious way and then that company is",
+      "start": 1024.4,
+      "duration": 4.0
+    },
+    {
+      "text": "going to have bandwidth traders",
+      "start": 1026.64,
+      "duration": 3.76
+    },
+    {
+      "text": "who are going to buy those leases of",
+      "start": 1028.4,
+      "duration": 3.36
+    },
+    {
+      "text": "bandwidth from you",
+      "start": 1030.4,
+      "duration": 4.159
+    },
+    {
+      "text": "so that an individual you know grandma",
+      "start": 1031.76,
+      "duration": 4.799
+    },
+    {
+      "text": "doesn't need to understand",
+      "start": 1034.559,
+      "duration": 4.561
+    },
+    {
+      "text": "about trading bandwidth and buying the",
+      "start": 1036.559,
+      "duration": 4.081
+    },
+    {
+      "text": "dip and these kinds of",
+      "start": 1039.12,
+      "duration": 4.48
+    },
+    {
+      "text": "really complex things that's the job of",
+      "start": 1040.64,
+      "duration": 6.0
+    },
+    {
+      "text": "financial traders",
+      "start": 1043.6,
+      "duration": 3.04
+    },
+    {
+      "text": "okay and what is the what is the",
+      "start": 1047.039,
+      "duration": 7.441
+    },
+    {
+      "text": "um proof of work that is",
+      "start": 1050.84,
+      "duration": 6.839
+    },
+    {
+      "text": "hard in bandwidth why do we need that",
+      "start": 1054.48,
+      "duration": 6.96
+    },
+    {
+      "text": "or who need that um the point of",
+      "start": 1057.679,
+      "duration": 5.761
+    },
+    {
+      "text": "of packet crypt is to create an",
+      "start": 1061.44,
+      "duration": 3.92
+    },
+    {
+      "text": "artificial demand for bandwidth because",
+      "start": 1063.44,
+      "duration": 3.52
+    },
+    {
+      "text": "demand drives supply",
+      "start": 1065.36,
+      "duration": 4.8
+    },
+    {
+      "text": "so when we create a demand for bandwidth",
+      "start": 1066.96,
+      "duration": 5.44
+    },
+    {
+      "text": "that's going to cause people to do to",
+      "start": 1070.16,
+      "duration": 3.92
+    },
+    {
+      "text": "roll out more fiber",
+      "start": 1072.4,
+      "duration": 3.92
+    },
+    {
+      "text": "so think about all of the bitcoin mining",
+      "start": 1074.08,
+      "duration": 3.44
+    },
+    {
+      "text": "equipment that's just sitting there",
+      "start": 1076.32,
+      "duration": 3.28
+    },
+    {
+      "text": "collecting dust because it's no longer",
+      "start": 1077.52,
+      "duration": 4.56
+    },
+    {
+      "text": "profitable right you've got all this",
+      "start": 1079.6,
+      "duration": 3.36
+    },
+    {
+      "text": "stuff from",
+      "start": 1082.08,
+      "duration": 2.88
+    },
+    {
+      "text": "five years ago ten years ago and it just",
+      "start": 1082.96,
+      "duration": 4.0
+    },
+    {
+      "text": "doesn't make any money anymore",
+      "start": 1084.96,
+      "duration": 4.16
+    },
+    {
+      "text": "with packet crypt if you install a fiber",
+      "start": 1086.96,
+      "duration": 3.04
+    },
+    {
+      "text": "optic cable",
+      "start": 1089.12,
+      "duration": 2.88
+    },
+    {
+      "text": "into your area in order to mine packet",
+      "start": 1090.0,
+      "duration": 3.28
+    },
+    {
+      "text": "crypt that fiber",
+      "start": 1092.0,
+      "duration": 4.48
+    },
+    {
+      "text": "brings value forever basically so",
+      "start": 1093.28,
+      "duration": 6.0
+    },
+    {
+      "text": "the work we're leveraging the",
+      "start": 1096.48,
+      "duration": 4.96
+    },
+    {
+      "text": "externality of pakicrypt",
+      "start": 1099.28,
+      "duration": 4.8
+    },
+    {
+      "text": "mining in order to get more internet to",
+      "start": 1101.44,
+      "duration": 6.88
+    },
+    {
+      "text": "more people",
+      "start": 1104.08,
+      "duration": 6.64
+    },
+    {
+      "text": "okay perfect so basically you know we",
+      "start": 1108.32,
+      "duration": 4.64
+    },
+    {
+      "text": "are bitcoiners right and we are the",
+      "start": 1110.72,
+      "duration": 5.36
+    },
+    {
+      "text": "those bitcoiners that many of us",
+      "start": 1112.96,
+      "duration": 5.36
+    },
+    {
+      "text": "probably don't don't like other",
+      "start": 1116.08,
+      "duration": 3.52
+    },
+    {
+      "text": "cryptocurrencies",
+      "start": 1118.32,
+      "duration": 4.239
+    },
+    {
+      "text": "so that's why i'm asking this this thing",
+      "start": 1119.6,
+      "duration": 3.6
+    },
+    {
+      "text": "so",
+      "start": 1122.559,
+      "duration": 4.561
+    },
+    {
+      "text": "do you are saying basically that well",
+      "start": 1123.2,
+      "duration": 7.839
+    },
+    {
+      "text": "the the first design was not",
+      "start": 1127.12,
+      "duration": 7.84
+    },
+    {
+      "text": "it has some problems and now",
+      "start": 1131.039,
+      "duration": 7.601
+    },
+    {
+      "text": "with this new um",
+      "start": 1134.96,
+      "duration": 6.959
+    },
+    {
+      "text": "cloud either sorry i don't remember the",
+      "start": 1138.64,
+      "duration": 3.84
+    },
+    {
+      "text": "name but",
+      "start": 1141.919,
+      "duration": 4.481
+    },
+    {
+      "text": "yes this this new um",
+      "start": 1142.48,
+      "duration": 8.4
+    },
+    {
+      "text": "isp yeah now",
+      "start": 1146.4,
+      "duration": 7.84
+    },
+    {
+      "text": "of course you need a new token i mean",
+      "start": 1150.88,
+      "duration": 3.919
+    },
+    {
+      "text": "you need",
+      "start": 1154.24,
+      "duration": 3.12
+    },
+    {
+      "text": "a way to tokenize the bandwidth in order",
+      "start": 1154.799,
+      "duration": 3.041
+    },
+    {
+      "text": "to",
+      "start": 1157.36,
+      "duration": 4.08
+    },
+    {
+      "text": "to create a market to fund with uh",
+      "start": 1157.84,
+      "duration": 7.199
+    },
+    {
+      "text": "why is that not possible with",
+      "start": 1161.44,
+      "duration": 6.88
+    },
+    {
+      "text": "i mean you need a market right",
+      "start": 1165.039,
+      "duration": 5.52
+    },
+    {
+      "text": "right is that market before before",
+      "start": 1168.32,
+      "duration": 3.599
+    },
+    {
+      "text": "before making my question",
+      "start": 1170.559,
+      "duration": 4.881
+    },
+    {
+      "text": "is that market already um",
+      "start": 1171.919,
+      "duration": 6.801
+    },
+    {
+      "text": "running is is is it working",
+      "start": 1175.44,
+      "duration": 5.92
+    },
+    {
+      "text": "um it's not really off the ground right",
+      "start": 1178.72,
+      "duration": 3.12
+    },
+    {
+      "text": "yet",
+      "start": 1181.36,
+      "duration": 2.96
+    },
+    {
+      "text": "but uh that's because we need the token",
+      "start": 1181.84,
+      "duration": 4.4
+    },
+    {
+      "text": "strike project in order to be able to",
+      "start": 1184.32,
+      "duration": 5.12
+    },
+    {
+      "text": "tokenize the bandwidth",
+      "start": 1186.24,
+      "duration": 3.2
+    },
+    {
+      "text": "but okay and let me let me address",
+      "start": 1191.12,
+      "duration": 3.28
+    },
+    {
+      "text": "because",
+      "start": 1194.08,
+      "duration": 2.24
+    },
+    {
+      "text": "you asked another you you said another",
+      "start": 1194.4,
+      "duration": 3.04
+    },
+    {
+      "text": "thing about you know",
+      "start": 1196.32,
+      "duration": 3.92
+    },
+    {
+      "text": "bitcoin maximalism and i get it like i",
+      "start": 1197.44,
+      "duration": 4.719
+    },
+    {
+      "text": "i've been there i mean i've been",
+      "start": 1200.24,
+      "duration": 5.36
+    },
+    {
+      "text": "in the bitcoin community since 2011.",
+      "start": 1202.159,
+      "duration": 6.0
+    },
+    {
+      "text": "um i know there's a lot of projects that",
+      "start": 1205.6,
+      "duration": 3.84
+    },
+    {
+      "text": "are pretty shady",
+      "start": 1208.159,
+      "duration": 4.961
+    },
+    {
+      "text": "and that's that's a reality here so",
+      "start": 1209.44,
+      "duration": 7.359
+    },
+    {
+      "text": "why should we wh why should we accept",
+      "start": 1213.12,
+      "duration": 7.2
+    },
+    {
+      "text": "another coin as being legitimate so",
+      "start": 1216.799,
+      "duration": 5.521
+    },
+    {
+      "text": "i'm going to give you a general answer",
+      "start": 1220.32,
+      "duration": 3.52
+    },
+    {
+      "text": "which is that",
+      "start": 1222.32,
+      "duration": 3.68
+    },
+    {
+      "text": "we there is a war on crypto right now",
+      "start": 1223.84,
+      "duration": 3.92
+    },
+    {
+      "text": "and they are coming after",
+      "start": 1226.0,
+      "duration": 5.2
+    },
+    {
+      "text": "the uh the work coins first",
+      "start": 1227.76,
+      "duration": 5.52
+    },
+    {
+      "text": "and then that once they knocked down",
+      "start": 1231.2,
+      "duration": 3.599
+    },
+    {
+      "text": "once they're able to get",
+      "start": 1233.28,
+      "duration": 3.519
+    },
+    {
+      "text": "control and stop they're gonna come",
+      "start": 1234.799,
+      "duration": 3.601
+    },
+    {
+      "text": "after the privacy coins so they're gonna",
+      "start": 1236.799,
+      "duration": 3.281
+    },
+    {
+      "text": "they're gonna be hitting monero they're",
+      "start": 1238.4,
+      "duration": 3.6
+    },
+    {
+      "text": "gonna be coming after the work coins",
+      "start": 1240.08,
+      "duration": 3.2
+    },
+    {
+      "text": "you know they're gonna be coming after",
+      "start": 1242.0,
+      "duration": 3.039
+    },
+    {
+      "text": "the wasabi wallet the",
+      "start": 1243.28,
+      "duration": 4.16
+    },
+    {
+      "text": "all of the ways that people can uh",
+      "start": 1245.039,
+      "duration": 3.12
+    },
+    {
+      "text": "achieve",
+      "start": 1247.44,
+      "duration": 4.239
+    },
+    {
+      "text": "um liberation from these centralized",
+      "start": 1248.159,
+      "duration": 4.321
+    },
+    {
+      "text": "powers",
+      "start": 1251.679,
+      "duration": 2.641
+    },
+    {
+      "text": "they're going to be coming after us and",
+      "start": 1252.48,
+      "duration": 3.439
+    },
+    {
+      "text": "if we don't work together",
+      "start": 1254.32,
+      "duration": 3.839
+    },
+    {
+      "text": "then they are going to pick us off one",
+      "start": 1255.919,
+      "duration": 4.081
+    },
+    {
+      "text": "at a time and you can see in their",
+      "start": 1258.159,
+      "duration": 4.081
+    },
+    {
+      "text": "newspapers they're already they're",
+      "start": 1260.0,
+      "duration": 3.679
+    },
+    {
+      "text": "already rattling the sword",
+      "start": 1262.24,
+      "duration": 3.76
+    },
+    {
+      "text": "so we need to stick together here",
+      "start": 1263.679,
+      "duration": 3.12
+    },
+    {
+      "text": "because",
+      "start": 1266.0,
+      "duration": 3.44
+    },
+    {
+      "text": "there is a war against us and it's a war",
+      "start": 1266.799,
+      "duration": 4.481
+    },
+    {
+      "text": "against decentralization and a war",
+      "start": 1269.44,
+      "duration": 3.76
+    },
+    {
+      "text": "against open source and a war against",
+      "start": 1271.28,
+      "duration": 3.68
+    },
+    {
+      "text": "individual liberty",
+      "start": 1273.2,
+      "duration": 4.88
+    },
+    {
+      "text": "so that's the general answer of why we",
+      "start": 1274.96,
+      "duration": 3.76
+    },
+    {
+      "text": "can't just",
+      "start": 1278.08,
+      "duration": 2.24
+    },
+    {
+      "text": "bury our head in the sand and say my",
+      "start": 1278.72,
+      "duration": 3.04
+    },
+    {
+      "text": "coin is the best everything else is a",
+      "start": 1280.32,
+      "duration": 2.16
+    },
+    {
+      "text": "scam",
+      "start": 1281.76,
+      "duration": 4.64
+    },
+    {
+      "text": "and um that uh that's just not going to",
+      "start": 1282.48,
+      "duration": 6.079
+    },
+    {
+      "text": "work because we will be pried apart and",
+      "start": 1286.4,
+      "duration": 4.399
+    },
+    {
+      "text": "we will be killed one at a time",
+      "start": 1288.559,
+      "duration": 5.6
+    },
+    {
+      "text": "and my the the specific answer",
+      "start": 1290.799,
+      "duration": 5.281
+    },
+    {
+      "text": "why is the packet a thing why don't we",
+      "start": 1294.159,
+      "duration": 3.041
+    },
+    {
+      "text": "just use bitcoin",
+      "start": 1296.08,
+      "duration": 4.0
+    },
+    {
+      "text": "etc well packet is a thing for two",
+      "start": 1297.2,
+      "duration": 4.56
+    },
+    {
+      "text": "reasons and the two reasons are related",
+      "start": 1300.08,
+      "duration": 3.52
+    },
+    {
+      "text": "to the two differences that it has from",
+      "start": 1301.76,
+      "duration": 2.399
+    },
+    {
+      "text": "bitcoin",
+      "start": 1303.6,
+      "duration": 3.04
+    },
+    {
+      "text": "the two fundamental changes that were",
+      "start": 1304.159,
+      "duration": 3.041
+    },
+    {
+      "text": "made",
+      "start": 1306.64,
+      "duration": 3.12
+    },
+    {
+      "text": "one of them is that we have uh the",
+      "start": 1307.2,
+      "duration": 4.0
+    },
+    {
+      "text": "bandwidth hard proof of work",
+      "start": 1309.76,
+      "duration": 4.32
+    },
+    {
+      "text": "which makes it so that it the the mining",
+      "start": 1311.2,
+      "duration": 5.599
+    },
+    {
+      "text": "of packet incentivizes the rollout of",
+      "start": 1314.08,
+      "duration": 5.839
+    },
+    {
+      "text": "network infrastructure the second one is",
+      "start": 1316.799,
+      "duration": 3.521
+    },
+    {
+      "text": "that",
+      "start": 1319.919,
+      "duration": 3.521
+    },
+    {
+      "text": "packet has a network steward which is a",
+      "start": 1320.32,
+      "duration": 4.88
+    },
+    {
+      "text": "basically a founder's fee but the",
+      "start": 1323.44,
+      "duration": 3.76
+    },
+    {
+      "text": "founder the so-called founder",
+      "start": 1325.2,
+      "duration": 4.64
+    },
+    {
+      "text": "can be changed via a proof-of-stake",
+      "start": 1327.2,
+      "duration": 3.44
+    },
+    {
+      "text": "based vote",
+      "start": 1329.84,
+      "duration": 3.12
+    },
+    {
+      "text": "and that founders fee is used in order",
+      "start": 1330.64,
+      "duration": 3.039
+    },
+    {
+      "text": "to fund",
+      "start": 1332.96,
+      "duration": 3.52
+    },
+    {
+      "text": "all these projects in the ecosystem to",
+      "start": 1333.679,
+      "duration": 4.401
+    },
+    {
+      "text": "develop all the technology",
+      "start": 1336.48,
+      "duration": 4.88
+    },
+    {
+      "text": "you know bitcoin is it's a great project",
+      "start": 1338.08,
+      "duration": 6.16
+    },
+    {
+      "text": "but it does not fund the wallets i mean",
+      "start": 1341.36,
+      "duration": 4.96
+    },
+    {
+      "text": "i'm sure you guys understand",
+      "start": 1344.24,
+      "duration": 4.96
+    },
+    {
+      "text": "developing wasabi is not easy because",
+      "start": 1346.32,
+      "duration": 4.96
+    },
+    {
+      "text": "there is no funding for that the funding",
+      "start": 1349.2,
+      "duration": 3.839
+    },
+    {
+      "text": "is for people who can build",
+      "start": 1351.28,
+      "duration": 5.36
+    },
+    {
+      "text": "better shot 256 chips",
+      "start": 1353.039,
+      "duration": 3.601
+    },
+    {
+      "text": "yeah okay rafa",
+      "start": 1356.88,
+      "duration": 5.679
+    },
+    {
+      "text": "yeah i was just wondering like uh did i",
+      "start": 1360.08,
+      "duration": 4.32
+    },
+    {
+      "text": "understood correctly that you are using",
+      "start": 1362.559,
+      "duration": 2.721
+    },
+    {
+      "text": "the",
+      "start": 1364.4,
+      "duration": 3.2
+    },
+    {
+      "text": "like the same algorithm that bitcoin",
+      "start": 1365.28,
+      "duration": 3.44
+    },
+    {
+      "text": "uses so",
+      "start": 1367.6,
+      "duration": 4.88
+    },
+    {
+      "text": "you can make use of these old",
+      "start": 1368.72,
+      "duration": 7.28
+    },
+    {
+      "text": "like asic devices no uh the algorithm is",
+      "start": 1372.48,
+      "duration": 5.439
+    },
+    {
+      "text": "very different but the point is that",
+      "start": 1376.0,
+      "duration": 3.919
+    },
+    {
+      "text": "when you build out infrastructure to",
+      "start": 1377.919,
+      "duration": 3.681
+    },
+    {
+      "text": "mine packet crypt",
+      "start": 1379.919,
+      "duration": 4.481
+    },
+    {
+      "text": "that infrastructure includes fiber optic",
+      "start": 1381.6,
+      "duration": 4.72
+    },
+    {
+      "text": "because you need that bandwidth in order",
+      "start": 1384.4,
+      "duration": 2.8
+    },
+    {
+      "text": "to mine",
+      "start": 1386.32,
+      "duration": 3.599
+    },
+    {
+      "text": "so that fiber optic that you've just run",
+      "start": 1387.2,
+      "duration": 4.4
+    },
+    {
+      "text": "in order to mine packet crypt",
+      "start": 1389.919,
+      "duration": 3.841
+    },
+    {
+      "text": "when that mining installation becomes no",
+      "start": 1391.6,
+      "duration": 3.68
+    },
+    {
+      "text": "longer um",
+      "start": 1393.76,
+      "duration": 4.08
+    },
+    {
+      "text": "profitable that fiber is still there and",
+      "start": 1395.28,
+      "duration": 3.84
+    },
+    {
+      "text": "that's still bandwidth",
+      "start": 1397.84,
+      "duration": 3.28
+    },
+    {
+      "text": "that can reach out to people and get",
+      "start": 1399.12,
+      "duration": 4.72
+    },
+    {
+      "text": "them on the internet",
+      "start": 1401.12,
+      "duration": 2.72
+    },
+    {
+      "text": "okay got it and you mentioned",
+      "start": 1404.72,
+      "duration": 5.36
+    },
+    {
+      "text": "that you're using the lightning network",
+      "start": 1408.24,
+      "duration": 4.799
+    },
+    {
+      "text": "can you elaborate a little bit more like",
+      "start": 1410.08,
+      "duration": 5.52
+    },
+    {
+      "text": "what part are you doing with that we're",
+      "start": 1413.039,
+      "duration": 3.76
+    },
+    {
+      "text": "just gonna do our own lightning network",
+      "start": 1415.6,
+      "duration": 2.24
+    },
+    {
+      "text": "you know i mean",
+      "start": 1416.799,
+      "duration": 4.321
+    },
+    {
+      "text": "it's uh it's a a bitcoin fork with very",
+      "start": 1417.84,
+      "duration": 3.68
+    },
+    {
+      "text": "few",
+      "start": 1421.12,
+      "duration": 3.28
+    },
+    {
+      "text": "actual changes so we're the the point of",
+      "start": 1421.52,
+      "duration": 4.32
+    },
+    {
+      "text": "this and the fact is",
+      "start": 1424.4,
+      "duration": 4.44
+    },
+    {
+      "text": "i did not start this project in",
+      "start": 1425.84,
+      "duration": 4.88
+    },
+    {
+      "text": "2014-1516",
+      "start": 1428.84,
+      "duration": 4.439
+    },
+    {
+      "text": "because i was waiting for the",
+      "start": 1430.72,
+      "duration": 4.24
+    },
+    {
+      "text": "transaction scalability that the",
+      "start": 1433.279,
+      "duration": 2.801
+    },
+    {
+      "text": "lightning network would have",
+      "start": 1434.96,
+      "duration": 5.92
+    },
+    {
+      "text": "would afford and so then in 2019 2018-19",
+      "start": 1436.08,
+      "duration": 6.8
+    },
+    {
+      "text": "the lightning network started to reach",
+      "start": 1440.88,
+      "duration": 4.08
+    },
+    {
+      "text": "maturity and so that was why",
+      "start": 1442.88,
+      "duration": 4.72
+    },
+    {
+      "text": "i woke up the cjts project cj dennis was",
+      "start": 1444.96,
+      "duration": 3.68
+    },
+    {
+      "text": "asleep for",
+      "start": 1447.6,
+      "duration": 3.199
+    },
+    {
+      "text": "uh a good four or five years just",
+      "start": 1448.64,
+      "duration": 3.6
+    },
+    {
+      "text": "because the other",
+      "start": 1450.799,
+      "duration": 4.561
+    },
+    {
+      "text": "half of the the necessary technology",
+      "start": 1452.24,
+      "duration": 7.6
+    },
+    {
+      "text": "just wasn't there yet",
+      "start": 1455.36,
+      "duration": 4.48
+    },
+    {
+      "text": "okay well something that i have never",
+      "start": 1461.36,
+      "duration": 8.88
+    },
+    {
+      "text": "never shared before with anyone is that",
+      "start": 1466.4,
+      "duration": 6.879
+    },
+    {
+      "text": "i am hundred percent sure that",
+      "start": 1470.24,
+      "duration": 6.64
+    },
+    {
+      "text": "they are going to come",
+      "start": 1473.279,
+      "duration": 6.561
+    },
+    {
+      "text": "for what's rewarded at least i'm i'm",
+      "start": 1476.88,
+      "duration": 3.44
+    },
+    {
+      "text": "very",
+      "start": 1479.84,
+      "duration": 5.439
+    },
+    {
+      "text": "sure so yes i i agree with with you",
+      "start": 1480.32,
+      "duration": 9.28
+    },
+    {
+      "text": "and i think if if your project",
+      "start": 1485.279,
+      "duration": 7.441
+    },
+    {
+      "text": "finally uh is",
+      "start": 1489.6,
+      "duration": 6.64
+    },
+    {
+      "text": "as useful as i think it is",
+      "start": 1492.72,
+      "duration": 6.48
+    },
+    {
+      "text": "of course i will need to buy those",
+      "start": 1496.24,
+      "duration": 4.08
+    },
+    {
+      "text": "tokens with",
+      "start": 1499.2,
+      "duration": 4.64
+    },
+    {
+      "text": "bitcoins because it's it's basically the",
+      "start": 1500.32,
+      "duration": 4.8
+    },
+    {
+      "text": "currency right",
+      "start": 1503.84,
+      "duration": 5.199
+    },
+    {
+      "text": "um well one more question and this is my",
+      "start": 1505.12,
+      "duration": 7.28
+    },
+    {
+      "text": "probably my last question well everybody",
+      "start": 1509.039,
+      "duration": 5.281
+    },
+    {
+      "text": "most of us probably understand that well",
+      "start": 1512.4,
+      "duration": 3.279
+    },
+    {
+      "text": "given the",
+      "start": 1514.32,
+      "duration": 4.8
+    },
+    {
+      "text": "the the ip address is the",
+      "start": 1515.679,
+      "duration": 5.681
+    },
+    {
+      "text": "the fingerprint of the public key we can",
+      "start": 1519.12,
+      "duration": 3.84
+    },
+    {
+      "text": "always compute",
+      "start": 1521.36,
+      "duration": 4.4
+    },
+    {
+      "text": "an encryption key to communicate with",
+      "start": 1522.96,
+      "duration": 3.44
+    },
+    {
+      "text": "with",
+      "start": 1525.76,
+      "duration": 4.08
+    },
+    {
+      "text": "the the other end right uh",
+      "start": 1526.4,
+      "duration": 6.48
+    },
+    {
+      "text": "but after that",
+      "start": 1529.84,
+      "duration": 6.0
+    },
+    {
+      "text": "i mean i understand it's an end-to-end",
+      "start": 1532.88,
+      "duration": 4.88
+    },
+    {
+      "text": "encrypted network",
+      "start": 1535.84,
+      "duration": 6.719
+    },
+    {
+      "text": "what other considerations about privacy",
+      "start": 1537.76,
+      "duration": 6.159
+    },
+    {
+      "text": "and security but",
+      "start": 1542.559,
+      "duration": 5.921
+    },
+    {
+      "text": "specifically about privacy and can we",
+      "start": 1543.919,
+      "duration": 8.561
+    },
+    {
+      "text": "can we learn from your project and",
+      "start": 1548.48,
+      "duration": 7.679
+    },
+    {
+      "text": "how do you think it can help bitcoin to",
+      "start": 1552.48,
+      "duration": 5.04
+    },
+    {
+      "text": "to make the bitcoin",
+      "start": 1556.159,
+      "duration": 3.76
+    },
+    {
+      "text": "the peer-to-peer bitcoin network uh uh",
+      "start": 1557.52,
+      "duration": 4.72
+    },
+    {
+      "text": "more resilient",
+      "start": 1559.919,
+      "duration": 4.561
+    },
+    {
+      "text": "well i mean i i think that uh it's not",
+      "start": 1562.24,
+      "duration": 4.16
+    },
+    {
+      "text": "so much about privacy per se it's about",
+      "start": 1564.48,
+      "duration": 3.679
+    },
+    {
+      "text": "robustness uh right now",
+      "start": 1566.4,
+      "duration": 4.08
+    },
+    {
+      "text": "um right now we're just praying that",
+      "start": 1568.159,
+      "duration": 3.441
+    },
+    {
+      "text": "they don't turn us off",
+      "start": 1570.48,
+      "duration": 3.28
+    },
+    {
+      "text": "i mean as you said uh that they're",
+      "start": 1571.6,
+      "duration": 3.04
+    },
+    {
+      "text": "coming for",
+      "start": 1573.76,
+      "duration": 2.32
+    },
+    {
+      "text": "they're gonna come for a wasabi wallet",
+      "start": 1574.64,
+      "duration": 2.96
+    },
+    {
+      "text": "and i believe that they're not you know",
+      "start": 1576.08,
+      "duration": 2.16
+    },
+    {
+      "text": "i have",
+      "start": 1577.6,
+      "duration": 3.439
+    },
+    {
+      "text": "a strong belief that we're gonna win we",
+      "start": 1578.24,
+      "duration": 4.559
+    },
+    {
+      "text": "at first they ignored us",
+      "start": 1581.039,
+      "duration": 5.921
+    },
+    {
+      "text": "and then from say 2014 to 2017 they",
+      "start": 1582.799,
+      "duration": 5.041
+    },
+    {
+      "text": "laughed at us",
+      "start": 1586.96,
+      "duration": 2.88
+    },
+    {
+      "text": "you know you remember bitcoin is dead",
+      "start": 1587.84,
+      "duration": 3.6
+    },
+    {
+      "text": "bitcoin is dead bitcoin is dead all the",
+      "start": 1589.84,
+      "duration": 2.48
+    },
+    {
+      "text": "newspapers",
+      "start": 1591.44,
+      "duration": 3.92
+    },
+    {
+      "text": "they just kept saying it and now we're",
+      "start": 1592.32,
+      "duration": 4.88
+    },
+    {
+      "text": "into the stage that they're fighting us",
+      "start": 1595.36,
+      "duration": 4.4
+    },
+    {
+      "text": "and we just need to take that fight and",
+      "start": 1597.2,
+      "duration": 4.16
+    },
+    {
+      "text": "be serious about it because",
+      "start": 1599.76,
+      "duration": 3.76
+    },
+    {
+      "text": "they are fighting us and they're telling",
+      "start": 1601.36,
+      "duration": 3.52
+    },
+    {
+      "text": "us they're not fighting us but we're not",
+      "start": 1603.52,
+      "duration": 2.72
+    },
+    {
+      "text": "going to believe them about that we",
+      "start": 1604.88,
+      "duration": 2.159
+    },
+    {
+      "text": "can't just",
+      "start": 1606.24,
+      "duration": 2.4
+    },
+    {
+      "text": "have them say oh yeah there's no war on",
+      "start": 1607.039,
+      "duration": 3.041
+    },
+    {
+      "text": "crypto just uh",
+      "start": 1608.64,
+      "duration": 3.039
+    },
+    {
+      "text": "don't believe that you know it is a",
+      "start": 1610.08,
+      "duration": 4.56
+    },
+    {
+      "text": "propaganda war they're going to try to",
+      "start": 1611.679,
+      "duration": 5.761
+    },
+    {
+      "text": "to to fight us on on the propaganda",
+      "start": 1614.64,
+      "duration": 3.2
+    },
+    {
+      "text": "front",
+      "start": 1617.44,
+      "duration": 4.239
+    },
+    {
+      "text": "and i want to i want to just hammer home",
+      "start": 1617.84,
+      "duration": 7.28
+    },
+    {
+      "text": "how ridiculous this is yesterday on",
+      "start": 1621.679,
+      "duration": 6.081
+    },
+    {
+      "text": "twitter um everybody who used the word",
+      "start": 1625.12,
+      "duration": 4.4
+    },
+    {
+      "text": "memphis in the tweet",
+      "start": 1627.76,
+      "duration": 4.24
+    },
+    {
+      "text": "was uh banned just and they said oh it",
+      "start": 1629.52,
+      "duration": 3.279
+    },
+    {
+      "text": "was a bug",
+      "start": 1632.0,
+      "duration": 3.84
+    },
+    {
+      "text": "oops we made a mistake well guess what",
+      "start": 1632.799,
+      "duration": 4.961
+    },
+    {
+      "text": "was happening in memphis yesterday",
+      "start": 1635.84,
+      "duration": 4.4
+    },
+    {
+      "text": "yesterday in memphis tennessee there was",
+      "start": 1637.76,
+      "duration": 3.76
+    },
+    {
+      "text": "a um",
+      "start": 1640.24,
+      "duration": 3.36
+    },
+    {
+      "text": "there was a protest against an oil",
+      "start": 1641.52,
+      "duration": 3.12
+    },
+    {
+      "text": "pipeline and",
+      "start": 1643.6,
+      "duration": 3.52
+    },
+    {
+      "text": "oil pipelines i cannot uh i cannot",
+      "start": 1644.64,
+      "duration": 3.2
+    },
+    {
+      "text": "hammer home",
+      "start": 1647.12,
+      "duration": 3.84
+    },
+    {
+      "text": "enough how uh irresponsible it is",
+      "start": 1647.84,
+      "duration": 4.88
+    },
+    {
+      "text": "building an oil pipeline right now",
+      "start": 1650.96,
+      "duration": 4.079
+    },
+    {
+      "text": "because we're just at the precipice",
+      "start": 1652.72,
+      "duration": 4.64
+    },
+    {
+      "text": "when renewable energy is going to become",
+      "start": 1655.039,
+      "duration": 3.12
+    },
+    {
+      "text": "so cheap",
+      "start": 1657.36,
+      "duration": 3.12
+    },
+    {
+      "text": "that um oil is just going to be",
+      "start": 1658.159,
+      "duration": 3.201
+    },
+    {
+      "text": "uncompetitive",
+      "start": 1660.48,
+      "duration": 3.919
+    },
+    {
+      "text": "because you don't need anybody greasing",
+      "start": 1661.36,
+      "duration": 4.4
+    },
+    {
+      "text": "oil jacks to uh",
+      "start": 1664.399,
+      "duration": 4.801
+    },
+    {
+      "text": "to run a um a solar array you don't need",
+      "start": 1665.76,
+      "duration": 5.279
+    },
+    {
+      "text": "people shoveling coals around the solar",
+      "start": 1669.2,
+      "duration": 2.4
+    },
+    {
+      "text": "array",
+      "start": 1671.039,
+      "duration": 2.721
+    },
+    {
+      "text": "the solar is going to beat the crap out",
+      "start": 1671.6,
+      "duration": 3.439
+    },
+    {
+      "text": "of all of this stuff",
+      "start": 1673.76,
+      "duration": 4.24
+    },
+    {
+      "text": "once it reaches the appropriate scale",
+      "start": 1675.039,
+      "duration": 3.52
+    },
+    {
+      "text": "and",
+      "start": 1678.0,
+      "duration": 2.0
+    },
+    {
+      "text": "they're still building these oil",
+      "start": 1678.559,
+      "duration": 2.561
+    },
+    {
+      "text": "pipelines which are just going to",
+      "start": 1680.0,
+      "duration": 2.88
+    },
+    {
+      "text": "pollute everywhere",
+      "start": 1681.12,
+      "duration": 3.36
+    },
+    {
+      "text": "and you know these companies are going",
+      "start": 1682.88,
+      "duration": 3.279
+    },
+    {
+      "text": "to walk away from these oil pipelines",
+      "start": 1684.48,
+      "duration": 2.96
+    },
+    {
+      "text": "and just say oh yeah it's not our",
+      "start": 1686.159,
+      "duration": 2.161
+    },
+    {
+      "text": "problem anymore",
+      "start": 1687.44,
+      "duration": 3.68
+    },
+    {
+      "text": "you know you clean it up and uh they're",
+      "start": 1688.32,
+      "duration": 4.16
+    },
+    {
+      "text": "still building these things",
+      "start": 1691.12,
+      "duration": 4.4
+    },
+    {
+      "text": "even now in 2021 so",
+      "start": 1692.48,
+      "duration": 5.36
+    },
+    {
+      "text": "you know and you have these centralized",
+      "start": 1695.52,
+      "duration": 3.039
+    },
+    {
+      "text": "platforms",
+      "start": 1697.84,
+      "duration": 4.48
+    },
+    {
+      "text": "that are creating these bugs in order to",
+      "start": 1698.559,
+      "duration": 5.84
+    },
+    {
+      "text": "cause people to not be able to talk",
+      "start": 1702.32,
+      "duration": 4.239
+    },
+    {
+      "text": "about and coordinate a protest against",
+      "start": 1704.399,
+      "duration": 5.041
+    },
+    {
+      "text": "an oil pipeline",
+      "start": 1706.559,
+      "duration": 6.321
+    },
+    {
+      "text": "uh yeah no better",
+      "start": 1709.44,
+      "duration": 3.44
+    },
+    {
+      "text": "yeah i i wanted to say something",
+      "start": 1713.039,
+      "duration": 5.441
+    },
+    {
+      "text": "but you guys were touching the topic and",
+      "start": 1716.24,
+      "duration": 3.36
+    },
+    {
+      "text": "then moving",
+      "start": 1718.48,
+      "duration": 3.28
+    },
+    {
+      "text": "uh away from that and then come back all",
+      "start": 1719.6,
+      "duration": 3.28
+    },
+    {
+      "text": "the time",
+      "start": 1721.76,
+      "duration": 4.32
+    },
+    {
+      "text": "i wasn't sure but uh yeah it should be",
+      "start": 1722.88,
+      "duration": 4.32
+    },
+    {
+      "text": "the right time that",
+      "start": 1726.08,
+      "duration": 4.4
+    },
+    {
+      "text": "i think you know if if there is",
+      "start": 1727.2,
+      "duration": 6.719
+    },
+    {
+      "text": "one thing that i i learned from",
+      "start": 1730.48,
+      "duration": 6.64
+    },
+    {
+      "text": "from wasabi and i think this would be",
+      "start": 1733.919,
+      "duration": 4.721
+    },
+    {
+      "text": "this because",
+      "start": 1737.12,
+      "duration": 4.32
+    },
+    {
+      "text": "and and this is a very general point on",
+      "start": 1738.64,
+      "duration": 5.12
+    },
+    {
+      "text": "on on privacy projects",
+      "start": 1741.44,
+      "duration": 4.64
+    },
+    {
+      "text": "because at the beginning you know when i",
+      "start": 1743.76,
+      "duration": 3.039
+    },
+    {
+      "text": "was",
+      "start": 1746.08,
+      "duration": 2.56
+    },
+    {
+      "text": "telling people that this is what i'm",
+      "start": 1746.799,
+      "duration": 3.76
+    },
+    {
+      "text": "going to do i'm going to build bitcoin",
+      "start": 1748.64,
+      "duration": 3.36
+    },
+    {
+      "text": "privacy",
+      "start": 1750.559,
+      "duration": 4.0
+    },
+    {
+      "text": "and everyone is saying that that no you",
+      "start": 1752.0,
+      "duration": 4.48
+    },
+    {
+      "text": "can do that because governments hate",
+      "start": 1754.559,
+      "duration": 2.801
+    },
+    {
+      "text": "privacy",
+      "start": 1756.48,
+      "duration": 4.48
+    },
+    {
+      "text": "and and only criminals",
+      "start": 1757.36,
+      "duration": 3.6
+    },
+    {
+      "text": "work on privacy and things like that and",
+      "start": 1761.2,
+      "duration": 4.079
+    },
+    {
+      "text": "and you know it's it's not",
+      "start": 1763.919,
+      "duration": 5.12
+    },
+    {
+      "text": "true at all people in government",
+      "start": 1765.279,
+      "duration": 7.361
+    },
+    {
+      "text": "get how important privacy is it's",
+      "start": 1769.039,
+      "duration": 6.721
+    },
+    {
+      "text": "just not their first built",
+      "start": 1772.64,
+      "duration": 5.84
+    },
+    {
+      "text": "and no one is there to remind them that",
+      "start": 1775.76,
+      "duration": 3.519
+    },
+    {
+      "text": "there are",
+      "start": 1778.48,
+      "duration": 3.84
+    },
+    {
+      "text": "consequences but you know when when you",
+      "start": 1779.279,
+      "duration": 4.88
+    },
+    {
+      "text": "reason with people",
+      "start": 1782.32,
+      "duration": 5.28
+    },
+    {
+      "text": "they they get it i mean sometimes you",
+      "start": 1784.159,
+      "duration": 4.64
+    },
+    {
+      "text": "just ask them how much",
+      "start": 1787.6,
+      "duration": 3.36
+    },
+    {
+      "text": "money they have and you know you",
+      "start": 1788.799,
+      "duration": 3.841
+    },
+    {
+      "text": "instantly make the point because that",
+      "start": 1790.96,
+      "duration": 3.28
+    },
+    {
+      "text": "question makes them uncomfortable",
+      "start": 1792.64,
+      "duration": 4.8
+    },
+    {
+      "text": "and oh you you you get privacy",
+      "start": 1794.24,
+      "duration": 6.159
+    },
+    {
+      "text": "so but but the point is that these",
+      "start": 1797.44,
+      "duration": 4.959
+    },
+    {
+      "text": "privacy projects are",
+      "start": 1800.399,
+      "duration": 6.441
+    },
+    {
+      "text": "are always started from these anarchist",
+      "start": 1802.399,
+      "duration": 5.841
+    },
+    {
+      "text": "libertarian",
+      "start": 1806.84,
+      "duration": 4.839
+    },
+    {
+      "text": "route and and and i think there is a",
+      "start": 1808.24,
+      "duration": 5.52
+    },
+    {
+      "text": "very counter productive thing here",
+      "start": 1811.679,
+      "duration": 6.401
+    },
+    {
+      "text": "is that you know this hacker mindset is",
+      "start": 1813.76,
+      "duration": 6.96
+    },
+    {
+      "text": "that you have to be super paranoid about",
+      "start": 1818.08,
+      "duration": 7.44
+    },
+    {
+      "text": "everything that's one uh and and on that",
+      "start": 1820.72,
+      "duration": 7.199
+    },
+    {
+      "text": "to that is that the libertarian and",
+      "start": 1825.52,
+      "duration": 4.0
+    },
+    {
+      "text": "anarchist thoughts that",
+      "start": 1827.919,
+      "duration": 3.841
+    },
+    {
+      "text": "well if you are working on privacy then",
+      "start": 1829.52,
+      "duration": 3.44
+    },
+    {
+      "text": "you're going to be",
+      "start": 1831.76,
+      "duration": 4.48
+    },
+    {
+      "text": "thrown down and you know",
+      "start": 1832.96,
+      "duration": 6.56
+    },
+    {
+      "text": "that's not not happening uh",
+      "start": 1836.24,
+      "duration": 6.0
+    },
+    {
+      "text": "people get what you're doing what's",
+      "start": 1839.52,
+      "duration": 3.6
+    },
+    {
+      "text": "what's happening",
+      "start": 1842.24,
+      "duration": 4.4
+    },
+    {
+      "text": "is when when when someone creates",
+      "start": 1843.12,
+      "duration": 7.64
+    },
+    {
+      "text": "something and advertises",
+      "start": 1846.64,
+      "duration": 8.88
+    },
+    {
+      "text": "specifically for goods those are",
+      "start": 1850.76,
+      "duration": 8.12
+    },
+    {
+      "text": "you know on on the line of",
+      "start": 1855.52,
+      "duration": 6.72
+    },
+    {
+      "text": "well what should we do with them and",
+      "start": 1858.88,
+      "duration": 5.679
+    },
+    {
+      "text": "and and those are things those get shut",
+      "start": 1862.24,
+      "duration": 3.12
+    },
+    {
+      "text": "down but",
+      "start": 1864.559,
+      "duration": 4.881
+    },
+    {
+      "text": "you know like it's it's not that",
+      "start": 1865.36,
+      "duration": 7.36
+    },
+    {
+      "text": "often that privacy companies get shut",
+      "start": 1869.44,
+      "duration": 4.16
+    },
+    {
+      "text": "down",
+      "start": 1872.72,
+      "duration": 4.64
+    },
+    {
+      "text": "and and in fact the the problem is that",
+      "start": 1873.6,
+      "duration": 6.64
+    },
+    {
+      "text": "no one dares to even start to work on",
+      "start": 1877.36,
+      "duration": 4.08
+    },
+    {
+      "text": "privacy because",
+      "start": 1880.24,
+      "duration": 2.72
+    },
+    {
+      "text": "everyone is saying that it's so",
+      "start": 1881.44,
+      "duration": 3.599
+    },
+    {
+      "text": "dangerous it's not dangerous",
+      "start": 1882.96,
+      "duration": 5.52
+    },
+    {
+      "text": "everyone gets privacy privacy is a human",
+      "start": 1885.039,
+      "duration": 6.961
+    },
+    {
+      "text": "right and and working on it",
+      "start": 1888.48,
+      "duration": 6.96
+    },
+    {
+      "text": "is is not dangerously natural",
+      "start": 1892.0,
+      "duration": 6.88
+    },
+    {
+      "text": "um sorry for my round but but",
+      "start": 1895.44,
+      "duration": 5.839
+    },
+    {
+      "text": "i i think i think we should be more",
+      "start": 1898.88,
+      "duration": 3.6
+    },
+    {
+      "text": "positive",
+      "start": 1901.279,
+      "duration": 4.88
+    },
+    {
+      "text": "and yeah but adam",
+      "start": 1902.48,
+      "duration": 8.079
+    },
+    {
+      "text": "we were i don't know a year ago probably",
+      "start": 1906.159,
+      "duration": 8.081
+    },
+    {
+      "text": "we were mentioning an internal uh",
+      "start": 1910.559,
+      "duration": 6.881
+    },
+    {
+      "text": "intelligent agency",
+      "start": 1914.24,
+      "duration": 7.039
+    },
+    {
+      "text": "that is fighting against who knows what",
+      "start": 1917.44,
+      "duration": 6.959
+    },
+    {
+      "text": "right and we are in those",
+      "start": 1921.279,
+      "duration": 7.041
+    },
+    {
+      "text": "reports and in those investigations",
+      "start": 1924.399,
+      "duration": 7.28
+    },
+    {
+      "text": "again and again so",
+      "start": 1928.32,
+      "duration": 6.4
+    },
+    {
+      "text": "okay i mean sorry",
+      "start": 1931.679,
+      "duration": 6.401
+    },
+    {
+      "text": "i think i don't agree with you i don't",
+      "start": 1934.72,
+      "duration": 6.079
+    },
+    {
+      "text": "i mean i i wanna i wanna jump in here",
+      "start": 1938.08,
+      "duration": 3.36
+    },
+    {
+      "text": "because",
+      "start": 1940.799,
+      "duration": 2.0
+    },
+    {
+      "text": "i mean i think this is a really",
+      "start": 1941.44,
+      "duration": 3.44
+    },
+    {
+      "text": "important topic um",
+      "start": 1942.799,
+      "duration": 5.681
+    },
+    {
+      "text": "we are clearly in a war",
+      "start": 1944.88,
+      "duration": 6.48
+    },
+    {
+      "text": "but the war is not with policymakers",
+      "start": 1948.48,
+      "duration": 4.799
+    },
+    {
+      "text": "policymakers we need to work with them",
+      "start": 1951.36,
+      "duration": 3.439
+    },
+    {
+      "text": "and we need to explain to them",
+      "start": 1953.279,
+      "duration": 4.64
+    },
+    {
+      "text": "the importance of decentralizing power",
+      "start": 1954.799,
+      "duration": 5.281
+    },
+    {
+      "text": "because this power is being centralized",
+      "start": 1957.919,
+      "duration": 4.48
+    },
+    {
+      "text": "in the hands of a couple of these people",
+      "start": 1960.08,
+      "duration": 5.439
+    },
+    {
+      "text": "and companies these aristocrats and they",
+      "start": 1962.399,
+      "duration": 4.961
+    },
+    {
+      "text": "are they're holding this power over",
+      "start": 1965.519,
+      "duration": 4.0
+    },
+    {
+      "text": "society and they're also holding power",
+      "start": 1967.36,
+      "duration": 3.679
+    },
+    {
+      "text": "over policy makers",
+      "start": 1969.519,
+      "duration": 3.441
+    },
+    {
+      "text": "you've got the european union they pass",
+      "start": 1971.039,
+      "duration": 3.12
+    },
+    {
+      "text": "the gdpr",
+      "start": 1972.96,
+      "duration": 4.559
+    },
+    {
+      "text": "clearly they care about privacy the and",
+      "start": 1974.159,
+      "duration": 6.0
+    },
+    {
+      "text": "i mean privacy is considered a",
+      "start": 1977.519,
+      "duration": 4.0
+    },
+    {
+      "text": "fundamental human right",
+      "start": 1980.159,
+      "duration": 5.52
+    },
+    {
+      "text": "um and it is not difficult to have this",
+      "start": 1981.519,
+      "duration": 5.841
+    },
+    {
+      "text": "conversation with policymakers",
+      "start": 1985.679,
+      "duration": 3.281
+    },
+    {
+      "text": "it's just that a lot of people are",
+      "start": 1987.36,
+      "duration": 3.52
+    },
+    {
+      "text": "either not doing it because they think",
+      "start": 1988.96,
+      "duration": 3.76
+    },
+    {
+      "text": "the policy makers are the enemy",
+      "start": 1990.88,
+      "duration": 5.44
+    },
+    {
+      "text": "which is wrong or they're just",
+      "start": 1992.72,
+      "duration": 6.319
+    },
+    {
+      "text": "thinking that well take the case of uh",
+      "start": 1996.32,
+      "duration": 4.0
+    },
+    {
+      "text": "okay cia does uh",
+      "start": 1999.039,
+      "duration": 3.76
+    },
+    {
+      "text": "does a um a report on wasabi well i mean",
+      "start": 2000.32,
+      "duration": 4.239
+    },
+    {
+      "text": "ca had a report on",
+      "start": 2002.799,
+      "duration": 5.041
+    },
+    {
+      "text": "or they had some scraping from uh um",
+      "start": 2004.559,
+      "duration": 6.0
+    },
+    {
+      "text": "cj dns in their in their internal wiki",
+      "start": 2007.84,
+      "duration": 3.839
+    },
+    {
+      "text": "that doesn't mean",
+      "start": 2010.559,
+      "duration": 4.321
+    },
+    {
+      "text": "that they are against us that means that",
+      "start": 2011.679,
+      "duration": 4.161
+    },
+    {
+      "text": "they want to know",
+      "start": 2014.88,
+      "duration": 3.679
+    },
+    {
+      "text": "that we're here and we need to have a",
+      "start": 2015.84,
+      "duration": 4.24
+    },
+    {
+      "text": "public facing",
+      "start": 2018.559,
+      "duration": 2.96
+    },
+    {
+      "text": "answer to these people we need to have",
+      "start": 2020.08,
+      "duration": 3.92
+    },
+    {
+      "text": "literature to be able to explain to",
+      "start": 2021.519,
+      "duration": 5.681
+    },
+    {
+      "text": "policymakers government whatever",
+      "start": 2024.0,
+      "duration": 5.679
+    },
+    {
+      "text": "what we're about who we're we're",
+      "start": 2027.2,
+      "duration": 4.0
+    },
+    {
+      "text": "fighting for we're fighting for the",
+      "start": 2029.679,
+      "duration": 2.401
+    },
+    {
+      "text": "individual",
+      "start": 2031.2,
+      "duration": 4.479
+    },
+    {
+      "text": "liberty of people and for democracy and",
+      "start": 2032.08,
+      "duration": 6.88
+    },
+    {
+      "text": "what what what is the other side doing",
+      "start": 2035.679,
+      "duration": 5.281
+    },
+    {
+      "text": "because the other side doesn't have any",
+      "start": 2038.96,
+      "duration": 3.52
+    },
+    {
+      "text": "problem putting their lobbyists",
+      "start": 2040.96,
+      "duration": 3.68
+    },
+    {
+      "text": "into government and then they're using",
+      "start": 2042.48,
+      "duration": 4.319
+    },
+    {
+      "text": "their lobbyists to try to make",
+      "start": 2044.64,
+      "duration": 5.199
+    },
+    {
+      "text": "government fight against us so",
+      "start": 2046.799,
+      "duration": 4.721
+    },
+    {
+      "text": "we need to cut it off where it's",
+      "start": 2049.839,
+      "duration": 4.881
+    },
+    {
+      "text": "actually happening here",
+      "start": 2051.52,
+      "duration": 3.2
+    },
+    {
+      "text": "well yes yes i agree with that but",
+      "start": 2055.119,
+      "duration": 3.841
+    },
+    {
+      "text": "listen",
+      "start": 2058.24,
+      "duration": 4.399
+    },
+    {
+      "text": "i don't remember if this was nec uh",
+      "start": 2058.96,
+      "duration": 7.28
+    },
+    {
+      "text": "previous week or a week before that but",
+      "start": 2062.639,
+      "duration": 7.2
+    },
+    {
+      "text": "the i the european parliament",
+      "start": 2066.24,
+      "duration": 6.8
+    },
+    {
+      "text": "uh voted for",
+      "start": 2069.839,
+      "duration": 6.8
+    },
+    {
+      "text": "for for making uh",
+      "start": 2073.04,
+      "duration": 7.68
+    },
+    {
+      "text": "for i mean the the messaging",
+      "start": 2076.639,
+      "duration": 6.881
+    },
+    {
+      "text": "server providers and the image provider",
+      "start": 2080.72,
+      "duration": 4.24
+    },
+    {
+      "text": "have to",
+      "start": 2083.52,
+      "duration": 5.359
+    },
+    {
+      "text": "to be able to the crypt",
+      "start": 2084.96,
+      "duration": 7.439
+    },
+    {
+      "text": "basically yeah it's absolutely tragic",
+      "start": 2088.879,
+      "duration": 4.321
+    },
+    {
+      "text": "what happened",
+      "start": 2092.399,
+      "duration": 4.161
+    },
+    {
+      "text": "uh last week and um you know this is",
+      "start": 2093.2,
+      "duration": 5.919
+    },
+    {
+      "text": "this is a loss this is what happens when",
+      "start": 2096.56,
+      "duration": 3.6
+    },
+    {
+      "text": "we're not in",
+      "start": 2099.119,
+      "duration": 2.881
+    },
+    {
+      "text": "we're not lobbying you know we're not",
+      "start": 2100.16,
+      "duration": 3.52
+    },
+    {
+      "text": "talking to policymakers",
+      "start": 2102.0,
+      "duration": 3.599
+    },
+    {
+      "text": "the other guys go and start talking to",
+      "start": 2103.68,
+      "duration": 3.04
+    },
+    {
+      "text": "policymakers",
+      "start": 2105.599,
+      "duration": 4.48
+    },
+    {
+      "text": "and they are going to use the their",
+      "start": 2106.72,
+      "duration": 5.6
+    },
+    {
+      "text": "relationships with the policymakers to",
+      "start": 2110.079,
+      "duration": 3.28
+    },
+    {
+      "text": "promote",
+      "start": 2112.32,
+      "duration": 4.08
+    },
+    {
+      "text": "um to promote policy which uh",
+      "start": 2113.359,
+      "duration": 6.161
+    },
+    {
+      "text": "helps them to continue and establish",
+      "start": 2116.4,
+      "duration": 6.48
+    },
+    {
+      "text": "their monopolies over control of the",
+      "start": 2119.52,
+      "duration": 6.559
+    },
+    {
+      "text": "the individual people so you know we win",
+      "start": 2122.88,
+      "duration": 4.56
+    },
+    {
+      "text": "some we lose some",
+      "start": 2126.079,
+      "duration": 4.081
+    },
+    {
+      "text": "the policymakers are not our enemy um",
+      "start": 2127.44,
+      "duration": 3.12
+    },
+    {
+      "text": "they",
+      "start": 2130.16,
+      "duration": 5.679
+    },
+    {
+      "text": "are being pulled by our real enemy",
+      "start": 2130.56,
+      "duration": 5.279
+    },
+    {
+      "text": "okay anyway they are the one that vote",
+      "start": 2137.92,
+      "duration": 4.159
+    },
+    {
+      "text": "for these",
+      "start": 2140.96,
+      "duration": 4.24
+    },
+    {
+      "text": "things for just for for those that don't",
+      "start": 2142.079,
+      "duration": 4.481
+    },
+    {
+      "text": "understand what",
+      "start": 2145.2,
+      "duration": 4.32
+    },
+    {
+      "text": "what this means is for example uh it is",
+      "start": 2146.56,
+      "duration": 4.72
+    },
+    {
+      "text": "not possible to have end-to-end",
+      "start": 2149.52,
+      "duration": 3.12
+    },
+    {
+      "text": "encryption anymore because",
+      "start": 2151.28,
+      "duration": 3.68
+    },
+    {
+      "text": "if i provide this the chat service and i",
+      "start": 2152.64,
+      "duration": 4.16
+    },
+    {
+      "text": "i need to be able to decrypt your",
+      "start": 2154.96,
+      "duration": 2.72
+    },
+    {
+      "text": "messages",
+      "start": 2156.8,
+      "duration": 3.76
+    },
+    {
+      "text": "that means that end-to-end encryption is",
+      "start": 2157.68,
+      "duration": 4.64
+    },
+    {
+      "text": "not possible anymore i mean",
+      "start": 2160.56,
+      "duration": 4.24
+    },
+    {
+      "text": "you the the communication can be",
+      "start": 2162.32,
+      "duration": 3.68
+    },
+    {
+      "text": "encrypted",
+      "start": 2164.8,
+      "duration": 4.72
+    },
+    {
+      "text": "um but",
+      "start": 2166.0,
+      "duration": 7.04
+    },
+    {
+      "text": "no end-to-end let's say i don't",
+      "start": 2169.52,
+      "duration": 3.52
+    },
+    {
+      "text": "please go ahead yeah hi",
+      "start": 2182.8,
+      "duration": 6.72
+    },
+    {
+      "text": "so i was just wondering because this",
+      "start": 2186.32,
+      "duration": 4.64
+    },
+    {
+      "text": "sounds a little bit like the tour",
+      "start": 2189.52,
+      "duration": 3.599
+    },
+    {
+      "text": "project but the",
+      "start": 2190.96,
+      "duration": 4.399
+    },
+    {
+      "text": "and you have a similar concept on",
+      "start": 2193.119,
+      "duration": 4.881
+    },
+    {
+      "text": "providing bandwidth and",
+      "start": 2195.359,
+      "duration": 5.121
+    },
+    {
+      "text": "even though door itself doesn't really",
+      "start": 2198.0,
+      "duration": 4.88
+    },
+    {
+      "text": "do any accounting on the bandwidth but",
+      "start": 2200.48,
+      "duration": 4.4
+    },
+    {
+      "text": "you actually have a privacy layer on top",
+      "start": 2202.88,
+      "duration": 3.04
+    },
+    {
+      "text": "of it",
+      "start": 2204.88,
+      "duration": 3.6
+    },
+    {
+      "text": "so i was wondering if there is a similar",
+      "start": 2205.92,
+      "duration": 3.679
+    },
+    {
+      "text": "risk model",
+      "start": 2208.48,
+      "duration": 4.32
+    },
+    {
+      "text": "related to your project as being a host",
+      "start": 2209.599,
+      "duration": 5.601
+    },
+    {
+      "text": "host of the service as running a tour",
+      "start": 2212.8,
+      "duration": 3.36
+    },
+    {
+      "text": "exit node",
+      "start": 2215.2,
+      "duration": 3.919
+    },
+    {
+      "text": "what do you think uh it's a bit similar",
+      "start": 2216.16,
+      "duration": 4.08
+    },
+    {
+      "text": "it's it's a bit similar",
+      "start": 2219.119,
+      "duration": 3.121
+    },
+    {
+      "text": "as far as your risk profile when you're",
+      "start": 2220.24,
+      "duration": 3.28
+    },
+    {
+      "text": "running a vpn",
+      "start": 2222.24,
+      "duration": 4.56
+    },
+    {
+      "text": "um but unlike tor",
+      "start": 2223.52,
+      "duration": 6.48
+    },
+    {
+      "text": "we're not trying to have anonymity of",
+      "start": 2226.8,
+      "duration": 7.12
+    },
+    {
+      "text": "the um of the person versus the the exit",
+      "start": 2230.0,
+      "duration": 6.4
+    },
+    {
+      "text": "so we're not trying to be a strong",
+      "start": 2233.92,
+      "duration": 3.199
+    },
+    {
+      "text": "anonymity",
+      "start": 2236.4,
+      "duration": 2.8
+    },
+    {
+      "text": "our point is to have a strong network",
+      "start": 2237.119,
+      "duration": 3.041
+    },
+    {
+      "text": "that is",
+      "start": 2239.2,
+      "duration": 3.68
+    },
+    {
+      "text": "um robust and resilient to people",
+      "start": 2240.16,
+      "duration": 3.52
+    },
+    {
+      "text": "shutting it down",
+      "start": 2242.88,
+      "duration": 4.08
+    },
+    {
+      "text": "centralized power um tor is going in a",
+      "start": 2243.68,
+      "duration": 4.399
+    },
+    {
+      "text": "slightly different direction where",
+      "start": 2246.96,
+      "duration": 1.6
+    },
+    {
+      "text": "they're",
+      "start": 2248.079,
+      "duration": 2.561
+    },
+    {
+      "text": "they're really trying to make it so that",
+      "start": 2248.56,
+      "duration": 3.6
+    },
+    {
+      "text": "nobody knows who anybody",
+      "start": 2250.64,
+      "duration": 3.6
+    },
+    {
+      "text": "is and that's a very hard problem to",
+      "start": 2252.16,
+      "duration": 3.84
+    },
+    {
+      "text": "solve and it's a very specific problem",
+      "start": 2254.24,
+      "duration": 5.44
+    },
+    {
+      "text": "so tor and cj dns and packet will",
+      "start": 2256.0,
+      "duration": 6.8
+    },
+    {
+      "text": "always tend to coexist because",
+      "start": 2259.68,
+      "duration": 4.96
+    },
+    {
+      "text": "they exist on different planes and for",
+      "start": 2262.8,
+      "duration": 8.0
+    },
+    {
+      "text": "different purposes",
+      "start": 2264.64,
+      "duration": 9.68
+    },
+    {
+      "text": "if it's okay another question",
+      "start": 2270.8,
+      "duration": 3.52
+    },
+    {
+      "text": "yes please yeah uh i was just wondering",
+      "start": 2274.4,
+      "duration": 6.64
+    },
+    {
+      "text": "it's a little bit difficult to get a",
+      "start": 2278.72,
+      "duration": 5.2
+    },
+    {
+      "text": "layer layer 2 vpn set setup",
+      "start": 2281.04,
+      "duration": 5.2
+    },
+    {
+      "text": "at least i don't know any service",
+      "start": 2283.92,
+      "duration": 4.32
+    },
+    {
+      "text": "providers who would actually do that",
+      "start": 2286.24,
+      "duration": 5.76
+    },
+    {
+      "text": "do you support layer two um",
+      "start": 2288.24,
+      "duration": 7.44
+    },
+    {
+      "text": "no we are layer two we are a layer two",
+      "start": 2292.0,
+      "duration": 7.04
+    },
+    {
+      "text": "um because we're not we're not actually",
+      "start": 2295.68,
+      "duration": 4.64
+    },
+    {
+      "text": "doing ethernet",
+      "start": 2299.04,
+      "duration": 3.84
+    },
+    {
+      "text": "um ethernet in my opinion it's not",
+      "start": 2300.32,
+      "duration": 3.759
+    },
+    {
+      "text": "really that useful",
+      "start": 2302.88,
+      "duration": 4.64
+    },
+    {
+      "text": "it's it's because ip",
+      "start": 2304.079,
+      "duration": 6.081
+    },
+    {
+      "text": "doesn't scale down and ethernet doesn't",
+      "start": 2307.52,
+      "duration": 3.2
+    },
+    {
+      "text": "scale",
+      "start": 2310.16,
+      "duration": 3.919
+    },
+    {
+      "text": "up we ended up with these two layers",
+      "start": 2310.72,
+      "duration": 6.48
+    },
+    {
+      "text": "cj dns scales both directions so",
+      "start": 2314.079,
+      "duration": 6.081
+    },
+    {
+      "text": "um on top of cj dns we just put an ip",
+      "start": 2317.2,
+      "duration": 5.28
+    },
+    {
+      "text": "packet because it's compatible with",
+      "start": 2320.16,
+      "duration": 4.959
+    },
+    {
+      "text": "with ordinary software i mean you could",
+      "start": 2322.48,
+      "duration": 3.2
+    },
+    {
+      "text": "do",
+      "start": 2325.119,
+      "duration": 3.361
+    },
+    {
+      "text": "ethernet over cjdns just like why that's",
+      "start": 2325.68,
+      "duration": 5.52
+    },
+    {
+      "text": "kind of the point",
+      "start": 2328.48,
+      "duration": 2.72
+    },
+    {
+      "text": "regions yeah i mean you could do it it's",
+      "start": 2334.32,
+      "duration": 5.759
+    },
+    {
+      "text": "just like it's just like doing ethernet",
+      "start": 2338.48,
+      "duration": 2.0
+    },
+    {
+      "text": "over",
+      "start": 2340.079,
+      "duration": 3.28
+    },
+    {
+      "text": "like uh packet over sonnet or sdh it's",
+      "start": 2340.48,
+      "duration": 3.599
+    },
+    {
+      "text": "it's",
+      "start": 2343.359,
+      "duration": 2.24
+    },
+    {
+      "text": "really the similar concept you just have",
+      "start": 2344.079,
+      "duration": 3.201
+    },
+    {
+      "text": "to write a little bit of code to",
+      "start": 2345.599,
+      "duration": 4.0
+    },
+    {
+      "text": "connect it together cj dance is a",
+      "start": 2347.28,
+      "duration": 5.559
+    },
+    {
+      "text": "transport it'll transport anything you",
+      "start": 2349.599,
+      "duration": 4.561
+    },
+    {
+      "text": "want",
+      "start": 2352.839,
+      "duration": 4.601
+    },
+    {
+      "text": "okay good to know thanks",
+      "start": 2354.16,
+      "duration": 3.28
+    },
+    {
+      "text": "yes short for coin join dns",
+      "start": 2358.4,
+      "duration": 7.84
+    },
+    {
+      "text": "no um it's it's uh",
+      "start": 2363.119,
+      "duration": 6.401
+    },
+    {
+      "text": "because my initials are cjd and um",
+      "start": 2366.24,
+      "duration": 5.119
+    },
+    {
+      "text": "there's a long story about that yeah",
+      "start": 2369.52,
+      "duration": 3.599
+    },
+    {
+      "text": "originally it was supposed to be a dns",
+      "start": 2371.359,
+      "duration": 2.641
+    },
+    {
+      "text": "system",
+      "start": 2373.119,
+      "duration": 4.161
+    },
+    {
+      "text": "but um we pivoted it into uh",
+      "start": 2374.0,
+      "duration": 6.16
+    },
+    {
+      "text": "being a routing system because uh",
+      "start": 2377.28,
+      "duration": 4.88
+    },
+    {
+      "text": "routing is actually easier to solve than",
+      "start": 2380.16,
+      "duration": 3.679
+    },
+    {
+      "text": "dns dns is a",
+      "start": 2382.16,
+      "duration": 5.6
+    },
+    {
+      "text": "deep political problem that is",
+      "start": 2383.839,
+      "duration": 7.921
+    },
+    {
+      "text": "not my favorite problem to try to solve",
+      "start": 2387.76,
+      "duration": 4.0
+    },
+    {
+      "text": "okay do you know about um",
+      "start": 2393.76,
+      "duration": 6.16
+    },
+    {
+      "text": "the lucky project the project that it",
+      "start": 2397.28,
+      "duration": 3.92
+    },
+    {
+      "text": "comes from the",
+      "start": 2399.92,
+      "duration": 4.64
+    },
+    {
+      "text": "monero community",
+      "start": 2401.2,
+      "duration": 6.08
+    },
+    {
+      "text": "it is not it is not similar but it's a",
+      "start": 2404.56,
+      "duration": 4.48
+    },
+    {
+      "text": "networking",
+      "start": 2407.28,
+      "duration": 5.039
+    },
+    {
+      "text": "solution similar to tor and they have a",
+      "start": 2409.04,
+      "duration": 4.079
+    },
+    {
+      "text": "coin to",
+      "start": 2412.319,
+      "duration": 3.361
+    },
+    {
+      "text": "i mean a token i don't know if it is for",
+      "start": 2413.119,
+      "duration": 4.321
+    },
+    {
+      "text": "bandwidth i mean it has to be for",
+      "start": 2415.68,
+      "duration": 3.52
+    },
+    {
+      "text": "bandwidth because",
+      "start": 2417.44,
+      "duration": 3.919
+    },
+    {
+      "text": "what what else right do you know",
+      "start": 2419.2,
+      "duration": 3.28
+    },
+    {
+      "text": "something about that",
+      "start": 2421.359,
+      "duration": 4.321
+    },
+    {
+      "text": "in order to make a comparison or to",
+      "start": 2422.48,
+      "duration": 6.56
+    },
+    {
+      "text": "do you have seen to yeah i i know",
+      "start": 2425.68,
+      "duration": 6.56
+    },
+    {
+      "text": "i i spoke with the developers of loki um",
+      "start": 2429.04,
+      "duration": 5.68
+    },
+    {
+      "text": "yeah it's a it's a monero fork as i",
+      "start": 2432.24,
+      "duration": 3.599
+    },
+    {
+      "text": "recall",
+      "start": 2434.72,
+      "duration": 4.24
+    },
+    {
+      "text": "um i mean here's the thing they're",
+      "start": 2435.839,
+      "duration": 4.881
+    },
+    {
+      "text": "working on anonymity",
+      "start": 2438.96,
+      "duration": 3.44
+    },
+    {
+      "text": "and they they want to do an anonymity",
+      "start": 2440.72,
+      "duration": 3.599
+    },
+    {
+      "text": "network um",
+      "start": 2442.4,
+      "duration": 4.08
+    },
+    {
+      "text": "the fundamental thing is that we want to",
+      "start": 2444.319,
+      "duration": 3.441
+    },
+    {
+      "text": "do is",
+      "start": 2446.48,
+      "duration": 3.119
+    },
+    {
+      "text": "we want to do infrastructure we want to",
+      "start": 2447.76,
+      "duration": 5.2
+    },
+    {
+      "text": "get people access to other people",
+      "start": 2449.599,
+      "duration": 5.601
+    },
+    {
+      "text": "without having to go through networks",
+      "start": 2452.96,
+      "duration": 3.92
+    },
+    {
+      "text": "that can be turned off",
+      "start": 2455.2,
+      "duration": 4.0
+    },
+    {
+      "text": "that's that's like the key fundamental",
+      "start": 2456.88,
+      "duration": 3.68
+    },
+    {
+      "text": "aspect of packet",
+      "start": 2459.2,
+      "duration": 5.04
+    },
+    {
+      "text": "whereas um anonymity is just like",
+      "start": 2460.56,
+      "duration": 7.12
+    },
+    {
+      "text": "we can solve anonymity later once we",
+      "start": 2464.24,
+      "duration": 4.0
+    },
+    {
+      "text": "control",
+      "start": 2467.68,
+      "duration": 3.919
+    },
+    {
+      "text": "infrastructure and people that uh the uh",
+      "start": 2468.24,
+      "duration": 4.48
+    },
+    {
+      "text": "the bill gates is",
+      "start": 2471.599,
+      "duration": 2.641
+    },
+    {
+      "text": "of the world are not going to turn this",
+      "start": 2472.72,
+      "duration": 4.16
+    },
+    {
+      "text": "off on us",
+      "start": 2474.24,
+      "duration": 2.64
+    },
+    {
+      "text": "yeah it's a good answer okay thank you",
+      "start": 2478.16,
+      "duration": 5.6
+    },
+    {
+      "text": "i want to ask the same question so that",
+      "start": 2481.28,
+      "duration": 4.48
+    },
+    {
+      "text": "the main difference is between",
+      "start": 2483.76,
+      "duration": 5.04
+    },
+    {
+      "text": "cj dns and nimtek i don't know if",
+      "start": 2485.76,
+      "duration": 9.44
+    },
+    {
+      "text": "you know it but it's similar",
+      "start": 2488.8,
+      "duration": 10.0
+    },
+    {
+      "text": "is that nim mix now yeah yes",
+      "start": 2495.2,
+      "duration": 6.24
+    },
+    {
+      "text": "um i've just just vaguely heard about it",
+      "start": 2498.8,
+      "duration": 3.84
+    },
+    {
+      "text": "but i mean if",
+      "start": 2501.44,
+      "duration": 4.32
+    },
+    {
+      "text": "the point is anonymity then it's",
+      "start": 2502.64,
+      "duration": 5.199
+    },
+    {
+      "text": "it's really the same answer it's it's",
+      "start": 2505.76,
+      "duration": 3.52
+    },
+    {
+      "text": "really like",
+      "start": 2507.839,
+      "duration": 4.641
+    },
+    {
+      "text": "we are going to be light on anonymity",
+      "start": 2509.28,
+      "duration": 5.52
+    },
+    {
+      "text": "because anonymity costs you it's it's",
+      "start": 2512.48,
+      "duration": 4.0
+    },
+    {
+      "text": "effort you have to do software",
+      "start": 2514.8,
+      "duration": 3.44
+    },
+    {
+      "text": "development you have to waste resources",
+      "start": 2516.48,
+      "duration": 3.119
+    },
+    {
+      "text": "because you're doing onion routing",
+      "start": 2518.24,
+      "duration": 1.839
+    },
+    {
+      "text": "that's",
+      "start": 2519.599,
+      "duration": 3.921
+    },
+    {
+      "text": "more resources more latency that is",
+      "start": 2520.079,
+      "duration": 5.681
+    },
+    {
+      "text": "a worse quality of service for people",
+      "start": 2523.52,
+      "duration": 5.12
+    },
+    {
+      "text": "our primary objective is to find a way",
+      "start": 2525.76,
+      "duration": 5.12
+    },
+    {
+      "text": "to get people their their primary",
+      "start": 2528.64,
+      "duration": 3.679
+    },
+    {
+      "text": "internet access",
+      "start": 2530.88,
+      "duration": 4.64
+    },
+    {
+      "text": "that they don't have to that works 100",
+      "start": 2532.319,
+      "duration": 5.28
+    },
+    {
+      "text": "that they can go stream the videos they",
+      "start": 2535.52,
+      "duration": 4.4
+    },
+    {
+      "text": "want to stream whatever they want to do",
+      "start": 2537.599,
+      "duration": 5.201
+    },
+    {
+      "text": "and then we can layer the anonymity on",
+      "start": 2539.92,
+      "duration": 3.76
+    },
+    {
+      "text": "top of that",
+      "start": 2542.8,
+      "duration": 2.72
+    },
+    {
+      "text": "and that's a primary internet access",
+      "start": 2543.68,
+      "duration": 3.52
+    },
+    {
+      "text": "that's not going to get shut down",
+      "start": 2545.52,
+      "duration": 6.079
+    },
+    {
+      "text": "because it's decentralized",
+      "start": 2547.2,
+      "duration": 8.08
+    },
+    {
+      "text": "by the way we have all um a",
+      "start": 2551.599,
+      "duration": 7.281
+    },
+    {
+      "text": "meeting um specially for",
+      "start": 2555.28,
+      "duration": 6.72
+    },
+    {
+      "text": "mixnets so",
+      "start": 2558.88,
+      "duration": 5.92
+    },
+    {
+      "text": "it is already available in youtube if",
+      "start": 2562.0,
+      "duration": 3.76
+    },
+    {
+      "text": "someone wants to",
+      "start": 2564.8,
+      "duration": 4.08
+    },
+    {
+      "text": "to know more about uh",
+      "start": 2565.76,
+      "duration": 6.319
+    },
+    {
+      "text": "mixed just a question",
+      "start": 2568.88,
+      "duration": 6.56
+    },
+    {
+      "text": "imagine i want to be an internet service",
+      "start": 2572.079,
+      "duration": 4.961
+    },
+    {
+      "text": "provider right",
+      "start": 2575.44,
+      "duration": 4.56
+    },
+    {
+      "text": "how can i buy i mean because someone has",
+      "start": 2577.04,
+      "duration": 3.92
+    },
+    {
+      "text": "to provide",
+      "start": 2580.0,
+      "duration": 4.319
+    },
+    {
+      "text": "the service to me and what is the",
+      "start": 2580.96,
+      "duration": 7.68
+    },
+    {
+      "text": "legal i mean i'm sure it's different",
+      "start": 2584.319,
+      "duration": 9.121
+    },
+    {
+      "text": "from country to country but how can i",
+      "start": 2588.64,
+      "duration": 8.64
+    },
+    {
+      "text": "i buy that it is possible it is easy",
+      "start": 2593.44,
+      "duration": 6.32
+    },
+    {
+      "text": "does the telecommunication companies",
+      "start": 2597.28,
+      "duration": 3.92
+    },
+    {
+      "text": "have a problem with that",
+      "start": 2599.76,
+      "duration": 5.079
+    },
+    {
+      "text": "can you tell us a bit absolutely so",
+      "start": 2601.2,
+      "duration": 6.8
+    },
+    {
+      "text": "um when you're buying internet in a data",
+      "start": 2604.839,
+      "duration": 3.881
+    },
+    {
+      "text": "center",
+      "start": 2608.0,
+      "duration": 3.04
+    },
+    {
+      "text": "it is actually very easy to do there are",
+      "start": 2608.72,
+      "duration": 4.16
+    },
+    {
+      "text": "lots of providers there are lots of",
+      "start": 2611.04,
+      "duration": 2.799
+    },
+    {
+      "text": "companies",
+      "start": 2612.88,
+      "duration": 4.32
+    },
+    {
+      "text": "um it's very competitive and so",
+      "start": 2613.839,
+      "duration": 6.321
+    },
+    {
+      "text": "in the data centers the internet is not",
+      "start": 2617.2,
+      "duration": 5.28
+    },
+    {
+      "text": "there we don't have a problem of people",
+      "start": 2620.16,
+      "duration": 4.159
+    },
+    {
+      "text": "like potentially turning things off",
+      "start": 2622.48,
+      "duration": 4.4
+    },
+    {
+      "text": "that's not really where the problem lies",
+      "start": 2624.319,
+      "duration": 4.721
+    },
+    {
+      "text": "and it's also cheap it's competitive",
+      "start": 2626.88,
+      "duration": 4.64
+    },
+    {
+      "text": "it's cheap there's lots of options",
+      "start": 2629.04,
+      "duration": 5.279
+    },
+    {
+      "text": "the problem is between the data center",
+      "start": 2631.52,
+      "duration": 4.0
+    },
+    {
+      "text": "and your house",
+      "start": 2634.319,
+      "duration": 3.841
+    },
+    {
+      "text": "because that's where you've got one or",
+      "start": 2635.52,
+      "duration": 3.839
+    },
+    {
+      "text": "two companies",
+      "start": 2638.16,
+      "duration": 3.36
+    },
+    {
+      "text": "they have not upgraded their networks in",
+      "start": 2639.359,
+      "duration": 3.121
+    },
+    {
+      "text": "20 years",
+      "start": 2641.52,
+      "duration": 3.76
+    },
+    {
+      "text": "they are only they only move when",
+      "start": 2642.48,
+      "duration": 4.4
+    },
+    {
+      "text": "there's somebody threatening them",
+      "start": 2645.28,
+      "duration": 3.6
+    },
+    {
+      "text": "and basically the way that they move is",
+      "start": 2646.88,
+      "duration": 4.32
+    },
+    {
+      "text": "to try to crush that threat so that they",
+      "start": 2648.88,
+      "duration": 5.04
+    },
+    {
+      "text": "they don't have to move anymore you",
+      "start": 2651.2,
+      "duration": 4.72
+    },
+    {
+      "text": "remember back in the 90s we had lots of",
+      "start": 2653.92,
+      "duration": 2.72
+    },
+    {
+      "text": "dial up",
+      "start": 2655.92,
+      "duration": 3.199
+    },
+    {
+      "text": "there was a big explosion of different",
+      "start": 2656.64,
+      "duration": 3.76
+    },
+    {
+      "text": "internet service providers",
+      "start": 2659.119,
+      "duration": 3.761
+    },
+    {
+      "text": "and then all of a sudden the cable and",
+      "start": 2660.4,
+      "duration": 4.48
+    },
+    {
+      "text": "telephone companies they created dsl",
+      "start": 2662.88,
+      "duration": 4.32
+    },
+    {
+      "text": "and cable and then they they just",
+      "start": 2664.88,
+      "duration": 4.08
+    },
+    {
+      "text": "squeezed all of those little companies",
+      "start": 2667.2,
+      "duration": 2.96
+    },
+    {
+      "text": "out of existence and then",
+      "start": 2668.96,
+      "duration": 3.04
+    },
+    {
+      "text": "we've been living most of us have been",
+      "start": 2670.16,
+      "duration": 4.64
+    },
+    {
+      "text": "living with dsl and cable ever since",
+      "start": 2672.0,
+      "duration": 5.52
+    },
+    {
+      "text": "so if there's no competition in the in",
+      "start": 2674.8,
+      "duration": 3.519
+    },
+    {
+      "text": "the market",
+      "start": 2677.52,
+      "duration": 3.04
+    },
+    {
+      "text": "then these companies will do absolutely",
+      "start": 2678.319,
+      "duration": 3.601
+    },
+    {
+      "text": "nothing",
+      "start": 2680.56,
+      "duration": 4.64
+    },
+    {
+      "text": "so how would you get a",
+      "start": 2681.92,
+      "duration": 6.48
+    },
+    {
+      "text": "fast internet connection so um you can",
+      "start": 2685.2,
+      "duration": 5.2
+    },
+    {
+      "text": "you can contract if you let's say you're",
+      "start": 2688.4,
+      "duration": 3.52
+    },
+    {
+      "text": "in a you're an area where there's no",
+      "start": 2690.4,
+      "duration": 2.16
+    },
+    {
+      "text": "fiber",
+      "start": 2691.92,
+      "duration": 2.64
+    },
+    {
+      "text": "you can contract to get fiber run to",
+      "start": 2692.56,
+      "duration": 3.039
+    },
+    {
+      "text": "your house and",
+      "start": 2694.56,
+      "duration": 2.48
+    },
+    {
+      "text": "there are companies that will do this",
+      "start": 2695.599,
+      "duration": 3.201
+    },
+    {
+      "text": "for you it's very expensive",
+      "start": 2697.04,
+      "duration": 4.319
+    },
+    {
+      "text": "but if you're making gonna make money",
+      "start": 2698.8,
+      "duration": 3.519
+    },
+    {
+      "text": "off of the people",
+      "start": 2701.359,
+      "duration": 3.76
+    },
+    {
+      "text": "in your town then this is potentially",
+      "start": 2702.319,
+      "duration": 4.401
+    },
+    {
+      "text": "worthwhile for you",
+      "start": 2705.119,
+      "duration": 4.96
+    },
+    {
+      "text": "and the the way you do it you find one",
+      "start": 2706.72,
+      "duration": 4.879
+    },
+    {
+      "text": "of these companies you contract with",
+      "start": 2710.079,
+      "duration": 1.921
+    },
+    {
+      "text": "them",
+      "start": 2711.599,
+      "duration": 2.72
+    },
+    {
+      "text": "the company that owns the telephone",
+      "start": 2712.0,
+      "duration": 3.839
+    },
+    {
+      "text": "poles is usually",
+      "start": 2714.319,
+      "duration": 4.081
+    },
+    {
+      "text": "legally required to allow somebody to",
+      "start": 2715.839,
+      "duration": 3.76
+    },
+    {
+      "text": "put",
+      "start": 2718.4,
+      "duration": 3.919
+    },
+    {
+      "text": "their their cables on them as long as",
+      "start": 2719.599,
+      "duration": 3.361
+    },
+    {
+      "text": "they follow",
+      "start": 2722.319,
+      "duration": 3.28
+    },
+    {
+      "text": "certain rules that's why you have the",
+      "start": 2722.96,
+      "duration": 4.96
+    },
+    {
+      "text": "phone the cable and the uh",
+      "start": 2725.599,
+      "duration": 4.081
+    },
+    {
+      "text": "the electricity running on the same",
+      "start": 2727.92,
+      "duration": 3.6
+    },
+    {
+      "text": "telephone poles the",
+      "start": 2729.68,
+      "duration": 4.159
+    },
+    {
+      "text": "if the electric company owns the polls",
+      "start": 2731.52,
+      "duration": 3.92
+    },
+    {
+      "text": "they're required to let the phone",
+      "start": 2733.839,
+      "duration": 3.601
+    },
+    {
+      "text": "company use them if the phone company",
+      "start": 2735.44,
+      "duration": 3.6
+    },
+    {
+      "text": "owns the polls they're required to let",
+      "start": 2737.44,
+      "duration": 3.12
+    },
+    {
+      "text": "the electric company use them",
+      "start": 2739.04,
+      "duration": 4.16
+    },
+    {
+      "text": "so based on this legal requirement",
+      "start": 2740.56,
+      "duration": 3.84
+    },
+    {
+      "text": "you're able to use",
+      "start": 2743.2,
+      "duration": 3.84
+    },
+    {
+      "text": "a company that will run fiber right to",
+      "start": 2744.4,
+      "duration": 3.52
+    },
+    {
+      "text": "your house",
+      "start": 2747.04,
+      "duration": 2.64
+    },
+    {
+      "text": "you're going to pay for it but it will",
+      "start": 2747.92,
+      "duration": 3.04
+    },
+    {
+      "text": "get you internet",
+      "start": 2749.68,
+      "duration": 3.679
+    },
+    {
+      "text": "to the nearest data center and then from",
+      "start": 2750.96,
+      "duration": 4.32
+    },
+    {
+      "text": "there you're able to",
+      "start": 2753.359,
+      "duration": 4.161
+    },
+    {
+      "text": "um you're able to release those lines",
+      "start": 2755.28,
+      "duration": 3.44
+    },
+    {
+      "text": "and then you're able to get",
+      "start": 2757.52,
+      "duration": 4.24
+    },
+    {
+      "text": "a um you're able to get fast internet",
+      "start": 2758.72,
+      "duration": 4.56
+    },
+    {
+      "text": "which you can then sell to your",
+      "start": 2761.76,
+      "duration": 3.92
+    },
+    {
+      "text": "neighbors",
+      "start": 2763.28,
+      "duration": 2.4
+    },
+    {
+      "text": "excellent thank you guys someone do",
+      "start": 2767.359,
+      "duration": 4.24
+    },
+    {
+      "text": "someone has a question",
+      "start": 2770.4,
+      "duration": 5.439
+    },
+    {
+      "text": "for kayla",
+      "start": 2771.599,
+      "duration": 4.24
+    },
+    {
+      "text": "okay then what next okay",
+      "start": 2779.28,
+      "duration": 6.799
+    },
+    {
+      "text": "maybe i just i just like to repeat what",
+      "start": 2783.68,
+      "duration": 3.6
+    },
+    {
+      "text": "you",
+      "start": 2786.079,
+      "duration": 4.721
+    },
+    {
+      "text": "what maybe might take away from",
+      "start": 2787.28,
+      "duration": 6.72
+    },
+    {
+      "text": "from what the g dns is",
+      "start": 2790.8,
+      "duration": 6.0
+    },
+    {
+      "text": "is that i i imagine this is something",
+      "start": 2794.0,
+      "duration": 3.92
+    },
+    {
+      "text": "that",
+      "start": 2796.8,
+      "duration": 4.88
+    },
+    {
+      "text": "goes lower than than the",
+      "start": 2797.92,
+      "duration": 6.8
+    },
+    {
+      "text": "anonymity networks like thor and the new",
+      "start": 2801.68,
+      "duration": 3.919
+    },
+    {
+      "text": "project",
+      "start": 2804.72,
+      "duration": 5.2
+    },
+    {
+      "text": "today or i2p but it is going to a lower",
+      "start": 2805.599,
+      "duration": 6.961
+    },
+    {
+      "text": "player a little bit and it is only",
+      "start": 2809.92,
+      "duration": 4.919
+    },
+    {
+      "text": "trying to tackle",
+      "start": 2812.56,
+      "duration": 7.6
+    },
+    {
+      "text": "um would you say scienceship resistance",
+      "start": 2814.839,
+      "duration": 8.601
+    },
+    {
+      "text": "is is this what it provides and and then",
+      "start": 2820.16,
+      "duration": 5.84
+    },
+    {
+      "text": "we would have a standard resistance",
+      "start": 2823.44,
+      "duration": 3.6
+    },
+    {
+      "text": "internet",
+      "start": 2826.0,
+      "duration": 4.48
+    },
+    {
+      "text": "and on top of that it would be actually",
+      "start": 2827.04,
+      "duration": 6.799
+    },
+    {
+      "text": "well probably anonymity networks would",
+      "start": 2830.48,
+      "duration": 4.0
+    },
+    {
+      "text": "work",
+      "start": 2833.839,
+      "duration": 3.681
+    },
+    {
+      "text": "better and support that too is that the",
+      "start": 2834.48,
+      "duration": 4.16
+    },
+    {
+      "text": "first memory or",
+      "start": 2837.52,
+      "duration": 4.16
+    },
+    {
+      "text": "or am i yeah yeah yeah yeah",
+      "start": 2838.64,
+      "duration": 5.36
+    },
+    {
+      "text": "totally it's a it's about censorship",
+      "start": 2841.68,
+      "duration": 3.28
+    },
+    {
+      "text": "resistance",
+      "start": 2844.0,
+      "duration": 4.0
+    },
+    {
+      "text": "and censorship takes many forms",
+      "start": 2844.96,
+      "duration": 4.8
+    },
+    {
+      "text": "you don't think about your you're being",
+      "start": 2848.0,
+      "duration": 4.079
+    },
+    {
+      "text": "censored because they haven't upgraded",
+      "start": 2849.76,
+      "duration": 4.48
+    },
+    {
+      "text": "your the quality of your internet in 20",
+      "start": 2852.079,
+      "duration": 2.641
+    },
+    {
+      "text": "years",
+      "start": 2854.24,
+      "duration": 2.24
+    },
+    {
+      "text": "but that is actually a form of",
+      "start": 2854.72,
+      "duration": 4.16
+    },
+    {
+      "text": "censorship you don't have fast internet",
+      "start": 2856.48,
+      "duration": 4.8
+    },
+    {
+      "text": "that is a way that you are being",
+      "start": 2858.88,
+      "duration": 3.92
+    },
+    {
+      "text": "prevented from",
+      "start": 2861.28,
+      "duration": 4.24
+    },
+    {
+      "text": "communicating",
+      "start": 2862.8,
+      "duration": 2.72
+    },
+    {
+      "text": "all right oh wait so so wait",
+      "start": 2867.2,
+      "duration": 7.2
+    },
+    {
+      "text": "yes this this can be let's say",
+      "start": 2871.359,
+      "duration": 5.681
+    },
+    {
+      "text": "layer one and also layer two i mean it",
+      "start": 2874.4,
+      "duration": 3.439
+    },
+    {
+      "text": "it works",
+      "start": 2877.04,
+      "duration": 4.079
+    },
+    {
+      "text": "also it can work also as um",
+      "start": 2877.839,
+      "duration": 8.401
+    },
+    {
+      "text": "how to say um i",
+      "start": 2881.119,
+      "duration": 9.121
+    },
+    {
+      "text": "i i forget the word but basically",
+      "start": 2886.24,
+      "duration": 4.0
+    },
+    {
+      "text": "um it can work on top of the existing",
+      "start": 2890.319,
+      "duration": 5.52
+    },
+    {
+      "text": "infrastructure too",
+      "start": 2894.24,
+      "duration": 4.079
+    },
+    {
+      "text": "am i right yeah yeah yeah it works it",
+      "start": 2895.839,
+      "duration": 3.28
+    },
+    {
+      "text": "works either",
+      "start": 2898.319,
+      "duration": 3.201
+    },
+    {
+      "text": "on you can anything that could connects",
+      "start": 2899.119,
+      "duration": 4.0
+    },
+    {
+      "text": "two computers together",
+      "start": 2901.52,
+      "duration": 4.0
+    },
+    {
+      "text": "including the existing internet is",
+      "start": 2903.119,
+      "duration": 3.761
+    },
+    {
+      "text": "working for",
+      "start": 2905.52,
+      "duration": 5.12
+    },
+    {
+      "text": "transporting data for cg dns",
+      "start": 2906.88,
+      "duration": 3.76
+    },
+    {
+      "text": "excellent thank you i wanted to make one",
+      "start": 2911.599,
+      "duration": 6.801
+    },
+    {
+      "text": "final like uh um plug here",
+      "start": 2915.119,
+      "duration": 7.761
+    },
+    {
+      "text": "is that um because the packet system",
+      "start": 2918.4,
+      "duration": 7.12
+    },
+    {
+      "text": "ecosystem has this institution of the",
+      "start": 2922.88,
+      "duration": 3.84
+    },
+    {
+      "text": "network steward",
+      "start": 2925.52,
+      "duration": 4.4
+    },
+    {
+      "text": "we are always looking for uh projects",
+      "start": 2926.72,
+      "duration": 4.0
+    },
+    {
+      "text": "and people",
+      "start": 2929.92,
+      "duration": 2.8
+    },
+    {
+      "text": "who are developing technology in the",
+      "start": 2930.72,
+      "duration": 4.639
+    },
+    {
+      "text": "space who need that funding and that",
+      "start": 2932.72,
+      "duration": 5.839
+    },
+    {
+      "text": "because um the the packet",
+      "start": 2935.359,
+      "duration": 6.881
+    },
+    {
+      "text": "network steward funds whatever will help",
+      "start": 2938.559,
+      "duration": 7.28
+    },
+    {
+      "text": "benefit the objective of the project so",
+      "start": 2942.24,
+      "duration": 6.879
+    },
+    {
+      "text": "um it's something that wasabi wallet can",
+      "start": 2945.839,
+      "duration": 5.201
+    },
+    {
+      "text": "potentially participate in",
+      "start": 2949.119,
+      "duration": 4.401
+    },
+    {
+      "text": "or any of the the side projects of",
+      "start": 2951.04,
+      "duration": 3.6
+    },
+    {
+      "text": "wasabi wallet",
+      "start": 2953.52,
+      "duration": 4.64
+    },
+    {
+      "text": "can potentially participate by proposing",
+      "start": 2954.64,
+      "duration": 6.0
+    },
+    {
+      "text": "a project to the the packet network",
+      "start": 2958.16,
+      "duration": 3.28
+    },
+    {
+      "text": "steward",
+      "start": 2960.64,
+      "duration": 2.64
+    },
+    {
+      "text": "and that can be funded it'll be funded",
+      "start": 2961.44,
+      "duration": 3.52
+    },
+    {
+      "text": "in packet but you know you can liquidate",
+      "start": 2963.28,
+      "duration": 3.12
+    },
+    {
+      "text": "that to whatever you want",
+      "start": 2964.96,
+      "duration": 4.399
+    },
+    {
+      "text": "and that's a way that we're able to",
+      "start": 2966.4,
+      "duration": 3.679
+    },
+    {
+      "text": "bootstrap",
+      "start": 2969.359,
+      "duration": 3.121
+    },
+    {
+      "text": "a lot of the technology that we need for",
+      "start": 2970.079,
+      "duration": 3.601
+    },
+    {
+      "text": "this network to work",
+      "start": 2972.48,
+      "duration": 2.56
+    },
+    {
+      "text": "and that that again is one of the",
+      "start": 2973.68,
+      "duration": 3.12
+    },
+    {
+      "text": "reasons why we couldn't have just done",
+      "start": 2975.04,
+      "duration": 2.16
+    },
+    {
+      "text": "this",
+      "start": 2976.8,
+      "duration": 3.519
+    },
+    {
+      "text": "on top of bitcoin because we need that",
+      "start": 2977.2,
+      "duration": 5.6
+    },
+    {
+      "text": "aspect of the financing to build out all",
+      "start": 2980.319,
+      "duration": 3.681
+    },
+    {
+      "text": "of this infrastructure",
+      "start": 2982.8,
+      "duration": 3.759
+    },
+    {
+      "text": "that we need",
+      "start": 2984.0,
+      "duration": 2.559
+    },
+    {
+      "text": "yes sorry one more question in order to",
+      "start": 2989.92,
+      "duration": 4.48
+    },
+    {
+      "text": "have an idea of the",
+      "start": 2992.88,
+      "duration": 5.84
+    },
+    {
+      "text": "magnitude of the growing of this product",
+      "start": 2994.4,
+      "duration": 6.959
+    },
+    {
+      "text": "do you have any idea how many let's say",
+      "start": 2998.72,
+      "duration": 3.68
+    },
+    {
+      "text": "clients",
+      "start": 3001.359,
+      "duration": 4.561
+    },
+    {
+      "text": "uh are running this",
+      "start": 3002.4,
+      "duration": 6.64
+    },
+    {
+      "text": "this software oh it's uh it's a it's a",
+      "start": 3005.92,
+      "duration": 4.0
+    },
+    {
+      "text": "good question",
+      "start": 3009.04,
+      "duration": 3.36
+    },
+    {
+      "text": "i mean i can tell you a couple numbers i",
+      "start": 3009.92,
+      "duration": 4.159
+    },
+    {
+      "text": "mean there's about 200 people",
+      "start": 3012.4,
+      "duration": 5.719
+    },
+    {
+      "text": "in our um chat which is um",
+      "start": 3014.079,
+      "duration": 6.081
+    },
+    {
+      "text": "packet.pkt.chat",
+      "start": 3018.119,
+      "duration": 3.48
+    },
+    {
+      "text": "so you know you can go there and hang",
+      "start": 3020.16,
+      "duration": 3.28
+    },
+    {
+      "text": "out with cool people there's about 200",
+      "start": 3021.599,
+      "duration": 3.52
+    },
+    {
+      "text": "people in the chat there",
+      "start": 3023.44,
+      "duration": 5.36
+    },
+    {
+      "text": "um there's about 300 people on telegram",
+      "start": 3025.119,
+      "duration": 7.2
+    },
+    {
+      "text": "um i don't know exactly how many wallets",
+      "start": 3028.8,
+      "duration": 6.16
+    },
+    {
+      "text": "there are how many nodes and so on",
+      "start": 3032.319,
+      "duration": 4.8
+    },
+    {
+      "text": "um these are you know just kind of",
+      "start": 3034.96,
+      "duration": 3.879
+    },
+    {
+      "text": "nebulous numbers",
+      "start": 3037.119,
+      "duration": 6.48
+    },
+    {
+      "text": "um i that's that's basically what i know",
+      "start": 3038.839,
+      "duration": 7.161
+    },
+    {
+      "text": "and then what is that e probably a",
+      "start": 3043.599,
+      "duration": 3.281
+    },
+    {
+      "text": "project or",
+      "start": 3046.0,
+      "duration": 4.319
+    },
+    {
+      "text": "or website or community what is that",
+      "start": 3046.88,
+      "duration": 6.479
+    },
+    {
+      "text": "well uh hyperborea was a",
+      "start": 3050.319,
+      "duration": 5.201
+    },
+    {
+      "text": "i mean i i say was it's technically it",
+      "start": 3053.359,
+      "duration": 3.441
+    },
+    {
+      "text": "still exists but",
+      "start": 3055.52,
+      "duration": 4.24
+    },
+    {
+      "text": "really it was about research on the",
+      "start": 3056.8,
+      "duration": 5.039
+    },
+    {
+      "text": "cjdns project and that",
+      "start": 3059.76,
+      "duration": 4.799
+    },
+    {
+      "text": "and building the researching the the",
+      "start": 3061.839,
+      "duration": 4.401
+    },
+    {
+      "text": "technology of cjdns",
+      "start": 3064.559,
+      "duration": 5.56
+    },
+    {
+      "text": "that was going on between 2012 and",
+      "start": 3066.24,
+      "duration": 6.24
+    },
+    {
+      "text": "2014-15 or so",
+      "start": 3070.119,
+      "duration": 5.321
+    },
+    {
+      "text": "for the most part hyperborea is not",
+      "start": 3072.48,
+      "duration": 3.52
+    },
+    {
+      "text": "really",
+      "start": 3075.44,
+      "duration": 2.56
+    },
+    {
+      "text": "active anymore a lot of the people who",
+      "start": 3076.0,
+      "duration": 3.359
+    },
+    {
+      "text": "wanted to do",
+      "start": 3078.0,
+      "duration": 3.599
+    },
+    {
+      "text": "websites that were kind of in their own",
+      "start": 3079.359,
+      "duration": 3.361
+    },
+    {
+      "text": "little network",
+      "start": 3081.599,
+      "duration": 3.52
+    },
+    {
+      "text": "um have moved over to the egg drizzle",
+      "start": 3082.72,
+      "duration": 3.28
+    },
+    {
+      "text": "project",
+      "start": 3085.119,
+      "duration": 4.0
+    },
+    {
+      "text": "and so research continues with igdrissel",
+      "start": 3086.0,
+      "duration": 3.92
+    },
+    {
+      "text": "which by the way",
+      "start": 3089.119,
+      "duration": 2.801
+    },
+    {
+      "text": "are great friends of the packet project",
+      "start": 3089.92,
+      "duration": 3.12
+    },
+    {
+      "text": "um",
+      "start": 3091.92,
+      "duration": 4.32
+    },
+    {
+      "text": "but the uh yeah the hyperborea",
+      "start": 3093.04,
+      "duration": 6.64
+    },
+    {
+      "text": "as it were is not really a thing anymore",
+      "start": 3096.24,
+      "duration": 6.24
+    },
+    {
+      "text": "and we're moving cj dns from the",
+      "start": 3099.68,
+      "duration": 3.6
+    },
+    {
+      "text": "research",
+      "start": 3102.48,
+      "duration": 3.76
+    },
+    {
+      "text": "phase to the industrialization phase",
+      "start": 3103.28,
+      "duration": 3.36
+    },
+    {
+      "text": "through",
+      "start": 3106.24,
+      "duration": 3.76
+    },
+    {
+      "text": "the packet project",
+      "start": 3106.64,
+      "duration": 5.6
+    },
+    {
+      "text": "okay thank you i have one more question",
+      "start": 3110.0,
+      "duration": 3.599
+    },
+    {
+      "text": "i i",
+      "start": 3112.24,
+      "duration": 5.28
+    },
+    {
+      "text": "i always have more questions well",
+      "start": 3113.599,
+      "duration": 6.96
+    },
+    {
+      "text": "you know here sometimes giving we are",
+      "start": 3117.52,
+      "duration": 3.76
+    },
+    {
+      "text": "touches we",
+      "start": 3120.559,
+      "duration": 2.881
+    },
+    {
+      "text": "discuss what is the best programming",
+      "start": 3121.28,
+      "duration": 4.48
+    },
+    {
+      "text": "language",
+      "start": 3123.44,
+      "duration": 5.76
+    },
+    {
+      "text": "useless a useless discussion but now",
+      "start": 3125.76,
+      "duration": 6.16
+    },
+    {
+      "text": "if i understand this correctly you are",
+      "start": 3129.2,
+      "duration": 4.32
+    },
+    {
+      "text": "let's say",
+      "start": 3131.92,
+      "duration": 5.439
+    },
+    {
+      "text": "writing more new versions",
+      "start": 3133.52,
+      "duration": 7.2
+    },
+    {
+      "text": "in rust is that correct yeah",
+      "start": 3137.359,
+      "duration": 6.801
+    },
+    {
+      "text": "yeah i mean why why because i",
+      "start": 3140.72,
+      "duration": 7.32
+    },
+    {
+      "text": "previously used c and i find it just",
+      "start": 3144.16,
+      "duration": 7.12
+    },
+    {
+      "text": "unconscionable at this point to continue",
+      "start": 3148.04,
+      "duration": 3.96
+    },
+    {
+      "text": "developing",
+      "start": 3151.28,
+      "duration": 4.48
+    },
+    {
+      "text": "c or c plus plus because",
+      "start": 3152.0,
+      "duration": 6.72
+    },
+    {
+      "text": "they're they're bugs and those bugs are",
+      "start": 3155.76,
+      "duration": 4.4
+    },
+    {
+      "text": "going to harm people",
+      "start": 3158.72,
+      "duration": 4.8
+    },
+    {
+      "text": "and it's just like you you",
+      "start": 3160.16,
+      "duration": 5.52
+    },
+    {
+      "text": "you memory corruption it's never done",
+      "start": 3163.52,
+      "duration": 3.44
+    },
+    {
+      "text": "and like the person",
+      "start": 3165.68,
+      "duration": 4.159
+    },
+    {
+      "text": "the very people who say oh i'll never",
+      "start": 3166.96,
+      "duration": 4.8
+    },
+    {
+      "text": "have memory corruption bugs i'm too good",
+      "start": 3169.839,
+      "duration": 3.52
+    },
+    {
+      "text": "i'm a good programmer that's only for",
+      "start": 3171.76,
+      "duration": 2.16
+    },
+    {
+      "text": "idiots",
+      "start": 3173.359,
+      "duration": 2.24
+    },
+    {
+      "text": "those are the ones who create the real",
+      "start": 3173.92,
+      "duration": 3.6
+    },
+    {
+      "text": "problems those are the ones who",
+      "start": 3175.599,
+      "duration": 4.401
+    },
+    {
+      "text": "create problems that in the end lots of",
+      "start": 3177.52,
+      "duration": 3.839
+    },
+    {
+      "text": "people get harmed by that",
+      "start": 3180.0,
+      "duration": 4.4
+    },
+    {
+      "text": "so i mean i get it you know you've got a",
+      "start": 3181.359,
+      "duration": 4.081
+    },
+    {
+      "text": "legacy project",
+      "start": 3184.4,
+      "duration": 3.12
+    },
+    {
+      "text": "it's in cc plus plus you you just live",
+      "start": 3185.44,
+      "duration": 3.84
+    },
+    {
+      "text": "with that that's how it is you do your",
+      "start": 3187.52,
+      "duration": 2.48
+    },
+    {
+      "text": "best you",
+      "start": 3189.28,
+      "duration": 4.079
+    },
+    {
+      "text": "you use c comp you use whatever you can",
+      "start": 3190.0,
+      "duration": 5.68
+    },
+    {
+      "text": "no exact stack that that kind of stuff",
+      "start": 3193.359,
+      "duration": 3.441
+    },
+    {
+      "text": "which by the way",
+      "start": 3195.68,
+      "duration": 3.919
+    },
+    {
+      "text": "um my one patch to bitcoin was to turn",
+      "start": 3196.8,
+      "duration": 5.6
+    },
+    {
+      "text": "on no exec stack in bitcoin so that um",
+      "start": 3199.599,
+      "duration": 6.801
+    },
+    {
+      "text": "you know certain really simple 1990s era",
+      "start": 3202.4,
+      "duration": 7.52
+    },
+    {
+      "text": "stack smashing attacks wouldn't work um",
+      "start": 3206.4,
+      "duration": 6.08
+    },
+    {
+      "text": "but you know at this point we want to be",
+      "start": 3209.92,
+      "duration": 3.84
+    },
+    {
+      "text": "doing things securely",
+      "start": 3212.48,
+      "duration": 2.96
+    },
+    {
+      "text": "the way that you're gonna you gotta do",
+      "start": 3213.76,
+      "duration": 4.48
+    },
+    {
+      "text": "things we can't just keep sticking with",
+      "start": 3215.44,
+      "duration": 3.6
+    },
+    {
+      "text": "uh",
+      "start": 3218.24,
+      "duration": 4.079
+    },
+    {
+      "text": "uh 20 30 40 years old languages",
+      "start": 3219.04,
+      "duration": 6.64
+    },
+    {
+      "text": "that's my opinion anyway",
+      "start": 3222.319,
+      "duration": 3.361
+    },
+    {
+      "text": "yes we have some similar discussions i",
+      "start": 3227.2,
+      "duration": 5.76
+    },
+    {
+      "text": "remember here",
+      "start": 3230.24,
+      "duration": 5.44
+    },
+    {
+      "text": "one more question about that how do you",
+      "start": 3232.96,
+      "duration": 5.28
+    },
+    {
+      "text": "how do you see the productivity of",
+      "start": 3235.68,
+      "duration": 6.32
+    },
+    {
+      "text": "your the people programming in rust",
+      "start": 3238.24,
+      "duration": 6.72
+    },
+    {
+      "text": "in comparison with with previous",
+      "start": 3242.0,
+      "duration": 4.0
+    },
+    {
+      "text": "experience",
+      "start": 3244.96,
+      "duration": 4.159
+    },
+    {
+      "text": "programming in c or c plus plus because",
+      "start": 3246.0,
+      "duration": 6.0
+    },
+    {
+      "text": "personally i i i'm not a rush programmer",
+      "start": 3249.119,
+      "duration": 3.281
+    },
+    {
+      "text": "i",
+      "start": 3252.0,
+      "duration": 3.68
+    },
+    {
+      "text": "tried to to learn it many many years ago",
+      "start": 3252.4,
+      "duration": 4.32
+    },
+    {
+      "text": "and i was",
+      "start": 3255.68,
+      "duration": 3.919
+    },
+    {
+      "text": "fighting against the compiler everything",
+      "start": 3256.72,
+      "duration": 4.16
+    },
+    {
+      "text": "that i did was",
+      "start": 3259.599,
+      "duration": 5.041
+    },
+    {
+      "text": "wrong basically so i said okay i i will",
+      "start": 3260.88,
+      "duration": 7.04
+    },
+    {
+      "text": "try this a couple of years",
+      "start": 3264.64,
+      "duration": 7.36
+    },
+    {
+      "text": "right after okay well rust has just",
+      "start": 3267.92,
+      "duration": 7.6
+    },
+    {
+      "text": "very recently become onto my radar as",
+      "start": 3272.0,
+      "duration": 4.48
+    },
+    {
+      "text": "something that's",
+      "start": 3275.52,
+      "duration": 3.599
+    },
+    {
+      "text": "there i mean uh you know five years ago",
+      "start": 3276.48,
+      "duration": 4.24
+    },
+    {
+      "text": "it just wasn't there yet you know it was",
+      "start": 3279.119,
+      "duration": 3.121
+    },
+    {
+      "text": "still in research phase",
+      "start": 3280.72,
+      "duration": 4.96
+    },
+    {
+      "text": "so now rust in my opinion it's there",
+      "start": 3282.24,
+      "duration": 6.48
+    },
+    {
+      "text": "so you can just use it um",
+      "start": 3285.68,
+      "duration": 5.439
+    },
+    {
+      "text": "and as far as productivity yeah i mean",
+      "start": 3288.72,
+      "duration": 4.32
+    },
+    {
+      "text": "you pay a little bit of productivity in",
+      "start": 3291.119,
+      "duration": 2.72
+    },
+    {
+      "text": "terms of",
+      "start": 3293.04,
+      "duration": 2.16
+    },
+    {
+      "text": "when you're writing the code it's a",
+      "start": 3293.839,
+      "duration": 3.041
+    },
+    {
+      "text": "little bit less productive than if",
+      "start": 3295.2,
+      "duration": 2.08
+    },
+    {
+      "text": "you're",
+      "start": 3296.88,
+      "duration": 2.239
+    },
+    {
+      "text": "if you're a c plus plus person you know",
+      "start": 3297.28,
+      "duration": 3.12
+    },
+    {
+      "text": "you can just bang out the c",
+      "start": 3299.119,
+      "duration": 4.161
+    },
+    {
+      "text": "plus plus but where i get major",
+      "start": 3300.4,
+      "duration": 4.719
+    },
+    {
+      "text": "productivity improvements is when i'm",
+      "start": 3303.28,
+      "duration": 2.96
+    },
+    {
+      "text": "reviewing the code",
+      "start": 3305.119,
+      "duration": 2.801
+    },
+    {
+      "text": "because if i've got somebody who's",
+      "start": 3306.24,
+      "duration": 4.16
+    },
+    {
+      "text": "making a contribution to cjdns and",
+      "start": 3307.92,
+      "duration": 4.0
+    },
+    {
+      "text": "they're like oh yeah i've got a big huge",
+      "start": 3310.4,
+      "duration": 2.48
+    },
+    {
+      "text": "piece of code here",
+      "start": 3311.92,
+      "duration": 3.6
+    },
+    {
+      "text": "i have to read that line by line to say",
+      "start": 3312.88,
+      "duration": 3.76
+    },
+    {
+      "text": "well is that",
+      "start": 3315.52,
+      "duration": 3.039
+    },
+    {
+      "text": "is that a memory corruption issue is",
+      "start": 3316.64,
+      "duration": 3.679
+    },
+    {
+      "text": "that a memory corruption issue is that a",
+      "start": 3318.559,
+      "duration": 2.881
+    },
+    {
+      "text": "memory corruption issue",
+      "start": 3320.319,
+      "duration": 2.561
+    },
+    {
+      "text": "and i know i'm not going to be perfect",
+      "start": 3321.44,
+      "duration": 3.44
+    },
+    {
+      "text": "you know i'm going to slip by",
+      "start": 3322.88,
+      "duration": 4.959
+    },
+    {
+      "text": "i can't say honestly that nothing's",
+      "start": 3324.88,
+      "duration": 3.84
+    },
+    {
+      "text": "going to slip by",
+      "start": 3327.839,
+      "duration": 3.921
+    },
+    {
+      "text": "you know we're only human here and",
+      "start": 3328.72,
+      "duration": 5.28
+    },
+    {
+      "text": "when somebody makes a contribution in",
+      "start": 3331.76,
+      "duration": 4.48
+    },
+    {
+      "text": "rust i can just look at that i can go",
+      "start": 3334.0,
+      "duration": 3.04
+    },
+    {
+      "text": "through it much",
+      "start": 3336.24,
+      "duration": 2.48
+    },
+    {
+      "text": "more quickly you know does have any",
+      "start": 3337.04,
+      "duration": 3.84
+    },
+    {
+      "text": "unsafe i can",
+      "start": 3338.72,
+      "duration": 5.04
+    },
+    {
+      "text": "i'm just not having to be as paranoid",
+      "start": 3340.88,
+      "duration": 4.64
+    },
+    {
+      "text": "when i'm doing code review and i'm sure",
+      "start": 3343.76,
+      "duration": 3.359
+    },
+    {
+      "text": "you understand the same thing you know",
+      "start": 3345.52,
+      "duration": 4.16
+    },
+    {
+      "text": "you get if you especially if you accept",
+      "start": 3347.119,
+      "duration": 4.801
+    },
+    {
+      "text": "anonymous pull requests into the wasabi",
+      "start": 3349.68,
+      "duration": 2.8
+    },
+    {
+      "text": "wallet",
+      "start": 3351.92,
+      "duration": 1.919
+    },
+    {
+      "text": "you got to look at that code and you're",
+      "start": 3352.48,
+      "duration": 3.119
+    },
+    {
+      "text": "like well",
+      "start": 3353.839,
+      "duration": 3.601
+    },
+    {
+      "text": "is that somebody trying to do",
+      "start": 3355.599,
+      "duration": 4.081
+    },
+    {
+      "text": "underhanded crap to try to fool me you",
+      "start": 3357.44,
+      "duration": 3.52
+    },
+    {
+      "text": "know and that's just",
+      "start": 3359.68,
+      "duration": 5.2
+    },
+    {
+      "text": "like that's the worst thing ever",
+      "start": 3360.96,
+      "duration": 3.92
+    },
+    {
+      "text": "yeah yeah well we have now the the",
+      "start": 3366.0,
+      "duration": 4.16
+    },
+    {
+      "text": "problem with the",
+      "start": 3369.2,
+      "duration": 3.44
+    },
+    {
+      "text": "with memory because we're programming in",
+      "start": 3370.16,
+      "duration": 3.12
+    },
+    {
+      "text": "a managed",
+      "start": 3372.64,
+      "duration": 3.04
+    },
+    {
+      "text": "language and we have a guy that's a",
+      "start": 3373.28,
+      "duration": 4.319
+    },
+    {
+      "text": "garbage collector",
+      "start": 3375.68,
+      "duration": 5.36
+    },
+    {
+      "text": "uh what do you add but anyway reviewing",
+      "start": 3377.599,
+      "duration": 6.561
+    },
+    {
+      "text": "reviewing code carefully because we",
+      "start": 3381.04,
+      "duration": 6.4
+    },
+    {
+      "text": "are we we have i mean",
+      "start": 3384.16,
+      "duration": 7.04
+    },
+    {
+      "text": "people move a lot of money with",
+      "start": 3387.44,
+      "duration": 8.08
+    },
+    {
+      "text": "uh bitcoin wallet and",
+      "start": 3391.2,
+      "duration": 4.32
+    },
+    {
+      "text": "a mistake is could be very",
+      "start": 3395.839,
+      "duration": 5.681
+    },
+    {
+      "text": "very very expensive in terms of",
+      "start": 3399.28,
+      "duration": 4.079
+    },
+    {
+      "text": "reputation and well",
+      "start": 3401.52,
+      "duration": 4.799
+    },
+    {
+      "text": "there's a company behind so probably it",
+      "start": 3403.359,
+      "duration": 3.681
+    },
+    {
+      "text": "could",
+      "start": 3406.319,
+      "duration": 4.48
+    },
+    {
+      "text": "be more than reputation so yes reviewing",
+      "start": 3407.04,
+      "duration": 4.64
+    },
+    {
+      "text": "is",
+      "start": 3410.799,
+      "duration": 3.121
+    },
+    {
+      "text": "is a problem i cannot imagine if i have",
+      "start": 3411.68,
+      "duration": 3.679
+    },
+    {
+      "text": "to keep track of",
+      "start": 3413.92,
+      "duration": 5.919
+    },
+    {
+      "text": "a collection of pointers",
+      "start": 3415.359,
+      "duration": 4.48
+    },
+    {
+      "text": "yeah it could be really hard yeah",
+      "start": 3421.119,
+      "duration": 4.24
+    }
+  ]
+}

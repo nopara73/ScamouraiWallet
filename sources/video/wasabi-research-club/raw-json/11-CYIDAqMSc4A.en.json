@@ -1,0 +1,4266 @@
+{
+  "video_id": "CYIDAqMSc4A",
+  "title": "Wasabi Research Club #11 - Boltzmann (Bitcoin)",
+  "url": "https://www.youtube.com/watch?v=CYIDAqMSc4A",
+  "playlist_index": 11,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "[Music]",
+      "start": 0.76,
+      "duration": 3.27
+    },
+    {
+      "text": "Hey",
+      "start": 2.929,
+      "duration": 5.401
+    },
+    {
+      "text": "[Music]",
+      "start": 4.03,
+      "duration": 7.46
+    },
+    {
+      "text": "good morning good afternoon good evening",
+      "start": 8.33,
+      "duration": 5.5
+    },
+    {
+      "text": "to everyone this is another edition of",
+      "start": 11.49,
+      "duration": 4.29
+    },
+    {
+      "text": "our with sunny researcher Club today",
+      "start": 13.83,
+      "duration": 4.709
+    },
+    {
+      "text": "we're talking about Boltzmann evaluating",
+      "start": 15.78,
+      "duration": 6.18
+    },
+    {
+      "text": "privacy using entropy metrics just work",
+      "start": 18.539,
+      "duration": 7.951
+    },
+    {
+      "text": "done entirely by Laurel or Mt",
+      "start": 21.96,
+      "duration": 6.329
+    },
+    {
+      "text": "it's all available on github and of",
+      "start": 26.49,
+      "duration": 4.47
+    },
+    {
+      "text": "course we link all of the work that we",
+      "start": 28.289,
+      "duration": 5.751
+    },
+    {
+      "text": "go through on our wasabi research Club",
+      "start": 30.96,
+      "duration": 7.77
+    },
+    {
+      "text": "github which is just down below just to",
+      "start": 34.04,
+      "duration": 7.089
+    },
+    {
+      "text": "remind ourselves where we are we did a",
+      "start": 38.73,
+      "duration": 5.13
+    },
+    {
+      "text": "bunch of coin shuffle plus plus cash",
+      "start": 41.129,
+      "duration": 8.16
+    },
+    {
+      "text": "Fusion and we talked about principles",
+      "start": 43.86,
+      "duration": 8.25
+    },
+    {
+      "text": "and privacy talking about best practices",
+      "start": 49.289,
+      "duration": 4.68
+    },
+    {
+      "text": "and how we go about thinking about",
+      "start": 52.11,
+      "duration": 4.999
+    },
+    {
+      "text": "designing privacy for anonymity networks",
+      "start": 53.969,
+      "duration": 6.27
+    },
+    {
+      "text": "we talked about Koh enjoy Sudoku last",
+      "start": 57.109,
+      "duration": 5.741
+    },
+    {
+      "text": "week and this week we're doing Boltzmann",
+      "start": 60.239,
+      "duration": 4.231
+    },
+    {
+      "text": "when the end of this video hopefully",
+      "start": 62.85,
+      "duration": 4.41
+    },
+    {
+      "text": "we'll resolve what we will be reading",
+      "start": 64.47,
+      "duration": 8.79
+    },
+    {
+      "text": "next week last week we talked about the",
+      "start": 67.26,
+      "duration": 11.24
+    },
+    {
+      "text": "coin joint pseudo paper which tried to",
+      "start": 73.26,
+      "duration": 8.82
+    },
+    {
+      "text": "be anonymized flawed coin joints done by",
+      "start": 78.5,
+      "duration": 5.38
+    },
+    {
+      "text": "shared coin which was a blockchain",
+      "start": 82.08,
+      "duration": 4.25
+    },
+    {
+      "text": "info implementation which simply took",
+      "start": 83.88,
+      "duration": 5.58
+    },
+    {
+      "text": "transactions than merge them and the way",
+      "start": 86.33,
+      "duration": 6.16
+    },
+    {
+      "text": "that the D anonymization attack happened",
+      "start": 89.46,
+      "duration": 5.51
+    },
+    {
+      "text": "is that as",
+      "start": 92.49,
+      "duration": 2.48
+    },
+    {
+      "text": "one sec guys I'm just trying to know yes",
+      "start": 112.63,
+      "duration": 8.169
+    },
+    {
+      "text": "it's gone oh yes I don't know is this",
+      "start": 117.95,
+      "duration": 3.83
+    },
+    {
+      "text": "better",
+      "start": 120.799,
+      "duration": 6.66
+    },
+    {
+      "text": "yes yes excellent okay so moving right",
+      "start": 121.78,
+      "duration": 13.15
+    },
+    {
+      "text": "along so we talked about how if two",
+      "start": 127.459,
+      "duration": 10.171
+    },
+    {
+      "text": "transactions are merged together then",
+      "start": 134.93,
+      "duration": 4.529
+    },
+    {
+      "text": "there is some uncertainty about how we",
+      "start": 137.63,
+      "duration": 4.05
+    },
+    {
+      "text": "could be anonymized the merged",
+      "start": 139.459,
+      "duration": 4.89
+    },
+    {
+      "text": "transaction but if we wanted to do",
+      "start": 141.68,
+      "duration": 4.35
+    },
+    {
+      "text": "naanum eyes the more transaction so here",
+      "start": 144.349,
+      "duration": 3.061
+    },
+    {
+      "text": "on the Left we have transactions on the",
+      "start": 146.03,
+      "duration": 3.299
+    },
+    {
+      "text": "right we have the merged together as in",
+      "start": 147.41,
+      "duration": 4.439
+    },
+    {
+      "text": "one transaction what we really need to",
+      "start": 149.329,
+      "duration": 5.821
+    },
+    {
+      "text": "do is figure out how to make the inputs",
+      "start": 151.849,
+      "duration": 6.681
+    },
+    {
+      "text": "and the outputs match in sums",
+      "start": 155.15,
+      "duration": 7.47
+    },
+    {
+      "text": "just like this and we keep trying until",
+      "start": 158.53,
+      "duration": 6.549
+    },
+    {
+      "text": "we find a valid partition of a",
+      "start": 162.62,
+      "duration": 4.26
+    },
+    {
+      "text": "transaction so here we have an example",
+      "start": 165.079,
+      "duration": 4.711
+    },
+    {
+      "text": "of a partition of a transaction where we",
+      "start": 166.88,
+      "duration": 4.53
+    },
+    {
+      "text": "can break up the original transactions",
+      "start": 169.79,
+      "duration": 6.029
+    },
+    {
+      "text": "to smaller transactions this is this is",
+      "start": 171.41,
+      "duration": 7.409
+    },
+    {
+      "text": "the most important thing that we've",
+      "start": 175.819,
+      "duration": 4.681
+    },
+    {
+      "text": "talked about now I think in four",
+      "start": 178.819,
+      "duration": 4.64
+    },
+    {
+      "text": "separate times and I'm gonna simplify it",
+      "start": 180.5,
+      "duration": 6.17
+    },
+    {
+      "text": "which is that if when we talk about how",
+      "start": 183.459,
+      "duration": 7.451
+    },
+    {
+      "text": "anonymous or how private a transaction",
+      "start": 186.67,
+      "duration": 7.659
+    },
+    {
+      "text": "is we can take any particular input and",
+      "start": 190.91,
+      "duration": 5.639
+    },
+    {
+      "text": "any other input or output it doesn't",
+      "start": 194.329,
+      "duration": 3.81
+    },
+    {
+      "text": "really matter you can take you know a",
+      "start": 196.549,
+      "duration": 3.361
+    },
+    {
+      "text": "handful of inputs you can take a handful",
+      "start": 198.139,
+      "duration": 3.72
+    },
+    {
+      "text": "of outputs you can take any partition",
+      "start": 199.91,
+      "duration": 4.62
+    },
+    {
+      "text": "you want and you can ask how likely is",
+      "start": 201.859,
+      "duration": 6.201
+    },
+    {
+      "text": "it these partitions this these these",
+      "start": 204.53,
+      "duration": 7.319
+    },
+    {
+      "text": "components are related and the magic",
+      "start": 208.06,
+      "duration": 6.25
+    },
+    {
+      "text": "formula which is on the Left written",
+      "start": 211.849,
+      "duration": 4.5
+    },
+    {
+      "text": "clearly in math terms on the right in",
+      "start": 214.31,
+      "duration": 4.35
+    },
+    {
+      "text": "English terms it's simply given a",
+      "start": 216.349,
+      "duration": 4.95
+    },
+    {
+      "text": "particular combination you find all of",
+      "start": 218.66,
+      "duration": 5.699
+    },
+    {
+      "text": "the possible possible valid partitions",
+      "start": 221.299,
+      "duration": 4.861
+    },
+    {
+      "text": "that include that particular combination",
+      "start": 224.359,
+      "duration": 4.951
+    },
+    {
+      "text": "and then you divide by all possible",
+      "start": 226.16,
+      "duration": 6.23
+    },
+    {
+      "text": "valid combinations so for example",
+      "start": 229.31,
+      "duration": 4.58
+    },
+    {
+      "text": "if you are concerned about a specific",
+      "start": 232.39,
+      "duration": 4.14
+    },
+    {
+      "text": "transaction and you want to ask is input",
+      "start": 233.89,
+      "duration": 5.88
+    },
+    {
+      "text": "for an output six in to what extent are",
+      "start": 236.53,
+      "duration": 4.98
+    },
+    {
+      "text": "they related how likely is it that",
+      "start": 239.77,
+      "duration": 3.63
+    },
+    {
+      "text": "they're in the same transaction or you",
+      "start": 241.51,
+      "duration": 3.39
+    },
+    {
+      "text": "could do it you can find all the",
+      "start": 243.4,
+      "duration": 4.02
+    },
+    {
+      "text": "partitions where I four and O six are a",
+      "start": 244.9,
+      "duration": 4.11
+    },
+    {
+      "text": "part of that and that could be the",
+      "start": 247.42,
+      "duration": 3.39
+    },
+    {
+      "text": "number twelve there could be 12 those in",
+      "start": 249.01,
+      "duration": 3.62
+    },
+    {
+      "text": "total and you divide it by the total",
+      "start": 250.81,
+      "duration": 4.649
+    },
+    {
+      "text": "number of possible valid combinations of",
+      "start": 252.63,
+      "duration": 5.1
+    },
+    {
+      "text": "any kind which could be hypothetically",
+      "start": 255.459,
+      "duration": 5.041
+    },
+    {
+      "text": "267 and then you get yourself a number",
+      "start": 257.73,
+      "duration": 4.75
+    },
+    {
+      "text": "like four point four nine percent and",
+      "start": 260.5,
+      "duration": 3.419
+    },
+    {
+      "text": "you can do this for any input against",
+      "start": 262.48,
+      "duration": 3.89
+    },
+    {
+      "text": "any output or anything of that nature",
+      "start": 263.919,
+      "duration": 4.861
+    },
+    {
+      "text": "and two big things we talked about",
+      "start": 266.37,
+      "duration": 5.59
+    },
+    {
+      "text": "subset sum is the ability to do exactly",
+      "start": 268.78,
+      "duration": 5.28
+    },
+    {
+      "text": "what we just talked about finding inputs",
+      "start": 271.96,
+      "duration": 5.1
+    },
+    {
+      "text": "and outputs that match in the size and",
+      "start": 274.06,
+      "duration": 5.91
+    },
+    {
+      "text": "the bail number is the number of",
+      "start": 277.06,
+      "duration": 5.76
+    },
+    {
+      "text": "possible ways a set can be partitioned",
+      "start": 279.97,
+      "duration": 4.77
+    },
+    {
+      "text": "and we know that the bail number grows",
+      "start": 282.82,
+      "duration": 3.69
+    },
+    {
+      "text": "very quickly and the subset-sum problem",
+      "start": 284.74,
+      "duration": 4.89
+    },
+    {
+      "text": "is computationally very difficult for",
+      "start": 286.51,
+      "duration": 6.36
+    },
+    {
+      "text": "large numbers so today we're talking",
+      "start": 289.63,
+      "duration": 4.83
+    },
+    {
+      "text": "about something different which I'll",
+      "start": 292.87,
+      "duration": 5.07
+    },
+    {
+      "text": "admit is a very philosophically",
+      "start": 294.46,
+      "duration": 6.66
+    },
+    {
+      "text": "interesting topic it's a it's a very",
+      "start": 297.94,
+      "duration": 5.76
+    },
+    {
+      "text": "abstract way to think about things but",
+      "start": 301.12,
+      "duration": 6.81
+    },
+    {
+      "text": "it's the concept of entropy so a cursory",
+      "start": 303.7,
+      "duration": 6.27
+    },
+    {
+      "text": "look for the definition we get a few",
+      "start": 307.93,
+      "duration": 4.31
+    },
+    {
+      "text": "different ways that we use this word it",
+      "start": 309.97,
+      "duration": 4.53
+    },
+    {
+      "text": "will see the exact way where it should",
+      "start": 312.24,
+      "duration": 4.87
+    },
+    {
+      "text": "be in the word cook purposes of coin",
+      "start": 314.5,
+      "duration": 4.5
+    },
+    {
+      "text": "joints but a one example for example",
+      "start": 317.11,
+      "duration": 3.84
+    },
+    {
+      "text": "thermodynamics which is the likely thing",
+      "start": 319.0,
+      "duration": 4.29
+    },
+    {
+      "text": "you've heard is that the quantitative",
+      "start": 320.95,
+      "duration": 3.54
+    },
+    {
+      "text": "measure of the amount of thermal energy",
+      "start": 323.29,
+      "duration": 3.84
+    },
+    {
+      "text": "not available to do work which is kind",
+      "start": 324.49,
+      "duration": 6.87
+    },
+    {
+      "text": "of interesting kind of an abstract thing",
+      "start": 327.13,
+      "duration": 6.599
+    },
+    {
+      "text": "to say another thing you might have",
+      "start": 331.36,
+      "duration": 3.99
+    },
+    {
+      "text": "heard as well as the measure of disorder",
+      "start": 333.729,
+      "duration": 5.731
+    },
+    {
+      "text": "or randomness in a closed system another",
+      "start": 335.35,
+      "duration": 5.819
+    },
+    {
+      "text": "thing you might have heard is and this",
+      "start": 339.46,
+      "duration": 4.2
+    },
+    {
+      "text": "is actually the one that's somewhat more",
+      "start": 341.169,
+      "duration": 3.721
+    },
+    {
+      "text": "important is the measure of loss of",
+      "start": 343.66,
+      "duration": 2.73
+    },
+    {
+      "text": "information in that transmitted message",
+      "start": 344.89,
+      "duration": 3.33
+    },
+    {
+      "text": "but we're actually concerned about",
+      "start": 346.39,
+      "duration": 3.6
+    },
+    {
+      "text": "something a bit different than exactly",
+      "start": 348.22,
+      "duration": 4.61
+    },
+    {
+      "text": "that but similar enough that entropy is",
+      "start": 349.99,
+      "duration": 8.31
+    },
+    {
+      "text": "valuable so one way we look at entropy",
+      "start": 352.83,
+      "duration": 8.72
+    },
+    {
+      "text": "is we can you know",
+      "start": 358.3,
+      "duration": 5.32
+    },
+    {
+      "text": "I was thinking a lot about visualization",
+      "start": 361.55,
+      "duration": 3.81
+    },
+    {
+      "text": "of entropy there are many good ways to",
+      "start": 363.62,
+      "duration": 4.89
+    },
+    {
+      "text": "think about entropy but on the right we",
+      "start": 365.36,
+      "duration": 5.34
+    },
+    {
+      "text": "have a solid where all the atoms are",
+      "start": 368.51,
+      "duration": 3.96
+    },
+    {
+      "text": "very close together and on the Left we",
+      "start": 370.7,
+      "duration": 4.14
+    },
+    {
+      "text": "have a gas and in the middle we have a",
+      "start": 372.47,
+      "duration": 6.06
+    },
+    {
+      "text": "liquid as you see here the atoms are",
+      "start": 374.84,
+      "duration": 6.24
+    },
+    {
+      "text": "spread out and more I guess you could",
+      "start": 378.53,
+      "duration": 4.89
+    },
+    {
+      "text": "say random and so we would say that on",
+      "start": 381.08,
+      "duration": 5.67
+    },
+    {
+      "text": "the right we have low entropy and on the",
+      "start": 383.42,
+      "duration": 7.44
+    },
+    {
+      "text": "left we have high entropy but maybe a",
+      "start": 386.75,
+      "duration": 5.97
+    },
+    {
+      "text": "better way of saying this this is what",
+      "start": 390.86,
+      "duration": 4.32
+    },
+    {
+      "text": "my father told me and he said he's a",
+      "start": 392.72,
+      "duration": 5.28
+    },
+    {
+      "text": "physicist he said that it's imagine your",
+      "start": 395.18,
+      "duration": 7.62
+    },
+    {
+      "text": "own bedroom and a state of low entropy",
+      "start": 398.0,
+      "duration": 7.26
+    },
+    {
+      "text": "is one where all everything in your room",
+      "start": 402.8,
+      "duration": 4.65
+    },
+    {
+      "text": "is very neat and clean and organized all",
+      "start": 405.26,
+      "duration": 3.84
+    },
+    {
+      "text": "the shirts are together all the pants",
+      "start": 407.45,
+      "duration": 3.12
+    },
+    {
+      "text": "are together all the pillows are",
+      "start": 409.1,
+      "duration": 3.09
+    },
+    {
+      "text": "together everything is very very",
+      "start": 410.57,
+      "duration": 5.55
+    },
+    {
+      "text": "partitioned and naturally as you live in",
+      "start": 412.19,
+      "duration": 5.52
+    },
+    {
+      "text": "your room and if you don't do the work",
+      "start": 416.12,
+      "duration": 3.78
+    },
+    {
+      "text": "to to maintain this this cleanliness",
+      "start": 417.71,
+      "duration": 4.92
+    },
+    {
+      "text": "then things tend to just sort of spread",
+      "start": 419.9,
+      "duration": 4.26
+    },
+    {
+      "text": "out and go all over the place you have a",
+      "start": 422.63,
+      "duration": 3.12
+    },
+    {
+      "text": "book on your bed you have the sock in",
+      "start": 424.16,
+      "duration": 4.38
+    },
+    {
+      "text": "your your the bathroom all sorts of a",
+      "start": 425.75,
+      "duration": 4.47
+    },
+    {
+      "text": "mess and that's what we call high",
+      "start": 428.54,
+      "duration": 5.94
+    },
+    {
+      "text": "entropy and there are some some",
+      "start": 430.22,
+      "duration": 7.53
+    },
+    {
+      "text": "interesting laws these aren't exactly",
+      "start": 434.48,
+      "duration": 4.65
+    },
+    {
+      "text": "the laws of thermodynamics because they",
+      "start": 437.75,
+      "duration": 2.85
+    },
+    {
+      "text": "don't matter for our state but there are",
+      "start": 439.13,
+      "duration": 3.33
+    },
+    {
+      "text": "two things to consider the first to",
+      "start": 440.6,
+      "duration": 3.51
+    },
+    {
+      "text": "consider is this principle of",
+      "start": 442.46,
+      "duration": 4.2
+    },
+    {
+      "text": "conservation of energy which for us",
+      "start": 444.11,
+      "duration": 4.23
+    },
+    {
+      "text": "matters because we deal with with",
+      "start": 446.66,
+      "duration": 4.14
+    },
+    {
+      "text": "conservation of energy in it in Bitcoin",
+      "start": 448.34,
+      "duration": 4.08
+    },
+    {
+      "text": "namely that Bitcoin is always conserved",
+      "start": 450.8,
+      "duration": 3.81
+    },
+    {
+      "text": "in the transaction and the second is",
+      "start": 452.42,
+      "duration": 5.1
+    },
+    {
+      "text": "that the state of a closed system is",
+      "start": 454.61,
+      "duration": 6.27
+    },
+    {
+      "text": "that it tends towards a higher entropy a",
+      "start": 457.52,
+      "duration": 5.61
+    },
+    {
+      "text": "good way of imagining this is that if",
+      "start": 460.88,
+      "duration": 5.19
+    },
+    {
+      "text": "you take a bottle of cologne and you",
+      "start": 463.13,
+      "duration": 7.05
+    },
+    {
+      "text": "spray it in in a closed room as the time",
+      "start": 466.07,
+      "duration": 6.3
+    },
+    {
+      "text": "goes on the cologne is not going to",
+      "start": 470.18,
+      "duration": 4.2
+    },
+    {
+      "text": "exist in one place that the particles",
+      "start": 472.37,
+      "duration": 3.42
+    },
+    {
+      "text": "the molecules of the cologne are going",
+      "start": 474.38,
+      "duration": 3.63
+    },
+    {
+      "text": "to go throughout the entire room as",
+      "start": 475.79,
+      "duration": 5.25
+    },
+    {
+      "text": "opposed to concentrate in one area where",
+      "start": 478.01,
+      "duration": 6.93
+    },
+    {
+      "text": "they started in the bottle of cologne so",
+      "start": 481.04,
+      "duration": 5.49
+    },
+    {
+      "text": "as I said before with Bitcoin energies",
+      "start": 484.94,
+      "duration": 3.09
+    },
+    {
+      "text": "conserve the left hand and the right",
+      "start": 486.53,
+      "duration": 3.81
+    },
+    {
+      "text": "hand must always match so when we have a",
+      "start": 488.03,
+      "duration": 4.15
+    },
+    {
+      "text": "change of state in which",
+      "start": 490.34,
+      "duration": 3.579
+    },
+    {
+      "text": "transaction transactions change the",
+      "start": 492.18,
+      "duration": 3.66
+    },
+    {
+      "text": "state of Bitcoin ownership remembers to",
+      "start": 493.919,
+      "duration": 2.731
+    },
+    {
+      "text": "the other",
+      "start": 495.84,
+      "duration": 2.69
+    },
+    {
+      "text": "we know that coins are always conserved",
+      "start": 496.65,
+      "duration": 6.06
+    },
+    {
+      "text": "so that's kind of a cool remark and and",
+      "start": 498.53,
+      "duration": 6.4
+    },
+    {
+      "text": "now we're talking about something very",
+      "start": 502.71,
+      "duration": 5.78
+    },
+    {
+      "text": "different but but but very interesting",
+      "start": 504.93,
+      "duration": 6.54
+    },
+    {
+      "text": "which is Shannon entropy so Shannon",
+      "start": 508.49,
+      "duration": 4.419
+    },
+    {
+      "text": "entropy has to do with information",
+      "start": 511.47,
+      "duration": 5.309
+    },
+    {
+      "text": "theory and much less to do with physics",
+      "start": 512.909,
+      "duration": 7.68
+    },
+    {
+      "text": "and the concept of Shannon entropy and",
+      "start": 516.779,
+      "duration": 5.341
+    },
+    {
+      "text": "it shares intuition with Boltzmann is",
+      "start": 520.589,
+      "duration": 10.651
+    },
+    {
+      "text": "that is that it's thinking about how to",
+      "start": 522.12,
+      "duration": 12.24
+    },
+    {
+      "text": "explain this okay so suppose you need to",
+      "start": 531.24,
+      "duration": 4.74
+    },
+    {
+      "text": "uncover a certain English word or five",
+      "start": 534.36,
+      "duration": 3.15
+    },
+    {
+      "text": "letters you managed to obtain one letter",
+      "start": 535.98,
+      "duration": 4.5
+    },
+    {
+      "text": "for example the letter E this is useful",
+      "start": 537.51,
+      "duration": 4.71
+    },
+    {
+      "text": "information that the letter is Coenen",
+      "start": 540.48,
+      "duration": 3.66
+    },
+    {
+      "text": "English this provides little information",
+      "start": 542.22,
+      "duration": 3.78
+    },
+    {
+      "text": "if another hand a letter that you",
+      "start": 544.14,
+      "duration": 5.55
+    },
+    {
+      "text": "discovered is je the least common letter",
+      "start": 546.0,
+      "duration": 5.7
+    },
+    {
+      "text": "in English this search has been more",
+      "start": 549.69,
+      "duration": 4.74
+    },
+    {
+      "text": "narrow and obtained more information I",
+      "start": 551.7,
+      "duration": 6.68
+    },
+    {
+      "text": "think a good way I watched an excellent",
+      "start": 554.43,
+      "duration": 6.51
+    },
+    {
+      "text": "20 minute presentation specifically on",
+      "start": 558.38,
+      "duration": 3.99
+    },
+    {
+      "text": "entropy and I think a good way to",
+      "start": 560.94,
+      "duration": 5.7
+    },
+    {
+      "text": "condense it is it it it it's it's the",
+      "start": 562.37,
+      "duration": 7.96
+    },
+    {
+      "text": "number of the the number of questions",
+      "start": 566.64,
+      "duration": 7.319
+    },
+    {
+      "text": "you would have to ask binary questions",
+      "start": 570.33,
+      "duration": 6.24
+    },
+    {
+      "text": "you would have to ask to get to the",
+      "start": 573.959,
+      "duration": 4.891
+    },
+    {
+      "text": "information that eat that you want to",
+      "start": 576.57,
+      "duration": 6.81
+    },
+    {
+      "text": "know but is currently unknown so it's",
+      "start": 578.85,
+      "duration": 8.13
+    },
+    {
+      "text": "also been abstract but will only read",
+      "start": 583.38,
+      "duration": 7.23
+    },
+    {
+      "text": "that so we define the Shannon entropy of",
+      "start": 586.98,
+      "duration": 9.27
+    },
+    {
+      "text": "a a piece of information a as these sum",
+      "start": 590.61,
+      "duration": 10.29
+    },
+    {
+      "text": "of probabilities of all the different",
+      "start": 596.25,
+      "duration": 7.92
+    },
+    {
+      "text": "possible states it's lucky for us that",
+      "start": 600.9,
+      "duration": 5.7
+    },
+    {
+      "text": "in when we're talking about coin joints",
+      "start": 604.17,
+      "duration": 4.919
+    },
+    {
+      "text": "we don't value one type of coin went",
+      "start": 606.6,
+      "duration": 4.02
+    },
+    {
+      "text": "over the other we don't value one or",
+      "start": 609.089,
+      "duration": 2.881
+    },
+    {
+      "text": "addition as being more likely as another",
+      "start": 610.62,
+      "duration": 3.15
+    },
+    {
+      "text": "therefore we don't need to work with",
+      "start": 611.97,
+      "duration": 3.929
+    },
+    {
+      "text": "those probabilities but this is the",
+      "start": 613.77,
+      "duration": 6.509
+    },
+    {
+      "text": "technical definition of entropy and and",
+      "start": 615.899,
+      "duration": 7.141
+    },
+    {
+      "text": "so for the case of what Lorant brought",
+      "start": 620.279,
+      "duration": 4.341
+    },
+    {
+      "text": "up is he's",
+      "start": 623.04,
+      "duration": 8.87
+    },
+    {
+      "text": "define entropy as as that has log2 of",
+      "start": 624.62,
+      "duration": 10.16
+    },
+    {
+      "text": "the number of possible ways you can",
+      "start": 631.91,
+      "duration": 6.54
+    },
+    {
+      "text": "partition a transaction so the question",
+      "start": 634.78,
+      "duration": 6.34
+    },
+    {
+      "text": "you might ask is why is it log 2 why is",
+      "start": 638.45,
+      "duration": 4.35
+    },
+    {
+      "text": "it for example not the natural logarithm",
+      "start": 641.12,
+      "duration": 4.83
+    },
+    {
+      "text": "which is which is almost log 2 but it's",
+      "start": 642.8,
+      "duration": 6.66
+    },
+    {
+      "text": "not quite why is it not log 10 well it",
+      "start": 645.95,
+      "duration": 5.01
+    },
+    {
+      "text": "turns out it's love 2 because in",
+      "start": 649.46,
+      "duration": 3.9
+    },
+    {
+      "text": "information theory looking we're",
+      "start": 650.96,
+      "duration": 4.01
+    },
+    {
+      "text": "concerned with information being",
+      "start": 653.36,
+      "duration": 4.83
+    },
+    {
+      "text": "represented as bits so it makes sense",
+      "start": 654.97,
+      "duration": 6.28
+    },
+    {
+      "text": "that when we when we say something has a",
+      "start": 658.19,
+      "duration": 5.34
+    },
+    {
+      "text": "Shannon entropy of 2 what we're really",
+      "start": 661.25,
+      "duration": 4.14
+    },
+    {
+      "text": "saying is that if you could ask to",
+      "start": 663.53,
+      "duration": 4.08
+    },
+    {
+      "text": "binary questions and get valid answers",
+      "start": 665.39,
+      "duration": 3.96
+    },
+    {
+      "text": "you would know the original information",
+      "start": 667.61,
+      "duration": 6.18
+    },
+    {
+      "text": "so the information is distorted in such",
+      "start": 669.35,
+      "duration": 6.06
+    },
+    {
+      "text": "a way where you have to ask to binary",
+      "start": 673.79,
+      "duration": 3.99
+    },
+    {
+      "text": "questions that's what the the number the",
+      "start": 675.41,
+      "duration": 3.87
+    },
+    {
+      "text": "entropy number of 2 would be and",
+      "start": 677.78,
+      "duration": 4.44
+    },
+    {
+      "text": "likewise the number of 3 would be that",
+      "start": 679.28,
+      "duration": 4.32
+    },
+    {
+      "text": "you have to ask three sequential",
+      "start": 682.22,
+      "duration": 4.11
+    },
+    {
+      "text": "questions binary questions in a row to",
+      "start": 683.6,
+      "duration": 5.93
+    },
+    {
+      "text": "get the valid original information",
+      "start": 686.33,
+      "duration": 5.79
+    },
+    {
+      "text": "Lorant gives some examples so in this",
+      "start": 689.53,
+      "duration": 4.93
+    },
+    {
+      "text": "case you gives an example with 6 5",
+      "start": 692.12,
+      "duration": 4.35
+    },
+    {
+      "text": "inputs and one output and because there",
+      "start": 694.46,
+      "duration": 4.77
+    },
+    {
+      "text": "are no ways to consider this transaction",
+      "start": 696.47,
+      "duration": 7.4
+    },
+    {
+      "text": "apart from all of the funds moving 202",
+      "start": 699.23,
+      "duration": 4.64
+    },
+    {
+      "text": "there's only one possible case so the",
+      "start": 703.9,
+      "duration": 5.71
+    },
+    {
+      "text": "entropy is zero in other words we",
+      "start": 707.48,
+      "duration": 3.36
+    },
+    {
+      "text": "wouldn't have to ask any binary",
+      "start": 709.61,
+      "duration": 2.97
+    },
+    {
+      "text": "questions because it's already into",
+      "start": 710.84,
+      "duration": 3.9
+    },
+    {
+      "text": "turistic week so it would be easy for",
+      "start": 712.58,
+      "duration": 6.35
+    },
+    {
+      "text": "anyone to know who gave money to o2 and",
+      "start": 714.74,
+      "duration": 7.77
+    },
+    {
+      "text": "what happened here here's an example",
+      "start": 718.93,
+      "duration": 7.48
+    },
+    {
+      "text": "where it's a little bit less clear so so",
+      "start": 722.51,
+      "duration": 5.64
+    },
+    {
+      "text": "now there are two possible",
+      "start": 726.41,
+      "duration": 3.54
+    },
+    {
+      "text": "interpretations of this transactions",
+      "start": 728.15,
+      "duration": 3.15
+    },
+    {
+      "text": "what are the two possible",
+      "start": 729.95,
+      "duration": 2.97
+    },
+    {
+      "text": "interpretations well here's the first",
+      "start": 731.3,
+      "duration": 4.95
+    },
+    {
+      "text": "one maybe yellow gave money to himself",
+      "start": 732.92,
+      "duration": 7.05
+    },
+    {
+      "text": "and then green gave money to herself or",
+      "start": 736.25,
+      "duration": 6.24
+    },
+    {
+      "text": "it's one individual and they gave money",
+      "start": 739.97,
+      "duration": 5.19
+    },
+    {
+      "text": "to themselves those are the two possible",
+      "start": 742.49,
+      "duration": 6.03
+    },
+    {
+      "text": "cases and so we have an entropy value of",
+      "start": 745.16,
+      "duration": 6.12
+    },
+    {
+      "text": "1 and lastly we have the example number",
+      "start": 748.52,
+      "duration": 5.63
+    },
+    {
+      "text": "3 where we have two inputs four outputs",
+      "start": 751.28,
+      "duration": 6.57
+    },
+    {
+      "text": "here's the first case here's the second",
+      "start": 754.15,
+      "duration": 4.01
+    },
+    {
+      "text": "case",
+      "start": 757.85,
+      "duration": 2.59
+    },
+    {
+      "text": "because the values are the same it's",
+      "start": 758.16,
+      "duration": 3.78
+    },
+    {
+      "text": "like a coin joint we can see that you",
+      "start": 760.44,
+      "duration": 3.6
+    },
+    {
+      "text": "can replace those two values and then of",
+      "start": 761.94,
+      "duration": 7.29
+    },
+    {
+      "text": "course we have the obvious case where",
+      "start": 764.04,
+      "duration": 7.65
+    },
+    {
+      "text": "it's all in one individual because we",
+      "start": 769.23,
+      "duration": 3.839
+    },
+    {
+      "text": "have three cases we have an entropy of",
+      "start": 771.69,
+      "duration": 3.629
+    },
+    {
+      "text": "one point five eight five because there",
+      "start": 773.069,
+      "duration": 6.81
+    },
+    {
+      "text": "are three cases okay so we're on rent",
+      "start": 775.319,
+      "duration": 7.471
+    },
+    {
+      "text": "receipts to define a few terms which are",
+      "start": 779.879,
+      "duration": 5.791
+    },
+    {
+      "text": "interesting intrinsic entropy being the",
+      "start": 782.79,
+      "duration": 4.919
+    },
+    {
+      "text": "value computed without any additional",
+      "start": 785.67,
+      "duration": 5.13
+    },
+    {
+      "text": "information no additional relation so",
+      "start": 787.709,
+      "duration": 4.86
+    },
+    {
+      "text": "consider the transaction outside of the",
+      "start": 790.8,
+      "duration": 2.779
+    },
+    {
+      "text": "blockchain",
+      "start": 792.569,
+      "duration": 6.241
+    },
+    {
+      "text": "so this is what his his script was doing",
+      "start": 793.579,
+      "duration": 6.851
+    },
+    {
+      "text": "when he was just taking one transaction",
+      "start": 798.81,
+      "duration": 4.079
+    },
+    {
+      "text": "at a time and calculating it the actual",
+      "start": 800.43,
+      "duration": 3.87
+    },
+    {
+      "text": "entropy is the value computed",
+      "start": 802.889,
+      "duration": 3.421
+    },
+    {
+      "text": "considering additional information on",
+      "start": 804.3,
+      "duration": 5.459
+    },
+    {
+      "text": "watching so you know was there any",
+      "start": 806.31,
+      "duration": 6.779
+    },
+    {
+      "text": "address for use was did the output then",
+      "start": 809.759,
+      "duration": 5.88
+    },
+    {
+      "text": "get merged with another output that's",
+      "start": 813.089,
+      "duration": 5.19
+    },
+    {
+      "text": "revealing common ownership and then",
+      "start": 815.639,
+      "duration": 5.13
+    },
+    {
+      "text": "there's max entropy which is kind of an",
+      "start": 818.279,
+      "duration": 4.831
+    },
+    {
+      "text": "interesting one as well the value",
+      "start": 820.769,
+      "duration": 4.26
+    },
+    {
+      "text": "associated with a perfect transaction in",
+      "start": 823.11,
+      "duration": 3.57
+    },
+    {
+      "text": "coins run with equal outputs and inputs",
+      "start": 825.029,
+      "duration": 3.66
+    },
+    {
+      "text": "that are similar to the original",
+      "start": 826.68,
+      "duration": 4.62
+    },
+    {
+      "text": "transaction and he calls these this type",
+      "start": 828.689,
+      "duration": 5.281
+    },
+    {
+      "text": "of transaction tuples I believe 100%",
+      "start": 831.3,
+      "duration": 7.529
+    },
+    {
+      "text": "sure and so from there he says that",
+      "start": 833.97,
+      "duration": 6.96
+    },
+    {
+      "text": "wallet efficiency is the intrinsic",
+      "start": 838.829,
+      "duration": 4.801
+    },
+    {
+      "text": "entropy minus the max entropy expressed",
+      "start": 840.93,
+      "duration": 5.37
+    },
+    {
+      "text": "in bits and the blockchain efficiency is",
+      "start": 843.63,
+      "duration": 6.12
+    },
+    {
+      "text": "the actual entropy minus the max entropy",
+      "start": 846.3,
+      "duration": 5.31
+    },
+    {
+      "text": "and I guess the reason why he says this",
+      "start": 849.75,
+      "duration": 4.05
+    },
+    {
+      "text": "is because the wallets cannot really",
+      "start": 851.61,
+      "duration": 6.839
+    },
+    {
+      "text": "know what the actual entropy is because",
+      "start": 853.8,
+      "duration": 6.769
+    },
+    {
+      "text": "wallets are non blockchain analysis",
+      "start": 858.449,
+      "duration": 5.25
+    },
+    {
+      "text": "companies they don't have very",
+      "start": 860.569,
+      "duration": 5.591
+    },
+    {
+      "text": "sophisticated tools on hand so the wall",
+      "start": 863.699,
+      "duration": 3.901
+    },
+    {
+      "text": "efficiency is purely looking at the",
+      "start": 866.16,
+      "duration": 3.39
+    },
+    {
+      "text": "intrinsic versus the max and watching",
+      "start": 867.6,
+      "duration": 8.039
+    },
+    {
+      "text": "efficiency is actual versus Max so his",
+      "start": 869.55,
+      "duration": 9.12
+    },
+    {
+      "text": "own results in print in in doing this",
+      "start": 875.639,
+      "duration": 5.25
+    },
+    {
+      "text": "was he investigated 97 million",
+      "start": 878.67,
+      "duration": 5.789
+    },
+    {
+      "text": "transactions computed entropy for 98",
+      "start": 880.889,
+      "duration": 6.151
+    },
+    {
+      "text": "when 59% of them and was not able to",
+      "start": 884.459,
+      "duration": 5.671
+    },
+    {
+      "text": "process 1.4 1% and the reason why is",
+      "start": 887.04,
+      "duration": 3.97
+    },
+    {
+      "text": "pretty",
+      "start": 890.13,
+      "duration": 2.98
+    },
+    {
+      "text": "obvious because everything we've talked",
+      "start": 891.01,
+      "duration": 4.86
+    },
+    {
+      "text": "about in the in the past few weeks with",
+      "start": 893.11,
+      "duration": 4.56
+    },
+    {
+      "text": "the coin joints in Oakland but having to",
+      "start": 895.87,
+      "duration": 6.15
+    },
+    {
+      "text": "find all of the partitions of a of a",
+      "start": 897.67,
+      "duration": 6.45
+    },
+    {
+      "text": "coin joint it becomes a very expensive",
+      "start": 902.02,
+      "duration": 4.26
+    },
+    {
+      "text": "task when you talk about many inputs and",
+      "start": 904.12,
+      "duration": 4.56
+    },
+    {
+      "text": "many outlets so as we stop cried gopher",
+      "start": 906.28,
+      "duration": 7.59
+    },
+    {
+      "text": "for many many transactions so of the",
+      "start": 908.68,
+      "duration": 6.96
+    },
+    {
+      "text": "transactions who did process eighty five",
+      "start": 913.87,
+      "duration": 3.75
+    },
+    {
+      "text": "point four seven had a null at repeat",
+      "start": 915.64,
+      "duration": 3.45
+    },
+    {
+      "text": "which means that there was no question",
+      "start": 917.62,
+      "duration": 4.08
+    },
+    {
+      "text": "about the inputs and outputs being",
+      "start": 919.09,
+      "duration": 5.13
+    },
+    {
+      "text": "linked fourteen wanted each you had",
+      "start": 921.7,
+      "duration": 4.71
+    },
+    {
+      "text": "entropy of greater than one so they were",
+      "start": 924.22,
+      "duration": 4.65
+    },
+    {
+      "text": "ambiguous transactions and one point",
+      "start": 926.41,
+      "duration": 3.84
+    },
+    {
+      "text": "eight nine percent had an entropy of",
+      "start": 928.87,
+      "duration": 3.21
+    },
+    {
+      "text": "greater than one point five eight five",
+      "start": 930.25,
+      "duration": 5.96
+    },
+    {
+      "text": "as good or better than a corn joint so",
+      "start": 932.08,
+      "duration": 8.58
+    },
+    {
+      "text": "yeah yeah I think I think we'll probably",
+      "start": 936.21,
+      "duration": 10.57
+    },
+    {
+      "text": "leave it there for now and open up Thank",
+      "start": 940.66,
+      "duration": 8.91
+    },
+    {
+      "text": "You Aviv after your presentation I got",
+      "start": 946.78,
+      "duration": 6.12
+    },
+    {
+      "text": "more confused of least important",
+      "start": 949.57,
+      "duration": 7.98
+    },
+    {
+      "text": "questions but let's let's try to let's",
+      "start": 952.9,
+      "duration": 7.53
+    },
+    {
+      "text": "try to figure that out because I'm not",
+      "start": 957.55,
+      "duration": 5.07
+    },
+    {
+      "text": "sure we looked at the exact same source",
+      "start": 960.43,
+      "duration": 6.6
+    },
+    {
+      "text": "I was looking at the gist what did you",
+      "start": 962.62,
+      "duration": 14.42
+    },
+    {
+      "text": "look at yes yes yes all right",
+      "start": 967.03,
+      "duration": 13.68
+    },
+    {
+      "text": "so yeah I am I was mainly concerned of",
+      "start": 977.04,
+      "duration": 5.95
+    },
+    {
+      "text": "the first one the last two way I just",
+      "start": 980.71,
+      "duration": 4.23
+    },
+    {
+      "text": "just went through but I get the",
+      "start": 982.99,
+      "duration": 5.64
+    },
+    {
+      "text": "transaction the actual data is in the",
+      "start": 984.94,
+      "duration": 7.58
+    },
+    {
+      "text": "last two is innately what you cited here",
+      "start": 988.63,
+      "duration": 8.52
+    },
+    {
+      "text": "no I think I was mostly focused on the",
+      "start": 992.52,
+      "duration": 7.84
+    },
+    {
+      "text": "first one as well I mean I could be",
+      "start": 997.15,
+      "duration": 4.98
+    },
+    {
+      "text": "wrong when everything I just talked",
+      "start": 1000.36,
+      "duration": 3.84
+    },
+    {
+      "text": "about was the first one okay so the very",
+      "start": 1002.13,
+      "duration": 5.03
+    },
+    {
+      "text": "first thing about the first one is that",
+      "start": 1004.2,
+      "duration": 6.9
+    },
+    {
+      "text": "it so that the number and you know the",
+      "start": 1007.16,
+      "duration": 6.99
+    },
+    {
+      "text": "number of valid sub mappings",
+      "start": 1011.1,
+      "duration": 7.11
+    },
+    {
+      "text": "you hear in your presentation added it",
+      "start": 1014.15,
+      "duration": 9.04
+    },
+    {
+      "text": "to D added the full mopping right when",
+      "start": 1018.21,
+      "duration": 6.28
+    },
+    {
+      "text": "when it's only",
+      "start": 1023.19,
+      "duration": 4.44
+    },
+    {
+      "text": "one person transferring money to himself",
+      "start": 1024.49,
+      "duration": 8.63
+    },
+    {
+      "text": "but he actually did not add it to the",
+      "start": 1027.63,
+      "duration": 10.6
+    },
+    {
+      "text": "calculation of n is that is that what",
+      "start": 1033.12,
+      "duration": 11.13
+    },
+    {
+      "text": "you remember exactly okay one more time",
+      "start": 1038.23,
+      "duration": 13.86
+    },
+    {
+      "text": "so so the transaction itself when it's",
+      "start": 1044.25,
+      "duration": 15.49
+    },
+    {
+      "text": "just one person it is he did not add it",
+      "start": 1052.09,
+      "duration": 11.13
+    },
+    {
+      "text": "to the calculation of the end you know",
+      "start": 1059.74,
+      "duration": 7.05
+    },
+    {
+      "text": "the number of valid sub mappings oh oh",
+      "start": 1063.22,
+      "duration": 6.47
+    },
+    {
+      "text": "he absolutely did",
+      "start": 1066.79,
+      "duration": 2.9
+    },
+    {
+      "text": "okay I mean even Adam gives unaltered it",
+      "start": 1070.6,
+      "duration": 5.97
+    },
+    {
+      "text": "under the geese that that should be",
+      "start": 1074.62,
+      "duration": 3.96
+    },
+    {
+      "text": "added anyways it's a not important",
+      "start": 1076.57,
+      "duration": 5.4
+    },
+    {
+      "text": "question I think it's a it's it's better",
+      "start": 1078.58,
+      "duration": 6.51
+    },
+    {
+      "text": "to add two because that's definitely a",
+      "start": 1081.97,
+      "duration": 6.0
+    },
+    {
+      "text": "possibility anyway and another thing is",
+      "start": 1085.09,
+      "duration": 6.39
+    },
+    {
+      "text": "that I I was immediately assuming that",
+      "start": 1087.97,
+      "duration": 8.37
+    },
+    {
+      "text": "it was Shannon entropy too but then I",
+      "start": 1091.48,
+      "duration": 7.47
+    },
+    {
+      "text": "noted it under the gist under comment",
+      "start": 1096.34,
+      "duration": 5.79
+    },
+    {
+      "text": "and he did not seem to know what I was",
+      "start": 1098.95,
+      "duration": 5.1
+    },
+    {
+      "text": "talking about why am I talking about",
+      "start": 1102.13,
+      "duration": 4.5
+    },
+    {
+      "text": "Shannon and why am i calling each a non",
+      "start": 1104.05,
+      "duration": 6.93
+    },
+    {
+      "text": "entropy and I was like okay I just",
+      "start": 1106.63,
+      "duration": 6.45
+    },
+    {
+      "text": "missed remembered I I didn't know why I",
+      "start": 1110.98,
+      "duration": 4.94
+    },
+    {
+      "text": "was assuming that but now in your",
+      "start": 1113.08,
+      "duration": 6.27
+    },
+    {
+      "text": "presentation you actually went through",
+      "start": 1115.92,
+      "duration": 6.55
+    },
+    {
+      "text": "it that hey this is actually the Shannon",
+      "start": 1119.35,
+      "duration": 7.65
+    },
+    {
+      "text": "entropy do you know is this the Shannon",
+      "start": 1122.47,
+      "duration": 7.26
+    },
+    {
+      "text": "entropy or or or do you know what where",
+      "start": 1127.0,
+      "duration": 6.48
+    },
+    {
+      "text": "my confusion is coming from here yes so",
+      "start": 1129.73,
+      "duration": 5.88
+    },
+    {
+      "text": "it would not make sense for it to be any",
+      "start": 1133.48,
+      "duration": 4.29
+    },
+    {
+      "text": "other kind of entropy other than Shannon",
+      "start": 1135.61,
+      "duration": 9.39
+    },
+    {
+      "text": "entropy so the problem is that entropy",
+      "start": 1137.77,
+      "duration": 10.02
+    },
+    {
+      "text": "is used for very different things",
+      "start": 1145.0,
+      "duration": 7.86
+    },
+    {
+      "text": "in science and Shannon entropy is",
+      "start": 1147.79,
+      "duration": 6.869
+    },
+    {
+      "text": "concerned with information theory",
+      "start": 1152.86,
+      "duration": 4.11
+    },
+    {
+      "text": "and that's what we're concerned with as",
+      "start": 1154.659,
+      "duration": 5.64
+    },
+    {
+      "text": "well so you know if it was really",
+      "start": 1156.97,
+      "duration": 5.879
+    },
+    {
+      "text": "Boltzmann when we use the Boltzmann",
+      "start": 1160.299,
+      "duration": 3.81
+    },
+    {
+      "text": "constant because he didn't use",
+      "start": 1162.849,
+      "duration": 9.51
+    },
+    {
+      "text": "Boltzmann's constant okay that's that's",
+      "start": 1164.109,
+      "duration": 10.231
+    },
+    {
+      "text": "an interesting question would be nice",
+      "start": 1172.359,
+      "duration": 4.92
+    },
+    {
+      "text": "about or would be here good answer to",
+      "start": 1174.34,
+      "duration": 7.069
+    },
+    {
+      "text": "that anyway I think these are the least",
+      "start": 1177.279,
+      "duration": 7.95
+    },
+    {
+      "text": "important questions here do you guys",
+      "start": 1181.409,
+      "duration": 6.64
+    },
+    {
+      "text": "have have anything or or should I go",
+      "start": 1185.229,
+      "duration": 12.42
+    },
+    {
+      "text": "forward okay go ahead then Adam Gibson I",
+      "start": 1188.049,
+      "duration": 12.36
+    },
+    {
+      "text": "have my own opinion on on this what I'm",
+      "start": 1197.649,
+      "duration": 5.37
+    },
+    {
+      "text": "going to ask you guys but Adam gives on",
+      "start": 1200.409,
+      "duration": 8.07
+    },
+    {
+      "text": "was critiquing it that well what about",
+      "start": 1203.019,
+      "duration": 7.83
+    },
+    {
+      "text": "pay too and point transactions and what",
+      "start": 1208.479,
+      "duration": 3.981
+    },
+    {
+      "text": "about all the different kind of",
+      "start": 1210.849,
+      "duration": 4.471
+    },
+    {
+      "text": "interpretations of all the transactions",
+      "start": 1212.46,
+      "duration": 7.529
+    },
+    {
+      "text": "it does not seem to toward I mean",
+      "start": 1215.32,
+      "duration": 4.669
+    },
+    {
+      "text": "did you guys read that conversation and",
+      "start": 1220.259,
+      "duration": 9.461
+    },
+    {
+      "text": "what do you think about that so I did I",
+      "start": 1224.32,
+      "duration": 8.25
+    },
+    {
+      "text": "didn't read the conversation and I think",
+      "start": 1229.72,
+      "duration": 9.329
+    },
+    {
+      "text": "that it's it's not part of the scope of",
+      "start": 1232.57,
+      "duration": 12.15
+    },
+    {
+      "text": "what this what this paper is trying to",
+      "start": 1239.049,
+      "duration": 9.3
+    },
+    {
+      "text": "achieve so I don't think it's important",
+      "start": 1244.72,
+      "duration": 6.6
+    },
+    {
+      "text": "so for example if we knew that 1% of the",
+      "start": 1248.349,
+      "duration": 4.861
+    },
+    {
+      "text": "transactions were paid joins then we",
+      "start": 1251.32,
+      "duration": 3.659
+    },
+    {
+      "text": "would have to add that as a caveat",
+      "start": 1253.21,
+      "duration": 4.11
+    },
+    {
+      "text": "then we have this tool over here but",
+      "start": 1254.979,
+      "duration": 3.87
+    },
+    {
+      "text": "then in 1 percent of the time you have",
+      "start": 1257.32,
+      "duration": 3.51
+    },
+    {
+      "text": "to use a completely different tool to",
+      "start": 1258.849,
+      "duration": 5.04
+    },
+    {
+      "text": "understand what's going on so I don't",
+      "start": 1260.83,
+      "duration": 7.349
+    },
+    {
+      "text": "think it changes very very much anyone",
+      "start": 1263.889,
+      "duration": 5.681
+    },
+    {
+      "text": "else",
+      "start": 1268.179,
+      "duration": 7.601
+    },
+    {
+      "text": "yes I think that you need to assume",
+      "start": 1269.57,
+      "duration": 8.85
+    },
+    {
+      "text": "something when you analyze the",
+      "start": 1275.78,
+      "duration": 6.27
+    },
+    {
+      "text": "transaction otherwise there are no way",
+      "start": 1278.42,
+      "duration": 7.65
+    },
+    {
+      "text": "to to get any conclusion for example if",
+      "start": 1282.05,
+      "duration": 6.3
+    },
+    {
+      "text": "you say okay there is an aristocrat says",
+      "start": 1286.07,
+      "duration": 7.62
+    },
+    {
+      "text": "that the inputs belong to the same owner",
+      "start": 1288.35,
+      "duration": 8.4
+    },
+    {
+      "text": "the same wallet yes I could say no",
+      "start": 1293.69,
+      "duration": 6.68
+    },
+    {
+      "text": "that's not necessarily true so that",
+      "start": 1296.75,
+      "duration": 6.54
+    },
+    {
+      "text": "doesn't mean you have to discard or",
+      "start": 1300.37,
+      "duration": 5.77
+    },
+    {
+      "text": "reject the heuristic the realistically",
+      "start": 1303.29,
+      "duration": 5.67
+    },
+    {
+      "text": "system is still valid because most of",
+      "start": 1306.14,
+      "duration": 5.58
+    },
+    {
+      "text": "the times the inputs belong to the same",
+      "start": 1308.96,
+      "duration": 6.54
+    },
+    {
+      "text": "guy right even when could be the",
+      "start": 1311.72,
+      "duration": 7.59
+    },
+    {
+      "text": "opposites attract so you need to assume",
+      "start": 1315.5,
+      "duration": 5.88
+    },
+    {
+      "text": "something right",
+      "start": 1319.31,
+      "duration": 8.82
+    },
+    {
+      "text": "otherwise the transaction can have lots",
+      "start": 1321.38,
+      "duration": 9.84
+    },
+    {
+      "text": "and lots and lots of interpretation even",
+      "start": 1328.13,
+      "duration": 9.81
+    },
+    {
+      "text": "the most simple and obvious transaction",
+      "start": 1331.22,
+      "duration": 12.54
+    },
+    {
+      "text": "could have a lot of interpretations yeah",
+      "start": 1337.94,
+      "duration": 7.59
+    },
+    {
+      "text": "and that's exactly why I don't actually",
+      "start": 1343.76,
+      "duration": 5.01
+    },
+    {
+      "text": "understand how any blockchain analysis",
+      "start": 1345.53,
+      "duration": 12.93
+    },
+    {
+      "text": "is like valid considered valid I have an",
+      "start": 1348.77,
+      "duration": 12.3
+    },
+    {
+      "text": "even stronger opinion in defense of this",
+      "start": 1358.46,
+      "duration": 7.26
+    },
+    {
+      "text": "research because as far as I understand",
+      "start": 1361.07,
+      "duration": 7.56
+    },
+    {
+      "text": "it just doesn't matter because this",
+      "start": 1365.72,
+      "duration": 6.12
+    },
+    {
+      "text": "research wants to break down big",
+      "start": 1368.63,
+      "duration": 7.16
+    },
+    {
+      "text": "transactions into small individual",
+      "start": 1371.84,
+      "duration": 7.74
+    },
+    {
+      "text": "transaction parts and all the heuristics",
+      "start": 1375.79,
+      "duration": 5.11
+    },
+    {
+      "text": "all the different kind of",
+      "start": 1379.58,
+      "duration": 5.99
+    },
+    {
+      "text": "interpretations can come only after the",
+      "start": 1380.9,
+      "duration": 10.08
+    },
+    {
+      "text": "parts the specific sub mappings so you",
+      "start": 1385.57,
+      "duration": 7.93
+    },
+    {
+      "text": "can only apply them to D Sub Pop ings",
+      "start": 1390.98,
+      "duration": 7.5
+    },
+    {
+      "text": "you cannot apply any interpretation",
+      "start": 1393.5,
+      "duration": 7.74
+    },
+    {
+      "text": "cross Harry sticks even with pay to",
+      "start": 1398.48,
+      "duration": 5.22
+    },
+    {
+      "text": "endpoint ban the receiver",
+      "start": 1401.24,
+      "duration": 6.419
+    },
+    {
+      "text": "participates in the coin join itself",
+      "start": 1403.7,
+      "duration": 7.319
+    },
+    {
+      "text": "that would be that would still give a",
+      "start": 1407.659,
+      "duration": 7.171
+    },
+    {
+      "text": "valid input and outputs sub mappings",
+      "start": 1411.019,
+      "duration": 7.351
+    },
+    {
+      "text": "like a subset some right like like the",
+      "start": 1414.83,
+      "duration": 6.87
+    },
+    {
+      "text": "same sum on the input side with receiver",
+      "start": 1418.37,
+      "duration": 6.89
+    },
+    {
+      "text": "and the sender contributing to the same",
+      "start": 1421.7,
+      "duration": 6.27
+    },
+    {
+      "text": "contributing with different inputs but",
+      "start": 1425.26,
+      "duration": 5.62
+    },
+    {
+      "text": "that still gives the exact same subset",
+      "start": 1427.97,
+      "duration": 7.169
+    },
+    {
+      "text": "on the output amount so I believe Harry",
+      "start": 1430.88,
+      "duration": 7.62
+    },
+    {
+      "text": "sticks and different interpretations of",
+      "start": 1435.139,
+      "duration": 8.481
+    },
+    {
+      "text": "the transaction just not only is not",
+      "start": 1438.5,
+      "duration": 9.029
+    },
+    {
+      "text": "efficient to to be part of this research",
+      "start": 1443.62,
+      "duration": 5.559
+    },
+    {
+      "text": "but it just doesn't need to be because",
+      "start": 1447.529,
+      "duration": 5.25
+    },
+    {
+      "text": "the subsets are just independent",
+      "start": 1449.179,
+      "duration": 8.37
+    },
+    {
+      "text": "concepts from that they do you guys",
+      "start": 1452.779,
+      "duration": 11.37
+    },
+    {
+      "text": "agree or or am I miss taking here Lucas",
+      "start": 1457.549,
+      "duration": 9.181
+    },
+    {
+      "text": "set it right you just you have some",
+      "start": 1464.149,
+      "duration": 5.041
+    },
+    {
+      "text": "assumptions and this works perfectly if",
+      "start": 1466.73,
+      "duration": 5.789
+    },
+    {
+      "text": "you just assume a few things pay join is",
+      "start": 1469.19,
+      "duration": 5.94
+    },
+    {
+      "text": "outside of the scope so you just say",
+      "start": 1472.519,
+      "duration": 4.231
+    },
+    {
+      "text": "that you're concerned with only things",
+      "start": 1475.13,
+      "duration": 4.889
+    },
+    {
+      "text": "that meet those assumptions yeah but my",
+      "start": 1476.75,
+      "duration": 5.669
+    },
+    {
+      "text": "point was even if you assume pay join",
+      "start": 1480.019,
+      "duration": 7.02
+    },
+    {
+      "text": "the the subset sums the volleyed sub",
+      "start": 1482.419,
+      "duration": 8.401
+    },
+    {
+      "text": "mappings don't wouldn't change with that",
+      "start": 1487.039,
+      "duration": 5.971
+    },
+    {
+      "text": "assumption you wouldn't be able to",
+      "start": 1490.82,
+      "duration": 5.339
+    },
+    {
+      "text": "incorporate that assumption because it's",
+      "start": 1493.01,
+      "duration": 8.61
+    },
+    {
+      "text": "instead of the sender merges two queens",
+      "start": 1496.159,
+      "duration": 8.73
+    },
+    {
+      "text": "it's the sender and the receiver merges",
+      "start": 1501.62,
+      "duration": 6.0
+    },
+    {
+      "text": "together two coins in the same subset",
+      "start": 1504.889,
+      "duration": 6.961
+    },
+    {
+      "text": "sum and you know it's it these these",
+      "start": 1507.62,
+      "duration": 7.159
+    },
+    {
+      "text": "heuristics these interpretations don't",
+      "start": 1511.85,
+      "duration": 9.48
+    },
+    {
+      "text": "happen cross sub mappings so III at",
+      "start": 1514.779,
+      "duration": 8.5
+    },
+    {
+      "text": "least I cannot come up with any such",
+      "start": 1521.33,
+      "duration": 4.92
+    },
+    {
+      "text": "example where when these interpretations",
+      "start": 1523.279,
+      "duration": 6.571
+    },
+    {
+      "text": "could mess with this scheme itself",
+      "start": 1526.25,
+      "duration": 6.77
+    },
+    {
+      "text": "that's my point here",
+      "start": 1529.85,
+      "duration": 7.64
+    },
+    {
+      "text": "I think I understand what you mean yeah",
+      "start": 1533.02,
+      "duration": 5.96
+    },
+    {
+      "text": "I agree",
+      "start": 1537.49,
+      "duration": 5.61
+    },
+    {
+      "text": "could you explain it because I it it's",
+      "start": 1538.98,
+      "duration": 7.21
+    },
+    {
+      "text": "obvious that I'm not explaining it no I",
+      "start": 1543.1,
+      "duration": 5.64
+    },
+    {
+      "text": "barely understand what you mean sir I",
+      "start": 1546.19,
+      "duration": 5.97
+    },
+    {
+      "text": "don't think I can do any better job all",
+      "start": 1548.74,
+      "duration": 12.23
+    },
+    {
+      "text": "right I mean why do you mean like the",
+      "start": 1552.16,
+      "duration": 14.22
+    },
+    {
+      "text": "the amounts of outputs and I mean it's",
+      "start": 1560.97,
+      "duration": 9.63
+    },
+    {
+      "text": "some way you like clear from that with",
+      "start": 1566.38,
+      "duration": 8.85
+    },
+    {
+      "text": "such a little amount of inputs and",
+      "start": 1570.6,
+      "duration": 11.44
+    },
+    {
+      "text": "outputs that I don't know it's like yeah",
+      "start": 1575.23,
+      "duration": 9.93
+    },
+    {
+      "text": "I'm not sure I probably can't explain it",
+      "start": 1582.04,
+      "duration": 5.72
+    },
+    {
+      "text": "any better than you did",
+      "start": 1585.16,
+      "duration": 6.47
+    },
+    {
+      "text": "for example this I you and me",
+      "start": 1587.76,
+      "duration": 5.89
+    },
+    {
+      "text": "participating in a paid to end point",
+      "start": 1591.63,
+      "duration": 4.51
+    },
+    {
+      "text": "transaction I put in one Bitcoin you put",
+      "start": 1593.65,
+      "duration": 5.88
+    },
+    {
+      "text": "in to Bitcoin and three Bitcoin comes",
+      "start": 1596.14,
+      "duration": 7.56
+    },
+    {
+      "text": "out to you now if we put this pay to end",
+      "start": 1599.53,
+      "duration": 6.27
+    },
+    {
+      "text": "point transaction into a coin join in",
+      "start": 1603.7,
+      "duration": 8.34
+    },
+    {
+      "text": "itself that that does not that that",
+      "start": 1605.8,
+      "duration": 9.03
+    },
+    {
+      "text": "still of all its submarines the one",
+      "start": 1612.04,
+      "duration": 6.269
+    },
+    {
+      "text": "Bitcoin input to Bitcoin input and the",
+      "start": 1614.83,
+      "duration": 6.18
+    },
+    {
+      "text": "three Bitcoin output that's a completely",
+      "start": 1618.309,
+      "duration": 6.541
+    },
+    {
+      "text": "valid sub mappings what voids one is",
+      "start": 1621.01,
+      "duration": 7.89
+    },
+    {
+      "text": "looking for so it won't be like like I",
+      "start": 1624.85,
+      "duration": 6.209
+    },
+    {
+      "text": "put in one Bitcoin input you put into",
+      "start": 1628.9,
+      "duration": 4.89
+    },
+    {
+      "text": "Bitcoin input and somehow you only get",
+      "start": 1631.059,
+      "duration": 8.131
+    },
+    {
+      "text": "back to Bitcoin output unless I get back",
+      "start": 1633.79,
+      "duration": 9.269
+    },
+    {
+      "text": "on Bitcoin output right so the the the",
+      "start": 1639.19,
+      "duration": 7.68
+    },
+    {
+      "text": "input sums and output sums of every sub",
+      "start": 1643.059,
+      "duration": 7.141
+    },
+    {
+      "text": "mapping has to add up to the same amount",
+      "start": 1646.87,
+      "duration": 6.93
+    },
+    {
+      "text": "and and that's that's why I don't think",
+      "start": 1650.2,
+      "duration": 6.29
+    },
+    {
+      "text": "this is important",
+      "start": 1653.8,
+      "duration": 7.56
+    },
+    {
+      "text": "anyway I understand what you're saying",
+      "start": 1656.49,
+      "duration": 6.49
+    },
+    {
+      "text": "now you're saying that you could still",
+      "start": 1661.36,
+      "duration": 3.29
+    },
+    {
+      "text": "use Boltzmann to parse",
+      "start": 1662.98,
+      "duration": 4.49
+    },
+    {
+      "text": "all the page wines that are separate in",
+      "start": 1664.65,
+      "duration": 4.83
+    },
+    {
+      "text": "the coin join and you can figure that",
+      "start": 1667.47,
+      "duration": 6.06
+    },
+    {
+      "text": "out later if that's what you mean to say",
+      "start": 1669.48,
+      "duration": 11.43
+    },
+    {
+      "text": "yes like it exactly yeah I agree and now",
+      "start": 1673.53,
+      "duration": 10.5
+    },
+    {
+      "text": "I have two topics left out one is that",
+      "start": 1680.91,
+      "duration": 6.75
+    },
+    {
+      "text": "is a nice one you know let me let me",
+      "start": 1684.03,
+      "duration": 8.67
+    },
+    {
+      "text": "read but as illustrated by conjuring",
+      "start": 1687.66,
+      "duration": 7.8
+    },
+    {
+      "text": "pseudo who attack this metric face to",
+      "start": 1692.7,
+      "duration": 5.31
+    },
+    {
+      "text": "detect privacy leaks occurring at the",
+      "start": 1695.46,
+      "duration": 5.04
+    },
+    {
+      "text": "lower level of specific inputs and",
+      "start": 1698.01,
+      "duration": 5.01
+    },
+    {
+      "text": "outputs and we just talked about",
+      "start": 1700.5,
+      "duration": 7.05
+    },
+    {
+      "text": "conjoined Sudoku last time and it's it's",
+      "start": 1703.02,
+      "duration": 6.51
+    },
+    {
+      "text": "interesting that you know it's it's",
+      "start": 1707.55,
+      "duration": 5.25
+    },
+    {
+      "text": "claimed but the research was never real",
+      "start": 1709.53,
+      "duration": 8.1
+    },
+    {
+      "text": "history this is the classic example and",
+      "start": 1712.8,
+      "duration": 7.94
+    },
+    {
+      "text": "I was saying that this was actually",
+      "start": 1717.63,
+      "duration": 7.56
+    },
+    {
+      "text": "cited by so many places and never really",
+      "start": 1720.74,
+      "duration": 8.56
+    },
+    {
+      "text": "looked into it that much anyway the",
+      "start": 1725.19,
+      "duration": 7.11
+    },
+    {
+      "text": "other thing is not suck we we always",
+      "start": 1729.3,
+      "duration": 6.93
+    },
+    {
+      "text": "keep coming back to nap sock and I think",
+      "start": 1732.3,
+      "duration": 6.81
+    },
+    {
+      "text": "this might be the very best time to come",
+      "start": 1736.23,
+      "duration": 7.62
+    },
+    {
+      "text": "back to nap sock here because if you",
+      "start": 1739.11,
+      "duration": 8.45
+    },
+    {
+      "text": "look at the entropy here is the log 2n",
+      "start": 1743.85,
+      "duration": 8.4
+    },
+    {
+      "text": "that only depends on the number of valid",
+      "start": 1747.56,
+      "duration": 8.71
+    },
+    {
+      "text": "sub mappings right nothing as n is the",
+      "start": 1752.25,
+      "duration": 7.56
+    },
+    {
+      "text": "number of valid sub mappings and the",
+      "start": 1756.27,
+      "duration": 7.53
+    },
+    {
+      "text": "look to is is there so so this is what",
+      "start": 1759.81,
+      "duration": 7.68
+    },
+    {
+      "text": "only depends on but we can improve upon",
+      "start": 1763.8,
+      "duration": 6.66
+    },
+    {
+      "text": "it a lot because knapsack actually gave",
+      "start": 1767.49,
+      "duration": 9.18
+    },
+    {
+      "text": "us a mathematical model on on what s to",
+      "start": 1770.46,
+      "duration": 11.94
+    },
+    {
+      "text": "look at knapsack not all only looks at",
+      "start": 1776.67,
+      "duration": 9.54
+    },
+    {
+      "text": "the number of total valid sub mappings",
+      "start": 1782.4,
+      "duration": 8.22
+    },
+    {
+      "text": "but the input input links input output",
+      "start": 1786.21,
+      "duration": 7.85
+    },
+    {
+      "text": "links output and the output output links",
+      "start": 1790.62,
+      "duration": 7.54
+    },
+    {
+      "text": "links means like probability of links",
+      "start": 1794.06,
+      "duration": 7.6
+    },
+    {
+      "text": "and you talked about this miss Aviv and",
+      "start": 1798.16,
+      "duration": 8.43
+    },
+    {
+      "text": "and this is this is the final picture",
+      "start": 1801.66,
+      "duration": 8.79
+    },
+    {
+      "text": "here right like like you have to",
+      "start": 1806.59,
+      "duration": 8.91
+    },
+    {
+      "text": "incorporate the these links between each",
+      "start": 1810.45,
+      "duration": 7.24
+    },
+    {
+      "text": "other oh my god the baby is crying",
+      "start": 1815.5,
+      "duration": 8.34
+    },
+    {
+      "text": "because I'm talking too loud so let me",
+      "start": 1817.69,
+      "duration": 9.15
+    },
+    {
+      "text": "say it quickly so you have to",
+      "start": 1823.84,
+      "duration": 7.2
+    },
+    {
+      "text": "incorporate these links into your",
+      "start": 1826.84,
+      "duration": 6.81
+    },
+    {
+      "text": "entropy calculation and you get a much",
+      "start": 1831.04,
+      "duration": 7.59
+    },
+    {
+      "text": "more accurate anthropometric with with",
+      "start": 1833.65,
+      "duration": 7.17
+    },
+    {
+      "text": "with incorporating the knowledge in",
+      "start": 1838.63,
+      "duration": 4.32
+    },
+    {
+      "text": "knapsack that's my point",
+      "start": 1840.82,
+      "duration": 8.64
+    },
+    {
+      "text": "I have a question that I think Lucas",
+      "start": 1842.95,
+      "duration": 12.68
+    },
+    {
+      "text": "might know but I'm still confused as to",
+      "start": 1849.46,
+      "duration": 11.01
+    },
+    {
+      "text": "why using log to make things valuable",
+      "start": 1855.63,
+      "duration": 12.88
+    },
+    {
+      "text": "for us like like yeah I'm not I'm not",
+      "start": 1860.47,
+      "duration": 13.56
+    },
+    {
+      "text": "seeing the utility of this of this of",
+      "start": 1868.51,
+      "duration": 8.19
+    },
+    {
+      "text": "this approach I mean it's the same as we",
+      "start": 1874.03,
+      "duration": 5.25
+    },
+    {
+      "text": "talked about before it's exactly the",
+      "start": 1876.7,
+      "duration": 4.53
+    },
+    {
+      "text": "theory that I have in this slide right",
+      "start": 1879.28,
+      "duration": 6.6
+    },
+    {
+      "text": "here what's you know what's the big you",
+      "start": 1881.23,
+      "duration": 6.27
+    },
+    {
+      "text": "know how are we gonna make use of the",
+      "start": 1885.88,
+      "duration": 5.99
+    },
+    {
+      "text": "fact that we're applying log to to the",
+      "start": 1887.5,
+      "duration": 4.37
+    },
+    {
+      "text": "because the number of combinations that",
+      "start": 1892.38,
+      "duration": 7.9
+    },
+    {
+      "text": "you have is 2x I don't know how to say",
+      "start": 1895.84,
+      "duration": 10.38
+    },
+    {
+      "text": "this is to today and exponential you",
+      "start": 1900.28,
+      "duration": 11.85
+    },
+    {
+      "text": "know to and so if if you have the number",
+      "start": 1906.22,
+      "duration": 9.66
+    },
+    {
+      "text": "of combinations you applied a lot of the",
+      "start": 1912.13,
+      "duration": 11.66
+    },
+    {
+      "text": "love to and and then you get the",
+      "start": 1915.88,
+      "duration": 7.91
+    },
+    {
+      "text": "the this number that gives you how many",
+      "start": 1925.43,
+      "duration": 8.49
+    },
+    {
+      "text": "bits of entropy you you have in that",
+      "start": 1929.59,
+      "duration": 16.36
+    },
+    {
+      "text": "transaction are you satisfied with this",
+      "start": 1933.92,
+      "duration": 15.72
+    },
+    {
+      "text": "answer well I'm just trying to think",
+      "start": 1945.95,
+      "duration": 7.74
+    },
+    {
+      "text": "into my head how I'm gonna use log 2 in",
+      "start": 1949.64,
+      "duration": 10.95
+    },
+    {
+      "text": "terms of terms of maximum solely or",
+      "start": 1953.69,
+      "duration": 8.43
+    },
+    {
+      "text": "usually how about entropy of 3 and",
+      "start": 1960.59,
+      "duration": 3.72
+    },
+    {
+      "text": "entropy of 4 because there were nine",
+      "start": 1962.12,
+      "duration": 7.23
+    },
+    {
+      "text": "partitions in one and and well I think",
+      "start": 1964.31,
+      "duration": 6.15
+    },
+    {
+      "text": "I'm not doing the calculation but",
+      "start": 1969.35,
+      "duration": 3.18
+    },
+    {
+      "text": "anyways the point is if I have an",
+      "start": 1970.46,
+      "duration": 4.86
+    },
+    {
+      "text": "entropy of let's say two and four does",
+      "start": 1972.53,
+      "duration": 4.77
+    },
+    {
+      "text": "that mean it's twice as private is that",
+      "start": 1975.32,
+      "duration": 5.82
+    },
+    {
+      "text": "the idea here so it's I don't know why",
+      "start": 1977.3,
+      "duration": 8.73
+    },
+    {
+      "text": "lock to but I I have a good feeling",
+      "start": 1981.14,
+      "duration": 8.19
+    },
+    {
+      "text": "about the logarithm part of the log for",
+      "start": 1986.03,
+      "duration": 6.6
+    },
+    {
+      "text": "sure because if you think about it that",
+      "start": 1989.33,
+      "duration": 6.6
+    },
+    {
+      "text": "you have five inputs and five outputs",
+      "start": 1992.63,
+      "duration": 5.85
+    },
+    {
+      "text": "and let's say you get ten combinations",
+      "start": 1995.93,
+      "duration": 7.65
+    },
+    {
+      "text": "and if you have 10 inputs antenna",
+      "start": 1998.48,
+      "duration": 9.0
+    },
+    {
+      "text": "outputs then you you don't get 20",
+      "start": 2003.58,
+      "duration": 6.35
+    },
+    {
+      "text": "combinations but you get something like",
+      "start": 2007.48,
+      "duration": 6.75
+    },
+    {
+      "text": "100 or something like exponential number",
+      "start": 2009.93,
+      "duration": 8.65
+    },
+    {
+      "text": "of combinations and but ultimately the",
+      "start": 2014.23,
+      "duration": 7.32
+    },
+    {
+      "text": "links between the inputs and outputs and",
+      "start": 2018.58,
+      "duration": 7.59
+    },
+    {
+      "text": "input input output outputs are are not",
+      "start": 2021.55,
+      "duration": 8.76
+    },
+    {
+      "text": "that so so there is only 10 inputs and",
+      "start": 2026.17,
+      "duration": 9.26
+    },
+    {
+      "text": "10 outputs so that there cannot be so",
+      "start": 2030.31,
+      "duration": 8.12
+    },
+    {
+      "text": "the number of combinations may be",
+      "start": 2035.43,
+      "duration": 6.04
+    },
+    {
+      "text": "exponential but you don't gain that much",
+      "start": 2038.43,
+      "duration": 6.01
+    },
+    {
+      "text": "more privacy just because the number of",
+      "start": 2041.47,
+      "duration": 6.0
+    },
+    {
+      "text": "combinations exponential so let's throw",
+      "start": 2044.44,
+      "duration": 5.79
+    },
+    {
+      "text": "a logarithm at it and actually that's",
+      "start": 2047.47,
+      "duration": 5.49
+    },
+    {
+      "text": "what I thought how how the Shannon",
+      "start": 2050.23,
+      "duration": 6.0
+    },
+    {
+      "text": "entropy came to light to that you know",
+      "start": 2052.96,
+      "duration": 5.07
+    },
+    {
+      "text": "it just just Oh",
+      "start": 2056.23,
+      "duration": 3.15
+    },
+    {
+      "text": "let's throw a lot",
+      "start": 2058.03,
+      "duration": 4.65
+    },
+    {
+      "text": "because it seems right III thought it",
+      "start": 2059.38,
+      "duration": 6.15
+    },
+    {
+      "text": "was an intuitive thing but now I I don't",
+      "start": 2062.68,
+      "duration": 5.97
+    },
+    {
+      "text": "know but anyway the logarithm is very",
+      "start": 2065.53,
+      "duration": 5.73
+    },
+    {
+      "text": "intuitive here because he with this you",
+      "start": 2068.65,
+      "duration": 6.51
+    },
+    {
+      "text": "can compare two transactions more",
+      "start": 2071.26,
+      "duration": 6.66
+    },
+    {
+      "text": "accurately of course it's just an",
+      "start": 2075.16,
+      "duration": 5.07
+    },
+    {
+      "text": "estimation but but more accurately does",
+      "start": 2077.92,
+      "duration": 4.67
+    },
+    {
+      "text": "that make sense",
+      "start": 2080.23,
+      "duration": 2.36
+    },
+    {
+      "text": "not exactly I mean you know you could",
+      "start": 2086.79,
+      "duration": 10.0
+    },
+    {
+      "text": "also divide by 10 right I understand",
+      "start": 2092.26,
+      "duration": 6.09
+    },
+    {
+      "text": "that you're saying that the number of",
+      "start": 2096.79,
+      "duration": 5.34
+    },
+    {
+      "text": "partitions grows exponentially but you",
+      "start": 2098.35,
+      "duration": 5.82
+    },
+    {
+      "text": "have to convince me why the privacy",
+      "start": 2102.13,
+      "duration": 6.27
+    },
+    {
+      "text": "doesn't grow exponentially what you're",
+      "start": 2104.17,
+      "duration": 5.52
+    },
+    {
+      "text": "seeing right now is the privacy is",
+      "start": 2108.4,
+      "duration": 4.56
+    },
+    {
+      "text": "growing linearly as your your subsets",
+      "start": 2109.69,
+      "duration": 7.05
+    },
+    {
+      "text": "are growing exponentially yes",
+      "start": 2112.96,
+      "duration": 6.27
+    },
+    {
+      "text": "not exactly linearly but more like",
+      "start": 2116.74,
+      "duration": 4.47
+    },
+    {
+      "text": "linearly yes because the number of",
+      "start": 2119.23,
+      "duration": 3.86
+    },
+    {
+      "text": "participants aren't growing",
+      "start": 2121.21,
+      "duration": 5.76
+    },
+    {
+      "text": "exponentially so it's it's not fair to",
+      "start": 2123.09,
+      "duration": 6.94
+    },
+    {
+      "text": "say that that well it had ten",
+      "start": 2126.97,
+      "duration": 5.84
+    },
+    {
+      "text": "participants in this transaction and and",
+      "start": 2130.03,
+      "duration": 6.57
+    },
+    {
+      "text": "so your anonymity growth exponentially",
+      "start": 2132.81,
+      "duration": 8.74
+    },
+    {
+      "text": "right but the efforts that you need two",
+      "start": 2136.6,
+      "duration": 6.0
+    },
+    {
+      "text": "or ten you miles",
+      "start": 2141.55,
+      "duration": 5.88
+    },
+    {
+      "text": "they grow exponentially I mean Mountain",
+      "start": 2142.6,
+      "duration": 6.96
+    },
+    {
+      "text": "View power you need to spend to",
+      "start": 2147.43,
+      "duration": 6.33
+    },
+    {
+      "text": "randomize so if we look at this so maybe",
+      "start": 2149.56,
+      "duration": 12.39
+    },
+    {
+      "text": "cross a financial aid room yeah that I",
+      "start": 2153.76,
+      "duration": 11.1
+    },
+    {
+      "text": "would say that's another question here",
+      "start": 2161.95,
+      "duration": 6.78
+    },
+    {
+      "text": "because here the assumption is that it",
+      "start": 2164.86,
+      "duration": 6.33
+    },
+    {
+      "text": "can be the anonymous no matter what is",
+      "start": 2168.73,
+      "duration": 3.27
+    },
+    {
+      "text": "the number",
+      "start": 2171.19,
+      "duration": 3.72
+    },
+    {
+      "text": "it can be the anonymized that's why",
+      "start": 2172.0,
+      "duration": 7.22
+    },
+    {
+      "text": "Botsman cannot be computed to to larger",
+      "start": 2174.91,
+      "duration": 8.85
+    },
+    {
+      "text": "coin joints so so so we are operating",
+      "start": 2179.22,
+      "duration": 6.01
+    },
+    {
+      "text": "under the working assumption that",
+      "start": 2183.76,
+      "duration": 3.84
+    },
+    {
+      "text": "everything can be the anonymized in no",
+      "start": 2185.23,
+      "duration": 4.92
+    },
+    {
+      "text": "time and there is no computation or",
+      "start": 2187.6,
+      "duration": 3.179
+    },
+    {
+      "text": "complex",
+      "start": 2190.15,
+      "duration": 3.589
+    },
+    {
+      "text": "team worked here",
+      "start": 2190.779,
+      "duration": 2.96
+    },
+    {
+      "text": "I would love to explain more this to you",
+      "start": 2204.78,
+      "duration": 6.78
+    },
+    {
+      "text": "guys but the baby's crying and it's",
+      "start": 2209.01,
+      "duration": 10.44
+    },
+    {
+      "text": "because I'm too loud sorry okay so why",
+      "start": 2211.56,
+      "duration": 10.11
+    },
+    {
+      "text": "don't we get more questions anyone else",
+      "start": 2219.45,
+      "duration": 8.73
+    },
+    {
+      "text": "have a question they want to ask can you",
+      "start": 2221.67,
+      "duration": 9.96
+    },
+    {
+      "text": "change the slides I don't know which one",
+      "start": 2228.18,
+      "duration": 10.64
+    },
+    {
+      "text": "was it I had a question about it a",
+      "start": 2231.63,
+      "duration": 18.69
+    },
+    {
+      "text": "little bit more today yeah this one can",
+      "start": 2238.82,
+      "duration": 13.0
+    },
+    {
+      "text": "you explain a little bit more about",
+      "start": 2250.32,
+      "duration": 7.47
+    },
+    {
+      "text": "these results yeah sure so Lauren took",
+      "start": 2251.82,
+      "duration": 8.64
+    },
+    {
+      "text": "roughly a hundred million transactions",
+      "start": 2257.79,
+      "duration": 9.42
+    },
+    {
+      "text": "and tried to use try to use try to break",
+      "start": 2260.46,
+      "duration": 10.2
+    },
+    {
+      "text": "them down subset-sum do they figure out",
+      "start": 2267.21,
+      "duration": 5.94
+    },
+    {
+      "text": "all the partitions and then compute the",
+      "start": 2270.66,
+      "duration": 5.13
+    },
+    {
+      "text": "entropy right so find in for every",
+      "start": 2273.15,
+      "duration": 5.58
+    },
+    {
+      "text": "transaction and of course most of the",
+      "start": 2275.79,
+      "duration": 6.57
+    },
+    {
+      "text": "transactions it's easy to do this so",
+      "start": 2278.73,
+      "duration": 6.06
+    },
+    {
+      "text": "that was the case from 98.5 9% of",
+      "start": 2282.36,
+      "duration": 4.05
+    },
+    {
+      "text": "transactions and some transactions it",
+      "start": 2284.79,
+      "duration": 4.68
+    },
+    {
+      "text": "was it was too time-consuming and so of",
+      "start": 2286.41,
+      "duration": 8.46
+    },
+    {
+      "text": "the ones that were computed a majority",
+      "start": 2289.47,
+      "duration": 8.94
+    },
+    {
+      "text": "had no entropy which means there was no",
+      "start": 2294.87,
+      "duration": 6.09
+    },
+    {
+      "text": "other subset apart from just the",
+      "start": 2298.41,
+      "duration": 7.53
+    },
+    {
+      "text": "transaction itself 14.5 2% so it is very",
+      "start": 2300.96,
+      "duration": 7.13
+    },
+    {
+      "text": "specific thing you wanted to ask about",
+      "start": 2305.94,
+      "duration": 6.27
+    },
+    {
+      "text": "know exactly the what is these the the",
+      "start": 2308.09,
+      "duration": 4.99
+    },
+    {
+      "text": "last two things",
+      "start": 2312.21,
+      "duration": 6.03
+    },
+    {
+      "text": "exactly so 14.5 2% had an entropy of",
+      "start": 2313.08,
+      "duration": 7.86
+    },
+    {
+      "text": "equal to or greater than one so that",
+      "start": 2318.24,
+      "duration": 5.87
+    },
+    {
+      "text": "means that the transaction had two",
+      "start": 2320.94,
+      "duration": 10.74
+    },
+    {
+      "text": "possible interpretations because log 2",
+      "start": 2324.11,
+      "duration": 11.51
+    },
+    {
+      "text": "of 2 is 1 right and then 1.8 9%",
+      "start": 2331.68,
+      "duration": 6.79
+    },
+    {
+      "text": "had an entropy of greater than 1.5 A's",
+      "start": 2335.62,
+      "duration": 5.28
+    },
+    {
+      "text": "so at least three interpretations or",
+      "start": 2338.47,
+      "duration": 7.38
+    },
+    {
+      "text": "more okay yeah I got it now thanks",
+      "start": 2340.9,
+      "duration": 7.62
+    },
+    {
+      "text": "Monica so we would say that eighty five",
+      "start": 2345.85,
+      "duration": 5.4
+    },
+    {
+      "text": "point forty seven percent times ninety",
+      "start": 2348.52,
+      "duration": 5.01
+    },
+    {
+      "text": "eight point fifty nine percent is the",
+      "start": 2351.25,
+      "duration": 3.96
+    },
+    {
+      "text": "total number of transaction which is a",
+      "start": 2353.53,
+      "duration": 3.24
+    },
+    {
+      "text": "very large number it's likely about",
+      "start": 2355.21,
+      "duration": 4.47
+    },
+    {
+      "text": "eighty percent of transactions that were",
+      "start": 2356.77,
+      "duration": 5.61
+    },
+    {
+      "text": "that were in the pool had zero",
+      "start": 2359.68,
+      "duration": 14.97
+    },
+    {
+      "text": "protection completely deterministic okay",
+      "start": 2362.38,
+      "duration": 17.36
+    },
+    {
+      "text": "thanks yeah that explained by questions",
+      "start": 2374.65,
+      "duration": 5.09
+    },
+    {
+      "text": "so you know what I was thinking about",
+      "start": 2381.42,
+      "duration": 5.29
+    },
+    {
+      "text": "like the whole meaning of this entropy",
+      "start": 2384.01,
+      "duration": 5.43
+    },
+    {
+      "text": "thing I guess I kind of get it if you",
+      "start": 2386.71,
+      "duration": 6.18
+    },
+    {
+      "text": "have a value of your entropy of one that",
+      "start": 2389.44,
+      "duration": 5.37
+    },
+    {
+      "text": "means that you have to ask one binary",
+      "start": 2392.89,
+      "duration": 6.12
+    },
+    {
+      "text": "question in terms of figuring out the",
+      "start": 2394.81,
+      "duration": 5.28
+    },
+    {
+      "text": "correct mapping and if you have an",
+      "start": 2399.01,
+      "duration": 2.58
+    },
+    {
+      "text": "entropy value of two it means you have",
+      "start": 2400.09,
+      "duration": 7.17
+    },
+    {
+      "text": "to ask to binary questions and so forth",
+      "start": 2401.59,
+      "duration": 6.9
+    },
+    {
+      "text": "if you have three then you have to ask",
+      "start": 2407.26,
+      "duration": 5.25
+    },
+    {
+      "text": "three minor questions and I guess this",
+      "start": 2408.49,
+      "duration": 7.02
+    },
+    {
+      "text": "this does make sense with transactions",
+      "start": 2412.51,
+      "duration": 6.56
+    },
+    {
+      "text": "that really do involve only one person",
+      "start": 2415.51,
+      "duration": 8.01
+    },
+    {
+      "text": "or or two people but I'm not sure how I",
+      "start": 2419.07,
+      "duration": 9.79
+    },
+    {
+      "text": "would apply at scale so so for example I",
+      "start": 2423.52,
+      "duration": 8.34
+    },
+    {
+      "text": "don't see the benefit of applying it to",
+      "start": 2428.86,
+      "duration": 6.54
+    },
+    {
+      "text": "a wasabi coin join I'm not sure I mean I",
+      "start": 2431.86,
+      "duration": 5.22
+    },
+    {
+      "text": "say see the benefit I think the",
+      "start": 2435.4,
+      "duration": 4.1
+    },
+    {
+      "text": "anonymity said is a much clearer",
+      "start": 2437.08,
+      "duration": 10.47
+    },
+    {
+      "text": "heuristic it's Laura seventy-three yes",
+      "start": 2439.5,
+      "duration": 13.96
+    },
+    {
+      "text": "summer a t-shirt okay",
+      "start": 2447.55,
+      "duration": 9.42
+    },
+    {
+      "text": "a sense to apply to the possibly",
+      "start": 2453.46,
+      "duration": 8.58
+    },
+    {
+      "text": "transactions but you can't because it's",
+      "start": 2456.97,
+      "duration": 9.09
+    },
+    {
+      "text": "computationally infeasible but it would",
+      "start": 2462.04,
+      "duration": 7.86
+    },
+    {
+      "text": "be really interesting to see what are",
+      "start": 2466.06,
+      "duration": 8.97
+    },
+    {
+      "text": "the results there okay yeah I agree",
+      "start": 2469.9,
+      "duration": 13.16
+    },
+    {
+      "text": "yes yeah wait I am happy and the entropy",
+      "start": 2475.03,
+      "duration": 13.38
+    },
+    {
+      "text": "yes there is this entropy of the",
+      "start": 2483.06,
+      "duration": 7.75
+    },
+    {
+      "text": "transaction right and there and then",
+      "start": 2488.41,
+      "duration": 8.16
+    },
+    {
+      "text": "there is this level of Nikki ability",
+      "start": 2490.81,
+      "duration": 11.789
+    },
+    {
+      "text": "let's say that you show us that is is",
+      "start": 2496.57,
+      "duration": 10.92
+    },
+    {
+      "text": "interesting too but also in the second",
+      "start": 2502.599,
+      "duration": 9.651
+    },
+    {
+      "text": "part of this gist collection the visa",
+      "start": 2507.49,
+      "duration": 9.359
+    },
+    {
+      "text": "matrix of I don't remember the name but",
+      "start": 2512.25,
+      "duration": 12.24
+    },
+    {
+      "text": "it's a matrix of let me when we find it",
+      "start": 2516.849,
+      "duration": 12.75
+    },
+    {
+      "text": "and a link probability matrix of a",
+      "start": 2524.49,
+      "duration": 9.07
+    },
+    {
+      "text": "transaction the if I understand I I",
+      "start": 2529.599,
+      "duration": 5.701
+    },
+    {
+      "text": "didn't read it carefully",
+      "start": 2533.56,
+      "duration": 7.32
+    },
+    {
+      "text": "yes but I think it is a matrix that for",
+      "start": 2535.3,
+      "duration": 9.99
+    },
+    {
+      "text": "each input and each output calculates",
+      "start": 2540.88,
+      "duration": 11.969
+    },
+    {
+      "text": "all contains the the probability of a",
+      "start": 2545.29,
+      "duration": 12.24
+    },
+    {
+      "text": "link between the input and the output I",
+      "start": 2552.849,
+      "duration": 7.621
+    },
+    {
+      "text": "can be ground because again I didn't",
+      "start": 2557.53,
+      "duration": 6.059
+    },
+    {
+      "text": "read it yet but it it could mean it",
+      "start": 2560.47,
+      "duration": 12.629
+    },
+    {
+      "text": "makes sense to me so I think it is it is",
+      "start": 2563.589,
+      "duration": 15.201
+    },
+    {
+      "text": "a good a good tool to to apply against",
+      "start": 2573.099,
+      "duration": 12.561
+    },
+    {
+      "text": "well I think this is what the",
+      "start": 2578.79,
+      "duration": 14.469
+    },
+    {
+      "text": "the thing this thing is already done",
+      "start": 2585.66,
+      "duration": 18.82
+    },
+    {
+      "text": "okay I mean I I can be long but it would",
+      "start": 2593.259,
+      "duration": 15.871
+    },
+    {
+      "text": "be interesting to do in fact we can we",
+      "start": 2604.48,
+      "duration": 10.23
+    },
+    {
+      "text": "can select one of the smaller muscle",
+      "start": 2609.13,
+      "duration": 10.05
+    },
+    {
+      "text": "transactions and see if it is possible",
+      "start": 2614.71,
+      "duration": 17.48
+    },
+    {
+      "text": "to to run this is to should",
+      "start": 2619.18,
+      "duration": 13.01
+    },
+    {
+      "text": "three-dimensional matrix because you",
+      "start": 2632.64,
+      "duration": 7.209
+    },
+    {
+      "text": "need the input input links the input",
+      "start": 2636.069,
+      "duration": 7.23
+    },
+    {
+      "text": "output links and output output links has",
+      "start": 2639.849,
+      "duration": 10.831
+    },
+    {
+      "text": "lots of paper says it oh yes very good",
+      "start": 2643.299,
+      "duration": 10.19
+    },
+    {
+      "text": "but",
+      "start": 2650.68,
+      "duration": 2.809
+    },
+    {
+      "text": "computationally I think that's extremely",
+      "start": 2662.45,
+      "duration": 11.26
+    },
+    {
+      "text": "expensive now it is it isn't expensive",
+      "start": 2665.64,
+      "duration": 13.4
+    },
+    {
+      "text": "it isn't more expensive at all because",
+      "start": 2673.71,
+      "duration": 9.57
+    },
+    {
+      "text": "what man relies on identifying the sub",
+      "start": 2679.04,
+      "duration": 9.01
+    },
+    {
+      "text": "transactions and the links between input",
+      "start": 2683.28,
+      "duration": 8.94
+    },
+    {
+      "text": "inputs inputs and output outlets are",
+      "start": 2688.05,
+      "duration": 10.02
+    },
+    {
+      "text": "calculated by looking at which sub",
+      "start": 2692.22,
+      "duration": 9.6
+    },
+    {
+      "text": "transactions that things are in and",
+      "start": 2698.07,
+      "duration": 9.289
+    },
+    {
+      "text": "divided by the totals of transactions so",
+      "start": 2701.82,
+      "duration": 8.58
+    },
+    {
+      "text": "computational work here is identifying",
+      "start": 2707.359,
+      "duration": 7.061
+    },
+    {
+      "text": "that sub transactions or the sub",
+      "start": 2710.4,
+      "duration": 8.78
+    },
+    {
+      "text": "mappings same thing and it's not",
+      "start": 2714.42,
+      "duration": 7.65
+    },
+    {
+      "text": "calculating the links that is the first",
+      "start": 2719.18,
+      "duration": 6.06
+    },
+    {
+      "text": "thing here",
+      "start": 2722.07,
+      "duration": 3.17
+    },
+    {
+      "text": "yeah so you got it",
+      "start": 2734.53,
+      "duration": 3.69
+    },
+    {
+      "text": "yeah sure oh by the way you don't have",
+      "start": 2750.56,
+      "duration": 11.91
+    },
+    {
+      "text": "to be in ASMR mode too you can shout",
+      "start": 2756.0,
+      "duration": 6.47
+    },
+    {
+      "text": "what paper would you like to to look",
+      "start": 2763.85,
+      "duration": 8.31
+    },
+    {
+      "text": "into next week",
+      "start": 2768.27,
+      "duration": 3.89
+    },
+    {
+      "text": "okay so if you don't give ideas then I'm",
+      "start": 2776.69,
+      "duration": 7.95
+    },
+    {
+      "text": "going to see a few papers and just shout",
+      "start": 2780.92,
+      "duration": 10.52
+    },
+    {
+      "text": "which one would you like so okay",
+      "start": 2784.64,
+      "duration": 6.8
+    },
+    {
+      "text": "for me",
+      "start": 2792.16,
+      "duration": 7.02
+    },
+    {
+      "text": "researchers in entropy Wonderland the",
+      "start": 2795.22,
+      "duration": 8.06
+    },
+    {
+      "text": "review of the entropy concept",
+      "start": 2799.18,
+      "duration": 4.1
+    },
+    {
+      "text": "a crypto economic traffic analysis on",
+      "start": 2804.63,
+      "duration": 6.86
+    },
+    {
+      "text": "the bitcoins lightning Network",
+      "start": 2809.35,
+      "duration": 6.59
+    },
+    {
+      "text": "[Laughter]",
+      "start": 2811.49,
+      "duration": 10.0
+    },
+    {
+      "text": "vikon joy as used in dark coin does not",
+      "start": 2815.94,
+      "duration": 9.59
+    },
+    {
+      "text": "bring food anonymity",
+      "start": 2821.49,
+      "duration": 4.04
+    },
+    {
+      "text": "yeah yeah it sounds interesting",
+      "start": 2827.82,
+      "duration": 9.36
+    },
+    {
+      "text": "yeah next Harry sticks on Bitcoin",
+      "start": 2831.85,
+      "duration": 13.74
+    },
+    {
+      "text": "privacy Wikipedia page next beepers from",
+      "start": 2837.18,
+      "duration": 12.55
+    },
+    {
+      "text": "a blockchain analysis company it's not a",
+      "start": 2845.59,
+      "duration": 9.72
+    },
+    {
+      "text": "paper it's just whatever we choose next",
+      "start": 2849.73,
+      "duration": 8.85
+    },
+    {
+      "text": "topological analysis of the Lightning",
+      "start": 2855.31,
+      "duration": 7.83
+    },
+    {
+      "text": "Network next by I'm not an entropy I",
+      "start": 2858.58,
+      "duration": 7.88
+    },
+    {
+      "text": "think this would be very similar to the",
+      "start": 2863.14,
+      "duration": 7.95
+    },
+    {
+      "text": "anonymity loves company our paper may be",
+      "start": 2866.46,
+      "duration": 8.05
+    },
+    {
+      "text": "a little bit more technical but what",
+      "start": 2871.09,
+      "duration": 8.76
+    },
+    {
+      "text": "similar philosophical one I have no idea",
+      "start": 2874.51,
+      "duration": 8.03
+    },
+    {
+      "text": "but it that one sounds insensitive",
+      "start": 2879.85,
+      "duration": 9.75
+    },
+    {
+      "text": "interested to me too I agree ok did I",
+      "start": 2882.54,
+      "duration": 11.65
+    },
+    {
+      "text": "sense that everyone agreed on that who",
+      "start": 2889.6,
+      "duration": 7.56
+    },
+    {
+      "text": "did not agree on that I I vote for that",
+      "start": 2894.19,
+      "duration": 6.41
+    },
+    {
+      "text": "too I think that's very interesting",
+      "start": 2897.16,
+      "duration": 3.44
+    },
+    {
+      "text": "all right I guess that settles it",
+      "start": 2901.89,
+      "duration": 9.81
+    },
+    {
+      "text": "next week we are going to",
+      "start": 2906.72,
+      "duration": 4.98
+    },
+    {
+      "text": "peer review the paper by I'm not an",
+      "start": 2911.82,
+      "duration": 11.22
+    },
+    {
+      "text": "anthro pissed okay thank you guys for",
+      "start": 2915.87,
+      "duration": 13.35
+    },
+    {
+      "text": "the party spirit you and for your",
+      "start": 2923.04,
+      "duration": 9.6
+    },
+    {
+      "text": "patience for listening to be in hit",
+      "start": 2929.22,
+      "duration": 12.3
+    },
+    {
+      "text": "summer mode okay thank you guys thank",
+      "start": 2932.64,
+      "duration": 18.0
+    },
+    {
+      "text": "you thank you hey guys you know the",
+      "start": 2941.52,
+      "duration": 13.22
+    },
+    {
+      "text": "recent story about someone who calls and",
+      "start": 2950.64,
+      "duration": 11.93
+    },
+    {
+      "text": "by phone and a boy a little boy say hi",
+      "start": 2954.74,
+      "duration": 12.76
+    },
+    {
+      "text": "the so the the the update the caller say",
+      "start": 2962.57,
+      "duration": 6.22
+    },
+    {
+      "text": "hey boy",
+      "start": 2967.5,
+      "duration": 6.32
+    },
+    {
+      "text": "it's your man now she's not she's busy",
+      "start": 2968.79,
+      "duration": 10.25
+    },
+    {
+      "text": "okay and your dad he's not available",
+      "start": 2973.82,
+      "duration": 10.18
+    },
+    {
+      "text": "he's busy and what are they doing they",
+      "start": 2979.04,
+      "duration": 9.75
+    },
+    {
+      "text": "are looking for me okay",
+      "start": 2984.0,
+      "duration": 4.79
+    }
+  ]
+}

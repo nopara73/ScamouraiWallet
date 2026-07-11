@@ -1,0 +1,2036 @@
+{
+  "video_id": "79BQ0YlvDgQ",
+  "title": "Near Term Future of Anonymous Transactions | HCPP23 - Max Hillebrand",
+  "url": "https://www.youtube.com/watch?v=79BQ0YlvDgQ",
+  "playlist_index": 35,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "get",
+      "start": 2.76,
+      "duration": 2.24
+    },
+    {
+      "text": "ready showing that Anonymous",
+      "start": 20.359,
+      "duration": 4.24
+    },
+    {
+      "text": "Communications already is bloodly",
+      "start": 22.439,
+      "duration": 3.961
+    },
+    {
+      "text": "difficult to do at scale uh and",
+      "start": 24.599,
+      "duration": 3.561
+    },
+    {
+      "text": "sensorship resistant that was not",
+      "start": 26.4,
+      "duration": 3.76
+    },
+    {
+      "text": "achieved uh but thankfully fixed and",
+      "start": 28.16,
+      "duration": 5.0
+    },
+    {
+      "text": "improved uh after numerous uh software",
+      "start": 30.16,
+      "duration": 6.239
+    },
+    {
+      "text": "updates uh all tour relays are are much",
+      "start": 33.16,
+      "duration": 5.32
+    },
+    {
+      "text": "more stable now and hidden services are",
+      "start": 36.399,
+      "duration": 4.561
+    },
+    {
+      "text": "are much more stable and in the short",
+      "start": 38.48,
+      "duration": 4.84
+    },
+    {
+      "text": "near-term future we will have a complete",
+      "start": 40.96,
+      "duration": 5.119
+    },
+    {
+      "text": "a complete rewriting of of the tour",
+      "start": 43.32,
+      "duration": 6.32
+    },
+    {
+      "text": "protocol in Rust uh called uh RT another",
+      "start": 46.079,
+      "duration": 6.521
+    },
+    {
+      "text": "rust tour implementation uh and it will",
+      "start": 49.64,
+      "duration": 5.759
+    },
+    {
+      "text": "be quite Monumental step step shift",
+      "start": 52.6,
+      "duration": 5.799
+    },
+    {
+      "text": "Improvement for Tor uh it will be much",
+      "start": 55.399,
+      "duration": 4.761
+    },
+    {
+      "text": "more modular and and people will will be",
+      "start": 58.399,
+      "duration": 3.96
+    },
+    {
+      "text": "able to configure it and run on numerous",
+      "start": 60.16,
+      "duration": 4.76
+    },
+    {
+      "text": "different devices much more powerfully",
+      "start": 62.359,
+      "duration": 5.161
+    },
+    {
+      "text": "uh so this is a big Locker for us to to",
+      "start": 64.92,
+      "duration": 5.12
+    },
+    {
+      "text": "make privacy Anonymous transactions work",
+      "start": 67.52,
+      "duration": 4.72
+    },
+    {
+      "text": "at scale having a reliable anonymity",
+      "start": 70.04,
+      "duration": 4.48
+    },
+    {
+      "text": "network but thankfully TOS improving",
+      "start": 72.24,
+      "duration": 4.16
+    },
+    {
+      "text": "rapidly uh there's also know a couple",
+      "start": 74.52,
+      "duration": 4.12
+    },
+    {
+      "text": "other alternative approaches uh to onion",
+      "start": 76.4,
+      "duration": 4.359
+    },
+    {
+      "text": "routing like for example i2p or the need",
+      "start": 78.64,
+      "duration": 4.76
+    },
+    {
+      "text": "mix nuts with Nim and cut post both of",
+      "start": 80.759,
+      "duration": 4.32
+    },
+    {
+      "text": "them are really picking up steam and and",
+      "start": 83.4,
+      "duration": 5.44
+    },
+    {
+      "text": "and shipping actual code um and and in",
+      "start": 85.079,
+      "duration": 6.241
+    },
+    {
+      "text": "Bitcoin we can make improvements to the",
+      "start": 88.84,
+      "duration": 6.04
+    },
+    {
+      "text": "network layer privacy as well uh bid 324",
+      "start": 91.32,
+      "duration": 5.68
+    },
+    {
+      "text": "it is called I think opportunistic uh",
+      "start": 94.88,
+      "duration": 4.44
+    },
+    {
+      "text": "Network encryption for Bitcoin where",
+      "start": 97.0,
+      "duration": 4.439
+    },
+    {
+      "text": "finally we have encryption in the",
+      "start": 99.32,
+      "duration": 3.759
+    },
+    {
+      "text": "Bitcoin protocol in the sense that when",
+      "start": 101.439,
+      "duration": 3.64
+    },
+    {
+      "text": "you talk to another peer on the Bitcoin",
+      "start": 103.079,
+      "duration": 4.64
+    },
+    {
+      "text": "Network to get a block or to broadcast a",
+      "start": 105.079,
+      "duration": 4.32
+    },
+    {
+      "text": "transaction finally that will be",
+      "start": 107.719,
+      "duration": 3.881
+    },
+    {
+      "text": "encrypted uh and no longer clear text on",
+      "start": 109.399,
+      "duration": 3.881
+    },
+    {
+      "text": "the buyer so that any internet service",
+      "start": 111.6,
+      "duration": 3.799
+    },
+    {
+      "text": "provider can snip up the traffic uh and",
+      "start": 113.28,
+      "duration": 3.199
+    },
+    {
+      "text": "the beautiful thing is that this",
+      "start": 115.399,
+      "duration": 3.36
+    },
+    {
+      "text": "encryption scheme results in a perfectly",
+      "start": 116.479,
+      "duration": 5.201
+    },
+    {
+      "text": "random bitstream of data uh that the",
+      "start": 118.759,
+      "duration": 6.72
+    },
+    {
+      "text": "cipher text uh so that any any outside",
+      "start": 121.68,
+      "duration": 6.52
+    },
+    {
+      "text": "protocol who would like to look",
+      "start": 125.479,
+      "duration": 4.4
+    },
+    {
+      "text": "indistinguishable and like Bitcoin just",
+      "start": 128.2,
+      "duration": 3.0
+    },
+    {
+      "text": "needs to produce indistinguishably",
+      "start": 129.879,
+      "duration": 3.921
+    },
+    {
+      "text": "random bites and it could be Bitcoin",
+      "start": 131.2,
+      "duration": 4.24
+    },
+    {
+      "text": "traffic or it could be that other",
+      "start": 133.8,
+      "duration": 3.64
+    },
+    {
+      "text": "application that is using the same PE",
+      "start": 135.44,
+      "duration": 4.12
+    },
+    {
+      "text": "to-peer encryption standard as Bitcoin",
+      "start": 137.44,
+      "duration": 4.64
+    },
+    {
+      "text": "right we we've we've created a nice pool",
+      "start": 139.56,
+      "duration": 4.679
+    },
+    {
+      "text": "of anonymity that starts out with",
+      "start": 142.08,
+      "duration": 4.239
+    },
+    {
+      "text": "Bitcoin users but can be a bunch of",
+      "start": 144.239,
+      "duration": 5.121
+    },
+    {
+      "text": "other users in the future um also useful",
+      "start": 146.319,
+      "duration": 4.64
+    },
+    {
+      "text": "still with if you use the door network",
+      "start": 149.36,
+      "duration": 5.4
+    },
+    {
+      "text": "not as much um and and then on bitcoin",
+      "start": 150.959,
+      "duration": 6.64
+    },
+    {
+      "text": "uh well I I think onchain privacy is",
+      "start": 154.76,
+      "duration": 5.199
+    },
+    {
+      "text": "solved at this point Wasabi 2.0 as it",
+      "start": 157.599,
+      "duration": 5.56
+    },
+    {
+      "text": "stands now it's a a good enough um",
+      "start": 159.959,
+      "duration": 4.841
+    },
+    {
+      "text": "solution to making blockchain",
+      "start": 163.159,
+      "duration": 3.761
+    },
+    {
+      "text": "transactions that are fully Anonymous",
+      "start": 164.8,
+      "duration": 4.439
+    },
+    {
+      "text": "the trick is super simple just make",
+      "start": 166.92,
+      "duration": 4.88
+    },
+    {
+      "text": "really large transactions because inside",
+      "start": 169.239,
+      "duration": 4.681
+    },
+    {
+      "text": "the Bitcoin transactions we already have",
+      "start": 171.8,
+      "duration": 5.719
+    },
+    {
+      "text": "perfectly Anonymous value transfer there",
+      "start": 173.92,
+      "duration": 6.0
+    },
+    {
+      "text": "is no cryptographic link between the",
+      "start": 177.519,
+      "duration": 4.8
+    },
+    {
+      "text": "second input paid the fifth output that",
+      "start": 179.92,
+      "duration": 4.959
+    },
+    {
+      "text": "doesn't exist all outputs get destroyed",
+      "start": 182.319,
+      "duration": 5.081
+    },
+    {
+      "text": "and atomically all outputs get uh get",
+      "start": 184.879,
+      "duration": 4.601
+    },
+    {
+      "text": "created sorry inputs destroyed outputs",
+      "start": 187.4,
+      "duration": 4.199
+    },
+    {
+      "text": "created uh and there is no flow of",
+      "start": 189.48,
+      "duration": 4.119
+    },
+    {
+      "text": "thingss in between perfectly Anonymous",
+      "start": 191.599,
+      "duration": 5.0
+    },
+    {
+      "text": "as good as ecash in fact um the only",
+      "start": 193.599,
+      "duration": 4.681
+    },
+    {
+      "text": "downside is in the past we built really",
+      "start": 196.599,
+      "duration": 3.36
+    },
+    {
+      "text": "small Bitcoin transactions where we have",
+      "start": 198.28,
+      "duration": 3.28
+    },
+    {
+      "text": "really small anonymity sets inside a",
+      "start": 199.959,
+      "duration": 3.56
+    },
+    {
+      "text": "transaction but if we increase the size",
+      "start": 201.56,
+      "duration": 3.64
+    },
+    {
+      "text": "of the crow add more inputs and outputs",
+      "start": 203.519,
+      "duration": 3.561
+    },
+    {
+      "text": "to the transaction we can benefit from",
+      "start": 205.2,
+      "duration": 4.599
+    },
+    {
+      "text": "bitcoin's native anonymity uh that",
+      "start": 207.08,
+      "duration": 4.96
+    },
+    {
+      "text": "provides that is super strong actually",
+      "start": 209.799,
+      "duration": 5.121
+    },
+    {
+      "text": "um and we can now leverage these uh",
+      "start": 212.04,
+      "duration": 5.32
+    },
+    {
+      "text": "these large onchain transactions to do",
+      "start": 214.92,
+      "duration": 3.76
+    },
+    {
+      "text": "all types of other things like for",
+      "start": 217.36,
+      "duration": 3.079
+    },
+    {
+      "text": "example opening lightning network",
+      "start": 218.68,
+      "duration": 3.96
+    },
+    {
+      "text": "channels uh the lightning network is is",
+      "start": 220.439,
+      "duration": 7.0
+    },
+    {
+      "text": "a way to uh send Bitcoin but without",
+      "start": 222.64,
+      "duration": 7.08
+    },
+    {
+      "text": "requiring a global consensus update",
+      "start": 227.439,
+      "duration": 3.72
+    },
+    {
+      "text": "right not everyone has to read and",
+      "start": 229.72,
+      "duration": 4.28
+    },
+    {
+      "text": "validate this this transaction uh only",
+      "start": 231.159,
+      "duration": 5.28
+    },
+    {
+      "text": "the peers in the channel and the people",
+      "start": 234.0,
+      "duration": 4.04
+    },
+    {
+      "text": "along the route of multiple payment",
+      "start": 236.439,
+      "duration": 4.201
+    },
+    {
+      "text": "channels need to keep up of this payment",
+      "start": 238.04,
+      "duration": 5.96
+    },
+    {
+      "text": "uh in in order to to settle it um that's",
+      "start": 240.64,
+      "duration": 5.36
+    },
+    {
+      "text": "a great privacy Improvement that's a",
+      "start": 244.0,
+      "duration": 3.959
+    },
+    {
+      "text": "great scalability Improvement and it's",
+      "start": 246.0,
+      "duration": 4.64
+    },
+    {
+      "text": "not bullet or battle tested for the last",
+      "start": 247.959,
+      "duration": 5.161
+    },
+    {
+      "text": "four or five years um and and working",
+      "start": 250.64,
+      "duration": 5.36
+    },
+    {
+      "text": "quite well by now um but we can improve",
+      "start": 253.12,
+      "duration": 5.0
+    },
+    {
+      "text": "the privacy of lightning even more uh by",
+      "start": 256.0,
+      "duration": 4.239
+    },
+    {
+      "text": "for example using coin joints to open",
+      "start": 258.12,
+      "duration": 4.32
+    },
+    {
+      "text": "and close lightning network channels one",
+      "start": 260.239,
+      "duration": 4.281
+    },
+    {
+      "text": "of the big problems right now when you",
+      "start": 262.44,
+      "duration": 3.6
+    },
+    {
+      "text": "uh do onchain transaction with your",
+      "start": 264.52,
+      "duration": 3.399
+    },
+    {
+      "text": "lightning note just by looking at the",
+      "start": 266.04,
+      "duration": 4.28
+    },
+    {
+      "text": "blockchain I can still see",
+      "start": 267.919,
+      "duration": 4.321
+    },
+    {
+      "text": "a lot of activity that's happening I",
+      "start": 270.32,
+      "duration": 3.8
+    },
+    {
+      "text": "might find out that these five payment",
+      "start": 272.24,
+      "duration": 3.399
+    },
+    {
+      "text": "channels in fact belong to the same",
+      "start": 274.12,
+      "duration": 3.639
+    },
+    {
+      "text": "person because they were all created in",
+      "start": 275.639,
+      "duration": 5.28
+    },
+    {
+      "text": "a appealing chain for example um or they",
+      "start": 277.759,
+      "duration": 5.041
+    },
+    {
+      "text": "were closed together in the same DCH",
+      "start": 280.919,
+      "duration": 6.161
+    },
+    {
+      "text": "transaction um there are uh so coin",
+      "start": 282.8,
+      "duration": 6.48
+    },
+    {
+      "text": "joints improve or fix blockchain level",
+      "start": 287.08,
+      "duration": 3.6
+    },
+    {
+      "text": "privacy and we can use lightning",
+      "start": 289.28,
+      "duration": 3.919
+    },
+    {
+      "text": "networks blockchain anchoring uh to just",
+      "start": 290.68,
+      "duration": 4.84
+    },
+    {
+      "text": "upgrade it with conj and make sure that",
+      "start": 293.199,
+      "duration": 5.081
+    },
+    {
+      "text": "nobody knows that this input paid that",
+      "start": 295.52,
+      "duration": 4.399
+    },
+    {
+      "text": "output and that in fact is a a payment",
+      "start": 298.28,
+      "duration": 3.479
+    },
+    {
+      "text": "Channel and or that these multiple",
+      "start": 299.919,
+      "duration": 3.761
+    },
+    {
+      "text": "payment channels belong to the same note",
+      "start": 301.759,
+      "duration": 4.041
+    },
+    {
+      "text": "just by looking at offchain activity and",
+      "start": 303.68,
+      "duration": 4.799
+    },
+    {
+      "text": "leveraging the solutions of layer one to",
+      "start": 305.8,
+      "duration": 4.959
+    },
+    {
+      "text": "make sure that layer two is is even more",
+      "start": 308.479,
+      "duration": 4.761
+    },
+    {
+      "text": "secure um another thing that we added in",
+      "start": 310.759,
+      "duration": 5.121
+    },
+    {
+      "text": "layer one was was T rot schor signatures",
+      "start": 313.24,
+      "duration": 6.0
+    },
+    {
+      "text": "which is a a mindblowing Improvement um",
+      "start": 315.88,
+      "duration": 5.64
+    },
+    {
+      "text": "because signatures are fundamentally",
+      "start": 319.24,
+      "duration": 4.0
+    },
+    {
+      "text": "very simple very elegant signature",
+      "start": 321.52,
+      "duration": 4.2
+    },
+    {
+      "text": "scheme that can be built to abstract a",
+      "start": 323.24,
+      "duration": 5.519
+    },
+    {
+      "text": "lot of other really really cool stuff um",
+      "start": 325.72,
+      "duration": 5.0
+    },
+    {
+      "text": "the classical of course is multi",
+      "start": 328.759,
+      "duration": 5.081
+    },
+    {
+      "text": "signature or or music um whereas in the",
+      "start": 330.72,
+      "duration": 5.56
+    },
+    {
+      "text": "early days of big Qui the verifier",
+      "start": 333.84,
+      "duration": 4.0
+    },
+    {
+      "text": "needed to know that there are three",
+      "start": 336.28,
+      "duration": 4.0
+    },
+    {
+      "text": "public keys that should authorize this",
+      "start": 337.84,
+      "duration": 4.56
+    },
+    {
+      "text": "transaction and two of those them are",
+      "start": 340.28,
+      "duration": 4.28
+    },
+    {
+      "text": "required so the verifier needed to know",
+      "start": 342.4,
+      "duration": 4.44
+    },
+    {
+      "text": "the individual public keys that are in",
+      "start": 344.56,
+      "duration": 4.199
+    },
+    {
+      "text": "the multi signature and how many public",
+      "start": 346.84,
+      "duration": 3.76
+    },
+    {
+      "text": "keys there are what's the threshold",
+      "start": 348.759,
+      "duration": 3.961
+    },
+    {
+      "text": "right and which public Keys signed all",
+      "start": 350.6,
+      "duration": 4.92
+    },
+    {
+      "text": "of this was was revealed to the verifier",
+      "start": 352.72,
+      "duration": 5.0
+    },
+    {
+      "text": "versus now with with schnor we have",
+      "start": 355.52,
+      "duration": 4.959
+    },
+    {
+      "text": "music meaning we can and aggregate those",
+      "start": 357.72,
+      "duration": 5.4
+    },
+    {
+      "text": "keys where 100 public keys are",
+      "start": 360.479,
+      "duration": 5.801
+    },
+    {
+      "text": "aggregated to a single public key and 70",
+      "start": 363.12,
+      "duration": 6.199
+    },
+    {
+      "text": "or or 80 or whatever out of these get uh",
+      "start": 366.28,
+      "duration": 4.68
+    },
+    {
+      "text": "have to sign in order to produce a",
+      "start": 369.319,
+      "duration": 4.0
+    },
+    {
+      "text": "single valid signature valid for this",
+      "start": 370.96,
+      "duration": 5.2
+    },
+    {
+      "text": "public key um we can do this for multi",
+      "start": 373.319,
+      "duration": 5.481
+    },
+    {
+      "text": "signature schemes so 100 out of 100 or",
+      "start": 376.16,
+      "duration": 4.479
+    },
+    {
+      "text": "we can do this for threshold schemes",
+      "start": 378.8,
+      "duration": 4.839
+    },
+    {
+      "text": "like two out of three um uh and with the",
+      "start": 380.639,
+      "duration": 5.0
+    },
+    {
+      "text": "threshold scheme there's even another",
+      "start": 383.639,
+      "duration": 4.481
+    },
+    {
+      "text": "crazy cool thing that if you have a two",
+      "start": 385.639,
+      "duration": 4.881
+    },
+    {
+      "text": "out of three Frost or a rose signature",
+      "start": 388.12,
+      "duration": 5.16
+    },
+    {
+      "text": "scheme then the two people can kick out",
+      "start": 390.52,
+      "duration": 5.079
+    },
+    {
+      "text": "the third one right uh uh and make an",
+      "start": 393.28,
+      "duration": 6.16
+    },
+    {
+      "text": "offchain key rotation U where some some",
+      "start": 395.599,
+      "duration": 6.0
+    },
+    {
+      "text": "magic but I don't quite understand uh",
+      "start": 399.44,
+      "duration": 4.08
+    },
+    {
+      "text": "the the third person can no longer be",
+      "start": 401.599,
+      "duration": 4.641
+    },
+    {
+      "text": "part of creating a valid signature um",
+      "start": 403.52,
+      "duration": 4.959
+    },
+    {
+      "text": "and you can add new participants into",
+      "start": 406.24,
+      "duration": 4.799
+    },
+    {
+      "text": "this multi signature uh and even I think",
+      "start": 408.479,
+      "duration": 4.641
+    },
+    {
+      "text": "increase the threshold scheme as well so",
+      "start": 411.039,
+      "duration": 3.28
+    },
+    {
+      "text": "changing a two out of three multi",
+      "start": 413.12,
+      "duration": 3.6
+    },
+    {
+      "text": "signature to a to a four out of five for",
+      "start": 414.319,
+      "duration": 5.521
+    },
+    {
+      "text": "example uh and all of that without CH",
+      "start": 416.72,
+      "duration": 5.24
+    },
+    {
+      "text": "without making a blockchain transaction",
+      "start": 419.84,
+      "duration": 3.479
+    },
+    {
+      "text": "and without changing the public key",
+      "start": 421.96,
+      "duration": 2.48
+    },
+    {
+      "text": "that's referenced on the Bitcoin",
+      "start": 423.319,
+      "duration": 3.961
+    },
+    {
+      "text": "blockchain right um and so this means",
+      "start": 424.44,
+      "duration": 4.28
+    },
+    {
+      "text": "that lightning channels which are two",
+      "start": 427.28,
+      "duration": 3.359
+    },
+    {
+      "text": "out of two multi signatures look",
+      "start": 428.72,
+      "duration": 3.72
+    },
+    {
+      "text": "indistinguishable from a one one out of",
+      "start": 430.639,
+      "duration": 4.721
+    },
+    {
+      "text": "one single signature schema or from 11",
+      "start": 432.44,
+      "duration": 6.8
+    },
+    {
+      "text": "out of 15 um liquid Federation as right",
+      "start": 435.36,
+      "duration": 6.72
+    },
+    {
+      "text": "um and we have TS inputs and outputs",
+      "start": 439.24,
+      "duration": 5.239
+    },
+    {
+      "text": "already right now in B Co right for",
+      "start": 442.08,
+      "duration": 5.239
+    },
+    {
+      "text": "multiple months there could be multi",
+      "start": 444.479,
+      "duration": 5.481
+    },
+    {
+      "text": "users in in these Co transactions",
+      "start": 447.319,
+      "duration": 5.041
+    },
+    {
+      "text": "or not um or you could be a lightning",
+      "start": 449.96,
+      "duration": 6.88
+    },
+    {
+      "text": "that channel open closing um and that uh",
+      "start": 452.36,
+      "duration": 6.92
+    },
+    {
+      "text": "that provides a lot of ambiguity uh that",
+      "start": 456.84,
+      "duration": 3.96
+    },
+    {
+      "text": "that improves the the first layer of",
+      "start": 459.28,
+      "duration": 2.84
+    },
+    {
+      "text": "privacy and also the second layer of",
+      "start": 460.8,
+      "duration": 4.079
+    },
+    {
+      "text": "privacy uh another big part in lightning",
+      "start": 462.12,
+      "duration": 4.359
+    },
+    {
+      "text": "is routing payments it's not just about",
+      "start": 464.879,
+      "duration": 3.401
+    },
+    {
+      "text": "the payment channels it's about making a",
+      "start": 466.479,
+      "duration": 3.321
+    },
+    {
+      "text": "payment to someone else whom you don't",
+      "start": 468.28,
+      "duration": 4.12
+    },
+    {
+      "text": "have a direct payment channel to uh and",
+      "start": 469.8,
+      "duration": 5.119
+    },
+    {
+      "text": "in this case we use currently hash time",
+      "start": 472.4,
+      "duration": 5.68
+    },
+    {
+      "text": "contracts which is basically a a message",
+      "start": 474.919,
+      "duration": 5.161
+    },
+    {
+      "text": "and you hash it uh so we have a",
+      "start": 478.08,
+      "duration": 5.04
+    },
+    {
+      "text": "pre-image and and a hash and you say uh",
+      "start": 480.08,
+      "duration": 5.799
+    },
+    {
+      "text": "you commit to the payment by here is a",
+      "start": 483.12,
+      "duration": 5.639
+    },
+    {
+      "text": "hash and you get uh like I pay you if",
+      "start": 485.879,
+      "duration": 6.241
+    },
+    {
+      "text": "you reveal me the secret basically um uh",
+      "start": 488.759,
+      "duration": 6.681
+    },
+    {
+      "text": "and we can do this also with signatures",
+      "start": 492.12,
+      "duration": 4.96
+    },
+    {
+      "text": "another cool trick of of the shore",
+      "start": 495.44,
+      "duration": 4.36
+    },
+    {
+      "text": "signature schemes adapter signatures um",
+      "start": 497.08,
+      "duration": 5.16
+    },
+    {
+      "text": "and point time locked contracts another",
+      "start": 499.8,
+      "duration": 4.2
+    },
+    {
+      "text": "crazy signature scheme that some weird",
+      "start": 502.24,
+      "duration": 3.16
+    },
+    {
+      "text": "bitcoiners figured out because we want",
+      "start": 504.0,
+      "duration": 3.599
+    },
+    {
+      "text": "to optimize the out of signatures",
+      "start": 505.4,
+      "duration": 5.079
+    },
+    {
+      "text": "we can like add encrypted signatures",
+      "start": 507.599,
+      "duration": 4.961
+    },
+    {
+      "text": "basically that that reveal information",
+      "start": 510.479,
+      "duration": 4.44
+    },
+    {
+      "text": "that other people need in order to spend",
+      "start": 512.56,
+      "duration": 6.0
+    },
+    {
+      "text": "um a their to in order to create El and",
+      "start": 514.919,
+      "duration": 7.281
+    },
+    {
+      "text": "signature uh so we can now route a",
+      "start": 518.56,
+      "duration": 5.12
+    },
+    {
+      "text": "payment through the lightning Network",
+      "start": 522.2,
+      "duration": 3.8
+    },
+    {
+      "text": "where not a single hop in the route",
+      "start": 523.68,
+      "duration": 4.92
+    },
+    {
+      "text": "knows that he's on the same route right",
+      "start": 526.0,
+      "duration": 5.44
+    },
+    {
+      "text": "uh they it could be any route that goes",
+      "start": 528.6,
+      "duration": 5.52
+    },
+    {
+      "text": "through each time ROM but in fact it's",
+      "start": 531.44,
+      "duration": 5.6
+    },
+    {
+      "text": "it's a single chain um a great",
+      "start": 534.12,
+      "duration": 4.839
+    },
+    {
+      "text": "Improvement to the lightning routing uh",
+      "start": 537.04,
+      "duration": 4.68
+    },
+    {
+      "text": "Pro problem um which is yet another on",
+      "start": 538.959,
+      "duration": 6.161
+    },
+    {
+      "text": "routing system similar to toor um uh",
+      "start": 541.72,
+      "duration": 5.679
+    },
+    {
+      "text": "another cool thing we can do is blinded",
+      "start": 545.12,
+      "duration": 5.0
+    },
+    {
+      "text": "routes uh part of the bolt 12 invoice",
+      "start": 547.399,
+      "duration": 4.68
+    },
+    {
+      "text": "scheme and lightning so when you request",
+      "start": 550.12,
+      "duration": 4.8
+    },
+    {
+      "text": "someone to get paid you can tell them",
+      "start": 552.079,
+      "duration": 4.44
+    },
+    {
+      "text": "not hey this is my public key of the",
+      "start": 554.92,
+      "duration": 3.039
+    },
+    {
+      "text": "lightning note that I want to get paid",
+      "start": 556.519,
+      "duration": 3.76
+    },
+    {
+      "text": "in but you say look over there there's",
+      "start": 557.959,
+      "duration": 4.521
+    },
+    {
+      "text": "there is a public key you can route to",
+      "start": 560.279,
+      "duration": 4.281
+    },
+    {
+      "text": "this lightning note and give him this",
+      "start": 562.48,
+      "duration": 4.479
+    },
+    {
+      "text": "piece of cycle text and that route can",
+      "start": 564.56,
+      "duration": 4.64
+    },
+    {
+      "text": "figure out the next top who incs a piece",
+      "start": 566.959,
+      "duration": 3.681
+    },
+    {
+      "text": "of Life effects to figure out the next",
+      "start": 569.2,
+      "duration": 2.96
+    },
+    {
+      "text": "top to figure out the next top to",
+      "start": 570.64,
+      "duration": 3.52
+    },
+    {
+      "text": "finally end up with me meaning that",
+      "start": 572.16,
+      "duration": 4.52
+    },
+    {
+      "text": "finally this the the receiver no longer",
+      "start": 574.16,
+      "duration": 4.48
+    },
+    {
+      "text": "has to reveal his public key and his",
+      "start": 576.68,
+      "duration": 5.0
+    },
+    {
+      "text": "node identity in order to get paid uh",
+      "start": 578.64,
+      "duration": 5.08
+    },
+    {
+      "text": "basically hidden services in in in the",
+      "start": 581.68,
+      "duration": 4.96
+    },
+    {
+      "text": "tour L Shan in the sense of they can be",
+      "start": 583.72,
+      "duration": 5.48
+    },
+    {
+      "text": "either um they can either you can either",
+      "start": 586.64,
+      "duration": 4.4
+    },
+    {
+      "text": "reveal it directly hey this is the the",
+      "start": 589.2,
+      "duration": 3.68
+    },
+    {
+      "text": "public key please reach me here or you",
+      "start": 591.04,
+      "duration": 3.84
+    },
+    {
+      "text": "can run an anonymous hidden service",
+      "start": 592.88,
+      "duration": 5.639
+    },
+    {
+      "text": "which adds multiple hops um blinded in",
+      "start": 594.88,
+      "duration": 6.68
+    },
+    {
+      "text": "for each requ so that even the the the",
+      "start": 598.519,
+      "duration": 5.081
+    },
+    {
+      "text": "receiver of the message in tour Network",
+      "start": 601.56,
+      "duration": 4.08
+    },
+    {
+      "text": "can stay private the same aspect works",
+      "start": 603.6,
+      "duration": 5.0
+    },
+    {
+      "text": "in the lightning network with P paths um",
+      "start": 605.64,
+      "duration": 4.759
+    },
+    {
+      "text": "so lightning network is is is is cool",
+      "start": 608.6,
+      "duration": 3.679
+    },
+    {
+      "text": "and all and and it helps scale us but",
+      "start": 610.399,
+      "duration": 4.081
+    },
+    {
+      "text": "it's it's not ultimately the the b and",
+      "start": 612.279,
+      "duration": 5.56
+    },
+    {
+      "text": "end all there is classic old Tech um",
+      "start": 614.48,
+      "duration": 6.52
+    },
+    {
+      "text": "ecash uh that is a a privacy miracle and",
+      "start": 617.839,
+      "duration": 5.841
+    },
+    {
+      "text": "a scalability miracle uh it's super fast",
+      "start": 621.0,
+      "duration": 5.04
+    },
+    {
+      "text": "it's free a tiny piece of data has to be",
+      "start": 623.68,
+      "duration": 4.159
+    },
+    {
+      "text": "transferred in a single round and that's",
+      "start": 626.04,
+      "duration": 4.919
+    },
+    {
+      "text": "it uh and it it can right now today",
+      "start": 627.839,
+      "duration": 7.0
+    },
+    {
+      "text": "satisfy billions of users um just from a",
+      "start": 630.959,
+      "duration": 6.241
+    },
+    {
+      "text": "technological scalability point of view",
+      "start": 634.839,
+      "duration": 5.721
+    },
+    {
+      "text": "uh and here the the only downside is it",
+      "start": 637.2,
+      "duration": 6.12
+    },
+    {
+      "text": "is a a money Warehouse receipt in the",
+      "start": 640.56,
+      "duration": 4.6
+    },
+    {
+      "text": "sense of you have Bitcoin under your own",
+      "start": 643.32,
+      "duration": 4.24
+    },
+    {
+      "text": "full control self custodial and you can",
+      "start": 645.16,
+      "duration": 4.16
+    },
+    {
+      "text": "hand over the big man to someone else",
+      "start": 647.56,
+      "duration": 3.719
+    },
+    {
+      "text": "who gives you a paper certificate saying",
+      "start": 649.32,
+      "duration": 4.4
+    },
+    {
+      "text": "yeah Whoever has this piece of paper can",
+      "start": 651.279,
+      "duration": 5.041
+    },
+    {
+      "text": "get the SATs back or the gold back uh",
+      "start": 653.72,
+      "duration": 4.6
+    },
+    {
+      "text": "the same idea just instead of a physical",
+      "start": 656.32,
+      "duration": 4.28
+    },
+    {
+      "text": "piece of paper digital signature uh",
+      "start": 658.32,
+      "duration": 5.24
+    },
+    {
+      "text": "which can be fully blinded um meaning",
+      "start": 660.6,
+      "duration": 5.52
+    },
+    {
+      "text": "that every time uh someone deposits at",
+      "start": 663.56,
+      "duration": 6.16
+    },
+    {
+      "text": "Tois to to my My Vault my my money",
+      "start": 666.12,
+      "duration": 6.24
+    },
+    {
+      "text": "Warehouse I hand out the signature and",
+      "start": 669.72,
+      "duration": 4.559
+    },
+    {
+      "text": "when later the same person comes back",
+      "start": 672.36,
+      "duration": 6.0
+    },
+    {
+      "text": "with that signature now unblinded um he",
+      "start": 674.279,
+      "duration": 7.161
+    },
+    {
+      "text": "I can redeem the satoshis knowing that",
+      "start": 678.36,
+      "duration": 5.36
+    },
+    {
+      "text": "someone has deposited them but I have no",
+      "start": 681.44,
+      "duration": 5.32
+    },
+    {
+      "text": "idea who it was uh and and this allows",
+      "start": 683.72,
+      "duration": 6.16
+    },
+    {
+      "text": "us to have really fast fully private",
+      "start": 686.76,
+      "duration": 6.04
+    },
+    {
+      "text": "transactions of of anything basically",
+      "start": 689.88,
+      "duration": 4.519
+    },
+    {
+      "text": "including Deb certificates or money",
+      "start": 692.8,
+      "duration": 4.599
+    },
+    {
+      "text": "Warehouse certificates so cashu is a",
+      "start": 694.399,
+      "duration": 5.0
+    },
+    {
+      "text": "really promising project that enables",
+      "start": 697.399,
+      "duration": 4.641
+    },
+    {
+      "text": "this right now very fast very scalable",
+      "start": 699.399,
+      "duration": 5.601
+    },
+    {
+      "text": "um issuance of anonymous tokens that can",
+      "start": 702.04,
+      "duration": 5.56
+    },
+    {
+      "text": "be redeemed and and the ker here is that",
+      "start": 705.0,
+      "duration": 5.24
+    },
+    {
+      "text": "you can be the mint it is a super simple",
+      "start": 707.6,
+      "duration": 4.239
+    },
+    {
+      "text": "piece of code that you can run on your",
+      "start": 710.24,
+      "duration": 6.12
+    },
+    {
+      "text": "laptop uh to offer these ecash Services",
+      "start": 711.839,
+      "duration": 6.321
+    },
+    {
+      "text": "um with the problem of there's a single",
+      "start": 716.36,
+      "duration": 5.32
+    },
+    {
+      "text": "issue super simple super fast uh but",
+      "start": 718.16,
+      "duration": 5.84
+    },
+    {
+      "text": "that one person can run book you uh it",
+      "start": 721.68,
+      "duration": 4.08
+    },
+    {
+      "text": "does not only work for the money",
+      "start": 724.0,
+      "duration": 3.8
+    },
+    {
+      "text": "substitute uh aspect but also for for",
+      "start": 725.76,
+      "duration": 3.639
+    },
+    {
+      "text": "example Anonymous access rights to an",
+      "start": 727.8,
+      "duration": 4.4
+    },
+    {
+      "text": "API this is how Wasabi bed uses ecash",
+      "start": 729.399,
+      "duration": 6.521
+    },
+    {
+      "text": "since 2018 um not as you give me SATs",
+      "start": 732.2,
+      "duration": 5.56
+    },
+    {
+      "text": "and you get a piece of paper and you can",
+      "start": 735.92,
+      "duration": 4.0
+    },
+    {
+      "text": "redeem that paper for SATs later but",
+      "start": 737.76,
+      "duration": 4.84
+    },
+    {
+      "text": "instead you call the first API call in",
+      "start": 739.92,
+      "duration": 4.719
+    },
+    {
+      "text": "put registration and you get an e-cash",
+      "start": 742.6,
+      "duration": 3.479
+    },
+    {
+      "text": "credential and with this e-cash",
+      "start": 744.639,
+      "duration": 3.961
+    },
+    {
+      "text": "credential you can do the second API",
+      "start": 746.079,
+      "duration": 4.801
+    },
+    {
+      "text": "call output registration and I only",
+      "start": 748.6,
+      "duration": 4.08
+    },
+    {
+      "text": "allow the second API call output",
+      "start": 750.88,
+      "duration": 4.639
+    },
+    {
+      "text": "registration if there is a valid e cach",
+      "start": 752.68,
+      "duration": 5.2
+    },
+    {
+      "text": "right so uh this this token that's super",
+      "start": 755.519,
+      "duration": 5.041
+    },
+    {
+      "text": "fast and easy to transact with can also",
+      "start": 757.88,
+      "duration": 5.0
+    },
+    {
+      "text": "be used to for example have Anonymous",
+      "start": 760.56,
+      "duration": 6.519
+    },
+    {
+      "text": "access rights to a bpn uh or to API like",
+      "start": 762.88,
+      "duration": 7.84
+    },
+    {
+      "text": "the coin join or a payall or or truly",
+      "start": 767.079,
+      "duration": 5.401
+    },
+    {
+      "text": "anything",
+      "start": 770.72,
+      "duration": 5.119
+    },
+    {
+      "text": "um another set of improvement probably",
+      "start": 772.48,
+      "duration": 5.599
+    },
+    {
+      "text": "invented here in prag on on both a",
+      "start": 775.839,
+      "duration": 3.921
+    },
+    {
+      "text": "conceptual level with script and on the",
+      "start": 778.079,
+      "duration": 3.88
+    },
+    {
+      "text": "implementation level with with fent is",
+      "start": 779.76,
+      "duration": 4.759
+    },
+    {
+      "text": "Federated ecat where we no longer have a",
+      "start": 781.959,
+      "duration": 4.56
+    },
+    {
+      "text": "single computer that has the magic",
+      "start": 784.519,
+      "duration": 4.281
+    },
+    {
+      "text": "private key to issue these um these",
+      "start": 786.519,
+      "duration": 4.721
+    },
+    {
+      "text": "tokens but it's that a Federation of",
+      "start": 788.8,
+      "duration": 4.96
+    },
+    {
+      "text": "three out of five or uh or something",
+      "start": 791.24,
+      "duration": 7.279
+    },
+    {
+      "text": "else uh where uh if one of these mints",
+      "start": 793.76,
+      "duration": 8.319
+    },
+    {
+      "text": "is malicious still you you are secure",
+      "start": 798.519,
+      "duration": 4.641
+    },
+    {
+      "text": "right because there are other",
+      "start": 802.079,
+      "duration": 3.801
+    },
+    {
+      "text": "participants in in the bank or in the a",
+      "start": 803.16,
+      "duration": 5.16
+    },
+    {
+      "text": "provider that that check the other",
+      "start": 805.88,
+      "duration": 4.319
+    },
+    {
+      "text": "participants right so a rogue actor",
+      "start": 808.32,
+      "duration": 4.6
+    },
+    {
+      "text": "cannot run away with your money um but a",
+      "start": 810.199,
+      "duration": 4.801
+    },
+    {
+      "text": "majority of the service providers still",
+      "start": 812.92,
+      "duration": 4.039
+    },
+    {
+      "text": "can right so it's it's a clear",
+      "start": 815.0,
+      "duration": 3.68
+    },
+    {
+      "text": "Improvement but it comes with a lot of",
+      "start": 816.959,
+      "duration": 3.801
+    },
+    {
+      "text": "extra complexity as soon as you try",
+      "start": 818.68,
+      "duration": 4.0
+    },
+    {
+      "text": "stuff in a Federated or decentralized",
+      "start": 820.76,
+      "duration": 5.199
+    },
+    {
+      "text": "way it it blows up into complexity um",
+      "start": 822.68,
+      "duration": 4.88
+    },
+    {
+      "text": "and and that's where there are big",
+      "start": 825.959,
+      "duration": 3.641
+    },
+    {
+      "text": "benefits over centralized systems like",
+      "start": 827.56,
+      "duration": 5.32
+    },
+    {
+      "text": "kashu and and wasabi um or",
+      "start": 829.6,
+      "duration": 6.4
+    },
+    {
+      "text": "wabisabi versus the Federated model of",
+      "start": 832.88,
+      "duration": 6.399
+    },
+    {
+      "text": "fman um we both are very useful but very",
+      "start": 836.0,
+      "duration": 4.68
+    },
+    {
+      "text": "often the trade also of the centralized",
+      "start": 839.279,
+      "duration": 5.641
+    },
+    {
+      "text": "model makes sense too um uh and well",
+      "start": 840.68,
+      "duration": 6.48
+    },
+    {
+      "text": "there's there's even more com right",
+      "start": 844.92,
+      "duration": 6.039
+    },
+    {
+      "text": "because there there are uh RGB is",
+      "start": 847.16,
+      "duration": 6.08
+    },
+    {
+      "text": "another extremely interesting um project",
+      "start": 850.959,
+      "duration": 4.641
+    },
+    {
+      "text": "that really adds a lot of privacy to to",
+      "start": 853.24,
+      "duration": 4.48
+    },
+    {
+      "text": "Everyday transactions uh the idea is",
+      "start": 855.6,
+      "duration": 5.28
+    },
+    {
+      "text": "again not to have a global consensus um",
+      "start": 857.72,
+      "duration": 5.0
+    },
+    {
+      "text": "about this current state of of who has",
+      "start": 860.88,
+      "duration": 6.199
+    },
+    {
+      "text": "how many tokens um but instead to have a",
+      "start": 862.72,
+      "duration": 6.76
+    },
+    {
+      "text": "only the client valid",
+      "start": 867.079,
+      "duration": 5.0
+    },
+    {
+      "text": "how many tokens exist and who has them",
+      "start": 869.48,
+      "duration": 7.719
+    },
+    {
+      "text": "etc for uh and uh well this is is a very",
+      "start": 872.079,
+      "duration": 7.081
+    },
+    {
+      "text": "private and a very scalable aspect",
+      "start": 877.199,
+      "duration": 3.521
+    },
+    {
+      "text": "because not everyone needs to know every",
+      "start": 879.16,
+      "duration": 3.28
+    },
+    {
+      "text": "transaction of everyone else very",
+      "start": 880.72,
+      "duration": 4.44
+    },
+    {
+      "text": "similar with the lightning Network um",
+      "start": 882.44,
+      "duration": 5.0
+    },
+    {
+      "text": "but with RGB this this is more of a",
+      "start": 885.16,
+      "duration": 5.4
+    },
+    {
+      "text": "general computation platform so um a bit",
+      "start": 887.44,
+      "duration": 4.759
+    },
+    {
+      "text": "similar to fediman where where we can",
+      "start": 890.56,
+      "duration": 5.24
+    },
+    {
+      "text": "run quite complex smart contracts uh in",
+      "start": 892.199,
+      "duration": 6.0
+    },
+    {
+      "text": "this Federated environment uh similar is",
+      "start": 895.8,
+      "duration": 4.959
+    },
+    {
+      "text": "possible with RGB uh where where smart",
+      "start": 898.199,
+      "duration": 4.481
+    },
+    {
+      "text": "contracts can for example Express uh",
+      "start": 900.759,
+      "duration": 4.041
+    },
+    {
+      "text": "tokens uh both fible and and",
+      "start": 902.68,
+      "duration": 4.48
+    },
+    {
+      "text": "non-fungible or or digital identities",
+      "start": 904.8,
+      "duration": 6.44
+    },
+    {
+      "text": "Etc um uh and these can be transacted uh",
+      "start": 907.16,
+      "duration": 5.76
+    },
+    {
+      "text": "in in a way that it is double spending",
+      "start": 911.24,
+      "duration": 4.08
+    },
+    {
+      "text": "protected meaning you can only send it",
+      "start": 912.92,
+      "duration": 4.479
+    },
+    {
+      "text": "once and and not a million times to many",
+      "start": 915.32,
+      "duration": 4.92
+    },
+    {
+      "text": "people uh but in in a very efficient and",
+      "start": 917.399,
+      "duration": 7.521
+    },
+    {
+      "text": "very private manner um so I I I think in",
+      "start": 920.24,
+      "duration": 7.279
+    },
+    {
+      "text": "in just this this short overview we can",
+      "start": 924.92,
+      "duration": 4.68
+    },
+    {
+      "text": "really see that that private is is at",
+      "start": 927.519,
+      "duration": 4.081
+    },
+    {
+      "text": "the Forefront of mine for for a lot of",
+      "start": 929.6,
+      "duration": 4.12
+    },
+    {
+      "text": "different Bitcoin projects and the",
+      "start": 931.6,
+      "duration": 4.08
+    },
+    {
+      "text": "effort of the last couple years is is",
+      "start": 933.72,
+      "duration": 4.84
+    },
+    {
+      "text": "really sh um the the code is is being",
+      "start": 935.68,
+      "duration": 4.32
+    },
+    {
+      "text": "shipped for basically everything that",
+      "start": 938.56,
+      "duration": 4.839
+    },
+    {
+      "text": "I'm saying now um and can be used right",
+      "start": 940.0,
+      "duration": 6.079
+    },
+    {
+      "text": "now uh or at least in the very near-term",
+      "start": 943.399,
+      "duration": 5.641
+    },
+    {
+      "text": "future so it's a pretty bright uh view",
+      "start": 946.079,
+      "duration": 4.481
+    },
+    {
+      "text": "ahead I think these 10 years of the",
+      "start": 949.04,
+      "duration": 3.84
+    },
+    {
+      "text": "hackers Congress have really shown what",
+      "start": 950.56,
+      "duration": 4.56
+    },
+    {
+      "text": "a bunch of people can build in a rather",
+      "start": 952.88,
+      "duration": 4.519
+    },
+    {
+      "text": "short time uh and and if we look back to",
+      "start": 955.12,
+      "duration": 3.92
+    },
+    {
+      "text": "the technology sta that we have had in",
+      "start": 957.399,
+      "duration": 6.24
+    },
+    {
+      "text": "in 2023 uh 2013 um it's nothing of what",
+      "start": 959.04,
+      "duration": 7.68
+    },
+    {
+      "text": "I said existed but but it is here now",
+      "start": 963.639,
+      "duration": 5.32
+    },
+    {
+      "text": "and and we can use it now and just",
+      "start": 966.72,
+      "duration": 4.679
+    },
+    {
+      "text": "imagine that same progress extrapolated",
+      "start": 968.959,
+      "duration": 4.44
+    },
+    {
+      "text": "for the next 10 years and probably even",
+      "start": 971.399,
+      "duration": 4.401
+    },
+    {
+      "text": "more so uh so it will be it will be a",
+      "start": 973.399,
+      "duration": 4.44
+    },
+    {
+      "text": "breathtaking future where we can see of",
+      "start": 975.8,
+      "duration": 4.2
+    },
+    {
+      "text": "what the next generation of of cyun is",
+      "start": 977.839,
+      "duration": 3.8
+    },
+    {
+      "text": "going to build with all of these new",
+      "start": 980.0,
+      "duration": 3.36
+    },
+    {
+      "text": "building blocks that that we have now",
+      "start": 981.639,
+      "duration": 4.401
+    },
+    {
+      "text": "discovered and and defined um because",
+      "start": 983.36,
+      "duration": 5.039
+    },
+    {
+      "text": "the the next levels on top are going to",
+      "start": 986.04,
+      "duration": 5.279
+    },
+    {
+      "text": "be Qui um so the near-term future of",
+      "start": 988.399,
+      "duration": 4.44
+    },
+    {
+      "text": "anonymous transaction is looking pretty",
+      "start": 991.319,
+      "duration": 4.241
+    },
+    {
+      "text": "damn good I think we got to cover it",
+      "start": 992.839,
+      "duration": 5.24
+    },
+    {
+      "text": "thank you very",
+      "start": 995.56,
+      "duration": 2.519
+    },
+    {
+      "text": "much",
+      "start": 1002.56,
+      "duration": 3.0
+    }
+  ]
+}

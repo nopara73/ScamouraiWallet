@@ -1,0 +1,7156 @@
+{
+  "video_id": "hl4yyXPy3q8",
+  "title": "Wasabi Research Club #12 - Why I'm not an Entropist with Harry Halpin",
+  "url": "https://www.youtube.com/watch?v=hl4yyXPy3q8",
+  "playlist_index": 12,
+  "language": "en",
+  "is_generated": true,
+  "retrieved": "2026-07-11",
+  "snippets": [
+    {
+      "text": "hey welcome everyone for another wasabi",
+      "start": 1.25,
+      "duration": 10.63
+    },
+    {
+      "text": "research club conversation this time we",
+      "start": 8.639,
+      "duration": 6.12
+    },
+    {
+      "text": "are going to go through a paper from",
+      "start": 11.88,
+      "duration": 6.87
+    },
+    {
+      "text": "Paul Severson called why I'm not an",
+      "start": 14.759,
+      "duration": 7.501
+    },
+    {
+      "text": "entropy the outer is the inventor of the",
+      "start": 18.75,
+      "duration": 7.14
+    },
+    {
+      "text": "onion routing protocol is not working on",
+      "start": 22.26,
+      "duration": 4.62
+    },
+    {
+      "text": "tour right now",
+      "start": 25.89,
+      "duration": 4.92
+    },
+    {
+      "text": "and since Aviv is not here there is no",
+      "start": 26.88,
+      "duration": 6.57
+    },
+    {
+      "text": "presentation on this paper right now so",
+      "start": 30.81,
+      "duration": 6.87
+    },
+    {
+      "text": "I'm just going to read the abstract one",
+      "start": 33.45,
+      "duration": 7.26
+    },
+    {
+      "text": "line from the conclusion and let's see",
+      "start": 37.68,
+      "duration": 6.57
+    },
+    {
+      "text": "where we go from there so what does it",
+      "start": 40.71,
+      "duration": 5.61
+    },
+    {
+      "text": "mean to be anonymous in network",
+      "start": 44.25,
+      "duration": 5.85
+    },
+    {
+      "text": "communications or centroids thesis is",
+      "start": 46.32,
+      "duration": 6.78
+    },
+    {
+      "text": "that both the theoretical literature and",
+      "start": 50.1,
+      "duration": 5.31
+    },
+    {
+      "text": "the deployed systems have gotten the",
+      "start": 53.1,
+      "duration": 5.31
+    },
+    {
+      "text": "ants were essentially wrong the ants",
+      "start": 55.41,
+      "duration": 5.309
+    },
+    {
+      "text": "were have been wrong because they apply",
+      "start": 58.41,
+      "duration": 4.829
+    },
+    {
+      "text": "the wrong metric to the wrong adversary",
+      "start": 60.719,
+      "duration": 5.4
+    },
+    {
+      "text": "model I indicate problems in the",
+      "start": 63.239,
+      "duration": 5.581
+    },
+    {
+      "text": "established adversary models and matrix",
+      "start": 66.119,
+      "duration": 5.671
+    },
+    {
+      "text": "for anonymity as well as implications",
+      "start": 68.82,
+      "duration": 6.21
+    },
+    {
+      "text": "for the design and analysis of anonymous",
+      "start": 71.79,
+      "duration": 6.09
+    },
+    {
+      "text": "communication systems so this is the",
+      "start": 75.03,
+      "duration": 6.75
+    },
+    {
+      "text": "abstract it might be to obstruct but",
+      "start": 77.88,
+      "duration": 6.989
+    },
+    {
+      "text": "hurt but there was a nice quote from the",
+      "start": 81.78,
+      "duration": 5.55
+    },
+    {
+      "text": "paper that that actually explains what",
+      "start": 84.869,
+      "duration": 6.031
+    },
+    {
+      "text": "it really wants wants to prove that the",
+      "start": 87.33,
+      "duration": 6.69
+    },
+    {
+      "text": "central the central point is that the",
+      "start": 90.9,
+      "duration": 5.789
+    },
+    {
+      "text": "model on which all existing work on",
+      "start": 94.02,
+      "duration": 5.34
+    },
+    {
+      "text": "anonymity the entropies model is broken",
+      "start": 96.689,
+      "duration": 6.531
+    },
+    {
+      "text": "for open or widely shared communications",
+      "start": 99.36,
+      "duration": 8.759
+    },
+    {
+      "text": "so he doesn't like the the entropies",
+      "start": 103.22,
+      "duration": 7.06
+    },
+    {
+      "text": "model that's that's the point there and",
+      "start": 108.119,
+      "duration": 6.93
+    },
+    {
+      "text": "why we see some unfortunately the the",
+      "start": 110.28,
+      "duration": 7.35
+    },
+    {
+      "text": "outward I couldn't reach him maybe I",
+      "start": 115.049,
+      "duration": 4.951
+    },
+    {
+      "text": "sent the message to the wrong email",
+      "start": 117.63,
+      "duration": 5.849
+    },
+    {
+      "text": "address so he is not with us however we",
+      "start": 120.0,
+      "duration": 8.129
+    },
+    {
+      "text": "have with us Harry from Network who has",
+      "start": 123.479,
+      "duration": 7.861
+    },
+    {
+      "text": "some interesting context on the on how",
+      "start": 128.129,
+      "duration": 4.981
+    },
+    {
+      "text": "this paper came around and",
+      "start": 131.34,
+      "duration": 5.1
+    },
+    {
+      "text": "but the halter might be thinking might",
+      "start": 133.11,
+      "duration": 7.11
+    },
+    {
+      "text": "was thinking when when he he did this",
+      "start": 136.44,
+      "duration": 8.61
+    },
+    {
+      "text": "paper so Harry I give the words to you",
+      "start": 140.22,
+      "duration": 8.58
+    },
+    {
+      "text": "so could you start over but you but you",
+      "start": 145.05,
+      "duration": 8.61
+    },
+    {
+      "text": "started saying just before the show yeah",
+      "start": 148.8,
+      "duration": 7.08
+    },
+    {
+      "text": "so I'll just give a little bit of an",
+      "start": 153.66,
+      "duration": 6.5
+    },
+    {
+      "text": "introduction to this paper you know",
+      "start": 155.88,
+      "duration": 9.2
+    },
+    {
+      "text": "soso to to sort of notes first of all",
+      "start": 160.16,
+      "duration": 6.33
+    },
+    {
+      "text": "[Music]",
+      "start": 165.08,
+      "duration": 4.42
+    },
+    {
+      "text": "this paper comes from a long-standing",
+      "start": 166.49,
+      "duration": 8.53
+    },
+    {
+      "text": "argument around how to build anonymous",
+      "start": 169.5,
+      "duration": 9.12
+    },
+    {
+      "text": "communication and I think in order to",
+      "start": 175.02,
+      "duration": 5.67
+    },
+    {
+      "text": "understand why this is billion ominous",
+      "start": 178.62,
+      "duration": 4.41
+    },
+    {
+      "text": "communication systems are difficult it's",
+      "start": 180.69,
+      "duration": 5.28
+    },
+    {
+      "text": "useful to compare them classical",
+      "start": 183.03,
+      "duration": 5.91
+    },
+    {
+      "text": "cryptography so you know for years",
+      "start": 185.97,
+      "duration": 6.33
+    },
+    {
+      "text": "people build crypto systems and maybe",
+      "start": 188.94,
+      "duration": 5.79
+    },
+    {
+      "text": "they work maybe they get in and",
+      "start": 192.3,
+      "duration": 5.85
+    },
+    {
+      "text": "eventually they they sort of boiled it",
+      "start": 194.73,
+      "duration": 7.62
+    },
+    {
+      "text": "down to the dogs whole security you had",
+      "start": 198.15,
+      "duration": 12.39
+    },
+    {
+      "text": "a well-defined adversary I'm sorry we",
+      "start": 202.35,
+      "duration": 11.07
+    },
+    {
+      "text": "are losing you your voice is just",
+      "start": 210.54,
+      "duration": 12.9
+    },
+    {
+      "text": "getting lower and lower over no it's not",
+      "start": 213.42,
+      "duration": 22.8
+    },
+    {
+      "text": "is anyone hearing it I'll just try gets",
+      "start": 223.44,
+      "duration": 16.32
+    },
+    {
+      "text": "close to the microphone yeah no it's",
+      "start": 236.22,
+      "duration": 7.71
+    },
+    {
+      "text": "good yeah okay so I'll just what I was",
+      "start": 239.76,
+      "duration": 6.509
+    },
+    {
+      "text": "trying to say is that essentially",
+      "start": 243.93,
+      "duration": 5.339
+    },
+    {
+      "text": "anonymous communication systems people",
+      "start": 246.269,
+      "duration": 4.651
+    },
+    {
+      "text": "were building them but they didn't",
+      "start": 249.269,
+      "duration": 5.25
+    },
+    {
+      "text": "really have any principles to understand",
+      "start": 250.92,
+      "duration": 7.77
+    },
+    {
+      "text": "why one design would be better than",
+      "start": 254.519,
+      "duration": 6.811
+    },
+    {
+      "text": "another design so in particular you know",
+      "start": 258.69,
+      "duration": 6.21
+    },
+    {
+      "text": "why would for example tour which is",
+      "start": 261.33,
+      "duration": 5.58
+    },
+    {
+      "text": "called an onion routing system",
+      "start": 264.9,
+      "duration": 7.29
+    },
+    {
+      "text": "be better or worse than a mixed Network",
+      "start": 266.91,
+      "duration": 8.61
+    },
+    {
+      "text": "and a lot of this comes from essentially",
+      "start": 272.19,
+      "duration": 6.42
+    },
+    {
+      "text": "a misunderstanding that happened very",
+      "start": 275.52,
+      "duration": 8.67
+    },
+    {
+      "text": "early round probably 2003 or four when",
+      "start": 278.61,
+      "duration": 9.96
+    },
+    {
+      "text": "tor came out so pulse iverson weirdly",
+      "start": 284.19,
+      "duration": 6.78
+    },
+    {
+      "text": "enough was a philosopher and like many",
+      "start": 288.57,
+      "duration": 4.32
+    },
+    {
+      "text": "philosophers he he couldn't find a job",
+      "start": 290.97,
+      "duration": 6.45
+    },
+    {
+      "text": "and essentially the US Navy didn't have",
+      "start": 292.89,
+      "duration": 6.54
+    },
+    {
+      "text": "huge budgets so they hired philosophers",
+      "start": 297.42,
+      "duration": 3.39
+    },
+    {
+      "text": "because they knew about logic and they",
+      "start": 299.43,
+      "duration": 3.51
+    },
+    {
+      "text": "thought they could train them into",
+      "start": 300.81,
+      "duration": 4.17
+    },
+    {
+      "text": "computer scientists cheaper than",
+      "start": 302.94,
+      "duration": 5.03
+    },
+    {
+      "text": "actually hiring computer scientists and",
+      "start": 304.98,
+      "duration": 7.08
+    },
+    {
+      "text": "one day one of Paul's friends had this",
+      "start": 307.97,
+      "duration": 7.54
+    },
+    {
+      "text": "he said well Paul would be possible",
+      "start": 312.06,
+      "duration": 5.72
+    },
+    {
+      "text": "every time I connect to the internet I",
+      "start": 315.51,
+      "duration": 6.45
+    },
+    {
+      "text": "leak my IP address and would it be",
+      "start": 317.78,
+      "duration": 7.24
+    },
+    {
+      "text": "possible to build a system where this",
+      "start": 321.96,
+      "duration": 5.76
+    },
+    {
+      "text": "doesn't happen and Paul had never",
+      "start": 325.02,
+      "duration": 5.07
+    },
+    {
+      "text": "thought about this question before his",
+      "start": 327.72,
+      "duration": 4.11
+    },
+    {
+      "text": "background was actually in something",
+      "start": 330.09,
+      "duration": 4.44
+    },
+    {
+      "text": "called epistemic logic but he kind of",
+      "start": 331.83,
+      "duration": 5.55
+    },
+    {
+      "text": "had this concept which became Onion",
+      "start": 334.53,
+      "duration": 3.21
+    },
+    {
+      "text": "Routing",
+      "start": 337.38,
+      "duration": 3.33
+    },
+    {
+      "text": "and the concept is basically the only",
+      "start": 337.74,
+      "duration": 6.6
+    },
+    {
+      "text": "way you can get anonymity is by passing",
+      "start": 340.71,
+      "duration": 8.34
+    },
+    {
+      "text": "a message through essentially a network",
+      "start": 344.34,
+      "duration": 8.43
+    },
+    {
+      "text": "of strangers and you know at each point",
+      "start": 349.05,
+      "duration": 5.97
+    },
+    {
+      "text": "does it lay encryption you unwrap it and",
+      "start": 352.77,
+      "duration": 7.38
+    },
+    {
+      "text": "that that was really genuinely kind of",
+      "start": 355.02,
+      "duration": 8.82
+    },
+    {
+      "text": "Paul's insight now the problem is Paul",
+      "start": 360.15,
+      "duration": 6.21
+    },
+    {
+      "text": "was not aware that David charm and other",
+      "start": 363.84,
+      "duration": 5.58
+    },
+    {
+      "text": "people have been working on mixed",
+      "start": 366.36,
+      "duration": 6.27
+    },
+    {
+      "text": "networks since the 80s and mixed",
+      "start": 369.42,
+      "duration": 5.4
+    },
+    {
+      "text": "networks basically he said if you have a",
+      "start": 372.63,
+      "duration": 5.82
+    },
+    {
+      "text": "sender and receiver you hand packets to",
+      "start": 374.82,
+      "duration": 8.31
+    },
+    {
+      "text": "a mixer and they basically shuffle these",
+      "start": 378.45,
+      "duration": 6.72
+    },
+    {
+      "text": "packets like a deck of cards they mix",
+      "start": 383.13,
+      "duration": 4.35
+    },
+    {
+      "text": "them and then they launch them all out",
+      "start": 385.17,
+      "duration": 5.37
+    },
+    {
+      "text": "at the same time and because they've all",
+      "start": 387.48,
+      "duration": 5.31
+    },
+    {
+      "text": "been sort of launched at the same time",
+      "start": 390.54,
+      "duration": 4.14
+    },
+    {
+      "text": "and their order has been essentially",
+      "start": 392.79,
+      "duration": 5.01
+    },
+    {
+      "text": "randomly permute 'add you can't tell if",
+      "start": 394.68,
+      "duration": 5.64
+    },
+    {
+      "text": "the packets are encrypted as long as",
+      "start": 397.8,
+      "duration": 2.94
+    },
+    {
+      "text": "different",
+      "start": 400.32,
+      "duration": 3.84
+    },
+    {
+      "text": "senders are sending packets to the mixer",
+      "start": 400.74,
+      "duration": 5.85
+    },
+    {
+      "text": "and different receivers are getting it",
+      "start": 404.16,
+      "duration": 5.4
+    },
+    {
+      "text": "that the packets who the senders and",
+      "start": 406.59,
+      "duration": 6.9
+    },
+    {
+      "text": "receivers are and that's the goal of",
+      "start": 409.56,
+      "duration": 7.85
+    },
+    {
+      "text": "sender and receiver unlinked ability and",
+      "start": 413.49,
+      "duration": 7.109
+    },
+    {
+      "text": "mixed networks were built so that even",
+      "start": 417.41,
+      "duration": 7.84
+    },
+    {
+      "text": "an adversary which is observing the",
+      "start": 420.599,
+      "duration": 9.57
+    },
+    {
+      "text": "entire network you know for example the",
+      "start": 425.25,
+      "duration": 9.15
+    },
+    {
+      "text": "NSA couldn't tell which sender was",
+      "start": 430.169,
+      "duration": 6.361
+    },
+    {
+      "text": "sending which message the what receiver",
+      "start": 434.4,
+      "duration": 6.299
+    },
+    {
+      "text": "with any real advantage now what Paul",
+      "start": 436.53,
+      "duration": 7.139
+    },
+    {
+      "text": "now people kind of you know mix Network",
+      "start": 440.699,
+      "duration": 4.65
+    },
+    {
+      "text": "said they did this but there is no",
+      "start": 443.669,
+      "duration": 4.5
+    },
+    {
+      "text": "really way to quantify there's a bunch",
+      "start": 445.349,
+      "duration": 5.431
+    },
+    {
+      "text": "of different mixed Network designs which",
+      "start": 448.169,
+      "duration": 4.831
+    },
+    {
+      "text": "design is is better than another for",
+      "start": 450.78,
+      "duration": 4.139
+    },
+    {
+      "text": "example should you have one mixer so you",
+      "start": 453.0,
+      "duration": 5.55
+    },
+    {
+      "text": "have a chain of mixers should you have a",
+      "start": 454.919,
+      "duration": 6.271
+    },
+    {
+      "text": "peer-to-peer network of mixes there is",
+      "start": 458.55,
+      "duration": 4.32
+    },
+    {
+      "text": "all these different designs being thrown",
+      "start": 461.19,
+      "duration": 5.42
+    },
+    {
+      "text": "around and eventually George donita's",
+      "start": 462.87,
+      "duration": 5.88
+    },
+    {
+      "text": "who was NIMS co-founder but",
+      "start": 466.61,
+      "duration": 4.96
+    },
+    {
+      "text": "unfortunately now at Libre and Claudia",
+      "start": 468.75,
+      "duration": 3.44
+    },
+    {
+      "text": "Diaz",
+      "start": 471.57,
+      "duration": 4.159
+    },
+    {
+      "text": "kayuu loving but also now at NIMH",
+      "start": 472.19,
+      "duration": 6.34
+    },
+    {
+      "text": "basically simultaneously thought up in",
+      "start": 475.729,
+      "duration": 5.231
+    },
+    {
+      "text": "2004 they said well the way to measure",
+      "start": 478.53,
+      "duration": 8.58
+    },
+    {
+      "text": "in an enemy is not just an enemy set but",
+      "start": 480.96,
+      "duration": 9.75
+    },
+    {
+      "text": "entropy entropy is a well-defined",
+      "start": 487.11,
+      "duration": 6.39
+    },
+    {
+      "text": "mathematical notion we can say that you",
+      "start": 490.71,
+      "duration": 6.44
+    },
+    {
+      "text": "know given one message we can quantify",
+      "start": 493.5,
+      "duration": 6.949
+    },
+    {
+      "text": "what the possible sinners receivers are",
+      "start": 497.15,
+      "duration": 5.769
+    },
+    {
+      "text": "using entropy metrics and we can also",
+      "start": 500.449,
+      "duration": 4.27
+    },
+    {
+      "text": "kind of chain those metrics so that we",
+      "start": 502.919,
+      "duration": 3.18
+    },
+    {
+      "text": "can say well the message us this much",
+      "start": 504.719,
+      "duration": 3.931
+    },
+    {
+      "text": "entropy in this hop this much entropy",
+      "start": 506.099,
+      "duration": 5.22
+    },
+    {
+      "text": "after being mixed for so long if this",
+      "start": 508.65,
+      "duration": 5.28
+    },
+    {
+      "text": "much intra peed another hop and that",
+      "start": 511.319,
+      "duration": 6.631
+    },
+    {
+      "text": "Paul had no concept that that work was",
+      "start": 513.93,
+      "duration": 5.64
+    },
+    {
+      "text": "even going on so he independently",
+      "start": 517.95,
+      "duration": 5.1
+    },
+    {
+      "text": "thought of Onion Routing at or and then",
+      "start": 519.57,
+      "duration": 6.95
+    },
+    {
+      "text": "when he submitted the Tor paper to this",
+      "start": 523.05,
+      "duration": 5.34
+    },
+    {
+      "text": "conference call the privacy enhancing",
+      "start": 526.52,
+      "duration": 5.29
+    },
+    {
+      "text": "technologies a workshop they pezzi said",
+      "start": 528.39,
+      "duration": 5.889
+    },
+    {
+      "text": "oh this is a weird mix",
+      "start": 531.81,
+      "duration": 4.93
+    },
+    {
+      "text": "you've invented and I'm all basically",
+      "start": 534.279,
+      "duration": 4.05
+    },
+    {
+      "text": "like well that's not the point I'm not",
+      "start": 536.74,
+      "duration": 3.81
+    },
+    {
+      "text": "trying to mix traffic tor doesn't mix",
+      "start": 538.329,
+      "duration": 6.93
+    },
+    {
+      "text": "traffic we're not concerned about an",
+      "start": 540.55,
+      "duration": 6.57
+    },
+    {
+      "text": "adversary that watches the entire",
+      "start": 545.259,
+      "duration": 4.62
+    },
+    {
+      "text": "network we're concerned about hiding IP",
+      "start": 547.12,
+      "duration": 6.449
+    },
+    {
+      "text": "addresses and and you know trying to",
+      "start": 549.879,
+      "duration": 6.721
+    },
+    {
+      "text": "open circuits basically to allow and he",
+      "start": 553.569,
+      "duration": 6.151
+    },
+    {
+      "text": "thought this was a much more real-world",
+      "start": 556.6,
+      "duration": 6.359
+    },
+    {
+      "text": "design and now actually thinks that the",
+      "start": 559.72,
+      "duration": 5.039
+    },
+    {
+      "text": "the Snowden's latest book permanent",
+      "start": 562.959,
+      "duration": 4.831
+    },
+    {
+      "text": "record we actually know that before tour",
+      "start": 564.759,
+      "duration": 4.77
+    },
+    {
+      "text": "but actually what happen is when the CIA",
+      "start": 567.79,
+      "duration": 3.599
+    },
+    {
+      "text": "wanted to for example do a google search",
+      "start": 569.529,
+      "duration": 4.591
+    },
+    {
+      "text": "on someone they basically had to open a",
+      "start": 571.389,
+      "duration": 3.81
+    },
+    {
+      "text": "whole operation",
+      "start": 574.12,
+      "duration": 4.529
+    },
+    {
+      "text": "you know basically buy a computer and go",
+      "start": 575.199,
+      "duration": 5.221
+    },
+    {
+      "text": "to some weird place make a fake company",
+      "start": 578.649,
+      "duration": 3.66
+    },
+    {
+      "text": "just to basically do Google searches",
+      "start": 580.42,
+      "duration": 4.289
+    },
+    {
+      "text": "without revealing an IP address that",
+      "start": 582.309,
+      "duration": 5.871
+    },
+    {
+      "text": "went back to you know CIA gov that's in",
+      "start": 584.709,
+      "duration": 6.261
+    },
+    {
+      "text": "you know Snowden said well tor is great",
+      "start": 588.18,
+      "duration": 5.349
+    },
+    {
+      "text": "because it does defended the IP address",
+      "start": 590.97,
+      "duration": 5.08
+    },
+    {
+      "text": "so the CIA did have to do spend all this",
+      "start": 593.529,
+      "duration": 4.53
+    },
+    {
+      "text": "money anymore and tor is a great system",
+      "start": 596.05,
+      "duration": 4.11
+    },
+    {
+      "text": "it's it's the and when Paul Fogg tour",
+      "start": 598.059,
+      "duration": 5.76
+    },
+    {
+      "text": "and Roger and Nick actually built it it",
+      "start": 600.16,
+      "duration": 6.06
+    },
+    {
+      "text": "was the only real working anonymity",
+      "start": 603.819,
+      "duration": 4.681
+    },
+    {
+      "text": "system mixed networks were only used for",
+      "start": 606.22,
+      "duration": 4.71
+    },
+    {
+      "text": "what was called cyberpunk email",
+      "start": 608.5,
+      "duration": 5.91
+    },
+    {
+      "text": "remailers so they send anonymous emails",
+      "start": 610.93,
+      "duration": 6.389
+    },
+    {
+      "text": "to people and people to be honest",
+      "start": 614.41,
+      "duration": 5.52
+    },
+    {
+      "text": "Mixmaster which nicks from tor worked on",
+      "start": 617.319,
+      "duration": 4.681
+    },
+    {
+      "text": "and roger who eventually worked on tor",
+      "start": 619.93,
+      "duration": 5.279
+    },
+    {
+      "text": "worked on with george these systems like",
+      "start": 622.0,
+      "duration": 5.25
+    },
+    {
+      "text": "Mixmaster from lance s men and makes",
+      "start": 625.209,
+      "duration": 5.31
+    },
+    {
+      "text": "minion from george roger and nick they",
+      "start": 627.25,
+      "duration": 5.189
+    },
+    {
+      "text": "never really took off they were used by",
+      "start": 630.519,
+      "duration": 4.981
+    },
+    {
+      "text": "cypher punks but they were kind of used",
+      "start": 632.439,
+      "duration": 5.25
+    },
+    {
+      "text": "unusable and analyst problems you send",
+      "start": 635.5,
+      "duration": 3.329
+    },
+    {
+      "text": "the message you never know if you got a",
+      "start": 637.689,
+      "duration": 5.07
+    },
+    {
+      "text": "response it was really tricky Justi just",
+      "start": 638.829,
+      "duration": 6.831
+    },
+    {
+      "text": "to make sense of them for ordinary users",
+      "start": 642.759,
+      "duration": 7.02
+    },
+    {
+      "text": "while you know paul argue that tour was",
+      "start": 645.66,
+      "duration": 6.969
+    },
+    {
+      "text": "really easy to did one thing and did it",
+      "start": 649.779,
+      "duration": 6.12
+    },
+    {
+      "text": "very well in the he felt it did it you",
+      "start": 652.629,
+      "duration": 5.491
+    },
+    {
+      "text": "know what the people the crazy people",
+      "start": 655.899,
+      "duration": 4.021
+    },
+    {
+      "text": "were interested in mixed nets we're",
+      "start": 658.12,
+      "duration": 5.969
+    },
+    {
+      "text": "doing was a bit wacky because in reality",
+      "start": 659.92,
+      "duration": 7.44
+    },
+    {
+      "text": "you know you don't have an anonymous set",
+      "start": 664.089,
+      "duration": 5.94
+    },
+    {
+      "text": "that most adversaries know about the",
+      "start": 667.36,
+      "duration": 5.039
+    },
+    {
+      "text": "internet is not a you know uniformly",
+      "start": 670.029,
+      "duration": 3.24
+    },
+    {
+      "text": "connected",
+      "start": 672.399,
+      "duration": 2.401
+    },
+    {
+      "text": "you can't send messages out all at the",
+      "start": 673.269,
+      "duration": 3.931
+    },
+    {
+      "text": "same time the network has all these",
+      "start": 674.8,
+      "duration": 5.029
+    },
+    {
+      "text": "structured links kind of built into ISPs",
+      "start": 677.2,
+      "duration": 6.27
+    },
+    {
+      "text": "by default and he actually argues I",
+      "start": 679.829,
+      "duration": 5.141
+    },
+    {
+      "text": "think he argues in this paper pretty",
+      "start": 683.47,
+      "duration": 4.38
+    },
+    {
+      "text": "successfully that even though tor",
+      "start": 684.97,
+      "duration": 6.32
+    },
+    {
+      "text": "doesn't really fit this entropy based",
+      "start": 687.85,
+      "duration": 6.81
+    },
+    {
+      "text": "way to define an M&E anonymous",
+      "start": 691.29,
+      "duration": 7.45
+    },
+    {
+      "text": "communication systems it's a it's a it's",
+      "start": 694.66,
+      "duration": 6.66
+    },
+    {
+      "text": "it's it's it's fighting it's fighting a",
+      "start": 698.74,
+      "duration": 4.289
+    },
+    {
+      "text": "realistic adversary so he's really",
+      "start": 701.32,
+      "duration": 6.06
+    },
+    {
+      "text": "arguing that entropy and anonymity sets",
+      "start": 703.029,
+      "duration": 6.901
+    },
+    {
+      "text": "are not the best way to measure the",
+      "start": 707.38,
+      "duration": 6.48
+    },
+    {
+      "text": "success and the performance and that",
+      "start": 709.93,
+      "duration": 6.32
+    },
+    {
+      "text": "just the capability of a real world",
+      "start": 713.86,
+      "duration": 6.06
+    },
+    {
+      "text": "anonymous communication system my",
+      "start": 716.25,
+      "duration": 5.769
+    },
+    {
+      "text": "opinion on this is at the time that Paul",
+      "start": 719.92,
+      "duration": 5.28
+    },
+    {
+      "text": "wrote this he was basically right but",
+      "start": 722.019,
+      "duration": 6.421
+    },
+    {
+      "text": "that now weirdly enough you know 10 20",
+      "start": 725.2,
+      "duration": 10.71
+    },
+    {
+      "text": "years down the road it's actually the",
+      "start": 728.44,
+      "duration": 10.32
+    },
+    {
+      "text": "threat that Paul feels unrealistic an",
+      "start": 735.91,
+      "duration": 4.109
+    },
+    {
+      "text": "adversary that can watch the entire",
+      "start": 738.76,
+      "duration": 3.99
+    },
+    {
+      "text": "network and record all the communication",
+      "start": 740.019,
+      "duration": 5.281
+    },
+    {
+      "text": "between every link is actually realistic",
+      "start": 742.75,
+      "duration": 4.35
+    },
+    {
+      "text": "so that's kind of my disagreement with",
+      "start": 745.3,
+      "duration": 3.899
+    },
+    {
+      "text": "Paul but I think that's some context",
+      "start": 747.1,
+      "duration": 3.75
+    },
+    {
+      "text": "with the papers Paul's trying to defend",
+      "start": 749.199,
+      "duration": 4.08
+    },
+    {
+      "text": "tor against people who says all this",
+      "start": 750.85,
+      "duration": 4.109
+    },
+    {
+      "text": "system it doesn't really produce great",
+      "start": 753.279,
+      "duration": 3.691
+    },
+    {
+      "text": "entropy it's not as good as I mixed that",
+      "start": 754.959,
+      "duration": 4.5
+    },
+    {
+      "text": "it you know it doesn't really have a",
+      "start": 756.97,
+      "duration": 4.47
+    },
+    {
+      "text": "good definition for why it's anonymous",
+      "start": 759.459,
+      "duration": 5.041
+    },
+    {
+      "text": "or why it's more secure does that make",
+      "start": 761.44,
+      "duration": 9.57
+    },
+    {
+      "text": "sense that explanation totally okay so I",
+      "start": 764.5,
+      "duration": 8.279
+    },
+    {
+      "text": "mean I don't know I mean I'd like to",
+      "start": 771.01,
+      "duration": 3.12
+    },
+    {
+      "text": "hear what people think about tor and",
+      "start": 772.779,
+      "duration": 4.141
+    },
+    {
+      "text": "entropy and defining anonymous",
+      "start": 774.13,
+      "duration": 5.12
+    },
+    {
+      "text": "communication",
+      "start": 776.92,
+      "duration": 2.33
+    },
+    {
+      "text": "I'm just thinking that I always knew",
+      "start": 781.23,
+      "duration": 5.37
+    },
+    {
+      "text": "there's something wrong with tor and",
+      "start": 783.97,
+      "duration": 6.6
+    },
+    {
+      "text": "that kind of like explained it in some",
+      "start": 786.6,
+      "duration": 8.19
+    },
+    {
+      "text": "sense within some sense some sense I",
+      "start": 790.57,
+      "duration": 4.22
+    },
+    {
+      "text": "mean I wouldn't say that there's",
+      "start": 795.99,
+      "duration": 4.99
+    },
+    {
+      "text": "anything wrong with tor it's just that",
+      "start": 798.25,
+      "duration": 5.93
+    },
+    {
+      "text": "what Paul's arguing is that tor has a",
+      "start": 800.98,
+      "duration": 7.169
+    },
+    {
+      "text": "particular threat model which is you",
+      "start": 804.18,
+      "duration": 6.82
+    },
+    {
+      "text": "know it's trying to hide the IP address",
+      "start": 808.149,
+      "duration": 6.12
+    },
+    {
+      "text": "in the origin of large amounts of",
+      "start": 811.0,
+      "duration": 4.04
+    },
+    {
+      "text": "traffic",
+      "start": 814.269,
+      "duration": 4.111
+    },
+    {
+      "text": "and that doesn't rip that threat model",
+      "start": 815.04,
+      "duration": 4.9
+    },
+    {
+      "text": "which is realistic doesn't have anything",
+      "start": 818.38,
+      "duration": 4.319
+    },
+    {
+      "text": "really to do with entropy I mean I would",
+      "start": 819.94,
+      "duration": 4.92
+    },
+    {
+      "text": "argue Paul was right at the time and now",
+      "start": 822.699,
+      "duration": 4.111
+    },
+    {
+      "text": "time to change the bit but I still think",
+      "start": 824.86,
+      "duration": 6.45
+    },
+    {
+      "text": "Paul is a point that anonymous systems",
+      "start": 826.81,
+      "duration": 7.2
+    },
+    {
+      "text": "aren't easily mathematically definable",
+      "start": 831.31,
+      "duration": 6.0
+    },
+    {
+      "text": "and so in classical cryptography you",
+      "start": 834.01,
+      "duration": 7.17
+    },
+    {
+      "text": "know you have these very nice precise",
+      "start": 837.31,
+      "duration": 7.139
+    },
+    {
+      "text": "formal definitions of security like you",
+      "start": 841.18,
+      "duration": 5.01
+    },
+    {
+      "text": "have ciphertext and plaintext and given",
+      "start": 844.449,
+      "duration": 3.241
+    },
+    {
+      "text": "some ciphertext can I get to the plain",
+      "start": 846.19,
+      "duration": 5.28
+    },
+    {
+      "text": "text can I fake a signature can I I mean",
+      "start": 847.69,
+      "duration": 6.36
+    },
+    {
+      "text": "these are very well defined notions and",
+      "start": 851.47,
+      "duration": 4.59
+    },
+    {
+      "text": "you don't really and this is I think the",
+      "start": 854.05,
+      "duration": 3.539
+    },
+    {
+      "text": "philosophical point of paper you don't",
+      "start": 856.06,
+      "duration": 5.73
+    },
+    {
+      "text": "really have these definitions and at",
+      "start": 857.589,
+      "duration": 7.591
+    },
+    {
+      "text": "least in a really well understood form",
+      "start": 861.79,
+      "duration": 6.45
+    },
+    {
+      "text": "in anonymous communications and maybe a",
+      "start": 865.18,
+      "duration": 5.13
+    },
+    {
+      "text": "simple something simple which seems",
+      "start": 868.24,
+      "duration": 5.01
+    },
+    {
+      "text": "correct like entropy might not actually",
+      "start": 870.31,
+      "duration": 6.75
+    },
+    {
+      "text": "be the best way to define how an",
+      "start": 873.25,
+      "duration": 5.85
+    },
+    {
+      "text": "anonymous communication system should be",
+      "start": 877.06,
+      "duration": 9.69
+    },
+    {
+      "text": "judged so sorry guys I had to leave for",
+      "start": 879.1,
+      "duration": 8.58
+    },
+    {
+      "text": "five minutes",
+      "start": 886.75,
+      "duration": 4.019
+    },
+    {
+      "text": "but I can I can actually say something",
+      "start": 887.68,
+      "duration": 6.75
+    },
+    {
+      "text": "what what you just said I'd say I I",
+      "start": 890.769,
+      "duration": 4.5
+    },
+    {
+      "text": "don't",
+      "start": 894.43,
+      "duration": 3.2
+    },
+    {
+      "text": "at least from my impression or",
+      "start": 895.269,
+      "duration": 5.701
+    },
+    {
+      "text": "impression I'm pretty sure that this is",
+      "start": 897.63,
+      "duration": 6.43
+    },
+    {
+      "text": "not really about the title is a bit",
+      "start": 900.97,
+      "duration": 5.4
+    },
+    {
+      "text": "click Beatty but this is not really",
+      "start": 904.06,
+      "duration": 5.37
+    },
+    {
+      "text": "about why his is not an entropy",
+      "start": 906.37,
+      "duration": 7.17
+    },
+    {
+      "text": "what what is arguing is that entropy is",
+      "start": 909.43,
+      "duration": 8.899
+    },
+    {
+      "text": "not sufficient in quantifying anonymity",
+      "start": 913.54,
+      "duration": 8.64
+    },
+    {
+      "text": "because because of Tor because you",
+      "start": 918.329,
+      "duration": 6.37
+    },
+    {
+      "text": "cannot quantify because you cannot",
+      "start": 922.18,
+      "duration": 5.01
+    },
+    {
+      "text": "cannot put the entropy swaddle into",
+      "start": 924.699,
+      "duration": 7.74
+    },
+    {
+      "text": "torso you need some some some more more",
+      "start": 927.19,
+      "duration": 7.139
+    },
+    {
+      "text": "things that how you would",
+      "start": 932.439,
+      "duration": 4.8
+    },
+    {
+      "text": "quantify the unanimity and compare it",
+      "start": 934.329,
+      "duration": 6.11
+    },
+    {
+      "text": "between different anonymity networks and",
+      "start": 937.239,
+      "duration": 9.78
+    },
+    {
+      "text": "he had he had a solution proposal but he",
+      "start": 940.439,
+      "duration": 9.25
+    },
+    {
+      "text": "desirably go into it and I didn't really",
+      "start": 947.019,
+      "duration": 6.69
+    },
+    {
+      "text": "understand it because this is a how he",
+      "start": 949.689,
+      "duration": 7.471
+    },
+    {
+      "text": "puts it it's a breaking paper it's not a",
+      "start": 953.709,
+      "duration": 6.35
+    },
+    {
+      "text": "solution it just this wide",
+      "start": 957.16,
+      "duration": 5.579
+    },
+    {
+      "text": "anthropometric would not be sufficient",
+      "start": 960.059,
+      "duration": 6.611
+    },
+    {
+      "text": "in in in comparing anonymity systems",
+      "start": 962.739,
+      "duration": 8.46
+    },
+    {
+      "text": "would that be the same impressions or or",
+      "start": 966.67,
+      "duration": 8.49
+    },
+    {
+      "text": "or or did you guys think that this this",
+      "start": 971.199,
+      "duration": 6.48
+    },
+    {
+      "text": "is really just just saying that no the",
+      "start": 975.16,
+      "duration": 4.799
+    },
+    {
+      "text": "anthropometric is completely wrong we",
+      "start": 977.679,
+      "duration": 8.82
+    },
+    {
+      "text": "shouldn't use it yeah I mean that that",
+      "start": 979.959,
+      "duration": 8.79
+    },
+    {
+      "text": "leads into the next question right",
+      "start": 986.499,
+      "duration": 5.34
+    },
+    {
+      "text": "if entropy might be a good model for",
+      "start": 988.749,
+      "duration": 5.911
+    },
+    {
+      "text": "communication like an anonymizing",
+      "start": 991.839,
+      "duration": 6.21
+    },
+    {
+      "text": "communications even if we think that it",
+      "start": 994.66,
+      "duration": 5.849
+    },
+    {
+      "text": "is that is it still applicable to",
+      "start": 998.049,
+      "duration": 4.44
+    },
+    {
+      "text": "anonymizing Bitcoin transaction and to",
+      "start": 1000.509,
+      "duration": 7.471
+    },
+    {
+      "text": "analyzing coin Jones I'm not sure yeah",
+      "start": 1002.489,
+      "duration": 8.69
+    },
+    {
+      "text": "actually that's that's a good point that",
+      "start": 1007.98,
+      "duration": 9.329
+    },
+    {
+      "text": "as I see it in in Cohen joins the the",
+      "start": 1011.179,
+      "duration": 9.431
+    },
+    {
+      "text": "things what he's arguing is just not",
+      "start": 1017.309,
+      "duration": 6.87
+    },
+    {
+      "text": "there because in Cohen joins really what",
+      "start": 1020.61,
+      "duration": 5.51
+    },
+    {
+      "text": "really matters is the entropy because",
+      "start": 1024.179,
+      "duration": 5.581
+    },
+    {
+      "text": "every information is somewhat there on",
+      "start": 1026.12,
+      "duration": 6.76
+    },
+    {
+      "text": "the blockchain already so you can you",
+      "start": 1029.76,
+      "duration": 6.929
+    },
+    {
+      "text": "can cannot really go wrong with the",
+      "start": 1032.88,
+      "duration": 7.11
+    },
+    {
+      "text": "entropy on the other that that would be",
+      "start": 1036.689,
+      "duration": 6.39
+    },
+    {
+      "text": "that that would have be my point there",
+      "start": 1039.99,
+      "duration": 5.39
+    },
+    {
+      "text": "too",
+      "start": 1043.079,
+      "duration": 2.301
+    },
+    {
+      "text": "anyway yeah Adam I actually agree both",
+      "start": 1048.08,
+      "duration": 9.43
+    },
+    {
+      "text": "with you and Max here because so far",
+      "start": 1053.1,
+      "duration": 5.61
+    },
+    {
+      "text": "everything that you're doing for",
+      "start": 1057.51,
+      "duration": 4.02
+    },
+    {
+      "text": "enjoying in a program way it's still",
+      "start": 1058.71,
+      "duration": 4.95
+    },
+    {
+      "text": "relying on the entropy one way or",
+      "start": 1061.53,
+      "duration": 2.99
+    },
+    {
+      "text": "another",
+      "start": 1063.66,
+      "duration": 3.96
+    },
+    {
+      "text": "therefore yes everything that we have",
+      "start": 1064.52,
+      "duration": 6.7
+    },
+    {
+      "text": "heard so far about war and its flaws you",
+      "start": 1067.62,
+      "duration": 7.26
+    },
+    {
+      "text": "know all that in and about the paper",
+      "start": 1071.22,
+      "duration": 6.96
+    },
+    {
+      "text": "being against entropy means entropy",
+      "start": 1074.88,
+      "duration": 6.48
+    },
+    {
+      "text": "being valid probably I would say were",
+      "start": 1078.18,
+      "duration": 6.23
+    },
+    {
+      "text": "available enough reasoning coinsurance",
+      "start": 1081.36,
+      "duration": 5.37
+    },
+    {
+      "text": "there are thousands of methods to",
+      "start": 1084.41,
+      "duration": 3.73
+    },
+    {
+      "text": "achieve thousands of goals",
+      "start": 1086.73,
+      "duration": 3.51
+    },
+    {
+      "text": "therefore I think we just need to",
+      "start": 1088.14,
+      "duration": 5.0
+    },
+    {
+      "text": "understand whether the method should be",
+      "start": 1090.24,
+      "duration": 6.8
+    },
+    {
+      "text": "applicable or probably a bit modified or",
+      "start": 1093.14,
+      "duration": 7.06
+    },
+    {
+      "text": "actually useless or coin joint ease",
+      "start": 1097.04,
+      "duration": 6.34
+    },
+    {
+      "text": "which we are referring to right here",
+      "start": 1100.2,
+      "duration": 6.12
+    },
+    {
+      "text": "during this calls and I think that it",
+      "start": 1103.38,
+      "duration": 10.1
+    },
+    {
+      "text": "might be twit like you can be tweaked",
+      "start": 1106.32,
+      "duration": 10.97
+    },
+    {
+      "text": "but I do not think that we should just",
+      "start": 1113.48,
+      "duration": 7.51
+    },
+    {
+      "text": "cross the entropy out of everything that",
+      "start": 1117.29,
+      "duration": 10.65
+    },
+    {
+      "text": "we are doing to ensure they are green I",
+      "start": 1120.99,
+      "duration": 6.95
+    },
+    {
+      "text": "mean we have an entropy model exactly",
+      "start": 1128.18,
+      "duration": 8.95
+    },
+    {
+      "text": "one for Cohen joins the portsmen entropy",
+      "start": 1133.35,
+      "duration": 8.37
+    },
+    {
+      "text": "which is maybe the Shannon entropy if",
+      "start": 1137.13,
+      "duration": 6.96
+    },
+    {
+      "text": "you don't know what other why I think",
+      "start": 1141.72,
+      "duration": 6.36
+    },
+    {
+      "text": "that's that's that's really not a good",
+      "start": 1144.09,
+      "duration": 7.08
+    },
+    {
+      "text": "good way to go about that because you",
+      "start": 1148.08,
+      "duration": 5.0
+    },
+    {
+      "text": "can get surprises if you are not",
+      "start": 1151.17,
+      "duration": 6.72
+    },
+    {
+      "text": "weighing in the link link breaking stuff",
+      "start": 1153.08,
+      "duration": 8.01
+    },
+    {
+      "text": "like or the knapsack paper actually",
+      "start": 1157.89,
+      "duration": 8.25
+    },
+    {
+      "text": "worked out to degree so so yeah the",
+      "start": 1161.09,
+      "duration": 7.72
+    },
+    {
+      "text": "entropy model we should not repeat",
+      "start": 1166.14,
+      "duration": 6.96
+    },
+    {
+      "text": "that's for sure but in order to use it",
+      "start": 1168.81,
+      "duration": 6.36
+    },
+    {
+      "text": "we would have to work it out properly",
+      "start": 1173.1,
+      "duration": 4.39
+    },
+    {
+      "text": "right",
+      "start": 1175.17,
+      "duration": 4.88
+    },
+    {
+      "text": "yeah I actually a question here where is",
+      "start": 1177.49,
+      "duration": 4.42
+    },
+    {
+      "text": "the difference between Ronnie entropy",
+      "start": 1180.05,
+      "duration": 3.84
+    },
+    {
+      "text": "and Shannon entropy and Boltzmann and",
+      "start": 1181.91,
+      "duration": 7.41
+    },
+    {
+      "text": "repeat we just talked about it last",
+      "start": 1183.89,
+      "duration": 7.56
+    },
+    {
+      "text": "epistle then we get to the conclusion",
+      "start": 1189.32,
+      "duration": 8.55
+    },
+    {
+      "text": "that we don't know or what we think we",
+      "start": 1191.45,
+      "duration": 10.2
+    },
+    {
+      "text": "know is not what the author thinks he",
+      "start": 1197.87,
+      "duration": 9.09
+    },
+    {
+      "text": "knows so so I don't know so the thing is",
+      "start": 1201.65,
+      "duration": 9.78
+    },
+    {
+      "text": "that in the Boltzmann paper wait I want",
+      "start": 1206.96,
+      "duration": 6.06
+    },
+    {
+      "text": "to do it quickly because this is not",
+      "start": 1211.43,
+      "duration": 4.56
+    },
+    {
+      "text": "about the Boltzmann paper so it's not",
+      "start": 1213.02,
+      "duration": 4.77
+    },
+    {
+      "text": "even a paper it's a gist in the boys",
+      "start": 1215.99,
+      "duration": 6.39
+    },
+    {
+      "text": "longest the entropy looks like Shawn on",
+      "start": 1217.79,
+      "duration": 8.4
+    },
+    {
+      "text": "entropy so I started calling it Shannon",
+      "start": 1222.38,
+      "duration": 5.61
+    },
+    {
+      "text": "entropy under the comments and the",
+      "start": 1226.19,
+      "duration": 4.62
+    },
+    {
+      "text": "author said that oh it's it's not",
+      "start": 1227.99,
+      "duration": 7.56
+    },
+    {
+      "text": "Shannon entropy and well okay the paper",
+      "start": 1230.81,
+      "duration": 6.72
+    },
+    {
+      "text": "called what's Mars so it must be the",
+      "start": 1235.55,
+      "duration": 4.47
+    },
+    {
+      "text": "boys on entropy right but then oh we've",
+      "start": 1237.53,
+      "duration": 5.37
+    },
+    {
+      "text": "said there is no Boltzmann constant here",
+      "start": 1240.02,
+      "duration": 6.6
+    },
+    {
+      "text": "so it's not the boys when entropy and it",
+      "start": 1242.9,
+      "duration": 5.55
+    },
+    {
+      "text": "looks like the Shannon entropy so it",
+      "start": 1246.62,
+      "duration": 5.82
+    },
+    {
+      "text": "must be the Shannon entropy so it",
+      "start": 1248.45,
+      "duration": 5.79
+    },
+    {
+      "text": "supposed to be the Shannon entropy but",
+      "start": 1252.44,
+      "duration": 4.38
+    },
+    {
+      "text": "the author might know better and we",
+      "start": 1254.24,
+      "duration": 5.01
+    },
+    {
+      "text": "don't have time to really investigate",
+      "start": 1256.82,
+      "duration": 4.26
+    },
+    {
+      "text": "that and not even that important",
+      "start": 1259.25,
+      "duration": 4.8
+    },
+    {
+      "text": "question so so and I'm sorry for",
+      "start": 1261.08,
+      "duration": 4.5
+    },
+    {
+      "text": "interrupting do I understand correctly",
+      "start": 1264.05,
+      "duration": 5.46
+    },
+    {
+      "text": "that basically now there is no clear",
+      "start": 1265.58,
+      "duration": 6.72
+    },
+    {
+      "text": "differentiation between those three",
+      "start": 1269.51,
+      "duration": 7.74
+    },
+    {
+      "text": "types of entropy I could answer this",
+      "start": 1272.3,
+      "duration": 8.34
+    },
+    {
+      "text": "really briefly which is the way to think",
+      "start": 1277.25,
+      "duration": 7.17
+    },
+    {
+      "text": "about is that Shannon is entropy in bits",
+      "start": 1280.64,
+      "duration": 7.38
+    },
+    {
+      "text": "and so you know bits have you know",
+      "start": 1284.42,
+      "duration": 5.22
+    },
+    {
+      "text": "essentially it's two dimensions",
+      "start": 1288.02,
+      "duration": 5.63
+    },
+    {
+      "text": "everything's log base two",
+      "start": 1289.64,
+      "duration": 4.01
+    },
+    {
+      "text": "Rini entropy basically says well let's",
+      "start": 1294.34,
+      "duration": 6.88
+    },
+    {
+      "text": "imagine we have entropy across multiple",
+      "start": 1297.23,
+      "duration": 7.22
+    },
+    {
+      "text": "dimensions you know up to infinite",
+      "start": 1301.22,
+      "duration": 6.36
+    },
+    {
+      "text": "numbers of dimensions and tries to",
+      "start": 1304.45,
+      "duration": 6.28
+    },
+    {
+      "text": "capture that all within one measurement",
+      "start": 1307.58,
+      "duration": 5.25
+    },
+    {
+      "text": "so you can have entropy with three",
+      "start": 1310.73,
+      "duration": 3.96
+    },
+    {
+      "text": "dimensions or four dimensions or five",
+      "start": 1312.83,
+      "duration": 3.96
+    },
+    {
+      "text": "dimensions at least that's how I",
+      "start": 1314.69,
+      "duration": 4.83
+    },
+    {
+      "text": "understand it but I mean for most",
+      "start": 1316.79,
+      "duration": 5.85
+    },
+    {
+      "text": "computer science uses of the term",
+      "start": 1319.52,
+      "duration": 4.62
+    },
+    {
+      "text": "entropy I think we're talking Shannon",
+      "start": 1322.64,
+      "duration": 4.5
+    },
+    {
+      "text": "entropy the other entropy versions are",
+      "start": 1324.14,
+      "duration": 4.92
+    },
+    {
+      "text": "to mine understanding which is I think",
+      "start": 1327.14,
+      "duration": 3.63
+    },
+    {
+      "text": "quite limited in this regard er are",
+      "start": 1329.06,
+      "duration": 3.72
+    },
+    {
+      "text": "mostly useful and say like physics for",
+      "start": 1330.77,
+      "duration": 6.42
+    },
+    {
+      "text": "example so I wouldn't get too hung up on",
+      "start": 1332.78,
+      "duration": 6.5
+    },
+    {
+      "text": "it I think basically people mean",
+      "start": 1337.19,
+      "duration": 4.59
+    },
+    {
+      "text": "including I don't know why Paul Magers",
+      "start": 1339.28,
+      "duration": 3.94
+    },
+    {
+      "text": "ran the entropy in the beginning here",
+      "start": 1341.78,
+      "duration": 3.75
+    },
+    {
+      "text": "but I think most people basically when",
+      "start": 1343.22,
+      "duration": 3.78
+    },
+    {
+      "text": "they say entropy they mean Shannon",
+      "start": 1345.53,
+      "duration": 2.7
+    },
+    {
+      "text": "entropy they don't really mean anything",
+      "start": 1347.0,
+      "duration": 3.39
+    },
+    {
+      "text": "else hmm",
+      "start": 1348.23,
+      "duration": 4.59
+    },
+    {
+      "text": "and we are talking about another paper",
+      "start": 1350.39,
+      "duration": 6.81
+    },
+    {
+      "text": "that was the last last episode last",
+      "start": 1352.82,
+      "duration": 7.53
+    },
+    {
+      "text": "session that the entropy was defined as",
+      "start": 1357.2,
+      "duration": 7.71
+    },
+    {
+      "text": "follows so the entropy so the the gist",
+      "start": 1360.35,
+      "duration": 6.66
+    },
+    {
+      "text": "is called the Boyett's one distinct",
+      "start": 1364.91,
+      "duration": 6.54
+    },
+    {
+      "text": "advancement so that would say that it is",
+      "start": 1367.01,
+      "duration": 6.87
+    },
+    {
+      "text": "the Boltzmann entropy but the entropy is",
+      "start": 1371.45,
+      "duration": 7.2
+    },
+    {
+      "text": "defined as followed look to and the",
+      "start": 1373.88,
+      "duration": 7.89
+    },
+    {
+      "text": "number of possible valid combinations",
+      "start": 1378.65,
+      "duration": 5.64
+    },
+    {
+      "text": "which looks like the Shannon entropy",
+      "start": 1381.77,
+      "duration": 9.11
+    },
+    {
+      "text": "right it does unless there is some",
+      "start": 1384.29,
+      "duration": 9.81
+    },
+    {
+      "text": "circumstances for example that this like",
+      "start": 1390.88,
+      "duration": 6.49
+    },
+    {
+      "text": "semi law operates or there is some",
+      "start": 1394.1,
+      "duration": 5.04
+    },
+    {
+      "text": "additional condition or something like",
+      "start": 1397.37,
+      "duration": 4.5
+    },
+    {
+      "text": "that I mean a lot of things in",
+      "start": 1399.14,
+      "duration": 4.98
+    },
+    {
+      "text": "mathematics there are very similar to",
+      "start": 1401.87,
+      "duration": 4.95
+    },
+    {
+      "text": "each other unless there is AK one",
+      "start": 1404.12,
+      "duration": 4.62
+    },
+    {
+      "text": "condition that changes the whole thing",
+      "start": 1406.82,
+      "duration": 6.21
+    },
+    {
+      "text": "and actually defines some some property",
+      "start": 1408.74,
+      "duration": 10.71
+    },
+    {
+      "text": "something like that anyway yes this",
+      "start": 1413.03,
+      "duration": 8.67
+    },
+    {
+      "text": "paper talked a bit about entropy to that",
+      "start": 1419.45,
+      "duration": 6.18
+    },
+    {
+      "text": "I don't even know what he I mean maybe",
+      "start": 1421.7,
+      "duration": 9.21
+    },
+    {
+      "text": "all all he said is just his entropy in a",
+      "start": 1425.63,
+      "duration": 7.62
+    },
+    {
+      "text": "way that's different kind of entropy is",
+      "start": 1430.91,
+      "duration": 4.68
+    },
+    {
+      "text": "that he is preferring the Iranian",
+      "start": 1433.25,
+      "duration": 5.07
+    },
+    {
+      "text": "through P right am I am I remembering",
+      "start": 1435.59,
+      "duration": 5.6
+    },
+    {
+      "text": "right here",
+      "start": 1438.32,
+      "duration": 2.87
+    },
+    {
+      "text": "okay I remember well yes so he prefers",
+      "start": 1442.55,
+      "duration": 6.87
+    },
+    {
+      "text": "the rainy Anthropy for for some reasons",
+      "start": 1446.42,
+      "duration": 8.94
+    },
+    {
+      "text": "oh all right I think maybe I mean it",
+      "start": 1449.42,
+      "duration": 7.83
+    },
+    {
+      "text": "might be useful to talk about some of",
+      "start": 1455.36,
+      "duration": 5.91
+    },
+    {
+      "text": "what Paul argues so so so so what what",
+      "start": 1457.25,
+      "duration": 6.06
+    },
+    {
+      "text": "Paul's argument turns to entropy he says",
+      "start": 1461.27,
+      "duration": 4.74
+    },
+    {
+      "text": "well you know you have this kind of",
+      "start": 1463.31,
+      "duration": 5.01
+    },
+    {
+      "text": "theoretical way of measuring if",
+      "start": 1466.01,
+      "duration": 5.61
+    },
+    {
+      "text": "someone's anonymous or not but how",
+      "start": 1468.32,
+      "duration": 5.99
+    },
+    {
+      "text": "useful is that in the real world so",
+      "start": 1471.62,
+      "duration": 6.99
+    },
+    {
+      "text": "Paul's like argument is he says well you",
+      "start": 1474.31,
+      "duration": 7.36
+    },
+    {
+      "text": "know he says that he actually calls it",
+      "start": 1478.61,
+      "duration": 4.86
+    },
+    {
+      "text": "of everyone correctly that the threat",
+      "start": 1481.67,
+      "duration": 5.76
+    },
+    {
+      "text": "model of the man right we says well you",
+      "start": 1483.47,
+      "duration": 5.88
+    },
+    {
+      "text": "know the man can basically do anything",
+      "start": 1487.43,
+      "duration": 4.97
+    },
+    {
+      "text": "your network watch all all the nodes",
+      "start": 1489.35,
+      "duration": 7.82
+    },
+    {
+      "text": "delay packets drop packets compromise",
+      "start": 1492.4,
+      "duration": 7.21
+    },
+    {
+      "text": "compromise your the nodes in your",
+      "start": 1497.17,
+      "duration": 4.9
+    },
+    {
+      "text": "anonymous communication network and he",
+      "start": 1499.61,
+      "duration": 4.08
+    },
+    {
+      "text": "says you know when you look at like what",
+      "start": 1502.07,
+      "duration": 4.11
+    },
+    {
+      "text": "mixed nets were designed to fight they",
+      "start": 1503.69,
+      "duration": 5.85
+    },
+    {
+      "text": "were designed to fight an adversary that",
+      "start": 1506.18,
+      "duration": 5.16
+    },
+    {
+      "text": "Paul at least at the time he wrote this",
+      "start": 1509.54,
+      "duration": 3.78
+    },
+    {
+      "text": "feels isn't very realistic which is a",
+      "start": 1511.34,
+      "duration": 5.22
+    },
+    {
+      "text": "global passive adversary so this is an",
+      "start": 1513.32,
+      "duration": 6.66
+    },
+    {
+      "text": "adversary that can watch all of the",
+      "start": 1516.56,
+      "duration": 6.72
+    },
+    {
+      "text": "communication in a network all the",
+      "start": 1519.98,
+      "duration": 5.25
+    },
+    {
+      "text": "inputs and the outputs and every single",
+      "start": 1523.28,
+      "duration": 4.65
+    },
+    {
+      "text": "hop between every router in the Internet",
+      "start": 1525.23,
+      "duration": 7.11
+    },
+    {
+      "text": "and he says well you know imagine you",
+      "start": 1527.93,
+      "duration": 7.17
+    },
+    {
+      "text": "have this perfect mix net what you know",
+      "start": 1532.34,
+      "duration": 4.92
+    },
+    {
+      "text": "I think actually calls out Mix Master by",
+      "start": 1535.1,
+      "duration": 4.35
+    },
+    {
+      "text": "name which is the anonymous email",
+      "start": 1537.26,
+      "duration": 5.31
+    },
+    {
+      "text": "remailer that's you know kind of came",
+      "start": 1539.45,
+      "duration": 6.03
+    },
+    {
+      "text": "from the cypherpunks and he says you",
+      "start": 1542.57,
+      "duration": 6.02
+    },
+    {
+      "text": "know it's it's great if you have a",
+      "start": 1545.48,
+      "duration": 7.44
+    },
+    {
+      "text": "hundred people using this and those",
+      "start": 1548.59,
+      "duration": 7.45
+    },
+    {
+      "text": "people you know the entropy you can't",
+      "start": 1552.92,
+      "duration": 6.0
+    },
+    {
+      "text": "distinguish them at all so you know your",
+      "start": 1556.04,
+      "duration": 4.95
+    },
+    {
+      "text": "entropy is like whatever you know to the",
+      "start": 1558.92,
+      "duration": 3.57
+    },
+    {
+      "text": "eight whatever you know like eight or",
+      "start": 1560.99,
+      "duration": 3.24
+    },
+    {
+      "text": "eight or not you know something quite",
+      "start": 1562.49,
+      "duration": 3.66
+    },
+    {
+      "text": "point eight or nine bits of entropy",
+      "start": 1564.23,
+      "duration": 3.78
+    },
+    {
+      "text": "right so you can you said well that's",
+      "start": 1566.15,
+      "duration": 4.32
+    },
+    {
+      "text": "great you know you have a fair amount of",
+      "start": 1568.01,
+      "duration": 6.86
+    },
+    {
+      "text": "entropy but push comes to shove",
+      "start": 1570.47,
+      "duration": 4.4
+    },
+    {
+      "text": "you still have a very small amount of",
+      "start": 1575.14,
+      "duration": 6.21
+    },
+    {
+      "text": "users and then he says look at tour",
+      "start": 1578.56,
+      "duration": 6.44
+    },
+    {
+      "text": "which tour doesn't even claim and",
+      "start": 1581.35,
+      "duration": 5.73
+    },
+    {
+      "text": "explicitly doesn't claim to defend",
+      "start": 1585.0,
+      "duration": 3.61
+    },
+    {
+      "text": "against adversaries that can watch the",
+      "start": 1587.08,
+      "duration": 4.83
+    },
+    {
+      "text": "whole network but the impulses was not",
+      "start": 1588.61,
+      "duration": 4.92
+    },
+    {
+      "text": "very realistic that watching the whole",
+      "start": 1591.91,
+      "duration": 3.3
+    },
+    {
+      "text": "network instead what they would do is",
+      "start": 1593.53,
+      "duration": 5.75
+    },
+    {
+      "text": "they would attack particular routers",
+      "start": 1595.21,
+      "duration": 7.17
+    },
+    {
+      "text": "they would watch particular routers they",
+      "start": 1599.28,
+      "duration": 4.87
+    },
+    {
+      "text": "would you know do denial of service",
+      "start": 1602.38,
+      "duration": 4.25
+    },
+    {
+      "text": "attacks and all sorts of other stuff and",
+      "start": 1604.15,
+      "duration": 5.79
+    },
+    {
+      "text": "that this kind of adversary which I",
+      "start": 1606.63,
+      "duration": 5.77
+    },
+    {
+      "text": "think he kind of at the end",
+      "start": 1609.94,
+      "duration": 4.11
+    },
+    {
+      "text": "talks about being close to what's called",
+      "start": 1612.4,
+      "duration": 4.26
+    },
+    {
+      "text": "the roving adversary Asst or local",
+      "start": 1614.05,
+      "duration": 5.37
+    },
+    {
+      "text": "adversary that's very powerful miss prey",
+      "start": 1616.66,
+      "duration": 4.41
+    },
+    {
+      "text": "can do kind of what's called active",
+      "start": 1619.42,
+      "duration": 4.53
+    },
+    {
+      "text": "attacks can actually modify and change",
+      "start": 1621.07,
+      "duration": 5.91
+    },
+    {
+      "text": "packets rather than just writing them",
+      "start": 1623.95,
+      "duration": 5.58
+    },
+    {
+      "text": "down this kind of adversaries more",
+      "start": 1626.98,
+      "duration": 5.13
+    },
+    {
+      "text": "realistic it's it's less resource it's a",
+      "start": 1629.53,
+      "duration": 4.92
+    },
+    {
+      "text": "Paul argues it's a huge amount of",
+      "start": 1632.11,
+      "duration": 5.43
+    },
+    {
+      "text": "resources to copy every packet send on",
+      "start": 1634.45,
+      "duration": 3.87
+    },
+    {
+      "text": "the Internet",
+      "start": 1637.54,
+      "duration": 4.83
+    },
+    {
+      "text": "but it's not that many resources to copy",
+      "start": 1638.32,
+      "duration": 5.97
+    },
+    {
+      "text": "all the packets sit through an",
+      "start": 1642.37,
+      "duration": 5.1
+    },
+    {
+      "text": "individually suspicious router or every",
+      "start": 1644.29,
+      "duration": 5.25
+    },
+    {
+      "text": "packet going to like an individually",
+      "start": 1647.47,
+      "duration": 4.08
+    },
+    {
+      "text": "suspicious hidden service or tor exit",
+      "start": 1649.54,
+      "duration": 3.96
+    },
+    {
+      "text": "node you know whatever going to The",
+      "start": 1651.55,
+      "duration": 2.49
+    },
+    {
+      "text": "Pirate Bay",
+      "start": 1653.5,
+      "duration": 4.08
+    },
+    {
+      "text": "and and I think that's actually a really",
+      "start": 1654.04,
+      "duration": 6.8
+    },
+    {
+      "text": "strong argument it's it's not",
+      "start": 1657.58,
+      "duration": 5.82
+    },
+    {
+      "text": "necessarily false I think it's actually",
+      "start": 1660.84,
+      "duration": 5.74
+    },
+    {
+      "text": "correct and then what he argues is that",
+      "start": 1663.4,
+      "duration": 6.96
+    },
+    {
+      "text": "you know mixed networks that if no one's",
+      "start": 1666.58,
+      "duration": 5.46
+    },
+    {
+      "text": "using them that is it really that",
+      "start": 1670.36,
+      "duration": 6.21
+    },
+    {
+      "text": "anonymous while if you look at tor tor",
+      "start": 1672.04,
+      "duration": 7.95
+    },
+    {
+      "text": "just has a kind of poor entropy isn't",
+      "start": 1676.57,
+      "duration": 4.8
+    },
+    {
+      "text": "very good against global passive",
+      "start": 1679.99,
+      "duration": 6.06
+    },
+    {
+      "text": "adversaries but has a lot of users it's",
+      "start": 1681.37,
+      "duration": 7.8
+    },
+    {
+      "text": "very diverse and because tor circuits",
+      "start": 1686.05,
+      "duration": 5.52
+    },
+    {
+      "text": "keep switching every you know whatever",
+      "start": 1689.17,
+      "duration": 4.68
+    },
+    {
+      "text": "ten minutes or so so your entry node and",
+      "start": 1691.57,
+      "duration": 3.69
+    },
+    {
+      "text": "your exit node in the path through the",
+      "start": 1693.85,
+      "duration": 3.57
+    },
+    {
+      "text": "network changes every ten minutes or",
+      "start": 1695.26,
+      "duration": 5.07
+    },
+    {
+      "text": "whatever the the rate is that it's very",
+      "start": 1697.42,
+      "duration": 5.82
+    },
+    {
+      "text": "hard for an adversary to realistically",
+      "start": 1700.33,
+      "duration": 5.66
+    },
+    {
+      "text": "intercept too much of your traffic and",
+      "start": 1703.24,
+      "duration": 5.429
+    },
+    {
+      "text": "and so polls are that's a",
+      "start": 1705.99,
+      "duration": 6.61
+    },
+    {
+      "text": "more this kind of local active attacks",
+      "start": 1708.669,
+      "duration": 7.44
+    },
+    {
+      "text": "are much more realistic than these kind",
+      "start": 1712.6,
+      "duration": 5.549
+    },
+    {
+      "text": "of global passive attacks I think that's",
+      "start": 1716.109,
+      "duration": 4.861
+    },
+    {
+      "text": "a an interesting question which model is",
+      "start": 1718.149,
+      "duration": 4.26
+    },
+    {
+      "text": "more realistic and for what",
+      "start": 1720.97,
+      "duration": 4.889
+    },
+    {
+      "text": "quote-unquote the man can actually do so",
+      "start": 1722.409,
+      "duration": 4.71
+    },
+    {
+      "text": "I'd like to know what people think about",
+      "start": 1725.859,
+      "duration": 8.991
+    },
+    {
+      "text": "that I mean you can't but yeah but yours",
+      "start": 1727.119,
+      "duration": 12.03
+    },
+    {
+      "text": "so you can't can you how can you even",
+      "start": 1734.85,
+      "duration": 8.919
+    },
+    {
+      "text": "put the the Onion Routing into into an",
+      "start": 1739.149,
+      "duration": 7.59
+    },
+    {
+      "text": "entropy conception there is there is you",
+      "start": 1743.769,
+      "duration": 6.181
+    },
+    {
+      "text": "can't can do anything you can't define",
+      "start": 1746.739,
+      "duration": 5.13
+    },
+    {
+      "text": "entropy dare you you can't do anything",
+      "start": 1749.95,
+      "duration": 3.359
+    },
+    {
+      "text": "do you agree with that",
+      "start": 1751.869,
+      "duration": 5.341
+    },
+    {
+      "text": "so far or you think there is an anthro",
+      "start": 1753.309,
+      "duration": 7.531
+    },
+    {
+      "text": "pissed model that properly covers the",
+      "start": 1757.21,
+      "duration": 4.709
+    },
+    {
+      "text": "Onion Routing",
+      "start": 1760.84,
+      "duration": 8.01
+    },
+    {
+      "text": "use case and I I think it's it's wrong",
+      "start": 1761.919,
+      "duration": 9.661
+    },
+    {
+      "text": "to throw entropy out the window because",
+      "start": 1768.85,
+      "duration": 5.789
+    },
+    {
+      "text": "you can say well you know the the set of",
+      "start": 1771.58,
+      "duration": 7.979
+    },
+    {
+      "text": "all users of tor assume that you know",
+      "start": 1774.639,
+      "duration": 7.41
+    },
+    {
+      "text": "these packets or these circuits are",
+      "start": 1779.559,
+      "duration": 5.161
+    },
+    {
+      "text": "switched often enough you know or at",
+      "start": 1782.049,
+      "duration": 5.85
+    },
+    {
+      "text": "least unlink able in some regard to at",
+      "start": 1784.72,
+      "duration": 7.169
+    },
+    {
+      "text": "least their IP address but it is tricky",
+      "start": 1787.899,
+      "duration": 6.301
+    },
+    {
+      "text": "to think about that too really because",
+      "start": 1791.889,
+      "duration": 5.27
+    },
+    {
+      "text": "it's not actually true to basically say",
+      "start": 1794.2,
+      "duration": 8.359
+    },
+    {
+      "text": "tor has an easily measured an on be set",
+      "start": 1797.159,
+      "duration": 9.941
+    },
+    {
+      "text": "instead it's it's better to say you know",
+      "start": 1802.559,
+      "duration": 7.93
+    },
+    {
+      "text": "tor basically relies on a large",
+      "start": 1807.1,
+      "duration": 5.61
+    },
+    {
+      "text": "peer-to-peer network and a diversity of",
+      "start": 1810.489,
+      "duration": 6.3
+    },
+    {
+      "text": "routers to build some sort of practical",
+      "start": 1812.71,
+      "duration": 8.399
+    },
+    {
+      "text": "notion of anonymity and I think that",
+      "start": 1816.789,
+      "duration": 9.21
+    },
+    {
+      "text": "that's not incorrect that being said I I",
+      "start": 1821.109,
+      "duration": 8.07
+    },
+    {
+      "text": "I feel like Paul kind of what I would",
+      "start": 1825.999,
+      "duration": 4.5
+    },
+    {
+      "text": "say throws the baby out with the",
+      "start": 1829.179,
+      "duration": 5.07
+    },
+    {
+      "text": "bathwater so I think you know it's not",
+      "start": 1830.499,
+      "duration": 5.61
+    },
+    {
+      "text": "correct to say that mixed networks can",
+      "start": 1834.249,
+      "duration": 3.27
+    },
+    {
+      "text": "only defend against global passive",
+      "start": 1836.109,
+      "duration": 4.05
+    },
+    {
+      "text": "adversaries there's lots of I mean at",
+      "start": 1837.519,
+      "duration": 4.35
+    },
+    {
+      "text": "the time and Paul wrote that that was",
+      "start": 1840.159,
+      "duration": 2.651
+    },
+    {
+      "text": "basically true",
+      "start": 1841.869,
+      "duration": 4.541
+    },
+    {
+      "text": "but nowadays like Lou picks and NIM we",
+      "start": 1842.81,
+      "duration": 9.3
+    },
+    {
+      "text": "built active adversary attacks in and a",
+      "start": 1846.41,
+      "duration": 7.89
+    },
+    {
+      "text": "lot of them issues which Paul highlights",
+      "start": 1852.11,
+      "duration": 5.58
+    },
+    {
+      "text": "that networks are issues of usability",
+      "start": 1854.3,
+      "duration": 5.97
+    },
+    {
+      "text": "and performance and while I think it's",
+      "start": 1857.69,
+      "duration": 4.5
+    },
+    {
+      "text": "very very hard for mix networks to",
+      "start": 1860.27,
+      "duration": 6.18
+    },
+    {
+      "text": "achieve the performance of Tor I do",
+      "start": 1862.19,
+      "duration": 6.84
+    },
+    {
+      "text": "think they're getting a lot better",
+      "start": 1866.45,
+      "duration": 6.39
+    },
+    {
+      "text": "usability made a lot better and the",
+      "start": 1869.03,
+      "duration": 6.09
+    },
+    {
+      "text": "entropy is still a valid metric it",
+      "start": 1872.84,
+      "duration": 4.8
+    },
+    {
+      "text": "shouldn't be the only metric but it's if",
+      "start": 1875.12,
+      "duration": 5.72
+    },
+    {
+      "text": "you can't really give",
+      "start": 1877.64,
+      "duration": 6.12
+    },
+    {
+      "text": "indistinguishability between a global",
+      "start": 1880.84,
+      "duration": 6.16
+    },
+    {
+      "text": "passive adversary then it's not clear if",
+      "start": 1883.76,
+      "duration": 6.36
+    },
+    {
+      "text": "your system is is actually anonymous and",
+      "start": 1887.0,
+      "duration": 6.36
+    },
+    {
+      "text": "a strong sense because where I kind of",
+      "start": 1890.12,
+      "duration": 5.67
+    },
+    {
+      "text": "disagree with Paul's I think the NSA is",
+      "start": 1893.36,
+      "duration": 4.02
+    },
+    {
+      "text": "effectively a global passive adversary",
+      "start": 1895.79,
+      "duration": 5.52
+    },
+    {
+      "text": "that it is I mean you know maybe Iran",
+      "start": 1897.38,
+      "duration": 6.72
+    },
+    {
+      "text": "can't pull it off maybe you know France",
+      "start": 1901.31,
+      "duration": 4.5
+    },
+    {
+      "text": "can't pull it off but I think the",
+      "start": 1904.1,
+      "duration": 5.64
+    },
+    {
+      "text": "Americans combined at least GCHQ can",
+      "start": 1905.81,
+      "duration": 6.72
+    },
+    {
+      "text": "because they control a lot of their",
+      "start": 1909.74,
+      "duration": 5.24
+    },
+    {
+      "text": "insight the lots of routers actually do",
+      "start": 1912.53,
+      "duration": 5.97
+    },
+    {
+      "text": "mass traffic analysis on a level which I",
+      "start": 1914.98,
+      "duration": 8.14
+    },
+    {
+      "text": "think Paul thought was unrealistic yeah",
+      "start": 1918.5,
+      "duration": 7.44
+    },
+    {
+      "text": "but but the competing Sibylla ideas came",
+      "start": 1923.12,
+      "duration": 7.29
+    },
+    {
+      "text": "came in here that the NSA can't can't",
+      "start": 1925.94,
+      "duration": 7.11
+    },
+    {
+      "text": "watch China's traffic and China can't",
+      "start": 1930.41,
+      "duration": 5.85
+    },
+    {
+      "text": "watch America's traffic and and so on",
+      "start": 1933.05,
+      "duration": 5.67
+    },
+    {
+      "text": "right the big cities are competing with",
+      "start": 1936.26,
+      "duration": 4.44
+    },
+    {
+      "text": "each other because they don't share the",
+      "start": 1938.72,
+      "duration": 5.37
+    },
+    {
+      "text": "information with each other even even",
+      "start": 1940.7,
+      "duration": 6.41
+    },
+    {
+      "text": "the man even there is no word government",
+      "start": 1944.09,
+      "duration": 7.77
+    },
+    {
+      "text": "that is is there something missing from",
+      "start": 1947.11,
+      "duration": 8.43
+    },
+    {
+      "text": "that logic that that they can still",
+      "start": 1951.86,
+      "duration": 8.13
+    },
+    {
+      "text": "watch somehow each other's territory or",
+      "start": 1955.54,
+      "duration": 9.67
+    },
+    {
+      "text": "traffic yeah I think that's that's a",
+      "start": 1959.99,
+      "duration": 8.46
+    },
+    {
+      "text": "good point but it's it what Paul is",
+      "start": 1965.21,
+      "duration": 7.08
+    },
+    {
+      "text": "assuming or tor assumes is that your",
+      "start": 1968.45,
+      "duration": 7.44
+    },
+    {
+      "text": "threat model is this kind of locally",
+      "start": 1972.29,
+      "duration": 4.35
+    },
+    {
+      "text": "bound that",
+      "start": 1975.89,
+      "duration": 3.12
+    },
+    {
+      "text": "for sehri so that you know your threat",
+      "start": 1976.64,
+      "duration": 6.26
+    },
+    {
+      "text": "models the Chinese government and your",
+      "start": 1979.01,
+      "duration": 6.66
+    },
+    {
+      "text": "for example an American and you want or",
+      "start": 1982.9,
+      "duration": 4.96
+    },
+    {
+      "text": "Chinese dissident and you're trying to",
+      "start": 1985.67,
+      "duration": 5.16
+    },
+    {
+      "text": "basically escape that adversary should",
+      "start": 1987.86,
+      "duration": 6.42
+    },
+    {
+      "text": "only monitor a small portion of the",
+      "start": 1990.83,
+      "duration": 5.52
+    },
+    {
+      "text": "network may be only the Tor entry points",
+      "start": 1994.28,
+      "duration": 4.68
+    },
+    {
+      "text": "inside China but once you're you know",
+      "start": 1996.35,
+      "duration": 4.71
+    },
+    {
+      "text": "out of those of that network they can't",
+      "start": 1998.96,
+      "duration": 4.56
+    },
+    {
+      "text": "it's unrealistic for China that to",
+      "start": 2001.06,
+      "duration": 5.34
+    },
+    {
+      "text": "monitor the tor exit knows what you're",
+      "start": 2003.52,
+      "duration": 4.83
+    },
+    {
+      "text": "mostly going to let's say Silicon Valley",
+      "start": 2006.4,
+      "duration": 4.19
+    },
+    {
+      "text": "services Facebook Google whatever",
+      "start": 2008.35,
+      "duration": 9.41
+    },
+    {
+      "text": "Wikipedia that being said I don't know I",
+      "start": 2010.59,
+      "duration": 9.25
+    },
+    {
+      "text": "don't think that means you need to throw",
+      "start": 2017.76,
+      "duration": 4.57
+    },
+    {
+      "text": "in two P out because it's still useful",
+      "start": 2019.84,
+      "duration": 6.54
+    },
+    {
+      "text": "measure and it's also true that even",
+      "start": 2022.33,
+      "duration": 5.55
+    },
+    {
+      "text": "though maybe it's true that there's no",
+      "start": 2026.38,
+      "duration": 3.48
+    },
+    {
+      "text": "world government that can monitor all",
+      "start": 2027.88,
+      "duration": 5.13
+    },
+    {
+      "text": "the traffic all the time you know if I'm",
+      "start": 2029.86,
+      "duration": 6.96
+    },
+    {
+      "text": "the US government I can still monitor a",
+      "start": 2033.01,
+      "duration": 6.18
+    },
+    {
+      "text": "lot of entry nodes most of the entry",
+      "start": 2036.82,
+      "duration": 5.07
+    },
+    {
+      "text": "nodes which are in Europe and in the",
+      "start": 2039.19,
+      "duration": 5.07
+    },
+    {
+      "text": "United States and I can definitely",
+      "start": 2041.89,
+      "duration": 5.04
+    },
+    {
+      "text": "monitor the exit notes which in the",
+      "start": 2044.26,
+      "duration": 4.83
+    },
+    {
+      "text": "United States and therefore these kind",
+      "start": 2046.93,
+      "duration": 5.28
+    },
+    {
+      "text": "of timing correlation attacks that Paul",
+      "start": 2049.09,
+      "duration": 5.43
+    },
+    {
+      "text": "basically says well they're just kind of",
+      "start": 2052.21,
+      "duration": 4.709
+    },
+    {
+      "text": "theoretically interesting but they're",
+      "start": 2054.52,
+      "duration": 3.84
+    },
+    {
+      "text": "not practical I think those aren't",
+      "start": 2056.919,
+      "duration": 3.091
+    },
+    {
+      "text": "practical and I think the reason is",
+      "start": 2058.36,
+      "duration": 3.21
+    },
+    {
+      "text": "there's even been empirical stays it's",
+      "start": 2060.01,
+      "duration": 4.56
+    },
+    {
+      "text": "war I think Stephen Murdoch was the",
+      "start": 2061.57,
+      "duration": 4.32
+    },
+    {
+      "text": "first person to point this out the busy",
+      "start": 2064.57,
+      "duration": 4.62
+    },
+    {
+      "text": "says you know because most tor nodes are",
+      "start": 2065.89,
+      "duration": 5.7
+    },
+    {
+      "text": "in Europe and most users are toward the",
+      "start": 2069.19,
+      "duration": 4.05
+    },
+    {
+      "text": "United States and most big Internet",
+      "start": 2071.59,
+      "duration": 3.36
+    },
+    {
+      "text": "services in the United States you",
+      "start": 2073.24,
+      "duration": 4.169
+    },
+    {
+      "text": "actually look at tor traffic the",
+      "start": 2074.95,
+      "duration": 4.86
+    },
+    {
+      "text": "majority of it is folks coming from the",
+      "start": 2077.409,
+      "duration": 4.921
+    },
+    {
+      "text": "United States having the traffic shipped",
+      "start": 2079.81,
+      "duration": 4.23
+    },
+    {
+      "text": "over to Europe going through a few",
+      "start": 2082.33,
+      "duration": 3.27
+    },
+    {
+      "text": "relays in Europe and through the Chaos",
+      "start": 2084.04,
+      "duration": 3.84
+    },
+    {
+      "text": "Computer Club or whatnot and then being",
+      "start": 2085.6,
+      "duration": 4.559
+    },
+    {
+      "text": "shipped back to America to access Google",
+      "start": 2087.88,
+      "duration": 6.36
+    },
+    {
+      "text": "or Wikipedia or you know Amazon or",
+      "start": 2090.159,
+      "duration": 7.801
+    },
+    {
+      "text": "whatever and that's I think it while",
+      "start": 2094.24,
+      "duration": 5.78
+    },
+    {
+      "text": "it's unrealistic that an adversary can",
+      "start": 2097.96,
+      "duration": 4.38
+    },
+    {
+      "text": "monitor maybe every single internet",
+      "start": 2100.02,
+      "duration": 4.93
+    },
+    {
+      "text": "packet because you know China the US may",
+      "start": 2102.34,
+      "duration": 4.44
+    },
+    {
+      "text": "not cooperate or rush in the u.s. may",
+      "start": 2104.95,
+      "duration": 4.02
+    },
+    {
+      "text": "not cooperate it's probably true that",
+      "start": 2106.78,
+      "duration": 3.7
+    },
+    {
+      "text": "the but given a sir",
+      "start": 2108.97,
+      "duration": 3.22
+    },
+    {
+      "text": "user they might be able to monitor a",
+      "start": 2110.48,
+      "duration": 4.29
+    },
+    {
+      "text": "large portion and that portion is large",
+      "start": 2112.19,
+      "duration": 5.91
+    },
+    {
+      "text": "enough to reasonably approximate a",
+      "start": 2114.77,
+      "duration": 6.75
+    },
+    {
+      "text": "global passive adversary and so that's I",
+      "start": 2118.1,
+      "duration": 5.07
+    },
+    {
+      "text": "think the lesson from that would be sort",
+      "start": 2121.52,
+      "duration": 3.48
+    },
+    {
+      "text": "of something saying like oh you know",
+      "start": 2123.17,
+      "duration": 3.99
+    },
+    {
+      "text": "tour is great if your enemy is the",
+      "start": 2125.0,
+      "duration": 4.08
+    },
+    {
+      "text": "Chinese government it doesn't really",
+      "start": 2127.16,
+      "duration": 3.39
+    },
+    {
+      "text": "work super well China right now but it's",
+      "start": 2129.08,
+      "duration": 2.88
+    },
+    {
+      "text": "great if your enemies like a Chinese",
+      "start": 2130.55,
+      "duration": 5.04
+    },
+    {
+      "text": "government or the Iranian government or",
+      "start": 2131.96,
+      "duration": 7.56
+    },
+    {
+      "text": "even the French government or you know",
+      "start": 2135.59,
+      "duration": 5.85
+    },
+    {
+      "text": "the Hungarian government or you know a",
+      "start": 2139.52,
+      "duration": 4.38
+    },
+    {
+      "text": "government that doesn't have huge",
+      "start": 2141.44,
+      "duration": 4.29
+    },
+    {
+      "text": "amounts of surveillance powers but if",
+      "start": 2143.9,
+      "duration": 3.81
+    },
+    {
+      "text": "your enemies the United States",
+      "start": 2145.73,
+      "duration": 4.32
+    },
+    {
+      "text": "government and you happen to be in",
+      "start": 2147.71,
+      "duration": 5.25
+    },
+    {
+      "text": "Europe or the US or somewhere that's you",
+      "start": 2150.05,
+      "duration": 5.73
+    },
+    {
+      "text": "know not directly the adversarial with",
+      "start": 2152.96,
+      "duration": 5.76
+    },
+    {
+      "text": "them you know these attacks can story",
+      "start": 2155.78,
+      "duration": 7.77
+    },
+    {
+      "text": "thinker or not unrealistic does that",
+      "start": 2158.72,
+      "duration": 9.78
+    },
+    {
+      "text": "make sense yes can I since since you're",
+      "start": 2163.55,
+      "duration": 8.3
+    },
+    {
+      "text": "here and you know we have some",
+      "start": 2168.5,
+      "duration": 6.09
+    },
+    {
+      "text": "theoretical knowledge on mix networks",
+      "start": 2171.85,
+      "duration": 5.8
+    },
+    {
+      "text": "and and such because we reviewed some",
+      "start": 2174.59,
+      "duration": 6.18
+    },
+    {
+      "text": "papers regarding LDC nets dining",
+      "start": 2177.65,
+      "duration": 5.01
+    },
+    {
+      "text": "cryptographer networks but but you have",
+      "start": 2180.77,
+      "duration": 4.07
+    },
+    {
+      "text": "more practical knowledge on that and",
+      "start": 2182.66,
+      "duration": 6.6
+    },
+    {
+      "text": "it's it's not completely about this",
+      "start": 2184.84,
+      "duration": 7.12
+    },
+    {
+      "text": "paper but but since you're here I would",
+      "start": 2189.26,
+      "duration": 6.57
+    },
+    {
+      "text": "like to ask you that you know let's",
+      "start": 2191.96,
+      "duration": 6.659
+    },
+    {
+      "text": "let's make it let's let's make a",
+      "start": 2195.83,
+      "duration": 5.43
+    },
+    {
+      "text": "difference there that there is tor",
+      "start": 2198.619,
+      "duration": 5.971
+    },
+    {
+      "text": "traffic when you are accessing exit",
+      "start": 2201.26,
+      "duration": 5.849
+    },
+    {
+      "text": "nodes and the restore traffic when you",
+      "start": 2204.59,
+      "duration": 5.51
+    },
+    {
+      "text": "are inside the onion Network and you are",
+      "start": 2207.109,
+      "duration": 8.221
+    },
+    {
+      "text": "accessing only onion nodes on your sites",
+      "start": 2210.1,
+      "duration": 9.58
+    },
+    {
+      "text": "how would you how would you say but",
+      "start": 2215.33,
+      "duration": 6.84
+    },
+    {
+      "text": "what's the difference there is that",
+      "start": 2219.68,
+      "duration": 6.0
+    },
+    {
+      "text": "ultimately safer or or there are just",
+      "start": 2222.17,
+      "duration": 7.74
+    },
+    {
+      "text": "just this huge horse according to you in",
+      "start": 2225.68,
+      "duration": 10.05
+    },
+    {
+      "text": "in the privacy of those when you are",
+      "start": 2229.91,
+      "duration": 9.03
+    },
+    {
+      "text": "accessing onion only yeah I mean I mean",
+      "start": 2235.73,
+      "duration": 5.79
+    },
+    {
+      "text": "one huge advantage that tor has over",
+      "start": 2238.94,
+      "duration": 4.35
+    },
+    {
+      "text": "mixed networks is this ability to",
+      "start": 2241.52,
+      "duration": 2.88
+    },
+    {
+      "text": "essentially do web browser",
+      "start": 2243.29,
+      "duration": 2.91
+    },
+    {
+      "text": "and a half exit notes there's a really",
+      "start": 2244.4,
+      "duration": 5.66
+    },
+    {
+      "text": "clear mixed networks are not by nature",
+      "start": 2246.2,
+      "duration": 6.72
+    },
+    {
+      "text": "generically able to access any internet",
+      "start": 2250.06,
+      "duration": 7.33
+    },
+    {
+      "text": "service because the Internet by tcp/ip",
+      "start": 2252.92,
+      "duration": 6.09
+    },
+    {
+      "text": "by nature is kind of works in this or",
+      "start": 2257.39,
+      "duration": 6.15
+    },
+    {
+      "text": "stream based format and mixed nuts mix",
+      "start": 2259.01,
+      "duration": 8.34
+    },
+    {
+      "text": "every packet individually and so that",
+      "start": 2263.54,
+      "duration": 5.28
+    },
+    {
+      "text": "doesn't work very well for stream based",
+      "start": 2267.35,
+      "duration": 3.87
+    },
+    {
+      "text": "networks on some level I just want I",
+      "start": 2268.82,
+      "duration": 4.5
+    },
+    {
+      "text": "just want say I mean tour I think may",
+      "start": 2271.22,
+      "duration": 4.14
+    },
+    {
+      "text": "even be some sort of local optima might",
+      "start": 2273.32,
+      "duration": 3.54
+    },
+    {
+      "text": "be the best you could do for web",
+      "start": 2275.36,
+      "duration": 5.75
+    },
+    {
+      "text": "browsing and I think it's it you need",
+      "start": 2276.86,
+      "duration": 6.99
+    },
+    {
+      "text": "I'm not convinced that a lot of these",
+      "start": 2281.11,
+      "duration": 5.05
+    },
+    {
+      "text": "decentralized VPN concepts these other",
+      "start": 2283.85,
+      "duration": 3.54
+    },
+    {
+      "text": "things I'm seeing thrown around are ever",
+      "start": 2286.16,
+      "duration": 3.99
+    },
+    {
+      "text": "gonna be better than tour but I to P or",
+      "start": 2287.39,
+      "duration": 5.64
+    },
+    {
+      "text": "I don't know I so it's orchid thing I'm",
+      "start": 2290.15,
+      "duration": 5.46
+    },
+    {
+      "text": "not convinced 100% that will they're",
+      "start": 2293.03,
+      "duration": 3.66
+    },
+    {
+      "text": "better than tour I think it's",
+      "start": 2295.61,
+      "duration": 3.27
+    },
+    {
+      "text": "interesting they exist but and maybe",
+      "start": 2296.69,
+      "duration": 3.27
+    },
+    {
+      "text": "they have some incentive-based",
+      "start": 2298.88,
+      "duration": 2.96
+    },
+    {
+      "text": "advantages but they're not necessarily",
+      "start": 2299.96,
+      "duration": 6.06
+    },
+    {
+      "text": "going to be better that being said tour",
+      "start": 2301.84,
+      "duration": 8.14
+    },
+    {
+      "text": "onion services are definitely would",
+      "start": 2306.02,
+      "duration": 5.25
+    },
+    {
+      "text": "definitely be more secure because you're",
+      "start": 2309.98,
+      "duration": 3.21
+    },
+    {
+      "text": "always inside the Tor network so you",
+      "start": 2311.27,
+      "duration": 5.34
+    },
+    {
+      "text": "don't have these exit nodes that the NSA",
+      "start": 2313.19,
+      "duration": 5.79
+    },
+    {
+      "text": "or the man or you know the Chinese",
+      "start": 2316.61,
+      "duration": 4.32
+    },
+    {
+      "text": "government whoever could monitor very",
+      "start": 2318.98,
+      "duration": 5.54
+    },
+    {
+      "text": "easily I think you know you do have",
+      "start": 2320.93,
+      "duration": 6.84
+    },
+    {
+      "text": "hidden services you know inside it Tor",
+      "start": 2324.52,
+      "duration": 6.34
+    },
+    {
+      "text": "network and there can be a tax on they",
+      "start": 2327.77,
+      "duration": 4.62
+    },
+    {
+      "text": "can be attempts to D in autumn eyes with",
+      "start": 2330.86,
+      "duration": 2.73
+    },
+    {
+      "text": "hidden services there's been a lot of",
+      "start": 2332.39,
+      "duration": 4.41
+    },
+    {
+      "text": "research on that last few years and I I",
+      "start": 2333.59,
+      "duration": 4.29
+    },
+    {
+      "text": "would actually like to know from you",
+      "start": 2336.8,
+      "duration": 4.98
+    },
+    {
+      "text": "guys if people still feel hidden",
+      "start": 2337.88,
+      "duration": 5.88
+    },
+    {
+      "text": "services are safe I still basically",
+      "start": 2341.78,
+      "duration": 4.71
+    },
+    {
+      "text": "think they're safe and they work really",
+      "start": 2343.76,
+      "duration": 6.24
+    },
+    {
+      "text": "well or much safer than using a web",
+      "start": 2346.49,
+      "duration": 7.74
+    },
+    {
+      "text": "browser to a non hidden service and in",
+      "start": 2350.0,
+      "duration": 6.09
+    },
+    {
+      "text": "it's an advantage of Tor that they work",
+      "start": 2354.23,
+      "duration": 4.73
+    },
+    {
+      "text": "in and mixed networks essentially every",
+      "start": 2356.09,
+      "duration": 5.22
+    },
+    {
+      "text": "service inside of the mixed network has",
+      "start": 2358.96,
+      "duration": 4.12
+    },
+    {
+      "text": "to be kind of a little bit like a hidden",
+      "start": 2361.31,
+      "duration": 4.59
+    },
+    {
+      "text": "service because mixed network services",
+      "start": 2363.08,
+      "duration": 5.88
+    },
+    {
+      "text": "don't easily interface with websites",
+      "start": 2365.9,
+      "duration": 6.0
+    },
+    {
+      "text": "like the internet generic internet",
+      "start": 2368.96,
+      "duration": 7.14
+    },
+    {
+      "text": "services like tor can provide so yeah I",
+      "start": 2371.9,
+      "duration": 6.15
+    },
+    {
+      "text": "mean I know there a lot of attacks on",
+      "start": 2376.1,
+      "duration": 5.76
+    },
+    {
+      "text": "things like dark markets and stuff over",
+      "start": 2378.05,
+      "duration": 6.42
+    },
+    {
+      "text": "the last year or two that seemingly have",
+      "start": 2381.86,
+      "duration": 6.42
+    },
+    {
+      "text": "gotten worse i I don't anyone tracking",
+      "start": 2384.47,
+      "duration": 5.55
+    },
+    {
+      "text": "those I mean does there seem to be any",
+      "start": 2388.28,
+      "duration": 4.14
+    },
+    {
+      "text": "systemic issues with Toyota services I",
+      "start": 2390.02,
+      "duration": 3.42
+    },
+    {
+      "text": "would definitely say they're safer than",
+      "start": 2392.42,
+      "duration": 4.35
+    },
+    {
+      "text": "not using them but I'm not sure how",
+      "start": 2393.44,
+      "duration": 4.65
+    },
+    {
+      "text": "they're holding out right now like in",
+      "start": 2396.77,
+      "duration": 4.71
+    },
+    {
+      "text": "the real world I don't really hear news",
+      "start": 2398.09,
+      "duration": 6.29
+    },
+    {
+      "text": "about people getting the anonymized",
+      "start": 2401.48,
+      "duration": 8.61
+    },
+    {
+      "text": "because of Tor and it might not be",
+      "start": 2404.38,
+      "duration": 8.83
+    },
+    {
+      "text": "because tor is so secure but because",
+      "start": 2410.09,
+      "duration": 7.35
+    },
+    {
+      "text": "there are just so many low-hanging",
+      "start": 2413.21,
+      "duration": 8.13
+    },
+    {
+      "text": "fruits that that they can can go after",
+      "start": 2417.44,
+      "duration": 9.63
+    },
+    {
+      "text": "like oh the statistics is 60% of all a",
+      "start": 2421.34,
+      "duration": 9.33
+    },
+    {
+      "text": "dark net market users send the money",
+      "start": 2427.07,
+      "duration": 6.63
+    },
+    {
+      "text": "from dark net markets to know your",
+      "start": 2430.67,
+      "duration": 7.56
+    },
+    {
+      "text": "customer exchanges directly so I mean",
+      "start": 2433.7,
+      "duration": 7.17
+    },
+    {
+      "text": "why would you try to deny the Tor",
+      "start": 2438.23,
+      "duration": 5.61
+    },
+    {
+      "text": "network you have you have such",
+      "start": 2440.87,
+      "duration": 9.65
+    },
+    {
+      "text": "low-hanging fruits there too yeah",
+      "start": 2443.84,
+      "duration": 9.6
+    },
+    {
+      "text": "another another point you brought up DC",
+      "start": 2450.52,
+      "duration": 5.26
+    },
+    {
+      "text": "nuts is I mean let's just be very",
+      "start": 2453.44,
+      "duration": 5.34
+    },
+    {
+      "text": "there's basically like three fundamental",
+      "start": 2455.78,
+      "duration": 4.14
+    },
+    {
+      "text": "categories of anonymous communication",
+      "start": 2458.78,
+      "duration": 5.13
+    },
+    {
+      "text": "systems on the network level there is",
+      "start": 2459.92,
+      "duration": 7.23
+    },
+    {
+      "text": "Onion Routing systems like tor which are",
+      "start": 2463.91,
+      "duration": 6.9
+    },
+    {
+      "text": "effectively are kinds of what operate",
+      "start": 2467.15,
+      "duration": 4.92
+    },
+    {
+      "text": "effectively is a kind of decentralized",
+      "start": 2470.81,
+      "duration": 7.23
+    },
+    {
+      "text": "VPN let's say for a stream based circuit",
+      "start": 2472.07,
+      "duration": 8.97
+    },
+    {
+      "text": "based message internet traffic there's",
+      "start": 2478.04,
+      "duration": 5.27
+    },
+    {
+      "text": "mixed nets which basically mix messages",
+      "start": 2481.04,
+      "duration": 4.95
+    },
+    {
+      "text": "and a lot of the critique of Paul",
+      "start": 2483.31,
+      "duration": 4.21
+    },
+    {
+      "text": "against mixed nuts is he says well look",
+      "start": 2485.99,
+      "duration": 2.97
+    },
+    {
+      "text": "you know that that's there's those",
+      "start": 2487.52,
+      "duration": 4.77
+    },
+    {
+      "text": "threat models are very unrealistic and",
+      "start": 2488.96,
+      "duration": 4.68
+    },
+    {
+      "text": "no one really uses in the real world",
+      "start": 2492.29,
+      "duration": 3.92
+    },
+    {
+      "text": "while tour provides is very practical",
+      "start": 2493.64,
+      "duration": 5.36
+    },
+    {
+      "text": "benefit in terms of anonymity against",
+      "start": 2496.21,
+      "duration": 4.72
+    },
+    {
+      "text": "what he considers to be realistic",
+      "start": 2499.0,
+      "duration": 6.94
+    },
+    {
+      "text": "adversaries he's definitely right but DC",
+      "start": 2500.93,
+      "duration": 7.86
+    },
+    {
+      "text": "nuts are interesting so DC nuts without",
+      "start": 2505.94,
+      "duration": 5.88
+    },
+    {
+      "text": "any argument provide",
+      "start": 2508.79,
+      "duration": 5.88
+    },
+    {
+      "text": "with better or not enmity then mix",
+      "start": 2511.82,
+      "duration": 5.04
+    },
+    {
+      "text": "networks I mean they do there's this",
+      "start": 2514.67,
+      "duration": 3.36
+    },
+    {
+      "text": "kind of no question there because",
+      "start": 2516.86,
+      "duration": 4.56
+    },
+    {
+      "text": "everyone kind of does the computation on",
+      "start": 2518.03,
+      "duration": 5.76
+    },
+    {
+      "text": "the same packets but then I think a lot",
+      "start": 2521.42,
+      "duration": 4.2
+    },
+    {
+      "text": "of the critiques that Paul has against",
+      "start": 2523.79,
+      "duration": 4.44
+    },
+    {
+      "text": "mixed networks I would say mixed network",
+      "start": 2525.62,
+      "duration": 4.95
+    },
+    {
+      "text": "technology has evolved enough that those",
+      "start": 2528.23,
+      "duration": 3.93
+    },
+    {
+      "text": "critiques may not be necessary anymore",
+      "start": 2530.57,
+      "duration": 2.96
+    },
+    {
+      "text": "we'll talk about that maybe next time",
+      "start": 2532.16,
+      "duration": 4.25
+    },
+    {
+      "text": "but that those critiques are still very",
+      "start": 2533.53,
+      "duration": 5.22
+    },
+    {
+      "text": "possible against these see nets because",
+      "start": 2536.41,
+      "duration": 5.05
+    },
+    {
+      "text": "these see Nets you know have this",
+      "start": 2538.75,
+      "duration": 4.69
+    },
+    {
+      "text": "problem where everyone has to send the",
+      "start": 2541.46,
+      "duration": 5.01
+    },
+    {
+      "text": "messages at the same time and to all the",
+      "start": 2543.44,
+      "duration": 4.83
+    },
+    {
+      "text": "other participants and in real world",
+      "start": 2546.47,
+      "duration": 6.42
+    },
+    {
+      "text": "networks that that's really hard so I'd",
+      "start": 2548.27,
+      "duration": 6.0
+    },
+    {
+      "text": "like to know what people think about DC",
+      "start": 2552.89,
+      "duration": 3.03
+    },
+    {
+      "text": "Nets here okay I think deke read was",
+      "start": 2554.27,
+      "duration": 4.29
+    },
+    {
+      "text": "working on one I know Sarah from the",
+      "start": 2555.92,
+      "duration": 4.8
+    },
+    {
+      "text": "open privacy foundation is working on",
+      "start": 2558.56,
+      "duration": 5.04
+    },
+    {
+      "text": "water people interested in DC Nets are",
+      "start": 2560.72,
+      "duration": 6.84
+    },
+    {
+      "text": "trying to use them the thing is at least",
+      "start": 2563.6,
+      "duration": 8.01
+    },
+    {
+      "text": "my conclusion when we reviewed we review",
+      "start": 2567.56,
+      "duration": 8.67
+    },
+    {
+      "text": "the DC Nets paper and we reviewed queens",
+      "start": 2571.61,
+      "duration": 10.19
+    },
+    {
+      "text": "of plus plus which provides a DC net for",
+      "start": 2576.23,
+      "duration": 10.89
+    },
+    {
+      "text": "Bitcoin mixing and what he said there is",
+      "start": 2581.8,
+      "duration": 8.88
+    },
+    {
+      "text": "that when message sizes must be uniform",
+      "start": 2587.12,
+      "duration": 8.01
+    },
+    {
+      "text": "that's this kind of that's obvious but",
+      "start": 2590.68,
+      "duration": 11.59
+    },
+    {
+      "text": "the other thing is they argued that and",
+      "start": 2595.13,
+      "duration": 9.99
+    },
+    {
+      "text": "I'm not sure I understood the why but",
+      "start": 2602.27,
+      "duration": 6.6
+    },
+    {
+      "text": "they argued that that messages must be",
+      "start": 2605.12,
+      "duration": 7.94
+    },
+    {
+      "text": "fresh messages must be always fresh and",
+      "start": 2608.87,
+      "duration": 9.33
+    },
+    {
+      "text": "you cannot do a DC net that works",
+      "start": 2613.06,
+      "duration": 7.69
+    },
+    {
+      "text": "properly if the messages are not fresh",
+      "start": 2618.2,
+      "duration": 7.04
+    },
+    {
+      "text": "and with coin shaffer they actually",
+      "start": 2620.75,
+      "duration": 7.74
+    },
+    {
+      "text": "start that Vedic oh no no that was",
+      "start": 2625.24,
+      "duration": 6.07
+    },
+    {
+      "text": "decent not the Kratt sorry then I don't",
+      "start": 2628.49,
+      "duration": 5.64
+    },
+    {
+      "text": "know about the cred but via the argument",
+      "start": 2631.31,
+      "duration": 5.16
+    },
+    {
+      "text": "was there if the messages are not fresh",
+      "start": 2634.13,
+      "duration": 5.91
+    },
+    {
+      "text": "then you cannot do the DC Nets which",
+      "start": 2636.47,
+      "duration": 5.96
+    },
+    {
+      "text": "kind of means that it's it's useless for",
+      "start": 2640.04,
+      "duration": 3.6
+    },
+    {
+      "text": "communications",
+      "start": 2642.43,
+      "duration": 3.1
+    },
+    {
+      "text": "but for for their bit",
+      "start": 2643.64,
+      "duration": 6.57
+    },
+    {
+      "text": "purposes was was was good that any",
+      "start": 2645.53,
+      "duration": 12.9
+    },
+    {
+      "text": "anyone has remembers differently alright",
+      "start": 2650.21,
+      "duration": 11.73
+    },
+    {
+      "text": "so yeah I mean one way to think about DC",
+      "start": 2658.43,
+      "duration": 8.52
+    },
+    {
+      "text": "nuts is that you know it's like like you",
+      "start": 2661.94,
+      "duration": 6.39
+    },
+    {
+      "text": "said this is a very good example on",
+      "start": 2666.95,
+      "duration": 5.25
+    },
+    {
+      "text": "paper they have they're resistant to",
+      "start": 2668.33,
+      "duration": 5.82
+    },
+    {
+      "text": "more attacks and are more anonymous than",
+      "start": 2672.2,
+      "duration": 3.3
+    },
+    {
+      "text": "mixed nuts and torn",
+      "start": 2674.15,
+      "duration": 4.17
+    },
+    {
+      "text": "no questions asked but I think you know",
+      "start": 2675.5,
+      "duration": 4.59
+    },
+    {
+      "text": "when the points Paul's making is he",
+      "start": 2678.32,
+      "duration": 3.21
+    },
+    {
+      "text": "doesn't really talk about DC Nets and",
+      "start": 2680.09,
+      "duration": 3.63
+    },
+    {
+      "text": "while I'm not enter pissed is that even",
+      "start": 2681.53,
+      "duration": 4.23
+    },
+    {
+      "text": "though you had a DC net that had this I",
+      "start": 2683.72,
+      "duration": 3.96
+    },
+    {
+      "text": "kind of theoretically wonderful entropy",
+      "start": 2685.76,
+      "duration": 4.2
+    },
+    {
+      "text": "and worked against these theoretically",
+      "start": 2687.68,
+      "duration": 5.34
+    },
+    {
+      "text": "very powerful threat models the fact of",
+      "start": 2689.96,
+      "duration": 4.95
+    },
+    {
+      "text": "the matter is because it has these kind",
+      "start": 2693.02,
+      "duration": 3.93
+    },
+    {
+      "text": "of assumptions on fresh messages and",
+      "start": 2694.91,
+      "duration": 3.78
+    },
+    {
+      "text": "synchronous message passing and stuff",
+      "start": 2696.95,
+      "duration": 5.37
+    },
+    {
+      "text": "it's a really good system on paper but",
+      "start": 2698.69,
+      "duration": 5.19
+    },
+    {
+      "text": "it's unclear if any system that you'd",
+      "start": 2702.32,
+      "duration": 5.25
+    },
+    {
+      "text": "actually build would actually be",
+      "start": 2703.88,
+      "duration": 5.52
+    },
+    {
+      "text": "anonymous in any real sense that was",
+      "start": 2707.57,
+      "duration": 5.25
+    },
+    {
+      "text": "based on DC - well tor is the reverse",
+      "start": 2709.4,
+      "duration": 6.3
+    },
+    {
+      "text": "tor on paper you know I may not have",
+      "start": 2712.82,
+      "duration": 6.06
+    },
+    {
+      "text": "very formal definitions may not seem to",
+      "start": 2715.7,
+      "duration": 6.44
+    },
+    {
+      "text": "be that anonymous but has been this huge",
+      "start": 2718.88,
+      "duration": 5.55
+    },
+    {
+      "text": "real-world success story so even though",
+      "start": 2722.14,
+      "duration": 4.66
+    },
+    {
+      "text": "I'm working on it mixed net when the",
+      "start": 2724.43,
+      "duration": 4.68
+    },
+    {
+      "text": "folks from like member Wimble some of",
+      "start": 2726.8,
+      "duration": 3.6
+    },
+    {
+      "text": "them approached me they said what you",
+      "start": 2729.11,
+      "duration": 2.4
+    },
+    {
+      "text": "know member one ball has is like",
+      "start": 2730.4,
+      "duration": 3.18
+    },
+    {
+      "text": "interactive step in it which is",
+      "start": 2731.51,
+      "duration": 4.17
+    },
+    {
+      "text": "obviously something that needs network",
+      "start": 2733.58,
+      "duration": 4.95
+    },
+    {
+      "text": "level privacy and when they approached",
+      "start": 2735.68,
+      "duration": 4.65
+    },
+    {
+      "text": "me they said well should we use a mixed",
+      "start": 2738.53,
+      "duration": 4.71
+    },
+    {
+      "text": "net or tor I said I think you know mix",
+      "start": 2740.33,
+      "duration": 4.98
+    },
+    {
+      "text": "them the future is fine but for what",
+      "start": 2743.24,
+      "duration": 3.48
+    },
+    {
+      "text": "you're doing right now Jesus you've",
+      "start": 2745.31,
+      "duration": 4.53
+    },
+    {
+      "text": "already deployed nimble Wimble this is a",
+      "start": 2746.72,
+      "duration": 5.19
+    },
+    {
+      "text": "very dangerous attack on your",
+      "start": 2749.84,
+      "duration": 4.95
+    },
+    {
+      "text": "transaction privacy so in the name of",
+      "start": 2751.91,
+      "duration": 5.43
+    },
+    {
+      "text": "God use anonymous communication networks",
+      "start": 2754.79,
+      "duration": 5.76
+    },
+    {
+      "text": "that the largest possible anonymity set",
+      "start": 2757.34,
+      "duration": 5.49
+    },
+    {
+      "text": "and that therefore the largest possible",
+      "start": 2760.55,
+      "duration": 4.14
+    },
+    {
+      "text": "every user so you should use tor right",
+      "start": 2762.83,
+      "duration": 6.42
+    },
+    {
+      "text": "now rather than wait around for the NIM",
+      "start": 2764.69,
+      "duration": 6.87
+    },
+    {
+      "text": "mix net or try to build your own DC net",
+      "start": 2769.25,
+      "duration": 4.35
+    },
+    {
+      "text": "or something like that and I think",
+      "start": 2771.56,
+      "duration": 3.51
+    },
+    {
+      "text": "that's you know to be honest still the",
+      "start": 2773.6,
+      "duration": 4.2
+    },
+    {
+      "text": "case law systems I still think it's for",
+      "start": 2775.07,
+      "duration": 3.96
+    },
+    {
+      "text": "a lot of systems I mean",
+      "start": 2777.8,
+      "duration": 3.42
+    },
+    {
+      "text": "or works has tons of users now and that",
+      "start": 2779.03,
+      "duration": 5.07
+    },
+    {
+      "text": "shouldn't be thought about so from it",
+      "start": 2781.22,
+      "duration": 5.04
+    },
+    {
+      "text": "from a Bitcoin perspective I guess what",
+      "start": 2784.1,
+      "duration": 5.3
+    },
+    {
+      "text": "is likes I've read lots of papers about",
+      "start": 2786.26,
+      "duration": 6.3
+    },
+    {
+      "text": "anonymous Bitcoin transactions and new",
+      "start": 2789.4,
+      "duration": 5.67
+    },
+    {
+      "text": "kinds of privacy hands cryptocurrency",
+      "start": 2792.56,
+      "duration": 5.85
+    },
+    {
+      "text": "but I I think in reality like what you",
+      "start": 2795.07,
+      "duration": 5.26
+    },
+    {
+      "text": "said most people use Bitcoin and they",
+      "start": 2798.41,
+      "duration": 4.17
+    },
+    {
+      "text": "use mixers what are most people actually",
+      "start": 2800.33,
+      "duration": 4.65
+    },
+    {
+      "text": "using like in the real world that",
+      "start": 2802.58,
+      "duration": 6.41
+    },
+    {
+      "text": "provides good enough anonymity basically",
+      "start": 2804.98,
+      "duration": 6.6
+    },
+    {
+      "text": "that's pretty much it some people use",
+      "start": 2808.99,
+      "duration": 7.17
+    },
+    {
+      "text": "money rule most people use exchanges oh",
+      "start": 2811.58,
+      "duration": 8.28
+    },
+    {
+      "text": "yeah because he knows and and the",
+      "start": 2816.16,
+      "duration": 6.31
+    },
+    {
+      "text": "exchanges they use exchanges as mixers",
+      "start": 2819.86,
+      "duration": 8.13
+    },
+    {
+      "text": "so it's okay so it's like you explain",
+      "start": 2822.47,
+      "duration": 8.13
+    },
+    {
+      "text": "how would you use the exchange the mixer",
+      "start": 2827.99,
+      "duration": 4.41
+    },
+    {
+      "text": "just by translating the coin around a",
+      "start": 2830.6,
+      "duration": 4.8
+    },
+    {
+      "text": "bunch and oh no you send it to an",
+      "start": 2832.4,
+      "duration": 5.1
+    },
+    {
+      "text": "exchange and then you'll be draw it and",
+      "start": 2835.4,
+      "duration": 6.63
+    },
+    {
+      "text": "that's my chicken yeah yeah just Israel",
+      "start": 2837.5,
+      "duration": 8.76
+    },
+    {
+      "text": "to a new address that's it yes so it",
+      "start": 2842.03,
+      "duration": 6.09
+    },
+    {
+      "text": "doesn't provide you any anonymity",
+      "start": 2846.26,
+      "duration": 4.65
+    },
+    {
+      "text": "against the actual service provider just",
+      "start": 2848.12,
+      "duration": 7.26
+    },
+    {
+      "text": "for the outsiders right okay so some of",
+      "start": 2850.91,
+      "duration": 6.42
+    },
+    {
+      "text": "us store like they're just minting new",
+      "start": 2855.38,
+      "duration": 4.26
+    },
+    {
+      "text": "addresses basically and the exchange is",
+      "start": 2857.33,
+      "duration": 6.93
+    },
+    {
+      "text": "meeting that transaction exactly heats",
+      "start": 2859.64,
+      "duration": 12.3
+    },
+    {
+      "text": "it's not not rocket science but manually",
+      "start": 2864.26,
+      "duration": 13.62
+    },
+    {
+      "text": "created with an exchange yeah and how's",
+      "start": 2871.94,
+      "duration": 7.92
+    },
+    {
+      "text": "the real world attacks on this stuff",
+      "start": 2877.88,
+      "duration": 6.92
+    },
+    {
+      "text": "going so I had a Anya who was working on",
+      "start": 2879.86,
+      "duration": 8.04
+    },
+    {
+      "text": "the looping and mimics that she she",
+      "start": 2884.8,
+      "duration": 4.69
+    },
+    {
+      "text": "actually weirdly enough used to work for",
+      "start": 2887.9,
+      "duration": 6.09
+    },
+    {
+      "text": "chained alysus and my understanding is",
+      "start": 2889.49,
+      "duration": 7.98
+    },
+    {
+      "text": "that it's still very difficult for Chan",
+      "start": 2893.99,
+      "duration": 8.25
+    },
+    {
+      "text": "alysus to break most mixers and monera",
+      "start": 2897.47,
+      "duration": 6.66
+    },
+    {
+      "text": "I don't know what the extent I mean III",
+      "start": 2902.24,
+      "duration": 4.05
+    },
+    {
+      "text": "still feel it seems like even these very",
+      "start": 2904.13,
+      "duration": 5.37
+    },
+    {
+      "text": "simple techniques I wouldn't really use",
+      "start": 2906.29,
+      "duration": 4.83
+    },
+    {
+      "text": "them or advise when to use them but they",
+      "start": 2909.5,
+      "duration": 2.7
+    },
+    {
+      "text": "might I mean I don't",
+      "start": 2911.12,
+      "duration": 2.91
+    },
+    {
+      "text": "are you seeing any evidence these",
+      "start": 2912.2,
+      "duration": 3.21
+    },
+    {
+      "text": "techniques are being broken that",
+      "start": 2914.03,
+      "duration": 4.47
+    },
+    {
+      "text": "exchanges are watching out for this",
+      "start": 2915.41,
+      "duration": 5.31
+    },
+    {
+      "text": "behavior pattern and or what's going on",
+      "start": 2918.5,
+      "duration": 4.98
+    },
+    {
+      "text": "I mean what's the real world analysis no",
+      "start": 2920.72,
+      "duration": 6.72
+    },
+    {
+      "text": "I I don't think it can be broken",
+      "start": 2923.48,
+      "duration": 8.31
+    },
+    {
+      "text": "I mean 'men about wasabi but",
+      "start": 2927.44,
+      "duration": 8.82
+    },
+    {
+      "text": "specifically it cannot be broken because",
+      "start": 2931.79,
+      "duration": 8.61
+    },
+    {
+      "text": "the ones are equal so so that's it but",
+      "start": 2936.26,
+      "duration": 7.41
+    },
+    {
+      "text": "then people start merging their coins",
+      "start": 2940.4,
+      "duration": 7.05
+    },
+    {
+      "text": "together so that when when some people",
+      "start": 2943.67,
+      "duration": 6.84
+    },
+    {
+      "text": "do some really stupid things like they",
+      "start": 2947.45,
+      "duration": 8.19
+    },
+    {
+      "text": "come with no 10,000 Bitcoin and mixing",
+      "start": 2950.51,
+      "duration": 9.09
+    },
+    {
+      "text": "with 520 different kinds for two days",
+      "start": 2955.64,
+      "duration": 5.81
+    },
+    {
+      "text": "and then mix all their coins together",
+      "start": 2959.6,
+      "duration": 4.77
+    },
+    {
+      "text": "that's when they get obviously the",
+      "start": 2961.45,
+      "duration": 6.04
+    },
+    {
+      "text": "anonymize because well you can't hide an",
+      "start": 2964.37,
+      "duration": 7.16
+    },
+    {
+      "text": "elephant between a bunch of chiidren now",
+      "start": 2967.49,
+      "duration": 6.99
+    },
+    {
+      "text": "it's a good question if if some people",
+      "start": 2971.53,
+      "duration": 5.5
+    },
+    {
+      "text": "who who merge a bunch of coins together",
+      "start": 2974.48,
+      "duration": 6.6
+    },
+    {
+      "text": "like tens or hundreds of coins if they",
+      "start": 2977.03,
+      "duration": 6.75
+    },
+    {
+      "text": "get D anonymized in the same way too",
+      "start": 2981.08,
+      "duration": 8.01
+    },
+    {
+      "text": "like the very big guy and I'm not quite",
+      "start": 2983.78,
+      "duration": 10.76
+    },
+    {
+      "text": "sure I tried a couple of times but it's",
+      "start": 2989.09,
+      "duration": 9.72
+    },
+    {
+      "text": "it's computationally infeasible to to",
+      "start": 2994.54,
+      "duration": 9.82
+    },
+    {
+      "text": "try to find the valid valid matchings so",
+      "start": 2998.81,
+      "duration": 9.42
+    },
+    {
+      "text": "I'm not I think it is definitely not",
+      "start": 3004.36,
+      "duration": 6.09
+    },
+    {
+      "text": "getting the anonymized in practice and",
+      "start": 3008.23,
+      "duration": 5.03
+    },
+    {
+      "text": "even with people who are using it very",
+      "start": 3010.45,
+      "duration": 6.51
+    },
+    {
+      "text": "incorrectly they don't get D anonymized",
+      "start": 3013.26,
+      "duration": 7.74
+    },
+    {
+      "text": "because it's computationally expensive",
+      "start": 3016.96,
+      "duration": 8.49
+    },
+    {
+      "text": "and they are not trying to find",
+      "start": 3021.0,
+      "duration": 7.18
+    },
+    {
+      "text": "solutions they are not trying to do",
+      "start": 3025.45,
+      "duration": 5.22
+    },
+    {
+      "text": "anonymize at all because of the same",
+      "start": 3028.18,
+      "duration": 5.01
+    },
+    {
+      "text": "thing that i just said that most people",
+      "start": 3030.67,
+      "duration": 5.91
+    },
+    {
+      "text": "are sending money from darkened markets",
+      "start": 3033.19,
+      "duration": 5.58
+    },
+    {
+      "text": "to exchanges and and there is just so",
+      "start": 3036.58,
+      "duration": 4.35
+    },
+    {
+      "text": "many low-hanging fruits that they they",
+      "start": 3038.77,
+      "duration": 5.15
+    },
+    {
+      "text": "aren't even trying it seems so what they",
+      "start": 3040.93,
+      "duration": 5.189
+    },
+    {
+      "text": "settled weed is that",
+      "start": 3043.92,
+      "duration": 6.04
+    },
+    {
+      "text": "they start to flag transactions as",
+      "start": 3046.119,
+      "duration": 9.631
+    },
+    {
+      "text": "suspicious if they get mixed regardless",
+      "start": 3049.96,
+      "duration": 9.24
+    },
+    {
+      "text": "if it's even a change change address",
+      "start": 3055.75,
+      "duration": 6.359
+    },
+    {
+      "text": "that's obviously that's not even trying",
+      "start": 3059.2,
+      "duration": 6.78
+    },
+    {
+      "text": "to be unknown anonymize but like you",
+      "start": 3062.109,
+      "duration": 6.48
+    },
+    {
+      "text": "know it's just a change address but if",
+      "start": 3065.98,
+      "duration": 5.49
+    },
+    {
+      "text": "it's coming out of the mix then they",
+      "start": 3068.589,
+      "duration": 5.071
+    },
+    {
+      "text": "just flag it as suspicious and consider",
+      "start": 3071.47,
+      "duration": 5.7
+    },
+    {
+      "text": "it as as the same as as all other other",
+      "start": 3073.66,
+      "duration": 6.48
+    },
+    {
+      "text": "coins those actually gain some anonymity",
+      "start": 3077.17,
+      "duration": 6.6
+    },
+    {
+      "text": "by mixing so it's it's interesting I",
+      "start": 3080.14,
+      "duration": 6.05
+    },
+    {
+      "text": "don't know when they will actually start",
+      "start": 3083.77,
+      "duration": 5.22
+    },
+    {
+      "text": "looking into it but it doesn't seem to",
+      "start": 3086.19,
+      "duration": 6.639
+    },
+    {
+      "text": "be the case for now well anyway let's",
+      "start": 3088.99,
+      "duration": 7.53
+    },
+    {
+      "text": "let's be ahead of them instead of behind",
+      "start": 3092.829,
+      "duration": 12.841
+    },
+    {
+      "text": "oh ok so oh my god we are really getting",
+      "start": 3096.52,
+      "duration": 11.67
+    },
+    {
+      "text": "out of this paper I just want to ask you",
+      "start": 3105.67,
+      "duration": 5.909
+    },
+    {
+      "text": "this so and you might be interested in",
+      "start": 3108.19,
+      "duration": 6.99
+    },
+    {
+      "text": "this question of mine too because you",
+      "start": 3111.579,
+      "duration": 7.77
+    },
+    {
+      "text": "know in wasabi we ship it with tour with",
+      "start": 3115.18,
+      "duration": 6.0
+    },
+    {
+      "text": "the tour Damon and we are communicating",
+      "start": 3119.349,
+      "duration": 5.19
+    },
+    {
+      "text": "with the back-end server through the",
+      "start": 3121.18,
+      "duration": 5.55
+    },
+    {
+      "text": "tour Damon of course our back-end is",
+      "start": 3124.539,
+      "duration": 5.25
+    },
+    {
+      "text": "running over onion anyway the thing is",
+      "start": 3126.73,
+      "duration": 6.27
+    },
+    {
+      "text": "that in Cohen joins many people come",
+      "start": 3129.789,
+      "duration": 7.74
+    },
+    {
+      "text": "together and then the round phases have",
+      "start": 3133.0,
+      "duration": 7.829
+    },
+    {
+      "text": "some timeouts and actually all the",
+      "start": 3137.529,
+      "duration": 8.421
+    },
+    {
+      "text": "Bitcoin privacy research projects have",
+      "start": 3140.829,
+      "duration": 7.891
+    },
+    {
+      "text": "demonstrated that oh we can do our",
+      "start": 3145.95,
+      "duration": 5.349
+    },
+    {
+      "text": "rounds in 12 seconds and things like",
+      "start": 3148.72,
+      "duration": 7.349
+    },
+    {
+      "text": "that and in practice at least in wasabi",
+      "start": 3151.299,
+      "duration": 9.03
+    },
+    {
+      "text": "or or or anywhere it's always the",
+      "start": 3156.069,
+      "duration": 9.21
+    },
+    {
+      "text": "slowest peer that that that blocks the",
+      "start": 3160.329,
+      "duration": 8.52
+    },
+    {
+      "text": "round and we started to log",
+      "start": 3165.279,
+      "duration": 9.83
+    },
+    {
+      "text": "how how how much someone is delayed and",
+      "start": 3168.849,
+      "duration": 10.851
+    },
+    {
+      "text": "it seems like our time outs has to be",
+      "start": 3175.109,
+      "duration": 13.591
+    },
+    {
+      "text": "around 12 around 1 minute 20 seconds or",
+      "start": 3179.7,
+      "duration": 13.72
+    },
+    {
+      "text": "or 2 minutes or yeah maybe 2 minutes so",
+      "start": 3188.7,
+      "duration": 7.72
+    },
+    {
+      "text": "the slowest peer that responds it takes",
+      "start": 3193.42,
+      "duration": 7.22
+    },
+    {
+      "text": "in two minutes so my question would be",
+      "start": 3196.42,
+      "duration": 9.33
+    },
+    {
+      "text": "what is there any faster",
+      "start": 3200.64,
+      "duration": 8.85
+    },
+    {
+      "text": "anonymity network that we could utilize",
+      "start": 3205.75,
+      "duration": 7.41
+    },
+    {
+      "text": "instead of Tor that is like consistently",
+      "start": 3209.49,
+      "duration": 7.57
+    },
+    {
+      "text": "fast for everyone and the slowest peer",
+      "start": 3213.16,
+      "duration": 10.199
+    },
+    {
+      "text": "doesn't block the whole around I mean a",
+      "start": 3217.06,
+      "duration": 8.4
+    },
+    {
+      "text": "little bit so are you saying that that",
+      "start": 3223.359,
+      "duration": 6.091
+    },
+    {
+      "text": "the Tor network you think is slowing",
+      "start": 3225.46,
+      "duration": 6.12
+    },
+    {
+      "text": "stuff down enough that that's causing",
+      "start": 3229.45,
+      "duration": 6.03
+    },
+    {
+      "text": "more than a minute delay it's very fast",
+      "start": 3231.58,
+      "duration": 8.37
+    },
+    {
+      "text": "usually so yeah 50 people in around or",
+      "start": 3235.48,
+      "duration": 10.23
+    },
+    {
+      "text": "let's say 190 people responds within 10",
+      "start": 3239.95,
+      "duration": 9.18
+    },
+    {
+      "text": "seconds so who cares but the remaining",
+      "start": 3245.71,
+      "duration": 6.75
+    },
+    {
+      "text": "10 is just very very slow and they are",
+      "start": 3249.13,
+      "duration": 5.43
+    },
+    {
+      "text": "broking they're round so the rounds",
+      "start": 3252.46,
+      "duration": 4.32
+    },
+    {
+      "text": "cannot progress as fast as we would hope",
+      "start": 3254.56,
+      "duration": 6.299
+    },
+    {
+      "text": "to and and and do you think those are",
+      "start": 3256.78,
+      "duration": 6.839
+    },
+    {
+      "text": "tor people being blocked by tour or just",
+      "start": 3260.859,
+      "duration": 4.381
+    },
+    {
+      "text": "that's like an hypothesis that's or",
+      "start": 3263.619,
+      "duration": 3.571
+    },
+    {
+      "text": "might be part of it the blocking no I",
+      "start": 3265.24,
+      "duration": 5.34
+    },
+    {
+      "text": "believe it's it's people from some",
+      "start": 3267.19,
+      "duration": 5.909
+    },
+    {
+      "text": "strange countries or or just the route",
+      "start": 3270.58,
+      "duration": 5.97
+    },
+    {
+      "text": "is going through some strange guy yeah",
+      "start": 3273.099,
+      "duration": 6.541
+    },
+    {
+      "text": "that might be the case so it's actually",
+      "start": 3276.55,
+      "duration": 5.49
+    },
+    {
+      "text": "there's this is great website about tour",
+      "start": 3279.64,
+      "duration": 4.89
+    },
+    {
+      "text": "called metrics tor project",
+      "start": 3282.04,
+      "duration": 5.66
+    },
+    {
+      "text": "org and that lets you sort of see the",
+      "start": 3284.53,
+      "duration": 9.15
+    },
+    {
+      "text": "the kind of average Layton sees and tor",
+      "start": 3287.7,
+      "duration": 11.22
+    },
+    {
+      "text": "in terms of you know at least retrieving",
+      "start": 3293.68,
+      "duration": 7.919
+    },
+    {
+      "text": "what different files and different",
+      "start": 3298.92,
+      "duration": 5.679
+    },
+    {
+      "text": "servers and it basically says you know",
+      "start": 3301.599,
+      "duration": 7.351
+    },
+    {
+      "text": "currently you're not really seeing",
+      "start": 3304.599,
+      "duration": 7.381
+    },
+    {
+      "text": "anything above more than a second a few",
+      "start": 3308.95,
+      "duration": 4.11
+    },
+    {
+      "text": "seconds",
+      "start": 3311.98,
+      "duration": 4.98
+    },
+    {
+      "text": "delay it looks like one second delay",
+      "start": 3313.06,
+      "duration": 7.64
+    },
+    {
+      "text": "round trip so my suspicion would be too",
+      "start": 3316.96,
+      "duration": 6.81
+    },
+    {
+      "text": "small the problem is that that's exactly",
+      "start": 3320.7,
+      "duration": 6.07
+    },
+    {
+      "text": "what you said that that if there's the",
+      "start": 3323.77,
+      "duration": 5.25
+    },
+    {
+      "text": "problem at or if you are you forcing",
+      "start": 3326.77,
+      "duration": 4.52
+    },
+    {
+      "text": "everyone to use tor in your network yes",
+      "start": 3329.02,
+      "duration": 6.66
+    },
+    {
+      "text": "ok so the issue there is that is exactly",
+      "start": 3331.29,
+      "duration": 7.69
+    },
+    {
+      "text": "what you said that someone because the",
+      "start": 3335.68,
+      "duration": 6.33
+    },
+    {
+      "text": "majority of tor entry/exit nodes are not",
+      "start": 3338.98,
+      "duration": 6.6
+    },
+    {
+      "text": "evenly geographically dispersed so if",
+      "start": 3342.01,
+      "duration": 6.96
+    },
+    {
+      "text": "I'm in a weird country all the time and",
+      "start": 3345.58,
+      "duration": 5.55
+    },
+    {
+      "text": "I don't know oh I'm just gonna make one",
+      "start": 3348.97,
+      "duration": 4.38
+    },
+    {
+      "text": "I'm just gonna guess let's say I'm in",
+      "start": 3351.13,
+      "duration": 6.96
+    },
+    {
+      "text": "Western Samoa the nearest tor entry node",
+      "start": 3353.35,
+      "duration": 6.39
+    },
+    {
+      "text": "maybe there might not even be an entry",
+      "start": 3358.09,
+      "duration": 3.33
+    },
+    {
+      "text": "node in Western Samoa it might have to",
+      "start": 3359.74,
+      "duration": 6.81
+    },
+    {
+      "text": "go all the way to Hawaii and then you",
+      "start": 3361.42,
+      "duration": 7.08
+    },
+    {
+      "text": "know balance to Japan and then bounce to",
+      "start": 3366.55,
+      "duration": 4.38
+    },
+    {
+      "text": "Europe and then bounce back to the US",
+      "start": 3368.5,
+      "duration": 4.65
+    },
+    {
+      "text": "and then to the mystic the the sabi mix",
+      "start": 3370.93,
+      "duration": 5.07
+    },
+    {
+      "text": "and it seems to me and this this has",
+      "start": 3373.15,
+      "duration": 4.53
+    },
+    {
+      "text": "been our practical experience mixed",
+      "start": 3376.0,
+      "duration": 4.8
+    },
+    {
+      "text": "networks in them is that the giant",
+      "start": 3377.68,
+      "duration": 6.0
+    },
+    {
+      "text": "slowdowns almost always come from from",
+      "start": 3380.8,
+      "duration": 7.34
+    },
+    {
+      "text": "certain geographical places running",
+      "start": 3383.68,
+      "duration": 9.24
+    },
+    {
+      "text": "running nodes which have just a huge",
+      "start": 3388.14,
+      "duration": 6.73
+    },
+    {
+      "text": "latency problem and that problem",
+      "start": 3392.92,
+      "duration": 3.6
+    },
+    {
+      "text": "actually nothing to do with tor it just",
+      "start": 3394.87,
+      "duration": 4.32
+    },
+    {
+      "text": "us do the asserted hop the Tor circuit",
+      "start": 3396.52,
+      "duration": 5.52
+    },
+    {
+      "text": "or more likely the end user themselves",
+      "start": 3399.19,
+      "duration": 6.57
+    },
+    {
+      "text": "is in a jurisdiction or location which",
+      "start": 3402.04,
+      "duration": 5.97
+    },
+    {
+      "text": "doesn't have great tour access so the",
+      "start": 3405.76,
+      "duration": 5.19
+    },
+    {
+      "text": "way we attack that problem in the nib",
+      "start": 3408.01,
+      "duration": 5.67
+    },
+    {
+      "text": "mix that is we say well you know if",
+      "start": 3410.95,
+      "duration": 5.1
+    },
+    {
+      "text": "you're not satisfying a certain kind of",
+      "start": 3413.68,
+      "duration": 6.15
+    },
+    {
+      "text": "quality of service we kick you out but",
+      "start": 3416.05,
+      "duration": 6.18
+    },
+    {
+      "text": "then you know that the Tor network is a",
+      "start": 3419.83,
+      "duration": 5.46
+    },
+    {
+      "text": "volunteer run Network so it's it's",
+      "start": 3422.23,
+      "duration": 7.47
+    },
+    {
+      "text": "harder to some extent to remove poor",
+      "start": 3425.29,
+      "duration": 6.99
+    },
+    {
+      "text": "performing relays real it toward note",
+      "start": 3429.7,
+      "duration": 5.52
+    },
+    {
+      "text": "relays that built to have circuits which",
+      "start": 3432.28,
+      "duration": 5.94
+    },
+    {
+      "text": "may not be working very well so I think",
+      "start": 3435.22,
+      "duration": 8.1
+    },
+    {
+      "text": "it's a trade-off Michelle we mean that",
+      "start": 3438.22,
+      "duration": 8.01
+    },
+    {
+      "text": "the thing with tor circuits is one way",
+      "start": 3443.32,
+      "duration": 3.36
+    },
+    {
+      "text": "you",
+      "start": 3446.23,
+      "duration": 2.82
+    },
+    {
+      "text": "maybe solve this problem I forget how",
+      "start": 3446.68,
+      "duration": 3.69
+    },
+    {
+      "text": "long it takes to build a new tourist",
+      "start": 3449.05,
+      "duration": 3.36
+    },
+    {
+      "text": "circuit but it's you know it's on the",
+      "start": 3450.37,
+      "duration": 3.78
+    },
+    {
+      "text": "order of a few seconds but if you're if",
+      "start": 3452.41,
+      "duration": 5.55
+    },
+    {
+      "text": "you're if you only need timing delays of",
+      "start": 3454.15,
+      "duration": 7.41
+    },
+    {
+      "text": "a minute if someone slow and also helps",
+      "start": 3457.96,
+      "duration": 5.91
+    },
+    {
+      "text": "in terms of privacy you should probably",
+      "start": 3461.56,
+      "duration": 4.77
+    },
+    {
+      "text": "force everyone to rebuild their tour",
+      "start": 3463.87,
+      "duration": 7.11
+    },
+    {
+      "text": "circuit at every round and so everyone's",
+      "start": 3466.33,
+      "duration": 6.48
+    },
+    {
+      "text": "going to slow down what appears to be",
+      "start": 3470.98,
+      "duration": 3.45
+    },
+    {
+      "text": "initial slowdown to rebuild their Tour",
+      "start": 3472.81,
+      "duration": 3.48
+    },
+    {
+      "text": "circuit but they would have better",
+      "start": 3474.43,
+      "duration": 4.23
+    },
+    {
+      "text": "privacy because then the tour circuits",
+      "start": 3476.29,
+      "duration": 4.89
+    },
+    {
+      "text": "between rounds would be much harder to",
+      "start": 3478.66,
+      "duration": 5.22
+    },
+    {
+      "text": "connect and then maybe you could do some",
+      "start": 3481.18,
+      "duration": 4.47
+    },
+    {
+      "text": "sort of test where you test people's",
+      "start": 3483.88,
+      "duration": 5.1
+    },
+    {
+      "text": "latency very quickly somehow I have to",
+      "start": 3485.65,
+      "duration": 5.49
+    },
+    {
+      "text": "think about how to do that you know just",
+      "start": 3488.98,
+      "duration": 4.11
+    },
+    {
+      "text": "send the bike backs in the bike Ford",
+      "start": 3491.14,
+      "duration": 4.71
+    },
+    {
+      "text": "before letting them do the coin joint so",
+      "start": 3493.09,
+      "duration": 5.31
+    },
+    {
+      "text": "you could detect people who are in these",
+      "start": 3495.85,
+      "duration": 4.29
+    },
+    {
+      "text": "as you put it these kind of strange",
+      "start": 3498.4,
+      "duration": 5.19
+    },
+    {
+      "text": "locations which have huge slow doubts or",
+      "start": 3500.14,
+      "duration": 5.34
+    },
+    {
+      "text": "happen to have tor circuits that go",
+      "start": 3503.59,
+      "duration": 5.79
+    },
+    {
+      "text": "through these strange locations it's a",
+      "start": 3505.48,
+      "duration": 9.44
+    },
+    {
+      "text": "good idea oh yeah by the way we are",
+      "start": 3509.38,
+      "duration": 10.05
+    },
+    {
+      "text": "changing tor streams extremely",
+      "start": 3514.92,
+      "duration": 7.99
+    },
+    {
+      "text": "frequently like if you have five outputs",
+      "start": 3519.43,
+      "duration": 5.97
+    },
+    {
+      "text": "to register then you are going to change",
+      "start": 3522.91,
+      "duration": 8.64
+    },
+    {
+      "text": "tor streams very quickly and what I",
+      "start": 3525.4,
+      "duration": 9.69
+    },
+    {
+      "text": "realized from my unit test that you can",
+      "start": 3531.55,
+      "duration": 6.69
+    },
+    {
+      "text": "ask tor to change its stream and it's",
+      "start": 3535.09,
+      "duration": 8.25
+    },
+    {
+      "text": "going to change 90% of the times but for",
+      "start": 3538.24,
+      "duration": 8.4
+    },
+    {
+      "text": "10% you just going best effort and just",
+      "start": 3543.34,
+      "duration": 6.63
+    },
+    {
+      "text": "put it put you to the exact same stream",
+      "start": 3546.64,
+      "duration": 5.7
+    },
+    {
+      "text": "where you were before but anyway it's",
+      "start": 3549.97,
+      "duration": 5.43
+    },
+    {
+      "text": "just yeah it's not trying to be a jerk I",
+      "start": 3552.34,
+      "duration": 4.98
+    },
+    {
+      "text": "think that's actually my understanding",
+      "start": 3555.4,
+      "duration": 4.05
+    },
+    {
+      "text": "because I've noticed that as well is",
+      "start": 3557.32,
+      "duration": 6.15
+    },
+    {
+      "text": "that tor is doing a lot of the trying to",
+      "start": 3559.45,
+      "duration": 6.99
+    },
+    {
+      "text": "avoid these slow circuits so they're",
+      "start": 3563.47,
+      "duration": 4.92
+    },
+    {
+      "text": "doing a lot of bandwidth balancing and",
+      "start": 3566.44,
+      "duration": 4.32
+    },
+    {
+      "text": "it happens to be in toward there's a few",
+      "start": 3568.39,
+      "duration": 5.66
+    },
+    {
+      "text": "tor nodes which have a lot of capacity",
+      "start": 3570.76,
+      "duration": 6.84
+    },
+    {
+      "text": "so you know if it's too expensive the",
+      "start": 3574.05,
+      "duration": 6.16
+    },
+    {
+      "text": "ability circuit or the",
+      "start": 3577.6,
+      "duration": 4.62
+    },
+    {
+      "text": "trying to optimize your there's a",
+      "start": 3580.21,
+      "duration": 3.93
+    },
+    {
+      "text": "certain frequent number of circuits",
+      "start": 3582.22,
+      "duration": 3.36
+    },
+    {
+      "text": "you're going to just keep using those",
+      "start": 3584.14,
+      "duration": 3.51
+    },
+    {
+      "text": "again and again because they work well",
+      "start": 3585.58,
+      "duration": 4.86
+    },
+    {
+      "text": "which is kind of backwards but I think",
+      "start": 3587.65,
+      "duration": 4.17
+    },
+    {
+      "text": "that's why I would bet that's why that's",
+      "start": 3590.44,
+      "duration": 6.12
+    },
+    {
+      "text": "happening mm-hmm anyway guys let's get",
+      "start": 3591.82,
+      "duration": 7.56
+    },
+    {
+      "text": "back to the paper how about that",
+      "start": 3596.56,
+      "duration": 7.02
+    },
+    {
+      "text": "and oh it's already an hour into this",
+      "start": 3599.38,
+      "duration": 5.85
+    },
+    {
+      "text": "conversation oh my god",
+      "start": 3603.58,
+      "duration": 9.32
+    },
+    {
+      "text": "time is flying yes so do you guys have",
+      "start": 3605.23,
+      "duration": 9.93
+    },
+    {
+      "text": "anything what what did you take away",
+      "start": 3612.9,
+      "duration": 5.08
+    },
+    {
+      "text": "from this paper or just just some",
+      "start": 3615.16,
+      "duration": 8.429
+    },
+    {
+      "text": "interesting things like like anonymity",
+      "start": 3617.98,
+      "duration": 8.91
+    },
+    {
+      "text": "is all one area of security that is much",
+      "start": 3623.589,
+      "duration": 6.03
+    },
+    {
+      "text": "younger for example than confidentiality",
+      "start": 3626.89,
+      "duration": 5.43
+    },
+    {
+      "text": "or or any quotes like this from the",
+      "start": 3629.619,
+      "duration": 4.911
+    },
+    {
+      "text": "paper",
+      "start": 3632.32,
+      "duration": 2.21
+    },
+    {
+      "text": "that's a long silence there so let's see",
+      "start": 3640.23,
+      "duration": 10.859
+    },
+    {
+      "text": "I just wanted to point out the thing",
+      "start": 3645.93,
+      "duration": 8.87
+    },
+    {
+      "text": "that Harry mentioned previously about",
+      "start": 3651.089,
+      "duration": 6.691
+    },
+    {
+      "text": "you know how tall works and all that I",
+      "start": 3654.8,
+      "duration": 5.41
+    },
+    {
+      "text": "just think that I'm not sure what's a",
+      "start": 3657.78,
+      "duration": 5.549
+    },
+    {
+      "text": "good way to quantify the anonymity of",
+      "start": 3660.21,
+      "duration": 8.22
+    },
+    {
+      "text": "Tor or even like precisely for Bitcoin",
+      "start": 3663.329,
+      "duration": 8.311
+    },
+    {
+      "text": "but I just think the main point would be",
+      "start": 3668.43,
+      "duration": 7.8
+    },
+    {
+      "text": "to have enough honest or not malicious",
+      "start": 3671.64,
+      "duration": 9.709
+    },
+    {
+      "text": "tor exit nodes and also for people to",
+      "start": 3676.23,
+      "duration": 8.46
+    },
+    {
+      "text": "like on and off ramps in Bitcoin also",
+      "start": 3681.349,
+      "duration": 7.601
+    },
+    {
+      "text": "without kyc I mean that's what I think",
+      "start": 3684.69,
+      "duration": 8.909
+    },
+    {
+      "text": "the biggest threat for this like the man",
+      "start": 3688.95,
+      "duration": 9.389
+    },
+    {
+      "text": "attack for just you know looking at that",
+      "start": 3693.599,
+      "duration": 7.531
+    },
+    {
+      "text": "Network I mean they can do the forcing",
+      "start": 3698.339,
+      "duration": 6.621
+    },
+    {
+      "text": "and all the other stuff like locally if",
+      "start": 3701.13,
+      "duration": 8.219
+    },
+    {
+      "text": "needed for true ISPs or to wallet",
+      "start": 3704.96,
+      "duration": 6.879
+    },
+    {
+      "text": "services service providers or something",
+      "start": 3709.349,
+      "duration": 4.891
+    },
+    {
+      "text": "like that if people ain't using their",
+      "start": 3711.839,
+      "duration": 6.451
+    },
+    {
+      "text": "own node but yeah I just think that's a",
+      "start": 3714.24,
+      "duration": 21.54
+    },
+    {
+      "text": "pretty interesting idea it concerns our",
+      "start": 3718.29,
+      "duration": 19.86
+    },
+    {
+      "text": "previous conversation and it might",
+      "start": 3735.78,
+      "duration": 5.87
+    },
+    {
+      "text": "settle something given the fundamental",
+      "start": 3738.15,
+      "duration": 6.9
+    },
+    {
+      "text": "differences in mechanisms they did they",
+      "start": 3741.65,
+      "duration": 6.939
+    },
+    {
+      "text": "employ the adversaries they are intended",
+      "start": 3745.05,
+      "duration": 6.45
+    },
+    {
+      "text": "to resist and their basic designs",
+      "start": 3748.589,
+      "duration": 6.361
+    },
+    {
+      "text": "not to mention typical applications it",
+      "start": 3751.5,
+      "duration": 6.14
+    },
+    {
+      "text": "might seem impossible or at least",
+      "start": 3754.95,
+      "duration": 5.82
+    },
+    {
+      "text": "astonishing that anyone who works in",
+      "start": 3757.64,
+      "duration": 7.03
+    },
+    {
+      "text": "this area would ever confuse the two yet",
+      "start": 3760.77,
+      "duration": 6.38
+    },
+    {
+      "text": "for years it has been common for",
+      "start": 3764.67,
+      "duration": 5.55
+    },
+    {
+      "text": "publications by even top researchers in",
+      "start": 3767.15,
+      "duration": 5.53
+    },
+    {
+      "text": "anonymity communication to refer to",
+      "start": 3770.22,
+      "duration": 3.23
+    },
+    {
+      "text": "point",
+      "start": 3772.68,
+      "duration": 4.73
+    },
+    {
+      "text": "routing networks as mix nets or vice",
+      "start": 3773.45,
+      "duration": 4.919
+    },
+    {
+      "text": "versa",
+      "start": 3777.41,
+      "duration": 3.72
+    },
+    {
+      "text": "even with designers of on your routing",
+      "start": 3778.369,
+      "duration": 6.061
+    },
+    {
+      "text": "systems have been exceptionally guilty",
+      "start": 3781.13,
+      "duration": 8.07
+    },
+    {
+      "text": "of failing into this idiom so yeah he",
+      "start": 3784.43,
+      "duration": 8.429
+    },
+    {
+      "text": "evens differentiate on your routing and",
+      "start": 3789.2,
+      "duration": 9.629
+    },
+    {
+      "text": "mixed nuts completely yeah I mean I",
+      "start": 3792.859,
+      "duration": 8.821
+    },
+    {
+      "text": "think the best quote that I found the",
+      "start": 3798.829,
+      "duration": 7.831
+    },
+    {
+      "text": "paper i which i think is this Paul",
+      "start": 3801.68,
+      "duration": 9.47
+    },
+    {
+      "text": "strongest point is he says well you know",
+      "start": 3806.66,
+      "duration": 7.14
+    },
+    {
+      "text": "you know mixed nut should be you so this",
+      "start": 3811.15,
+      "duration": 5.469
+    },
+    {
+      "text": "is on page at least 13 from the Free",
+      "start": 3813.8,
+      "duration": 5.789
+    },
+    {
+      "text": "Haven PDF mix that an entropy can be",
+      "start": 3816.619,
+      "duration": 5.101
+    },
+    {
+      "text": "used for applications where as possible",
+      "start": 3819.589,
+      "duration": 4.201
+    },
+    {
+      "text": "to manage and to measure sets of",
+      "start": 3821.72,
+      "duration": 5.52
+    },
+    {
+      "text": "distinct users and on enemy providers",
+      "start": 3823.79,
+      "duration": 5.4
+    },
+    {
+      "text": "and the probability distributions on",
+      "start": 3827.24,
+      "duration": 4.109
+    },
+    {
+      "text": "their behaviors with voting being a",
+      "start": 3829.19,
+      "duration": 5.07
+    },
+    {
+      "text": "clear example but for general internet",
+      "start": 3831.349,
+      "duration": 3.421
+    },
+    {
+      "text": "use",
+      "start": 3834.26,
+      "duration": 3.63
+    },
+    {
+      "text": "they are overkill against almost every",
+      "start": 3834.77,
+      "duration": 6.03
+    },
+    {
+      "text": "adversary except unrealistic ones which",
+      "start": 3837.89,
+      "duration": 5.16
+    },
+    {
+      "text": "is where me and Paul disagree like the",
+      "start": 3840.8,
+      "duration": 4.83
+    },
+    {
+      "text": "global passive adversaries or incredibly",
+      "start": 3843.05,
+      "duration": 5.94
+    },
+    {
+      "text": "strong ones like quote unquote demand",
+      "start": 3845.63,
+      "duration": 6.36
+    },
+    {
+      "text": "and because of usability incentive",
+      "start": 3848.99,
+      "duration": 5.849
+    },
+    {
+      "text": "limitations and practice they do not",
+      "start": 3851.99,
+      "duration": 5.22
+    },
+    {
+      "text": "scale them ups protect against the man",
+      "start": 3854.839,
+      "duration": 5.101
+    },
+    {
+      "text": "anyways on the other hand a widely",
+      "start": 3857.21,
+      "duration": 4.859
+    },
+    {
+      "text": "distributed network like tor may already",
+      "start": 3859.94,
+      "duration": 4.74
+    },
+    {
+      "text": "offer better although still inadequate",
+      "start": 3862.069,
+      "duration": 7.951
+    },
+    {
+      "text": "protection so that's yeah that's an",
+      "start": 3864.68,
+      "duration": 6.96
+    },
+    {
+      "text": "argument as argument is we really need",
+      "start": 3870.02,
+      "duration": 4.559
+    },
+    {
+      "text": "to worry it's and this is an argument",
+      "start": 3871.64,
+      "duration": 5.4
+    },
+    {
+      "text": "which i think bitcoin is actually ahead",
+      "start": 3874.579,
+      "duration": 3.99
+    },
+    {
+      "text": "was ahead of anonymous communication",
+      "start": 3877.04,
+      "duration": 4.14
+    },
+    {
+      "text": "research and and and also the the",
+      "start": 3878.569,
+      "duration": 4.05
+    },
+    {
+      "text": "general field of white consensus",
+      "start": 3881.18,
+      "duration": 2.639
+    },
+    {
+      "text": "algorithms because since algorithms are",
+      "start": 3882.619,
+      "duration": 3.72
+    },
+    {
+      "text": "always concerned about you know what",
+      "start": 3883.819,
+      "duration": 3.841
+    },
+    {
+      "text": "percentage of nodes have to be",
+      "start": 3886.339,
+      "duration": 5.191
+    },
+    {
+      "text": "compromised to destroy consensus or to",
+      "start": 3887.66,
+      "duration": 5.52
+    },
+    {
+      "text": "you know destroy the system in general",
+      "start": 3891.53,
+      "duration": 5.549
+    },
+    {
+      "text": "and that's typically you know people in",
+      "start": 3893.18,
+      "duration": 6.12
+    },
+    {
+      "text": "security and to some extent anonymous",
+      "start": 3897.079,
+      "duration": 4.561
+    },
+    {
+      "text": "communication research tend to think",
+      "start": 3899.3,
+      "duration": 4.17
+    },
+    {
+      "text": "kind of more an all-or-nothing and",
+      "start": 3901.64,
+      "duration": 4.41
+    },
+    {
+      "text": "actually it's kind of these local",
+      "start": 3903.47,
+      "duration": 3.45
+    },
+    {
+      "text": "attacks",
+      "start": 3906.05,
+      "duration": 2.069
+    },
+    {
+      "text": "where you say assume the enemy's",
+      "start": 3906.92,
+      "duration": 3.149
+    },
+    {
+      "text": "compromised some large section network",
+      "start": 3908.119,
+      "duration": 4.5
+    },
+    {
+      "text": "but not the whole network those are I",
+      "start": 3910.069,
+      "duration": 4.651
+    },
+    {
+      "text": "think realistic and and and you know",
+      "start": 3912.619,
+      "duration": 4.921
+    },
+    {
+      "text": "that the the cryptocurrency community",
+      "start": 3914.72,
+      "duration": 4.77
+    },
+    {
+      "text": "has a lot to teach the anonymous",
+      "start": 3917.54,
+      "duration": 4.92
+    },
+    {
+      "text": "communications community here it's and I",
+      "start": 3919.49,
+      "duration": 5.099
+    },
+    {
+      "text": "I don't know Paul's even looking at an",
+      "start": 3922.46,
+      "duration": 4.8
+    },
+    {
+      "text": "honest cryptocurrency but I think some",
+      "start": 3924.589,
+      "duration": 5.22
+    },
+    {
+      "text": "of the same insights about kind of",
+      "start": 3927.26,
+      "duration": 5.49
+    },
+    {
+      "text": "real-world anonymity versus on paper on",
+      "start": 3929.809,
+      "duration": 4.891
+    },
+    {
+      "text": "enemy is definitely applies to both",
+      "start": 3932.75,
+      "duration": 7.22
+    },
+    {
+      "text": "crypto in the Tor interesting thoughts I",
+      "start": 3934.7,
+      "duration": 9.5
+    },
+    {
+      "text": "I'm more on the side of rather the",
+      "start": 3939.97,
+      "duration": 7.18
+    },
+    {
+      "text": "critic community should be looking into",
+      "start": 3944.2,
+      "duration": 6.18
+    },
+    {
+      "text": "anonymous communications more because I",
+      "start": 3947.15,
+      "duration": 7.29
+    },
+    {
+      "text": "don't think we know enough yeah I mean",
+      "start": 3950.38,
+      "duration": 6.07
+    },
+    {
+      "text": "it does agree there I I'm a bit shocked",
+      "start": 3954.44,
+      "duration": 4.44
+    },
+    {
+      "text": "that there hasn't been more people",
+      "start": 3956.45,
+      "duration": 6.33
+    },
+    {
+      "text": "looking into it I remember a long time",
+      "start": 3958.88,
+      "duration": 6.15
+    },
+    {
+      "text": "ago I think there was some rumor that",
+      "start": 3962.78,
+      "duration": 5.67
+    },
+    {
+      "text": "chain alysus was running lots of the",
+      "start": 3965.03,
+      "duration": 9.63
+    },
+    {
+      "text": "kind of full knows seed nodes yes 10% is",
+      "start": 3968.45,
+      "duration": 8.31
+    },
+    {
+      "text": "that is that definitely true or I mean",
+      "start": 3974.66,
+      "duration": 3.72
+    },
+    {
+      "text": "it's a bit of rumor for a long time but",
+      "start": 3976.76,
+      "duration": 4.4
+    },
+    {
+      "text": "I had trouble figuring it out that was",
+      "start": 3978.38,
+      "duration": 4.14
+    },
+    {
+      "text": "definitely true",
+      "start": 3981.16,
+      "duration": 6.639
+    },
+    {
+      "text": "there was a whistleblower but he said it",
+      "start": 3982.52,
+      "duration": 11.309
+    },
+    {
+      "text": "was around 2014-15 but he also said that",
+      "start": 3987.799,
+      "duration": 9.871
+    },
+    {
+      "text": "now it's like they can't they don't run",
+      "start": 3993.829,
+      "duration": 8.881
+    },
+    {
+      "text": "run almost they don't run much yeah I",
+      "start": 3997.67,
+      "duration": 7.11
+    },
+    {
+      "text": "mean I would think that that's a pretty",
+      "start": 4002.71,
+      "duration": 4.619
+    },
+    {
+      "text": "big risk if they could run enough of",
+      "start": 4004.78,
+      "duration": 13.35
+    },
+    {
+      "text": "nodes but good to know the transaction",
+      "start": 4007.329,
+      "duration": 12.961
+    },
+    {
+      "text": "broadcasting stuff is pretty hard to",
+      "start": 4018.13,
+      "duration": 6.959
+    },
+    {
+      "text": "figure out yeah I mean not specifically",
+      "start": 4020.29,
+      "duration": 7.289
+    },
+    {
+      "text": "just that but for example if they have a",
+      "start": 4025.089,
+      "duration": 3.99
+    },
+    {
+      "text": "lot of notes they have a lot of",
+      "start": 4027.579,
+      "duration": 3.571
+    },
+    {
+      "text": "information about the network itself and",
+      "start": 4029.079,
+      "duration": 5.191
+    },
+    {
+      "text": "a lot of people use kyc I don't think it",
+      "start": 4031.15,
+      "duration": 5.07
+    },
+    {
+      "text": "mattered mattered that's not that much",
+      "start": 4034.27,
+      "duration": 4.89
+    },
+    {
+      "text": "if there are this like let's say 10 or",
+      "start": 4036.22,
+      "duration": 4.27
+    },
+    {
+      "text": "20% if",
+      "start": 4039.16,
+      "duration": 4.41
+    },
+    {
+      "text": "of people that are not using these kyc",
+      "start": 4040.49,
+      "duration": 5.879
+    },
+    {
+      "text": "exchanges and using mixing services I",
+      "start": 4043.57,
+      "duration": 5.68
+    },
+    {
+      "text": "mean they are pretty easy to narrow down",
+      "start": 4046.369,
+      "duration": 5.521
+    },
+    {
+      "text": "anyway I mean that the biggest threat is",
+      "start": 4049.25,
+      "duration": 7.17
+    },
+    {
+      "text": "if they get big mass to surveil I don't",
+      "start": 4051.89,
+      "duration": 7.8
+    },
+    {
+      "text": "know it's just my intuition so it was a",
+      "start": 4056.42,
+      "duration": 6.03
+    },
+    {
+      "text": "huge problem because blue filtering",
+      "start": 4059.69,
+      "duration": 3.33
+    },
+    {
+      "text": "wallets",
+      "start": 4062.45,
+      "duration": 3.51
+    },
+    {
+      "text": "we're the ones who but everyone was",
+      "start": 4063.02,
+      "duration": 6.93
+    },
+    {
+      "text": "pushing and and it turned out to be a",
+      "start": 4065.96,
+      "duration": 7.2
+    },
+    {
+      "text": "huge privacy risk if there is a huge",
+      "start": 4069.95,
+      "duration": 6.0
+    },
+    {
+      "text": "adversary who is trying to collect a",
+      "start": 4073.16,
+      "duration": 6.51
+    },
+    {
+      "text": "bunch of bloom filters now but what",
+      "start": 4075.95,
+      "duration": 6.03
+    },
+    {
+      "text": "might be the largest risk the",
+      "start": 4079.67,
+      "duration": 5.16
+    },
+    {
+      "text": "transaction broadcasting for that they",
+      "start": 4081.98,
+      "duration": 4.56
+    },
+    {
+      "text": "might try to identify where the",
+      "start": 4084.83,
+      "duration": 5.22
+    },
+    {
+      "text": "transactions coming from but what the",
+      "start": 4086.54,
+      "duration": 6.91
+    },
+    {
+      "text": "electrons are Airport right that that",
+      "start": 4090.05,
+      "duration": 4.79
+    },
+    {
+      "text": "[Music]",
+      "start": 4093.45,
+      "duration": 4.42
+    },
+    {
+      "text": "electrum servers know everything about",
+      "start": 4094.84,
+      "duration": 6.209
+    },
+    {
+      "text": "electrum users and electron users are",
+      "start": 4097.87,
+      "duration": 6.699
+    },
+    {
+      "text": "there are a lot so that's that could be",
+      "start": 4101.049,
+      "duration": 7.691
+    },
+    {
+      "text": "this could be the largest yeah yeah that",
+      "start": 4104.569,
+      "duration": 8.581
+    },
+    {
+      "text": "exactly has been one of my like things",
+      "start": 4108.74,
+      "duration": 7.019
+    },
+    {
+      "text": "that I've been worried about also the",
+      "start": 4113.15,
+      "duration": 6.09
+    },
+    {
+      "text": "amount of electron nodes just run from",
+      "start": 4115.759,
+      "duration": 6.451
+    },
+    {
+      "text": "by these blocking in block chain",
+      "start": 4119.24,
+      "duration": 14.0
+    },
+    {
+      "text": "analysis companies what what's better",
+      "start": 4122.21,
+      "duration": 16.339
+    },
+    {
+      "text": "centralized back-end servers or electrum",
+      "start": 4133.24,
+      "duration": 10.329
+    },
+    {
+      "text": "servers those are decentralized but you",
+      "start": 4138.549,
+      "duration": 9.161
+    },
+    {
+      "text": "know we said we had a windy boat but you",
+      "start": 4143.569,
+      "duration": 7.411
+    },
+    {
+      "text": "know we just it would be even better if",
+      "start": 4147.71,
+      "duration": 7.109
+    },
+    {
+      "text": "we could just somehow like I don't know",
+      "start": 4150.98,
+      "duration": 7.41
+    },
+    {
+      "text": "evolve into even a a better conclusion",
+      "start": 4154.819,
+      "duration": 9.721
+    },
+    {
+      "text": "or solution I mean just think about",
+      "start": 4158.39,
+      "duration": 9.56
+    },
+    {
+      "text": "something outside of box",
+      "start": 4164.54,
+      "duration": 3.41
+    },
+    {
+      "text": "oh yeah anyway thank you guys this was a",
+      "start": 4172.819,
+      "duration": 12.29
+    },
+    {
+      "text": "really interesting conversation and Oh",
+      "start": 4180.65,
+      "duration": 7.89
+    },
+    {
+      "text": "anyone would like to talk about anything",
+      "start": 4185.109,
+      "duration": 12.371
+    },
+    {
+      "text": "before before I I say goodbye I'm good",
+      "start": 4188.54,
+      "duration": 10.28
+    },
+    {
+      "text": "thanks",
+      "start": 4197.48,
+      "duration": 4.98
+    },
+    {
+      "text": "yeah this was thanks thanks for inviting",
+      "start": 4198.82,
+      "duration": 7.33
+    },
+    {
+      "text": "me I'll Ford out the loop picks paper",
+      "start": 4202.46,
+      "duration": 7.85
+    },
+    {
+      "text": "and the NIM link after the meeting and",
+      "start": 4206.15,
+      "duration": 6.239
+    },
+    {
+      "text": "yeah I think it should be good follow-up",
+      "start": 4210.31,
+      "duration": 6.01
+    },
+    {
+      "text": "to how the mix of that community",
+      "start": 4212.389,
+      "duration": 5.73
+    },
+    {
+      "text": "responded I think though all these",
+      "start": 4216.32,
+      "duration": 4.47
+    },
+    {
+      "text": "critiques which I think are at the time",
+      "start": 4218.119,
+      "duration": 4.341
+    },
+    {
+      "text": "their original these were very correct",
+      "start": 4220.79,
+      "duration": 3.869
+    },
+    {
+      "text": "from Paul and this why I'm not an",
+      "start": 4222.46,
+      "duration": 3.759
+    },
+    {
+      "text": "interface paper so this paper is",
+      "start": 4224.659,
+      "duration": 3.781
+    },
+    {
+      "text": "actually I think hugely important and I",
+      "start": 4226.219,
+      "duration": 4.23
+    },
+    {
+      "text": "I'm really glad you brought it up",
+      "start": 4228.44,
+      "duration": 4.29
+    },
+    {
+      "text": "because it it does really distinguish",
+      "start": 4230.449,
+      "duration": 3.871
+    },
+    {
+      "text": "between again you know why certain",
+      "start": 4232.73,
+      "duration": 4.5
+    },
+    {
+      "text": "real-world systems have really good",
+      "start": 4234.32,
+      "duration": 6.24
+    },
+    {
+      "text": "anonymity properties and how certain",
+      "start": 4237.23,
+      "duration": 5.61
+    },
+    {
+      "text": "systems we've seen that would be they",
+      "start": 4240.56,
+      "duration": 4.65
+    },
+    {
+      "text": "would be better might not but at the",
+      "start": 4242.84,
+      "duration": 4.71
+    },
+    {
+      "text": "same point what I want to try to say is",
+      "start": 4245.21,
+      "duration": 4.71
+    },
+    {
+      "text": "that you know that doesn't mean you",
+      "start": 4247.55,
+      "duration": 4.02
+    },
+    {
+      "text": "should just throw all the metrics now",
+      "start": 4249.92,
+      "duration": 3.21
+    },
+    {
+      "text": "that means you should try to make the",
+      "start": 4251.57,
+      "duration": 4.799
+    },
+    {
+      "text": "metrics more realistic and it improve",
+      "start": 4253.13,
+      "duration": 6.66
+    },
+    {
+      "text": "the system that you currently have so it",
+      "start": 4256.369,
+      "duration": 5.761
+    },
+    {
+      "text": "the because the thing about threat",
+      "start": 4259.79,
+      "duration": 4.05
+    },
+    {
+      "text": "models particularly things like the",
+      "start": 4262.13,
+      "duration": 3.33
+    },
+    {
+      "text": "global passive adversary this person",
+      "start": 4263.84,
+      "duration": 3.48
+    },
+    {
+      "text": "that's watching all the peer-to-peer",
+      "start": 4265.46,
+      "duration": 3.449
+    },
+    {
+      "text": "broadcasts or watching the Internet",
+      "start": 4267.32,
+      "duration": 5.31
+    },
+    {
+      "text": "traffic even you know even if you said",
+      "start": 4268.909,
+      "duration": 6.121
+    },
+    {
+      "text": "hey the NSA's watching our traffic even",
+      "start": 4272.63,
+      "duration": 4.08
+    },
+    {
+      "text": "you said that right before snowed in",
+      "start": 4275.03,
+      "duration": 4.379
+    },
+    {
+      "text": "2012 people would think you're a bit",
+      "start": 4276.71,
+      "duration": 4.639
+    },
+    {
+      "text": "crazy but then it ends up actually",
+      "start": 4279.409,
+      "duration": 5.401
+    },
+    {
+      "text": "harddrive space is cheap analysis is",
+      "start": 4281.349,
+      "duration": 7.421
+    },
+    {
+      "text": "quite good and you have something which",
+      "start": 4284.81,
+      "duration": 7.32
+    },
+    {
+      "text": "is very much more powerful than what",
+      "start": 4288.77,
+      "duration": 5.159
+    },
+    {
+      "text": "people thought that there were very few",
+      "start": 4292.13,
+      "duration": 3.93
+    },
+    {
+      "text": "attacks on cryptography but there was",
+      "start": 4293.929,
+      "duration": 5.161
+    },
+    {
+      "text": "because it was easy to do because hard",
+      "start": 4296.06,
+      "duration": 5.369
+    },
+    {
+      "text": "drive space is cheap we do know the NSA",
+      "start": 4299.09,
+      "duration": 5.16
+    },
+    {
+      "text": "was capable of doing mass metadata and",
+      "start": 4301.429,
+      "duration": 5.25
+    },
+    {
+      "text": "traffic analysis and I would assume that",
+      "start": 4304.25,
+      "duration": 4.38
+    },
+    {
+      "text": "the same case for cryptocurrency even",
+      "start": 4306.679,
+      "duration": 2.971
+    },
+    {
+      "text": "though we might not have as much",
+      "start": 4308.63,
+      "duration": 5.159
+    },
+    {
+      "text": "evidence and so we shouldn't even though",
+      "start": 4309.65,
+      "duration": 7.039
+    },
+    {
+      "text": "even the threat model seems unrealistic",
+      "start": 4313.789,
+      "duration": 5.131
+    },
+    {
+      "text": "we really should think what is likely",
+      "start": 4316.689,
+      "duration": 4.99
+    },
+    {
+      "text": "realistic given just what is actually",
+      "start": 4318.92,
+      "duration": 5.549
+    },
+    {
+      "text": "cheap it's gonna be very hard to break a",
+      "start": 4321.679,
+      "duration": 5.54
+    },
+    {
+      "text": "digital signature or to you know",
+      "start": 4324.469,
+      "duration": 6.061
+    },
+    {
+      "text": "anything like that but it might be easy",
+      "start": 4327.219,
+      "duration": 5.911
+    },
+    {
+      "text": "to just block a transaction or go after",
+      "start": 4330.53,
+      "duration": 5.129
+    },
+    {
+      "text": "seeding a node or you know go after a",
+      "start": 4333.13,
+      "duration": 4.029
+    },
+    {
+      "text": "central server and these are the things",
+      "start": 4335.659,
+      "duration": 7.04
+    },
+    {
+      "text": "that enemies are going to do so that's",
+      "start": 4337.159,
+      "duration": 6.931
+    },
+    {
+      "text": "wonderful",
+      "start": 4342.699,
+      "duration": 7.721
+    },
+    {
+      "text": "ending there and and hurry left",
+      "start": 4344.09,
+      "duration": 9.92
+    },
+    {
+      "text": "I think it's internet connection anyway",
+      "start": 4350.42,
+      "duration": 6.809
+    },
+    {
+      "text": "I'm stopping the recording thank you",
+      "start": 4354.01,
+      "duration": 3.79
+    },
+    {
+      "text": "guys",
+      "start": 4357.229,
+      "duration": 6.87
+    },
+    {
+      "text": "and woman have a good good day good",
+      "start": 4357.8,
+      "duration": 12.75
+    },
+    {
+      "text": "night thanks guys but thank you bye bye",
+      "start": 4364.099,
+      "duration": 9.44
+    },
+    {
+      "text": "guys thank you",
+      "start": 4370.55,
+      "duration": 2.989
+    }
+  ]
+}
