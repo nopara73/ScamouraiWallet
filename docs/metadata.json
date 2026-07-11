@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "article": {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "abstract": "This first-person post-mortem documents the history of the conflict between Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and what the server seizure later revealed. It distinguishes primary records, first-person recollection, inference, government allegations, and defense claims, and preserves the underlying evidence for independent review.",
+    "alternativeHeadline": "How a wallet that adopted my privacy framework turned technical disagreement into a reputational war—and what I got wrong too",
+    "articleSection": [
+      "How ZeroLink actually began",
+      "The central privacy difference",
+      "Sockpuppets and attacks on critics",
+      "Accuse loudly, qualify quietly",
+      "The OXT “critical vulnerability” that failed its own test",
+      "The trap of criminal association",
+      "The megaphone was bigger than the product",
+      "Moving the problem did not solve it",
+      "Security claims require precision",
+      "When you wrestle with a pig, you both get dirty",
+      "What the server seizure revealed",
+      "The lies and hypocrisies",
+      "Post-mortem",
+      "Sources and notes"
+    ],
+    "associatedMedia": [
+      {
+        "@type": "MediaObject",
+        "contentUrl": "https://github.com/nopara73/ScamouraiWallet/blob/75e545620927f75ba487997bb1cf03360738ffe9/POST_MORTEM.md",
+        "encodingFormat": "text/markdown",
+        "name": "Markdown source"
+      },
+      {
+        "@type": "MediaObject",
+        "contentUrl": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/output/pdf/POST_MORTEM.pdf",
+        "encodingFormat": "application/pdf",
+        "name": "Illustrated PDF edition"
+      }
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Ádám Ficsór",
+      "url": "https://github.com/nopara73"
+    },
+    "dateModified": "2026-07-11",
+    "datePublished": "2026-07-11",
+    "description": "This first-person post-mortem documents the history of the conflict between Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and what the server seizure later revealed. It distinguishes primary records, first-person recollection, inference, government allegations, and defense claims, and preserves the underlying evidence for independent review.",
+    "headline": "Post-Mortem: What Happened Between Samourai Wallet and Me",
+    "identifier": [
+      {
+        "@type": "PropertyValue",
+        "name": "Version",
+        "value": "1.0.0"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Git commit",
+        "value": "75e545620927f75ba487997bb1cf03360738ffe9"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Source SHA-256",
+        "value": "7f9fca7748f9e87b58e43ac70a3c1b3dc25899c4b00539daacd5cfec60ee2518"
+      }
+    ],
+    "image": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/sources/screenshots/government-sentencing-memo-page-38.png",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "isPartOf": {
+      "@type": "ArchiveComponent",
+      "name": "Scamourai Wallet evidence archive",
+      "url": "https://github.com/nopara73/ScamouraiWallet"
+    },
+    "keywords": [
+      "Bitcoin",
+      "Samourai Wallet",
+      "Wasabi Wallet",
+      "ZeroLink",
+      "CoinJoin",
+      "xpub",
+      "wallet privacy",
+      "digital preservation",
+      "primary sources"
+    ],
+    "mainEntityOfPage": {
+      "@id": "https://nopara73.github.io/ScamouraiWallet/",
+      "@type": "WebPage"
+    },
+    "url": "https://nopara73.github.io/ScamouraiWallet/",
+    "version": "1.0.0"
+  },
+  "build": {
+    "generator": "tools/build_site.py",
+    "markdownRenderer": "Python-Markdown 3.10.2",
+    "sourceCommit": "75e545620927f75ba487997bb1cf03360738ffe9",
+    "sourcePath": "POST_MORTEM.md",
+    "sourceSha256": "7f9fca7748f9e87b58e43ac70a3c1b3dc25899c4b00539daacd5cfec60ee2518"
+  },
+  "canonicalUrl": "https://nopara73.github.io/ScamouraiWallet/",
+  "formats": {
+    "html": "https://nopara73.github.io/ScamouraiWallet/",
+    "markdown": "https://github.com/nopara73/ScamouraiWallet/blob/75e545620927f75ba487997bb1cf03360738ffe9/POST_MORTEM.md",
+    "pdf": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/output/pdf/POST_MORTEM.pdf",
+    "repository": "https://github.com/nopara73/ScamouraiWallet"
+  },
+  "publicationDate": "2026-07-11",
+  "version": "1.0.0"
+}
