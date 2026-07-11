@@ -1,168 +1,117 @@
 # Scamourai Wallet
 
-- [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md)
-- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf)
-- [**Preserved source archive**](sources/README.md)
-- [**Complete citation URL inventory**](sources/URLS.md)
+This repository contains my first-person account of the conflict between Samourai Wallet and me, together with the primary records needed to check it. The archive is organized so readers do not have to trust my memory, a surviving website, or a social-media screenshot in isolation.
 
-## Historical link collection
+## Read this first
 
-The categorized collection below is the repository's original research archive. Its historical labels should not be treated as findings; the post-mortem cites the underlying records directly and the new source archive preserves the materials used in the final text.
+- [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the complete essay with citations and evidence placed beside the events it documents.
+- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 34-page edition.
+- [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
+- [**Complete citation inventory**](sources/URLS.md) — all 83 external URLs in the essay, with local copies identified where available.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 93 archived files.
 
-## Articles & Blog Posts
-- **SamouraiLeaks Part 3: Is random.org random enough?**  
-  https://nopara73.medium.com/samouraileaks-part-3-is-random-org-random-enough-35704796ae93 — *SamouraiLeaks Part 3: Is random.org random enough?*  
-- **SamouraiLeaks: SamouraiDev’s sockpuppet exposed**  
-  https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b — *SamouraiLeaks: SamouraiDev’s sockpuppet exposed*  
-- **Samourai Wallet Bitcoin PIN Authentication Bypass**  
-  https://vrls.ws/posts/2021/08/samourai-wallet-bitcoin-pin-authentication-bypass-crypto/ — *Samourai Wallet Bitcoin PIN Authentication Bypass*  
-- **Samourai Wallet’s Marketing Strategy Similar to Soccer Flops**  
-  https://www.thebitcoinbugle.com/samourai-wallets-marketing-strategy-similar-to-soccer-flops/ — *Samourai Wallet’s Marketing Strategy Similar to Soccer Flops*  
+The archive includes 24 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public social records, saved web pages, and metadata for four cited recordings.
 
-## Code & Repositories
-- **RandomOrgGenerator.java at Android‑Wallet‑2‑App**  
-  https://github.com/jisqyv/Android-Wallet-2-App/blob/dfb781c05536db58eb253ab5c37b82c237213382/src/piuk/blockchain/android/util/RandomOrgGenerator.java — *RandomOrgGenerator.java · jisqyv/Android‑Wallet‑2‑App*  
-- **Issue #381: PIN‑bypass vulnerability**  
-  https://github.com/Samourai-Wallet/samourai-wallet-android/issues/381 — *“PIN bypass vulnerability” · Issue #381 · Samourai‑Wallet/samourai‑wallet‑android*  
-- **Bitcoin Design Discussion (HackMD)**  
-  https://hackmd.io/@BitcoinDesign/rym2ehCSd — *Bitcoin Design · Collaborative Notes*  
+## Evidence map
 
-## Forum Discussions (Reddit & Bitcointalk)
-- **The security issue of Blockchain.info’s Android Wallet**  
-  https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/ — *The security issue of Blockchain.info’s Android Wallet*  
-- **JoinMarket dev: Wasabi vs Samourai**  
-  https://old.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/ — *JoinMarket dev: Wasabi vs Samourai*  
-- **Bitcointalk: New PIN attack on Samourai wallet?**  
-  https://bitcointalk.org/index.php?topic=5471645.0 — *“New PIN attack on Samourai wallet?” · Bitcoin Forum*  
-- **Bitcointalk: My unexplained past experience using Samorai**  
-https://bitcointalk.org/index.php?topic=5562148.msg65914017#msg65914017  
-- **Reddit comment (ku97pu → gir5dzm)**  
-  https://www.reddit.com/r/Bitcoin/comments/ku97pu/comment/gir5dzm — *Comment on Reddit thread ku97pu*  
-- **Reddit comment (bjtks8 → emb6nr7)**  
-  https://www.reddit.com/r/Bitcoin/comments/bjtks8/comment/emb6nr7/ — *Comment on Reddit thread bjtks8*  
-- **Reddit comment (iy26iw → g6dz562)**  
-  https://www.reddit.com/r/Bitcoin/comments/iy26iw/comment/g6dz562 — *Comment on Reddit thread iy26iw*  
-- **Reddit comment (pz59a0 → heyrrw2)**  
-  https://www.reddit.com/r/Bitcoin/comments/pz59a0/comment/heyrrw2/ — *Comment on Reddit thread pz59a0*  
-- **Reddit comment (9r9344 → e8fm1v8)**  
-  https://www.reddit.com/r/Bitcoin/comments/9r9344/comment/e8fm1v8/ — *Comment on Reddit thread 9r9344*
+The descriptions below are deliberately short. They identify the issue shown by each record; the essay supplies the chronology, qualifications, and argument.
 
-## Academic Research
-- **Master’s Thesis: Privacy in Bitcoin Wallets**  
-  https://is.muni.cz/th/kbvx1/Master_Thesis.pdf — *Master Thesis (Masaryk University): Privacy in Bitcoin Wallets*  
+### ZeroLink authorship
 
-## Media (YouTube & Imgur)
-- **BlockDigest Video (t=3470s): Samourai review & security analysis**  
-  https://www.youtube.com/watch?v=_Z5SwEnTOsU&t=3470s&ab_channel=BlockDigest — *BlockDigest · YouTube Video*  
-- **WalletScrutiny: com.samourai.wallet Analysis**  
-  https://walletscrutiny.com/android/com.samourai.wallet/ — *com.samourai.wallet | WalletScrutiny*  
-- **Imgur Gallery: Screenshots A**  
-  https://imgur.com/a/XgushDQ — *Imgur Album*  
-- **Imgur Gallery: Screenshots B**  
-  https://imgur.com/a/uSDlT6C — *Imgur Album*  
+- [**Samourai's first ZeroLink commit was “Fix typos.”**](sources/screenshots/zerolink-first-samourai-commit-fix-typos.jpg) The screenshot and [portable patch](sources/code/zerolink-8fbdcb9-fix-typos.patch) preserve the first contribution made after the framework and its 184-line specification already existed.
+- [**The complete Git history makes the authorship claim reproducible.**](sources/code/zerolink-full-history.bundle) The bundle contains the public commit graph; the [August 2017 publication snapshot](sources/code/zerolink-25d1502-publication-snapshot.zip) fixes the comparison at the date used in the essay.
+- [**The ZeroLink authorship audit records chronology, line ownership, and commit churn.**](POST_MORTEM.md#how-zerolink-actually-began) The accompanying [code-evidence guide](sources/code/README.md) makes the result reproducible instead of treating raw line counts as a slogan.
 
-## Social Media (Twitter / X)
-### Developer & Research Commentary
-- **Chris Belcher on Samourai RNG concerns**  
-  https://twitter.com/chris_belcher_/status/1356299408464293888 — *Chris Belcher on Twitter*  
-- **Peter Todd on RNG randomness**  
-  https://twitter.com/peterktodd/status/1585996437783183363 — *Peter Todd on Twitter*  
-- **Yahiheb on Samourai privacy issue**  
-  https://twitter.com/yahiheb_/status/1587063750326108164 — *Yahiheb on Twitter*  
-- **Nicolas Dorier on Android RNG**  
-  https://twitter.com/NicolasDorier/status/1410504884458196993 — *Nicolas Dorier on Twitter*  
-- **BashCo on random.org critique**  
-  https://twitter.com/BashCo_/status/1291633872048926721 — *BashCo_ on Twitter*  
-- **BashCo on RNG implementation**  
-  https://twitter.com/BashCo_/status/1298711774951137282 — *BashCo_ on Twitter*  
-- **TheVladCostea on Samourai SDK**  
-  https://twitter.com/TheVladCostea/status/1298771143655124993 — *TheVladCostea on Twitter*  
-- **Michael Folkson on Android wallet bug**  
-  https://twitter.com/michaelfolkson/status/1300144713656414209 — *Michael Folkson on Twitter*  
+### Hosted backends, xpubs, and unsafe defaults
 
-### Community Discussion & Critique
-- **nopara73 on Medium → tweet**  
-  https://twitter.com/nopara73/status/1409554739369431041 — *nopara73 on Twitter*  
-- **thefuckisalommy on Samourai criticism**  
-  https://twitter.com/thefuckisalommy/status/1409534871538700294 — *thefuckisalommy on Twitter*  
-- **brian_trollz on wallet RNG**  
-  https://twitter.com/brian_trollz/status/1389022575125217284 — *brian_trollz on Twitter*  
-- **Mandrik on PIN bypass**  
-  https://twitter.com/Mandrik/status/1376555483520233474 — *Mandrik on Twitter*  
-- **SamouraiWallet official announcement**  
-  https://twitter.com/SamouraiWallet/status/1376313082658496516 — *SamouraiWallet on Twitter*  
-- **brian_trollz on Medium leak**  
-  https://twitter.com/brian_trollz/status/1337876220172754946 — *brian_trollz on Twitter*  
-- **nopara73 early RNG findings**  
-  https://twitter.com/nopara73/status/1083782139278213120 — *nopara73 on Twitter*  
-- **wtogami on Android Wallet vulnerability**  
-  https://twitter.com/wtogami/status/1122161807639007232 — *wtogami on Twitter*  
-- **TuurDemeester on Samourai RNG debate**  
-  https://twitter.com/TuurDemeester/status/1058485499348815872 — *TuurDemeester on Twitter*  
-- **Deafboy_2v1 on privacy leak**  
-  https://twitter.com/Deafboy_2v1/status/1257260614856118273 — *Deafboy_2v1 on Twitter*  
-- **AsILayHodling on security issue**  
-  https://twitter.com/AsILayHodling/status/1267469894217596928 — *AsILayHodling on Twitter*  
-- **BTCparadigm on RNG concerns**  
-  https://twitter.com/BTCparadigm/status/1267556260255334401 — *BTCparadigm on Twitter*  
-- **HODLHanger on bug discovery**  
-  https://twitter.com/HODLHanger/status/1271152444462989312 — *HODLHanger on Twitter*  
-- **chris_belcher_ on follow‑up thread**  
-  https://twitter.com/chris_belcher_/status/1286640749082271744 — *chris_belcher_ on Twitter*  
-- **chris_belcher_ on RNG implementation**  
-  https://twitter.com/chris_belcher_/status/1300022468271366144 — *chris_belcher_ on Twitter*  
-- **BTC05349283 on randomization critique**  
-  https://twitter.com/BTC05349283/status/1301494872784998401 — *BTC05349283 on Twitter*  
-- **C_ruhf on Android seed generation**  
-  https://twitter.com/C_ruhf/status/1309036193741451264 — *C_ruhf on Twitter*  
-- **theinstagibbs on PIN bypass exploit**  
-  https://twitter.com/theinstagibbs/status/1166735204968521728 — *theinstagibbs on Twitter*  
-- **btcdragonlord early bug report**  
-  https://twitter.com/btcdragonlord/status/1313160864938291200 — *btcdragonlord on Twitter*  
-- **brian_trollz follow‑up comment**  
-  https://twitter.com/brian_trollz/status/1313283715188088838 — *brian_trollz on Twitter*  
-- **btcdragonlord advanced analysis**  
-  https://twitter.com/btcdragonlord/status/1325093604398919680 — *btcdragonlord on Twitter*  
-- **Coinosphere on RNG randomness**  
-  https://twitter.com/Coinosphere/status/1326436740169609216 — *Coinosphere on Twitter*  
-- **Yahiheb on slip‑through analysis**  
-  https://twitter.com/yahiheb_/status/1587119284471439362 — *Yahiheb on Twitter*  
-- **Yahiheb on further critique**  
-  https://twitter.com/yahiheb_/status/1586559494338871296 — *Yahiheb on Twitter*  
-- **Yahiheb on final commentary**  
-  https://twitter.com/yahiheb_/status/1588319800912412673 — *Yahiheb on Twitter*  
-- **BTCparadigm on part 2 of RNG thread**  
-  https://twitter.com/BTCparadigm/status/1587570194058252290 — *BTCparadigm on Twitter*  
-- **Mandrik on follow‑up analysis**  
-  https://twitter.com/Mandrik/status/1602688050357846021 — *Mandrik on Twitter*  
-- **ersolus on RNG audit**  
-  https://twitter.com/ersolus/status/1631997876682346497 — *ersolus on Twitter*  
-- **Yahiheb on audit results**  
-  https://twitter.com/yahiheb_/status/1634815352222744576 — *Yahiheb on Twitter*  
-- **nopara73 on final sequela**  
-  https://twitter.com/nopara73/status/1647436989871042560 — *nopara73 on Twitter*  
-- **nopara73 on closing remarks**  
-  https://twitter.com/nopara73/status/1647489516939382784 — *nopara73 on Twitter*  
-- **Eric Sirion on Wallet RNG**  
-  https://twitter.com/EricSirion/status/1494436823036272640 — *EricSirion on Twitter*  
-- **ob_hodl on Android vulnerability**  
-  https://twitter.com/ob_hodl/status/1300429481711153152 — *ob_hodl on Twitter*  
-- **snaxion on RNG library issues**  
-  https://twitter.com/snaxion/status/1642337824820305922 — *snaxion on Twitter*  
-- **LukeDashjr on Samourai critique**  
-  https://twitter.com/LukeDashjr/status/1732597621015949494 — *LukeDashjr on Twitter*  
-- **SamouraiWallet official post**  
-  https://twitter.com/SamouraiWallet/status/1376313082658496516 — *SamouraiWallet on Twitter*  
-- **LaurentMT on RNG findings (X)**  
-  https://x.com/LaurentMT/status/1733111061572735337 — *LaurentMT on X*  
-- **OomaHQ on app analysis (X)**  
-  https://twitter.com/oomahq/status/1733496982834991436 — *oomahq on X*  
-- **verysmallclaims on security recap (X)**  
-  https://twitter.com/verysmallclaims/status/1734085553329479782 — *verysmallclaims on X*  
-- **Douglas Tuman on final evaluation (X)**  
-  https://twitter.com/DouglasTuman/status/1770951163770273920 — *DouglasTuman on X*  
-- **1440000bytes on RNG retrospective (X)**  
-  https://x.com/1440000bytes/status/1847705683367797204 — *1440000bytes on X*
+- [**Samourai's Android client could contact the hosted API with Tor disabled.**](sources/code/samourai-wallet-android-c71f21a-cited-files.zip) The exact-commit source preserves the wallet-creation, Tor-default, API-query, and xpub-registration paths cited in the essay.
+- [**A proposal to make Tor and Dojo safer by default was closed immediately.**](sources/screenshots/gitlab-issue-458-default-settings.png) The preserved [GitLab issue](sources/web/gitlab-issue-458-wayback.html) records the suggested defaults, the owner's response, and the closure.
+- [**Dojo's own documentation says it bypassed the default hosted servers.**](sources/web/dojo-documentation-archive.html) It also describes the Tracker that monitored registered xpubs and addresses.
+- [**Sentinel moved xpub lookups from Blockchain.info to Samourai's API in 2017.**](sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg) The [commit patch](sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch) preserves the change directly.
+- [**Sentinel added Tor routing more than two years after the xpub move.**](sources/code/sentinel-1a4722f-add-tor.patch) Exact-commit [v3](sources/code/sentinel-android-cf46177-cited-files.zip) and [pre-seizure v5](sources/code/sentinel-android-b5ef29c-cited-files.zip) snapshots preserve the later server and Tor choices.
 
-## Legal
-- **2025.0624 Indictment**: (among other things, anti wasabi DNM sockpuppettry is exposed here) https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf
+### What the seized servers revealed
+
+- [**The government said retained xpubs could help trace or “demix” many mobile Whirlpool users.**](sources/screenshots/government-sentencing-memo-page-37.png) The complete [government sentencing memorandum](sources/legal/2025-10-31-government-sentencing-memorandum-ecf-157.pdf) states the finding and its limit: xpub analysis did not by itself identify the real-world users.
+- [**After the seizure, Hill worried about “the wallet backends (xpubs).”**](sources/screenshots/government-sentencing-memo-page-38.png) The message appears in the same government filing.
+- [**Hill's defense did not deny xpub collection; it called it necessary and asserted it affected “only 20%.”**](sources/screenshots/hill-sentencing-submission-page-28.png) The [submission](sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf) provides no source, method, counts, or independent validation for that percentage.
+
+### Public claims contradicted by later code
+
+- [**Rodriguez said Whirlpool did not change Tor identity between input and output registration.**](sources/screenshots/whirlpool-tor-default-conversation.png) The contemporaneous exchange preserves the categorical answer and surrounding dispute.
+- [**The client later added `changeIdentity()` immediately before output registration.**](sources/screenshots/whirlpool-change-tor-identity-code.jpg) The [full patch](sources/code/whirlpool-fbee9e8-change-tor-identity.patch) and [commit record](sources/screenshots/whirlpool-change-tor-identity-commit.jpg) preserve the quiet correction.
+
+### The OXT “critical vulnerability” claim
+
+- [**OXT's test begins with the target's funds and wallet state already known.**](sources/screenshots/oxt-report-page-5-test-actors.png) The [complete report](sources/research/2020-oxt-wasabi-report-full.pdf) supplies the assumptions omitted from the public warning.
+- [**The model requires knowledge of the target wallet at step N and later mixing events.**](sources/screenshots/oxt-report-page-2-assumed-wallet-knowledge.png) Its own [next page](sources/screenshots/oxt-report-page-3-exogenous-randomness.png) introduces the additional information needed to continue the analysis.
+- [**The report labels its result critical without recovering Wasabi's blinded input-output mapping.**](sources/screenshots/oxt-report-page-7-severity-claim.png) The archived [contemporaneous response](sources/social/reddit/icvu58-oxt-response.html) and [OXT follow-up](sources/web/oxt-follow-up.md) preserve both sides of the dispute.
+- [**The WabiSabi development timeline predates OXT's disclosure.**](sources/web/bitcoinops-2020-06-17-wabisabi.html) This record matters because Samourai later portrayed Wasabi 2's behavior as a reaction to the report.
+
+### Sockpuppets, retaliation, and threats
+
+- [**The foneBTC investigation connects the sockpuppet trail to TDevD/William Hill.**](sources/web/samouraileaks-part-1.html) The decisive exhibits are preserved separately as the [project trail](sources/screenshots/samouraileaks-sockpuppet-nail-in-coffin.jpg) and [conclusion](sources/screenshots/samouraileaks-sockpuppet-conclusion.jpg).
+- [**Gregory Maxwell warned that Samourai sent users' addresses to its server while advertising privacy.**](sources/screenshots/samouraileaks-part-2-greg-maxwell-privacy-warning.jpg) His [contemporaneous account](sources/screenshots/samouraileaks-part-2-greg-maxwell-harassment-account.jpg) says criticism produced harassment and “bonkers accusations.”
+- [**The official account's public conduct targeted critics instead of answering them.**](sources/screenshots/samourai-public-conduct-gallery.png) The gallery is cited to document the behavior, not to endorse repeating its slurs.
+- [**My April 2023 statement preserved one of the death threats I received.**](sources/screenshots/nopara73-death-threat-statement-2023-04-16.jpg) The associated [public record](sources/social/tweets/nopara73-1647489516939382784.json) and follow-up are archived as text metadata.
+- [**The public SamouraiDev profile paired my name and parents' town with violent language.**](sources/screenshots/samouraidev-profile-2026-07-10.jpg) My parents' street address is intentionally not reproduced or linked anywhere in this repository.
+- [**The official Samourai Wallet account posted “Snitches get stitches.”**](sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png) The complete source image is preserved because X's timeline preview cropped its text.
+
+### Product-security record
+
+- [**The PIN bypass allowed offline brute-force recovery from copied wallet files.**](sources/web/pin-bypass-disclosure.html) The disclosure, proof of concept, timeline, and [CVE record](sources/web/nvd-cve-2021-36689.html) are preserved.
+- [**A William Hill-attributed Android component used Random.org in wallet randomness generation.**](sources/code/randomorggenerator-dfb781c.java) The archived [SamouraiLeaks Part 3](sources/web/samouraileaks-part-3.html) traces the code and its history.
+- [**Independent developers had already documented the predecessor Android wallet's cryptographic failure.**](sources/social/reddit/37oxow-android-security.html) This record provides the technical discussion underlying the later coverage.
+
+### Court records and legal context
+
+- [**The superseding indictment alleged Dread marketing through accounts presented as independent users.**](sources/legal/2025-06-24-superseding-indictment-ecf-109.pdf) The relevant [first](sources/screenshots/superseding-indictment-page-10-dread-marketing.png) and [second](sources/screenshots/superseding-indictment-page-11-dread-marketing.png) pages are rendered for quick review. These were allegations when filed, not findings by themselves.
+- [**The defense alleged that favorable FinCEN communications were disclosed late.**](sources/legal/2025-defense-letter-late-fincen-disclosure.pdf) This is preserved as a defense argument, not presented as a judicial finding.
+- [**The arrest, seizure, guilty pleas, and sentencing are preserved as separate dated records.**](sources/URLS.md) The inventory links the archived Justice Department pages and distinguishes the procedural stages.
+
+### Independent research and recordings
+
+- [**The 2022 thesis identifies the privacy trust placed in Samourai's default backend.**](sources/research/2022-varga-coinjoin-protocols-thesis.pdf) It also compares the published CoinJoin designs and implementations in detail.
+- [**The 2021 adoption study measures on-chain CoinJoin behavior, not the operator's off-chain xpub knowledge.**](sources/research/2021-adoption-and-actual-privacy-coinjoin.pdf) Its scope matters when transaction counts are presented as proof of privacy.
+- [**The 2026 ecosystem study measures adoption and liquidity but does not test full deanonymization resistance.**](sources/research/2026-coinjoin-ecosystem-insights.pdf) The paper states that limitation directly.
+- [**Four recordings preserve contemporary claims, criticism, and competing recollections.**](sources/video/README.md) The guide identifies the relevant timestamps; only metadata is stored locally.
+- [**Developer and community statements are archived by exact post or comment.**](sources/social/README.md) The archive contains X oEmbed JSON, dated Reddit HTML, and a public profile snapshot.
+
+## Repository map
+
+| Path | Contents |
+| --- | --- |
+| [`POST_MORTEM.md`](POST_MORTEM.md) | Complete essay, citations, and inline exhibits |
+| [`output/pdf/`](output/pdf/) | Publication-ready PDF |
+| [`sources/legal/`](sources/legal/) | Court filings and the FinCEN-disclosure defense letter |
+| [`sources/research/`](sources/research/) | OXT report, thesis, and independent CoinJoin studies |
+| [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, and cited source |
+| [`sources/screenshots/`](sources/screenshots/) | 24 focused visual exhibits used in the essay |
+| [`sources/social/`](sources/social/) | Public X, Reddit, and profile records |
+| [`sources/video/`](sources/video/) | Recording metadata and relevant timestamps |
+| [`sources/web/`](sources/web/) | Preserved articles, documentation, discussions, and official pages |
+| [`sources/URLS.md`](sources/URLS.md) | Canonical mapping of every essay URL to its local copy |
+| [`LEGACY_LINKS.md`](LEGACY_LINKS.md) | Earlier research leads not relied upon by the final essay |
+
+## Verify the archive
+
+Run the checksum verification from the `sources` directory:
+
+```sh
+cd sources
+sha256sum -c SHA256SUMS
+```
+
+The complete ZeroLink history can be inspected without relying on the live GitHub repository:
+
+```sh
+git clone sources/code/zerolink-full-history.bundle ZeroLink
+```
+
+## Boundaries
+
+The private unpublished memoir used to cross-check the narrative is not committed. Neither is nopara73's parents' street address.
+
+The essay distinguishes allegations, party submissions, government representations, technical records, and independently reproduced facts. The repository preserves third-party material for attribution and verification; its inclusion does not relicense that material under the repository's MIT license.
+
+The older repository collected many useful leads before the final source audit. Those links are retained in [**Legacy research links**](LEGACY_LINKS.md), but their historical labels are not findings and they are not substitutes for the cited primary record.
