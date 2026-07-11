@@ -254,16 +254,9 @@ The threats were accompanied by doxxing. Hill posted my parents’ home address 
 
 *The public `@SamouraiDev` profile as preserved on July 10, 2026. I have not reproduced my parents’ street address.*
 
-<details>
-<summary><strong>View the second public threat record</strong></summary>
-
 ![Samourai Wallet post stating Snitches get stitches](sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png)
 
-![nopara73 recording the Snitches get stitches post as another threat of violence](sources/screenshots/nopara73-second-public-threat-post-2023-04-18.jpg)
-
-*The official Samourai Wallet account’s “Snitches get stitches” post and my contemporaneous record of it on April 18, 2023.*
-
-</details>
+*The complete source image from the official Samourai Wallet account’s “Snitches get stitches” post, preserved in [my contemporaneous X record](https://x.com/nopara73/status/1648177095456223232) on April 18, 2023. X’s timeline preview cuts off part of the text; this archived source image does not.*
 
 The criminal case later produced records independent of the feud.
 
