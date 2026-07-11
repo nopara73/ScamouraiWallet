@@ -346,7 +346,7 @@ The June 2025 superseding indictment reproduced private messages and Dread posts
 
 This mattered because Samourai and OXT had repeatedly turned criminal use of Wasabi into part of the public case against us. Yet the later record showed Samourai pursuing those same users as customers. On Dread, competitor disparagement was not an abstract contribution to privacy research. It was a sales pitch aimed at people asking how to conceal criminal proceeds.
 
-In August 2025, Rodriguez and Hill each pleaded guilty to conspiring to operate a money-transmitting business knowing it transmitted crime proceeds. The money-laundering conspiracy count was dropped through the plea agreements. The Justice Department’s account of the pleas included their Dread marketing.[^21] In November, Rodriguez received five years in prison and Hill four.[^22]
+On July 30, 2025, Rodriguez and Hill each pleaded guilty to conspiring to operate a money-transmitting business knowing it transmitted crime proceeds. The money-laundering conspiracy count was dropped through the plea agreements. The Justice Department announced the pleas on August 6, and its account included their Dread marketing.[^21] In November, Rodriguez received five years in prison and Hill four.[^22]
 
 The sentences did not resolve the software issues, and the prosecution raised troubling questions of its own. Before the pleas, the defense argued that prosecutors had disclosed too late a FinCEN communication saying Samourai’s lack of control over users’ keys strongly suggested it was not a money-services business under FinCEN’s rules. The government disputed the communication’s significance.[^23] Anyone who cares about open-source privacy software should care about that due-process issue.
 
