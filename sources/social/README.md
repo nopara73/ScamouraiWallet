@@ -24,6 +24,7 @@ Two private-message screenshots supplied by nopara73 are preserved in `../screen
 
 - `private-threat-censored-address-and-town.png` — a message containing a fully specified address in Besenyszög. nopara73 blacked out the street-level portion before supplying the file; the archive never received an uncensored copy.
 - `private-threat-we-shall-meet.png` — messages claiming the sender had checked an address and seen nopara73, asking whether he thought he could stay safe, and threatening that an eventual meeting “won't be pretty.”
+- `medium-headline-private-threat.png` — a tighter crop of the same two messages, prepared as the Medium story's headline image; it reveals no information beyond the complete archived screenshot.
 
 The anonymous account labels visible in these screenshots do not independently establish who controlled the accounts. They are preserved as evidence of messages received, not as proof of authorship.
 

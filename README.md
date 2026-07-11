@@ -8,9 +8,9 @@ This repository contains my first-person account of the conflict between Samoura
 - [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 34-page edition.
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
 - [**Complete citation inventory**](sources/URLS.md) — 92 external URLs and preserved public-post permalinks, with local copies identified where available.
-- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 109 archived files.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 110 archived files.
 
-The archive includes 30 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
+The archive includes 31 evidence and publication images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
 
 ## Evidence map
 
