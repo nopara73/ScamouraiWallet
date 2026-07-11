@@ -86,7 +86,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 | [`sources/legal/`](sources/legal/) | Court filings and the FinCEN-disclosure defense letter |
 | [`sources/research/`](sources/research/) | OXT report, thesis, and independent CoinJoin studies |
 | [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, and cited source |
-| [`sources/screenshots/`](sources/screenshots/) | 24 focused visual exhibits used in the essay |
+| [`sources/screenshots/`](sources/screenshots/) | 20 focused exhibits used in the essay, plus four supplementary OXT report pages |
 | [`sources/social/`](sources/social/) | Public X, Reddit, and profile records |
 | [`sources/video/`](sources/video/) | Recording metadata and relevant timestamps |
 | [`sources/web/`](sources/web/) | Preserved articles, documentation, discussions, and official pages |

@@ -149,30 +149,9 @@ Samourai did not need to break Wasabi to damage it. It needed accusations that l
 
 In August 2020, the Samourai-affiliated OXT Research announced two supposed Wasabi vulnerabilities, rated them High/Critical, claimed they could cancel the privacy gained from earlier mixes, and gave us forty-eight hours to publish a warning on their terms. The full report contained a fatal premise: the attacker had to know the composition of the target’s wallet at a chosen point in time and know events affecting the wallet’s participation in later rounds. That was not a minor condition. It supplied the wallet membership that the alleged attack was supposed to uncover.[^6]
 
-![OXT report page requiring knowledge of the target wallet's composition and mixing events](sources/screenshots/oxt-report-page-2-assumed-wallet-knowledge.png)
-
-*OXT’s own statement of the premise: the observer already has “knowledge of events related to the mixing process” and “of the composition of the targeted wallet.” [Open the archived report](sources/research/2020-oxt-wasabi-report-full.pdf).*
-
 OXT avoided that problem in its demonstration by controlling both sides. Its target, “Alice,” received one known 0.4 BTC coin. Its observer, “Eve,” already knew which funds belonged to Alice and ran a modified Wasabi client that logged round events. Given the wallet’s exact starting state, the public coin-selection code could sometimes predict which of Alice’s coins the client would offer next. That showed that known software can behave predictably when the observer is handed its private starting state. It did not show how an outside observer could discover an unknown wallet’s contents, identify an unknown mixed output as the target’s, or recover an input-to-output link hidden by the protocol.[^6]
 
 Even in that constructed test, the predictions did not simply work. The report recorded expected coins failing to enter rounds because of confirmation state, failed rounds, and coordinator behavior. OXT called these deviations “exogenous randomness.” Its second “vulnerability” was a proposed use of change-output “beacons and checkpoints” to notice when the first prediction had failed and investigate why. The report’s reduced “adjusted anonsets” were values produced by OXT’s own model. They were not identities uncovered, owners identified, or blinded input-output links recovered.[^6]
-
-<details>
-<summary><strong>View the report’s test design, admitted randomness, and severity claim</strong></summary>
-
-![OXT report page describing exogenous randomness](sources/screenshots/oxt-report-page-3-exogenous-randomness.png)
-
-*The report’s own category of “exogenous randomness,” which could decrease the reliability of its predictions.*
-
-![OXT report page defining Alice and Eve in its controlled test](sources/screenshots/oxt-report-page-5-test-actors.png)
-
-*The controlled test: Alice receives a single known 0.4 BTC input, while Eve tracks Alice’s funds and runs a modified client that logs round details.*
-
-![OXT report page labeling the claims High Critical](sources/screenshots/oxt-report-page-7-severity-claim.png)
-
-*The report nevertheless labels the claims “High/Critical” and says they cancel earlier privacy.*
-
-</details>
 
 OXT’s follow-up did not repair the missing premise. It argued that a powerful adversary might possess exchange data, pooled surveillance information, or coordinator logs. An adversary might know many things. That does not demonstrate that this attack can acquire the wallet state it requires. My contemporaneous line-by-line response made the distinction: the report assumed near-complete knowledge of the target wallet; its conclusion that prior mixes were “cancelled” did not follow from that assumption; and OXT’s own spreadsheet had failed to predict the exact coins selected in its own wallet.[^6]
 
