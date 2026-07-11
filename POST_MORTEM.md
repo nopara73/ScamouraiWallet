@@ -221,11 +221,21 @@ That is my responsibility. It is not an equivalence.
 
 My temper did not write the ZeroLink history. A rude reply did not crop the screenshots. Calling Samourai a name did not cause unrelated developers to report the same retaliation. I can regret the way I fought without pretending there was nothing specific I was fighting.
 
-By April 2023, the conflict had passed far beyond professional hostility. I had received multiple death threats from William Hill—not one. Some were private. Some were public. After another dispute about Whirlpool’s Tor behavior, I wrote: [“In case something happens to me... I just received a death threat from William Hill”](https://x.com/nopara73/status/1647489516939382784). I did not publish every message, and what I did publish was only part of what I received.
+By April 2023, the conflict had passed far beyond professional hostility. I had received multiple death threats from William Hill—not one. I also received anonymous private threats during the same campaign. The screenshots alone cannot establish who controlled those anonymous accounts. After another dispute about Whirlpool’s Tor behavior, I wrote: [“In case something happens to me... I just received a death threat from William Hill”](https://x.com/nopara73/status/1647489516939382784). I did not publish every message, and what I did publish was only part of what I received.
 
 ![nopara73's April 2023 public statement that he had received a death threat from William Hill](sources/screenshots/nopara73-death-threat-statement-2023-04-16.jpg)
 
 *My public statement on April 16, 2023, together with the reference I said I understood as threatening.*
+
+One private message sent me a full address in Besenyszög. I blacked out the street-level portion before supplying the screenshot below. Another sender claimed to have checked an address and seen me and my “stinking tribe,” asked whether I thought I could stay safe, and ended: “We shall meet. Won’t be pretty on your end.” I cannot attribute an anonymous account from an interface label. I can show what arrived.
+
+![Private message containing a fully specified address with the street-level portion censored by nopara73](sources/screenshots/private-threat-censored-address-and-town.png)
+
+*A private message containing a full address in Besenyszög. I supplied this image with the identifying portion already blacked out; the archive contains no uncensored copy.*
+
+![Private messages saying the sender had seen nopara73 and warning that they would meet and it would not be pretty](sources/screenshots/private-threat-we-shall-meet.png)
+
+*A second anonymous account claimed to have checked an address and seen me, asked whether I thought I could stay safe, and threatened an eventual meeting. The screenshot records the message, not the sender’s identity.*
 
 The threats were accompanied by doxxing. Hill posted my parents’ home address more than once. I will not reproduce or link to those posts, because proving that it happened does not require exposing them again. His public `@SamouraiDev` profile still names me, says, “It ain’t over until the fat boy is gutted,” and appends the name of the small town where my parents live.[^threats] There was no technical argument in publishing my family’s location beside violent language. It was intimidation.
 

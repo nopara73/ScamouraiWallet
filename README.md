@@ -8,9 +8,9 @@ This repository contains my first-person account of the conflict between Samoura
 - [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 34-page edition.
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
 - [**Complete citation inventory**](sources/URLS.md) — all 83 external URLs in the essay, with local copies identified where available.
-- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 93 archived files.
+- [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 95 archived files.
 
-The archive includes 24 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public social records, saved web pages, and metadata for four cited recordings.
+The archive includes 26 evidence images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, and metadata for four cited recordings.
 
 ## Evidence map
 
@@ -54,6 +54,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 - [**Gregory Maxwell warned that Samourai sent users' addresses to its server while advertising privacy.**](sources/screenshots/samouraileaks-part-2-greg-maxwell-privacy-warning.jpg) His [contemporaneous account](sources/screenshots/samouraileaks-part-2-greg-maxwell-harassment-account.jpg) says criticism produced harassment and “bonkers accusations.”
 - [**The official account's public conduct targeted critics instead of answering them.**](sources/screenshots/samourai-public-conduct-gallery.png) The gallery is cited to document the behavior, not to endorse repeating its slurs.
 - [**My April 2023 statement preserved one of the death threats I received.**](sources/screenshots/nopara73-death-threat-statement-2023-04-16.jpg) The associated [public record](sources/social/tweets/nopara73-1647489516939382784.json) and follow-up are archived as text metadata.
+- [**Anonymous messages sent a full address, asked if I thought I could stay safe, and threatened an eventual meeting.**](sources/screenshots/private-threat-we-shall-meet.png) The separate [address screenshot](sources/screenshots/private-threat-censored-address-and-town.png) was supplied with its street-level portion already blacked out; the account labels do not independently prove who controlled them.
 - [**The public SamouraiDev profile paired my name and parents' town with violent language.**](sources/screenshots/samouraidev-profile-2026-07-10.jpg) My parents' street address is intentionally not reproduced or linked anywhere in this repository.
 - [**The official Samourai Wallet account posted “Snitches get stitches.”**](sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png) The complete source image is preserved because X's timeline preview cropped its text.
 
@@ -86,7 +87,7 @@ The descriptions below are deliberately short. They identify the issue shown by 
 | [`sources/legal/`](sources/legal/) | Court filings and the FinCEN-disclosure defense letter |
 | [`sources/research/`](sources/research/) | OXT report, thesis, and independent CoinJoin studies |
 | [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, and cited source |
-| [`sources/screenshots/`](sources/screenshots/) | 20 focused exhibits used in the essay, plus four supplementary OXT report pages |
+| [`sources/screenshots/`](sources/screenshots/) | 22 focused exhibits used in the essay, plus four supplementary OXT report pages |
 | [`sources/social/`](sources/social/) | Public X, Reddit, and profile records |
 | [`sources/video/`](sources/video/) | Recording metadata and relevant timestamps |
 | [`sources/web/`](sources/web/) | Preserved articles, documentation, discussions, and official pages |
