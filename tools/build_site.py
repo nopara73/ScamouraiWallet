@@ -13,6 +13,7 @@ The check mode performs no writes and exits nonzero when a managed file in
 from __future__ import annotations
 
 import argparse
+from dataclasses import dataclass
 from datetime import date
 from functools import lru_cache
 import hashlib
@@ -28,6 +29,7 @@ from typing import Final, NoReturn
 from urllib.parse import quote, urlsplit
 
 import markdown
+import yaml
 from markdown.extensions.footnotes import FootnoteExtension
 from markdown.extensions.toc import TocExtension
 from markdown.extensions import Extension
@@ -46,48 +48,62 @@ REPOSITORY: Final = "ScamouraiWallet"
 DEFAULT_BRANCH: Final = "master"
 REPOSITORY_URL: Final = f"https://github.com/{OWNER}/{REPOSITORY}"
 CANONICAL_URL: Final = f"https://{OWNER}.github.io/{REPOSITORY}/"
-TITLE: Final = "Post-Mortem: What Happened Between Samourai Wallet and Me"
 SUBTITLE: Final = (
     "How a wallet that adopted my privacy framework turned technical disagreement "
     "into a reputational war—and what I got wrong too"
 )
-AUTHOR: Final = "Ádám Ficsór"
 AUTHOR_URL: Final = f"https://github.com/{OWNER}"
-ABSTRACT: Final = (
-    "This first-person post-mortem documents the history of the conflict between "
-    "Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend "
-    "xpub collection, Tor and Dojo defaults, public technical claims, retaliation, "
-    "and what the server seizure later revealed. It distinguishes primary records, "
-    "first-person recollection, inference, government allegations, and defense claims, "
-    "and preserves the underlying evidence for independent review."
-)
-KEYWORDS: Final = [
-    "Bitcoin",
-    "Samourai Wallet",
-    "Wasabi Wallet",
-    "ZeroLink",
-    "CoinJoin",
-    "xpub",
-    "wallet privacy",
-    "digital preservation",
-    "primary sources",
-]
 
 
 def fail(message: str) -> NoReturn:
     raise SystemExit(message)
 
 
-def load_publication_version_date() -> tuple[str, str]:
-    """Load release metadata from its canonical files and require agreement."""
+@dataclass(frozen=True)
+class PublicationMetadata:
+    title: str
+    author: str
+    version: str
+    publication_date: str
+    abstract: str
+    keywords: tuple[str, ...]
+
+
+def normalized_text(value: object) -> str:
+    return " ".join(str(value).split())
+
+
+def cff_date(value: object) -> str:
+    return value.isoformat() if isinstance(value, date) else str(value)
+
+
+def load_publication_metadata() -> PublicationMetadata:
+    """Load and cross-check the publication identity in Zenodo and CFF files."""
 
     try:
         zenodo = json.loads(ZENODO_METADATA.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as error:
         fail(f"Cannot read .zenodo.json publication metadata: {error}")
 
+    try:
+        cff = yaml.safe_load(CITATION_METADATA.read_text(encoding="utf-8"))
+    except (OSError, yaml.YAMLError) as error:
+        fail(f"Cannot read CITATION.cff publication metadata: {error}")
+    if not isinstance(zenodo, dict) or not isinstance(cff, dict):
+        fail("Publication metadata roots must be objects")
+
+    title = str(zenodo.get("title", "")).strip()
     version = str(zenodo.get("version", "")).strip()
     publication_date = str(zenodo.get("publication_date", "")).strip()
+    abstract = normalized_text(zenodo.get("description", ""))
+    keywords_value = zenodo.get("keywords")
+    if not title or not abstract:
+        fail(".zenodo.json title and description must be non-empty")
+    if not isinstance(keywords_value, list) or not keywords_value or not all(
+        isinstance(keyword, str) and keyword.strip() for keyword in keywords_value
+    ):
+        fail(".zenodo.json keywords must be a non-empty string list")
+    keywords = tuple(keyword.strip() for keyword in keywords_value)
     if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", version):
         fail(".zenodo.json must contain a semantic version such as 1.0.0")
     try:
@@ -95,20 +111,83 @@ def load_publication_version_date() -> tuple[str, str]:
     except ValueError:
         fail(".zenodo.json publication_date must use YYYY-MM-DD")
 
+    preferred = cff.get("preferred-citation")
+    if not isinstance(preferred, dict):
+        fail("CITATION.cff must define preferred-citation")
+    comparisons = {
+        "title": (cff.get("title"), preferred.get("title"), title),
+        "version": (cff.get("version"), preferred.get("version"), version),
+        "release date": (
+            cff_date(cff.get("date-released")),
+            cff_date(preferred.get("date-published")),
+            publication_date,
+        ),
+        "abstract": (cff.get("abstract"), abstract, abstract),
+        "repository URL": (
+            cff.get("repository-code"),
+            preferred.get("repository-code"),
+            REPOSITORY_URL,
+        ),
+        "canonical URL": (cff.get("url"), preferred.get("url"), CANONICAL_URL),
+    }
+    for label, values in comparisons.items():
+        normalized = tuple(normalized_text(value) for value in values)
+        if len(set(normalized)) != 1:
+            fail(f"CITATION.cff and .zenodo.json {label} values do not agree")
+
+    cff_keywords = cff.get("keywords")
+    if not isinstance(cff_keywords, list) or tuple(cff_keywords) != keywords:
+        fail("CITATION.cff and .zenodo.json keywords do not agree")
+    if str(cff.get("license", "")).lower() != str(zenodo.get("license", "")).lower():
+        fail("CITATION.cff and .zenodo.json licenses do not agree")
+    if str(preferred.get("license", "")).lower() != str(zenodo.get("license", "")).lower():
+        fail("preferred-citation and .zenodo.json licenses do not agree")
+    if cff.get("type") != "dataset" or preferred.get("type") != "report":
+        fail("CITATION.cff must describe a dataset with a preferred report citation")
+    if zenodo.get("upload_type") != "publication" or zenodo.get("publication_type") != "report":
+        fail(".zenodo.json must describe a publication/report")
+
     try:
-        cff = CITATION_METADATA.read_text(encoding="utf-8")
-    except OSError as error:
-        fail(f"Cannot read CITATION.cff publication metadata: {error}")
-    cff_version = re.search(r"(?m)^version:\s*['\"]?([^'\"\s]+)", cff)
-    cff_date = re.search(r"(?m)^date-released:\s*['\"]?([^'\"\s]+)", cff)
-    if not cff_version or cff_version.group(1) != version:
-        fail("CITATION.cff and .zenodo.json versions do not agree")
-    if not cff_date or cff_date.group(1) != publication_date:
-        fail("CITATION.cff and .zenodo.json release dates do not agree")
-    return version, publication_date
+        cff_author = cff["authors"][0]
+        preferred_author = preferred["authors"][0]
+        creator_name = zenodo["creators"][0]["name"]
+        given = str(cff_author["given-names"]).strip()
+        family = str(cff_author["family-names"]).strip()
+    except (KeyError, IndexError, TypeError) as error:
+        fail(f"Publication author metadata is incomplete: {error}")
+    expected_cff_author = {"given-names": given, "family-names": family}
+    if not isinstance(preferred_author, dict):
+        fail("preferred-citation author metadata must be an object")
+    if any(preferred_author.get(key) != value for key, value in expected_cff_author.items()):
+        fail("Top-level and preferred-citation authors do not agree")
+    if creator_name != f"{family}, {given}":
+        fail("CITATION.cff and .zenodo.json author names do not agree")
+
+    related = {
+        item.get("identifier")
+        for item in zenodo.get("related_identifiers", [])
+        if isinstance(item, dict)
+    }
+    if not {REPOSITORY_URL, CANONICAL_URL}.issubset(related):
+        fail(".zenodo.json must link the repository and canonical site")
+
+    return PublicationMetadata(
+        title=title,
+        author=f"{given} {family}",
+        version=version,
+        publication_date=publication_date,
+        abstract=abstract,
+        keywords=keywords,
+    )
 
 
-VERSION, PUBLICATION_DATE = load_publication_version_date()
+PUBLICATION = load_publication_metadata()
+TITLE = PUBLICATION.title
+AUTHOR = PUBLICATION.author
+VERSION = PUBLICATION.version
+PUBLICATION_DATE = PUBLICATION.publication_date
+ABSTRACT = PUBLICATION.abstract
+KEYWORDS = list(PUBLICATION.keywords)
 
 
 def git_raw(*args: str) -> str:
@@ -492,7 +571,7 @@ def page_html(
   <meta name="twitter:title" content="{html.escape(TITLE, quote=True)}">
   <meta name="twitter:description" content="{description}">
   <meta name="twitter:image" content="{image_url}">
-  <title>{title} — Ádám Ficsór</title>
+  <title>{title} — {html.escape(AUTHOR)}</title>
   <link rel="canonical" href="{CANONICAL_URL}">
   <link rel="alternate" type="text/markdown" title="Markdown source" href="{markdown_url}">
   <link rel="alternate" type="application/pdf" title="Illustrated PDF edition" href="{pdf_url}">

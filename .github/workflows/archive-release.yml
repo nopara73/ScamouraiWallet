@@ -38,8 +38,7 @@ jobs:
           python -m pip install --disable-pip-version-check \
             -r tools/requirements-site.txt \
             -r tools/requirements-pdf.txt \
-            cffconvert==2.0.0 \
-            PyYAML==6.0.2
+            cffconvert==2.0.0
 
       - name: Require the expected annotated tag
         env:
@@ -69,10 +68,13 @@ jobs:
           cff_date = iso_date(cff["date-released"])
           preferred = cff["preferred-citation"]
           preferred_date = iso_date(preferred["date-published"])
+          released = datetime.date.fromisoformat(zenodo["publication_date"])
           assert str(cff["version"]) == str(zenodo["version"])
           assert cff_date == zenodo["publication_date"]
           assert str(preferred["version"]) == str(zenodo["version"])
           assert preferred_date == zenodo["publication_date"]
+          assert preferred["year"] == released.year
+          assert preferred["month"] == released.month
           assert zenodo["upload_type"] == "publication"
           assert zenodo["publication_type"] == "report"
           assert not cff.get("doi"), "Do not publish a placeholder DOI"

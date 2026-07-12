@@ -323,6 +323,13 @@ def timestamp_destination(relative: Path) -> Path:
     return relative
 
 
+def timestamp_upload_name(relative: Path) -> Path:
+    """Flatten a proof path into a unique GitHub Release asset name."""
+
+    destination = timestamp_destination(relative)
+    return Path("-".join(destination.parts))
+
+
 def sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as stream:
@@ -457,7 +464,7 @@ def build(args: argparse.Namespace) -> None:
         ROOT / "CITATION.cff": upload / "CITATION.cff",
         ROOT / ".zenodo.json": upload / "zenodo-metadata.json",
         ROOT / "BIBLIOGRAPHY.txt": upload / "BIBLIOGRAPHY.txt",
-        ROOT / "timestamps/ARCHIVE_SHA256SUMS": upload / "timestamps" / "ARCHIVE_SHA256SUMS",
+        ROOT / "timestamps/ARCHIVE_SHA256SUMS": upload / "ARCHIVE_SHA256SUMS",
         commit_path: upload / "COMMIT.txt",
     }
     for name in INDEX_FILES:
@@ -466,7 +473,10 @@ def build(args: argparse.Namespace) -> None:
     for source, destination in direct_assets.items():
         copy_file(source, destination)
     for relative in proofs:
-        copy_file(ROOT / relative, upload / "timestamps" / timestamp_destination(relative))
+        destination = upload / timestamp_upload_name(relative)
+        if destination.exists():
+            fail(f"Timestamp proof release-name collision: {destination.name}")
+        copy_file(ROOT / relative, destination)
 
     write_manifest(upload, upload / "SHA256SUMS")
     if git_text("rev-parse", "HEAD") != commit:

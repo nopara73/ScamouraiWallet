@@ -29,11 +29,6 @@ SITE_CSS = ROOT / "docs" / "assets" / "site.css"
 OUTPUT = ROOT / "output" / "pdf" / "POST_MORTEM.pdf"
 WORK = ROOT / "tmp" / "pdfs" / "build"
 
-TITLE = "Post-Mortem: What Happened Between Samourai Wallet and Me"
-AUTHOR = "Ádám Ficsór (nopara73)"
-SUBJECT = "A sourced account of the conflict between nopara73 and Samourai Wallet"
-KEYWORDS = "Bitcoin, Samourai Wallet, Wasabi Wallet, ZeroLink, CoinJoin, xpub, digital preservation"
-
 RAW_IMAGE = re.compile(
     r'src="https://raw\.githubusercontent\.com/nopara73/ScamouraiWallet/'
     r'[0-9a-f]{40}/(sources/[^"]+)"'
@@ -65,7 +60,7 @@ def site_fingerprint_sha256() -> str:
     return hashlib.sha256(normalized + b"\0" + SITE_CSS.read_bytes()).hexdigest()
 
 
-def publication_metadata() -> tuple[str, str]:
+def publication_metadata() -> dict[str, object]:
     try:
         metadata = json.loads((ROOT / ".zenodo.json").read_text(encoding="utf-8"))
         version = str(metadata["version"])
@@ -76,21 +71,37 @@ def publication_metadata() -> tuple[str, str]:
         raise RuntimeError("publication version is not semantic")
     if not re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", publication_date):
         raise RuntimeError("publication date must use YYYY-MM-DD")
-    return version, publication_date
+    for field in ("title", "description", "keywords", "creators"):
+        if not metadata.get(field):
+            raise RuntimeError(f"publication metadata is missing {field}")
+    creator_name = str(metadata["creators"][0]["name"])
+    if ", " not in creator_name:
+        raise RuntimeError("publication creator must use 'Family, Given' form")
+    family, given = creator_name.split(", ", 1)
+    return {
+        "title": str(metadata["title"]),
+        "author": f"{given} {family} (nopara73)",
+        "subject": str(metadata["description"]),
+        "keywords": ", ".join(str(value) for value in metadata["keywords"]),
+        "version": version,
+        "publication_date": publication_date,
+    }
 
 
 def expected_pdf_metadata() -> dict[str, str]:
-    version, publication_date = publication_metadata()
+    publication = publication_metadata()
+    version = str(publication["version"])
+    publication_date = str(publication["publication_date"])
     compact_date = publication_date.replace("-", "")
     return {
-        "/Title": TITLE,
-        "/Author": AUTHOR,
-        "/Subject": SUBJECT,
-        "/Keywords": KEYWORDS,
+        "/Title": str(publication["title"]),
+        "/Author": str(publication["author"]),
+        "/Subject": str(publication["subject"]),
+        "/Keywords": str(publication["keywords"]),
         "/Creator": "ScamouraiWallet canonical HTML edition",
         "/Producer": "Chromium PDF renderer; metadata normalized with pypdf",
-        "/CreationDate": f"D:{compact_date}000000+02'00'",
-        "/ModDate": f"D:{compact_date}000000+02'00'",
+        "/CreationDate": f"D:{compact_date}000000Z",
+        "/ModDate": f"D:{compact_date}000000Z",
         "/ScamouraiVersion": version,
         "/ScamouraiPublicationDate": publication_date,
         "/ScamouraiSourceSHA256": source_sha256(),
@@ -199,10 +210,8 @@ def verify_pdf(path: Path) -> int:
 
     text = "\n".join(page.extract_text() or "" for page in reader.pages)
     normalized_text = re.sub(r"\s+", " ", text)
-    if (
-        "Post-Mortem: What Happened" not in normalized_text
-        or "Between Samourai Wallet and Me" not in normalized_text
-    ):
+    title = str(publication_metadata()["title"])
+    if title not in normalized_text:
         raise RuntimeError("rendered PDF does not contain the report title")
     leaked = sorted(set(NAMED_FOOTNOTE.findall(text)))
     if leaked:
