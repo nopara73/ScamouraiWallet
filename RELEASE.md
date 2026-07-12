@@ -20,7 +20,8 @@ agree across `CITATION.cff`, `.zenodo.json`, the Pages metadata, and the tag.
    Pages generator intentionally refuses to cite an uncommitted
    `POST_MORTEM.md`, because its HTML and JSON-LD record an exact source commit.
 4. Install the static-site dependency, regenerate the Pages edition from that
-   committed source, and verify the generated files:
+   committed source, verify it, and commit the generated `docs/` files. This
+   gives the PDF an exact committed HTML input:
 
    ```sh
    python -m pip install -r tools/requirements-site.txt
@@ -28,17 +29,28 @@ agree across `CITATION.cff`, `.zenodo.json`, the Pages metadata, and the tag.
    python tools/build_site.py --check
    ```
 
-5. Rebuild the tagged A4 PDF with Chrome or Chromium, then render and visually
-   inspect its pages:
+5. Rebuild the tagged A4 PDF with Chrome or Chromium, render and visually
+   inspect its pages, and commit the PDF separately:
 
    ```sh
    python -m pip install -r tools/requirements-pdf.txt
    python tools/build_pdf.py
    ```
 
-6. Review and commit the regenerated `docs/` files and PDF without changing
-   `POST_MORTEM.md` in the same commit. Run the site and timestamp-manifest
-   checks once more on the clean result.
+6. Regenerate and commit `docs/` once more so its PDF URL is pinned to the new
+   PDF commit. The PDF freshness fingerprint intentionally abstracts only that
+   self-referential URL, so the final site repin does not require another PDF
+   rebuild. Refresh the timestamp manifest and proof only after this sequence,
+   then require both of these checks to pass on the clean result:
+
+   ```sh
+   python tools/build_site.py --check
+   python tools/build_pdf.py --check
+   ```
+
+   If these commits were prepared on a feature branch, merge with a true merge
+   commit. Squashing or rebasing would rewrite commits already embedded in the
+   immutable asset URLs.
 7. If a pre-commit package test is needed at any point, use development mode.
    It is clearly marked as dirty and is not suitable for publication:
 

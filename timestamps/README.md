@@ -21,6 +21,9 @@ ots upgrade timestamps/ARCHIVE_SHA256SUMS.ots
 ots verify timestamps/ARCHIVE_SHA256SUMS.ots -f timestamps/ARCHIVE_SHA256SUMS
 ```
 
+`pre-release-2026-07-11/` preserves the prior manifest and its upgraded,
+Bitcoin-confirmed proof rather than silently replacing that earlier attestation.
+
 The proof establishes that the timestamped bytes existed no later than the
 eventual Bitcoin attestation. It does not establish that any historical claim
 in the report is true.
