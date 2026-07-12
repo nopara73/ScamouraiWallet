@@ -13,6 +13,8 @@ The check mode performs no writes and exits nonzero when a managed file in
 from __future__ import annotations
 
 import argparse
+from datetime import date
+from functools import lru_cache
 import hashlib
 import html
 from html.parser import HTMLParser
@@ -36,6 +38,8 @@ EXPECTED_MARKDOWN_VERSION: Final = "3.10.2"
 ROOT: Final = Path(__file__).resolve().parent.parent
 SOURCE: Final = ROOT / "POST_MORTEM.md"
 DOCS: Final = ROOT / "docs"
+ZENODO_METADATA: Final = ROOT / ".zenodo.json"
+CITATION_METADATA: Final = ROOT / "CITATION.cff"
 
 OWNER: Final = "nopara73"
 REPOSITORY: Final = "ScamouraiWallet"
@@ -49,8 +53,6 @@ SUBTITLE: Final = (
 )
 AUTHOR: Final = "Ádám Ficsór"
 AUTHOR_URL: Final = f"https://github.com/{OWNER}"
-VERSION: Final = "1.0.0"
-PUBLICATION_DATE: Final = "2026-07-11"
 ABSTRACT: Final = (
     "This first-person post-mortem documents the history of the conflict between "
     "Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend "
@@ -76,8 +78,41 @@ def fail(message: str) -> NoReturn:
     raise SystemExit(message)
 
 
-def git(*args: str) -> str:
-    """Return a single Git value, failing with a useful build error."""
+def load_publication_version_date() -> tuple[str, str]:
+    """Load release metadata from its canonical files and require agreement."""
+
+    try:
+        zenodo = json.loads(ZENODO_METADATA.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        fail(f"Cannot read .zenodo.json publication metadata: {error}")
+
+    version = str(zenodo.get("version", "")).strip()
+    publication_date = str(zenodo.get("publication_date", "")).strip()
+    if not re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", version):
+        fail(".zenodo.json must contain a semantic version such as 1.0.0")
+    try:
+        date.fromisoformat(publication_date)
+    except ValueError:
+        fail(".zenodo.json publication_date must use YYYY-MM-DD")
+
+    try:
+        cff = CITATION_METADATA.read_text(encoding="utf-8")
+    except OSError as error:
+        fail(f"Cannot read CITATION.cff publication metadata: {error}")
+    cff_version = re.search(r"(?m)^version:\s*['\"]?([^'\"\s]+)", cff)
+    cff_date = re.search(r"(?m)^date-released:\s*['\"]?([^'\"\s]+)", cff)
+    if not cff_version or cff_version.group(1) != version:
+        fail("CITATION.cff and .zenodo.json versions do not agree")
+    if not cff_date or cff_date.group(1) != publication_date:
+        fail("CITATION.cff and .zenodo.json release dates do not agree")
+    return version, publication_date
+
+
+VERSION, PUBLICATION_DATE = load_publication_version_date()
+
+
+def git_raw(*args: str) -> str:
+    """Return Git output without trimming porcelain-significant whitespace."""
     try:
         result = subprocess.run(
             ["git", *args],
@@ -91,22 +126,107 @@ def git(*args: str) -> str:
     except (OSError, subprocess.CalledProcessError) as error:
         details = getattr(error, "stderr", "") or str(error)
         fail(f"Unable to determine the source revision: {details.strip()}")
-    return result.stdout.strip()
+    return result.stdout
+
+
+def git(*args: str) -> str:
+    """Return a trimmed Git value, failing with a useful build error."""
+    return git_raw(*args).strip()
+
+
+@lru_cache(maxsize=1)
+def dirty_repository_paths() -> frozenset[str]:
+    raw = git_raw("status", "--porcelain=v1", "-z", "--untracked-files=all")
+    fields = raw.split("\0")
+    dirty: set[str] = set()
+    index = 0
+    while index < len(fields):
+        field = fields[index]
+        index += 1
+        if not field:
+            continue
+        status = field[:2]
+        dirty.add(field[3:].replace("\\", "/"))
+        if ("R" in status or "C" in status) and index < len(fields):
+            if fields[index]:
+                dirty.add(fields[index].replace("\\", "/"))
+            index += 1
+    return frozenset(dirty)
+
+
+@lru_cache(maxsize=1)
+def repository_history() -> tuple[dict[str, str], tuple[tuple[str, str], ...]]:
+    """Index newest path revisions with one Git history traversal."""
+
+    output = git(
+        "-c",
+        "core.quotepath=false",
+        "log",
+        "--format=@@%H",
+        "--name-only",
+        "--no-renames",
+        "HEAD",
+        "--",
+    )
+    newest: dict[str, str] = {}
+    ordered: list[tuple[str, str]] = []
+    revision = ""
+    for line in output.splitlines():
+        if line.startswith("@@"):
+            revision = line[2:]
+            if not re.fullmatch(r"[0-9a-f]{40}", revision):
+                fail(f"Unexpected revision in Git history: {revision!r}")
+        elif line and revision:
+            path = line.replace("\\", "/")
+            ordered.append((path, revision))
+            newest.setdefault(path, revision)
+    return newest, tuple(ordered)
+
+
+@lru_cache(maxsize=None)
+def repository_revision(relative_path: str) -> str:
+    """Return the newest commit containing a clean repository path."""
+
+    relative_path = normalize_relative_path(relative_path)
+    target = ROOT.joinpath(*PurePosixPath(relative_path).parts)
+    if not target.exists():
+        fail(f"Linked repository path does not exist: {relative_path}")
+
+    dirty = dirty_repository_paths()
+    prefix = relative_path.rstrip("/") + "/"
+    if relative_path in dirty or any(path.startswith(prefix) for path in dirty):
+        fail(
+            f"Linked repository path has uncommitted changes: {relative_path}. "
+            "Commit it before building immutable site links."
+        )
+
+    newest, ordered = repository_history()
+    revision = newest.get(relative_path)
+    if revision is None and target.is_dir():
+        revision = next(
+            (commit for path, commit in ordered if path.startswith(prefix)), None
+        )
+    if revision is None:
+        fail(f"Unable to find a committed revision for {relative_path!r}")
+    return revision
 
 
 def source_revision() -> str:
-    revision = git("log", "-1", "--format=%H", "--", SOURCE.name)
-    if not re.fullmatch(r"[0-9a-f]{40}", revision):
-        fail(f"Unexpected source revision: {revision!r}")
+    return repository_revision(SOURCE.name)
 
-    worktree_blob = git("hash-object", SOURCE.name)
-    committed_blob = git("rev-parse", f"{revision}:{SOURCE.name}")
-    if worktree_blob != committed_blob:
-        fail(
-            "POST_MORTEM.md has uncommitted changes. Commit the source before "
-            "building so the static edition can cite an exact revision."
+
+def pinned_file_url(relative_path: str, *, raw: bool = False) -> str:
+    """Return an immutable URL pinned to the commit that last changed a file."""
+
+    relative_path = normalize_relative_path(relative_path)
+    revision = repository_revision(relative_path)
+    encoded_path = quote_url_path(relative_path)
+    if raw:
+        return (
+            f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/"
+            f"{revision}/{encoded_path}"
         )
-    return revision
+    return f"{REPOSITORY_URL}/blob/{revision}/{encoded_path}"
 
 
 def normalize_relative_path(path: str) -> str:
@@ -128,9 +248,8 @@ def quote_url_path(path: str) -> str:
 class RepositoryLinkTreeprocessor(Treeprocessor):
     """Make source links work when the rendered page lives below docs/."""
 
-    def __init__(self, md: markdown.Markdown, revision: str) -> None:
+    def __init__(self, md: markdown.Markdown) -> None:
         super().__init__(md)
-        self.revision = revision
         self.image_number = 0
 
     def rewrite(self, value: str, *, image: bool) -> str:
@@ -143,15 +262,16 @@ class RepositoryLinkTreeprocessor(Treeprocessor):
             return value
 
         encoded_path = quote_url_path(relative_path)
+        revision = repository_revision(relative_path)
         if image:
             base = (
                 f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/"
-                f"{self.revision}/"
+                f"{revision}/"
             )
         else:
             local_target = ROOT.joinpath(*PurePosixPath(relative_path).parts)
             route = "tree" if local_target.is_dir() or parsed.path.endswith("/") else "blob"
-            base = f"{REPOSITORY_URL}/{route}/{self.revision}/"
+            base = f"{REPOSITORY_URL}/{route}/{revision}/"
 
         rewritten = base + encoded_path
         if parsed.query:
@@ -183,14 +303,10 @@ class RepositoryLinkTreeprocessor(Treeprocessor):
 
 
 class RepositoryLinkExtension(Extension):
-    def __init__(self, revision: str) -> None:
-        self.revision = revision
-        super().__init__()
-
     def extendMarkdown(self, md: markdown.Markdown) -> None:  # noqa: N802
         # Run after inline parsing and the TOC processor.
         md.treeprocessors.register(
-            RepositoryLinkTreeprocessor(md, self.revision), "repository_links", 0
+            RepositoryLinkTreeprocessor(md), "repository_links", 0
         )
 
 
@@ -232,7 +348,7 @@ class VisibleTextParser(HTMLParser):
         return " ".join(" ".join(self.text_parts).split())
 
 
-def render_markdown(source_text: str, revision: str) -> tuple[str, str]:
+def render_markdown(source_text: str) -> tuple[str, str]:
     # GitHub renders Markdown nested in details elements. Python-Markdown requires
     # the opt-in attribute; it is added only to the build input and never to source.
     build_input = source_text.replace("<details>", '<details markdown="1">')
@@ -242,7 +358,7 @@ def render_markdown(source_text: str, revision: str) -> tuple[str, str]:
             TocExtension(toc_depth="2-3", title=""),
             "md_in_html",
             "sane_lists",
-            RepositoryLinkExtension(revision),
+            RepositoryLinkExtension(),
         ],
         output_format="html5",
     )
@@ -276,11 +392,8 @@ def insert_edition_header(article_html: str, revision: str, source_sha256: str) 
 
 
 def article_json_ld(revision: str, source_sha256: str, section_names: list[str]) -> dict:
-    markdown_url = f"{REPOSITORY_URL}/blob/{revision}/{SOURCE.name}"
-    pdf_url = (
-        f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{revision}/"
-        "output/pdf/POST_MORTEM.pdf"
-    )
+    markdown_url = pinned_file_url(SOURCE.name)
+    pdf_url = pinned_file_url("output/pdf/POST_MORTEM.pdf", raw=True)
     return {
         "@context": "https://schema.org",
         "@type": "ScholarlyArticle",
@@ -319,9 +432,8 @@ def article_json_ld(revision: str, source_sha256: str, section_names: list[str])
                 "value": source_sha256,
             },
         ],
-        "image": (
-            f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{revision}/"
-            "sources/screenshots/government-sentencing-memo-page-38.png"
+        "image": pinned_file_url(
+            "sources/screenshots/government-sentencing-memo-page-38.png", raw=True
         ),
         "inLanguage": "en",
         "isAccessibleForFree": True,
@@ -346,19 +458,15 @@ def page_html(
 ) -> str:
     description = html.escape(ABSTRACT, quote=True)
     title = html.escape(TITLE)
-    markdown_url = f"{REPOSITORY_URL}/blob/{revision}/{SOURCE.name}"
-    pdf_url = (
-        f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{revision}/"
-        "output/pdf/POST_MORTEM.pdf"
+    markdown_url = pinned_file_url(SOURCE.name)
+    pdf_url = pinned_file_url("output/pdf/POST_MORTEM.pdf", raw=True)
+    image_url = pinned_file_url(
+        "sources/screenshots/government-sentencing-memo-page-38.png", raw=True
     )
-    image_url = (
-        f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{revision}/"
-        "sources/screenshots/government-sentencing-memo-page-38.png"
-    )
-    claims_url = f"{REPOSITORY_URL}/blob/{revision}/CLAIMS.jsonl"
-    timeline_url = f"{REPOSITORY_URL}/blob/{revision}/TIMELINE.md"
-    evidence_manifest_url = f"{REPOSITORY_URL}/blob/{revision}/EVIDENCE_MANIFEST.json"
-    citation_url = f"{REPOSITORY_URL}/blob/{revision}/CITATION.cff"
+    claims_url = pinned_file_url("CLAIMS.jsonl")
+    timeline_url = pinned_file_url("TIMELINE.md")
+    evidence_manifest_url = pinned_file_url("EVIDENCE_MANIFEST.json")
+    citation_url = pinned_file_url("CITATION.cff")
     revision_url = f"{REPOSITORY_URL}/commit/{revision}"
     json_ld_text = json.dumps(json_ld, ensure_ascii=False, sort_keys=True, indent=2)
     return f"""<!doctype html>
@@ -890,11 +998,8 @@ def metadata_json(json_ld: dict, revision: str, source_sha256: str) -> str:
         "canonicalUrl": CANONICAL_URL,
         "formats": {
             "html": CANONICAL_URL,
-            "markdown": f"{REPOSITORY_URL}/blob/{revision}/{SOURCE.name}",
-            "pdf": (
-                f"https://raw.githubusercontent.com/{OWNER}/{REPOSITORY}/{revision}/"
-                "output/pdf/POST_MORTEM.pdf"
-            ),
+            "markdown": pinned_file_url(SOURCE.name),
+            "pdf": pinned_file_url("output/pdf/POST_MORTEM.pdf", raw=True),
             "repository": REPOSITORY_URL,
         },
         "publicationDate": PUBLICATION_DATE,
@@ -1004,7 +1109,7 @@ def expected_outputs() -> dict[Path, bytes]:
     source_text = source_text.replace("\r\n", "\n").replace("\r", "\n")
     source_sha256 = hashlib.sha256(source_text.encode("utf-8")).hexdigest()
     revision = source_revision()
-    rendered_article, toc_html = render_markdown(source_text, revision)
+    rendered_article, toc_html = render_markdown(source_text)
 
     if f"<h1 id=\"post-mortem-what-happened-between-samourai-wallet-and-me\">{TITLE}</h1>" not in rendered_article:
         fail("The source title changed; update publication metadata deliberately.")

@@ -4,12 +4,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - "POST_MORTEM.md"
-      - "docs/**"
-      - "tools/build_site.py"
-      - "tools/requirements-site.txt"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:

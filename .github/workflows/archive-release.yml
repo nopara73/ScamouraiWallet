@@ -29,12 +29,15 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: tools/requirements-site.txt
+          cache-dependency-path: |
+            tools/requirements-site.txt
+            tools/requirements-pdf.txt
 
       - name: Install validators and site dependency
         run: |
           python -m pip install --disable-pip-version-check \
             -r tools/requirements-site.txt \
+            -r tools/requirements-pdf.txt \
             cffconvert==2.0.0 \
             PyYAML==6.0.2
 
@@ -75,42 +78,15 @@ jobs:
         run: |
           python -m json.tool ENTITY_ALIASES.json > /dev/null
           python -m json.tool EVIDENCE_MANIFEST.json > /dev/null
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          required = {
-              "claim_id",
-              "claim",
-              "subject",
-              "date",
-              "primary_source_url",
-              "archived_source_path",
-              "supporting_excerpt",
-              "source_type",
-              "confidence",
-              "caveat",
-              "essay_section",
-          }
-          seen = set()
-          count = 0
-          for line_number, line in enumerate(Path("CLAIMS.jsonl").read_text(encoding="utf-8").splitlines(), 1):
-              if not line.strip():
-                  continue
-              record = json.loads(line)
-              missing = required - record.keys()
-              assert not missing, f"CLAIMS.jsonl:{line_number}: missing {sorted(missing)}"
-              claim_id = record["claim_id"]
-              assert claim_id not in seen, f"duplicate claim_id: {claim_id}"
-              seen.add(claim_id)
-              count += 1
-          assert count, "CLAIMS.jsonl is empty"
-          PY
+          python tools/validate_claims.py
           python tools/build_evidence_manifest.py --check
           python tools/build_timestamp_manifest.py --check
 
       - name: Validate the canonical static site
         run: python tools/build_site.py --check
+
+      - name: Validate the committed publication PDF
+        run: python tools/build_pdf.py --check
 
       - name: Build and verify release artifacts
         env:
