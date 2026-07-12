@@ -30,7 +30,7 @@
       },
       {
         "@type": "MediaObject",
-        "contentUrl": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/output/pdf/POST_MORTEM.pdf",
+        "contentUrl": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/55142e18f5052847775d7a5c41dd2dc1bdb50d64/output/pdf/POST_MORTEM.pdf",
         "encodingFormat": "application/pdf",
         "name": "Illustrated PDF edition"
       }
@@ -61,7 +61,7 @@
         "value": "7f9fca7748f9e87b58e43ac70a3c1b3dc25899c4b00539daacd5cfec60ee2518"
       }
     ],
-    "image": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/sources/screenshots/government-sentencing-memo-page-38.png",
+    "image": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/7a9c48f82c7cfd38e272c479d71a465c809c5773/sources/screenshots/government-sentencing-memo-page-38.png",
     "inLanguage": "en",
     "isAccessibleForFree": true,
     "isPartOf": {
@@ -98,7 +98,7 @@
   "formats": {
     "html": "https://nopara73.github.io/ScamouraiWallet/",
     "markdown": "https://github.com/nopara73/ScamouraiWallet/blob/75e545620927f75ba487997bb1cf03360738ffe9/POST_MORTEM.md",
-    "pdf": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/75e545620927f75ba487997bb1cf03360738ffe9/output/pdf/POST_MORTEM.pdf",
+    "pdf": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/55142e18f5052847775d7a5c41dd2dc1bdb50d64/output/pdf/POST_MORTEM.pdf",
     "repository": "https://github.com/nopara73/ScamouraiWallet"
   },
   "publicationDate": "2026-07-11",
