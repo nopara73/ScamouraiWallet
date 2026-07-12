@@ -211,7 +211,7 @@ def verify_pdf(path: Path) -> int:
     text = "\n".join(page.extract_text() or "" for page in reader.pages)
     normalized_text = re.sub(r"\s+", " ", text)
     title = str(publication_metadata()["title"])
-    if title not in normalized_text:
+    if re.sub(r"\s+", "", title) not in re.sub(r"\s+", "", normalized_text):
         raise RuntimeError("rendered PDF does not contain the report title")
     leaked = sorted(set(NAMED_FOOTNOTE.findall(text)))
     if leaked:
