@@ -62,15 +62,22 @@ jobs:
 
           cff = yaml.safe_load(Path("CITATION.cff").read_text(encoding="utf-8"))
           zenodo = json.loads(Path(".zenodo.json").read_text(encoding="utf-8"))
-          cff_date = cff["date-released"]
-          if isinstance(cff_date, datetime.date):
-              cff_date = cff_date.isoformat()
+
+          def iso_date(value):
+              return value.isoformat() if isinstance(value, datetime.date) else str(value)
+
+          cff_date = iso_date(cff["date-released"])
+          preferred = cff["preferred-citation"]
+          preferred_date = iso_date(preferred["date-published"])
           assert str(cff["version"]) == str(zenodo["version"])
           assert cff_date == zenodo["publication_date"]
+          assert str(preferred["version"]) == str(zenodo["version"])
+          assert preferred_date == zenodo["publication_date"]
           assert zenodo["upload_type"] == "publication"
           assert zenodo["publication_type"] == "report"
           assert not cff.get("doi"), "Do not publish a placeholder DOI"
-          assert not any(author.get("orcid") for author in cff["authors"]), "Do not publish a placeholder ORCID"
+          all_authors = [*cff["authors"], *preferred["authors"]]
+          assert not any(author.get("orcid") for author in all_authors), "Do not publish a placeholder ORCID"
           assert not zenodo.get("doi"), "Do not publish a placeholder DOI"
           PY
 
