@@ -64,7 +64,11 @@ jobs:
           zenodo = json.loads(Path(".zenodo.json").read_text(encoding="utf-8"))
 
           def iso_date(value):
-              return value.isoformat() if isinstance(value, datetime.date) else str(value)
+              if isinstance(value, datetime.datetime):
+                  return value.date().isoformat()
+              if isinstance(value, datetime.date):
+                  return value.isoformat()
+              return str(value)
 
           cff_date = iso_date(cff["date-released"])
           preferred = cff["preferred-citation"]
