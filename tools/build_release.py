@@ -30,6 +30,10 @@ ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_MARKER = ".release-build-output"
 REPOSITORY_URL = "https://github.com/nopara73/ScamouraiWallet"
 TAG_PREFIX = "post-mortem-v"
+OTS_SHA256_PREFIX = (
+    b"\x00OpenTimestamps\x00\x00Proof\x00"
+    b"\xbf\x89\xe2\xe8\x84\xe8\x92\x94\x01\x08"
+)
 
 PUBLICATION_FILES = {
     "POST_MORTEM.md": "publication/POST_MORTEM.md",
@@ -315,6 +319,37 @@ def committed_timestamp_proofs(development: bool) -> list[Path]:
     return sorted(set(proofs), key=lambda path: path.as_posix().encode("utf-8"))
 
 
+def verify_timestamp_target(proof: Path, target: Path) -> None:
+    """Require a version-1 SHA-256 OpenTimestamps proof for the adjacent file."""
+
+    data = proof.read_bytes()
+    end = len(OTS_SHA256_PREFIX) + 32
+    if len(data) < end or not data.startswith(OTS_SHA256_PREFIX):
+        fail(f"Unsupported or malformed OpenTimestamps proof: {proof.relative_to(ROOT)}")
+    embedded_digest = data[len(OTS_SHA256_PREFIX) : end]
+    if embedded_digest.hex() != sha256(target):
+        fail(
+            "OpenTimestamps proof does not match its adjacent target: "
+            f"{proof.relative_to(ROOT)}"
+        )
+
+
+def committed_timestamp_artifacts(development: bool) -> list[Path]:
+    """Return each proof with its adjacent target and explanatory README."""
+
+    artifacts: set[Path] = set()
+    for proof in committed_timestamp_proofs(development):
+        target = Path(str(proof)[: -len(".ots")])
+        if not (ROOT / target).is_file():
+            fail(f"Timestamp proof has no adjacent target: {proof}")
+        verify_timestamp_target(ROOT / proof, ROOT / target)
+        artifacts.update((proof, target))
+        readme = proof.parent / "README.md"
+        if (ROOT / readme).is_file():
+            artifacts.add(readme)
+    return sorted(artifacts, key=lambda path: path.as_posix().encode("utf-8"))
+
+
 def timestamp_destination(relative: Path) -> Path:
     """Keep an existing timestamps/ layout without nesting it twice."""
 
@@ -324,9 +359,11 @@ def timestamp_destination(relative: Path) -> Path:
 
 
 def timestamp_upload_name(relative: Path) -> Path:
-    """Flatten a proof path into a unique GitHub Release asset name."""
+    """Flatten a timestamp path into a unique GitHub Release asset name."""
 
     destination = timestamp_destination(relative)
+    if destination == Path("README.md"):
+        return Path("timestamps-README.md")
     return Path("-".join(destination.parts))
 
 
@@ -436,8 +473,8 @@ def build(args: argparse.Namespace) -> None:
     if docs.is_dir():
         shutil.copytree(docs, bundle_directory / "site", copy_function=shutil.copyfile)
 
-    proofs = committed_timestamp_proofs(args.development)
-    for relative in proofs:
+    timestamp_artifacts = committed_timestamp_artifacts(args.development)
+    for relative in timestamp_artifacts:
         copy_file(
             ROOT / relative,
             bundle_directory / "timestamps" / timestamp_destination(relative),
@@ -472,10 +509,12 @@ def build(args: argparse.Namespace) -> None:
             direct_assets[ROOT / name] = upload / name
     for source, destination in direct_assets.items():
         copy_file(source, destination)
-    for relative in proofs:
+    for relative in timestamp_artifacts:
         destination = upload / timestamp_upload_name(relative)
         if destination.exists():
-            fail(f"Timestamp proof release-name collision: {destination.name}")
+            if sha256(destination) == sha256(ROOT / relative):
+                continue
+            fail(f"Timestamp artifact release-name collision: {destination.name}")
         copy_file(ROOT / relative, destination)
 
     write_manifest(upload, upload / "SHA256SUMS")

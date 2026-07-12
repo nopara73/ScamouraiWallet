@@ -46,6 +46,7 @@ jobs:
         run: |
           test "$(git cat-file -t "$RELEASE_TAG")" = tag
           test "$(git rev-list -n 1 "$RELEASE_TAG")" = "$GITHUB_SHA"
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/master
           metadata_version="$(python -c 'import json; print(json.load(open(".zenodo.json", encoding="utf-8"))["version"])')"
           test "$RELEASE_TAG" = "post-mortem-v${metadata_version}"
 
@@ -131,6 +132,12 @@ jobs:
           EOF
 
           mapfile -d '' assets < <(find dist/upload -type f -print0 | sort -z)
+          duplicate_names="$(find dist/upload -type f -printf '%f\n' | sort | uniq -d)"
+          if [[ -n "$duplicate_names" ]]; then
+            echo "Duplicate GitHub Release asset names:" >&2
+            echo "$duplicate_names" >&2
+            exit 1
+          fi
           if gh release view "$RELEASE_TAG" > /dev/null 2>&1; then
             draft="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$RELEASE_TAG" --jq .draft)"
             if [[ "$draft" != "true" ]]; then

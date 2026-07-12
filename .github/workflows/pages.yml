@@ -18,6 +18,7 @@ concurrency:
 jobs:
   build:
     name: Validate Pages artifact
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repository
@@ -48,6 +49,7 @@ jobs:
 
   deploy:
     name: Deploy canonical edition
+    if: github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
