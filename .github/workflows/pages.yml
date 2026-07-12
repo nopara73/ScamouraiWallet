@@ -31,13 +31,21 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: tools/requirements-site.txt
+          cache-dependency-path: |
+            tools/requirements-site.txt
+            tools/requirements-pdf.txt
 
-      - name: Install the pinned renderer
-        run: python -m pip install --disable-pip-version-check -r tools/requirements-site.txt
+      - name: Install the pinned publication validators
+        run: |
+          python -m pip install --disable-pip-version-check \
+            -r tools/requirements-site.txt \
+            -r tools/requirements-pdf.txt
 
       - name: Verify the committed static edition
         run: python tools/build_site.py --check
+
+      - name: Verify the committed publication PDF
+        run: python tools/build_pdf.py --check
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
