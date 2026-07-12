@@ -30,7 +30,7 @@
       },
       {
         "@type": "MediaObject",
-        "contentUrl": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/357f1b6b9ce03a61e6f2670a61dfc4a160ed64d9/output/pdf/POST_MORTEM.pdf",
+        "contentUrl": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/9837ba405afa4a8fb2e1ee0bcd20452822e34ea0/output/pdf/POST_MORTEM.pdf",
         "encodingFormat": "application/pdf",
         "name": "Illustrated PDF edition"
       }
@@ -98,7 +98,7 @@
   "formats": {
     "html": "https://nopara73.github.io/ScamouraiWallet/",
     "markdown": "https://github.com/nopara73/ScamouraiWallet/blob/75e545620927f75ba487997bb1cf03360738ffe9/POST_MORTEM.md",
-    "pdf": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/357f1b6b9ce03a61e6f2670a61dfc4a160ed64d9/output/pdf/POST_MORTEM.pdf",
+    "pdf": "https://raw.githubusercontent.com/nopara73/ScamouraiWallet/9837ba405afa4a8fb2e1ee0bcd20452822e34ea0/output/pdf/POST_MORTEM.pdf",
     "repository": "https://github.com/nopara73/ScamouraiWallet"
   },
   "publicationDate": "2026-07-11",
