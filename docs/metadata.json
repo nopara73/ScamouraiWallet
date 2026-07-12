@@ -3,7 +3,7 @@
   "article": {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "abstract": "This first-person post-mortem documents the history of the conflict between Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and what the server seizure later revealed. It distinguishes primary records, first-person recollection, inference, government allegations, and defense claims, and preserves the underlying evidence for independent review.",
+    "abstract": "A first-person post-mortem and primary-source archive documenting the conflict between Ádám Ficsór and Samourai Wallet. The record covers ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and evidence made public after the server seizure. It distinguishes primary records, recollection, inference, government allegations, and defense claims so that readers can independently evaluate the account.",
     "alternativeHeadline": "How a wallet that adopted my privacy framework turned technical disagreement into a reputational war—and what I got wrong too",
     "articleSection": [
       "How ZeroLink actually began",
@@ -42,7 +42,7 @@
     },
     "dateModified": "2026-07-11",
     "datePublished": "2026-07-11",
-    "description": "This first-person post-mortem documents the history of the conflict between Ádám Ficsór and Samourai Wallet, focusing on ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and what the server seizure later revealed. It distinguishes primary records, first-person recollection, inference, government allegations, and defense claims, and preserves the underlying evidence for independent review.",
+    "description": "A first-person post-mortem and primary-source archive documenting the conflict between Ádám Ficsór and Samourai Wallet. The record covers ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and evidence made public after the server seizure. It distinguishes primary records, recollection, inference, government allegations, and defense claims so that readers can independently evaluate the account.",
     "headline": "Post-Mortem: What Happened Between Samourai Wallet and Me",
     "identifier": [
       {
