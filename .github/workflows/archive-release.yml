@@ -1,0 +1,159 @@
+name: Archive release
+
+on:
+  push:
+    tags:
+      - "post-mortem-v*"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-build-release:
+    name: Validate, package, and publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out complete history
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            tools/requirements-site.txt
+            tools/requirements-pdf.txt
+
+      - name: Install validators and site dependency
+        run: |
+          python -m pip install --disable-pip-version-check \
+            -r tools/requirements-site.txt \
+            -r tools/requirements-pdf.txt \
+            cffconvert==2.0.0
+
+      - name: Require the expected annotated tag
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          test "$(git cat-file -t "$RELEASE_TAG")" = tag
+          test "$(git rev-list -n 1 "$RELEASE_TAG")" = "$GITHUB_SHA"
+          git merge-base --is-ancestor "$GITHUB_SHA" origin/master
+          metadata_version="$(python -c 'import json; print(json.load(open(".zenodo.json", encoding="utf-8"))["version"])')"
+          test "$RELEASE_TAG" = "post-mortem-v${metadata_version}"
+
+      - name: Validate citation and deposit metadata
+        run: |
+          cffconvert --validate
+          python -m json.tool .zenodo.json > /dev/null
+          python - <<'PY'
+          import datetime
+          import json
+          from pathlib import Path
+          import yaml
+
+          cff = yaml.safe_load(Path("CITATION.cff").read_text(encoding="utf-8"))
+          zenodo = json.loads(Path(".zenodo.json").read_text(encoding="utf-8"))
+
+          def iso_date(value):
+              if isinstance(value, datetime.datetime):
+                  return value.date().isoformat()
+              if isinstance(value, datetime.date):
+                  return value.isoformat()
+              return str(value)
+
+          cff_date = iso_date(cff["date-released"])
+          preferred = cff["preferred-citation"]
+          preferred_date = iso_date(preferred["date-published"])
+          released = datetime.date.fromisoformat(zenodo["publication_date"])
+          assert str(cff["version"]) == str(zenodo["version"])
+          assert cff_date == zenodo["publication_date"]
+          assert str(preferred["version"]) == str(zenodo["version"])
+          assert preferred_date == zenodo["publication_date"]
+          assert preferred["year"] == released.year
+          assert preferred["month"] == released.month
+          assert zenodo["upload_type"] == "publication"
+          assert zenodo["publication_type"] == "report"
+          assert not cff.get("doi"), "Do not publish a placeholder DOI"
+          all_authors = [*cff["authors"], *preferred["authors"]]
+          assert not any(author.get("orcid") for author in all_authors), "Do not publish a placeholder ORCID"
+          assert not zenodo.get("doi"), "Do not publish a placeholder DOI"
+          PY
+
+      - name: Validate machine-readable indexes
+        run: |
+          python -m json.tool ENTITY_ALIASES.json > /dev/null
+          python -m json.tool EVIDENCE_MANIFEST.json > /dev/null
+          python tools/validate_claims.py
+          python tools/build_evidence_manifest.py --check
+          python tools/build_timestamp_manifest.py --check
+
+      - name: Validate the canonical static site
+        run: python tools/build_site.py --check
+
+      - name: Validate the committed publication PDF
+        run: python tools/build_pdf.py --check
+
+      - name: Build and verify release artifacts
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          python tools/build_release.py --output dist --tag "$RELEASE_TAG"
+          git bundle verify dist/upload/ScamouraiWallet-full-history-*.bundle
+          cd dist/upload
+          sha256sum -c SHA256SUMS
+
+      - name: Retain a workflow copy of the release package
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ github.ref_name }}-archive
+          path: dist/upload/
+          if-no-files-found: error
+          compression-level: 0
+
+      - name: Create the GitHub Release and upload all archival assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          notes="$RUNNER_TEMP/release-notes.md"
+          git for-each-ref --format='%(contents)' "refs/tags/$RELEASE_TAG" > "$notes"
+          cat >> "$notes" <<'EOF'
+
+          This release freezes the report, evidence indexes, canonical site, source
+          snapshot, and full Git history at the exact commit recorded in COMMIT.txt.
+          Verify every downloaded asset with SHA256SUMS. A DOI is intentionally absent
+          until an archival service has registered one.
+          EOF
+
+          mapfile -d '' assets < <(find dist/upload -type f -print0 | sort -z)
+          duplicate_names="$(find dist/upload -type f -printf '%f\n' | sort | uniq -d)"
+          if [[ -n "$duplicate_names" ]]; then
+            echo "Duplicate GitHub Release asset names:" >&2
+            echo "$duplicate_names" >&2
+            exit 1
+          fi
+          if gh release view "$RELEASE_TAG" > /dev/null 2>&1; then
+            draft="$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/$RELEASE_TAG" --jq .draft)"
+            if [[ "$draft" != "true" ]]; then
+              echo "Refusing to replace assets on an already published release" >&2
+              exit 1
+            fi
+            gh release upload "$RELEASE_TAG" "${assets[@]}" --clobber
+          else
+            gh release create "$RELEASE_TAG" "${assets[@]}" \
+              --verify-tag \
+              --draft \
+              --title "Post-Mortem archival edition ${RELEASE_TAG#post-mortem-v}" \
+              --notes-file "$notes"
+          fi
+          gh release edit "$RELEASE_TAG" --draft=false

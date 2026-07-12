@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-11",
+  "scope_note": "Identity map for names and identifiers used in POST_MORTEM.md. Confidence applies only to the alias or relationship stated. It does not transfer responsibility for every post made by a shared or organizational account.",
+  "entities": [
+    {
+      "entity_id": "person-adam-ficsor",
+      "canonical_name": "Ádám Ficsór",
+      "entity_type": "person",
+      "aliases": [
+        {
+          "value": "nopara73",
+          "kind": "longstanding pseudonym",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/social/tweets/nopara73-1647489516939382784.json",
+            "sources/web/samouraileaks-part-1.html"
+          ],
+          "caveat": "The repository and cited publications consistently present nopara73 as the authorial identity."
+        },
+        {
+          "value": "@nopara73",
+          "kind": "X handle",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/social/tweets/nopara73-1647489516939382784.json"
+          ],
+          "caveat": "This identifies the public account preserved by the archive, not proof of authorship of material outside the cited records."
+        },
+        {
+          "value": "Ádám Ficsor",
+          "kind": "diacritic variation",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/web/wasabi-faq-introduction.html"
+          ],
+          "caveat": "The citation metadata uses Ficsór; some English-language sources omit the final accent. The legal filing's 'Adam Fiscor' is treated as a spelling error, not a separate alias."
+        }
+      ]
+    },
+    {
+      "entity_id": "person-william-lonergan-hill",
+      "canonical_name": "William Lonergan Hill",
+      "entity_type": "person",
+      "aliases": [
+        {
+          "value": "William Hill",
+          "kind": "shortened legal name",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf",
+            "sources/web/justice-2025-guilty-pleas-wayback.html"
+          ],
+          "caveat": "The Justice Department release gives the fuller name William Lonergan Hill."
+        },
+        {
+          "value": "Bill",
+          "kind": "given-name diminutive and Git author name",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch",
+            "sources/code/zerolink-full-history.bundle",
+            "sources/code/blockchain-samourai-lineage.md"
+          ],
+          "caveat": "Git author strings can be self-selected; the linkage is supported here by the surrounding project history, not the name 'Bill' alone."
+        },
+        {
+          "value": "TDevD",
+          "kind": "pseudonym/display name",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/social/tweets/samouraidev-1552265920013271041.json",
+            "sources/code/zerolink-8fbdcb9-fix-typos.patch",
+            "sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf"
+          ],
+          "caveat": "The repository consistently identifies TDevD as Hill and the public account displays TDevD. The archived social metadata alone is not a platform identity-verification record."
+        },
+        {
+          "value": "@SamouraiDev",
+          "kind": "public account handle",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/social/samouraidev-profile-2026-07-10.html",
+            "sources/social/tweets/samouraidev-1775920406953701884.json"
+          ],
+          "caveat": "The archive treats the account as Hill/TDevD's public account in line with the essay and surrounding records. It cannot independently prove who typed every post or whether anyone else ever had access."
+        }
+      ],
+      "attributed_aliases": [
+        {
+          "value": "foneBTC",
+          "kind": "alleged promotional sockpuppet identity",
+          "confidence": "medium",
+          "evidence_basis": [
+            "sources/web/samouraileaks-part-1.html",
+            "sources/screenshots/samouraileaks-sockpuppet-nail-in-coffin.jpg",
+            "sources/screenshots/samouraileaks-sockpuppet-conclusion.jpg"
+          ],
+          "caveat": "This is nopara73's published attribution based on linked projects and account behavior, not an independent platform disclosure or judicial finding."
+        },
+        {
+          "value": "fone-btc",
+          "kind": "alleged promotional sockpuppet identity",
+          "confidence": "medium",
+          "evidence_basis": [
+            "sources/web/samouraileaks-part-1.html",
+            "sources/screenshots/samouraileaks-sockpuppet-nail-in-coffin.jpg",
+            "sources/screenshots/samouraileaks-sockpuppet-conclusion.jpg"
+          ],
+          "caveat": "This is nopara73's published attribution based on linked projects and account behavior, not an independent platform disclosure or judicial finding."
+        }
+      ]
+    },
+    {
+      "entity_id": "person-keonne-rodriguez",
+      "canonical_name": "Keonne Rodriguez",
+      "entity_type": "person",
+      "aliases": [
+        {
+          "value": "Keonne",
+          "kind": "given-name shorthand",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/web/justice-2025-guilty-pleas-wayback.html"
+          ],
+          "caveat": "No personal social-media handle is assigned to Rodriguez in this file."
+        }
+      ]
+    },
+    {
+      "entity_id": "project-samourai-wallet",
+      "canonical_name": "Samourai Wallet",
+      "entity_type": "software project and service",
+      "aliases": [
+        {
+          "value": "Samourai",
+          "kind": "short project name",
+          "confidence": "high",
+          "evidence_basis": [
+            "README.md",
+            "POST_MORTEM.md"
+          ],
+          "caveat": "Context determines whether the word refers to the wallet software, hosted service, project team, or public brand."
+        },
+        {
+          "value": "@SamouraiWallet",
+          "kind": "official project account",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/social/tweets/samouraiwallet-1576923638846005248.json",
+            "sources/social/tweets/samouraiwallet-1648132389221068802.json"
+          ],
+          "caveat": "Posts from this account are attributed to the project account, not automatically to Hill or Rodriguez individually."
+        }
+      ]
+    },
+    {
+      "entity_id": "project-oxt",
+      "canonical_name": "OXT",
+      "entity_type": "blockchain-analysis project and tool",
+      "aliases": [
+        {
+          "value": "OXT.me",
+          "kind": "service/domain name",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/web/samourai-oxt-acquisition-2017-wayback.html"
+          ],
+          "caveat": "The service/domain label does not identify a particular natural person."
+        },
+        {
+          "value": "OXT Research",
+          "kind": "research label",
+          "confidence": "high",
+          "evidence_basis": [
+            "sources/research/2020-oxt-wasabi-report-full.pdf",
+            "sources/web/oxt-follow-up.md"
+          ],
+          "caveat": "The archive does not equate every contributor using this label with Hill or Rodriguez."
+        }
+      ]
+    },
+    {
+      "entity_id": "project-wasabi-wallet",
+      "canonical_name": "Wasabi Wallet",
+      "entity_type": "software project and wallet",
+      "aliases": [
+        {
+          "value": "Wasabi",
+          "kind": "short project name",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/web/wasabi-network-level-privacy.html"
+          ],
+          "caveat": "Context distinguishes the software, its default coordinator, the development team, and zkSNACKs Ltd."
+        }
+      ]
+    },
+    {
+      "entity_id": "organization-zksnacks",
+      "canonical_name": "zkSNACKs Ltd.",
+      "entity_type": "company",
+      "aliases": [
+        {
+          "value": "zkSNACKs",
+          "kind": "short organization name",
+          "confidence": "high",
+          "evidence_basis": [
+            "POST_MORTEM.md",
+            "sources/web/bitcointalk-5405325.html"
+          ],
+          "caveat": "The company and the open-source Wasabi software are related but not interchangeable."
+        }
+      ]
+    },
+    {
+      "entity_id": "framework-zerolink",
+      "canonical_name": "ZeroLink",
+      "entity_type": "Bitcoin wallet privacy framework",
+      "aliases": [],
+      "evidence_basis": [
+        "sources/code/zerolink-full-history.bundle",
+        "sources/code/zerolink-25d1502-publication-snapshot.zip"
+      ],
+      "caveat": "ZeroLink is broader than a single CoinJoin transaction protocol in the author's terminology."
+    }
+  ],
+  "relationships": [
+    {
+      "subject_entity_id": "project-oxt",
+      "predicate": "acquired_by",
+      "object_entity_id": "project-samourai-wallet",
+      "date": "2017-12-21",
+      "confidence": "high",
+      "evidence_basis": [
+        "sources/web/samourai-oxt-acquisition-2017-wayback.html"
+      ],
+      "caveat": "The announcement says OXT would remain a separate entity operated by its existing team; later submissions describe it as owned and operated by Samourai Wallet."
+    },
+    {
+      "subject_entity_id": "person-william-lonergan-hill",
+      "predicate": "cofounder_and_cto_of",
+      "object_entity_id": "project-samourai-wallet",
+      "date": "2015/2024",
+      "confidence": "high",
+      "evidence_basis": [
+        "sources/web/justice-2025-guilty-pleas-wayback.html",
+        "sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf"
+      ],
+      "caveat": "Role titles are taken from court and party records."
+    },
+    {
+      "subject_entity_id": "person-keonne-rodriguez",
+      "predicate": "cofounder_and_ceo_of",
+      "object_entity_id": "project-samourai-wallet",
+      "date": "2015/2024",
+      "confidence": "high",
+      "evidence_basis": [
+        "sources/web/justice-2025-guilty-pleas-wayback.html"
+      ],
+      "caveat": "Role titles are taken from the Justice Department's account of the pleas."
+    }
+  ],
+  "non_assertions": [
+    "The organizational account @SamouraiWallet is not mapped to a particular natural person; the archive cannot establish who typed each post.",
+    "The anonymous private-message accounts shown in the threat screenshots are not mapped to Hill, Rodriguez, or any other person; their visible labels do not establish control.",
+    "@OXTObserver is preserved as a cited public account but is not treated here as a personal alias of Hill, Rodriguez, or an identified OXT contributor.",
+    "No street address or uncensored doxxing material is included in this identity map."
+  ]
+}

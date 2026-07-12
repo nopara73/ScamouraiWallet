@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: >-
+  If you use this archive, please cite the preferred report citation below.
+title: "Post-Mortem: What Happened Between Samourai Wallet and Me"
+type: dataset
+authors:
+  - family-names: "Ficsór"
+    given-names: "Ádám"
+    alias: "nopara73"
+version: 1.0.0
+date-released: 2026-07-11
+repository-code: "https://github.com/nopara73/ScamouraiWallet"
+url: "https://nopara73.github.io/ScamouraiWallet/"
+license: MIT
+abstract: >-
+  A first-person post-mortem and primary-source archive documenting the conflict
+  between Ádám Ficsór and Samourai Wallet. The record covers ZeroLink authorship,
+  wallet-backend xpub collection, Tor and Dojo defaults, public technical claims,
+  retaliation, and evidence made public after the server seizure. It distinguishes
+  primary records, recollection, inference, government allegations, and defense
+  claims so that readers can independently evaluate the account.
+keywords:
+  - Bitcoin
+  - Samourai Wallet
+  - Wasabi Wallet
+  - ZeroLink
+  - CoinJoin
+  - xpub
+  - wallet privacy
+  - digital preservation
+  - primary sources
+# A DOI is intentionally omitted until an archive has actually registered one.
+preferred-citation:
+  type: report
+  authors:
+    - family-names: "Ficsór"
+      given-names: "Ádám"
+      alias: "nopara73"
+  title: "Post-Mortem: What Happened Between Samourai Wallet and Me"
+  version: 1.0.0
+  date-published: 2026-07-11
+  year: 2026
+  month: 7
+  repository-code: "https://github.com/nopara73/ScamouraiWallet"
+  url: "https://nopara73.github.io/ScamouraiWallet/"
+  license: MIT

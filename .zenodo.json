@@ -1,0 +1,37 @@
+{
+  "title": "Post-Mortem: What Happened Between Samourai Wallet and Me",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "A first-person post-mortem and primary-source archive documenting the conflict between Ádám Ficsór and Samourai Wallet. The record covers ZeroLink authorship, wallet-backend xpub collection, Tor and Dojo defaults, public technical claims, retaliation, and evidence made public after the server seizure. It distinguishes primary records, recollection, inference, government allegations, and defense claims so that readers can independently evaluate the account.",
+  "creators": [
+    {
+      "name": "Ficsór, Ádám"
+    }
+  ],
+  "publication_date": "2026-07-11",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "keywords": [
+    "Bitcoin",
+    "Samourai Wallet",
+    "Wasabi Wallet",
+    "ZeroLink",
+    "CoinJoin",
+    "xpub",
+    "wallet privacy",
+    "digital preservation",
+    "primary sources"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://nopara73.github.io/ScamouraiWallet/",
+      "relation": "isIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nopara73/ScamouraiWallet",
+      "relation": "isSupplementedBy"
+    }
+  ]
+}

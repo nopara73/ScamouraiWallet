@@ -1,0 +1,2317 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Scamourai Wallet post-mortem evidence manifest",
+  "description": "Byte-level inventory of the locally preserved evidence archive. Source URLs are joined from sources/URLS.md where a mapping exists.",
+  "hash_algorithm": "SHA-256",
+  "hash_source": "sources/SHA256SUMS",
+  "url_source": "sources/URLS.md",
+  "evidence_snapshot_commit": "e324f878ce3b77b8d922d2bfa1d7df04322e49ce",
+  "entry_count": 285,
+  "entries": [
+    {
+      "path": "sources/code/blockchain-android-4063b3a-sharedcoin-ui.patch",
+      "sha256": "1c98c9552de6989296e53cd8c5e315c6dd9d25836403e24907711d89fd010299",
+      "bytes": 8306,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/jisqyv/Android-Wallet-2-App/commit/4063b3a935afc377a8351656dfcf9f7cf95e52ce"
+      ]
+    },
+    {
+      "path": "sources/code/blockchain-android-9f4e200-cited-files.zip",
+      "sha256": "30a8dcb240a9e077c460dd898b4d9613afc63b8e5322ed2486113a5ba4935a19",
+      "bytes": 8989,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/jisqyv/Android-Wallet-2-App",
+        "https://github.com/jisqyv/Android-Wallet-2-App/commit/9f4e200c7359f6aa687631c9674bc82050a13b0b"
+      ]
+    },
+    {
+      "path": "sources/code/blockchain-samourai-lineage.md",
+      "sha256": "f98630c8bb6c6b08785cbcbb201bb0ad1170ab023d3c7afeece44381a1766a7c",
+      "bytes": 4539,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://github.com/jisqyv/Android-Wallet-2-App"
+      ]
+    },
+    {
+      "path": "sources/code/dumplings-36f28f2-adoption-files.7z",
+      "sha256": "738304ef9f0fa1ad7ab500f9aeb04bae25aaed9c93d3f4dc1cd9d3c4d23cdfa3",
+      "bytes": 31659851,
+      "media_type": "application/x-compressed",
+      "source_urls": [
+        "https://github.com/nopara73/Dumplings",
+        "https://github.com/nopara73/Dumplings/commit/36f28f27ab3753211acdbf9dde09ceb760ee834b"
+      ]
+    },
+    {
+      "path": "sources/code/dumplings-adoption-audit.md",
+      "sha256": "622ca061eb6e7c2406514bef8eb178edc045762caa56e9222971a5e7df990c62",
+      "bytes": 2120,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://github.com/nopara73/Dumplings"
+      ]
+    },
+    {
+      "path": "sources/code/randomorggenerator-dfb781c.java",
+      "sha256": "64fba3192f0104d5e3f4487b595e8016da2c96af0dadf0f3b10b0aa8a4640c7f",
+      "bytes": 691,
+      "media_type": "application/octet-stream",
+      "source_urls": [
+        "https://github.com/jisqyv/Android-Wallet-2-App/blob/dfb781c05536db58eb253ab5c37b82c237213382/src/piuk/blockchain/android/util/RandomOrgGenerator.java"
+      ]
+    },
+    {
+      "path": "sources/code/README.md",
+      "sha256": "f2bc3357cb88f61d4c50a2ce231d07b81d342fe7fc8c903fb8bf95f8ab1cb9fe",
+      "bytes": 2846,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/code/samourai-android-c6274d1-lineage-files.zip",
+      "sha256": "b31e78d23e8d1d156c6ae57f75c111be08363ac9afedba0b89a47a0597ed61ce",
+      "bytes": 8603,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/commit/c6274d19b543a29edd46864d251bc56ee3510288"
+      ]
+    },
+    {
+      "path": "sources/code/samourai-wallet-android-4bf9870-cited-files.zip",
+      "sha256": "3109f0cae2833fbb891d237f402aeada456e04997327b2e563bf039322871d62",
+      "bytes": 35088,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/Archive-Samourai-Wallet/samourai-wallet-android/blob/4bf98700485879b1c4080e6a2e2f7d4ecbf24163/app/src/main/java/com/samourai/wallet/api/APIFactory.java#L399-L430",
+        "https://github.com/Archive-Samourai-Wallet/samourai-wallet-android/blob/4bf98700485879b1c4080e6a2e2f7d4ecbf24163/app/src/main/java/com/samourai/wallet/util/BackendApiAndroid.java#L18-L33",
+        "https://github.com/Archive-Samourai-Wallet/samourai-wallet-android/tree/4bf98700485879b1c4080e6a2e2f7d4ecbf24163"
+      ]
+    },
+    {
+      "path": "sources/code/samourai-wallet-android-c71f21a-cited-files.zip",
+      "sha256": "8717b8988f81c1969c05e40680f310972ee0c2bdcbb0b9e91f6e70bfaab4e3df",
+      "bytes": 29468,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/LandingActivity.java#L91-L125",
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/SamouraiApplication.java#L28-L33",
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/api/APIFactory.java#L373-L405",
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/api/APIFactory.java#L430-L489",
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/blob/c71f21a631bbc69db2bd411f2905c7f141d1523f/app/src/main/java/com/samourai/wallet/ricochet/RicochetMeta.java",
+        "https://github.com/Samourai-Wallet/samourai-wallet-android/tree/c71f21a631bbc69db2bd411f2905c7f141d1523f"
+      ]
+    },
+    {
+      "path": "sources/code/sentinel-1a4722f-add-tor.patch",
+      "sha256": "d723f96337b234d50a0e6e4b00a90a72f8a1774fe03883394225c552ac303c08",
+      "bytes": 186827,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/sentinel-android/commit/1a4722f8e35da8355bb763dc3005602da29109cf"
+      ]
+    },
+    {
+      "path": "sources/code/sentinel-77eca1d-move-xpub-to-samourai-api.patch",
+      "sha256": "f7de9e4513c9d6c0f7bb38e552e3a30ec7328c7a2315656457c5211dfff1e086",
+      "bytes": 6331,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/sentinel-android/commit/77eca1d5bac90d4aba69067ab7db34127860a025"
+      ]
+    },
+    {
+      "path": "sources/code/sentinel-android-b5ef29c-cited-files.zip",
+      "sha256": "307f77b545db91bf90ef7ae1a40fd9d041b91685ab5f9ef6fa443f954bff0439",
+      "bytes": 9972,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/noosphere888/sentinel-android/blob/b5ef29c14adbd65bb596f60856c8e5129cdcf000/app/src/main/java/com/samourai/sentinel/api/ApiService.kt#L114-L141",
+        "https://github.com/noosphere888/sentinel-android/blob/b5ef29c14adbd65bb596f60856c8e5129cdcf000/app/src/main/java/com/samourai/sentinel/ui/home/HomeActivity.kt#L286-L320"
+      ]
+    },
+    {
+      "path": "sources/code/sentinel-android-cf46177-cited-files.zip",
+      "sha256": "c2d0cc8f1932160aaa62bd928884902c3b9ada4f3446c07dfd445a26826b7de5",
+      "bytes": 12578,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/sentinel-android/blob/cf4617753168198b9816506b1a25f7bdd65ec207/app/src/main/java/com/samourai/sentinel/InsertSegwitActivity.java#L70-L89",
+        "https://github.com/Samourai-Wallet/sentinel-android/blob/cf4617753168198b9816506b1a25f7bdd65ec207/app/src/main/java/com/samourai/sentinel/api/APIFactory.java#L73-L87",
+        "https://github.com/Samourai-Wallet/sentinel-android/blob/cf4617753168198b9816506b1a25f7bdd65ec207/app/src/main/java/com/samourai/sentinel/util/WebUtil.java#L283-L289",
+        "https://github.com/Samourai-Wallet/sentinel-android/blob/cf4617753168198b9816506b1a25f7bdd65ec207/app/src/main/java/com/samourai/sentinel/util/WebUtil.java#L49-L65",
+        "https://github.com/Samourai-Wallet/sentinel-android/blob/cf4617753168198b9816506b1a25f7bdd65ec207/app/src/main/res/values/strings.xml#L4",
+        "https://github.com/Samourai-Wallet/sentinel-android/commit/1a4722f8e35da8355bb763dc3005602da29109cf",
+        "https://github.com/Samourai-Wallet/sentinel-android/commit/77eca1d5bac90d4aba69067ab7db34127860a025"
+      ]
+    },
+    {
+      "path": "sources/code/whirlpool-fbee9e8-change-tor-identity.patch",
+      "sha256": "460882a26366f27d6276acb9e563c397c6d9dc79378fcc54380684e6925c349e",
+      "bytes": 2310,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/Archive-Samourai-Wallet/whirlpool-client/commit/fbee9e820f511661c888a53c75a5e5e610b000f5"
+      ]
+    },
+    {
+      "path": "sources/code/whirlpool-server-cited-files.zip",
+      "sha256": "a44a290b3c075c8eabff49b5a4e3f4a858395f45c3f06b5502e3a078922d6eb4",
+      "bytes": 13219,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/whirlpool-server"
+      ]
+    },
+    {
+      "path": "sources/code/zerolink-25d1502-publication-snapshot.zip",
+      "sha256": "158f6ac81e5de7824cfccdc126b01d16b8e8b771bee5a6b43d4369f0c6717e57",
+      "bytes": 814661,
+      "media_type": "application/x-zip-compressed",
+      "source_urls": [
+        "https://github.com/nopara73/ZeroLink/commit/25d150216e3ab5027c5d2b79659d235252eb9daa"
+      ]
+    },
+    {
+      "path": "sources/code/zerolink-25d1502-publication.patch",
+      "sha256": "57e3cee43bc9640d793668a0688cca1d02c4e5d504b88c2f23ac01b90ec8d280",
+      "bytes": 2582,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/nopara73/ZeroLink/commit/25d150216e3ab5027c5d2b79659d235252eb9daa"
+      ]
+    },
+    {
+      "path": "sources/code/zerolink-8fbdcb9-fix-typos.patch",
+      "sha256": "55e5b87e39c9c922ef384126d55b5cd47c089a4eb0c4a6946fa74e31b5c720a7",
+      "bytes": 7571,
+      "media_type": "text/plain",
+      "source_urls": [
+        "https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e"
+      ]
+    },
+    {
+      "path": "sources/code/zerolink-full-history.bundle",
+      "sha256": "69af1fe98331495e804eefe2d5abe4484e924801abb076c969c1b45dadbdb7f0",
+      "bytes": 1620833,
+      "media_type": "application/octet-stream",
+      "source_urls": [
+        "https://github.com/nopara73/ZeroLink",
+        "https://github.com/nopara73/ZeroLink/commit/25d150216e3ab5027c5d2b79659d235252eb9daa",
+        "https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e",
+        "https://github.com/nopara73/ZeroLink/commits/master/"
+      ]
+    },
+    {
+      "path": "sources/legal/2025-06-24-superseding-indictment-ecf-109.pdf",
+      "sha256": "30a7003cb33d597c58a399b23d4809a83a0871c8641a553dcf1eefd97caf151f",
+      "bytes": 1261788,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/legal/2025-10-24-hill-sentencing-submission-ecf-155.pdf",
+      "sha256": "2f6750dad21d2b8f47fd745d464c21d19c9236ee5d8f844e049975be5372a008",
+      "bytes": 1903202,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.155.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/legal/2025-10-31-government-sentencing-memorandum-ecf-157.pdf",
+      "sha256": "1838979512968ee5f760e3a77b2da9e5636d96de07ea2b6970d981a8994724cb",
+      "bytes": 4692615,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.157.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/legal/2025-defense-letter-late-fincen-disclosure.pdf",
+      "sha256": "f2d29c9ffd06d3a9521a95700e7f97e03b0a75c50bc33e866155c2e364331b46",
+      "bytes": 513909,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://bitcoinmagazine.com/wp-content/uploads/2025/05/https_dechert_my_sharepoint_com_personal_cflannery_dechert_com_Documents-1.pdf"
+      ]
+    },
+    {
+      "path": "sources/README.md",
+      "sha256": "d8af0fb61aea7da90049960baf73e89a54408dc56335818085ebc602a0240fae",
+      "bytes": 2675,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/research/2020-oxt-wasabi-report-full.pdf",
+      "sha256": "978b7449bba641e110f718f67468428786e98334c94edadd377d82813761b658",
+      "bytes": 603975,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://web.archive.org/web/20201024205505id_/https://research.oxt.me/static/public/resources/wasabi-disclosure/wasabi-report-full.pdf"
+      ]
+    },
+    {
+      "path": "sources/research/2021-adoption-and-actual-privacy-coinjoin.pdf",
+      "sha256": "1debb7323ae7ba42348fdca03db51080a1977d4dbda92c18b5ed85f995b78e21",
+      "bytes": 952584,
+      "media_type": "application/pdf",
+      "source_urls": []
+    },
+    {
+      "path": "sources/research/2022-varga-coinjoin-protocols-thesis.pdf",
+      "sha256": "745240154fb6caa416257a5bc2b2217b05dd75eaded88af3b8da275c0ff137b5",
+      "bytes": 1173953,
+      "media_type": "application/pdf",
+      "source_urls": [
+        "https://is.muni.cz/th/kbvx1/Master_Thesis.pdf"
+      ]
+    },
+    {
+      "path": "sources/research/2026-coinjoin-ecosystem-insights.pdf",
+      "sha256": "485326d0ff83d094c2e256150ce8e000568ab91566bbcaadb5bdc10ce09188d9",
+      "bytes": 20814047,
+      "media_type": "application/pdf",
+      "source_urls": []
+    },
+    {
+      "path": "sources/screenshots/dumplings-fresh-bitcoins-adoption.png",
+      "sha256": "57b756f6f18b7c01890dfc8dc5b21169091171599f51fff3993d5fafb410dccf",
+      "bytes": 92488,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://github.com/nopara73/Dumplings"
+      ]
+    },
+    {
+      "path": "sources/screenshots/gitlab-issue-458-default-settings.png",
+      "sha256": "b40c03dbbd80f2d377f3629f01a6427cd9c0f7f6d42336293d39f394e645cb00",
+      "bytes": 81825,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://web.archive.org/web/20230417145554id_/https://code.samourai.io/wallet/samourai-wallet-android/-/issues/458"
+      ]
+    },
+    {
+      "path": "sources/screenshots/government-sentencing-memo-page-37.png",
+      "sha256": "98e5c73b2e62357a85e6edcc1ac6984099c6c5640de7d8fefe006785d06c48a2",
+      "bytes": 403464,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.157.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/government-sentencing-memo-page-38.png",
+      "sha256": "ad4253ba3e75148030cf0bd80840b87a2c07a755288b98fe6a514000a5a16551",
+      "bytes": 334369,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.157.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/hill-sentencing-oxt-owned-operated.png",
+      "sha256": "bb427d0b38baaa7925b783e2958bf96ecdfac8558bc4cf8f3aef251b91cc96af",
+      "bytes": 85493,
+      "media_type": "image/png",
+      "source_urls": []
+    },
+    {
+      "path": "sources/screenshots/hill-sentencing-submission-page-28.png",
+      "sha256": "781acc5e40fa1dd16039b05787e1c131ab39d858c260f78e968baddac95e6f81",
+      "bytes": 385328,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.155.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/hill-sentencing-submission-page-29.png",
+      "sha256": "0cc231421152c4a70240a70c0714c3cb7de97d3863fd36547fc43e1924165813",
+      "bytes": 319465,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.615996/gov.uscourts.nysd.615996.155.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/medium-headline-private-threat.png",
+      "sha256": "9abc5f756070193b3b5a1ad67ec49986e64c8a43e96a9ecc1039827e26b4c410",
+      "bytes": 22792,
+      "media_type": "image/png",
+      "source_urls": []
+    },
+    {
+      "path": "sources/screenshots/nopara73-death-threat-statement-2023-04-16.jpg",
+      "sha256": "5c8571643197e76c1ad9f95d193673481145aece82e801f660425fb91e47148d",
+      "bytes": 115173,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://x.com/nopara73/status/1647489516939382784"
+      ]
+    },
+    {
+      "path": "sources/screenshots/oxt-report-page-2-assumed-wallet-knowledge.png",
+      "sha256": "f1d9eb3b8ad94c9d38dc06480394060193286a505786a7263fbd2a6273070db2",
+      "bytes": 262770,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://web.archive.org/web/20201024205505id_/https://research.oxt.me/static/public/resources/wasabi-disclosure/wasabi-report-full.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/oxt-report-page-3-exogenous-randomness.png",
+      "sha256": "3a65391f97d68585b35dc1016f19cdc1f3a01f12c97159f95a8ca218cef6ac26",
+      "bytes": 243931,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://web.archive.org/web/20201024205505id_/https://research.oxt.me/static/public/resources/wasabi-disclosure/wasabi-report-full.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/oxt-report-page-5-test-actors.png",
+      "sha256": "6f2957c21065b0a6e9d399ca71c080eff7d169069b6d7cb315042663f948742b",
+      "bytes": 230382,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://web.archive.org/web/20201024205505id_/https://research.oxt.me/static/public/resources/wasabi-disclosure/wasabi-report-full.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/oxt-report-page-7-severity-claim.png",
+      "sha256": "877b56497e906047463763b23b1137d45aee72a45493b5620d87facca1b1361e",
+      "bytes": 231995,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://web.archive.org/web/20201024205505id_/https://research.oxt.me/static/public/resources/wasabi-disclosure/wasabi-report-full.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/private-threat-censored-address-and-town.png",
+      "sha256": "e2276f9c694cf9822d44c019257d1f9cabac7573393b04541ae778d1be8612ed",
+      "bytes": 15258,
+      "media_type": "image/png",
+      "source_urls": []
+    },
+    {
+      "path": "sources/screenshots/private-threat-we-shall-meet.png",
+      "sha256": "4a22d2ec325dc083ba8a6eb78b19dcb3adf8f0d0294f779bae9ce1bd95397a7e",
+      "bytes": 50713,
+      "media_type": "image/png",
+      "source_urls": []
+    },
+    {
+      "path": "sources/screenshots/samourai-public-conduct-gallery.png",
+      "sha256": "16278aef53a53a315722ba6993c43d317b7387a400ebefd6141ec683f30cd6f4",
+      "bytes": 190530,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://imgur.com/a/uSDlT6C"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraidev-profile-2026-07-10.jpg",
+      "sha256": "a71c75ac82931676be9ee72fd1df317d4154d9ee133835cb03055ac21b2aab35",
+      "bytes": 104634,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://twstalker.com/rottenwheel1",
+        "https://www6.twstalker.com/starlabsltd",
+        "https://x.com/SamouraiDev"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraileaks-part-2-greg-maxwell-harassment-account.jpg",
+      "sha256": "e95b85283dba168a1001e398a628d4c57e90d879fec482472df28e1583291312",
+      "bytes": 35074,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-part-2-harassment-of-bitcoin-developers-fae3019abd2f"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraileaks-part-2-greg-maxwell-privacy-warning.jpg",
+      "sha256": "58d5e5834d0659c68aa8dd9c6bfffd6a0412dbdfdf3ec1869e1ca31fd833efd9",
+      "bytes": 97449,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-part-2-harassment-of-bitcoin-developers-fae3019abd2f"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraileaks-sockpuppet-conclusion.jpg",
+      "sha256": "0a00fc154876aa876a900ac02cc417e1ead135a6a76aef1b0e3f76401d51b4c1",
+      "bytes": 65357,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraileaks-sockpuppet-nail-in-coffin.jpg",
+      "sha256": "5f565b82fe175719a82d025fdf6117905c2da669d7f162889c48564ad045c1dd",
+      "bytes": 57193,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b"
+      ]
+    },
+    {
+      "path": "sources/screenshots/samouraiwallet-public-threat-source-image-2023-04-18.png",
+      "sha256": "2f60b47ff129412b72e0182406cc2c4742973d23525587904a67c30cf7391c2f",
+      "bytes": 15169,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1648132389221068802",
+        "https://x.com/nopara73/status/1648177095456223232"
+      ]
+    },
+    {
+      "path": "sources/screenshots/sentinel-xpub-moved-to-samourai-api.jpg",
+      "sha256": "68b08828ce3502c1b1c5f0a6232576178e0fac513cd2a544811862820e54e452",
+      "bytes": 117733,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://github.com/Samourai-Wallet/sentinel-android/commit/77eca1d5bac90d4aba69067ab7db34127860a025"
+      ]
+    },
+    {
+      "path": "sources/screenshots/superseding-indictment-page-10-dread-marketing.png",
+      "sha256": "f6bd81a9def27de3f1f41f468fbd15cb7810994e0097a65003fb1e9fcac42e20",
+      "bytes": 129399,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/superseding-indictment-page-11-dread-marketing.png",
+      "sha256": "34663fb62de618b4f35fb16094ffcaa64fea83f3c1a3d60cbdfa8c274a960641",
+      "bytes": 104066,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://storage.courtlistener.com/recap/gov.uscourts.nysd.620167/gov.uscourts.nysd.620167.109.0.pdf"
+      ]
+    },
+    {
+      "path": "sources/screenshots/whirlpool-change-tor-identity-code.jpg",
+      "sha256": "a8c54745af1ab9cb4e58f77da66e33ffdf29e3278ef7c0d2c48ede3cfe57945b",
+      "bytes": 73953,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://github.com/Archive-Samourai-Wallet/whirlpool-client/commit/fbee9e820f511661c888a53c75a5e5e610b000f5"
+      ]
+    },
+    {
+      "path": "sources/screenshots/whirlpool-change-tor-identity-commit.jpg",
+      "sha256": "67719e1c3b201874e4b17dc350e9d5af96f62f36e0a8863659588e3bf37c08df",
+      "bytes": 100272,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://github.com/Archive-Samourai-Wallet/whirlpool-client/commit/fbee9e820f511661c888a53c75a5e5e610b000f5"
+      ]
+    },
+    {
+      "path": "sources/screenshots/whirlpool-tor-default-conversation.png",
+      "sha256": "efa76e3a10d156d6e5bb0884bed59721900c4f54c1793084b3811df91a3bef25",
+      "bytes": 222400,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://imgur.com/a/XgushDQ"
+      ]
+    },
+    {
+      "path": "sources/screenshots/x-samouraidev-2022-07-27-xpub-zerolink.png",
+      "sha256": "5d8e46137fa79042efdb28823035ae3e0db622d55541a840cf47ab54ce9c1f22",
+      "bytes": 172745,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1552265920013271041"
+      ]
+    },
+    {
+      "path": "sources/screenshots/x-samouraidev-2023-04-20-deserve-worse.png",
+      "sha256": "e468e8c1ec95c940e629acec3945b64d96c795da23ec0b01f6eb3478dc66453c",
+      "bytes": 200317,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1649019968296566787"
+      ]
+    },
+    {
+      "path": "sources/screenshots/x-samouraidev-2024-02-20-get-yours-soon.png",
+      "sha256": "f60f6d6d180e6e98d8e904adad8acd7054d214ebc1e8e7143aaaf152b03e4f97",
+      "bytes": 172076,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1759902075217965125",
+        "https://x.com/SamouraiDev/status/1759958320289366412"
+      ]
+    },
+    {
+      "path": "sources/screenshots/x-samouraidev-2024-04-04-gutted-assassination.png",
+      "sha256": "768e70a48237d2c8190a92976431bf668938aac27d6f6eec196b72167ba7440a",
+      "bytes": 291990,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1775920406953701884"
+      ]
+    },
+    {
+      "path": "sources/screenshots/x-samouraiwallet-2022-10-03-full-node-wallet.png",
+      "sha256": "a02d671fa2c16426fbfa83ff2caa1fb0c1ed40be44a5dbfb8ab378df5947d95c",
+      "bytes": 72134,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/Kruwed/status/1576903392047534081",
+        "https://x.com/SamouraiWallet/status/1576907888492040195",
+        "https://x.com/SamouraiWallet/status/1576923638846005248",
+        "https://x.com/lm_tldr/status/1576923130312142848"
+      ]
+    },
+    {
+      "path": "sources/screenshots/zerolink-first-samourai-commit-fix-typos.jpg",
+      "sha256": "43ebd51c138ef422cd3c5e9c40a0dcac6b7873799403bbdd72ac901b67745d2a",
+      "bytes": 181156,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://github.com/nopara73/ZeroLink/commit/8fbdcb9825a44aae8f963fcef328655a70b08b1e"
+      ]
+    },
+    {
+      "path": "sources/social/media/samouraidev-1649019968296566787-photo1.png",
+      "sha256": "1c73d03f68b3018dc44df449329dd8d09ab70d3f0d14158d63c0ec85923a82f5",
+      "bytes": 988362,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1649019968296566787"
+      ]
+    },
+    {
+      "path": "sources/social/media/samouraidev-1775920406953701884-photo1.png",
+      "sha256": "3c460cfc34cf8bd31484596283aca6b4d61ebb83fc313e4b1f0697ab9ba793f7",
+      "bytes": 2673095,
+      "media_type": "image/png",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1775920406953701884"
+      ]
+    },
+    {
+      "path": "sources/social/media/samouraiwallet-1610482488807198721-photo1.jpg",
+      "sha256": "2c551f8cb83148629146b6c51548e78772023838a3f24473e98a2bc64dac2c52",
+      "bytes": 42875,
+      "media_type": "image/jpeg",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1610482488807198721"
+      ]
+    },
+    {
+      "path": "sources/social/README.md",
+      "sha256": "c22c2cb87d1ead9f7f86ae73992446428759e71e175366d2cd2c7d33f31bab92",
+      "bytes": 5766,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/social/reddit/37oxow-android-security.html",
+      "sha256": "e5ce3daacc748a15c2ef21193d5bec86589fa53d027941381a86b90324758495",
+      "bytes": 647757,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/37oxow/the_security_issue_of_blockchaininfos_android/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/9r9344-e8fm1v8-gmaxwell.html",
+      "sha256": "5c7810036b8ef8baac4812f53701e1188807d3d744e616d8cfa88fa315004a13",
+      "bytes": 104991,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/9r9344/comment/e8fm1v8/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/bhz37b-elxasw8.html",
+      "sha256": "e833d992ab5f3b55b8e8b4fd6b902ef222b616bd9d1d6c061197cc9fcf0893e3",
+      "bytes": 82818,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/bhz37b/comment/elxasw8/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/bhz37b-elyijld.html",
+      "sha256": "dbee4e2175c448dad5e2cb688cd7edfc62d07e1242870d608d8bc413d8b41961",
+      "bytes": 62633,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/bhz37b/comment/elyijld/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/bjtks8-emb6nr7.html",
+      "sha256": "8fc727611b44536346be7ed8e34b4a19750b6446a79d051e16e8baf26e9539dd",
+      "bytes": 111889,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/bjtks8/comment/emb6nr7/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/icvu58-oxt-response.html",
+      "sha256": "22cd45b8c89f98d0a4b98e2b5dcf8308166b5465e3472f28f81a48c57cc91de5",
+      "bytes": 114365,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/WasabiWallet/comments/icvu58/any_statement_to_this_is_this_true/"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/ku97pu-gir5dzm.html",
+      "sha256": "16281c1f1276c0b56f63245e09f9b0cf175dc607bcf608f11c75f19154c8d406",
+      "bytes": 64630,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/ku97pu/comment/gir5dzm"
+      ]
+    },
+    {
+      "path": "sources/social/reddit/zpnug5-joinmarket-dev.html",
+      "sha256": "d4db018d7cfad8cbd6c81960a2f21662a5c40bacc7588effe77a481a817ae4c3",
+      "bytes": 119482,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.reddit.com/r/Bitcoin/comments/zpnug5/joinmarket_dev_wasabi_vs_samourai/"
+      ]
+    },
+    {
+      "path": "sources/social/samouraidev-profile-2026-07-10.html",
+      "sha256": "e3369cb7bc3946493a1b654762418d7aa1484f89304dc083306554b8ed258ba2",
+      "bytes": 1087522,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://twstalker.com/rottenwheel1",
+        "https://www6.twstalker.com/starlabsltd",
+        "https://x.com/SamouraiDev"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/asilayhodling-1267469894217596928.json",
+      "sha256": "3cd5a9ee59f1e10af9e44e7f35c205ae31f47a32d4349fc90028b1f378ee9a6a",
+      "bytes": 1045,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/AsILayHodling/status/1267469894217596928"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/brian_trollz-1313283715188088838.json",
+      "sha256": "ef121773d7e1d205a32d2ee9e3fefca06260675c6c1b84bfb975bdea0f8a0cfd",
+      "bytes": 852,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/brian_trollz/status/1313283715188088838"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/btcparadigm-1267556260255334401.json",
+      "sha256": "b72ce92731dc9b5601818ea189a193ea9e9a7ad62be83104db955e9d67b598ff",
+      "bytes": 1100,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/BTCparadigm/status/1267556260255334401"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/chris_belcher_-1286640749082271744.json",
+      "sha256": "3f2b1e8eaeb74c4903df68ee8e277875bb29fadf57a5b0f86f37169e420fa730",
+      "bytes": 856,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/chris_belcher_/status/1286640749082271744"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/chris_belcher_-1356299408464293888.json",
+      "sha256": "080ed0b62daf91080021f495b7324949d7b622a97f9cc334d5986f73f1c3dc86",
+      "bytes": 856,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/chris_belcher_/status/1356299408464293888"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/ersolus-1631997876682346497.json",
+      "sha256": "f7d9175279e98faa0c6697d4d1e72e7a0d5275ea5d7c6fc058048692af91eabf",
+      "bytes": 761,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/ersolus/status/1631997876682346497"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/kingcharliebtc-1610483632082149376.json",
+      "sha256": "19e57ff32fa6c015a547c7fc9f7fe6c058b857c75c2b20bfc5c66f9ea9927b61",
+      "bytes": 716,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/KingCharlieBTC/status/1610483632082149376"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/kruwed-1576903392047534081.json",
+      "sha256": "6349187436a05be20c89f45929d9fd2a5d1a5084593b2635b6992143752483a3",
+      "bytes": 1027,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/Kruwed/status/1576903392047534081"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/kruwed-2003263347345834395.json",
+      "sha256": "b0f9ab921ee26f84060f1e0fa7a18cef55139e3d7d3fcf904fca549c0afbef66",
+      "bytes": 747,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/Kruwed/status/2003263347345834395"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/kruwed-2018616114465620353.json",
+      "sha256": "2470a9c1bda97ae3f8b6e7661cbcd9a13eb71f4833aa41a23a41e4752ae2d344",
+      "bytes": 736,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/Kruwed/status/2018616114465620353"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/lm_tldr-1576923130312142848.json",
+      "sha256": "73119223cfea2bb27dadfbc26161dfd57bb8f48fbcd76bafdedc5c798a0f80ce",
+      "bytes": 772,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/lm_tldr/status/1576923130312142848"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/nopara73-1647489516939382784.json",
+      "sha256": "828fdcddbe8bcaca8007a4f0f2921d46ddd073cac78b6529ebed0b2bb281113f",
+      "bytes": 666,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/nopara73/status/1647489516939382784"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/nopara73-1647489880937893895.json",
+      "sha256": "0131de618f5ad319625c3ee15a57d22da432e899166fb0ed2bd26386ff9c2267",
+      "bytes": 676,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/social/tweets/nopara73-1648177095456223232.json",
+      "sha256": "e1f432c1f18284db0d019c1367e1d96af00cc619847e3b2dc5b6ae09483486b2",
+      "bytes": 718,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/nopara73/status/1648177095456223232"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/oxtobserver-1610468658471485440.json",
+      "sha256": "eb0e302b58a53df1d1182bbe98e77fe5e92d2207c95e38e3ffc86a24402ee981",
+      "bytes": 1198,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/OXTObserver/status/1610468658471485440"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1552265920013271041.json",
+      "sha256": "6bc39702809f53a540902f0efac391aa57607ea8e862ef0a9d3b779753190975",
+      "bytes": 1004,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1552265920013271041"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1647203226352074752.json",
+      "sha256": "874227f17dd8768c25756878cd722170666002e7a60f1746098f11fe3b62e546",
+      "bytes": 1006,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1647203226352074752"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1649019968296566787.json",
+      "sha256": "0405aedff47ecff5b2334e9a09280df7d6109b5b6b85aeacaf74e1cfcb54d97a",
+      "bytes": 1083,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1649019968296566787"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1759902075217965125.json",
+      "sha256": "5ae419c268e815399cc5c28ebff0bd05af3863ee53ea8b47974073af86bdb647",
+      "bytes": 948,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1759902075217965125"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1759958320289366412.json",
+      "sha256": "585c84621d093fddd6c995d82c1a89b537f87caf399720741261d092b55effe2",
+      "bytes": 766,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1759958320289366412"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraidev-1775920406953701884.json",
+      "sha256": "2c4430134b0777e72770462239549844b3751b9a657b19acba7f451ed1bf7e2b",
+      "bytes": 780,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiDev/status/1775920406953701884"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1249967067547271169.json",
+      "sha256": "822ee22f72d0aff8934a0885d7f814e75bfff36bd4aff80a315dc7d8303e9485",
+      "bytes": 905,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1376313082658496516.json",
+      "sha256": "98f61293256e0aaaaf83fd8f3047048897daa34de08aaa70f2044232be9e4f5b",
+      "bytes": 637,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1376313082658496516"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1576906443088797697.json",
+      "sha256": "54dea91fb32b60107b3a79709ffe0b84a658c3676fab0a6ac47761c76b54fffb",
+      "bytes": 749,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1576906443088797697"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1576907888492040195.json",
+      "sha256": "ae9889fb40aac0cbed03f750a60ae99edc986863224267a237d2d3f35a655258",
+      "bytes": 953,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1576907888492040195"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1576921481434386432.json",
+      "sha256": "d85a94b3ac40544b7913d86d87fb7d47c24c6a54d572db9d5540cb35d5141c40",
+      "bytes": 1009,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1576921481434386432"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1576923638846005248.json",
+      "sha256": "939e64378b6a2b0238773c351516e8f32adedd3c306aa26ad697853233a52bf5",
+      "bytes": 863,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1576923638846005248"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1610482488807198721.json",
+      "sha256": "c5fc1ba699b3a09b3f7abe97276afee1ebc64205978ee042fba742f24151687b",
+      "bytes": 1142,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1610482488807198721"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1610484148057120768.json",
+      "sha256": "3f0596a8aa6fb433380a3453b3a78a69d772f17b3f76361ea0e0767521b7981d",
+      "bytes": 865,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1610484148057120768"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1648132389221068802.json",
+      "sha256": "2577a417b769db41bc13ced4004cc913947f89b355bd0c6653bea39d084a7d4d",
+      "bytes": 706,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://x.com/SamouraiWallet/status/1648132389221068802"
+      ]
+    },
+    {
+      "path": "sources/social/tweets/samouraiwallet-1649363851526152192.json",
+      "sha256": "c405eb8cd34241e429fc6069bef120aa825619309aa1c7f4147f2e1792afc0fc",
+      "bytes": 811,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/social/tweets/vladcostea-1298771143655124993.json",
+      "sha256": "8d1b0f218c923071092df96cc1b37ee633a680f70f993f937a636451bde54387",
+      "bytes": 914,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/URLS.md",
+      "sha256": "5c3bf295349bc13ba8cbb163dbe01c2bec08697d1cbc104ea9568005290c986a",
+      "bytes": 30195,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/bitcoin-takeover-tdevd.json",
+      "sha256": "b1b01f77c1fa924819455e0b327ec3def525038faf5b9f1299d274dfbe27d3f0",
+      "bytes": 925,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=_UZKNK3DZJo"
+      ]
+    },
+    {
+      "path": "sources/video/blockdigest-shi256.json",
+      "sha256": "3d6e96bd10295b37662d56f8e352ea5c8b9e099873ffb96788c60f3c70ecf221",
+      "bytes": 857,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=_Z5SwEnTOsU&t=3462s"
+      ]
+    },
+    {
+      "path": "sources/video/citadel-dispatch-joinmarket.json",
+      "sha256": "396133e66664a1ba714ca82950bb0b5a46b39b28fc9b4130b3de62988ede0725",
+      "bytes": 881,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=hdLk4lSoLz8"
+      ]
+    },
+    {
+      "path": "sources/video/README.md",
+      "sha256": "f83fca0cb3f65ac91b33d8882e8fdb698025d482b15dc5424b21082681718a4a",
+      "bytes": 1058,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club.json",
+      "sha256": "e08fb32a5e1170778091808b0c6d1a1d9204fcb143f7fbc509f2645f3cba3604",
+      "bytes": 803,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=khsuFQBScrs"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/manifest.json",
+      "sha256": "5ebd89cd77844a6a3f080fd8160f6b4103d1089c93fd57b37337a60d1ccf880f",
+      "bytes": 13012,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/01-XDCQI7hrB58.info.json",
+      "sha256": "99f120932eaedac32b52e5bfb6a15dbbf89477a953aec99f4bd3121d4a3781a3",
+      "bytes": 503288,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/02-S0C-50QTteA.info.json",
+      "sha256": "2a84f683e8f7382cc50fa7ceac4c484b13dc4ff3ab2182b56fca490503a9cc1a",
+      "bytes": 500924,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/03-dVZDeEfSdcI.info.json",
+      "sha256": "a60d91ee024dc7d798581afe35811a8c035aa4a9b4420a7cb0c3684d7eab797a",
+      "bytes": 500482,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/04-CfXJLQ8UkFA.info.json",
+      "sha256": "e4b9e5250d360884fe1dd2eadad4e263a7ca6227691acb9cc5e9b0876a370ef1",
+      "bytes": 501581,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/05-srkY1mYI0IQ.info.json",
+      "sha256": "4f65b30d784df080ae027ab7516a725f5efffca0629067e0d4c34d816e05a9f8",
+      "bytes": 529091,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/06-bCZFAqB3bnU.info.json",
+      "sha256": "c0de10b33a59b88ac3f1aeec58d00be59ecdf767a9437927d9a1e74b3c81c0f3",
+      "bytes": 505970,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/07-7PEzEBF9_I0.info.json",
+      "sha256": "a085fc2a63635ce5433afc17d4135813d9099955a8e66e2c9d7386ce2e71b13b",
+      "bytes": 501378,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/08-bpLOSytc7vc.info.json",
+      "sha256": "a59dcdb09477572a3cf549e8340401858ed3961ec89d9939c16f5e2781ce4a17",
+      "bytes": 508213,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/09-tUWEoFJnuF0.info.json",
+      "sha256": "4d0cf6854276981fbed7eb66a35072311b98d0847c439fa4f6e3659ab07cb388",
+      "bytes": 505838,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/10-CtmSylCQNIc.info.json",
+      "sha256": "0a7393b63239a458a9c769b9e60609d7072cde6e4d127301083edc3f37999624",
+      "bytes": 499750,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/11-CYIDAqMSc4A.info.json",
+      "sha256": "d6ca8ec3701768cbf2e8b77775e5e6465ff0dbd4bfa8aec8ba245e2340ffd774",
+      "bytes": 499598,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/12-hl4yyXPy3q8.info.json",
+      "sha256": "38a4ae49a777278ba1f2958efc596978bc717dbcc4e697108f4d97f7d5e66d48",
+      "bytes": 503794,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/13-Uf-EnLWawAE.info.json",
+      "sha256": "7e0d296904bba54de8cbb068075fc0fd9954768218e876408f67de70ad090b6b",
+      "bytes": 508343,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/14-8v_apbGPKrI.info.json",
+      "sha256": "e90a9c965162c8325d5ab1fe9b256af887066caaed629973afb717f1783f3151",
+      "bytes": 500834,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/15-pgErjQSQQsg.info.json",
+      "sha256": "5dec8fca8cfc3ead93148b370144e9c2ac18ff21847c42fefcecbb39ec02227d",
+      "bytes": 498401,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/16-KPD7IR2fn34.info.json",
+      "sha256": "0caf9132206bdb842107659051d2ec356105aba41c495dbf29d5a183f316b303",
+      "bytes": 506395,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/17-z3G6CUDPr0c.info.json",
+      "sha256": "2e90fdb61a37adafd947e9046230b6c42bd3cebe9d7619811d39261efe329e7a",
+      "bytes": 500755,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/18-MvEXPs3KSj8.info.json",
+      "sha256": "3e6c80e7b16cae3b488612f3def6ec3a24a7728784479c2c3d1af005a4d060b4",
+      "bytes": 503671,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/19-Pqz7_Eqw9jM.info.json",
+      "sha256": "db39ba91304abb042e886a0b65b1f9d771855ac7461bc681f0188cd6ab4acc57",
+      "bytes": 497504,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/20-8Mr71_7o68g.info.json",
+      "sha256": "55fefa8d0e91481821b54399385cd7f82df1ed2bf3aa770edf15aa1de8cc3851",
+      "bytes": 59616,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/21-3P5sQwiwscI.info.json",
+      "sha256": "d715270b74d84600f8a1a5c8acd820f0fd880aadf4fecc965cdf4f55c16f1f43",
+      "bytes": 505058,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/22-_ZDungWdxzk.info.json",
+      "sha256": "279f54cd2c5da186af2bbc3206b572bf4251c4b40b75b1b078e8c6de493ce835",
+      "bytes": 510864,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/23-oTi0z1Sghp8.info.json",
+      "sha256": "64e6ced6aad30689bc514a087b76e29e7aca2e3a1213da4e0c0009353e2ca239",
+      "bytes": 525536,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/24-GUbQ85iVF2E.info.json",
+      "sha256": "811d2510dfce217122cc90fbcda98815df7dcbc4fe155f65c7cfd2ab35ec56ac",
+      "bytes": 521919,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/25-Ga9Rz5IVYUU.info.json",
+      "sha256": "f8a8465c5ee04f5e889db7e79fc67a45d8f7ae77ec36b7144ea5d813729d7638",
+      "bytes": 521424,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/26-l7bK85obzrM.info.json",
+      "sha256": "30cd0ff60f6bb3edbc0b5196c901ee5d5199cbcbec2efd1fb475b207c10a20cf",
+      "bytes": 515518,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/27-IZy_1jmXqG0.info.json",
+      "sha256": "c14c8e7564af042466a803361888fcadb80357ba1c6adb5416549c0bb6d10eab",
+      "bytes": 507012,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/29-2qecsmP_cOA.info.json",
+      "sha256": "9d9a232eb369cd2c2156a726313c22f314238c6300a276ae1010200a0993ad40",
+      "bytes": 493658,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/30-c4ek-rjFru4.info.json",
+      "sha256": "661a7a0b3303420cfdd3e8021fb8fab6452d472cd4e545f17dc9f039078ddcd3",
+      "bytes": 497095,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/31-dZg7YvoC60M.info.json",
+      "sha256": "bbd8bdaab52bcea70c068ec2481f3a953fe22e4dfa8ae0cc18e595a7719cdccd",
+      "bytes": 502672,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/32-8L725ufc-58.info.json",
+      "sha256": "5c60d9e41289d8743c1794b73b1bf44ae14149ec1ab40f89b1ef5e0504082500",
+      "bytes": 522182,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/33-xbnva4eJBUI.info.json",
+      "sha256": "3c8c5e4dbb7fa9536a28baf9f78057b7575acb667c87bccd2053fd451a18ce43",
+      "bytes": 494096,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/34-Zu-bT9XojYk.info.json",
+      "sha256": "f0a4e29cf1de9dfc4f8a5d8e75fca9d3ec48ff4842e77ec64b4e180b5e044fbb",
+      "bytes": 499577,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/35-79BQ0YlvDgQ.info.json",
+      "sha256": "ca4682c4e773dfb162ab4d9a5e981bae2f422c30f73a24df7c494b06636a3b22",
+      "bytes": 500258,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/metadata/playlist.info.json",
+      "sha256": "decc7e9e606868bd46ab8b2cfaca5f8b2ab9070a3ab27287beee3da860223f79",
+      "bytes": 1801,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/playlist.json",
+      "sha256": "bbfed43a4d815139d88b79bc2152a669c21f7171afa6e0433707455613f03505",
+      "bytes": 8214,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/01-XDCQI7hrB58.en.json",
+      "sha256": "3d55498160ada05f66079b760499730424853e2cb8d54079f67cb3da6f7d600f",
+      "bytes": 168071,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/02-S0C-50QTteA.en.json",
+      "sha256": "fd06a6ee6653653f3821738112605906188676826199331339dd0bb2c4040000",
+      "bytes": 201714,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/03-dVZDeEfSdcI.en.json",
+      "sha256": "554f69ff7a9863c1ee5fe4a66aaf229018ec9543fc3bcbc249f13a2121c5e712",
+      "bytes": 148178,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/04-CfXJLQ8UkFA.en.json",
+      "sha256": "0da57409bf2aa17a61e2a9759db69d0b82a0a8712b2a3bc0279063448a2aba64",
+      "bytes": 170265,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/05-srkY1mYI0IQ.en.json",
+      "sha256": "c040471ce416f046f2953968196bb95c47f68e9522522e57329b4d3c8d63dfea",
+      "bytes": 174656,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/06-bCZFAqB3bnU.en.json",
+      "sha256": "dad3b1c4444bdea4635e81e24740357d5ad35b7d8a9f66c219f75dc29eb8d0cc",
+      "bytes": 171995,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/07-7PEzEBF9_I0.en.json",
+      "sha256": "c9cfa4233e63da6847fa53168a3c89766155aa89fe2bf96b50accde687a9bd11",
+      "bytes": 150362,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/08-bpLOSytc7vc.en.json",
+      "sha256": "83b123bd3d24ee4ce8e3bf6eb3de0cb34c91d92a1eade688ba4b7e8695dd2ddf",
+      "bytes": 209882,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/09-tUWEoFJnuF0.en.json",
+      "sha256": "43eb42406dfb05669dc66d1500b7e0c07af819395f57a59cc36357d3ad2d9bea",
+      "bytes": 171951,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/10-CtmSylCQNIc.en.json",
+      "sha256": "e5544ddc9df8d8437b1318227bbb034683029de958972d064a0e26b8bde3f6de",
+      "bytes": 123822,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/11-CYIDAqMSc4A.en.json",
+      "sha256": "e2480aecb4ca3237296c5b6423d8d92509d942098540bf35ec1ac2317571b7e0",
+      "bytes": 101272,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/12-hl4yyXPy3q8.en.json",
+      "sha256": "3b288e58c6949fc761d18cd05d4b54377238e02f2a10182a550815cd7f67fbfd",
+      "bytes": 170615,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/13-Uf-EnLWawAE.en.json",
+      "sha256": "92ecf3dc8e4df9cc9ea7311bb2cc02733c4e1b74432626c9d43ab50f9a731a39",
+      "bytes": 228311,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/14-8v_apbGPKrI.en.json",
+      "sha256": "d8cf4f9e209acefcd57def763007b8c9a7f571500c63dad59ee23dae3af4698a",
+      "bytes": 131390,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/15-pgErjQSQQsg.en.json",
+      "sha256": "327eff80ed078f007a85e521fbfaf9450482f1c155a20d907fbe97ed61876d91",
+      "bytes": 87398,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/16-KPD7IR2fn34.en.json",
+      "sha256": "921446c1e537bfc5bcd3b85494eaf7773f320ba452b1996df5f37ba72abf28a4",
+      "bytes": 181823,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/17-z3G6CUDPr0c.en.json",
+      "sha256": "2474e27abb7f19ef0fe4c0b1646ea2dc7e9a97e606a20af17d576ca27cf1fb36",
+      "bytes": 88136,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/18-MvEXPs3KSj8.en.json",
+      "sha256": "7844cbd5fc333df2c316bca865fa212463e1b1f728e1e33eb05df7e025d07fd1",
+      "bytes": 187170,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/19-Pqz7_Eqw9jM.en.json",
+      "sha256": "ac83bfa9335253651e5bac4ce83117406176a69934efb62d8bcb5e67f49ff359",
+      "bytes": 79338,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/21-3P5sQwiwscI.en.json",
+      "sha256": "6c9950690eb87e53bb6af9943b29cba9e26a9caa776f55aa8e9992fc1cee7980",
+      "bytes": 164286,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/22-_ZDungWdxzk.en.json",
+      "sha256": "7835e1e3db50343bf8640a59f009c839eab32bf62eb5bb29e0f5dbea55be0682",
+      "bytes": 299422,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/23-oTi0z1Sghp8.en.json",
+      "sha256": "99966b7a472eb9855d01503963288e07f86177d01cdf8aa7ac07c88a0ee3ae94",
+      "bytes": 561971,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/24-GUbQ85iVF2E.en.json",
+      "sha256": "5e030346378c47c85a6464f44cac63438a15ee670c47b3bdd64a9466116537c6",
+      "bytes": 533850,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/25-Ga9Rz5IVYUU.en.json",
+      "sha256": "57dc9b66e21703636d369887bac46f735442cf32aa1a3fb28ccf36633857aa7a",
+      "bytes": 506759,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/26-l7bK85obzrM.en.json",
+      "sha256": "4c2995e53d056ccd8fdc61cf35d072537e7e0aeb3c7f16b93b1db6dca44e4828",
+      "bytes": 304333,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/27-IZy_1jmXqG0.en.json",
+      "sha256": "24bb8bfa92345d4fada5855afb91c87c7d1353c0f81b20f4bb0c77bc92918f56",
+      "bytes": 305892,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/29-2qecsmP_cOA.en.json",
+      "sha256": "44d76a7c1c2f434e182dac1893457e04382e27aee5a21becb911a97e281c204d",
+      "bytes": 36981,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/30-c4ek-rjFru4.en.json",
+      "sha256": "c50dbf5582a58baf73154f51840df17a6468e5bb28f0178c7c9781d444a145f5",
+      "bytes": 256432,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/31-dZg7YvoC60M.en.json",
+      "sha256": "0e931bb42690b799b9ab5f9a5c101a9aec197126e7afd19583dd2c18e21917bc",
+      "bytes": 300406,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/32-8L725ufc-58.en.json",
+      "sha256": "32ba563b1e764ebaefc8e71d75eb818aad5fa7d704cc42c87845ca562ef3f61b",
+      "bytes": 334824,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/33-xbnva4eJBUI.en.json",
+      "sha256": "98e4ab1680a0fd4c86ec38e746751efae4e6271920d1d5715433a97e435d1b76",
+      "bytes": 25270,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/34-Zu-bT9XojYk.en.json",
+      "sha256": "2a837c5625de2ada1768591d8f5001a9a02221e7fe092bac2f0a6ee4fc16bd5a",
+      "bytes": 260585,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-json/35-79BQ0YlvDgQ.en.json",
+      "sha256": "8213d899a6736f7358d23f315ac19986aa24b8b1aed56bf253cd615c00b6cdf8",
+      "bytes": 48639,
+      "media_type": "application/json",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/01-XDCQI7hrB58.en.vtt",
+      "sha256": "aa4985d12f97ba3621c2278fdcc30adbcfd6f386a66216ecad803e9f7dc9bb98",
+      "bytes": 493802,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/02-S0C-50QTteA.en.vtt",
+      "sha256": "6caa5f25d938bc44da887dc9b4ce7155517cfb8c93198699af0f52ffd8d85306",
+      "bytes": 593332,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/03-dVZDeEfSdcI.en.vtt",
+      "sha256": "e93832d9a82051edf9c6c5d93b74ce36ac0c435a9efe8f27ec6229fb33d214bc",
+      "bytes": 431959,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/04-CfXJLQ8UkFA.en.vtt",
+      "sha256": "adb199d5fbe178dff26b175ecec578cbc4692805687678684f4b4db121b78f85",
+      "bytes": 431151,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/05-srkY1mYI0IQ.en.vtt",
+      "sha256": "2aed1db5c2f992d46ff3b441251f2fc29c427616996e431c64930f6356c1d79a",
+      "bytes": 512632,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/06-bCZFAqB3bnU.en.vtt",
+      "sha256": "6bfa51c8def0d6949b954d85077fa28c7d5b9b8c5b32598c41b55e6026ecc0bc",
+      "bytes": 508699,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/07-7PEzEBF9_I0.en.vtt",
+      "sha256": "ac760e9db9391609ebc19f73377b9d5535035168911592d686b61532f38f99fc",
+      "bytes": 443318,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/08-bpLOSytc7vc.en.vtt",
+      "sha256": "e3ab26191cac99db67abf2b3c8dde29a4ced4872671165a80f42911cc7e19530",
+      "bytes": 621152,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/09-tUWEoFJnuF0.en.vtt",
+      "sha256": "6fbdabc6e5c3163faa91c1415ad2b332c24c4c88a4c098bb9c7ea97577d43148",
+      "bytes": 506046,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/10-CtmSylCQNIc.en.vtt",
+      "sha256": "5bdfd5421ebff1443eff6ac47a802c6cb6046d0acd1ed87d20d02ead2270f5c4",
+      "bytes": 362367,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/11-CYIDAqMSc4A.en.vtt",
+      "sha256": "bd509c2e9bfdcaf32fdd098f84e3ae42e7eb21146f4a54291a6651b42219fafa",
+      "bytes": 295086,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/12-hl4yyXPy3q8.en.vtt",
+      "sha256": "07e2e5d492bf912806392660c342a0710c9e787a37b5a9674c738a34ae42b428",
+      "bytes": 495030,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/13-Uf-EnLWawAE.en.vtt",
+      "sha256": "5680cec86d5c4729f7b67bc50c9974a7fdf454e744030abece2f15ae3c1363f7",
+      "bytes": 669847,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/14-8v_apbGPKrI.en.vtt",
+      "sha256": "b713f2a65eb8753fb42166bf7fd195e36ee47ca748db4eac81b230a3b373f6ec",
+      "bytes": 386430,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/15-pgErjQSQQsg.en.vtt",
+      "sha256": "8f7c9204144460a2a27c8bfbe3e410c2ddebede0a504c49b07f4ceea06d192e0",
+      "bytes": 256060,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/16-KPD7IR2fn34.en.vtt",
+      "sha256": "e63c36029a067e732fd4caaaa0f6475e435aff22ffd251828abf76caa4c5c099",
+      "bytes": 529794,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/17-z3G6CUDPr0c.en.vtt",
+      "sha256": "f67604b9e7bc7c3972789f49815123966236b1cefe01641a8aa71639c452bde4",
+      "bytes": 255544,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/18-MvEXPs3KSj8.en.vtt",
+      "sha256": "6799f715731b8dd1c987a779fecf00b9fd222570dd32a46e2456c46fbb42c245",
+      "bytes": 549934,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/19-Pqz7_Eqw9jM.en.vtt",
+      "sha256": "c85775de604d2fd823fd72205494a74a17c97bf0ebb8b51c9d6447bd47fff382",
+      "bytes": 231825,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/21-3P5sQwiwscI.en.vtt",
+      "sha256": "406885a149cb39413b90db6364f39a6376b59dc609410a005c6f22c0087aaa81",
+      "bytes": 435999,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/22-_ZDungWdxzk.en.vtt",
+      "sha256": "5a1eb830a7204d53cc84df6b66d84a8224bb37d77f09efba6d91da5a8c6ad272",
+      "bytes": 793352,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/23-oTi0z1Sghp8.en.vtt",
+      "sha256": "5355081e4b9b580f4c8ba3647b6d6f1cc63038045e9be8a304c337927abf1594",
+      "bytes": 1469679,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/24-GUbQ85iVF2E.en.vtt",
+      "sha256": "8c7e1de7936b6b781a7dde1c4449daea62a505c8c2c94fe50fd707de3cea720d",
+      "bytes": 1400149,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/25-Ga9Rz5IVYUU.en.vtt",
+      "sha256": "83265ee965133ba13cdb384ca8d0d8d604829ed08c47cfcd68be4a4a1f8d5620",
+      "bytes": 1324202,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/26-l7bK85obzrM.en.vtt",
+      "sha256": "3bb724fbc541e3ca70c27037cc37e87e5236a9198be49148a5fcc853353d3b80",
+      "bytes": 767245,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/27-IZy_1jmXqG0.en.vtt",
+      "sha256": "edd7657a69243d637a4a79d4a02589ecf7b5c50575f0b7815dd775a60ae6cd90",
+      "bytes": 773298,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/29-2qecsmP_cOA.en.vtt",
+      "sha256": "2e450a33985e386610aef8604966f664722948195da891895ea595dca978e26f",
+      "bytes": 98259,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/30-c4ek-rjFru4.en.vtt",
+      "sha256": "5d2b16b4b0d4704f356fd0ad37e649c3026d7da4a12d46105960ccab6b0e398b",
+      "bytes": 728075,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/31-dZg7YvoC60M.en.vtt",
+      "sha256": "350899f73ca92e0858dc029bfe91065f743bc78fd7e7a1c23add761a9e551e31",
+      "bytes": 811728,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/32-8L725ufc-58.en.vtt",
+      "sha256": "031bae1d9d93a08a7821ac45f727632647b56d0076a2e66f9f66ed6b83ecb842",
+      "bytes": 919543,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/33-xbnva4eJBUI.en.vtt",
+      "sha256": "e7acfec869f40f13137997463265a7a1bef5ef4a9d4be0a966a2e7504d52661f",
+      "bytes": 66669,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/34-Zu-bT9XojYk.en.vtt",
+      "sha256": "c2f01e00df961e4972ef969318f1936d47ac8a581d7e7ae8d055760dad699128",
+      "bytes": 740688,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/raw-vtt/35-79BQ0YlvDgQ.en.vtt",
+      "sha256": "4d49c7de5a68faa35089dbdf01a8bd2d898f60341120d4c54e38c401a055630a",
+      "bytes": 144160,
+      "media_type": "text/vtt",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/README.md",
+      "sha256": "100ee4c47ba4f86f9f5ac1cbe9998754d80382ea0caacbb17f81cddc06aeb413",
+      "bytes": 8007,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/SAMOURAI-FINDINGS.md",
+      "sha256": "5d89ec18e8ce55231a60df08e5ae225d1277d85e6c15e06720c458544d668698",
+      "bytes": 8276,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/01-XDCQI7hrB58.md",
+      "sha256": "4647eccded4d9cb9449cf8ac66e53ca738ce57f14d6bd9bf99fc54614ff1d051",
+      "bytes": 55410,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/02-S0C-50QTteA.md",
+      "sha256": "daba2402713ce525f4c5da9d1463a392c85515889bf2d464b3dd424b54fd046a",
+      "bytes": 66252,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/03-dVZDeEfSdcI.md",
+      "sha256": "2b490db598778974c9e414f8a6e2319e2192d3969a6e902c05f1c73481169a6a",
+      "bytes": 48694,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/04-CfXJLQ8UkFA.md",
+      "sha256": "d1bcc61daff7b7430f1edb203b3340671838709b35d5e76c84a05dffe277c421",
+      "bytes": 43685,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/05-srkY1mYI0IQ.md",
+      "sha256": "fbc5b75b16e86a9195fb9677f8e17c5fd06b81befdf7dfe77c3291097daead2b",
+      "bytes": 57481,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/06-bCZFAqB3bnU.md",
+      "sha256": "18a718d3daade110eb96465042a3ee0c1f394ffa313cd6052b26323b26270b2b",
+      "bytes": 56748,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/07-7PEzEBF9_I0.md",
+      "sha256": "5a020fb644f1ddbedeabb295d5247b294e1ad50fc991e0ccd1af51a803e525fd",
+      "bytes": 49558,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/08-bpLOSytc7vc.md",
+      "sha256": "ee8df2449c97c0ddea82a5a6a3b7d6f11d9395dfae8d2696a4af8181f3b4ecf9",
+      "bytes": 69139,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=bpLOSytc7vc&t=2652s",
+        "https://www.youtube.com/watch?v=bpLOSytc7vc&t=4425s",
+        "https://www.youtube.com/watch?v=bpLOSytc7vc&t=5104s"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/09-tUWEoFJnuF0.md",
+      "sha256": "ef27e16caba0abfe004042b322bc77e253256eaedb7d0d2f4f35784ceb6f2830",
+      "bytes": 56647,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/10-CtmSylCQNIc.md",
+      "sha256": "376e7d059bfa92285a19a95ad9e1b6a5693131a898858b1a1bec0714d0fa5d00",
+      "bytes": 40659,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=CtmSylCQNIc&t=1857s"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/11-CYIDAqMSc4A.md",
+      "sha256": "d1e4f870d27d7bb0cee6f81fc33e6019e0a302bacb792c4584643db831f71d01",
+      "bytes": 33356,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=CYIDAqMSc4A"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/12-hl4yyXPy3q8.md",
+      "sha256": "513347b6dfebd6f37a954b95a2f111d79e00b787342086404a0009ed444910cf",
+      "bytes": 55948,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/13-Uf-EnLWawAE.md",
+      "sha256": "da9c2e48e0663248684315676720c054140001f45f71fffe524c20f18e5c30e9",
+      "bytes": 74891,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/14-8v_apbGPKrI.md",
+      "sha256": "10d1588c81bce4d3b6bd01c62b9c5caf1775152a34f1a625bd1f3d6c803346bb",
+      "bytes": 43447,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=8v_apbGPKrI&t=1659s",
+        "https://www.youtube.com/watch?v=8v_apbGPKrI&t=257s"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/15-pgErjQSQQsg.md",
+      "sha256": "b83e34fdecd6d061ca2766c51ec10a2d82097f443c1a4ea8b6796bab17fe1b15",
+      "bytes": 29229,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/16-KPD7IR2fn34.md",
+      "sha256": "d70e1d85617106e03c47f7b9396d36b4c27c2c90d024a4257a09737f6041cc34",
+      "bytes": 59882,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/17-z3G6CUDPr0c.md",
+      "sha256": "26365c9881e59b9d1645c2c40b7ac076159cb139d4e500f71626af2262a0823e",
+      "bytes": 29152,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/18-MvEXPs3KSj8.md",
+      "sha256": "89b353ad67ad7105f56168fe2263ab120b8b4d7faac88c3ecbc4431874f5c194",
+      "bytes": 61737,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/19-Pqz7_Eqw9jM.md",
+      "sha256": "9c23490f049ac4dcfb0e5557ff804b5958a3d9fbd1b2c00564b669298335143c",
+      "bytes": 26171,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/21-3P5sQwiwscI.md",
+      "sha256": "90daa4eb2b21bfed99b44868581df560ce8fb83e3e42568869dfd32d4e89a30e",
+      "bytes": 45423,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/22-_ZDungWdxzk.md",
+      "sha256": "0290537da732ed1304885128fe9ceee31d139165b231a15b393abb7a6c5f0d79",
+      "bytes": 82904,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/23-oTi0z1Sghp8.md",
+      "sha256": "d91e44991bd5f5dd2cd8f7816b7a9054b157a90f8acbe678d5d2c60717452ddf",
+      "bytes": 151395,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/24-GUbQ85iVF2E.md",
+      "sha256": "f60c507f2fec212734be7de658bfc2511dc2a5b6bdb28f5b055b2c18280fcfbb",
+      "bytes": 145181,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/25-Ga9Rz5IVYUU.md",
+      "sha256": "0dc279a754367024aef03506fc09afa1e11b655988b8f6d6f13373f34dff93e8",
+      "bytes": 140091,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/26-l7bK85obzrM.md",
+      "sha256": "cfc3a38615070191607de155ee9093eaa5631e00a583c9373e1cec1031bd7e8a",
+      "bytes": 80460,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=l7bK85obzrM&t=3227s",
+        "https://www.youtube.com/watch?v=l7bK85obzrM&t=3347s"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/27-IZy_1jmXqG0.md",
+      "sha256": "5505b26f4293ac09ddf54634c4840519091717b1e4176395b3da695512ac3019",
+      "bytes": 78493,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/29-2qecsmP_cOA.md",
+      "sha256": "385aaa66311cdcdfffa54addf4e970724a82bc240ee4c5f6e75b3b1a66082a50",
+      "bytes": 10334,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/30-c4ek-rjFru4.md",
+      "sha256": "d6cea3a21b03085ac94afba7f1bf6905972a69473424a42edb943b4e06271a88",
+      "bytes": 77548,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/31-dZg7YvoC60M.md",
+      "sha256": "aa842f658efc51e56534330d01485c4d1b99fad1c97f5c29d3413ef9e29496e7",
+      "bytes": 85313,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/32-8L725ufc-58.md",
+      "sha256": "8427a95b0c9a645960e59e50951e0af5cc17a1dcd399f049dc6e148a4aeaac13",
+      "bytes": 96499,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=8L725ufc-58&t=4315s"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/33-xbnva4eJBUI.md",
+      "sha256": "77c6c8a5ed9c4cc4a97f025e6cce4ef8bef729f3a16fc1bfdb815050b56df867",
+      "bytes": 7611,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/34-Zu-bT9XojYk.md",
+      "sha256": "3c796d9cfa6859eaf3880646a94a93291d30a6a3789f60da387c90fbd1e8ec81",
+      "bytes": 81539,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.youtube.com/watch?v=Zu-bT9XojYk"
+      ]
+    },
+    {
+      "path": "sources/video/wasabi-research-club/transcripts/35-79BQ0YlvDgQ.md",
+      "sha256": "6b70155fec6faadc88da4ead13520d6677c92ba9b4c330a4206e716ce11f31b3",
+      "bytes": 16337,
+      "media_type": "text/markdown",
+      "source_urls": []
+    },
+    {
+      "path": "sources/web/bashco-2020-08-26-wayback.html",
+      "sha256": "e9293526a9076d13912fda04a3fc812a55b6355731a3013de2ec21b37025b52e",
+      "bytes": 495703,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20200826200048id_/https://twitter.com/BashCo_/status/1298711774951137282"
+      ]
+    },
+    {
+      "path": "sources/web/bip-0157.mediawiki",
+      "sha256": "5405acbf04ebd8a1b92ae2b7188022f4c14723ed8a0ae0d077d12a1e6908da9a",
+      "bytes": 21050,
+      "media_type": "application/octet-stream",
+      "source_urls": [
+        "https://github.com/bitcoin/bips/blob/master/bip-0157.mediawiki"
+      ]
+    },
+    {
+      "path": "sources/web/bitcoin-dev-unbreaking-whirlpool.html",
+      "sha256": "825c2137c5648f3ce5f2f040d49f6b5060d76891095629d8ce99b6a0a8d50d96",
+      "bytes": 1480761,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://groups.google.com/g/bitcoindev/c/CbfbEGozG7c/m/J5T1lt-OAgAJ"
+      ]
+    },
+    {
+      "path": "sources/web/bitcoin-developer-guide-operating-modes.html",
+      "sha256": "fc875c2de43553368f7ee10b51dc2f28bfcf625f2a83db77a1520bd51b5a8843",
+      "bytes": 25114,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://developer.bitcoin.org/devguide/operating_modes.html"
+      ]
+    },
+    {
+      "path": "sources/web/bitcoinops-2020-06-17-wabisabi.html",
+      "sha256": "85372e818d011fe3b457768a67305015c98cf36caf9f0b42d578326c789f0092",
+      "bytes": 20502,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://bitcoinops.org/en/newsletters/2020/06/17/"
+      ]
+    },
+    {
+      "path": "sources/web/bitcointalk-279249-page-15.html",
+      "sha256": "6b037d12a5cd2da23d8833a98504c95d2294c0384c7256cbdb096d1359c958e0",
+      "bytes": 121431,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://bitcointalk.org/index.php?topic=279249.700"
+      ]
+    },
+    {
+      "path": "sources/web/bitcointalk-5405325.html",
+      "sha256": "71f17f5a57a848d4d0d6a432b0e93044b16efa7de6082d4d60461d91d3f9ec4e",
+      "bytes": 274731,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://bitcointalk.org/index.php?topic=5405325.0"
+      ]
+    },
+    {
+      "path": "sources/web/bitcointalk-5471645-samourai-fee-address-reuse.html",
+      "sha256": "8fd4bb533032589bb3b303880a65c0325ee1665696358aacba0399e3274ae01d",
+      "bytes": 147611,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://bitcointalk.org/index.php?topic=5471645.0"
+      ]
+    },
+    {
+      "path": "sources/web/blockchain-info-future-bitcoinist.html",
+      "sha256": "35084de39313d441ec7d401294f6bf64b8d987bd82e1fa2ec6b888faa590a207",
+      "bytes": 64684,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://bitcoinist.com/the-future-of-blockchain-info/amp/"
+      ]
+    },
+    {
+      "path": "sources/web/dojo-documentation-archive.html",
+      "sha256": "9920a4605ec3e8dba3eb53eceb0f2b2ab4b007c9cf61ba38b45aaa576f00a344",
+      "bytes": 316612,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://archive.is/xUpKj"
+      ]
+    },
+    {
+      "path": "sources/web/gitlab-issue-458-wayback.html",
+      "sha256": "b23466450d6b25b2ecdcca7440bb755ac4204afae84000396df96d9d7fb255f6",
+      "bytes": 92351,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20230417145554id_/https://code.samourai.io/wallet/samourai-wallet-android/-/issues/458"
+      ]
+    },
+    {
+      "path": "sources/web/gitlab-issue-462-wayback.html",
+      "sha256": "3842c34c3e9663a956f5e729543439cdef0bc38aae9d31694c07e40daaf8c588",
+      "bytes": 76114,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20231025112815/https://code.samourai.io/wallet/samourai-wallet-android/-/issues/462"
+      ]
+    },
+    {
+      "path": "sources/web/justice-2024-arrest-and-seizure-wayback.html",
+      "sha256": "c4d19fdd3e1d7dbffe15331675d3c3d4335e5061d93169d343525c6380828003",
+      "bytes": 123581,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering"
+      ]
+    },
+    {
+      "path": "sources/web/justice-2025-guilty-pleas-wayback.html",
+      "sha256": "d835f1bfe5b1cca5668c74d367f3a3a1a2f8ed487f98fac65c73152697e62870",
+      "bytes": 115957,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-plead-guilty"
+      ]
+    },
+    {
+      "path": "sources/web/justice-2025-sentencing-wayback.html",
+      "sha256": "e2ad229857f34227f2a2d3b1af58c2df67ac673cb9b124d3416232b15efc5192",
+      "bytes": 114443,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-sentenced-five-and-four-years"
+      ]
+    },
+    {
+      "path": "sources/web/mempool-05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee.json",
+      "sha256": "907680167b92eb617e832a2e8d502f1630ac48ff821527edc4a6e1204030bbc5",
+      "bytes": 120524,
+      "media_type": "application/json",
+      "source_urls": [
+        "https://mempool.space/tx/05a40086c4e92bd0ed35681ac267dfbd9aea9f690a63c817cda41a2c12b95dee"
+      ]
+    },
+    {
+      "path": "sources/web/nvd-cve-2021-36689.html",
+      "sha256": "584847a5dfdeca4a2ebc0ef6df832653a143f3cadd387ddaadc1a29f7ffd9dac",
+      "bytes": 67704,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://nvd.nist.gov/vuln/detail/CVE-2021-36689"
+      ]
+    },
+    {
+      "path": "sources/web/oxt-follow-up.md",
+      "sha256": "510ebc9746f54185706bf7f9b65bee1477e62902b2c17ef93ca6e986e2b5c3ba",
+      "bytes": 11787,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://medium.com/oxt-research/an-update-on-the-disclosed-vulnerabilities-in-wasabi-wallet-4ac0e228acb9"
+      ]
+    },
+    {
+      "path": "sources/web/pin-bypass-disclosure.html",
+      "sha256": "c74920f87a3023ded381d2ddfdd055cf5c981c7c7593a0fcc940c59a5e63ac69",
+      "bytes": 57276,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://vrls.ws/posts/2021/08/samourai-wallet-bitcoin-pin-authentication-bypass-crypto/"
+      ]
+    },
+    {
+      "path": "sources/web/ronindojo-sentinel-v5.html",
+      "sha256": "19afa194b70173ae4acd04e2982264c6c2b5089c0d1bac68cf392883cecf6872",
+      "bytes": 35143,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://blog.ronindojo.io/discover-version-5-0-0-of-sentinel/"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-atomic-swaps-toxic-change.md",
+      "sha256": "8bcd66d6f130cd515471aa595878abd303555642a5b089520d5b220e6f89fcb1",
+      "bytes": 7729,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://medium.com/@SamouraiWallet/statement-regarding-atomic-swaps-and-twitter-mobs-7a3430f0253a"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-dojo-1.0-release-2019-wayback.html",
+      "sha256": "249a5fbaad1453d6638a7125fd6aad5878c276032e5e36fc6da438ab7e28589c",
+      "bytes": 43372,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20190603170409id_/https://blog.samouraiwallet.com/post/185312260292/introducing-samourai-dojo-10-open-source-and"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-open-source-ccn.md",
+      "sha256": "9281b8ec8a3bdfc63565795b5351254eadb8903a4e68062d068f7dc70054a111",
+      "bytes": 5657,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://www.ccn.com/samourai-bitcoin-wallet-goes-open-source/"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-oxt-acquisition-2017-wayback.html",
+      "sha256": "95e868049eb1976d2e6c349a59251327ec8c088e0937665552ab5309c6f380b3",
+      "bytes": 32661,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20171224034645id_/http://blog.samouraiwallet.com:80/post/168785913782/samourai-oxt"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-tor-donation.md",
+      "sha256": "1f9b8867a4c45c269910101095890371d78719f7730a9f75cb5360e46121cbd0",
+      "bytes": 2652,
+      "media_type": "text/markdown",
+      "source_urls": [
+        "https://medium.com/samourai-wallet/supporting-the-tor-network-with-a-50-000-donation-to-the-tor-project-98cb8896e652"
+      ]
+    },
+    {
+      "path": "sources/web/samourai-wallet-0.99.81-dojo-pairing-wayback.html",
+      "sha256": "297ec0520427fd895ff99dad2ef9a358532ab4f57401f889e53a6525e952de13",
+      "bytes": 34611,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://web.archive.org/web/20201107225518id_/https://blog.samouraiwallet.com/post/186208584657/introducing-09981-enter-the-dojo"
+      ]
+    },
+    {
+      "path": "sources/web/samouraileaks-part-1.html",
+      "sha256": "191445c4f59d9d7e6364e607083acbb5f302e14c0fd49ab4935d4969abaa24ed",
+      "bytes": 368009,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-samouraidevs-sockpuppet-exposed-7ce654b92c0b"
+      ]
+    },
+    {
+      "path": "sources/web/samouraileaks-part-2.html",
+      "sha256": "c24d55d82f9a5cd375ec0de430d4af461dc2300ad8ac098fd11144ed9373d328",
+      "bytes": 133347,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-part-2-harassment-of-bitcoin-developers-fae3019abd2f"
+      ]
+    },
+    {
+      "path": "sources/web/samouraileaks-part-3.html",
+      "sha256": "a0d9463cbe9090b4361f4832db6a83b1e9e14592c1a9c2ab6a3417c5f5eaac42",
+      "bytes": 239126,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://nopara73.medium.com/samouraileaks-part-3-is-random-org-random-enough-35704796ae93"
+      ]
+    },
+    {
+      "path": "sources/web/stephan-livera-150-samourai-address-reuse.html",
+      "sha256": "7d726543729b0c26c504a8d97950501ee44c422f862e10b4366f40a5cb26df75",
+      "bytes": 203822,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://stephanlivera.com/episode/150/"
+      ]
+    },
+    {
+      "path": "sources/web/walletscrutiny-samourai.html",
+      "sha256": "cb6fc470e49413d008d97fc84dcf4dead304f50564117f632331cc7bd4ec5580",
+      "bytes": 129608,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://walletscrutiny.com/mobile/com.samourai.wallet/"
+      ]
+    },
+    {
+      "path": "sources/web/wasabi-faq-introduction.html",
+      "sha256": "15ced10bf2ec0e879ec1394b6eec74295282293528d9910efe9a938dfd392edb",
+      "bytes": 35224,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://docs.wasabiwallet.io/FAQ/FAQ-Introduction.html"
+      ]
+    },
+    {
+      "path": "sources/web/wasabi-network-level-privacy.html",
+      "sha256": "d2eaf92fe7184945a9deabe31d9febff1b79cc49ce2b67d6cb934061ddb2eb12",
+      "bytes": 29288,
+      "media_type": "text/html",
+      "source_urls": [
+        "https://docs.wasabiwallet.io/why-wasabi/NetworkLevelPrivacy.html"
+      ]
+    }
+  ]
+}

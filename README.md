@@ -4,11 +4,16 @@ This repository contains my first-person account of the conflict between Samoura
 
 ## Read this first
 
-- [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the complete essay with citations and evidence placed beside the events it documents.
-- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, 38-page edition.
+- [**Canonical HTML edition**](https://nopara73.github.io/ScamouraiWallet/) — the complete, crawlable article with publication metadata and stable section links.
+- [**Post-Mortem: What Happened Between Samourai Wallet and Me**](POST_MORTEM.md) — the authoritative Markdown source with citations and evidence placed beside the events it documents.
+- [**Illustrated PDF edition**](output/pdf/POST_MORTEM.pdf) — the publication-ready, tagged A4 edition.
+- [**Machine-readable claims index**](CLAIMS.jsonl) — 35 central propositions with source anchors, confidence, caveats, and essay sections.
+- [**Timeline and identity map**](TIMELINE.md) — dated events paired with [explicit alias evidence and uncertainty](ENTITY_ALIASES.json).
 - [**Source archive guide**](sources/README.md) — what was preserved, how it is organized, and the archive's boundaries.
 - [**Complete citation inventory**](sources/URLS.md) — 134 external URLs and preserved public-post permalinks, with local copies identified where available.
 - [**SHA-256 manifest**](sources/SHA256SUMS) — integrity hashes for 285 archived files.
+- [**Evidence manifest**](EVIDENCE_MANIFEST.json) — the source hashes joined to byte sizes, media types, original URLs, and the evidence snapshot commit.
+- [**Citation metadata**](CITATION.cff) — the preferred report citation exposed through GitHub's “Cite this repository” interface.
 
 The archive includes 33 evidence and publication images, four court filings, four research papers, exact-commit code snapshots and patches, a complete ZeroLink Git bundle, public and private-message records, saved web pages, 33 Research Club transcripts with raw captions and metadata, and metadata for four additional cited recordings.
 
@@ -113,6 +118,17 @@ The descriptions below are deliberately short. They identify the issue shown by 
 | --- | --- |
 | [`POST_MORTEM.md`](POST_MORTEM.md) | Complete essay, citations, and inline exhibits |
 | [`output/pdf/`](output/pdf/) | Publication-ready PDF |
+| [`docs/`](docs/) | Deterministic canonical HTML edition, JSON-LD metadata, sitemap, and robots file |
+| [`CLAIMS.jsonl`](CLAIMS.jsonl) | Claim-level retrieval index with evidence, confidence, and caveats |
+| [`TIMELINE.md`](TIMELINE.md) | Chronology distinguishing records, recollection, allegations, pleas, and findings |
+| [`ENTITY_ALIASES.json`](ENTITY_ALIASES.json) | Identity and account mappings with evidence basis and uncertainty |
+| [`EVIDENCE_MANIFEST.json`](EVIDENCE_MANIFEST.json) | Machine-readable hashes, sizes, media types, and source URLs for all archived evidence |
+| [`METHODOLOGY.md`](METHODOLOGY.md) | Evidence categories, indexing rules, confidence scale, and archive boundaries |
+| [`CORRECTIONS.md`](CORRECTIONS.md) | Visible, version-aware correction ledger |
+| [`CITATION.cff`](CITATION.cff) | Citation File Format metadata and preferred report citation |
+| [`.zenodo.json`](.zenodo.json) | Zenodo report-deposit metadata, ready for a real DOI to be assigned |
+| [`RELEASE.md`](RELEASE.md) | Annotated-tag, release, DOI, timestamp, and preservation procedure |
+| [`timestamps/`](timestamps/) | Core-file SHA-256 manifest and submitted OpenTimestamps proof |
 | [`sources/legal/`](sources/legal/) | Court filings and the FinCEN-disclosure defense letter |
 | [`sources/research/`](sources/research/) | OXT report, thesis, and independent CoinJoin studies |
 | [`sources/code/`](sources/code/) | Git bundle, exact-commit archives, patches, lineage audit, and cited source |
@@ -136,6 +152,14 @@ The complete ZeroLink history can be inspected without relying on the live GitHu
 
 ```sh
 git clone sources/code/zerolink-full-history.bundle ZeroLink
+```
+
+Verify the joined evidence manifest and the committed canonical edition:
+
+```sh
+python tools/build_evidence_manifest.py --check
+python tools/build_site.py --check
+python tools/build_timestamp_manifest.py --check
 ```
 
 ## Boundaries
