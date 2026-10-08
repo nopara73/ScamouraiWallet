@@ -52,7 +52,7 @@ SUBTITLE: Final = (
     "How a wallet that adopted my privacy framework turned technical disagreement "
     "into a reputational war—and what I got wrong too"
 )
-AUTHOR_URL: Final = f"https://github.com/{OWNER}"
+AUTHOR_URL: Final = "https://adamficsor.com/"
 
 
 def fail(message: str) -> NoReturn:
