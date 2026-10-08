@@ -1,5 +1,7 @@
 # Scamourai Wallet
 
+By [Ádám Ficsór (nopara73)](https://adamficsor.com/work.html).
+
 This repository contains my first-person account of the conflict between Samourai Wallet and me, together with the primary records needed to check it. The archive is organized so readers do not have to trust my memory, a surviving website, or a social-media screenshot in isolation.
 
 ## Read this first
